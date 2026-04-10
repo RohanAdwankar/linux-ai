@@ -22,6 +22,7 @@ const STACK_COLORS = {
   gemini: ["#202020", "#4e5a63", "#788793", "#a1b1bd", "#cad4db"],
   other: ["#2d2d2d", "#686861", "#9b9b94", "#c8c8c0"],
 };
+const PAGE_SIZE = 5;
 
 function formatNumber(value) {
   return new Intl.NumberFormat("en-US").format(value || 0);
@@ -223,14 +224,44 @@ function renderStats(summary, commits) {
     .join("");
 }
 
-function renderSubsystems(node, items, activeFilter, onSelect) {
+function pageCount(items) {
+  return Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+}
+
+function pagedItems(items, page) {
+  const safePage = Math.max(0, Math.min(page, pageCount(items) - 1));
+  return items.slice(safePage * PAGE_SIZE, safePage * PAGE_SIZE + PAGE_SIZE);
+}
+
+function renderPager(items, page, key) {
+  if (items.length <= PAGE_SIZE) return "";
+  const totalPages = pageCount(items);
+  return `
+    <div class="pager" data-pager="${escapeHtml(key)}">
+      ${Array.from({ length: totalPages }, (_, index) => `
+        <button class="pager-button ${index === page ? "active" : ""}" data-pager="${escapeHtml(key)}" data-page="${index + 1}">
+          ${index + 1}
+        </button>
+      `).join("")}
+    </div>
+  `;
+}
+
+function bindPager(node, key, onPageChange) {
+  for (const button of node.querySelectorAll(`[data-pager='${key}'][data-page]`)) {
+    button.addEventListener("click", () => {
+      onPageChange(Number(button.dataset.page) - 1);
+    });
+  }
+}
+
+function renderSubsystems(node, items, activeFilter, page, onSelect, onPageChange) {
   if (!items.length) {
     node.innerHTML = `<div class="status">no subsystem data for this window.</div>`;
     return;
   }
   const maxCount = items[0].count || 1;
-  node.innerHTML = items
-    .slice(0, 12)
+  node.innerHTML = pagedItems(items, page)
     .map(
       (item) => `
         <button class="row row-button ${activeFilter?.type === "subsystem" && activeFilter.value === item.name ? "is-selected" : ""}" data-filter-type="subsystem" data-filter-value="${escapeHtml(item.name)}">
@@ -243,23 +274,22 @@ function renderSubsystems(node, items, activeFilter, onSelect) {
         </button>
       `,
     )
-    .join("");
+    .join("") + renderPager(items, page, "subsystems");
 
   for (const button of node.querySelectorAll("[data-filter-type='subsystem']")) {
     button.addEventListener("click", () => {
       onSelect({ type: "subsystem", value: button.dataset.filterValue });
     });
   }
+  bindPager(node, "subsystems", onPageChange);
 }
 
-function renderAssistantFamilies(node, families, activeFilter, onSelect) {
+function renderAssistantFamilies(node, families, activeFilter, page, onSelect, onPageChange) {
   if (!families.length) {
     node.innerHTML = `<div class="status">no assistant identities found for this window.</div>`;
     return;
   }
-  const maxCount = families[0].count || 1;
-  node.innerHTML = families
-    .slice(0, 12)
+  node.innerHTML = pagedItems(families, page)
     .map((family) => {
       const palette = assistantPalette(family.name);
       const detail = joinedVariantSummary(family.variants);
@@ -294,7 +324,7 @@ function renderAssistantFamilies(node, families, activeFilter, onSelect) {
         </div>
       `;
     })
-    .join("");
+    .join("") + renderPager(families, page, "assistants");
 
   for (const button of node.querySelectorAll("[data-filter-type='assistant-family']")) {
     button.addEventListener("click", () => {
@@ -322,6 +352,7 @@ function renderAssistantFamilies(node, families, activeFilter, onSelect) {
       onSelect({ type: "assistant-identity", value: segment.dataset.filterValue });
     });
   }
+  bindPager(node, "assistants", onPageChange);
 }
 
 function renderTimeline(buckets) {
@@ -431,7 +462,7 @@ function renderCommits(commits, filter, onClear, onSelect) {
   }
 }
 
-function render(data, currentWindow, activeFilter, setFilter) {
+function render(data, currentWindow, activeFilter, pages, setFilter, setPage) {
   const commits = windowedCommits(data.commits, currentWindow);
   const summary = summarize(commits);
   const matchingCommits = filteredCommits(commits, activeFilter);
@@ -442,14 +473,28 @@ function render(data, currentWindow, activeFilter, setFilter) {
     : "most recent 18 monthly buckets.";
 
   renderStats(summary, data.commits);
-  renderSubsystems(subsystemNode, summary.subsystems, activeFilter, (nextFilter) => {
-    setFilter(nextFilter);
-    commitsNode.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
-  renderAssistantFamilies(agentNode, summary.assistantFamilies, activeFilter, (nextFilter) => {
-    setFilter(nextFilter);
-    commitsNode.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
+  renderSubsystems(
+    subsystemNode,
+    summary.subsystems,
+    activeFilter,
+    Math.min(pages.subsystems, pageCount(summary.subsystems) - 1),
+    (nextFilter) => {
+      setFilter(nextFilter);
+      commitsNode.scrollIntoView({ behavior: "smooth", block: "start" });
+    },
+    (nextPage) => setPage("subsystems", nextPage),
+  );
+  renderAssistantFamilies(
+    agentNode,
+    summary.assistantFamilies,
+    activeFilter,
+    Math.min(pages.assistants, pageCount(summary.assistantFamilies) - 1),
+    (nextFilter) => {
+      setFilter(nextFilter);
+      commitsNode.scrollIntoView({ behavior: "smooth", block: "start" });
+    },
+    (nextPage) => setPage("assistants", nextPage),
+  );
   renderTimeline(buildTimeline(commits, currentWindow));
   renderCommits(
     matchingCommits,
@@ -467,6 +512,7 @@ async function init() {
   const data = await response.json();
   let currentWindow = WINDOWS[1];
   let activeFilter = null;
+  let pages = { subsystems: 0, assistants: 0 };
 
   const rerender = () => {
     windowBar.innerHTML = "";
@@ -477,18 +523,29 @@ async function init() {
       button.addEventListener("click", () => {
         currentWindow = option;
         activeFilter = null;
+        pages = { subsystems: 0, assistants: 0 };
         rerender();
       });
       windowBar.appendChild(button);
     }
 
-    render(data, currentWindow, activeFilter, (nextFilter) => {
-      activeFilter =
-        activeFilter && nextFilter && activeFilter.type === nextFilter.type && activeFilter.value === nextFilter.value
-          ? null
-          : nextFilter;
-      rerender();
-    });
+    render(
+      data,
+      currentWindow,
+      activeFilter,
+      pages,
+      (nextFilter) => {
+        activeFilter =
+          activeFilter && nextFilter && activeFilter.type === nextFilter.type && activeFilter.value === nextFilter.value
+            ? null
+            : nextFilter;
+        rerender();
+      },
+      (key, nextPage) => {
+        pages = { ...pages, [key]: nextPage };
+        rerender();
+      },
+    );
   };
 
   rerender();
