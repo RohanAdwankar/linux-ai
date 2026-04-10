@@ -383,7 +383,7 @@ function filterCopy(filter) {
   };
 }
 
-function renderCommits(commits, filter, onClear) {
+function renderCommits(commits, filter, onClear, onSelect) {
   const copy = filterCopy(filter);
   commitsTitleNode.textContent = copy.title;
   commitsSubtitleNode.textContent = copy.subtitle;
@@ -399,22 +399,36 @@ function renderCommits(commits, filter, onClear) {
     .slice(0, 24)
     .map((commit) => {
       const tags = [
-        commit.subsystem,
+        { type: "subsystem", value: commit.subsystem, label: commit.subsystem },
         ...(commit.assistedBy || []).map((agent) => agent.identity),
-      ];
+      ].map((item) =>
+        typeof item === "string" ? { type: "assistant-identity", value: item, label: item } : item,
+      );
       return `
         <article class="commit">
           <div>
             <a class="commit-title" href="${escapeHtml(commit.htmlUrl)}" target="_blank" rel="noreferrer">${escapeHtml(commit.subject)}</a>
-            <div class="commit-meta">${escapeHtml(commit.authorName)} committed ${escapeHtml(commit.sha.slice(0, 12))}</div>
+            <div class="commit-meta">${escapeHtml(commit.authorName)} committed ${escapeHtml(commit.sha.slice(0, 12))} on ${escapeHtml(formatDate(commit.authoredAt))}</div>
           </div>
           <div class="commit-tags">
-            ${tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
+            ${tags
+              .map(
+                (tag) => `
+                  <button class="tag ${filter?.type === tag.type && filter.value === tag.value ? "is-selected" : ""}" data-filter-type="${escapeHtml(tag.type)}" data-filter-value="${escapeHtml(tag.value)}">${escapeHtml(tag.label)}</button>
+                `,
+              )
+              .join("")}
           </div>
         </article>
       `;
     })
     .join("");
+
+  for (const button of commitsNode.querySelectorAll("[data-filter-type]")) {
+    button.addEventListener("click", () => {
+      onSelect({ type: button.dataset.filterType, value: button.dataset.filterValue });
+    });
+  }
 }
 
 function render(data, currentWindow, activeFilter, setFilter) {
@@ -437,7 +451,12 @@ function render(data, currentWindow, activeFilter, setFilter) {
     commitsNode.scrollIntoView({ behavior: "smooth", block: "start" });
   });
   renderTimeline(buildTimeline(commits, currentWindow));
-  renderCommits(matchingCommits, activeFilter, () => setFilter(null));
+  renderCommits(
+    matchingCommits,
+    activeFilter,
+    () => setFilter(null),
+    (nextFilter) => setFilter(nextFilter),
+  );
 }
 
 async function init() {
