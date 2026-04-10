@@ -6,13 +6,22 @@ const timelineNode = document.getElementById("timeline");
 const commitsNode = document.getElementById("commits");
 const generatedAtNode = document.getElementById("generated-at");
 const timelineLabelNode = document.getElementById("timeline-label");
+const commitsTitleNode = document.getElementById("commits-title");
+const commitsSubtitleNode = document.getElementById("commits-subtitle");
+const clearFilterButton = document.getElementById("clear-filter");
 
 const WINDOWS = [
-  { key: "30d", label: "30D", days: 30 },
-  { key: "90d", label: "90D", days: 90 },
-  { key: "365d", label: "1Y", days: 365 },
-  { key: "all", label: "All", days: null },
+  { key: "30d", label: "30d", days: 30 },
+  { key: "90d", label: "90d", days: 90 },
+  { key: "365d", label: "1y", days: 365 },
+  { key: "all", label: "all", days: null },
 ];
+
+const STACK_COLORS = {
+  claude: ["#1f1f1f", "#5a5a55", "#8c8c84", "#b8b8af", "#d9d9d0"],
+  gemini: ["#202020", "#4e5a63", "#788793", "#a1b1bd", "#cad4db"],
+  other: ["#2d2d2d", "#686861", "#9b9b94", "#c8c8c0"],
+};
 
 function formatNumber(value) {
   return new Intl.NumberFormat("en-US").format(value || 0);
@@ -58,9 +67,20 @@ function windowedCommits(commits, windowOption) {
   return commits.filter((commit) => new Date(commit.authoredAt).getTime() >= cutoff);
 }
 
+function assistantFamilyName(identity) {
+  const lower = String(identity || "").toLowerCase();
+  if (lower.includes("claude")) return "claude";
+  if (lower.includes("gemini")) return "gemini";
+  return String(identity || "").split(":")[0].toLowerCase();
+}
+
+function assistantPalette(family) {
+  return STACK_COLORS[family] || STACK_COLORS.other;
+}
+
 function summarize(commits) {
   const subsystemMap = new Map();
-  const agentMap = new Map();
+  const familyMap = new Map();
   const authorSet = new Set();
 
   for (const commit of commits) {
@@ -80,14 +100,23 @@ function summarize(commits) {
     subsystemMap.set(commit.subsystem, subsystem);
 
     for (const agent of commit.assistedBy || []) {
-      const entry = agentMap.get(agent.identity) || {
+      const familyName = assistantFamilyName(agent.identity);
+      const family = familyMap.get(familyName) || {
+        name: familyName,
+        count: 0,
+        variants: new Map(),
+      };
+      family.count += 1;
+
+      const variant = family.variants.get(agent.identity) || {
         identity: agent.identity,
-        name: agent.agent,
+        agent: agent.agent,
         model: agent.model,
         count: 0,
       };
-      entry.count += 1;
-      agentMap.set(agent.identity, entry);
+      variant.count += 1;
+      family.variants.set(agent.identity, variant);
+      familyMap.set(familyName, family);
     }
   }
 
@@ -95,9 +124,14 @@ function summarize(commits) {
     totalCommits: commits.length,
     totalSubsystems: subsystemMap.size,
     totalAuthors: authorSet.size,
-    totalAgents: agentMap.size,
+    totalAssistantFamilies: familyMap.size,
     subsystems: [...subsystemMap.values()].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name)),
-    agents: [...agentMap.values()].sort((a, b) => b.count - a.count || a.identity.localeCompare(b.identity)),
+    assistantFamilies: [...familyMap.values()]
+      .map((family) => ({
+        ...family,
+        variants: [...family.variants.values()].sort((a, b) => b.count - a.count || a.identity.localeCompare(b.identity)),
+      }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name)),
   };
 }
 
@@ -133,28 +167,28 @@ function renderStats(summary, commits) {
   const latest = commits[0];
   const recent30 = summarize(windowedCommits(commits, WINDOWS[0])).totalCommits;
   const topSubsystem = summary.subsystems[0];
-  const topAgent = summary.agents[0];
+  const topAssistant = summary.assistantFamilies[0];
 
   statsNode.innerHTML = [
     {
-      label: "Assisted commits",
+      label: "assisted commits",
       value: formatNumber(summary.totalCommits),
-      note: latest ? `Latest on ${formatDate(latest.authoredAt)}` : "No commits found",
+      note: latest ? `latest on ${formatDate(latest.authoredAt)}` : "no commits found",
     },
     {
-      label: "Last 30 days",
+      label: "last 30 days",
       value: formatNumber(recent30),
-      note: "Rolling activity window",
+      note: "rolling activity window",
     },
     {
-      label: "Subsystems",
+      label: "subsystems",
       value: formatNumber(summary.totalSubsystems),
-      note: topSubsystem ? `Leader: ${topSubsystem.name}` : "No subsystem data",
+      note: topSubsystem ? `leader: ${topSubsystem.name}` : "no subsystem data",
     },
     {
-      label: "Assistant identities",
-      value: formatNumber(summary.totalAgents),
-      note: topAgent ? `Most used: ${topAgent.identity}` : "No assistant data",
+      label: "assistant families",
+      value: formatNumber(summary.totalAssistantFamilies),
+      note: topAssistant ? `most used: ${topAssistant.name}` : "no assistant data",
     },
   ]
     .map(
@@ -169,9 +203,9 @@ function renderStats(summary, commits) {
     .join("");
 }
 
-function renderRankedList(node, items, emptyCopy, metaBuilder) {
+function renderSubsystems(node, items, activeFilter, onSelect) {
   if (!items.length) {
-    node.innerHTML = `<div class="status">${escapeHtml(emptyCopy)}</div>`;
+    node.innerHTML = `<div class="status">no subsystem data for this window.</div>`;
     return;
   }
   const maxCount = items[0].count || 1;
@@ -179,22 +213,100 @@ function renderRankedList(node, items, emptyCopy, metaBuilder) {
     .slice(0, 12)
     .map(
       (item) => `
-        <div class="row">
+        <button class="row row-button ${activeFilter?.type === "subsystem" && activeFilter.value === item.name ? "is-selected" : ""}" data-filter-type="subsystem" data-filter-value="${escapeHtml(item.name)}">
           <div class="row-copy">
-            <div class="row-title">${escapeHtml(item.name || item.identity)}</div>
-            <div class="row-meta">${escapeHtml(metaBuilder(item))}</div>
+            <div class="row-title">${escapeHtml(item.name)}</div>
+            <div class="row-meta">${escapeHtml(`${item.authors.size} authors • latest ${formatDate(item.latestAt)}`)}</div>
             <div class="row-line"><div class="row-fill" style="width:${Math.max(6, (item.count / maxCount) * 100)}%"></div></div>
           </div>
           <div class="row-value">${formatNumber(item.count)}</div>
-        </div>
+        </button>
       `,
     )
     .join("");
+
+  for (const button of node.querySelectorAll("[data-filter-type='subsystem']")) {
+    button.addEventListener("click", () => {
+      onSelect({ type: "subsystem", value: button.dataset.filterValue });
+    });
+  }
+}
+
+function renderAssistantFamilies(node, families, activeFilter, onSelect) {
+  if (!families.length) {
+    node.innerHTML = `<div class="status">no assistant identities found for this window.</div>`;
+    return;
+  }
+  const maxCount = families[0].count || 1;
+  node.innerHTML = families
+    .slice(0, 12)
+    .map((family) => {
+      const palette = assistantPalette(family.name);
+      const detail = family.variants[0];
+      return `
+        <div class="stack-card ${activeFilter?.type === "assistant-family" && activeFilter.value === family.name ? "is-selected" : ""}">
+          <button class="stack-head" data-filter-type="assistant-family" data-filter-value="${escapeHtml(family.name)}">
+            <span class="row-title">${escapeHtml(family.name)}</span>
+            <span class="row-value">${formatNumber(family.count)}</span>
+          </button>
+          <div class="row-meta stack-summary">${escapeHtml(`${family.variants.length} variants clustered together`)}</div>
+          <div class="stack-bar" role="img" aria-label="${escapeHtml(`${family.name} usage stack`)}">
+            ${family.variants
+              .map((variant, index) => {
+                const width = (variant.count / family.count) * 100;
+                const color = palette[index % palette.length];
+                const selected =
+                  activeFilter?.type === "assistant-identity" && activeFilter.value === variant.identity ? "is-selected" : "";
+                return `
+                  <button
+                    class="stack-segment ${selected}"
+                    style="width:${width}%; background:${color}"
+                    data-filter-type="assistant-identity"
+                    data-filter-value="${escapeHtml(variant.identity)}"
+                    data-detail="${escapeHtml(`${variant.identity} • ${variant.count} commits`)}"
+                    title="${escapeHtml(`${variant.identity} • ${variant.count} commits`)}"
+                  ></button>
+                `;
+              })
+              .join("")}
+          </div>
+          <div class="stack-detail">${escapeHtml(`${detail.identity} • ${detail.count} commits`)}</div>
+        </div>
+      `;
+    })
+    .join("");
+
+  for (const button of node.querySelectorAll("[data-filter-type='assistant-family']")) {
+    button.addEventListener("click", () => {
+      onSelect({ type: "assistant-family", value: button.dataset.filterValue });
+    });
+  }
+
+  for (const segment of node.querySelectorAll("[data-filter-type='assistant-identity']")) {
+    const card = segment.closest(".stack-card");
+    const detail = card.querySelector(".stack-detail");
+    const fallbackText = detail.textContent;
+    segment.addEventListener("mouseenter", () => {
+      detail.textContent = segment.dataset.detail;
+    });
+    segment.addEventListener("mouseleave", () => {
+      detail.textContent = fallbackText;
+    });
+    segment.addEventListener("focus", () => {
+      detail.textContent = segment.dataset.detail;
+    });
+    segment.addEventListener("blur", () => {
+      detail.textContent = fallbackText;
+    });
+    segment.addEventListener("click", () => {
+      onSelect({ type: "assistant-identity", value: segment.dataset.filterValue });
+    });
+  }
 }
 
 function renderTimeline(buckets) {
   if (!buckets.length) {
-    timelineNode.innerHTML = `<div class="status">No timeline available for this window.</div>`;
+    timelineNode.innerHTML = `<div class="status">no timeline available for this window.</div>`;
     return;
   }
   const maxCount = Math.max(...buckets.map((bucket) => bucket.count), 1);
@@ -212,13 +324,59 @@ function renderTimeline(buckets) {
     .join("");
 }
 
-function renderCommits(commits) {
+function filteredCommits(commits, filter) {
+  if (!filter) return commits;
+  if (filter.type === "subsystem") {
+    return commits.filter((commit) => commit.subsystem === filter.value);
+  }
+  if (filter.type === "assistant-family") {
+    return commits.filter((commit) => (commit.assistedBy || []).some((agent) => assistantFamilyName(agent.identity) === filter.value));
+  }
+  if (filter.type === "assistant-identity") {
+    return commits.filter((commit) => (commit.assistedBy || []).some((agent) => agent.identity === filter.value));
+  }
+  return commits;
+}
+
+function filterCopy(filter) {
+  if (!filter) {
+    return {
+      title: "recent assisted commits",
+      subtitle: "latest Linux kernel commits with explicit ai attribution.",
+    };
+  }
+  if (filter.type === "subsystem") {
+    return {
+      title: `commits for subsystem: ${filter.value}`,
+      subtitle: "filtered from the current window selection.",
+    };
+  }
+  if (filter.type === "assistant-family") {
+    return {
+      title: `commits for assistant family: ${filter.value}`,
+      subtitle: "all identities containing that family name.",
+    };
+  }
+  return {
+    title: `commits for assistant identity: ${filter.value}`,
+    subtitle: "filtered to the exact assisted-by string.",
+  };
+}
+
+function renderCommits(commits, filter, onClear) {
+  const copy = filterCopy(filter);
+  commitsTitleNode.textContent = copy.title;
+  commitsSubtitleNode.textContent = copy.subtitle;
+  clearFilterButton.hidden = !filter;
+  clearFilterButton.onclick = onClear;
+
   if (!commits.length) {
-    commitsNode.innerHTML = `<div class="status">No commits found in this window.</div>`;
+    commitsNode.innerHTML = `<div class="status">no commits found for this filter.</div>`;
     return;
   }
+
   commitsNode.innerHTML = commits
-    .slice(0, 18)
+    .slice(0, 24)
     .map((commit) => {
       const tags = [
         commit.subsystem,
@@ -240,30 +398,27 @@ function renderCommits(commits) {
     .join("");
 }
 
-function render(data, currentWindow) {
+function render(data, currentWindow, activeFilter, setFilter) {
   const commits = windowedCommits(data.commits, currentWindow);
   const summary = summarize(commits);
+  const matchingCommits = filteredCommits(commits, activeFilter);
 
-  generatedAtNode.textContent = `Snapshot updated ${new Date(data.generatedAt).toLocaleString()}.`;
+  generatedAtNode.textContent = `snapshot updated ${new Date(data.generatedAt).toLocaleString()}.`;
   timelineLabelNode.textContent = currentWindow.days
-    ? `Recent history across the last ${currentWindow.days} days.`
-    : "Most recent 18 monthly buckets.";
+    ? `recent history across the last ${currentWindow.days} days.`
+    : "most recent 18 monthly buckets.";
 
   renderStats(summary, data.commits);
-  renderRankedList(
-    subsystemNode,
-    summary.subsystems,
-    "No subsystem data for this window.",
-    (item) => `${item.authors.size} authors • latest ${formatDate(item.latestAt)}`,
-  );
-  renderRankedList(
-    agentNode,
-    summary.agents,
-    "No assistant identities found for this window.",
-    (item) => (item.model ? `${item.name} • ${item.model}` : item.name),
-  );
+  renderSubsystems(subsystemNode, summary.subsystems, activeFilter, (nextFilter) => {
+    setFilter(nextFilter);
+    commitsNode.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  renderAssistantFamilies(agentNode, summary.assistantFamilies, activeFilter, (nextFilter) => {
+    setFilter(nextFilter);
+    commitsNode.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
   renderTimeline(buildTimeline(commits, currentWindow));
-  renderCommits(commits);
+  renderCommits(matchingCommits, activeFilter, () => setFilter(null));
 }
 
 async function init() {
@@ -273,6 +428,7 @@ async function init() {
   }
   const data = await response.json();
   let currentWindow = WINDOWS[1];
+  let activeFilter = null;
 
   const rerender = () => {
     windowBar.innerHTML = "";
@@ -282,21 +438,29 @@ async function init() {
       if (option.key === currentWindow.key) button.classList.add("active");
       button.addEventListener("click", () => {
         currentWindow = option;
+        activeFilter = null;
         rerender();
       });
       windowBar.appendChild(button);
     }
-    render(data, currentWindow);
+
+    render(data, currentWindow, activeFilter, (nextFilter) => {
+      activeFilter =
+        activeFilter && nextFilter && activeFilter.type === nextFilter.type && activeFilter.value === nextFilter.value
+          ? null
+          : nextFilter;
+      rerender();
+    });
   };
 
   rerender();
 }
 
 init().catch(() => {
-  generatedAtNode.textContent = "No snapshot available.";
-  statsNode.innerHTML = `<div class="status">Unable to load adoption data.</div>`;
-  subsystemNode.innerHTML = `<div class="status">Unable to load adoption data.</div>`;
-  agentNode.innerHTML = `<div class="status">Unable to load adoption data.</div>`;
-  timelineNode.innerHTML = `<div class="status">Unable to load adoption data.</div>`;
-  commitsNode.innerHTML = `<div class="status">Unable to load adoption data.</div>`;
+  generatedAtNode.textContent = "no snapshot available.";
+  statsNode.innerHTML = `<div class="status">unable to load adoption data.</div>`;
+  subsystemNode.innerHTML = `<div class="status">unable to load adoption data.</div>`;
+  agentNode.innerHTML = `<div class="status">unable to load adoption data.</div>`;
+  timelineNode.innerHTML = `<div class="status">unable to load adoption data.</div>`;
+  commitsNode.innerHTML = `<div class="status">unable to load adoption data.</div>`;
 });

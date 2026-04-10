@@ -52,6 +52,7 @@ code {
 .panel {
   background: var(--panel);
   border: 1px solid var(--line);
+  padding: 16px;
 }
 
 .masthead,
@@ -72,8 +73,7 @@ code {
 .eyebrow {
   margin: 0 0 6px;
   font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  letter-spacing: 0.08em;
   color: var(--muted);
 }
 
@@ -92,6 +92,7 @@ h1 {
 h2 {
   font-size: 18px;
   letter-spacing: -0.03em;
+  text-transform: lowercase;
 }
 
 .masthead-meta {
@@ -139,7 +140,8 @@ button {
   cursor: pointer;
 }
 
-button.active {
+button.active,
+button.is-selected {
   background: var(--accent);
   color: #f7f7f2;
 }
@@ -158,9 +160,8 @@ button.active {
 }
 
 .stat-label {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
+  font-size: 12px;
+  letter-spacing: 0.03em;
   color: var(--muted);
 }
 
@@ -184,10 +185,6 @@ button.active {
   gap: 12px;
 }
 
-.panel {
-  padding: 16px;
-}
-
 .panel-wide {
   grid-column: 1 / -1;
 }
@@ -204,6 +201,12 @@ button.active {
   font-size: 12px;
   color: var(--muted);
   text-align: right;
+}
+
+.panel-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .status {
@@ -223,11 +226,18 @@ button.active {
   align-items: center;
 }
 
+.row-button {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+
 .row-copy {
   min-width: 0;
 }
 
-.row-line {
+.row-line,
+.stack-bar {
   height: 14px;
   background: var(--soft);
   border: 1px solid rgba(17, 17, 17, 0.14);
@@ -247,7 +257,8 @@ button.active {
 }
 
 .row-meta,
-.commit-meta {
+.commit-meta,
+.stack-detail {
   margin-top: 3px;
   font-size: 12px;
   color: var(--muted);
@@ -257,6 +268,49 @@ button.active {
   font-size: 18px;
   text-align: right;
   letter-spacing: -0.04em;
+}
+
+.stack-card {
+  border: 1px solid rgba(17, 17, 17, 0.14);
+  padding: 10px;
+}
+
+.stack-card.is-selected {
+  border-color: var(--line);
+}
+
+.stack-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.stack-summary {
+  margin-top: 4px;
+}
+
+.stack-bar {
+  display: flex;
+  overflow: hidden;
+}
+
+.stack-segment {
+  border: 0;
+  padding: 0;
+  min-width: 8px;
+  height: 100%;
+}
+
+.stack-segment:hover,
+.stack-segment:focus,
+.stack-segment.is-selected {
+  outline: 1px solid var(--line);
+  outline-offset: -1px;
 }
 
 .timeline {
@@ -326,8 +380,7 @@ button.active {
   border: 1px solid var(--line);
   padding: 4px 6px;
   font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.03em;
   white-space: nowrap;
 }
 
@@ -348,6 +401,15 @@ button.active {
   .panel-head p {
     margin-top: 10px;
     text-align: left;
+  }
+
+  .panel-actions {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .panel-actions button {
+    margin-top: 8px;
   }
 
   .stats,

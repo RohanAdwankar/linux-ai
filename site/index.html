@@ -11,7 +11,7 @@
       <header class="panel masthead">
         <div>
           <p class="eyebrow">linux kernel</p>
-          <h1>Linux AI Watch</h1>
+          <h1>linux ai watch</h1>
         </div>
         <div class="masthead-meta">
           <p id="generated-at">Loading snapshot…</p>
@@ -32,8 +32,8 @@
       <section class="dashboard">
         <section class="panel">
           <div class="panel-head">
-            <h2>Subsystem Adoption</h2>
-            <p>Where attributed commits are landing.</p>
+            <h2>subsystem adoption</h2>
+            <p>where attributed commits are landing.</p>
           </div>
           <div id="subsystems" class="list-block">
             <div class="status">Loading subsystem data…</div>
@@ -42,8 +42,8 @@
 
         <section class="panel">
           <div class="panel-head">
-            <h2>Assistant Usage</h2>
-            <p>Normalized from each <code>Assisted-by:</code> line.</p>
+            <h2>assistant usage</h2>
+            <p>normalized from each <code>Assisted-by:</code> line.</p>
           </div>
           <div id="agents" class="list-block">
             <div class="status">Loading assistant data…</div>
@@ -52,8 +52,8 @@
 
         <section class="panel panel-wide">
           <div class="panel-head">
-            <h2>Monthly Volume</h2>
-            <p id="timeline-label">Recent history for the selected window.</p>
+            <h2>monthly volume</h2>
+            <p id="timeline-label">recent history for the selected window.</p>
           </div>
           <div id="timeline" class="timeline">
             <div class="status">Loading timeline…</div>
@@ -62,8 +62,11 @@
 
         <section class="panel panel-wide">
           <div class="panel-head">
-            <h2>Recent Assisted Commits</h2>
-            <p>Latest Linux kernel commits with explicit AI attribution.</p>
+            <h2 id="commits-title">recent assisted commits</h2>
+            <div class="panel-actions">
+              <p id="commits-subtitle">latest Linux kernel commits with explicit AI attribution.</p>
+              <button id="clear-filter" hidden>clear filter</button>
+            </div>
           </div>
           <div id="commits" class="commit-list">
             <div class="status">Loading commits…</div>
