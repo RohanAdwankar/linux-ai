@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linux AI Watch</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="panel masthead">
+        <div>
+          <p class="eyebrow">linux kernel</p>
+          <h1>Linux AI Watch</h1>
+        </div>
+        <div class="masthead-meta">
+          <p id="generated-at">Loading snapshot…</p>
+          <a href="https://github.com/torvalds/linux" target="_blank" rel="noreferrer">Source repository</a>
+        </div>
+      </header>
+
+      <section class="panel intro">
+        <p>
+          Live view of Linux kernel commits carrying the <code>Assisted-by:</code> attribution described in
+          <code>coding-assistants.rst</code>.
+        </p>
+        <div class="window-bar" id="window-bar"></div>
+      </section>
+
+      <section class="stats" id="stats"></section>
+
+      <section class="dashboard">
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Subsystem Adoption</h2>
+            <p>Where attributed commits are landing.</p>
+          </div>
+          <div id="subsystems" class="list-block">
+            <div class="status">Loading subsystem data…</div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Assistant Usage</h2>
+            <p>Normalized from each <code>Assisted-by:</code> line.</p>
+          </div>
+          <div id="agents" class="list-block">
+            <div class="status">Loading assistant data…</div>
+          </div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-head">
+            <h2>Monthly Volume</h2>
+            <p id="timeline-label">Recent history for the selected window.</p>
+          </div>
+          <div id="timeline" class="timeline">
+            <div class="status">Loading timeline…</div>
+          </div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-head">
+            <h2>Recent Assisted Commits</h2>
+            <p>Latest Linux kernel commits with explicit AI attribution.</p>
+          </div>
+          <div id="commits" class="commit-list">
+            <div class="status">Loading commits…</div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
