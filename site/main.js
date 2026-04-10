@@ -47,7 +47,6 @@ function monthLabel(key) {
   const [year, month] = key.split("-").map(Number);
   return new Date(Date.UTC(year, month - 1, 1)).toLocaleDateString("en-US", {
     month: "short",
-    year: "2-digit",
   });
 }
 
@@ -380,7 +379,6 @@ function renderCommits(commits, filter, onClear) {
     .map((commit) => {
       const tags = [
         commit.subsystem,
-        formatDate(commit.authoredAt),
         ...(commit.assistedBy || []).map((agent) => agent.identity),
       ];
       return `
