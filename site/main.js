@@ -50,6 +50,27 @@ function monthLabel(key) {
   });
 }
 
+function joinedVariantSummary(variants) {
+  const names = variants.map((variant) => variant.identity);
+  if (names.join(", ").length <= 72) {
+    return names.join(", ");
+  }
+
+  const visible = [];
+  let currentLength = 0;
+  for (const name of names) {
+    const nextLength = currentLength === 0 ? name.length : currentLength + 2 + name.length;
+    if (nextLength > 60) break;
+    visible.push(name);
+    currentLength = nextLength;
+  }
+
+  if (!visible.length) {
+    return `${names[0]}...`;
+  }
+  return `${visible.join(", ")}...`;
+}
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -241,7 +262,7 @@ function renderAssistantFamilies(node, families, activeFilter, onSelect) {
     .slice(0, 12)
     .map((family) => {
       const palette = assistantPalette(family.name);
-      const detail = family.variants[0];
+      const detail = joinedVariantSummary(family.variants);
       return `
         <div class="stack-card ${activeFilter?.type === "assistant-family" && activeFilter.value === family.name ? "is-selected" : ""}">
           <button class="stack-head" data-filter-type="assistant-family" data-filter-value="${escapeHtml(family.name)}">
@@ -269,7 +290,7 @@ function renderAssistantFamilies(node, families, activeFilter, onSelect) {
               })
               .join("")}
           </div>
-          <div class="stack-detail">${escapeHtml(`${detail.identity} • ${detail.count} commits`)}</div>
+          <div class="stack-detail" data-default-detail="${escapeHtml(detail)}">${escapeHtml(detail)}</div>
         </div>
       `;
     })
@@ -284,7 +305,7 @@ function renderAssistantFamilies(node, families, activeFilter, onSelect) {
   for (const segment of node.querySelectorAll("[data-filter-type='assistant-identity']")) {
     const card = segment.closest(".stack-card");
     const detail = card.querySelector(".stack-detail");
-    const fallbackText = detail.textContent;
+    const fallbackText = detail.dataset.defaultDetail;
     segment.addEventListener("mouseenter", () => {
       detail.textContent = segment.dataset.detail;
     });
