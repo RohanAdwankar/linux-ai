@@ -1,5 +1,7 @@
 # linux ai watch
 
+View the site [here](https://rohanadwankar.github.io/linux-ai/).
+
 `coding-assistants.rst` defines the Linux kernel's `Assisted-by:` attribution tag for AI-assisted work.
 
 This repo turns that tag into a live GitHub Pages dashboard:
