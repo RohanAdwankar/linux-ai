@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-04-14T00:01:04.124Z",
+  "generatedAt": "2026-04-14T03:43:47.473Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 37,
-    "totalSubsystems": 27,
-    "totalAuthors": 15,
-    "totalAgents": 14
+    "totalCommits": 44,
+    "totalSubsystems": 32,
+    "totalAuthors": 18,
+    "totalAgents": 16
   },
   "commits": [
     {
@@ -38,6 +38,42 @@
       "committerName": "Steffen Klassert",
       "subject": "xfrm_user: fix info leak in build_mapping()",
       "subsystem": "xfrm_user",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3df690bba28edec865cf7190be10708ad0ddd67e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3df690bba28edec865cf7190be10708ad0ddd67e",
+      "authoredAt": "2026-04-06T15:49:38.000+02:00",
+      "committedAt": "2026-04-07T15:51:39.000-05:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Steve French",
+      "subject": "smb: client: fix OOB reads parsing symlink error response",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3d8b9d06bd3ac4c6846f5498800b0f5f8062e53b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3d8b9d06bd3ac4c6846f5498800b0f5f8062e53b",
+      "authoredAt": "2026-04-06T15:49:37.000+02:00",
+      "committedAt": "2026-04-07T15:51:01.000-05:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Steve French",
+      "subject": "smb: client: fix off-by-8 bounds check in check_wsl_eas()",
+      "subsystem": "smb",
       "assistedBy": [
         {
           "raw": "gregkh_clanker_t1000",
@@ -80,6 +116,42 @@
           "identity": "Gemini-CLI:gemini-3.1",
           "agent": "Gemini-CLI",
           "model": "gemini-3.1"
+        }
+      ]
+    },
+    {
+      "sha": "fcc25a291fbdca2c06c2c6602532050873f0c9de",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fcc25a291fbdca2c06c2c6602532050873f0c9de",
+      "authoredAt": "2026-03-26T17:17:46.000+05:30",
+      "committedAt": "2026-04-02T11:28:12.000-05:00",
+      "authorName": "Gautham R. Shenoy",
+      "committerName": "Mario Limonciello (AMD)",
+      "subject": "amd-pstate: Update cppc_req_cached in fast_switch case",
+      "subsystem": "amd-pstate",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6 review-prompts/linux",
+          "identity": "Claude:claude-opus-4.6 review-prompts/linux",
+          "agent": "Claude",
+          "model": "claude-opus-4.6 review-prompts/linux"
+        }
+      ]
+    },
+    {
+      "sha": "beda3b363546a423e4e29a7395e04c0ac4ff677e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/beda3b363546a423e4e29a7395e04c0ac4ff677e",
+      "authoredAt": "2026-03-26T17:17:45.000+05:30",
+      "committedAt": "2026-04-02T11:28:05.000-05:00",
+      "authorName": "Gautham R. Shenoy",
+      "committerName": "Mario Limonciello (AMD)",
+      "subject": "amd-pstate: Fix memory leak in amd_pstate_epp_cpu_init()",
+      "subsystem": "amd-pstate",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6 review-prompts/linux",
+          "identity": "Claude:claude-opus-4.6 review-prompts/linux",
+          "agent": "Claude",
+          "model": "claude-opus-4.6 review-prompts/linux"
         }
       ]
     },
@@ -134,6 +206,60 @@
           "identity": "claude-code:claude-opus-4-6",
           "agent": "claude-code",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "e4cabc973133c0623a63e6e3bc3d64e53a2e6d62",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e4cabc973133c0623a63e6e3bc3d64e53a2e6d62",
+      "authoredAt": "2026-03-21T18:57:04.000+08:00",
+      "committedAt": "2026-04-02T17:09:41.000+02:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "drivers/base/memory: fix stale reference to memory_block_add_nid()",
+      "subsystem": "drivers/base/memory",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "a8eebf9699d69987cc49cec4e4fdb4111ab32423",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a8eebf9699d69987cc49cec4e4fdb4111ab32423",
+      "authoredAt": "2026-03-20T19:22:09.000Z",
+      "committedAt": "2026-03-27T07:35:05.000-07:00",
+      "authorName": "Robert Beckett",
+      "committerName": "Keith Busch",
+      "subject": "nvme-pci: add NVME_QUIRK_DISABLE_WRITE_ZEROES for Kingston OM3SGP4",
+      "subsystem": "nvme-pci",
+      "assistedBy": [
+        {
+          "raw": "claude-opus-4-6-v1",
+          "identity": "claude-opus-4-6-v1",
+          "agent": "claude-opus-4-6-v1",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "40f0496b617b431f8d2dd94d7f785c1121f8a68a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/40f0496b617b431f8d2dd94d7f785c1121f8a68a",
+      "authoredAt": "2026-03-20T19:22:08.000Z",
+      "committedAt": "2026-03-27T07:35:05.000-07:00",
+      "authorName": "Robert Beckett",
+      "committerName": "Keith Busch",
+      "subject": "nvme: respect NVME_QUIRK_DISABLE_WRITE_ZEROES when wzsl is set",
+      "subsystem": "nvme",
+      "assistedBy": [
+        {
+          "raw": "claude-opus-4-6-v1",
+          "identity": "claude-opus-4-6-v1",
+          "agent": "claude-opus-4-6-v1",
+          "model": ""
         }
       ]
     },
