@@ -1,16 +1,88 @@
 {
-  "generatedAt": "2026-04-15T00:00:56.248Z",
+  "generatedAt": "2026-04-15T03:42:51.818Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 53,
-    "totalSubsystems": 37,
-    "totalAuthors": 22,
-    "totalAgents": 20
+    "totalCommits": 69,
+    "totalSubsystems": 47,
+    "totalAuthors": 24,
+    "totalAgents": 21
   },
   "commits": [
+    {
+      "sha": "600dc40554dc5ad1e6f3af51f700228033f43ea7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/600dc40554dc5ad1e6f3af51f700228033f43ea7",
+      "authoredAt": "2026-04-11T13:01:35.000+02:00",
+      "committedAt": "2026-04-14T12:05:01.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Paolo Abeni",
+      "subject": "net: usb: cdc-phonet: fix skb frags[] overflow in rx_complete()",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8b0c25528cb64f71a73b5c0d49cbbcb68540a4ce",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8b0c25528cb64f71a73b5c0d49cbbcb68540a4ce",
+      "authoredAt": "2026-04-11T12:45:25.000+02:00",
+      "committedAt": "2026-04-13T15:59:48.000-07:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Jakub Kicinski",
+      "subject": "bnge: return after auxiliary_device_uninit() in error path",
+      "subsystem": "bnge",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "46ce8be2ced389bccd84bcc04a12cf2f4d0c22d1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/46ce8be2ced389bccd84bcc04a12cf2f4d0c22d1",
+      "authoredAt": "2026-04-09T17:18:14.000+02:00",
+      "committedAt": "2026-04-12T11:40:45.000-07:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Jakub Kicinski",
+      "subject": "NFC: digital: Bounds check NFC-A cascade depth in SDD response handler",
+      "subsystem": "nfc",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "a535a9217ca3f2fccedaafb2fddb4c48f27d36dc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a535a9217ca3f2fccedaafb2fddb4c48f27d36dc",
+      "authoredAt": "2026-04-08T15:30:13.000+01:00",
+      "committedAt": "2026-04-09T18:51:42.000+02:00",
+      "authorName": "Samuel Page",
+      "committerName": "Marc Kleine-Budde",
+      "subject": "can: raw: fix ro->uniq use-after-free in raw_rcv()",
+      "subsystem": "can",
+      "assistedBy": [
+        {
+          "raw": "Bynario AI",
+          "identity": "Bynario AI",
+          "agent": "Bynario AI",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "d10119968d0e1f2b669604baf2a8b5fdb72fa6b4",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d10119968d0e1f2b669604baf2a8b5fdb72fa6b4",
@@ -80,6 +152,42 @@
           "identity": "gregkh_clanker_t1000",
           "agent": "gregkh_clanker_t1000",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "20ae6d76e381eb520d0d1db526a41b22390816f6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/20ae6d76e381eb520d0d1db526a41b22390816f6",
+      "authoredAt": "2026-04-05T13:52:24.000-07:00",
+      "committedAt": "2026-04-10T15:52:25.000-07:00",
+      "authorName": "Andy Roulin",
+      "committerName": "Jakub Kicinski",
+      "subject": "selftests: net: add bridge STP mode selection test",
+      "subsystem": "selftests",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "54fc83a1728535831df0f251e155d05574918115",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/54fc83a1728535831df0f251e155d05574918115",
+      "authoredAt": "2026-04-05T13:52:22.000-07:00",
+      "committedAt": "2026-04-10T15:52:24.000-07:00",
+      "authorName": "Andy Roulin",
+      "committerName": "Jakub Kicinski",
+      "subject": "net: bridge: add stp_mode attribute for STP mode selection",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
@@ -318,6 +426,60 @@
       ]
     },
     {
+      "sha": "4c68d150246d7e1d826a807a82e6eb6b4669f42c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4c68d150246d7e1d826a807a82e6eb6b4669f42c",
+      "authoredAt": "2026-03-21T18:59:27.000+08:00",
+      "committedAt": "2026-03-23T16:38:31.000+01:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Christian Brauner",
+      "subject": "signal: update outdated comment for removed freezable_schedule()",
+      "subsystem": "signal",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "a4b908c89d88d4b7251c566457979c4167b9664c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a4b908c89d88d4b7251c566457979c4167b9664c",
+      "authoredAt": "2026-03-21T18:58:25.000+08:00",
+      "committedAt": "2026-03-24T13:21:28.000+01:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Paolo Abeni",
+      "subject": "net: phy: update outdated comment for removed phy_package_read/write()",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "88c07dff9f6dd0b89b3e5364b202978eab2541c2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/88c07dff9f6dd0b89b3e5364b202978eab2541c2",
+      "authoredAt": "2026-03-21T18:57:53.000+08:00",
+      "committedAt": "2026-03-24T13:16:58.000+01:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Paolo Abeni",
+      "subject": "hv_sock: update outdated comment for renamed vsock_stream_recvmsg()",
+      "subsystem": "hv_sock",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
       "sha": "e4cabc973133c0623a63e6e3bc3d64e53a2e6d62",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e4cabc973133c0623a63e6e3bc3d64e53a2e6d62",
       "authoredAt": "2026-03-21T18:57:04.000+08:00",
@@ -326,6 +488,24 @@
       "committerName": "Greg Kroah-Hartman",
       "subject": "drivers/base/memory: fix stale reference to memory_block_add_nid()",
       "subsystem": "drivers/base/memory",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "70b5f3f7822a8737de350ce3731189e724bc45be",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/70b5f3f7822a8737de350ce3731189e724bc45be",
+      "authoredAt": "2026-03-21T18:56:58.000+08:00",
+      "committedAt": "2026-03-24T13:37:29.000-07:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Alexei Starovoitov",
+      "subject": "bpf: update outdated comment for refactored btf_check_kfunc_arg_match()",
+      "subsystem": "bpf",
       "assistedBy": [
         {
           "raw": "unnamed:deepseek-v3.2 coccinelle",
@@ -552,6 +732,42 @@
       ]
     },
     {
+      "sha": "8f921f61005450589c0bc1a941a5ddde21d9aed9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8f921f61005450589c0bc1a941a5ddde21d9aed9",
+      "authoredAt": "2026-03-11T21:35:19.000+08:00",
+      "committedAt": "2026-03-12T19:29:01.000-07:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Jakub Kicinski",
+      "subject": "netlink: update outdated comment",
+      "subsystem": "netlink",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "886d56099d947443936298a8f98533768c5ad44b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/886d56099d947443936298a8f98533768c5ad44b",
+      "authoredAt": "2026-03-11T21:30:11.000+08:00",
+      "committedAt": "2026-03-12T19:27:43.000-07:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Jakub Kicinski",
+      "subject": "qlcnic: update outdated comment",
+      "subsystem": "qlcnic",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
       "sha": "ee0e6e69a772d601e152e5368a1da25d656122a8",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ee0e6e69a772d601e152e5368a1da25d656122a8",
       "authoredAt": "2026-03-05T18:48:05.000-08:00",
@@ -588,6 +804,60 @@
       ]
     },
     {
+      "sha": "fefeeec6123587c6b08884865042988d40405bd2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fefeeec6123587c6b08884865042988d40405bd2",
+      "authoredAt": "2026-03-04T15:56:52.000-05:00",
+      "committedAt": "2026-03-05T15:03:04.000-08:00",
+      "authorName": "Josef Bacik",
+      "committerName": "Andrii Nakryiko",
+      "subject": "selftests/bpf: Add test for btf__add_btf() with split BTF sources",
+      "subsystem": "selftests/bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "d8d5c0151148b0194e8bbba66eb56d4d9cab94cd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d8d5c0151148b0194e8bbba66eb56d4d9cab94cd",
+      "authoredAt": "2026-03-04T15:56:51.000-05:00",
+      "committedAt": "2026-03-05T15:03:02.000-08:00",
+      "authorName": "Josef Bacik",
+      "committerName": "Andrii Nakryiko",
+      "subject": "bpftool: Support merging multiple module BTFs in btf dump",
+      "subsystem": "bpftool",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "be872ccf370915b858ab693aa0707a2eff4bb1fd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/be872ccf370915b858ab693aa0707a2eff4bb1fd",
+      "authoredAt": "2026-03-04T15:56:50.000-05:00",
+      "committedAt": "2026-03-05T14:57:58.000-08:00",
+      "authorName": "Josef Bacik",
+      "committerName": "Andrii Nakryiko",
+      "subject": "libbpf: Support appending split BTF in btf__add_btf()",
+      "subsystem": "libbpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "5c52607c43c397b79a9852ce33fc61de58c3645c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5c52607c43c397b79a9852ce33fc61de58c3645c",
       "authoredAt": "2026-03-04T12:39:34.000-08:00",
@@ -602,6 +872,24 @@
           "identity": "Gemini:gemini-3.1-pro",
           "agent": "Gemini",
           "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "b8a57b979a7c2069081ed0bf88a727b17d85ac96",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b8a57b979a7c2069081ed0bf88a727b17d85ac96",
+      "authoredAt": "2026-02-28T14:19:44.000+08:00",
+      "committedAt": "2026-03-02T10:27:25.000+01:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: update outdated comment",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
         }
       ]
     },
