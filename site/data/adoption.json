@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-16T00:00:35.298Z",
+  "generatedAt": "2026-04-16T03:48:18.114Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 98,
-    "totalSubsystems": 59,
+    "totalCommits": 101,
+    "totalSubsystems": 60,
     "totalAuthors": 27,
     "totalAgents": 26
   },
@@ -218,6 +218,60 @@
       "committerName": "Steve French",
       "subject": "smb: client: fix off-by-8 bounds check in check_wsl_eas()",
       "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ad0057fb91218914d6c98268718ceb9d59b388e1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ad0057fb91218914d6c98268718ceb9d59b388e1",
+      "authoredAt": "2026-04-06T15:46:48.000+02:00",
+      "committedAt": "2026-04-12T18:07:55.000-05:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Steve French",
+      "subject": "ksmbd: fix mechToken leak when SPNEGO decode fails after token alloc",
+      "subsystem": "ksmbd",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "53370cf9090777774e07fd9a8ebce67c6cc333ab",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/53370cf9090777774e07fd9a8ebce67c6cc333ab",
+      "authoredAt": "2026-04-06T15:46:47.000+02:00",
+      "committedAt": "2026-04-12T18:07:55.000-05:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Steve French",
+      "subject": "ksmbd: require 3 sub-authorities before reading sub_auth[2]",
+      "subsystem": "ksmbd",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "66751841212c2cc196577453c37f7774ff363f02",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/66751841212c2cc196577453c37f7774ff363f02",
+      "authoredAt": "2026-04-06T15:46:46.000+02:00",
+      "committedAt": "2026-04-12T18:07:55.000-05:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Steve French",
+      "subject": "ksmbd: validate EaNameLength in smb2_get_ea()",
+      "subsystem": "ksmbd",
       "assistedBy": [
         {
           "raw": "gregkh_clanker_t1000",
