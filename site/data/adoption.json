@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-04-17T03:46:21.315Z",
+  "generatedAt": "2026-04-17T06:14:35.408Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 102,
-    "totalSubsystems": 61,
-    "totalAuthors": 28,
+    "totalCommits": 105,
+    "totalSubsystems": 63,
+    "totalAuthors": 29,
     "totalAgents": 27
   },
   "commits": [
@@ -408,6 +408,42 @@
       ]
     },
     {
+      "sha": "7a4790b1a2c9ff66bd7a95d8761d5e9fc9334ba9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7a4790b1a2c9ff66bd7a95d8761d5e9fc9334ba9",
+      "authoredAt": "2026-03-27T14:07:09.000+01:00",
+      "committedAt": "2026-03-30T08:37:01.000-05:00",
+      "authorName": "David Heidelberg",
+      "committerName": "Bjorn Andersson",
+      "subject": "arm64: dts: qcom: sdm845-oneplus: Describe Wi-Fi/BT properly",
+      "subsystem": "arm64",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "0a9c8715663998dc4d8eaa8f1a40440214906d96",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0a9c8715663998dc4d8eaa8f1a40440214906d96",
+      "authoredAt": "2026-03-27T14:07:08.000+01:00",
+      "committedAt": "2026-03-30T08:37:01.000-05:00",
+      "authorName": "David Heidelberg",
+      "committerName": "Bjorn Andersson",
+      "subject": "arm64: dts: qcom: sdm845-google: Describe Wi-Fi/BT properly",
+      "subsystem": "arm64",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "fcc25a291fbdca2c06c2c6602532050873f0c9de",
       "htmlUrl": "https://github.com/torvalds/linux/commit/fcc25a291fbdca2c06c2c6602532050873f0c9de",
       "authoredAt": "2026-03-26T17:17:46.000+05:30",
@@ -722,6 +758,24 @@
       "committerName": "Andrew Morton",
       "subject": "mm: update outdated comments for removed scan_swap_map_slots()",
       "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "67cb50aee082842077a8404337dc21b7d03829d7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/67cb50aee082842077a8404337dc21b7d03829d7",
+      "authoredAt": "2026-03-21T18:57:59.000+08:00",
+      "committedAt": "2026-03-25T09:35:14.000-03:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommufd: update outdated comment for renamed iommufd_hw_pagetable_alloc()",
+      "subsystem": "iommufd",
       "assistedBy": [
         {
           "raw": "unnamed:deepseek-v3.2 coccinelle",
