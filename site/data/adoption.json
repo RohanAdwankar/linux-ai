@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-17T18:06:54.638Z",
+  "generatedAt": "2026-04-17T19:32:54.535Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 112,
-    "totalSubsystems": 68,
+    "totalCommits": 115,
+    "totalSubsystems": 69,
     "totalAuthors": 31,
     "totalAgents": 28
   },
@@ -200,6 +200,42 @@
       "committerName": "Steffen Klassert",
       "subject": "xfrm_user: fix info leak in build_mapping()",
       "subsystem": "xfrm_user",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "69c02ffde6ed4d535fa4e693a9e572729cad3d0d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/69c02ffde6ed4d535fa4e693a9e572729cad3d0d",
+      "authoredAt": "2026-04-06T16:04:10.000+02:00",
+      "committedAt": "2026-04-13T11:39:31.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Jiri Kosina",
+      "subject": "HID: core: clamp report_size in s32ton() to avoid undefined shift",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "1badfc4319224820d5d890f8eab6aa52e4e83339",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1badfc4319224820d5d890f8eab6aa52e4e83339",
+      "authoredAt": "2026-04-06T16:03:25.000+02:00",
+      "committedAt": "2026-04-09T17:37:39.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Jiri Kosina",
+      "subject": "HID: alps: fix NULL pointer dereference in alps_raw_event()",
+      "subsystem": "hid",
       "assistedBy": [
         {
           "raw": "gregkh_clanker_t1000",
@@ -1172,6 +1208,24 @@
       "committerName": "Martin K. Petersen",
       "subject": "scsi: target: tcm_loop: Drain commands in target_reset handler",
       "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "d9794c0600f95b226b6672c5b364e44c80d660c5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d9794c0600f95b226b6672c5b364e44c80d660c5",
+      "authoredAt": "2026-03-15T18:10:01.000+01:00",
+      "committedAt": "2026-03-20T12:12:52.000+01:00",
+      "authorName": "Kit Dallege",
+      "committerName": "Marek Szyprowski",
+      "subject": "dma-mapping: fix false kernel-doc comment marker",
+      "subsystem": "dma-mapping",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-6",
