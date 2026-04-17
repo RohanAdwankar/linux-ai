@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-04-17T17:08:14.972Z",
+  "generatedAt": "2026-04-17T18:06:54.638Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 106,
-    "totalSubsystems": 64,
-    "totalAuthors": 30,
-    "totalAgents": 27
+    "totalCommits": 112,
+    "totalSubsystems": 68,
+    "totalAuthors": 31,
+    "totalAgents": 28
   },
   "commits": [
     {
@@ -548,6 +548,114 @@
           "identity": "unnamed:deepseek-v3.2 coccinelle",
           "agent": "unnamed",
           "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "d7447f2dce46e1237e7908f49703803ffc0ef19f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d7447f2dce46e1237e7908f49703803ffc0ef19f",
+      "authoredAt": "2026-03-23T12:00:34.000-04:00",
+      "committedAt": "2026-03-26T10:24:40.000-04:00",
+      "authorName": "Vineeth Pillai (Google)",
+      "committerName": "Steven Rostedt (Google)",
+      "subject": "btrfs: Use trace_call__##name() at guarded tracepoint call sites",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "47f570fcfd5a5a8c58913fee8fa2db2f99591ae9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/47f570fcfd5a5a8c58913fee8fa2db2f99591ae9",
+      "authoredAt": "2026-03-23T12:00:32.000-04:00",
+      "committedAt": "2026-03-26T10:24:39.000-04:00",
+      "authorName": "Vineeth Pillai (Google)",
+      "committerName": "Steven Rostedt (Google)",
+      "subject": "spi: Use trace_call__##name() at guarded tracepoint call sites",
+      "subsystem": "spi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "fa9ac2fdb605bbf318bb2cbbc76b855341b7c115",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fa9ac2fdb605bbf318bb2cbbc76b855341b7c115",
+      "authoredAt": "2026-03-23T12:00:31.000-04:00",
+      "committedAt": "2026-03-26T10:24:39.000-04:00",
+      "authorName": "Vineeth Pillai (Google)",
+      "committerName": "Steven Rostedt (Google)",
+      "subject": "i2c: Use trace_call__##name() at guarded tracepoint call sites",
+      "subsystem": "i2c",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "ad8363ebf851599489e8821f5278f784df154398",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ad8363ebf851599489e8821f5278f784df154398",
+      "authoredAt": "2026-03-23T12:00:25.000-04:00",
+      "committedAt": "2026-03-28T13:37:06.000-04:00",
+      "authorName": "Vineeth Pillai (Google)",
+      "committerName": "Steven Rostedt (Google)",
+      "subject": "cpufreq: Use trace_call__##name() at guarded tracepoint call sites",
+      "subsystem": "cpufreq",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "7b1c2d7547943ddb0d425138b3b42262ff92eea3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7b1c2d7547943ddb0d425138b3b42262ff92eea3",
+      "authoredAt": "2026-03-23T12:00:21.000-04:00",
+      "committedAt": "2026-03-26T08:28:49.000-04:00",
+      "authorName": "Vineeth Pillai (Google)",
+      "committerName": "Steven Rostedt (Google)",
+      "subject": "kernel: Use trace_call__##name() at guarded tracepoint call sites",
+      "subsystem": "kernel",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "677a3d82b6407522d922705209c311e043a17813",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/677a3d82b6407522d922705209c311e043a17813",
+      "authoredAt": "2026-03-23T12:00:20.000-04:00",
+      "committedAt": "2026-03-26T08:27:39.000-04:00",
+      "authorName": "Vineeth Pillai (Google)",
+      "committerName": "Steven Rostedt (Google)",
+      "subject": "tracepoint: Add trace_call__##name() API",
+      "subsystem": "tracepoint",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
