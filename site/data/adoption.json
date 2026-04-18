@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-04-18T17:54:03.009Z",
+  "generatedAt": "2026-04-18T19:10:35.730Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 115,
-    "totalSubsystems": 69,
-    "totalAuthors": 31,
-    "totalAgents": 28
+    "totalCommits": 130,
+    "totalSubsystems": 72,
+    "totalAuthors": 33,
+    "totalAgents": 30
   },
   "commits": [
+    {
+      "sha": "c7fe4e5665b7c31a24d362229182f6ee27e07233",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c7fe4e5665b7c31a24d362229182f6ee27e07233",
+      "authoredAt": "2026-04-11T12:37:05.000-07:00",
+      "committedAt": "2026-04-13T23:28:14.000-07:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Namhyung Kim",
+      "subject": "perf test: Fix inet_pton probe failure and unroll call graph",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
     {
       "sha": "600dc40554dc5ad1e6f3af51f700228033f43ea7",
       "htmlUrl": "https://github.com/torvalds/linux/commit/600dc40554dc5ad1e6f3af51f700228033f43ea7",
@@ -44,6 +62,222 @@
           "identity": "gregkh_clanker_t1000",
           "agent": "gregkh_clanker_t1000",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "dff56bdafae8e65d9acb88cc98e1f5129c352201",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dff56bdafae8e65d9acb88cc98e1f5129c352201",
+      "authoredAt": "2026-04-10T19:09:05.000-03:00",
+      "committedAt": "2026-04-13T23:21:53.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Add sanity checks to HEADER_BPF_BTF processing",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "66af7e9b05c4e7ff435c0aef0d253a65d290f03c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/66af7e9b05c4e7ff435c0aef0d253a65d290f03c",
+      "authoredAt": "2026-04-10T19:09:04.000-03:00",
+      "committedAt": "2026-04-13T23:21:53.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Sanity check HEADER_BPF_PROG_INFO",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "f5722a6b6a443fd56ce0a71b4be4c75d7a857dbe",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f5722a6b6a443fd56ce0a71b4be4c75d7a857dbe",
+      "authoredAt": "2026-04-10T19:09:03.000-03:00",
+      "committedAt": "2026-04-13T23:21:53.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Sanity check HEADER_PMU_CAPS",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "47c68eb15ae90fa3953db9a67b4569089ff63cd0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/47c68eb15ae90fa3953db9a67b4569089ff63cd0",
+      "authoredAt": "2026-04-10T19:09:02.000-03:00",
+      "committedAt": "2026-04-13T23:21:53.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Sanity check HEADER_HYBRID_TOPOLOGY",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "110a661708a6a90997442f02f261e2043624a1c8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/110a661708a6a90997442f02f261e2043624a1c8",
+      "authoredAt": "2026-04-10T19:09:01.000-03:00",
+      "committedAt": "2026-04-13T23:21:53.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Sanity check HEADER_CACHE",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "6830e20c92e7388ae4834a3574a0d3d90500c4c1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6830e20c92e7388ae4834a3574a0d3d90500c4c1",
+      "authoredAt": "2026-04-10T19:09:00.000-03:00",
+      "committedAt": "2026-04-13T23:21:53.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Sanity check HEADER_GROUP_DESC",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "f613a6d694aa499edb2a291ab2c2d906619585f2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f613a6d694aa499edb2a291ab2c2d906619585f2",
+      "authoredAt": "2026-04-10T19:08:59.000-03:00",
+      "committedAt": "2026-04-13T23:21:53.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Sanity check HEADER_PMU_MAPPINGS",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "a881fc56038a7baa5cb5074cdd52315d9ad9ee63",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a881fc56038a7baa5cb5074cdd52315d9ad9ee63",
+      "authoredAt": "2026-04-10T19:08:58.000-03:00",
+      "committedAt": "2026-04-13T23:21:53.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Sanity check HEADER_MEM_TOPOLOGY",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "4ba223016b0be7ec11aad63f480cd251cecad594",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4ba223016b0be7ec11aad63f480cd251cecad594",
+      "authoredAt": "2026-04-10T19:08:57.000-03:00",
+      "committedAt": "2026-04-13T23:21:53.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Sanity check HEADER_NUMA_TOPOLOGY",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "22a2e2b29217455cf337c765fc26ad2f55d7291a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/22a2e2b29217455cf337c765fc26ad2f55d7291a",
+      "authoredAt": "2026-04-10T19:08:56.000-03:00",
+      "committedAt": "2026-04-13T23:21:53.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Sanity check HEADER_CPU_TOPOLOGY",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "376ce5a9f706a75815c8281861b66060438798d1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/376ce5a9f706a75815c8281861b66060438798d1",
+      "authoredAt": "2026-04-10T19:08:55.000-03:00",
+      "committedAt": "2026-04-13T23:21:52.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Sanity check HEADER_NRCPUS and HEADER_CPU_DOMAIN_INFO",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "f823d7efb81cd2a799dc386da4f9292fdc2c1dbe",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f823d7efb81cd2a799dc386da4f9292fdc2c1dbe",
+      "authoredAt": "2026-04-10T19:08:53.000-03:00",
+      "committedAt": "2026-04-13T23:21:52.000-07:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Namhyung Kim",
+      "subject": "perf header: Validate nr_domains when reading HEADER_CPU_DOMAIN_INFO",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-4-6",
+          "identity": "Claude Code:claude-opus-4-6",
+          "agent": "Claude Code",
+          "model": "claude-opus-4-6"
         }
       ]
     },
@@ -876,6 +1110,24 @@
       ]
     },
     {
+      "sha": "0b6c8e21157fb6dfa35163fdfe5c10387bcc6c41",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0b6c8e21157fb6dfa35163fdfe5c10387bcc6c41",
+      "authoredAt": "2026-03-21T18:58:31.000+08:00",
+      "committedAt": "2026-04-17T11:32:46.000+02:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Helge Deller",
+      "subject": "parisc: update outdated comments for renamed ccio_alloc_consistent()",
+      "subsystem": "parisc",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
       "sha": "a4b908c89d88d4b7251c566457979c4167b9664c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a4b908c89d88d4b7251c566457979c4167b9664c",
       "authoredAt": "2026-03-21T18:58:25.000+08:00",
@@ -1628,6 +1880,24 @@
           "identity": "Claude:claude-4.6-opus",
           "agent": "Claude",
           "model": "claude-4.6-opus"
+        }
+      ]
+    },
+    {
+      "sha": "c0128c7157d639a931353ea344fb44aad6d6e17a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c0128c7157d639a931353ea344fb44aad6d6e17a",
+      "authoredAt": "2026-02-23T18:05:15.000+01:00",
+      "committedAt": "2026-03-25T18:13:39.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Andi Shyti",
+      "subject": "i2c: s3c24xx: check the size of the SMBUS message before using it",
+      "subsystem": "i2c",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
         }
       ]
     },
