@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-20T17:19:40.761Z",
+  "generatedAt": "2026-04-20T19:35:08.585Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 135,
-    "totalSubsystems": 73,
+    "totalCommits": 138,
+    "totalSubsystems": 76,
     "totalAuthors": 33,
     "totalAgents": 30
   },
@@ -308,6 +308,24 @@
       "committerName": "Jakub Kicinski",
       "subject": "NFC: digital: Bounds check NFC-A cascade depth in SDD response handler",
       "subsystem": "nfc",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "0ca0485e4b2e837ebb6cbd4f2451aba665a03e4b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0ca0485e4b2e837ebb6cbd4f2451aba665a03e4b",
+      "authoredAt": "2026-04-09T16:37:15.000+02:00",
+      "committedAt": "2026-04-16T10:28:16.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Konstantin Komarov",
+      "subject": "fs/ntfs3: validate rec->used in journal-replay file record check",
+      "subsystem": "fs/ntfs3",
       "assistedBy": [
         {
           "raw": "gregkh_clanker_t1000",
@@ -1074,6 +1092,24 @@
       ]
     },
     {
+      "sha": "adc09d7fbbb9d286057c98675994c445d81c27fa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/adc09d7fbbb9d286057c98675994c445d81c27fa",
+      "authoredAt": "2026-03-23T21:44:50.000+08:00",
+      "committedAt": "2026-03-30T13:47:44.000-04:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Leon Romanovsky",
+      "subject": "RDMA: Remove outdated comments referencing hfi1_destroy_qp()",
+      "subsystem": "rdma",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
       "sha": "c7f27a8ab9f2f43570f0725256597a0d7abe2c5b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c7f27a8ab9f2f43570f0725256597a0d7abe2c5b",
       "authoredAt": "2026-03-21T20:30:45.000-07:00",
@@ -1190,6 +1226,24 @@
       "committerName": "Christian Brauner",
       "subject": "signal: update outdated comment for removed freezable_schedule()",
       "subsystem": "signal",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "b247ed6f60bdc61616b0243024e118b0659ce78f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b247ed6f60bdc61616b0243024e118b0659ce78f",
+      "authoredAt": "2026-03-21T18:58:59.000+08:00",
+      "committedAt": "2026-03-30T13:47:44.000-04:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Leon Romanovsky",
+      "subject": "RDMA/uverbs: Update outdated reference to remove_commit_idr_uobject()",
+      "subsystem": "rdma/uverbs",
       "assistedBy": [
         {
           "raw": "unnamed:deepseek-v3.2 coccinelle",
