@@ -1,16 +1,124 @@
 {
-  "generatedAt": "2026-04-23T16:11:25.342Z",
+  "generatedAt": "2026-04-23T17:47:44.123Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 143,
-    "totalSubsystems": 78,
-    "totalAuthors": 35,
-    "totalAgents": 32
+    "totalCommits": 149,
+    "totalSubsystems": 80,
+    "totalAuthors": 36,
+    "totalAgents": 33
   },
   "commits": [
+    {
+      "sha": "30471982cd667972ba93ce894765d4b8544958e6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/30471982cd667972ba93ce894765d4b8544958e6",
+      "authoredAt": "2026-04-17T14:27:58.000-06:00",
+      "committedAt": "2026-04-21T12:01:22.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/cdx: Consolidate MSI configured state onto cdx_irqs",
+      "subsystem": "vfio/cdx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "670e8864b1a218d72f08db40d0103adf38fa1d9b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/670e8864b1a218d72f08db40d0103adf38fa1d9b",
+      "authoredAt": "2026-04-17T14:27:57.000-06:00",
+      "committedAt": "2026-04-21T12:01:22.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/cdx: Serialize VFIO_DEVICE_SET_IRQS with a per-device mutex",
+      "subsystem": "vfio/cdx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "b0eab97305ae97190a605117095d84f12ecef187",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b0eab97305ae97190a605117095d84f12ecef187",
+      "authoredAt": "2026-04-14T14:06:22.000-06:00",
+      "committedAt": "2026-04-21T12:01:21.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/virtio: Use guard() for bar_mutex in legacy I/O",
+      "subsystem": "vfio/virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "b5b268cb7868b598e53eeebd36174c8b27d4cd86",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b5b268cb7868b598e53eeebd36174c8b27d4cd86",
+      "authoredAt": "2026-04-14T14:06:21.000-06:00",
+      "committedAt": "2026-04-21T12:01:21.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/virtio: Use guard() for migf->lock where applicable",
+      "subsystem": "vfio/virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "61fcb51fc9d576ec367e8aea9c03dc6a746e395e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/61fcb51fc9d576ec367e8aea9c03dc6a746e395e",
+      "authoredAt": "2026-04-14T14:06:20.000-06:00",
+      "committedAt": "2026-04-21T12:01:20.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/virtio: Use guard() for list_lock where applicable",
+      "subsystem": "vfio/virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "903570835f12b7436ca0edb0a9ed351c0349121e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/903570835f12b7436ca0edb0a9ed351c0349121e",
+      "authoredAt": "2026-04-14T14:06:19.000-06:00",
+      "committedAt": "2026-04-21T12:01:20.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/virtio: Convert list_lock from spinlock to mutex",
+      "subsystem": "vfio/virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
     {
       "sha": "c7fe4e5665b7c31a24d362229182f6ee27e07233",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c7fe4e5665b7c31a24d362229182f6ee27e07233",
