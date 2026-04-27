@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-04-27T12:00:20.654Z",
+  "generatedAt": "2026-04-27T14:28:11.277Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 100,
-    "totalSubsystems": 53,
-    "totalAuthors": 24,
-    "totalAgents": 24
+    "totalCommits": 166,
+    "totalSubsystems": 69,
+    "totalAuthors": 31,
+    "totalAgents": 29
   },
   "commits": [
     {
@@ -26,6 +26,42 @@
           "identity": "Gemini:gemini-3.1-pro-preview",
           "agent": "Gemini",
           "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "600dc40554dc5ad1e6f3af51f700228033f43ea7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/600dc40554dc5ad1e6f3af51f700228033f43ea7",
+      "authoredAt": "2026-04-11T13:01:35.000+02:00",
+      "committedAt": "2026-04-14T12:05:01.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Paolo Abeni",
+      "subject": "net: usb: cdc-phonet: fix skb frags[] overflow in rx_complete()",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8b0c25528cb64f71a73b5c0d49cbbcb68540a4ce",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8b0c25528cb64f71a73b5c0d49cbbcb68540a4ce",
+      "authoredAt": "2026-04-11T12:45:25.000+02:00",
+      "committedAt": "2026-04-13T15:59:48.000-07:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Jakub Kicinski",
+      "subject": "bnge: return after auxiliary_device_uninit() in error path",
+      "subsystem": "bnge",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
         }
       ]
     },
@@ -246,6 +282,42 @@
       ]
     },
     {
+      "sha": "48a428215782321b56956974f23593e40ce84b7a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/48a428215782321b56956974f23593e40ce84b7a",
+      "authoredAt": "2026-04-10T17:46:37.000+02:00",
+      "committedAt": "2026-04-10T18:14:21.000+02:00",
+      "authorName": "Thomas Huth",
+      "committerName": "Ard Biesheuvel",
+      "subject": "efi/capsule-loader: fix incorrect sizeof in phys array reallocation",
+      "subsystem": "efi/capsule-loader",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-5",
+          "identity": "Claude:claude-sonnet-4-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-5"
+        }
+      ]
+    },
+    {
+      "sha": "46ce8be2ced389bccd84bcc04a12cf2f4d0c22d1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/46ce8be2ced389bccd84bcc04a12cf2f4d0c22d1",
+      "authoredAt": "2026-04-09T17:18:14.000+02:00",
+      "committedAt": "2026-04-12T11:40:45.000-07:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Jakub Kicinski",
+      "subject": "NFC: digital: Bounds check NFC-A cascade depth in SDD response handler",
+      "subsystem": "nfc",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "0ca0485e4b2e837ebb6cbd4f2451aba665a03e4b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0ca0485e4b2e837ebb6cbd4f2451aba665a03e4b",
       "authoredAt": "2026-04-09T16:37:15.000+02:00",
@@ -254,6 +326,78 @@
       "committerName": "Konstantin Komarov",
       "subject": "fs/ntfs3: validate rec->used in journal-replay file record check",
       "subsystem": "fs/ntfs3",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "07704bbf36f57e4379e4cadf96410dab14621e3b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/07704bbf36f57e4379e4cadf96410dab14621e3b",
+      "authoredAt": "2026-04-09T16:05:54.000+02:00",
+      "committedAt": "2026-04-10T14:59:47.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: fireworks: bound device-supplied status before string array lookup",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "48bd344e1040b9f2eb512be73c13f5db83efc191",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/48bd344e1040b9f2eb512be73c13f5db83efc191",
+      "authoredAt": "2026-04-09T16:01:56.000+02:00",
+      "committedAt": "2026-04-10T14:58:03.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: usx2y: us144mkii: fix NULL deref on missing interface 0",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "a31e4518bec70333a0a98f2946a12b53b45fe5b9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a31e4518bec70333a0a98f2946a12b53b45fe5b9",
+      "authoredAt": "2026-04-09T15:23:46.000+02:00",
+      "committedAt": "2026-04-10T16:54:38.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Helge Deller",
+      "subject": "fbdev: udlfb: avoid divide-by-zero on FBIOPUT_VSCREENINFO",
+      "subsystem": "fbdev",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8f98b81fe011e1879e6a7b1247e69e06a5e17af2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8f98b81fe011e1879e6a7b1247e69e06a5e17af2",
+      "authoredAt": "2026-04-09T15:23:14.000+02:00",
+      "committedAt": "2026-04-10T16:54:35.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Helge Deller",
+      "subject": "fbdev: tdfxfb: avoid divide-by-zero on FBIOPUT_VSCREENINFO",
+      "subsystem": "fbdev",
       "assistedBy": [
         {
           "raw": "gregkh_clanker_t1000",
@@ -278,6 +422,24 @@
           "identity": "Claude:claude-opus-4-6[1m]",
           "agent": "Claude",
           "model": "claude-opus-4-6[1m]"
+        }
+      ]
+    },
+    {
+      "sha": "a535a9217ca3f2fccedaafb2fddb4c48f27d36dc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a535a9217ca3f2fccedaafb2fddb4c48f27d36dc",
+      "authoredAt": "2026-04-08T15:30:13.000+01:00",
+      "committedAt": "2026-04-09T18:51:42.000+02:00",
+      "authorName": "Samuel Page",
+      "committerName": "Marc Kleine-Budde",
+      "subject": "can: raw: fix ro->uniq use-after-free in raw_rcv()",
+      "subsystem": "can",
+      "assistedBy": [
+        {
+          "raw": "Bynario AI",
+          "identity": "Bynario AI",
+          "agent": "Bynario AI",
+          "model": ""
         }
       ]
     },
@@ -342,6 +504,42 @@
       ]
     },
     {
+      "sha": "d10119968d0e1f2b669604baf2a8b5fdb72fa6b4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d10119968d0e1f2b669604baf2a8b5fdb72fa6b4",
+      "authoredAt": "2026-04-06T17:34:22.000+02:00",
+      "committedAt": "2026-04-07T10:36:38.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Steffen Klassert",
+      "subject": "xfrm_user: fix info leak in build_report()",
+      "subsystem": "xfrm_user",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "1beb76b2053b68c491b78370794b8ff63c8f8c02",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1beb76b2053b68c491b78370794b8ff63c8f8c02",
+      "authoredAt": "2026-04-06T17:33:03.000+02:00",
+      "committedAt": "2026-04-07T10:36:37.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Steffen Klassert",
+      "subject": "xfrm_user: fix info leak in build_mapping()",
+      "subsystem": "xfrm_user",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "f880aac8a57ebd92abfa685d45424b2998ac1059",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f880aac8a57ebd92abfa685d45424b2998ac1059",
       "authoredAt": "2026-04-06T17:09:48.000+02:00",
@@ -360,6 +558,222 @@
       ]
     },
     {
+      "sha": "3df690bba28edec865cf7190be10708ad0ddd67e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3df690bba28edec865cf7190be10708ad0ddd67e",
+      "authoredAt": "2026-04-06T15:49:38.000+02:00",
+      "committedAt": "2026-04-07T15:51:39.000-05:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Steve French",
+      "subject": "smb: client: fix OOB reads parsing symlink error response",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3d8b9d06bd3ac4c6846f5498800b0f5f8062e53b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3d8b9d06bd3ac4c6846f5498800b0f5f8062e53b",
+      "authoredAt": "2026-04-06T15:49:37.000+02:00",
+      "committedAt": "2026-04-07T15:51:01.000-05:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Steve French",
+      "subject": "smb: client: fix off-by-8 bounds check in check_wsl_eas()",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "20ae6d76e381eb520d0d1db526a41b22390816f6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/20ae6d76e381eb520d0d1db526a41b22390816f6",
+      "authoredAt": "2026-04-05T13:52:24.000-07:00",
+      "committedAt": "2026-04-10T15:52:25.000-07:00",
+      "authorName": "Andy Roulin",
+      "committerName": "Jakub Kicinski",
+      "subject": "selftests: net: add bridge STP mode selection test",
+      "subsystem": "selftests",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "54fc83a1728535831df0f251e155d05574918115",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/54fc83a1728535831df0f251e155d05574918115",
+      "authoredAt": "2026-04-05T13:52:22.000-07:00",
+      "committedAt": "2026-04-10T15:52:24.000-07:00",
+      "authorName": "Andy Roulin",
+      "committerName": "Jakub Kicinski",
+      "subject": "net: bridge: add stp_mode attribute for STP mode selection",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "c6e80201e057dfb7253385e60bf541121bf5dc33",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c6e80201e057dfb7253385e60bf541121bf5dc33",
+      "authoredAt": "2026-04-03T17:00:14.000-04:00",
+      "committedAt": "2026-04-07T09:23:52.000+02:00",
+      "authorName": "Joseph Salisbury",
+      "committerName": "Peter Zijlstra",
+      "subject": "sched: Use u64 for bandwidth ratio calculations",
+      "subsystem": "sched",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5",
+          "identity": "Codex:GPT-5",
+          "agent": "Codex",
+          "model": "GPT-5"
+        }
+      ]
+    },
+    {
+      "sha": "82b915051d32a68ea3bbe261c93f5620699ff047",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/82b915051d32a68ea3bbe261c93f5620699ff047",
+      "authoredAt": "2026-04-02T16:23:38.000-07:00",
+      "committedAt": "2026-04-07T15:30:21.000+02:00",
+      "authorName": "Josh Snyder",
+      "committerName": "Thomas Gleixner",
+      "subject": "tick/nohz: Fix inverted return value in check_tick_dependency() fast path",
+      "subsystem": "tick/nohz",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "3457a5ccacd34fdd5ebd3a4745e721b5a1239690",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3457a5ccacd34fdd5ebd3a4745e721b5a1239690",
+      "authoredAt": "2026-04-01T17:09:10.000+02:00",
+      "committedAt": "2026-04-07T18:51:11.000+02:00",
+      "authorName": "Günther Noack",
+      "committerName": "Mickaël Salaün",
+      "subject": "landlock: Document fallocate(2) as another truncation corner case",
+      "subsystem": "landlock",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:gemini-3.1",
+          "identity": "Gemini-CLI:gemini-3.1",
+          "agent": "Gemini-CLI",
+          "model": "gemini-3.1"
+        }
+      ]
+    },
+    {
+      "sha": "fcc25a291fbdca2c06c2c6602532050873f0c9de",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fcc25a291fbdca2c06c2c6602532050873f0c9de",
+      "authoredAt": "2026-03-26T17:17:46.000+05:30",
+      "committedAt": "2026-04-02T11:28:12.000-05:00",
+      "authorName": "Gautham R. Shenoy",
+      "committerName": "Mario Limonciello (AMD)",
+      "subject": "amd-pstate: Update cppc_req_cached in fast_switch case",
+      "subsystem": "amd-pstate",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6 review-prompts/linux",
+          "identity": "Claude:claude-opus-4.6 review-prompts/linux",
+          "agent": "Claude",
+          "model": "claude-opus-4.6 review-prompts/linux"
+        }
+      ]
+    },
+    {
+      "sha": "beda3b363546a423e4e29a7395e04c0ac4ff677e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/beda3b363546a423e4e29a7395e04c0ac4ff677e",
+      "authoredAt": "2026-03-26T17:17:45.000+05:30",
+      "committedAt": "2026-04-02T11:28:05.000-05:00",
+      "authorName": "Gautham R. Shenoy",
+      "committerName": "Mario Limonciello (AMD)",
+      "subject": "amd-pstate: Fix memory leak in amd_pstate_epp_cpu_init()",
+      "subsystem": "amd-pstate",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6 review-prompts/linux",
+          "identity": "Claude:claude-opus-4.6 review-prompts/linux",
+          "agent": "Claude",
+          "model": "claude-opus-4.6 review-prompts/linux"
+        }
+      ]
+    },
+    {
+      "sha": "f8995c2df519f382525ca4bc90553ad2ec611067",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f8995c2df519f382525ca4bc90553ad2ec611067",
+      "authoredAt": "2026-03-24T17:42:51.000+01:00",
+      "committedAt": "2026-04-02T08:24:55.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Thomas Zimmermann",
+      "subject": "drm/ioc32: stop speculation on the drm_compat_ioctl path",
+      "subsystem": "drm/ioc32",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "48b8814e25d073dd84daf990a879a820bad2bcbd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/48b8814e25d073dd84daf990a879a820bad2bcbd",
+      "authoredAt": "2026-03-24T17:34:05.000+01:00",
+      "committedAt": "2026-03-28T00:43:39.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Vasily Gorbik",
+      "subject": "s390/syscalls: Add spectre boundary for syscall dispatch table",
+      "subsystem": "s390/syscalls",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3e839947b842b81e3d940044425853477c5a4d7e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3e839947b842b81e3d940044425853477c5a4d7e",
+      "authoredAt": "2026-03-24T12:14:00.000+08:00",
+      "committedAt": "2026-03-24T19:52:27.000Z",
+      "authorName": "Kexin Sun",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: update outdated comments for removed snd_soc_new_pcms()",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
       "sha": "fdb19f4ede3bf41c48721889114441389d1ad403",
       "htmlUrl": "https://github.com/torvalds/linux/commit/fdb19f4ede3bf41c48721889114441389d1ad403",
       "authoredAt": "2026-03-24T10:48:57.000+08:00",
@@ -374,6 +788,24 @@
           "identity": "unnamed:deepseek-v3.2 coccinelle",
           "agent": "unnamed",
           "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "c7f27a8ab9f2f43570f0725256597a0d7abe2c5b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c7f27a8ab9f2f43570f0725256597a0d7abe2c5b",
+      "authoredAt": "2026-03-21T20:30:45.000-07:00",
+      "committedAt": "2026-03-21T18:34:59.000-10:00",
+      "authorName": "Song Liu",
+      "committerName": "Tejun Heo",
+      "subject": "workqueue: Fix false positive stall reports",
+      "subsystem": "workqueue",
+      "assistedBy": [
+        {
+          "raw": "claude-code:claude-opus-4-6",
+          "identity": "claude-code:claude-opus-4-6",
+          "agent": "claude-code",
+          "model": "claude-opus-4-6"
         }
       ]
     },
@@ -414,6 +846,24 @@
       ]
     },
     {
+      "sha": "762a3847a05c5c229009d36fbd0e2feee9dff81a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/762a3847a05c5c229009d36fbd0e2feee9dff81a",
+      "authoredAt": "2026-03-21T18:59:45.000+08:00",
+      "committedAt": "2026-03-24T19:55:23.000Z",
+      "authorName": "Kexin Sun",
+      "committerName": "Mark Brown",
+      "subject": "spi: pxa2xx: update outdated reference to pump_transfers()",
+      "subsystem": "spi",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
       "sha": "a37fb5166be943fa78962f77db00ce5a25366e87",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a37fb5166be943fa78962f77db00ce5a25366e87",
       "authoredAt": "2026-03-21T18:59:40.000+08:00",
@@ -422,6 +872,42 @@
       "committerName": "Mark Brown",
       "subject": "spi: pl022: update outdated references to pump_transfers()",
       "subsystem": "spi",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "a37fb5166be943fa78962f77db00ce5a25366e87",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a37fb5166be943fa78962f77db00ce5a25366e87",
+      "authoredAt": "2026-03-21T18:59:40.000+08:00",
+      "committedAt": "2026-03-23T18:11:00.000Z",
+      "authorName": "Kexin Sun",
+      "committerName": "Mark Brown",
+      "subject": "spi: pl022: update outdated references to pump_transfers()",
+      "subsystem": "spi",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "4c68d150246d7e1d826a807a82e6eb6b4669f42c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4c68d150246d7e1d826a807a82e6eb6b4669f42c",
+      "authoredAt": "2026-03-21T18:59:27.000+08:00",
+      "committedAt": "2026-03-23T16:38:31.000+01:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Christian Brauner",
+      "subject": "signal: update outdated comment for removed freezable_schedule()",
+      "subsystem": "signal",
       "assistedBy": [
         {
           "raw": "unnamed:deepseek-v3.2 coccinelle",
@@ -558,6 +1044,24 @@
       ]
     },
     {
+      "sha": "a4b908c89d88d4b7251c566457979c4167b9664c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a4b908c89d88d4b7251c566457979c4167b9664c",
+      "authoredAt": "2026-03-21T18:58:25.000+08:00",
+      "committedAt": "2026-03-24T13:21:28.000+01:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Paolo Abeni",
+      "subject": "net: phy: update outdated comment for removed phy_package_read/write()",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
       "sha": "3cb0dc0d0eab18d6ef738e10d5634e3a71121044",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3cb0dc0d0eab18d6ef738e10d5634e3a71121044",
       "authoredAt": "2026-03-21T18:58:20.000+08:00",
@@ -630,6 +1134,42 @@
       ]
     },
     {
+      "sha": "88c07dff9f6dd0b89b3e5364b202978eab2541c2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/88c07dff9f6dd0b89b3e5364b202978eab2541c2",
+      "authoredAt": "2026-03-21T18:57:53.000+08:00",
+      "committedAt": "2026-03-24T13:16:58.000+01:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Paolo Abeni",
+      "subject": "hv_sock: update outdated comment for renamed vsock_stream_recvmsg()",
+      "subsystem": "hv_sock",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "ab2fcdd7021908d5b1537f97be5a1994339fd6da",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ab2fcdd7021908d5b1537f97be5a1994339fd6da",
+      "authoredAt": "2026-03-21T18:57:28.000+08:00",
+      "committedAt": "2026-03-24T13:34:09.000-04:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: update outdated comment for renamed amdgpu_fence_driver_init()",
+      "subsystem": "drm/amdgpu",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
       "sha": "ab2fcdd7021908d5b1537f97be5a1994339fd6da",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ab2fcdd7021908d5b1537f97be5a1994339fd6da",
       "authoredAt": "2026-03-21T18:57:28.000+08:00",
@@ -656,6 +1196,42 @@
       "committerName": "Alex Deucher",
       "subject": "drm/amd/display: update outdated comments for renamed vblank_control_worker()",
       "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "94c7e9669be1a29b8e44fa6ca3d2d8943b60a91e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/94c7e9669be1a29b8e44fa6ca3d2d8943b60a91e",
+      "authoredAt": "2026-03-21T18:57:17.000+08:00",
+      "committedAt": "2026-03-24T13:33:15.000-04:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: update outdated comments for renamed vblank_control_worker()",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "e4cabc973133c0623a63e6e3bc3d64e53a2e6d62",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e4cabc973133c0623a63e6e3bc3d64e53a2e6d62",
+      "authoredAt": "2026-03-21T18:57:04.000+08:00",
+      "committedAt": "2026-04-02T17:09:41.000+02:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "drivers/base/memory: fix stale reference to memory_block_add_nid()",
+      "subsystem": "drivers/base/memory",
       "assistedBy": [
         {
           "raw": "unnamed:deepseek-v3.2 coccinelle",
@@ -720,6 +1296,24 @@
       ]
     },
     {
+      "sha": "70b5f3f7822a8737de350ce3731189e724bc45be",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/70b5f3f7822a8737de350ce3731189e724bc45be",
+      "authoredAt": "2026-03-21T18:56:58.000+08:00",
+      "committedAt": "2026-03-24T13:37:29.000-07:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Alexei Starovoitov",
+      "subject": "bpf: update outdated comment for refactored btf_check_kfunc_arg_match()",
+      "subsystem": "bpf",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
       "sha": "a8eebf9699d69987cc49cec4e4fdb4111ab32423",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a8eebf9699d69987cc49cec4e4fdb4111ab32423",
       "authoredAt": "2026-03-20T19:22:09.000Z",
@@ -728,6 +1322,42 @@
       "committerName": "Keith Busch",
       "subject": "nvme-pci: add NVME_QUIRK_DISABLE_WRITE_ZEROES for Kingston OM3SGP4",
       "subsystem": "nvme-pci",
+      "assistedBy": [
+        {
+          "raw": "claude-opus-4-6-v1",
+          "identity": "claude-opus-4-6-v1",
+          "agent": "claude-opus-4-6-v1",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "a8eebf9699d69987cc49cec4e4fdb4111ab32423",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a8eebf9699d69987cc49cec4e4fdb4111ab32423",
+      "authoredAt": "2026-03-20T19:22:09.000Z",
+      "committedAt": "2026-03-27T07:35:05.000-07:00",
+      "authorName": "Robert Beckett",
+      "committerName": "Keith Busch",
+      "subject": "nvme-pci: add NVME_QUIRK_DISABLE_WRITE_ZEROES for Kingston OM3SGP4",
+      "subsystem": "nvme-pci",
+      "assistedBy": [
+        {
+          "raw": "claude-opus-4-6-v1",
+          "identity": "claude-opus-4-6-v1",
+          "agent": "claude-opus-4-6-v1",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "40f0496b617b431f8d2dd94d7f785c1121f8a68a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/40f0496b617b431f8d2dd94d7f785c1121f8a68a",
+      "authoredAt": "2026-03-20T19:22:08.000Z",
+      "committedAt": "2026-03-27T07:35:05.000-07:00",
+      "authorName": "Robert Beckett",
+      "committerName": "Keith Busch",
+      "subject": "nvme: respect NVME_QUIRK_DISABLE_WRITE_ZEROES when wzsl is set",
+      "subsystem": "nvme",
       "assistedBy": [
         {
           "raw": "claude-opus-4-6-v1",
@@ -774,6 +1404,42 @@
       ]
     },
     {
+      "sha": "a1e5c46eaed3151be93e1aec9af0d8f8db79b8f6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a1e5c46eaed3151be93e1aec9af0d8f8db79b8f6",
+      "authoredAt": "2026-03-19T17:08:09.000-07:00",
+      "committedAt": "2026-03-21T12:51:44.000-07:00",
+      "authorName": "Ihor Solodrai",
+      "committerName": "Alexei Starovoitov",
+      "subject": "selftests/bpf: Add tests for bpf_throw lock leak from subprogs",
+      "subsystem": "selftests/bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "6c2128505f61b504c79a20b89596feba61388112",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6c2128505f61b504c79a20b89596feba61388112",
+      "authoredAt": "2026-03-19T17:08:08.000-07:00",
+      "committedAt": "2026-03-21T12:51:44.000-07:00",
+      "authorName": "Ihor Solodrai",
+      "committerName": "Alexei Starovoitov",
+      "subject": "bpf: Fix exception exit lock checking for subprogs",
+      "subsystem": "bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "6c2128505f61b504c79a20b89596feba61388112",
       "htmlUrl": "https://github.com/torvalds/linux/commit/6c2128505f61b504c79a20b89596feba61388112",
       "authoredAt": "2026-03-19T17:08:08.000-07:00",
@@ -806,6 +1472,42 @@
           "identity": "Gemini:gemini-3.1-pro",
           "agent": "Gemini",
           "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "deb353d9bb009638b7762cae2d0b6e8fdbb41a69",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/deb353d9bb009638b7762cae2d0b6e8fdbb41a69",
+      "authoredAt": "2026-03-17T23:46:36.000-07:00",
+      "committedAt": "2026-03-18T09:05:06.000+01:00",
+      "authorName": "Guenter Roeck",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: wlcore: Return -ENOMEM instead of -EAGAIN if there is not enough headroom",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro",
+          "identity": "Gemini:gemini-3.1-pro",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "2d300ebfc411205fa31ba7741c5821d381912381",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2d300ebfc411205fa31ba7741c5821d381912381",
+      "authoredAt": "2026-03-17T13:54:11.000-04:00",
+      "committedAt": "2026-03-23T14:47:47.000-04:00",
+      "authorName": "Ruijing Dong",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: fix strsep() corrupting lockup_timeout on multi-GPU (v3)",
+      "subsystem": "drm/amdgpu",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
@@ -854,6 +1556,24 @@
       "committerName": "Jonathan Corbet",
       "subject": "docs: pt_BR: translate process/1.Intro.rst",
       "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "1333eee56cdf3f0cf67c6ab4114c2c9e0a952026",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1333eee56cdf3f0cf67c6ab4114c2c9e0a952026",
+      "authoredAt": "2026-03-16T20:23:29.000-04:00",
+      "committedAt": "2026-03-19T21:54:51.000-04:00",
+      "authorName": "Josef Bacik",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: target: tcm_loop: Drain commands in target_reset handler",
+      "subsystem": "scsi",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-6",
@@ -954,6 +1674,24 @@
       ]
     },
     {
+      "sha": "2727d44f5d5bc3f8e55a6a0ccf24d8105a5a400e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2727d44f5d5bc3f8e55a6a0ccf24d8105a5a400e",
+      "authoredAt": "2026-03-15T18:09:31.000+01:00",
+      "committedAt": "2026-03-17T15:18:54.000+01:00",
+      "authorName": "Kit Dallege",
+      "committerName": "Christian Brauner",
+      "subject": "writeback: fix kernel-doc function name mismatch for wb_put_many()",
+      "subsystem": "writeback",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "7b52b262f8a8cd96dac33721389a884420c18365",
       "htmlUrl": "https://github.com/torvalds/linux/commit/7b52b262f8a8cd96dac33721389a884420c18365",
       "authoredAt": "2026-03-15T16:34:14.000+01:00",
@@ -968,6 +1706,24 @@
           "identity": "Claude <noreply@anthropic.com>",
           "agent": "Claude <noreply@anthropic.com>",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "4821d563cd7f251ae728be1a6d04af82a294a5b9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4821d563cd7f251ae728be1a6d04af82a294a5b9",
+      "authoredAt": "2026-03-13T09:22:29.000+01:00",
+      "committedAt": "2026-04-06T13:39:23.000-07:00",
+      "authorName": "Michal Schmidt",
+      "committerName": "Tony Nguyen",
+      "subject": "ixgbevf: add missing negotiate_features op to Hyper-V ops table",
+      "subsystem": "ixgbevf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-4.6-opus-high Cursor",
+          "identity": "Claude:claude-4.6-opus-high Cursor",
+          "agent": "Claude",
+          "model": "claude-4.6-opus-high Cursor"
         }
       ]
     },
@@ -1016,6 +1772,42 @@
       "committerName": "Jakub Kicinski",
       "subject": "netlink: update outdated comment",
       "subsystem": "netlink",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "8f921f61005450589c0bc1a941a5ddde21d9aed9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8f921f61005450589c0bc1a941a5ddde21d9aed9",
+      "authoredAt": "2026-03-11T21:35:19.000+08:00",
+      "committedAt": "2026-03-12T19:29:01.000-07:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Jakub Kicinski",
+      "subject": "netlink: update outdated comment",
+      "subsystem": "netlink",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
+      "sha": "886d56099d947443936298a8f98533768c5ad44b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/886d56099d947443936298a8f98533768c5ad44b",
+      "authoredAt": "2026-03-11T21:30:11.000+08:00",
+      "committedAt": "2026-03-12T19:27:43.000-07:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Jakub Kicinski",
+      "subject": "qlcnic: update outdated comment",
+      "subsystem": "qlcnic",
       "assistedBy": [
         {
           "raw": "unnamed:deepseek-v3.2 coccinelle",
@@ -1088,6 +1880,42 @@
       "committerName": "Niklas Cassel",
       "subject": "ata: libata-eh: Fix detection of deferred qc timeouts",
       "subsystem": "ata",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro",
+          "identity": "Gemini:gemini-3.1-pro",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "ee0e6e69a772d601e152e5368a1da25d656122a8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ee0e6e69a772d601e152e5368a1da25d656122a8",
+      "authoredAt": "2026-03-05T18:48:05.000-08:00",
+      "committedAt": "2026-03-06T09:58:47.000+01:00",
+      "authorName": "Guenter Roeck",
+      "committerName": "Niklas Cassel",
+      "subject": "ata: libata-eh: Fix detection of deferred qc timeouts",
+      "subsystem": "ata",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro",
+          "identity": "Gemini:gemini-3.1-pro",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "457965c13f0837a289c9164b842d0860133f6274",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/457965c13f0837a289c9164b842d0860133f6274",
+      "authoredAt": "2026-03-05T11:33:39.000-08:00",
+      "committedAt": "2026-03-06T13:04:30.000-05:00",
+      "authorName": "Guenter Roeck",
+      "committerName": "Steven Rostedt (Google)",
+      "subject": "tracing: Add NULL pointer check to trigger_data_free()",
+      "subsystem": "tracing",
       "assistedBy": [
         {
           "raw": "Gemini:gemini-3.1-pro",
@@ -1206,6 +2034,42 @@
       ]
     },
     {
+      "sha": "fefeeec6123587c6b08884865042988d40405bd2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fefeeec6123587c6b08884865042988d40405bd2",
+      "authoredAt": "2026-03-04T15:56:52.000-05:00",
+      "committedAt": "2026-03-05T15:03:04.000-08:00",
+      "authorName": "Josef Bacik",
+      "committerName": "Andrii Nakryiko",
+      "subject": "selftests/bpf: Add test for btf__add_btf() with split BTF sources",
+      "subsystem": "selftests/bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "d8d5c0151148b0194e8bbba66eb56d4d9cab94cd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d8d5c0151148b0194e8bbba66eb56d4d9cab94cd",
+      "authoredAt": "2026-03-04T15:56:51.000-05:00",
+      "committedAt": "2026-03-05T15:03:02.000-08:00",
+      "authorName": "Josef Bacik",
+      "committerName": "Andrii Nakryiko",
+      "subject": "bpftool: Support merging multiple module BTFs in btf dump",
+      "subsystem": "bpftool",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "d8d5c0151148b0194e8bbba66eb56d4d9cab94cd",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d8d5c0151148b0194e8bbba66eb56d4d9cab94cd",
       "authoredAt": "2026-03-04T15:56:51.000-05:00",
@@ -1238,6 +2102,42 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "be872ccf370915b858ab693aa0707a2eff4bb1fd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/be872ccf370915b858ab693aa0707a2eff4bb1fd",
+      "authoredAt": "2026-03-04T15:56:50.000-05:00",
+      "committedAt": "2026-03-05T14:57:58.000-08:00",
+      "authorName": "Josef Bacik",
+      "committerName": "Andrii Nakryiko",
+      "subject": "libbpf: Support appending split BTF in btf__add_btf()",
+      "subsystem": "libbpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "5c52607c43c397b79a9852ce33fc61de58c3645c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5c52607c43c397b79a9852ce33fc61de58c3645c",
+      "authoredAt": "2026-03-04T12:39:34.000-08:00",
+      "committedAt": "2026-03-14T14:01:37.000+09:00",
+      "authorName": "Guenter Roeck",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: ccp - Fix leaking the same page twice",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro",
+          "identity": "Gemini:gemini-3.1-pro",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro"
         }
       ]
     },
@@ -1296,6 +2196,24 @@
       ]
     },
     {
+      "sha": "b8a57b979a7c2069081ed0bf88a727b17d85ac96",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b8a57b979a7c2069081ed0bf88a727b17d85ac96",
+      "authoredAt": "2026-02-28T14:19:44.000+08:00",
+      "committedAt": "2026-03-02T10:27:25.000+01:00",
+      "authorName": "Kexin Sun",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: update outdated comment",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "unnamed:deepseek-v3.2 coccinelle",
+          "identity": "unnamed:deepseek-v3.2 coccinelle",
+          "agent": "unnamed",
+          "model": "deepseek-v3.2 coccinelle"
+        }
+      ]
+    },
+    {
       "sha": "0fd76f1be20d19ac593138ceec502cb044c909bd",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0fd76f1be20d19ac593138ceec502cb044c909bd",
       "authoredAt": "2026-02-25T08:57:45.000-05:00",
@@ -1310,6 +2228,24 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "e94eaef11142b01f77bf8ba4d0b59720b7858109",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e94eaef11142b01f77bf8ba4d0b59720b7858109",
+      "authoredAt": "2026-02-24T18:28:33.000-05:00",
+      "committedAt": "2026-03-10T13:02:54.000-07:00",
+      "authorName": "Matt Vollrath",
+      "committerName": "Tony Nguyen",
+      "subject": "e1000/e1000e: Fix leak in DMA error cleanup",
+      "subsystem": "e1000/e1000e",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-4.6-opus",
+          "identity": "Claude:claude-4.6-opus",
+          "agent": "Claude",
+          "model": "claude-4.6-opus"
         }
       ]
     },
@@ -1386,6 +2322,24 @@
       ]
     },
     {
+      "sha": "38a01c9700b0dcafe97dfa9dc7531bf4a245deff",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/38a01c9700b0dcafe97dfa9dc7531bf4a245deff",
+      "authoredAt": "2026-02-23T17:51:17.000+01:00",
+      "committedAt": "2026-03-02T11:03:42.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Marc Kleine-Budde",
+      "subject": "can: ems_usb: ems_usb_read_bulk_callback(): check the proper length of a message",
+      "subsystem": "can",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "5eaad4f768266f1f17e01232ffe2ef009f8129b7",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5eaad4f768266f1f17e01232ffe2ef009f8129b7",
       "authoredAt": "2026-02-23T17:39:20.000+01:00",
@@ -1393,6 +2347,42 @@
       "authorName": "Greg Kroah-Hartman",
       "committerName": "Marc Kleine-Budde",
       "subject": "can: usb: etas_es58x: correctly anchor the urb in the read bulk callback",
+      "subsystem": "can",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "5eaad4f768266f1f17e01232ffe2ef009f8129b7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5eaad4f768266f1f17e01232ffe2ef009f8129b7",
+      "authoredAt": "2026-02-23T17:39:20.000+01:00",
+      "committedAt": "2026-03-02T11:03:42.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Marc Kleine-Budde",
+      "subject": "can: usb: etas_es58x: correctly anchor the urb in the read bulk callback",
+      "subsystem": "can",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "1e446fd0582ad8be9f6dafb115fc2e7245f9bea7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1e446fd0582ad8be9f6dafb115fc2e7245f9bea7",
+      "authoredAt": "2026-02-23T17:30:20.000+01:00",
+      "committedAt": "2026-03-02T11:03:42.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Marc Kleine-Budde",
+      "subject": "can: ucan: Fix infinite loop from zero-length messages",
       "subsystem": "can",
       "assistedBy": [
         {
@@ -1458,6 +2448,42 @@
       ]
     },
     {
+      "sha": "7a9f448d44127217fabc4065c5ba070d4e0b5d37",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7a9f448d44127217fabc4065c5ba070d4e0b5d37",
+      "authoredAt": "2026-02-23T16:44:59.000+01:00",
+      "committedAt": "2026-03-19T21:33:28.000-04:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: ses: Handle positive SCSI error from ses_recv_diag()",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f0109b9d3e1e455429279d602f6276e34689750a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f0109b9d3e1e455429279d602f6276e34689750a",
+      "authoredAt": "2026-02-23T14:31:35.000+01:00",
+      "committedAt": "2026-02-23T16:34:44.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "staging: rtl8723bs: properly validate the data in rtw_get_ie_ex()",
+      "subsystem": "staging",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "f0109b9d3e1e455429279d602f6276e34689750a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f0109b9d3e1e455429279d602f6276e34689750a",
       "authoredAt": "2026-02-23T14:31:35.000+01:00",
@@ -1494,6 +2520,24 @@
       ]
     },
     {
+      "sha": "45dba8011efac11a2f360383221b541f5ea53ce5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/45dba8011efac11a2f360383221b541f5ea53ce5",
+      "authoredAt": "2026-02-23T13:19:43.000+01:00",
+      "committedAt": "2026-03-11T16:17:12.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: misc: uss720: properly clean up reference in uss720_probe()",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "952caa5da10bed22be09612433964f6877ba0dde",
       "htmlUrl": "https://github.com/torvalds/linux/commit/952caa5da10bed22be09612433964f6877ba0dde",
       "authoredAt": "2026-02-23T13:10:32.000+01:00",
@@ -1501,6 +2545,42 @@
       "authorName": "Greg Kroah-Hartman",
       "committerName": "Marc Kleine-Budde",
       "subject": "can: usb: f81604: correctly anchor the urb in the read bulk callback",
+      "subsystem": "can",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "952caa5da10bed22be09612433964f6877ba0dde",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/952caa5da10bed22be09612433964f6877ba0dde",
+      "authoredAt": "2026-02-23T13:10:32.000+01:00",
+      "committedAt": "2026-03-02T11:04:15.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Marc Kleine-Budde",
+      "subject": "can: usb: f81604: correctly anchor the urb in the read bulk callback",
+      "subsystem": "can",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "51f94780720fa90c424f67e3e9784cb8ef8190e5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/51f94780720fa90c424f67e3e9784cb8ef8190e5",
+      "authoredAt": "2026-02-23T13:10:31.000+01:00",
+      "committedAt": "2026-03-02T11:04:15.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Marc Kleine-Budde",
+      "subject": "can: usb: f81604: handle bulk write errors properly",
       "subsystem": "can",
       "assistedBy": [
         {
@@ -1548,6 +2628,24 @@
       ]
     },
     {
+      "sha": "7299b1b39a255f6092ce4ec0b65f66e9d6a357af",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7299b1b39a255f6092ce4ec0b65f66e9d6a357af",
+      "authoredAt": "2026-02-23T13:10:30.000+01:00",
+      "committedAt": "2026-03-02T11:04:14.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Marc Kleine-Budde",
+      "subject": "can: usb: f81604: handle short interrupt urb messages properly",
+      "subsystem": "can",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "2bad24c17742fc88973d6aea526ce1353f5334a3",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2bad24c17742fc88973d6aea526ce1353f5334a3",
       "authoredAt": "2026-02-19T16:43:38.000+01:00",
@@ -1555,6 +2653,42 @@
       "authorName": "Günther Noack",
       "committerName": "Benjamin Tissoires",
       "subject": "HID: asus: avoid memory leak in asus_report_fixup()",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "2bad24c17742fc88973d6aea526ce1353f5334a3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2bad24c17742fc88973d6aea526ce1353f5334a3",
+      "authoredAt": "2026-02-19T16:43:38.000+01:00",
+      "committedAt": "2026-02-19T18:57:38.000+01:00",
+      "authorName": "Günther Noack",
+      "committerName": "Benjamin Tissoires",
+      "subject": "HID: asus: avoid memory leak in asus_report_fixup()",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "91e8c6e601bdc1ccdf886479b6513c01c7e51c2c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/91e8c6e601bdc1ccdf886479b6513c01c7e51c2c",
+      "authoredAt": "2026-02-19T16:43:37.000+01:00",
+      "committedAt": "2026-02-19T18:57:38.000+01:00",
+      "authorName": "Günther Noack",
+      "committerName": "Benjamin Tissoires",
+      "subject": "HID: magicmouse: avoid memory leak in magicmouse_report_fixup()",
       "subsystem": "hid",
       "assistedBy": [
         {
@@ -1602,6 +2736,24 @@
       ]
     },
     {
+      "sha": "239c15116d80f67d32f00acc34575f1a6b699613",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/239c15116d80f67d32f00acc34575f1a6b699613",
+      "authoredAt": "2026-02-19T16:43:36.000+01:00",
+      "committedAt": "2026-02-19T18:57:38.000+01:00",
+      "authorName": "Günther Noack",
+      "committerName": "Benjamin Tissoires",
+      "subject": "HID: apple: avoid memory leak in apple_report_fixup()",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
       "sha": "ecfa6f34492c493a9a1dc2900f3edeb01c79946b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ecfa6f34492c493a9a1dc2900f3edeb01c79946b",
       "authoredAt": "2026-02-19T15:33:54.000+01:00",
@@ -1615,6 +2767,42 @@
           "raw": "gkh_clanker_2000",
           "identity": "gkh_clanker_2000",
           "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ecfa6f34492c493a9a1dc2900f3edeb01c79946b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ecfa6f34492c493a9a1dc2900f3edeb01c79946b",
+      "authoredAt": "2026-02-19T15:33:54.000+01:00",
+      "committedAt": "2026-02-19T18:58:39.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Benjamin Tissoires",
+      "subject": "HID: Add HID_CLAIMED_INPUT guards in raw_event callbacks missing them",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "0b82cc331d2e23537670878c62c19ee3f4147a93",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0b82cc331d2e23537670878c62c19ee3f4147a93",
+      "authoredAt": "2026-02-13T10:21:36.000-08:00",
+      "committedAt": "2026-02-13T09:09:39.000-10:00",
+      "authorName": "Ihor Solodrai",
+      "committerName": "Tejun Heo",
+      "subject": "selftests/sched_ext: Fix rt_stall flaky failure",
+      "subsystem": "selftests/sched_ext",
+      "assistedBy": [
+        {
+          "raw": "claude-opus-4-6-v1",
+          "identity": "claude-opus-4-6-v1",
+          "agent": "claude-opus-4-6-v1",
           "model": ""
         }
       ]
