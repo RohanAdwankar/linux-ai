@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-28T17:03:03.685Z",
+  "generatedAt": "2026-04-28T18:53:05.353Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 103,
+    "totalCommits": 106,
     "totalSubsystems": 55,
     "totalAuthors": 24,
     "totalAgents": 24
@@ -1818,6 +1818,24 @@
       ]
     },
     {
+      "sha": "436326bc525d467e38db1da576139ec5f28268c5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/436326bc525d467e38db1da576139ec5f28268c5",
+      "authoredAt": "2025-12-23T07:03:57.000-05:00",
+      "committedAt": "2026-01-13T11:37:51.000+01:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Peter Zijlstra",
+      "subject": "objtool: fix build failure due to missing libopcodes check",
+      "subsystem": "objtool",
+      "assistedBy": [
+        {
+          "raw": "claude-opus-4-5-20251101",
+          "identity": "claude-opus-4-5-20251101",
+          "agent": "claude-opus-4-5-20251101",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "d6b5a8d6f142ad0a8e45181f06e70b4746c4abc3",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d6b5a8d6f142ad0a8e45181f06e70b4746c4abc3",
       "authoredAt": "2025-12-20T15:29:26.000-05:00",
@@ -1831,6 +1849,42 @@
           "raw": "claude-opus-4-5-20251101",
           "identity": "claude-opus-4-5-20251101",
           "agent": "claude-opus-4-5-20251101",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "d6b5a8d6f142ad0a8e45181f06e70b4746c4abc3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d6b5a8d6f142ad0a8e45181f06e70b4746c4abc3",
+      "authoredAt": "2025-12-20T15:29:26.000-05:00",
+      "committedAt": "2025-12-23T11:23:17.000-08:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Andrew Morton",
+      "subject": "mm/ksm: fix pte_unmap_unlock of wrong address in break_ksm_pmd_entry",
+      "subsystem": "mm/ksm",
+      "assistedBy": [
+        {
+          "raw": "claude-opus-4-5-20251101",
+          "identity": "claude-opus-4-5-20251101",
+          "agent": "claude-opus-4-5-20251101",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "913e65a2fe1a16fa253c4a016e2306b2cf9ffef8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/913e65a2fe1a16fa253c4a016e2306b2cf9ffef8",
+      "authoredAt": "2025-09-04T17:38:53.000+08:00",
+      "committedAt": "2025-09-13T17:32:55.000-07:00",
+      "authorName": "Coiby Xu",
+      "committerName": "Andrew Morton",
+      "subject": "crash: add KUnit tests for crash_exclude_mem_range",
+      "subsystem": "crash",
+      "assistedBy": [
+        {
+          "raw": "Google Gemini",
+          "identity": "Google Gemini",
+          "agent": "Google Gemini",
           "model": ""
         }
       ]
