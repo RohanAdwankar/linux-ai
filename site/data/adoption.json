@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-29T16:54:13.532Z",
+  "generatedAt": "2026-04-29T18:49:45.659Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 172,
-    "totalSubsystems": 89,
+    "totalSubsystems": 91,
     "totalAuthors": 38,
     "totalAgents": 34
   },
@@ -200,6 +200,42 @@
           "identity": "Codex:gpt-5-4",
           "agent": "Codex",
           "model": "gpt-5-4"
+        }
+      ]
+    },
+    {
+      "sha": "24376458138387fb251e782e624c7776e9826796",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/24376458138387fb251e782e624c7776e9826796",
+      "authoredAt": "2026-04-19T17:21:55.000-04:00",
+      "committedAt": "2026-04-20T16:54:25.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jan Kara",
+      "subject": "isofs: validate block number from NFS file handle in isofs_export_iget",
+      "subsystem": "isofs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "a36d990f591320e9dd379ab30063ebfe91d47e1f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a36d990f591320e9dd379ab30063ebfe91d47e1f",
+      "authoredAt": "2026-04-19T17:21:54.000-04:00",
+      "committedAt": "2026-04-20T16:53:17.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jan Kara",
+      "subject": "isofs: validate Rock Ridge CE continuation extent against volume size",
+      "subsystem": "isofs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -458,6 +494,30 @@
       "committerName": "Steve French",
       "subject": "ksmbd: require minimum ACE size in smb_check_perm_dacl()",
       "subsystem": "ksmbd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        },
+        {
+          "raw": "Codex:gpt-5-4",
+          "identity": "Codex:gpt-5-4",
+          "agent": "Codex",
+          "model": "gpt-5-4"
+        }
+      ]
+    },
+    {
+      "sha": "55d41b0a20128e86b9e960dd2e3f0a2d69a18df7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/55d41b0a20128e86b9e960dd2e3f0a2d69a18df7",
+      "authoredAt": "2026-04-13T17:12:40.000-04:00",
+      "committedAt": "2026-04-22T17:14:48.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jan Kara",
+      "subject": "udf: reject descriptors with oversized CRC length",
+      "subsystem": "udf",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-6",
@@ -1668,24 +1728,6 @@
       ]
     },
     {
-      "sha": "d57fe7b02072ad04a41517e40c737ed7c11f4520",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d57fe7b02072ad04a41517e40c737ed7c11f4520",
-      "authoredAt": "2026-03-21T19:50:18.000+08:00",
-      "committedAt": "2026-03-23T17:59:19.000Z",
-      "authorName": "Kexin Sun",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: generic: update outdated comment for removed soc_bind_dai_link()",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
       "sha": "fdfdd01e801f4e808cba27b3e78504cfeca610d9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/fdfdd01e801f4e808cba27b3e78504cfeca610d9",
       "authoredAt": "2026-03-21T19:00:39.000+08:00",
@@ -1694,42 +1736,6 @@
       "committerName": "Juergen Gross",
       "subject": "xen/swiotlb: fix stale reference to swiotlb_unmap_page()",
       "subsystem": "xen/swiotlb",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "fdfdd01e801f4e808cba27b3e78504cfeca610d9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fdfdd01e801f4e808cba27b3e78504cfeca610d9",
-      "authoredAt": "2026-03-21T19:00:39.000+08:00",
-      "committedAt": "2026-04-10T11:05:06.000+02:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Juergen Gross",
-      "subject": "xen/swiotlb: fix stale reference to swiotlb_unmap_page()",
-      "subsystem": "xen/swiotlb",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "091ef6f503f49cdb3b19542b23f3cfd3e80a5f11",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/091ef6f503f49cdb3b19542b23f3cfd3e80a5f11",
-      "authoredAt": "2026-03-21T19:00:06.000+08:00",
-      "committedAt": "2026-03-30T16:50:09.000+02:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: udc: update outdated comment for renamed usb_gadget_udc_start()",
-      "subsystem": "usb",
       "assistedBy": [
         {
           "raw": "unnamed:deepseek-v3.2 coccinelle",
