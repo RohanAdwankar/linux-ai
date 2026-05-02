@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-02T00:07:14.627Z",
+  "generatedAt": "2026-05-02T03:52:22.720Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 175,
-    "totalSubsystems": 91,
-    "totalAuthors": 39,
-    "totalAgents": 36
+    "totalCommits": 183,
+    "totalSubsystems": 93,
+    "totalAuthors": 41,
+    "totalAgents": 37
   },
   "commits": [
     {
@@ -116,6 +116,24 @@
           "identity": "gkh_clanker_t1000",
           "agent": "gkh_clanker_t1000",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "095a8b0ad3c3b5cdc3850d961adb8a8f735220bb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/095a8b0ad3c3b5cdc3850d961adb8a8f735220bb",
+      "authoredAt": "2026-04-20T14:57:15.000-07:00",
+      "committedAt": "2026-04-24T11:07:53.000-04:00",
+      "authorName": "Arjan van de Ven",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: fix zero-size GDS range init on RDNA4",
+      "subsystem": "drm/amdgpu",
+      "assistedBy": [
+        {
+          "raw": "GitHub Copilot:Claude Sonnet 4.6 linux-kernel-oops-x86.",
+          "identity": "GitHub Copilot:Claude Sonnet 4.6 linux-kernel-oops-x86.",
+          "agent": "GitHub Copilot",
+          "model": "Claude Sonnet 4.6 linux-kernel-oops-x86."
         }
       ]
     },
@@ -416,6 +434,24 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "dc2d9842c67d883d3200ae33b9c3859dd9492408",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dc2d9842c67d883d3200ae33b9c3859dd9492408",
+      "authoredAt": "2026-04-15T22:54:28.000Z",
+      "committedAt": "2026-04-29T12:51:20.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/eustall: Fix drm_dev_put called before stream disable in close",
+      "subsystem": "drm/xe/eustall",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -1002,6 +1038,96 @@
       ]
     },
     {
+      "sha": "f8c4151d50b12923b67819ebf03c1c6782c984c1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f8c4151d50b12923b67819ebf03c1c6782c984c1",
+      "authoredAt": "2026-04-09T00:34:49.000Z",
+      "committedAt": "2026-04-29T12:51:19.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe: Fix potential NULL deref in xe_exec_queue_tlb_inval_last_fence_put_unlocked",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "111ab678471bf1f90d078d5513bb086b70596c3c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/111ab678471bf1f90d078d5513bb086b70596c3c",
+      "authoredAt": "2026-04-08T17:52:55.000Z",
+      "committedAt": "2026-04-29T12:51:20.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe: Fix dma-buf attachment leak in xe_gem_prime_import()",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "93a528f67ce5095bcab46a69839eca97f43dd352",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/93a528f67ce5095bcab46a69839eca97f43dd352",
+      "authoredAt": "2026-04-08T17:52:54.000Z",
+      "committedAt": "2026-04-29T12:51:20.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe: Fix bo leak in xe_dma_buf_init_obj() on allocation failure",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "1d0adf2fd94fb0c0037c643fadd8f2cf3cffc009",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1d0adf2fd94fb0c0037c643fadd8f2cf3cffc009",
+      "authoredAt": "2026-04-08T17:52:53.000Z",
+      "committedAt": "2026-04-29T12:51:20.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/bo: Fix bo leak on GGTT flag validation in xe_bo_init_locked()",
+      "subsystem": "drm/xe/bo",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "09a8f3c1c11977a6e10c167f26dd298790b31c32",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/09a8f3c1c11977a6e10c167f26dd298790b31c32",
+      "authoredAt": "2026-04-08T17:52:52.000Z",
+      "committedAt": "2026-04-29T12:51:20.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/bo: Fix bo leak on unaligned size validation in xe_bo_init_locked()",
+      "subsystem": "drm/xe/bo",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "a535a9217ca3f2fccedaafb2fddb4c48f27d36dc",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a535a9217ca3f2fccedaafb2fddb4c48f27d36dc",
       "authoredAt": "2026-04-08T15:30:13.000+01:00",
@@ -1040,6 +1166,24 @@
           "identity": "Codex:gpt-5-4",
           "agent": "Codex",
           "model": "gpt-5-4"
+        }
+      ]
+    },
+    {
+      "sha": "f3cc22d4df3ed58439ea7e21daa54c3608e03b78",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f3cc22d4df3ed58439ea7e21daa54c3608e03b78",
+      "authoredAt": "2026-04-08T02:06:47.000Z",
+      "committedAt": "2026-04-29T12:51:20.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe: Fix error cleanup in xe_exec_queue_create_ioctl()",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
