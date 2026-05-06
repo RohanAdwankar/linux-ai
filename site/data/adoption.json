@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-05-05T23:13:13.562Z",
+  "generatedAt": "2026-05-06T00:06:01.038Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 186,
-    "totalSubsystems": 95,
-    "totalAuthors": 42,
+    "totalCommits": 188,
+    "totalSubsystems": 96,
+    "totalAuthors": 43,
     "totalAgents": 38
   },
   "commits": [
+    {
+      "sha": "b34c82777a2c0648ee053595f4b290fd5249b093",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b34c82777a2c0648ee053595f4b290fd5249b093",
+      "authoredAt": "2026-04-30T10:27:47.000+01:00",
+      "committedAt": "2026-05-04T11:01:04.000-10:00",
+      "authorName": "David Carlier",
+      "committerName": "Tejun Heo",
+      "subject": "sched_ext: idle: Recheck prev_cpu after narrowing allowed mask",
+      "subsystem": "sched_ext",
+      "assistedBy": [
+        {
+          "raw": "Claude <noreply@anthropic.com>",
+          "identity": "Claude <noreply@anthropic.com>",
+          "agent": "Claude <noreply@anthropic.com>",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "4d8e74ad4585672489da6145b3328d415f50db82",
       "htmlUrl": "https://github.com/torvalds/linux/commit/4d8e74ad4585672489da6145b3328d415f50db82",
@@ -692,6 +710,24 @@
           "identity": "Gemini:gemini-3.1-pro-preview",
           "agent": "Gemini",
           "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "772a896a56e0e3ef9424a025cec9176f9d8f4552",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/772a896a56e0e3ef9424a025cec9176f9d8f4552",
+      "authoredAt": "2026-04-11T14:06:00.000+02:00",
+      "committedAt": "2026-04-13T22:43:56.000-04:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
         }
       ]
     },
