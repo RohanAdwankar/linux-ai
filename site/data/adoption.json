@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T15:38:19.894Z",
+  "generatedAt": "2026-05-07T17:59:00.339Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,8 +7,8 @@
   "stats": {
     "totalCommits": 121,
     "totalSubsystems": 64,
-    "totalAuthors": 28,
-    "totalAgents": 28
+    "totalAuthors": 27,
+    "totalAgents": 27
   },
   "commits": [
     {
@@ -246,66 +246,6 @@
       ]
     },
     {
-      "sha": "0ca0485e4b2e837ebb6cbd4f2451aba665a03e4b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0ca0485e4b2e837ebb6cbd4f2451aba665a03e4b",
-      "authoredAt": "2026-04-09T16:37:15.000+02:00",
-      "committedAt": "2026-04-16T10:28:16.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Konstantin Komarov",
-      "subject": "fs/ntfs3: validate rec->used in journal-replay file record check",
-      "subsystem": "fs/ntfs3",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "6522fe5c1b007c376fc5f2de1016c99a18b0af8e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6522fe5c1b007c376fc5f2de1016c99a18b0af8e",
-      "authoredAt": "2026-04-08T22:20:42.000-07:00",
-      "committedAt": "2026-04-10T09:28:59.000+02:00",
-      "authorName": "Kees Cook",
-      "committerName": "Johannes Berg",
-      "subject": "um: Disable GCOV_PROFILE_ALL on 32-bit UML with Clang 20/21",
-      "subsystem": "um",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6[1m]",
-          "identity": "Claude:claude-opus-4-6[1m]",
-          "agent": "Claude",
-          "model": "claude-opus-4-6[1m]"
-        }
-      ]
-    },
-    {
-      "sha": "91e901c65b4da02a6fd543e3f0049829ae9645b7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/91e901c65b4da02a6fd543e3f0049829ae9645b7",
-      "authoredAt": "2026-04-08T03:01:02.000-04:00",
-      "committedAt": "2026-04-08T09:25:22.000+02:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Johannes Berg",
-      "subject": "um: drivers: call kernel_strrchr() explicitly in cow_user.c",
-      "subsystem": "um",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        },
-        {
-          "raw": "Codex:gpt-5-4",
-          "identity": "Codex:gpt-5-4",
-          "agent": "Codex",
-          "model": "gpt-5-4"
-        }
-      ]
-    },
-    {
       "sha": "8f993d30b95dc9557a8a96ceca11abed674c8acb",
       "htmlUrl": "https://github.com/torvalds/linux/commit/8f993d30b95dc9557a8a96ceca11abed674c8acb",
       "authoredAt": "2026-04-07T11:02:54.000+02:00",
@@ -356,6 +296,78 @@
           "identity": "gregkh_clanker_t1000",
           "agent": "gregkh_clanker_t1000",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8545d9bc4bd0801e0bdfbfdfdc2532ff31236ddf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8545d9bc4bd0801e0bdfbfdfdc2532ff31236ddf",
+      "authoredAt": "2026-03-27T11:41:57.000-04:00",
+      "committedAt": "2026-03-30T10:00:40.000-06:00",
+      "authorName": "Harry Wentland",
+      "committerName": "Jonathan Corbet",
+      "subject": "scripts/checkpatch: add Assisted-by: tag validation",
+      "subsystem": "scripts/checkpatch",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "7a4790b1a2c9ff66bd7a95d8761d5e9fc9334ba9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7a4790b1a2c9ff66bd7a95d8761d5e9fc9334ba9",
+      "authoredAt": "2026-03-27T14:07:09.000+01:00",
+      "committedAt": "2026-03-30T08:37:01.000-05:00",
+      "authorName": "David Heidelberg",
+      "committerName": "Bjorn Andersson",
+      "subject": "arm64: dts: qcom: sdm845-oneplus: Describe Wi-Fi/BT properly",
+      "subsystem": "arm64",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "0a9c8715663998dc4d8eaa8f1a40440214906d96",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0a9c8715663998dc4d8eaa8f1a40440214906d96",
+      "authoredAt": "2026-03-27T14:07:08.000+01:00",
+      "committedAt": "2026-03-30T08:37:01.000-05:00",
+      "authorName": "David Heidelberg",
+      "committerName": "Bjorn Andersson",
+      "subject": "arm64: dts: qcom: sdm845-google: Describe Wi-Fi/BT properly",
+      "subsystem": "arm64",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "fcc25a291fbdca2c06c2c6602532050873f0c9de",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fcc25a291fbdca2c06c2c6602532050873f0c9de",
+      "authoredAt": "2026-03-26T17:17:46.000+05:30",
+      "committedAt": "2026-04-02T11:28:12.000-05:00",
+      "authorName": "Gautham R. Shenoy",
+      "committerName": "Mario Limonciello (AMD)",
+      "subject": "amd-pstate: Update cppc_req_cached in fast_switch case",
+      "subsystem": "amd-pstate",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6 review-prompts/linux",
+          "identity": "Claude:claude-opus-4.6 review-prompts/linux",
+          "agent": "Claude",
+          "model": "claude-opus-4.6 review-prompts/linux"
         }
       ]
     },
@@ -872,24 +884,6 @@
       "committerName": "Leon Romanovsky",
       "subject": "RDMA/uverbs: Update outdated reference to remove_commit_idr_uobject()",
       "subsystem": "rdma/uverbs",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "0b6c8e21157fb6dfa35163fdfe5c10387bcc6c41",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0b6c8e21157fb6dfa35163fdfe5c10387bcc6c41",
-      "authoredAt": "2026-03-21T18:58:31.000+08:00",
-      "committedAt": "2026-04-17T11:32:46.000+02:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Helge Deller",
-      "subject": "parisc: update outdated comments for renamed ccio_alloc_consistent()",
-      "subsystem": "parisc",
       "assistedBy": [
         {
           "raw": "unnamed:deepseek-v3.2 coccinelle",
