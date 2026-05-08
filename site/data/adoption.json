@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-08T16:46:08.404Z",
+  "generatedAt": "2026-05-08T18:45:30.141Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 196,
-    "totalSubsystems": 99,
-    "totalAuthors": 44,
-    "totalAgents": 38
+    "totalCommits": 199,
+    "totalSubsystems": 100,
+    "totalAuthors": 45,
+    "totalAgents": 39
   },
   "commits": [
     {
@@ -62,6 +62,42 @@
           "identity": "TRAE:GLM-5.1",
           "agent": "TRAE",
           "model": "GLM-5.1"
+        }
+      ]
+    },
+    {
+      "sha": "5e489c6c47a2ac15edbaca153b9348e42c1eacab",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5e489c6c47a2ac15edbaca153b9348e42c1eacab",
+      "authoredAt": "2026-04-30T08:57:17.000Z",
+      "committedAt": "2026-05-03T21:06:02.000-05:00",
+      "authorName": "Bjoern Doebel",
+      "committerName": "Steve French",
+      "subject": "smb: client: use kzalloc to zero-initialize security descriptor buffer",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-4.6",
+          "identity": "Kiro:claude-opus-4.6",
+          "agent": "Kiro",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "b87951a0ae9f95ca6590bf0939edced7d36929dd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b87951a0ae9f95ca6590bf0939edced7d36929dd",
+      "authoredAt": "2026-04-29T19:22:59.000Z",
+      "committedAt": "2026-05-05T16:15:00.000-07:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Matthew Brost",
+      "subject": "drm/xe/pf: Fix MMIO access using PF view instead of VF view during migration",
+      "subsystem": "drm/xe/pf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -314,6 +350,24 @@
           "identity": "gkh_clanker_t1000",
           "agent": "gkh_clanker_t1000",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f98b48151cc502ada59d9778f0112d21f2586ca3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f98b48151cc502ada59d9778f0112d21f2586ca3",
+      "authoredAt": "2026-04-20T10:47:47.000-04:00",
+      "committedAt": "2026-05-07T14:09:36.000-05:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Steve French",
+      "subject": "smb: client: validate dacloffset before building DACL pointers",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
