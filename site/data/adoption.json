@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-09T15:14:33.405Z",
+  "generatedAt": "2026-05-09T16:10:37.039Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 199,
-    "totalSubsystems": 100,
+    "totalCommits": 202,
+    "totalSubsystems": 101,
     "totalAuthors": 45,
     "totalAgents": 39
   },
@@ -146,6 +146,24 @@
       "committerName": "Takashi Iwai",
       "subject": "ALSA: hda: Remove duplicate cmedia entries in codecs Makefile",
       "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6 kconfiglint",
+          "identity": "Claude:claude-opus-4-6 kconfiglint",
+          "agent": "Claude",
+          "model": "claude-opus-4-6 kconfiglint"
+        }
+      ]
+    },
+    {
+      "sha": "1a1414c675ee1b637bbe3840241555a49c61b123",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1a1414c675ee1b637bbe3840241555a49c61b123",
+      "authoredAt": "2026-04-25T20:03:19.000-04:00",
+      "committedAt": "2026-04-30T11:19:00.000-07:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Guenter Roeck",
+      "subject": "hwmon: Remove stale CONFIG_SENSORS_SBRMI Makefile reference",
+      "subsystem": "hwmon",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-6 kconfiglint",
@@ -344,6 +362,42 @@
       "committerName": "Danilo Krummrich",
       "subject": "drm/nouveau: fix u32 overflow in pushbuf reloc bounds check",
       "subsystem": "drm/nouveau",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "b38e53cbfb9d84732e5984fbd73e128d592415c5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b38e53cbfb9d84732e5984fbd73e128d592415c5",
+      "authoredAt": "2026-04-20T18:11:04.000+02:00",
+      "committedAt": "2026-04-27T10:00:18.000-06:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: usblp: fix uninitialized heap leak via LPGETSTATUS ioctl",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "7a400c6fe3617e31e690e3f7ca37bb335e0498f3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7a400c6fe3617e31e690e3f7ca37bb335e0498f3",
+      "authoredAt": "2026-04-20T18:11:03.000+02:00",
+      "committedAt": "2026-04-27T10:00:16.000-06:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: usblp: fix heap leak in IEEE 1284 device ID via short response",
+      "subsystem": "usb",
       "assistedBy": [
         {
           "raw": "gkh_clanker_t1000",
