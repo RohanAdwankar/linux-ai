@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-13T16:33:47.681Z",
+  "generatedAt": "2026-05-13T19:08:18.758Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 202,
-    "totalSubsystems": 101,
-    "totalAuthors": 45,
-    "totalAgents": 39
+    "totalCommits": 208,
+    "totalSubsystems": 102,
+    "totalAuthors": 46,
+    "totalAgents": 40
   },
   "commits": [
     {
@@ -26,6 +26,114 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "effc0a39b8e0f30670fe24f51e44329d4324e566",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/effc0a39b8e0f30670fe24f51e44329d4324e566",
+      "authoredAt": "2026-05-01T12:21:49.000+01:00",
+      "committedAt": "2026-05-07T14:12:42.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Pre-check vcpu memcache for host->guest donate",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
+        }
+      ]
+    },
+    {
+      "sha": "8234409ffb656970e2f5b29e416f041419980bef",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8234409ffb656970e2f5b29e416f041419980bef",
+      "authoredAt": "2026-05-01T12:21:48.000+01:00",
+      "committedAt": "2026-05-07T14:12:42.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Pre-check vcpu memcache for host->guest share",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
+        }
+      ]
+    },
+    {
+      "sha": "5130d450d1488e62e1b5310f41910a3c7320e827",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5130d450d1488e62e1b5310f41910a3c7320e827",
+      "authoredAt": "2026-05-01T12:21:47.000+01:00",
+      "committedAt": "2026-05-07T14:12:41.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Seed pkvm_ownership_selftest vcpu memcache",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
+        }
+      ]
+    },
+    {
+      "sha": "d4d215e5b81ba5acb17752cab12c514a8062bada",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d4d215e5b81ba5acb17752cab12c514a8062bada",
+      "authoredAt": "2026-05-01T12:21:46.000+01:00",
+      "committedAt": "2026-05-07T14:12:41.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Fix __deactivate_fgt macro parameter typo",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
+        }
+      ]
+    },
+    {
+      "sha": "300fac4cc266b7782d88602b6b6a7faf31ce6405",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/300fac4cc266b7782d88602b6b6a7faf31ce6405",
+      "authoredAt": "2026-05-01T12:21:45.000+01:00",
+      "committedAt": "2026-05-07T14:12:41.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Guard against NULL vcpu on VHE hyp panic path",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
+        }
+      ]
+    },
+    {
+      "sha": "d7396a72eae795d7f968fb451237b6ac1616d712",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d7396a72eae795d7f968fb451237b6ac1616d712",
+      "authoredAt": "2026-05-01T12:21:44.000+01:00",
+      "committedAt": "2026-05-07T14:12:41.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Make EL2 exception entry and exit context-synchronization events",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
         }
       ]
     },
