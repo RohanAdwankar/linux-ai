@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-15T23:13:31.602Z",
+  "generatedAt": "2026-05-16T00:08:57.885Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 211,
-    "totalSubsystems": 104,
-    "totalAuthors": 48,
-    "totalAgents": 40
+    "totalCommits": 218,
+    "totalSubsystems": 109,
+    "totalAuthors": 51,
+    "totalAgents": 45
   },
   "commits": [
     {
@@ -48,6 +48,24 @@
       ]
     },
     {
+      "sha": "1d59f36e95f7f7134db0e313c9d787cb0adb2153",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1d59f36e95f7f7134db0e313c9d787cb0adb2153",
+      "authoredAt": "2026-05-11T18:24:43.000+02:00",
+      "committedAt": "2026-05-14T15:32:29.000+02:00",
+      "authorName": "Thomas Hellström",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/ttm: Fix ttm_bo_shrink() infinite LRU walk on backup failure",
+      "subsystem": "drm/ttm",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-opus-4.6",
+          "identity": "GitHub_Copilot:claude-opus-4.6",
+          "agent": "GitHub_Copilot",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "277740023def559a4a2ddc3e8e784ee37a0f16a9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/277740023def559a4a2ddc3e8e784ee37a0f16a9",
       "authoredAt": "2026-05-10T23:21:38.000-07:00",
@@ -62,6 +80,78 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "591711b32681a04b57d00c2a404658f8419a081c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/591711b32681a04b57d00c2a404658f8419a081c",
+      "authoredAt": "2026-05-08T18:09:20.000+02:00",
+      "committedAt": "2026-05-14T13:12:57.000+02:00",
+      "authorName": "Thomas Hellström",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/ttm: Convert -EAGAIN from dmem_cgroup_try_charge to -ENOSPC",
+      "subsystem": "drm/ttm",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-sonnet-4.6",
+          "identity": "GitHub_Copilot:claude-sonnet-4.6",
+          "agent": "GitHub_Copilot",
+          "model": "claude-sonnet-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "981bedbbe61364fcc3a3b87ebaf648a66cd07108",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/981bedbbe61364fcc3a3b87ebaf648a66cd07108",
+      "authoredAt": "2026-05-08T11:26:36.000+01:00",
+      "committedAt": "2026-05-11T16:46:12.000-04:00",
+      "authorName": "Matthew Auld",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/dma-buf: handle empty bo and UAF races",
+      "subsystem": "drm/xe/dma-buf",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3 #debug",
+          "identity": "Gemini:gemini-3 #debug",
+          "agent": "Gemini",
+          "model": "gemini-3 #debug"
+        }
+      ]
+    },
+    {
+      "sha": "c64a647c84f30be368404f50f9052ed6c75c0f17",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c64a647c84f30be368404f50f9052ed6c75c0f17",
+      "authoredAt": "2026-05-07T08:35:46.000-06:00",
+      "committedAt": "2026-05-13T13:58:27.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/pci: fix dma-buf kref underflow after revoke",
+      "subsystem": "vfio/pci",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "1ae15b6c7965d137eef21f2cc7d367b29cb88369",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1ae15b6c7965d137eef21f2cc7d367b29cb88369",
+      "authoredAt": "2026-05-05T14:39:20.000+05:30",
+      "committedAt": "2026-05-12T08:05:24.000+01:00",
+      "authorName": "Chaitanya Kumar Borah",
+      "committerName": "Tvrtko Ursulin",
+      "subject": "drm/i915/dp: Fix VSC dynamic range signaling for RGB formats",
+      "subsystem": "drm/i915/dp",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:GPT-5.4",
+          "identity": "GitHub-Copilot:GPT-5.4",
+          "agent": "GitHub-Copilot",
+          "model": "GPT-5.4"
         }
       ]
     },
@@ -282,6 +372,24 @@
       ]
     },
     {
+      "sha": "b2ed01e7ad3de80333e9b962a44024b094bc0b2b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b2ed01e7ad3de80333e9b962a44024b094bc0b2b",
+      "authoredAt": "2026-04-28T11:44:42.000+02:00",
+      "committedAt": "2026-05-08T17:19:44.000+02:00",
+      "authorName": "Thomas Hellström",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/ttm: Fix ttm_bo_swapout() infinite LRU walk on swapout failure",
+      "subsystem": "drm/ttm",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-sonnet-4.6",
+          "identity": "GitHub_Copilot:claude-sonnet-4.6",
+          "agent": "GitHub_Copilot",
+          "model": "claude-sonnet-4.6"
+        }
+      ]
+    },
+    {
       "sha": "b336e40c62fbdc4b8a1f09a4ada31f4a90c69eb1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b336e40c62fbdc4b8a1f09a4ada31f4a90c69eb1",
       "authoredAt": "2026-04-27T17:56:30.000+02:00",
@@ -422,6 +530,24 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "07d0f496fe7ec5abe3bee7e38be709521567bb33",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/07d0f496fe7ec5abe3bee7e38be709521567bb33",
+      "authoredAt": "2026-04-21T19:26:13.000Z",
+      "committedAt": "2026-05-11T10:07:52.000+02:00",
+      "authorName": "Jose Fernandez (Anthropic)",
+      "committerName": "Joerg Roedel",
+      "subject": "iommu/amd: Bounds-check devid in __rlookup_amd_iommu()",
+      "subsystem": "iommu/amd",
+      "assistedBy": [
+        {
+          "raw": "Claude:unspecified",
+          "identity": "Claude:unspecified",
+          "agent": "Claude",
+          "model": "unspecified"
         }
       ]
     },
