@@ -1,16 +1,124 @@
 {
-  "generatedAt": "2026-05-21T21:49:57.374Z",
+  "generatedAt": "2026-05-21T23:17:15.924Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 221,
-    "totalSubsystems": 110,
-    "totalAuthors": 53,
-    "totalAgents": 46
+    "totalCommits": 229,
+    "totalSubsystems": 112,
+    "totalAuthors": 54,
+    "totalAgents": 47
   },
   "commits": [
+    {
+      "sha": "a6e6ccd5bd07155c2add6c74ce1a5e68ad3b95ea",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a6e6ccd5bd07155c2add6c74ce1a5e68ad3b95ea",
+      "authoredAt": "2026-05-15T11:17:18.000-04:00",
+      "committedAt": "2026-05-20T11:20:37.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: consume only present negotiated TTLM maps",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "d3f7d17960ed50df3a6709c5158caff989c8c905",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d3f7d17960ed50df3a6709c5158caff989c8c905",
+      "authoredAt": "2026-05-15T10:38:19.000-04:00",
+      "committedAt": "2026-05-20T16:35:47.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: MGMT: validate Add Extended Advertising Data length",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "84c24fb151fc1179355296d7ff29129ac7c42129",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/84c24fb151fc1179355296d7ff29129ac7c42129",
+      "authoredAt": "2026-05-15T07:25:25.000+01:00",
+      "committedAt": "2026-05-20T16:35:47.000-04:00",
+      "authorName": "David Carlier",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: ISO: drop ISO_END frames received without prior ISO_START",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "1fef6614673ff0846d30acdeeaf3cf98bb5f6116",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1fef6614673ff0846d30acdeeaf3cf98bb5f6116",
+      "authoredAt": "2026-05-13T11:55:21.000+01:00",
+      "committedAt": "2026-05-14T16:24:45.000+02:00",
+      "authorName": "David Carlier",
+      "committerName": "Antonio Quartulli",
+      "subject": "ovpn: respect peer refcount in CMD_NEW_PEER error path",
+      "subsystem": "ovpn",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "775d8d7ad02aa345e1588424a6a8b9ae49fb9012",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/775d8d7ad02aa345e1588424a6a8b9ae49fb9012",
+      "authoredAt": "2026-05-13T11:55:20.000+01:00",
+      "committedAt": "2026-05-14T16:24:45.000+02:00",
+      "authorName": "David Carlier",
+      "committerName": "Antonio Quartulli",
+      "subject": "ovpn: tcp - use cached peer pointer in ovpn_tcp_close()",
+      "subsystem": "ovpn",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "c2d2856cf6c9efccdf5e0d2564162ec616ce58cf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c2d2856cf6c9efccdf5e0d2564162ec616ce58cf",
+      "authoredAt": "2026-05-12T14:54:20.000+01:00",
+      "committedAt": "2026-05-21T08:24:59.000-04:00",
+      "authorName": "David Carlier",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Fix nr_subbufs initialization in simple_ring_buffer_init_mm()",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
     {
       "sha": "f9e1c1324b4d98d591a6f7568fdebf5cf456dfc2",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f9e1c1324b4d98d591a6f7568fdebf5cf456dfc2",
@@ -48,6 +156,24 @@
       ]
     },
     {
+      "sha": "b6a91f68ebfed9c38e0e9150f58a9b85da07181c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b6a91f68ebfed9c38e0e9150f58a9b85da07181c",
+      "authoredAt": "2026-05-12T01:30:41.000+08:00",
+      "committedAt": "2026-05-16T12:19:56.000+02:00",
+      "authorName": "Yizhou Zhao",
+      "committerName": "Pablo Neira Ayuso",
+      "subject": "netfilter: nft_inner: Fix IPv6 inner_thoff desync",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "GLM:5.1 Z.ai",
+          "identity": "GLM:5.1 Z.ai",
+          "agent": "GLM",
+          "model": "5.1 Z.ai"
+        }
+      ]
+    },
+    {
       "sha": "1d59f36e95f7f7134db0e313c9d787cb0adb2153",
       "htmlUrl": "https://github.com/torvalds/linux/commit/1d59f36e95f7f7134db0e313c9d787cb0adb2153",
       "authoredAt": "2026-05-11T18:24:43.000+02:00",
@@ -62,6 +188,24 @@
           "identity": "GitHub_Copilot:claude-opus-4.6",
           "agent": "GitHub_Copilot",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "3374ef8cf99368a40f7efd51a2a375a4c5dc6f0d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3374ef8cf99368a40f7efd51a2a375a4c5dc6f0d",
+      "authoredAt": "2026-05-11T08:26:41.000-04:00",
+      "committedAt": "2026-05-14T09:57:45.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: L2CAP: ecred_reconfigure: send packed pdu, not stack pointer",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
