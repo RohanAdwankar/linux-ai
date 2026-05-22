@@ -1,16 +1,70 @@
 {
-  "generatedAt": "2026-05-22T18:05:38.958Z",
+  "generatedAt": "2026-05-22T20:11:35.058Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 229,
-    "totalSubsystems": 112,
-    "totalAuthors": 54,
-    "totalAgents": 47
+    "totalCommits": 233,
+    "totalSubsystems": 113,
+    "totalAuthors": 56,
+    "totalAgents": 49
   },
   "commits": [
+    {
+      "sha": "d1ebfce2c1d161186a82e77590bf7da2ea1bce91",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d1ebfce2c1d161186a82e77590bf7da2ea1bce91",
+      "authoredAt": "2026-05-17T20:11:50.000-04:00",
+      "committedAt": "2026-05-21T11:15:17.000-05:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Steve French",
+      "subject": "smb: client: require net admin for CIFS SWN netlink",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "cf18e36455603d65d4745de83e2d1743c54ada47",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cf18e36455603d65d4745de83e2d1743c54ada47",
+      "authoredAt": "2026-05-17T17:30:10.000-04:00",
+      "committedAt": "2026-05-18T08:59:12.000-06:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jens Axboe",
+      "subject": "io_uring: propagate array_index_nospec opcode into req->opcode",
+      "subsystem": "io_uring",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "3da1fdf4efbc490041eb4f836bf596201203f8f2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3da1fdf4efbc490041eb4f836bf596201203f8f2",
+      "authoredAt": "2026-05-16T21:15:39.000Z",
+      "committedAt": "2026-05-19T10:43:05.000-05:00",
+      "authorName": "Asim Viladi Oglu Manizada",
+      "committerName": "Steve French",
+      "subject": "smb: client: reject userspace cifs.spnego descriptions",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
+          "identity": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
+          "agent": "avom-custom-harness",
+          "model": "gpt-5.5-qwen3.6-mod-mix"
+        }
+      ]
+    },
     {
       "sha": "a6e6ccd5bd07155c2add6c74ce1a5e68ad3b95ea",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a6e6ccd5bd07155c2add6c74ce1a5e68ad3b95ea",
@@ -152,6 +206,30 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "3812a9e84265a5cdd90d29fe8d97a023e91fb945",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3812a9e84265a5cdd90d29fe8d97a023e91fb945",
+      "authoredAt": "2026-05-12T13:01:38.000+05:30",
+      "committedAt": "2026-05-13T09:34:55.000+02:00",
+      "authorName": "Hardik Prakash",
+      "committerName": "Linus Walleij",
+      "subject": "pinctrl-amd: enable IRQ for WACF2200 touchscreen on Lenovo Yoga 7 14AGP11",
+      "subsystem": "pinctrl-amd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        },
+        {
+          "raw": "GPT-Codex:gpt-5.2-codex",
+          "identity": "GPT-Codex:gpt-5.2-codex",
+          "agent": "GPT-Codex",
+          "model": "gpt-5.2-codex"
         }
       ]
     },
