@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-05-24T19:42:21.977Z",
+  "generatedAt": "2026-05-24T21:12:42.473Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 243,
-    "totalSubsystems": 118,
-    "totalAuthors": 57,
-    "totalAgents": 53
+    "totalCommits": 249,
+    "totalSubsystems": 120,
+    "totalAuthors": 59,
+    "totalAgents": 54
   },
   "commits": [
+    {
+      "sha": "44126343d58c68adaa8343fbf1c07dd20078c35e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/44126343d58c68adaa8343fbf1c07dd20078c35e",
+      "authoredAt": "2026-05-20T12:00:50.000-05:00",
+      "committedAt": "2026-05-20T14:15:07.000-07:00",
+      "authorName": "Tom Lendacky",
+      "committerName": "Borislav Petkov (AMD)",
+      "subject": "x86/mm: Disable broadcast TLB flush when PCID is disabled",
+      "subsystem": "x86/mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
     {
       "sha": "237557b8a81ab948e8332f7c0058e758f081c0a3",
       "htmlUrl": "https://github.com/torvalds/linux/commit/237557b8a81ab948e8332f7c0058e758f081c0a3",
@@ -26,6 +44,42 @@
           "identity": "gkh_clanker_t1000",
           "agent": "gkh_clanker_t1000",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f19c354dbd457759dfcf1195ab4bdba2bb568323",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f19c354dbd457759dfcf1195ab4bdba2bb568323",
+      "authoredAt": "2026-05-19T09:50:42.000-04:00",
+      "committedAt": "2026-05-20T08:08:17.000+01:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: vgic: Free private_irqs when init fails after allocation",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "9ce754ed8e7ab4e3999767ce1505f85c449ccb07",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9ce754ed8e7ab4e3999767ce1505f85c449ccb07",
+      "authoredAt": "2026-05-19T09:25:19.000-04:00",
+      "committedAt": "2026-05-20T08:08:11.000+01:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: vgic-its: Reject restored DTE with out-of-range num_eventid_bits",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -62,6 +116,24 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "fdb69d401967fd88d27982a7e4984b2a3a4f0314",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fdb69d401967fd88d27982a7e4984b2a3a4f0314",
+      "authoredAt": "2026-05-17T12:44:14.000Z",
+      "committedAt": "2026-05-18T10:19:18.000+05:30",
+      "authorName": "Jiakai Xu",
+      "committerName": "Anup Patel",
+      "subject": "RISC-V: KVM: Fix NULL pointer dereference in SBI v0.1 SEND_IPI handler",
+      "subsystem": "risc-v",
+      "assistedBy": [
+        {
+          "raw": "OpenClaw:DeepSeek-V3.2",
+          "identity": "OpenClaw:DeepSeek-V3.2",
+          "agent": "OpenClaw",
+          "model": "DeepSeek-V3.2"
         }
       ]
     },
@@ -188,6 +260,24 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "c7832534a8160276cccb9a8cc8cafb5614c579d0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c7832534a8160276cccb9a8cc8cafb5614c579d0",
+      "authoredAt": "2026-05-14T08:17:51.000Z",
+      "committedAt": "2026-05-18T10:19:18.000+05:30",
+      "authorName": "Jiakai Xu",
+      "committerName": "Anup Patel",
+      "subject": "RISC-V: KVM: Fix sign extension for MMIO loads",
+      "subsystem": "risc-v",
+      "assistedBy": [
+        {
+          "raw": "OpenClaw:DeepSeek-V3.2",
+          "identity": "OpenClaw:DeepSeek-V3.2",
+          "agent": "OpenClaw",
+          "model": "DeepSeek-V3.2"
         }
       ]
     },
@@ -1520,6 +1610,24 @@
           "identity": "Codex:gpt-5-4",
           "agent": "Codex",
           "model": "gpt-5-4"
+        }
+      ]
+    },
+    {
+      "sha": "653f17c742601004774e3f8fb79d387d5ae6103e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/653f17c742601004774e3f8fb79d387d5ae6103e",
+      "authoredAt": "2026-04-15T07:52:16.000Z",
+      "committedAt": "2026-05-18T10:19:18.000+05:30",
+      "authorName": "Jiakai Xu",
+      "committerName": "Anup Patel",
+      "subject": "RISC-V: KVM: Fix invalid HVA warning in steal-time recording",
+      "subsystem": "risc-v",
+      "assistedBy": [
+        {
+          "raw": "OpenClaw:DeepSeek-V3.2",
+          "identity": "OpenClaw:DeepSeek-V3.2",
+          "agent": "OpenClaw",
+          "model": "DeepSeek-V3.2"
         }
       ]
     },
