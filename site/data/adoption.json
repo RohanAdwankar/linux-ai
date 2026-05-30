@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-30T15:37:34.570Z",
+  "generatedAt": "2026-05-30T17:30:38.234Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 257,
-    "totalSubsystems": 121,
-    "totalAuthors": 65,
-    "totalAgents": 59
+    "totalCommits": 279,
+    "totalSubsystems": 125,
+    "totalAuthors": 68,
+    "totalAgents": 62
   },
   "commits": [
     {
@@ -62,6 +62,42 @@
           "identity": "Claude:claude-sonnet-4-6",
           "agent": "Claude",
           "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "7f87763f47a3c22fb50265a00619ef10f2394b18",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7f87763f47a3c22fb50265a00619ef10f2394b18",
+      "authoredAt": "2026-05-23T15:27:47.000+02:00",
+      "committedAt": "2026-05-25T07:31:53.000-04:00",
+      "authorName": "Berkant Koc",
+      "committerName": "Hamza Mahfooz",
+      "subject": "drm/hyperv: validate VMBus packet size in receive callback",
+      "subsystem": "drm/hyperv",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7 berkoc-pipeline",
+          "identity": "Claude:claude-opus-4-7 berkoc-pipeline",
+          "agent": "Claude",
+          "model": "claude-opus-4-7 berkoc-pipeline"
+        }
+      ]
+    },
+    {
+      "sha": "9f9bfc80c67f35a275820da7e83a35dface08281",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9f9bfc80c67f35a275820da7e83a35dface08281",
+      "authoredAt": "2026-05-22T22:54:42.000+08:00",
+      "committedAt": "2026-05-23T09:35:26.000+02:00",
+      "authorName": "Zhang Cen",
+      "committerName": "Johan Hovold",
+      "subject": "USB: serial: cypress_m8: validate interrupt packet headers",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -120,6 +156,24 @@
       ]
     },
     {
+      "sha": "13d33b9ef67066c77c84273fac5a1d3fde3533d1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/13d33b9ef67066c77c84273fac5a1d3fde3533d1",
+      "authoredAt": "2026-05-19T22:08:17.000+02:00",
+      "committedAt": "2026-05-25T07:31:36.000-04:00",
+      "authorName": "Berkant Koc",
+      "committerName": "Hamza Mahfooz",
+      "subject": "drm/hyperv: validate resolution_count and fix WIN8 fallback",
+      "subsystem": "drm/hyperv",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7 berkoc-pipeline",
+          "identity": "Claude:claude-opus-4-7 berkoc-pipeline",
+          "agent": "Claude",
+          "model": "claude-opus-4-7 berkoc-pipeline"
+        }
+      ]
+    },
+    {
       "sha": "92170e6afe927ab2792a3f71902845789c8e31b1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/92170e6afe927ab2792a3f71902845789c8e31b1",
       "authoredAt": "2026-05-19T12:36:14.000-07:00",
@@ -174,6 +228,24 @@
       ]
     },
     {
+      "sha": "4ce058df2ee02cc2a0f0fd5cd64ce6f1482a0b65",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4ce058df2ee02cc2a0f0fd5cd64ce6f1482a0b65",
+      "authoredAt": "2026-05-19T19:11:50.000+08:00",
+      "committedAt": "2026-05-20T16:22:46.000+02:00",
+      "authorName": "Zhang Cen",
+      "committerName": "Johan Hovold",
+      "subject": "USB: serial: belkin_sa: validate interrupt status length",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "d1ebfce2c1d161186a82e77590bf7da2ea1bce91",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d1ebfce2c1d161186a82e77590bf7da2ea1bce91",
       "authoredAt": "2026-05-17T20:11:50.000-04:00",
@@ -200,6 +272,24 @@
       "committerName": "Jens Axboe",
       "subject": "io_uring: propagate array_index_nospec opcode into req->opcode",
       "subsystem": "io_uring",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "2e7f55eb408c3f72ee1957a0d0ad11d8648a6379",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2e7f55eb408c3f72ee1957a0d0ad11d8648a6379",
+      "authoredAt": "2026-05-17T09:17:42.000-04:00",
+      "committedAt": "2026-05-27T11:54:18.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: fix lock leak on ENOMEM in AMDGPU_GEM_OP_GET_MAPPING_INFO",
+      "subsystem": "drm/amdgpu",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-7",
@@ -372,6 +462,24 @@
       ]
     },
     {
+      "sha": "d7486952bf74e546ee3748fb14b2d07881fa6273",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d7486952bf74e546ee3748fb14b2d07881fa6273",
+      "authoredAt": "2026-05-14T19:10:06.000+02:00",
+      "committedAt": "2026-05-18T15:14:57.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: ucsi: ccg: reject firmware images without a ':' record header",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "c7ee0b73c8c4dfb7eafa49aaef5247890862a948",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c7ee0b73c8c4dfb7eafa49aaef5247890862a948",
       "authoredAt": "2026-05-14T20:58:38.000+08:00",
@@ -440,6 +548,132 @@
           "identity": "Codex:26.506.31004",
           "agent": "Codex",
           "model": "26.506.31004"
+        }
+      ]
+    },
+    {
+      "sha": "288a81a8507052bcfbf884d39a463c44c42c5fd9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/288a81a8507052bcfbf884d39a463c44c42c5fd9",
+      "authoredAt": "2026-05-13T17:52:55.000+02:00",
+      "committedAt": "2026-05-19T12:26:04.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: ucsi: validate connector number in ucsi_connector_change()",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "167dd8d12226587ee554f520aed0256b7769cd5d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/167dd8d12226587ee554f520aed0256b7769cd5d",
+      "authoredAt": "2026-05-13T17:52:54.000+02:00",
+      "committedAt": "2026-05-19T12:25:59.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: ucsi: displayport: NAK DP_CMD_CONFIGURE without a payload VDO",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3389c149c68c3fea61910ad5d34f7bf3bff44e32",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3389c149c68c3fea61910ad5d34f7bf3bff44e32",
+      "authoredAt": "2026-05-13T17:52:53.000+02:00",
+      "committedAt": "2026-05-19T12:25:54.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: tcpm: bound altmode_desc[] per iteration in svdm_consume_modes()",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8fbc349e8383125dd2d8de1c1e926279d398ab17",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8fbc349e8383125dd2d8de1c1e926279d398ab17",
+      "authoredAt": "2026-05-13T17:52:51.000+02:00",
+      "committedAt": "2026-05-19T12:25:49.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: tcpm: validate VDO count in Discover Identity ACK handlers",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "aa2f716327be1818e1cb156da8a2844804aaec2f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/aa2f716327be1818e1cb156da8a2844804aaec2f",
+      "authoredAt": "2026-05-13T17:52:50.000+02:00",
+      "committedAt": "2026-05-19T12:25:40.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: tcpm/tcpci_maxim: validate header NDO against RX_BYTE_CNT",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8a18f896e667df491331371b55d4ad644dc51d60",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8a18f896e667df491331371b55d4ad644dc51d60",
+      "authoredAt": "2026-05-13T17:52:49.000+02:00",
+      "committedAt": "2026-05-19T12:25:35.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: altmodes/displayport: validate count before reading Status Update VDO",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "4af7ad0e6d7aa4403dbb1dac7b9659b0421efcaa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4af7ad0e6d7aa4403dbb1dac7b9659b0421efcaa",
+      "authoredAt": "2026-05-13T17:52:48.000+02:00",
+      "committedAt": "2026-05-19T12:25:27.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: wcove: don't write past struct pd_message in wcove_read_rx_buffer()",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
         }
       ]
     },
@@ -644,6 +878,78 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "928abe19fbf0127003abcb1ea69cabc1c897d0ab",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/928abe19fbf0127003abcb1ea69cabc1c897d0ab",
+      "authoredAt": "2026-05-10T19:16:58.000-04:00",
+      "committedAt": "2026-05-11T11:32:03.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Mika Westerberg",
+      "subject": "thunderbolt: property: Cap recursion depth in __tb_property_parse_dir()",
+      "subsystem": "thunderbolt",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        },
+        {
+          "raw": "Codex:gpt-5-4",
+          "identity": "Codex:gpt-5-4",
+          "agent": "Codex",
+          "model": "gpt-5-4"
+        }
+      ]
+    },
+    {
+      "sha": "de21b59c29e31c5108ddc04210631bbfab81b997",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/de21b59c29e31c5108ddc04210631bbfab81b997",
+      "authoredAt": "2026-05-10T19:16:57.000-04:00",
+      "committedAt": "2026-05-11T11:31:55.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Mika Westerberg",
+      "subject": "thunderbolt: property: Reject dir_len < 4 to prevent size_t underflow",
+      "subsystem": "thunderbolt",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        },
+        {
+          "raw": "Codex:gpt-5-4",
+          "identity": "Codex:gpt-5-4",
+          "agent": "Codex",
+          "model": "gpt-5-4"
+        }
+      ]
+    },
+    {
+      "sha": "01deda0152066c6c955f0619114ea6afa070aaec",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/01deda0152066c6c955f0619114ea6afa070aaec",
+      "authoredAt": "2026-05-10T19:16:56.000-04:00",
+      "committedAt": "2026-05-11T11:31:48.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Mika Westerberg",
+      "subject": "thunderbolt: property: Reject u32 wrap in tb_property_entry_valid()",
+      "subsystem": "thunderbolt",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        },
+        {
+          "raw": "Codex:gpt-5-4",
+          "identity": "Codex:gpt-5-4",
+          "agent": "Codex",
+          "model": "gpt-5-4"
         }
       ]
     },
@@ -1572,6 +1878,42 @@
       ]
     },
     {
+      "sha": "2796646f6d892c1eb6818c7ca41fdfa12568e8d1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2796646f6d892c1eb6818c7ca41fdfa12568e8d1",
+      "authoredAt": "2026-04-19T12:12:27.000-04:00",
+      "committedAt": "2026-05-22T11:20:43.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: gadget: f_fs: serialize DMABUF cancel against request completion",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "4e036c10e7f4df5d951c69cc3697bc8e209c6d02",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4e036c10e7f4df5d951c69cc3697bc8e209c6d02",
+      "authoredAt": "2026-04-19T12:03:59.000-04:00",
+      "committedAt": "2026-05-22T11:20:30.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: gadget: f_fs: copy only received bytes on short ep0 read",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "1114c87aa6f195cf07da55a27b2122ae26557b26",
       "htmlUrl": "https://github.com/torvalds/linux/commit/1114c87aa6f195cf07da55a27b2122ae26557b26",
       "authoredAt": "2026-04-18T12:21:41.000-04:00",
@@ -1892,6 +2234,24 @@
           "identity": "Codex:gpt-5-4",
           "agent": "Codex",
           "model": "gpt-5-4"
+        }
+      ]
+    },
+    {
+      "sha": "4c19719eb8b8df08c5bec7c499f73ddaea6f09fc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4c19719eb8b8df08c5bec7c499f73ddaea6f09fc",
+      "authoredAt": "2026-04-14T12:02:34.000Z",
+      "committedAt": "2026-05-22T11:55:33.000+02:00",
+      "authorName": "Alice Ryhl",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "rust_binder: avoid calling pending_oneway_finished() on TF_UPDATE_TXN",
+      "subsystem": "rust_binder",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini",
+          "identity": "Antigravity:gemini",
+          "agent": "Antigravity",
+          "model": "gemini"
         }
       ]
     },
@@ -2306,6 +2666,60 @@
       "committerName": "Takashi Iwai",
       "subject": "ALSA: usx2y: us144mkii: fix NULL deref on missing interface 0",
       "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "474f8928d50b09f7dcf507049f08732640b88b49",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/474f8928d50b09f7dcf507049f08732640b88b49",
+      "authoredAt": "2026-04-09T15:40:49.000+02:00",
+      "committedAt": "2026-05-15T12:01:38.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Jonathan Cameron",
+      "subject": "iio: imu: adis16550: fix stack leak in trigger handler",
+      "subsystem": "iio",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "c9d8e9adaa63150ef7e833480b799d0bab83a276",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c9d8e9adaa63150ef7e833480b799d0bab83a276",
+      "authoredAt": "2026-04-09T15:40:48.000+02:00",
+      "committedAt": "2026-05-15T12:01:38.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Jonathan Cameron",
+      "subject": "iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer",
+      "subsystem": "iio",
+      "assistedBy": [
+        {
+          "raw": "gregkh_clanker_t1000",
+          "identity": "gregkh_clanker_t1000",
+          "agent": "gregkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "387c86b582e0782ab332e7bfcd4e6e3f93922961",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/387c86b582e0782ab332e7bfcd4e6e3f93922961",
+      "authoredAt": "2026-04-09T15:40:47.000+02:00",
+      "committedAt": "2026-05-15T12:01:38.000+01:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Jonathan Cameron",
+      "subject": "iio: pressure: bmp280: fix stack leak in bmp580 trigger handler",
+      "subsystem": "iio",
       "assistedBy": [
         {
           "raw": "gregkh_clanker_t1000",
