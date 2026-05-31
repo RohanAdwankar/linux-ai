@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-31T20:33:25.861Z",
+  "generatedAt": "2026-05-31T22:14:42.484Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 279,
-    "totalSubsystems": 125,
-    "totalAuthors": 68,
+    "totalCommits": 289,
+    "totalSubsystems": 127,
+    "totalAuthors": 72,
     "totalAgents": 62
   },
   "commits": [
@@ -138,6 +138,42 @@
       ]
     },
     {
+      "sha": "171022c7d594c133a45f92357a2a91475edabe20",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/171022c7d594c133a45f92357a2a91475edabe20",
+      "authoredAt": "2026-05-20T10:25:44.000-04:00",
+      "committedAt": "2026-05-30T18:21:47.000+02:00",
+      "authorName": "Henri A",
+      "committerName": "Hans Verkuil",
+      "subject": "media: rc: igorplugusb: fix control request setup packet",
+      "subsystem": "media",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "a9a39233ec1fc9f97ea1340a4d09bb7ec2be5153",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a9a39233ec1fc9f97ea1340a4d09bb7ec2be5153",
+      "authoredAt": "2026-05-20T09:30:15.000-04:00",
+      "committedAt": "2026-05-22T21:54:47.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: scsi_transport_fc: Widen FPIN pname walker counter to u32",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "237557b8a81ab948e8332f7c0058e758f081c0a3",
       "htmlUrl": "https://github.com/torvalds/linux/commit/237557b8a81ab948e8332f7c0058e758f081c0a3",
       "authoredAt": "2026-05-20T15:05:04.000+02:00",
@@ -152,6 +188,24 @@
           "identity": "gkh_clanker_t1000",
           "agent": "gkh_clanker_t1000",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "e4bb73bf3ac11b4a93634660345b9d764a4a80df",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e4bb73bf3ac11b4a93634660345b9d764a4a80df",
+      "authoredAt": "2026-05-19T16:53:56.000-04:00",
+      "committedAt": "2026-05-22T21:29:35.000-04:00",
+      "authorName": "Ewan D. Milne",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: scsi_debug: Add missing newline in scsi_debug_device_reset()",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
@@ -242,6 +296,24 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "9eed1bd59937e6828b00d2f2dfef631d964f3636",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9eed1bd59937e6828b00d2f2dfef631d964f3636",
+      "authoredAt": "2026-05-18T10:43:07.000-04:00",
+      "committedAt": "2026-05-22T21:56:42.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: fcoe: Reject FIP descriptors with zero fip_dlen in CVL walker",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -512,6 +584,24 @@
           "identity": "OpenClaw:DeepSeek-V3.2",
           "agent": "OpenClaw",
           "model": "DeepSeek-V3.2"
+        }
+      ]
+    },
+    {
+      "sha": "16ca52bc209fa4bf9239cd9e5643e95533476b58",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/16ca52bc209fa4bf9239cd9e5643e95533476b58",
+      "authoredAt": "2026-05-13T21:35:49.000-04:00",
+      "committedAt": "2026-05-13T21:43:04.000-07:00",
+      "authorName": "Nicolás Bazaes",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: synaptics - add LEN2058 to SMBus passlist for ThinkPad E490",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
@@ -788,6 +878,24 @@
           "identity": "GPT-Codex:gpt-5.2-codex",
           "agent": "GPT-Codex",
           "model": "gpt-5.2-codex"
+        }
+      ]
+    },
+    {
+      "sha": "bf33e01f88388c43e285492a63e539df6ffed64c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bf33e01f88388c43e285492a63e539df6ffed64c",
+      "authoredAt": "2026-05-11T14:49:14.000-04:00",
+      "committedAt": "2026-05-22T23:04:36.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: target: iscsi: Bound iscsi_encode_text_output() appends to rsp_buf",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -1076,6 +1184,42 @@
           "identity": "GitHub Copilot:claude-opus-4-6",
           "agent": "GitHub Copilot",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "a5fd88a5d63f812422e69682f3cb663d9d7f3e9c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a5fd88a5d63f812422e69682f3cb663d9d7f3e9c",
+      "authoredAt": "2026-05-04T11:54:46.000-07:00",
+      "committedAt": "2026-05-07T10:09:54.000-07:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: atmel_mxt_ts - check mem_size before calculating config memory size",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro",
+          "identity": "Gemini:gemini-3.1-pro",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "baa0210fb6a9dc3882509a9411b6d284d88fe30e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/baa0210fb6a9dc3882509a9411b6d284d88fe30e",
+      "authoredAt": "2026-05-04T11:54:45.000-07:00",
+      "committedAt": "2026-05-07T10:09:05.000-07:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: atmel_mxt_ts - fix boundary check in mxt_prepare_cfg_mem",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro",
+          "identity": "Gemini:gemini-3.1-pro",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro"
         }
       ]
     },
@@ -1656,6 +1800,24 @@
       ]
     },
     {
+      "sha": "2905281cbda52ec9df540113b35b835feb5fafd3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2905281cbda52ec9df540113b35b835feb5fafd3",
+      "authoredAt": "2026-04-20T18:00:27.000+02:00",
+      "committedAt": "2026-04-26T21:00:25.000-07:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: usbtouchscreen - clamp NEXIO data_len/x_len to URB buffer size",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "f98b48151cc502ada59d9778f0112d21f2586ca3",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f98b48151cc502ada59d9778f0112d21f2586ca3",
       "authoredAt": "2026-04-20T10:47:47.000-04:00",
@@ -1922,6 +2084,24 @@
       "committerName": "Jason Gunthorpe",
       "subject": "RDMA/rxe: Reject non-8-byte ATOMIC_WRITE payloads",
       "subsystem": "rdma/rxe",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "778c2ab142c625a8a8afa570e0f9b7873f445d99",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/778c2ab142c625a8a8afa570e0f9b7873f445d99",
+      "authoredAt": "2026-04-18T11:49:27.000-04:00",
+      "committedAt": "2026-05-22T22:24:16.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: target: iscsi: Fix CRC overread and double-free in iscsit_handle_text_cmd()",
+      "subsystem": "scsi",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-7",
