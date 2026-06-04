@@ -1,16 +1,88 @@
 {
-  "generatedAt": "2026-06-04T21:54:15.771Z",
+  "generatedAt": "2026-06-04T23:38:01.110Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 289,
+    "totalCommits": 294,
     "totalSubsystems": 127,
-    "totalAuthors": 72,
-    "totalAgents": 62
+    "totalAuthors": 74,
+    "totalAgents": 64
   },
   "commits": [
+    {
+      "sha": "093305d801fae6ff9b8bb531fd78b579794c4f80",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/093305d801fae6ff9b8bb531fd78b579794c4f80",
+      "authoredAt": "2026-05-31T13:30:19.000+03:00",
+      "committedAt": "2026-05-31T17:07:11.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: pcie: simplify the resume flow if fast resume is not used",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHub Copilot:gpt-5.3-codex",
+          "identity": "GitHub Copilot:gpt-5.3-codex",
+          "agent": "GitHub Copilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "4cd92957e8f8cc4ebfe8a5d4203c14c592fde6b1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4cd92957e8f8cc4ebfe8a5d4203c14c592fde6b1",
+      "authoredAt": "2026-05-29T23:25:37.000+08:00",
+      "committedAt": "2026-06-02T13:25:19.000+02:00",
+      "authorName": "Yuqi Xu",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: nl80211: reject oversized EMA RNR lists",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.4",
+          "identity": "Codex:gpt-5.4",
+          "agent": "Codex",
+          "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "5c65b96b549ea2dcfde497436bf9e048deb87758",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5c65b96b549ea2dcfde497436bf9e048deb87758",
+      "authoredAt": "2026-05-29T16:54:23.000+08:00",
+      "committedAt": "2026-06-03T11:21:48.000-04:00",
+      "authorName": "Yuqi Xu",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: hci_sync: reject oversized Broadcast Announcement prepend",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.4",
+          "identity": "Codex:GPT-5.4",
+          "agent": "Codex",
+          "model": "GPT-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "6770d3a8acdf9151769180cc3710346c4cfbe6f0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6770d3a8acdf9151769180cc3710346c4cfbe6f0",
+      "authoredAt": "2026-05-29T11:22:09.000+08:00",
+      "committedAt": "2026-06-03T11:22:10.000-04:00",
+      "authorName": "Zhang Cen",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: bnep: reject short frames before parsing",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
     {
       "sha": "9500077678230e36d22bf16d2b9539c13e59a801",
       "htmlUrl": "https://github.com/torvalds/linux/commit/9500077678230e36d22bf16d2b9539c13e59a801",
@@ -116,6 +188,30 @@
           "identity": "Codex:gpt-5.4",
           "agent": "Codex",
           "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "dd214733544427587a95f66dbf3adff072568990",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dd214733544427587a95f66dbf3adff072568990",
+      "authoredAt": "2026-05-21T10:45:17.000-04:00",
+      "committedAt": "2026-06-03T11:21:24.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: L2CAP: reject BR/EDR signaling packets over MTUsig",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        },
+        {
+          "raw": "Codex:gpt-5-5-xhigh",
+          "identity": "Codex:gpt-5-5-xhigh",
+          "agent": "Codex",
+          "model": "gpt-5-5-xhigh"
         }
       ]
     },
