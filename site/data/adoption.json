@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-05T23:38:55.402Z",
+  "generatedAt": "2026-06-06T04:29:27.248Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 298,
-    "totalSubsystems": 129,
-    "totalAuthors": 77,
-    "totalAgents": 65
+    "totalCommits": 308,
+    "totalSubsystems": 131,
+    "totalAuthors": 79,
+    "totalAgents": 70
   },
   "commits": [
     {
@@ -26,6 +26,24 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "ec4cbdd163f9bb2a2bd44eb93ecf4a2fa0e912a9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ec4cbdd163f9bb2a2bd44eb93ecf4a2fa0e912a9",
+      "authoredAt": "2026-06-03T16:39:47.000-07:00",
+      "committedAt": "2026-06-04T09:04:09.000-04:00",
+      "authorName": "Niranjana Vishwanathapura",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/multi_queue: skip submit when primary queue is suspended",
+      "subsystem": "drm/xe/multi_queue",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-sonnet-4.6",
+          "identity": "GitHub-Copilot:claude-sonnet-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-sonnet-4.6"
         }
       ]
     },
@@ -98,6 +116,42 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "352ea59028ea48a6fff77f19ae28f98f71946a80",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/352ea59028ea48a6fff77f19ae28f98f71946a80",
+      "authoredAt": "2026-05-28T12:54:39.000-04:00",
+      "committedAt": "2026-06-03T14:54:46.000-04:00",
+      "authorName": "Andrew Martin",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdkfd: Fix buffer overflow in SDMA queue checkpoint/restore on GFX11",
+      "subsystem": "drm/amdkfd",
+      "assistedBy": [
+        {
+          "raw": "Claude:Sonnet 4-5",
+          "identity": "Claude:Sonnet 4-5",
+          "agent": "Claude",
+          "model": "Sonnet 4-5"
+        }
+      ]
+    },
+    {
+      "sha": "6590fe323ce2807f5d9454e7fccf3fab875d4352",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6590fe323ce2807f5d9454e7fccf3fab875d4352",
+      "authoredAt": "2026-05-27T23:58:54.000-07:00",
+      "committedAt": "2026-06-03T14:42:38.000-04:00",
+      "authorName": "Leorize",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: add missing CSC entries for BT.2020 for DCE IPs",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "oh-my-pi:GPT-5.5",
+          "identity": "oh-my-pi:GPT-5.5",
+          "agent": "oh-my-pi",
+          "model": "GPT-5.5"
         }
       ]
     },
@@ -972,6 +1026,24 @@
       ]
     },
     {
+      "sha": "ff287df16a1a58aca78b08d1f3ee09fc44da0351",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ff287df16a1a58aca78b08d1f3ee09fc44da0351",
+      "authoredAt": "2026-05-12T15:24:22.000-04:00",
+      "committedAt": "2026-06-03T14:45:44.000-04:00",
+      "authorName": "Harry Wentland",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Bound VBIOS record-chain walk loops",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Copilot:claude-opus-4.6 Mythos",
+          "identity": "Copilot:claude-opus-4.6 Mythos",
+          "agent": "Copilot",
+          "model": "claude-opus-4.6 Mythos"
+        }
+      ]
+    },
+    {
       "sha": "c2d2856cf6c9efccdf5e0d2564162ec616ce58cf",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c2d2856cf6c9efccdf5e0d2564162ec616ce58cf",
       "authoredAt": "2026-05-12T14:54:20.000+01:00",
@@ -1046,6 +1118,24 @@
           "identity": "GPT-Codex:gpt-5.2-codex",
           "agent": "GPT-Codex",
           "model": "gpt-5.2-codex"
+        }
+      ]
+    },
+    {
+      "sha": "adf67034b1f61f7119295208085bfd43f85f56af",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/adf67034b1f61f7119295208085bfd43f85f56af",
+      "authoredAt": "2026-05-11T16:46:25.000-04:00",
+      "committedAt": "2026-06-03T14:44:13.000-04:00",
+      "authorName": "Harry Wentland",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Fix NULL deref and buffer over-read in SDP debugfs",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Copilot:claude-opus-4.6",
+          "identity": "Copilot:claude-opus-4.6",
+          "agent": "Copilot",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -1302,6 +1392,24 @@
       ]
     },
     {
+      "sha": "f0f3981c43b32cadfe373d636d9e9ca522bb3702",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f0f3981c43b32cadfe373d636d9e9ca522bb3702",
+      "authoredAt": "2026-05-07T15:38:37.000-04:00",
+      "committedAt": "2026-06-03T14:45:23.000-04:00",
+      "authorName": "Harry Wentland",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Clamp HDMI HDCP2 rx_id_list read to buffer size",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Copilot:claude-opus-4.6",
+          "identity": "Copilot:claude-opus-4.6",
+          "agent": "Copilot",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "c64a647c84f30be368404f50f9052ed6c75c0f17",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c64a647c84f30be368404f50f9052ed6c75c0f17",
       "authoredAt": "2026-05-07T08:35:46.000-06:00",
@@ -1316,6 +1424,60 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "da48bc4461b8a5ebfb9264c9b191a701d8e99009",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/da48bc4461b8a5ebfb9264c9b191a701d8e99009",
+      "authoredAt": "2026-05-05T11:52:15.000-04:00",
+      "committedAt": "2026-06-03T14:44:36.000-04:00",
+      "authorName": "Harry Wentland",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Use krealloc_array() in dal_vector_reserve()",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Copilot:claude-opus-4.6",
+          "identity": "Copilot:claude-opus-4.6",
+          "agent": "Copilot",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "49c3da65961fe9857c831d47fa1989084e87514a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/49c3da65961fe9857c831d47fa1989084e87514a",
+      "authoredAt": "2026-05-05T11:50:07.000-04:00",
+      "committedAt": "2026-06-03T14:45:02.000-04:00",
+      "authorName": "Harry Wentland",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Reject gpio_bitshift >= 32 in bios_parser_get_gpio_pin_info()",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Copilot:claude-opus-4.6",
+          "identity": "Copilot:claude-opus-4.6",
+          "agent": "Copilot",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "e8b4d37eba05141ee01794fc6b7f2da808cee83b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e8b4d37eba05141ee01794fc6b7f2da808cee83b",
+      "authoredAt": "2026-05-05T11:44:15.000-04:00",
+      "committedAt": "2026-06-03T14:43:20.000-04:00",
+      "authorName": "Harry Wentland",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Fix out-of-bounds read in dp_get_eq_aux_rd_interval()",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "GitHub Copilot:Claude claude-4-opus",
+          "identity": "GitHub Copilot:Claude claude-4-opus",
+          "agent": "GitHub Copilot",
+          "model": "Claude claude-4-opus"
         }
       ]
     },
@@ -1352,6 +1514,24 @@
           "identity": "GitHub Copilot:claude-opus-4-6",
           "agent": "GitHub Copilot",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "fb0707ce00eef4e2d60c3020e1c0432739703e4a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fb0707ce00eef4e2d60c3020e1c0432739703e4a",
+      "authoredAt": "2026-05-04T15:51:13.000-04:00",
+      "committedAt": "2026-06-03T14:43:49.000-04:00",
+      "authorName": "Harry Wentland",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Clamp VBIOS HDMI retimer register count to array size",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "GitHub Copilot:claude-opus-4.6",
+          "identity": "GitHub Copilot:claude-opus-4.6",
+          "agent": "GitHub Copilot",
+          "model": "claude-opus-4.6"
         }
       ]
     },
