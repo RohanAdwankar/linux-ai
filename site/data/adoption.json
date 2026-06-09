@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-09T12:16:05.197Z",
+  "generatedAt": "2026-06-09T15:29:59.332Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 309,
-    "totalSubsystems": 130,
-    "totalAuthors": 78,
-    "totalAgents": 70
+    "totalCommits": 310,
+    "totalSubsystems": 131,
+    "totalAuthors": 80,
+    "totalAgents": 71
   },
   "commits": [
     {
@@ -152,6 +152,42 @@
           "identity": "oh-my-pi:GPT-5.5",
           "agent": "oh-my-pi",
           "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "b003086d76968298f22e7cf62239833b5a3a06b1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b003086d76968298f22e7cf62239833b5a3a06b1",
+      "authoredAt": "2026-05-28T00:00:00.000Z",
+      "committedAt": "2026-05-31T19:13:48.000-05:00",
+      "authorName": "Gil Portnoy",
+      "committerName": "Steve French",
+      "subject": "ksmbd: fix NULL-deref of opinfo->conn in oplock/lease break notifiers",
+      "subsystem": "ksmbd",
+      "assistedBy": [
+        {
+          "raw": "Henry (Claude):claude-opus-4",
+          "identity": "Henry (Claude):claude-opus-4",
+          "agent": "Henry (Claude)",
+          "model": "claude-opus-4"
+        }
+      ]
+    },
+    {
+      "sha": "7ce4fc40018de07f05f3035241122d992610dbfb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7ce4fc40018de07f05f3035241122d992610dbfb",
+      "authoredAt": "2026-05-28T00:00:00.000Z",
+      "committedAt": "2026-05-31T19:13:48.000-05:00",
+      "authorName": "Gil Portnoy",
+      "committerName": "Steve French",
+      "subject": "ksmbd: fix durable reconnect double-bind race in ksmbd_reopen_durable_fd",
+      "subsystem": "ksmbd",
+      "assistedBy": [
+        {
+          "raw": "Henry (Claude):claude-opus-4",
+          "identity": "Henry (Claude):claude-opus-4",
+          "agent": "Henry (Claude)",
+          "model": "claude-opus-4"
         }
       ]
     },
@@ -482,6 +518,24 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "317d5146fb399ad1e87b310ee7d018fe648d40ba",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/317d5146fb399ad1e87b310ee7d018fe648d40ba",
+      "authoredAt": "2026-05-18T14:46:28.000-04:00",
+      "committedAt": "2026-06-02T10:27:45.000+02:00",
+      "authorName": "Dave Jones",
+      "committerName": "Trond Myklebust",
+      "subject": "NFS: write_completion: dereference loop-local req, not hdr->req",
+      "subsystem": "nfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -1802,42 +1856,6 @@
           "identity": "Codex:GPT-5.5",
           "agent": "Codex",
           "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "45e8ebc9ede73543c55d597bb53b6bbb7e8b7327",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/45e8ebc9ede73543c55d597bb53b6bbb7e8b7327",
-      "authoredAt": "2026-04-28T13:17:36.000-03:00",
-      "committedAt": "2026-05-02T15:30:48.000-03:00",
-      "authorName": "Jason Gunthorpe",
-      "committerName": "Jason Gunthorpe",
-      "subject": "RDMA/mlx5: Add missing store/release for lock elision pattern",
-      "subsystem": "rdma/mlx5",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "b2ed01e7ad3de80333e9b962a44024b094bc0b2b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b2ed01e7ad3de80333e9b962a44024b094bc0b2b",
-      "authoredAt": "2026-04-28T11:44:42.000+02:00",
-      "committedAt": "2026-05-08T17:19:44.000+02:00",
-      "authorName": "Thomas Hellström",
-      "committerName": "Thomas Hellström",
-      "subject": "drm/ttm: Fix ttm_bo_swapout() infinite LRU walk on swapout failure",
-      "subsystem": "drm/ttm",
-      "assistedBy": [
-        {
-          "raw": "GitHub_Copilot:claude-sonnet-4.6",
-          "identity": "GitHub_Copilot:claude-sonnet-4.6",
-          "agent": "GitHub_Copilot",
-          "model": "claude-sonnet-4.6"
         }
       ]
     },
