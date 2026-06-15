@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-14T23:38:01.900Z",
+  "generatedAt": "2026-06-15T05:29:19.763Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 329,
-    "totalSubsystems": 136,
-    "totalAuthors": 90,
-    "totalAgents": 78
+    "totalCommits": 339,
+    "totalSubsystems": 141,
+    "totalAuthors": 96,
+    "totalAgents": 81
   },
   "commits": [
     {
@@ -122,6 +122,42 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "6a07814ff643b5c8e1353d8c6229f52fde205cde",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6a07814ff643b5c8e1353d8c6229f52fde205cde",
+      "authoredAt": "2026-06-05T15:53:16.000+02:00",
+      "committedAt": "2026-06-06T15:21:40.000+02:00",
+      "authorName": "Miklos Szeredi",
+      "committerName": "Christian Brauner",
+      "subject": "kernfs: fix xattr race condition with multiple superblocks",
+      "subsystem": "kernfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-5",
+          "identity": "Claude:claude-sonnet-4-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-5"
+        }
+      ]
+    },
+    {
+      "sha": "0da79c259ad0554b36761a7135d4f92eb7c46263",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0da79c259ad0554b36761a7135d4f92eb7c46263",
+      "authoredAt": "2026-06-05T00:24:05.000+02:00",
+      "committedAt": "2026-06-06T15:34:03.000+02:00",
+      "authorName": "Jori Koolstra",
+      "committerName": "Christian Brauner",
+      "subject": "vfs: uapi: retire octal and hex numbers in favor of (1 << n) for O_ flags",
+      "subsystem": "vfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:Opus 4.8",
+          "identity": "Claude:Opus 4.8",
+          "agent": "Claude",
+          "model": "Opus 4.8"
         }
       ]
     },
@@ -392,6 +428,24 @@
           "identity": "Henry (Claude):claude-opus-4",
           "agent": "Henry (Claude)",
           "model": "claude-opus-4"
+        }
+      ]
+    },
+    {
+      "sha": "f58316a441b4626324993db585fa4b7b7c780fac",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f58316a441b4626324993db585fa4b7b7c780fac",
+      "authoredAt": "2026-05-27T09:27:03.000-05:00",
+      "committedAt": "2026-06-03T19:20:04.000-07:00",
+      "authorName": "Andrew Jones",
+      "committerName": "Nathan Chancellor",
+      "subject": "kconfig: add kconfig-sym-check static checker",
+      "subsystem": "kconfig",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
@@ -1614,6 +1668,60 @@
       ]
     },
     {
+      "sha": "e1bf79628453e6afac81ffa57f4f40f28e5512ff",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e1bf79628453e6afac81ffa57f4f40f28e5512ff",
+      "authoredAt": "2026-05-11T07:58:29.000-04:00",
+      "committedAt": "2026-06-04T10:16:51.000+02:00",
+      "authorName": "Jeff Layton",
+      "committerName": "Christian Brauner",
+      "subject": "mm: kick writeback flusher for IOCB_DONTCACHE with targeted dirty tracking",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "88d6f128d06d492b6d178c8e8c53db8c82305ae1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/88d6f128d06d492b6d178c8e8c53db8c82305ae1",
+      "authoredAt": "2026-05-11T07:58:28.000-04:00",
+      "committedAt": "2026-06-04T10:16:50.000+02:00",
+      "authorName": "Jeff Layton",
+      "committerName": "Christian Brauner",
+      "subject": "mm: track DONTCACHE dirty pages per bdi_writeback",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "0ad186cf167fdbeb6b29a8005c71973781036bd3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0ad186cf167fdbeb6b29a8005c71973781036bd3",
+      "authoredAt": "2026-05-11T07:58:27.000-04:00",
+      "committedAt": "2026-06-04T10:16:50.000+02:00",
+      "authorName": "Jeff Layton",
+      "committerName": "Christian Brauner",
+      "subject": "mm: preserve PG_dropbehind flag during folio split",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "277740023def559a4a2ddc3e8e784ee37a0f16a9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/277740023def559a4a2ddc3e8e784ee37a0f16a9",
       "authoredAt": "2026-05-10T23:21:38.000-07:00",
@@ -2226,6 +2334,24 @@
       ]
     },
     {
+      "sha": "010043003c0c81c0cedde267076cbe1e0911db49",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/010043003c0c81c0cedde267076cbe1e0911db49",
+      "authoredAt": "2026-04-28T08:09:51.000+01:00",
+      "committedAt": "2026-05-15T19:24:33.000+02:00",
+      "authorName": "Jeff Layton",
+      "committerName": "Christian Brauner",
+      "subject": "fsnotify: add FSNOTIFY_EVENT_RENAME data type",
+      "subsystem": "fsnotify",
+      "assistedBy": [
+        {
+          "raw": "Claude (Anthropic Claude Code)",
+          "identity": "Claude (Anthropic Claude Code)",
+          "agent": "Claude (Anthropic Claude Code)",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "b336e40c62fbdc4b8a1f09a4ada31f4a90c69eb1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b336e40c62fbdc4b8a1f09a4ada31f4a90c69eb1",
       "authoredAt": "2026-04-27T17:56:30.000+02:00",
@@ -2294,6 +2420,42 @@
           "identity": "Claude:claude-opus-4-6 kconfiglint",
           "agent": "Claude",
           "model": "claude-opus-4-6 kconfiglint"
+        }
+      ]
+    },
+    {
+      "sha": "d324c5416a63d7b828e6d6406815cde7d4ff1a7d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d324c5416a63d7b828e6d6406815cde7d4ff1a7d",
+      "authoredAt": "2026-04-22T20:11:51.000Z",
+      "committedAt": "2026-05-11T11:09:30.000+02:00",
+      "authorName": "Bjoern Doebel",
+      "committerName": "Christian Brauner",
+      "subject": "selftests/pid_namespace: compute pid_max test limits dynamically",
+      "subsystem": "selftests/pid_namespace",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-4.6",
+          "identity": "Kiro:claude-opus-4.6",
+          "agent": "Kiro",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "e7d43a48a8e990b43ef8634248ee5b03f19ed3ea",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e7d43a48a8e990b43ef8634248ee5b03f19ed3ea",
+      "authoredAt": "2026-04-22T14:52:12.000+02:00",
+      "committedAt": "2026-05-21T13:39:34.000+02:00",
+      "authorName": "Amir Goldstein",
+      "committerName": "Christian Brauner",
+      "subject": "docs: add guidelines for submitting new filesystems",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Cursor:claude-4-opus",
+          "identity": "Cursor:claude-4-opus",
+          "agent": "Cursor",
+          "model": "claude-4-opus"
         }
       ]
     },
@@ -4184,6 +4346,24 @@
           "identity": "Gemini-CLI:gemini-3.1",
           "agent": "Gemini-CLI",
           "model": "gemini-3.1"
+        }
+      ]
+    },
+    {
+      "sha": "215be76e025d1311acd6eafc5cfd444974f0f30e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/215be76e025d1311acd6eafc5cfd444974f0f30e",
+      "authoredAt": "2026-04-01T11:28:05.000+11:00",
+      "committedAt": "2026-05-21T10:53:29.000+02:00",
+      "authorName": "Aleksa Sarai",
+      "committerName": "Christian Brauner",
+      "subject": "selftests: openat2: migrate to kselftest harness",
+      "subsystem": "selftests",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-4.6-opus",
+          "identity": "Claude:claude-4.6-opus",
+          "agent": "Claude",
+          "model": "claude-4.6-opus"
         }
       ]
     },
