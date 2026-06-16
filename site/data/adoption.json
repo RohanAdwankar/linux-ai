@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-06-16T00:02:39.567Z",
+  "generatedAt": "2026-06-16T05:35:22.809Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 353,
-    "totalSubsystems": 153,
-    "totalAuthors": 103,
-    "totalAgents": 86
+    "totalCommits": 400,
+    "totalSubsystems": 157,
+    "totalAuthors": 112,
+    "totalAgents": 93
   },
   "commits": [
+    {
+      "sha": "9955c92abe72564a49c293b1c15cd3b4f02ea6a0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9955c92abe72564a49c293b1c15cd3b4f02ea6a0",
+      "authoredAt": "2026-06-12T16:53:32.000-05:00",
+      "committedAt": "2026-06-13T05:53:18.000-07:00",
+      "authorName": "Rob Herring (Arm)",
+      "committerName": "Guenter Roeck",
+      "subject": "hwmon: tmp401: Read \"ti,n-factor\" as signed",
+      "subsystem": "hwmon",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5-5",
+          "identity": "Codex:gpt-5-5",
+          "agent": "Codex",
+          "model": "gpt-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "f846d68992142034b1d34a83200a10cdc713eeda",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f846d68992142034b1d34a83200a10cdc713eeda",
+      "authoredAt": "2026-06-12T16:50:17.000-05:00",
+      "committedAt": "2026-06-14T01:18:29.000+01:00",
+      "authorName": "Rob Herring (Arm)",
+      "committerName": "Mark Brown",
+      "subject": "spi: Fix mismatched DT property access types",
+      "subsystem": "spi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5-5",
+          "identity": "Codex:gpt-5-5",
+          "agent": "Codex",
+          "model": "gpt-5-5"
+        }
+      ]
+    },
     {
       "sha": "347ccc0453fca2c669e8dc8a72000e76ca4adf10",
       "htmlUrl": "https://github.com/torvalds/linux/commit/347ccc0453fca2c669e8dc8a72000e76ca4adf10",
@@ -288,6 +324,24 @@
       ]
     },
     {
+      "sha": "90220ddfa8e2c93e26af2cd51d6158ca2243c622",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/90220ddfa8e2c93e26af2cd51d6158ca2243c622",
+      "authoredAt": "2026-06-02T20:11:35.000-07:00",
+      "committedAt": "2026-06-10T23:10:34.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Andi Shyti",
+      "subject": "i2c: mxs: add missing kernel-doc for struct mxs_i2c_dev members",
+      "subsystem": "i2c",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
+    {
       "sha": "13e91fd076306f5d0cdfa14f53d69e37274723c4",
       "htmlUrl": "https://github.com/torvalds/linux/commit/13e91fd076306f5d0cdfa14f53d69e37274723c4",
       "authoredAt": "2026-06-02T18:04:57.000-04:00",
@@ -378,6 +432,132 @@
       ]
     },
     {
+      "sha": "1cecde1005399eb4e4069c036dcfcbe3c240b6e0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1cecde1005399eb4e4069c036dcfcbe3c240b6e0",
+      "authoredAt": "2026-06-01T18:46:45.000-07:00",
+      "committedAt": "2026-06-12T09:56:45.000+08:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: amcc - convert irq_of_parse_and_map to platform_get_irq",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "2d5e755b0698572c6564567645c31385055e1f5c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2d5e755b0698572c6564567645c31385055e1f5c",
+      "authoredAt": "2026-05-31T17:18:22.000+03:00",
+      "committedAt": "2026-06-01T13:05:55.000-06:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Jonathan Corbet",
+      "subject": "docs: real-time: Fix duplicated sched(7) text",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "3c2edee3a40ee5fe0bb219c7401fa9ff57009334",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3c2edee3a40ee5fe0bb219c7401fa9ff57009334",
+      "authoredAt": "2026-05-31T17:05:37.000+03:00",
+      "committedAt": "2026-06-01T13:07:56.000-06:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Jonathan Corbet",
+      "subject": "docs: kernel-parameters: Fix stale sticore file paths",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "8f978fc45a906bb8683374d2159f0142a17d3828",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8f978fc45a906bb8683374d2159f0142a17d3828",
+      "authoredAt": "2026-05-31T17:03:22.000+03:00",
+      "committedAt": "2026-06-09T16:00:10.000+02:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Helge Deller",
+      "subject": "docs: omap/dss: Fix stale modedb.c path",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "ef4c0f7aee482459205149e52a8ab770e85b7f63",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ef4c0f7aee482459205149e52a8ab770e85b7f63",
+      "authoredAt": "2026-05-31T17:02:07.000+03:00",
+      "committedAt": "2026-06-01T13:04:21.000-06:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Jonathan Corbet",
+      "subject": "docs: kgdb: Fix stale source file paths",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "11d309f63357da45de026f5ac2e5e6afdd547800",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/11d309f63357da45de026f5ac2e5e6afdd547800",
+      "authoredAt": "2026-05-31T16:58:48.000+03:00",
+      "committedAt": "2026-06-01T13:02:20.000-06:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Jonathan Corbet",
+      "subject": "docs: sonypi: Fix stale header file path",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "d50ff037a1fc1cca8a35c85a1cd5dce6fe95c24b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d50ff037a1fc1cca8a35c85a1cd5dce6fe95c24b",
+      "authoredAt": "2026-05-31T16:54:50.000+03:00",
+      "committedAt": "2026-06-01T12:58:43.000-06:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Jonathan Corbet",
+      "subject": "docs: kernel-parameters: Remove sa1100ir IrDA parameter",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "093305d801fae6ff9b8bb531fd78b579794c4f80",
       "htmlUrl": "https://github.com/torvalds/linux/commit/093305d801fae6ff9b8bb531fd78b579794c4f80",
       "authoredAt": "2026-05-31T13:30:19.000+03:00",
@@ -392,6 +572,24 @@
           "identity": "GitHub Copilot:gpt-5.3-codex",
           "agent": "GitHub Copilot",
           "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "098bcea71b8d257d80b0037b97b66070806600a5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/098bcea71b8d257d80b0037b97b66070806600a5",
+      "authoredAt": "2026-05-29T17:27:24.000-07:00",
+      "committedAt": "2026-06-04T08:55:58.000-07:00",
+      "authorName": "Borislav Petkov (AMD)",
+      "committerName": "Borislav Petkov (AMD)",
+      "subject": "x86/microcode/AMD: Move the no-revision fixup to get_patch_level()",
+      "subsystem": "x86/microcode/amd",
+      "assistedBy": [
+        {
+          "raw": "claude/claude-opus-4-6",
+          "identity": "claude/claude-opus-4-6",
+          "agent": "claude/claude-opus-4-6",
+          "model": ""
         }
       ]
     },
@@ -518,6 +716,24 @@
           "identity": "oh-my-pi:GPT-5.5",
           "agent": "oh-my-pi",
           "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "5974454ab26a5351abe4897f7110a68120d170fa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5974454ab26a5351abe4897f7110a68120d170fa",
+      "authoredAt": "2026-05-27T21:10:31.000-07:00",
+      "committedAt": "2026-05-28T10:50:01.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: realtek-otto: fix kernel-doc warnings",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "Opencode:BigPickle",
+          "identity": "Opencode:BigPickle",
+          "agent": "Opencode",
+          "model": "BigPickle"
         }
       ]
     },
@@ -666,6 +882,24 @@
       ]
     },
     {
+      "sha": "ed459fe319376e876de433d12b6c6772e612ca36",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ed459fe319376e876de433d12b6c6772e612ca36",
+      "authoredAt": "2026-05-25T19:45:21.000+08:00",
+      "committedAt": "2026-06-05T19:36:35.000+08:00",
+      "authorName": "Ruijie Li",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: pcrypt - restore callback for non-parallel fallback",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.4",
+          "identity": "Codex:gpt-5.4",
+          "agent": "Codex",
+          "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
       "sha": "4db2bd2ed4785dbadaeeab9f4e346b21ac5fb8eb",
       "htmlUrl": "https://github.com/torvalds/linux/commit/4db2bd2ed4785dbadaeeab9f4e346b21ac5fb8eb",
       "authoredAt": "2026-05-25T05:28:29.000-04:00",
@@ -752,6 +986,42 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "07c44ee9fdf196dcec14675c793e3139ec8a15b5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/07c44ee9fdf196dcec14675c793e3139ec8a15b5",
+      "authoredAt": "2026-05-24T18:27:08.000+02:00",
+      "committedAt": "2026-06-04T15:51:31.000+02:00",
+      "authorName": "Marco Scardovi (scardracs)",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: remove obsolete UAF FIXMEs from lookup paths",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "aa7e8b7ef03151305a387654280306684687ade9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/aa7e8b7ef03151305a387654280306684687ade9",
+      "authoredAt": "2026-05-24T18:27:07.000+02:00",
+      "committedAt": "2026-06-04T15:51:31.000+02:00",
+      "authorName": "Marco Scardovi (scardracs)",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: core: fix const-correctness of gpio_chip_guard",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
         }
       ]
     },
@@ -924,6 +1194,78 @@
       ]
     },
     {
+      "sha": "22c1992642ebe95f4ec9f6456cf56ae330d2571a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/22c1992642ebe95f4ec9f6456cf56ae330d2571a",
+      "authoredAt": "2026-05-20T15:42:42.000-07:00",
+      "committedAt": "2026-06-09T08:23:09.000-07:00",
+      "authorName": "Abdurrahman Hussain",
+      "committerName": "Guenter Roeck",
+      "subject": "hwmon: (pmbus/adm1266) add rtc debugfs entry",
+      "subsystem": "hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:claude-opus-4-7",
+          "identity": "Claude-Code:claude-opus-4-7",
+          "agent": "Claude-Code",
+          "model": "claude-opus-4-7"
+        },
+        {
+          "raw": "sashiko:gemini-3.1-pro-preview",
+          "identity": "sashiko:gemini-3.1-pro-preview",
+          "agent": "sashiko",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "e8d55e1f6ebf6d22727fe46ce8714906b3afe23e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e8d55e1f6ebf6d22727fe46ce8714906b3afe23e",
+      "authoredAt": "2026-05-20T15:42:41.000-07:00",
+      "committedAt": "2026-06-09T08:23:09.000-07:00",
+      "authorName": "Abdurrahman Hussain",
+      "committerName": "Guenter Roeck",
+      "subject": "hwmon: (pmbus/adm1266) add powerup_counter debugfs entry",
+      "subsystem": "hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:claude-opus-4-7",
+          "identity": "Claude-Code:claude-opus-4-7",
+          "agent": "Claude-Code",
+          "model": "claude-opus-4-7"
+        },
+        {
+          "raw": "sashiko:gemini-3.1-pro-preview",
+          "identity": "sashiko:gemini-3.1-pro-preview",
+          "agent": "sashiko",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "e7c1f9eb6e9f1138241f3bf28f8181f4f5ccd5eb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e7c1f9eb6e9f1138241f3bf28f8181f4f5ccd5eb",
+      "authoredAt": "2026-05-20T15:42:40.000-07:00",
+      "committedAt": "2026-06-09T08:23:09.000-07:00",
+      "authorName": "Abdurrahman Hussain",
+      "committerName": "Guenter Roeck",
+      "subject": "hwmon: (pmbus/adm1266) add clear_blackbox debugfs entry",
+      "subsystem": "hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:claude-opus-4-7",
+          "identity": "Claude-Code:claude-opus-4-7",
+          "agent": "Claude-Code",
+          "model": "claude-opus-4-7"
+        },
+        {
+          "raw": "sashiko:gemini-3.1-pro-preview",
+          "identity": "sashiko:gemini-3.1-pro-preview",
+          "agent": "sashiko",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
       "sha": "44126343d58c68adaa8343fbf1c07dd20078c35e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/44126343d58c68adaa8343fbf1c07dd20078c35e",
       "authoredAt": "2026-05-20T12:00:50.000-05:00",
@@ -1028,6 +1370,30 @@
           "identity": "Claude:claude-4.6-sonnet # reproducer",
           "agent": "Claude",
           "model": "claude-4.6-sonnet # reproducer"
+        }
+      ]
+    },
+    {
+      "sha": "3279986bfeb8b3a7727ddec5de3d2bf2e52882a5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3279986bfeb8b3a7727ddec5de3d2bf2e52882a5",
+      "authoredAt": "2026-05-19T14:18:50.000-07:00",
+      "committedAt": "2026-06-09T13:00:33.000+02:00",
+      "authorName": "Abdurrahman Hussain",
+      "committerName": "Andi Shyti",
+      "subject": "i2c: mux: reg: use device property accessors",
+      "subsystem": "i2c",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:claude-opus-4-7",
+          "identity": "Claude-Code:claude-opus-4-7",
+          "agent": "Claude-Code",
+          "model": "claude-opus-4-7"
+        },
+        {
+          "raw": "sashiko:gemini-3.1-pro-preview",
+          "identity": "sashiko:gemini-3.1-pro-preview",
+          "agent": "sashiko",
+          "model": "gemini-3.1-pro-preview"
         }
       ]
     },
@@ -1140,6 +1506,114 @@
       ]
     },
     {
+      "sha": "c7b929fe289d6e5118954f8327c143f8ad707a63",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c7b929fe289d6e5118954f8327c143f8ad707a63",
+      "authoredAt": "2026-05-18T17:59:58.000-07:00",
+      "committedAt": "2026-05-20T15:23:46.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: xgene: allow COMPILE_TEST builds",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "292e7cab58e2ce1f9213a6a326eb314e18756459",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/292e7cab58e2ce1f9213a6a326eb314e18756459",
+      "authoredAt": "2026-05-18T17:59:12.000-07:00",
+      "committedAt": "2026-05-20T15:24:34.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: en7523: allow COMPILE_TEST builds",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "0c5b5c40dc31089e8e59d53a32313baa50bc0809",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0c5b5c40dc31089e8e59d53a32313baa50bc0809",
+      "authoredAt": "2026-05-18T17:56:14.000-07:00",
+      "committedAt": "2026-05-20T15:20:27.000+01:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Mark Brown",
+      "subject": "spi: cadence-xspi: Add COMPILE_TEST support",
+      "subsystem": "spi",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "82056957e5c42c4060a1d8b1576aad2dfe54e568",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/82056957e5c42c4060a1d8b1576aad2dfe54e568",
+      "authoredAt": "2026-05-18T17:43:52.000-07:00",
+      "committedAt": "2026-05-25T13:33:57.000+01:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Mark Brown",
+      "subject": "spi: omap2-mcspi: Use of_device_get_match_data()",
+      "subsystem": "spi",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "9402555579cf203151755f51b19ef0b4ecb9da71",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9402555579cf203151755f51b19ef0b4ecb9da71",
+      "authoredAt": "2026-05-18T17:36:13.000-07:00",
+      "committedAt": "2026-06-07T18:25:42.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Helge Deller",
+      "subject": "fbdev: atmel_lcdfb: Use of_device_get_match_data()",
+      "subsystem": "fbdev",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "3b069f0596e169bc1b1a991fbba64ffaefe8de75",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3b069f0596e169bc1b1a991fbba64ffaefe8de75",
+      "authoredAt": "2026-05-18T14:13:03.000-07:00",
+      "committedAt": "2026-06-07T18:25:42.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Helge Deller",
+      "subject": "fbdev: imxfb: Use of_device_get_match_data()",
+      "subsystem": "fbdev",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
       "sha": "317d5146fb399ad1e87b310ee7d018fe648d40ba",
       "htmlUrl": "https://github.com/torvalds/linux/commit/317d5146fb399ad1e87b310ee7d018fe648d40ba",
       "authoredAt": "2026-05-18T14:46:28.000-04:00",
@@ -1183,6 +1657,42 @@
       "authorName": "Akhil R",
       "committerName": "Andi Shyti",
       "subject": "i2c: tegra: Fix NOIRQ suspend/resume",
+      "subsystem": "i2c",
+      "assistedBy": [
+        {
+          "raw": "Cursor:claude-4.6-opus",
+          "identity": "Cursor:claude-4.6-opus",
+          "agent": "Cursor",
+          "model": "claude-4.6-opus"
+        }
+      ]
+    },
+    {
+      "sha": "aa0f846f61d45e83e126f3c16234cbec66ec92e8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/aa0f846f61d45e83e126f3c16234cbec66ec92e8",
+      "authoredAt": "2026-05-18T17:10:11.000+05:30",
+      "committedAt": "2026-06-08T21:23:33.000+02:00",
+      "authorName": "Akhil R",
+      "committerName": "Andi Shyti",
+      "subject": "i2c: tegra: Disable fair arbitration for non-MCTP buses",
+      "subsystem": "i2c",
+      "assistedBy": [
+        {
+          "raw": "Cursor:claude-4.6-opus",
+          "identity": "Cursor:claude-4.6-opus",
+          "agent": "Cursor",
+          "model": "claude-4.6-opus"
+        }
+      ]
+    },
+    {
+      "sha": "9295f238a52a566f45f9b1752bebd93b4c2d83a2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9295f238a52a566f45f9b1752bebd93b4c2d83a2",
+      "authoredAt": "2026-05-18T17:10:10.000+05:30",
+      "committedAt": "2026-06-08T21:23:22.000+02:00",
+      "authorName": "Akhil R",
+      "committerName": "Andi Shyti",
+      "subject": "i2c: tegra: use dmaengine_get_dma_device() for DMA buffer allocation",
       "subsystem": "i2c",
       "assistedBy": [
         {
@@ -1280,6 +1790,42 @@
           "identity": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
           "agent": "avom-custom-harness",
           "model": "gpt-5.5-qwen3.6-mod-mix"
+        }
+      ]
+    },
+    {
+      "sha": "43079e21ff53c6a77e669cec5b5b673b45f46e87",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/43079e21ff53c6a77e669cec5b5b673b45f46e87",
+      "authoredAt": "2026-05-15T22:02:14.000+03:00",
+      "committedAt": "2026-05-22T20:25:30.000+08:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Herbert Xu",
+      "subject": "include: Remove unused crypto-ux500.h",
+      "subsystem": "include",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "d7391997ea9c93137bc855fd2b55392acbb7ef63",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d7391997ea9c93137bc855fd2b55392acbb7ef63",
+      "authoredAt": "2026-05-15T21:01:57.000+03:00",
+      "committedAt": "2026-05-25T14:31:44.000-06:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Jonathan Corbet",
+      "subject": "docs: sysctl/net: Remove ax25, netrom, rose entries",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
@@ -1974,6 +2520,24 @@
       ]
     },
     {
+      "sha": "6c9dddeb582fde005360f4fe02c760d45ca05fb5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6c9dddeb582fde005360f4fe02c760d45ca05fb5",
+      "authoredAt": "2026-05-10T19:24:55.000-04:00",
+      "committedAt": "2026-05-15T18:08:49.000+08:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: krb5 - filter out async aead implementations at alloc",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "928abe19fbf0127003abcb1ea69cabc1c897d0ab",
       "htmlUrl": "https://github.com/torvalds/linux/commit/928abe19fbf0127003abcb1ea69cabc1c897d0ab",
       "authoredAt": "2026-05-10T19:16:58.000-04:00",
@@ -2054,6 +2618,114 @@
       "committerName": "Rafael J. Wysocki",
       "subject": "PM: hibernate: Use flexible array for CRC uncompressed buffers",
       "subsystem": "pm",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "63677aa485245cfc0e107f9d625d4f846223415a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/63677aa485245cfc0e107f9d625d4f846223415a",
+      "authoredAt": "2026-05-10T12:55:31.000-07:00",
+      "committedAt": "2026-05-11T15:23:59.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: spear-spics: Add COMPILE_TEST support",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "537cd3082b9000b15a25e85152dd16967d9a1a94",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/537cd3082b9000b15a25e85152dd16967d9a1a94",
+      "authoredAt": "2026-05-09T15:57:59.000+02:00",
+      "committedAt": "2026-06-09T16:00:10.000+02:00",
+      "authorName": "Rahman Mahmutović",
+      "committerName": "Helge Deller",
+      "subject": "fbdev: sunxvr2500: replace printk with device-aware logging functions",
+      "subsystem": "fbdev",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "92a91dc8bd6aa31a0a59144de6bee6221cd20833",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/92a91dc8bd6aa31a0a59144de6bee6221cd20833",
+      "authoredAt": "2026-05-09T15:18:31.000+02:00",
+      "committedAt": "2026-06-09T16:00:10.000+02:00",
+      "authorName": "Rahman Mahmutović",
+      "committerName": "Helge Deller",
+      "subject": "fbdev: chipsfb: add missing MODULE_DESCRIPTION() macro",
+      "subsystem": "fbdev",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "b15fd8c043f79d57c6bf56edb4cf036644842647",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b15fd8c043f79d57c6bf56edb4cf036644842647",
+      "authoredAt": "2026-05-09T08:56:38.000+02:00",
+      "committedAt": "2026-05-15T08:01:48.000-06:00",
+      "authorName": "Mauro Carvalho Chehab",
+      "committerName": "Jonathan Corbet",
+      "subject": "docs: maintainers_include: do some coding style cleanups",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "pylint, black",
+          "identity": "pylint, black",
+          "agent": "pylint, black",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3c8cec6ddae0297854ad568def98e49084cc9cfb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3c8cec6ddae0297854ad568def98e49084cc9cfb",
+      "authoredAt": "2026-05-08T19:36:09.000-07:00",
+      "committedAt": "2026-05-26T07:50:42.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Uwe Kleine-König",
+      "subject": "pwm: ipq: Add missing module description",
+      "subsystem": "pwm",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "5d6f7ce387c09fbd30360f268168606803ee9ebf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5d6f7ce387c09fbd30360f268168606803ee9ebf",
+      "authoredAt": "2026-05-08T17:34:38.000-07:00",
+      "committedAt": "2026-05-11T12:14:37.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: zevio: allow COMPILE_TEST builds",
+      "subsystem": "gpio",
       "assistedBy": [
         {
           "raw": "Codex:GPT-5.5",
@@ -2168,6 +2840,24 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "46d9c16115cf046ce564f0230126cae785f73826",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/46d9c16115cf046ce564f0230126cae785f73826",
+      "authoredAt": "2026-05-07T02:32:32.000Z",
+      "committedAt": "2026-05-15T08:34:13.000-06:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Jonathan Corbet",
+      "subject": "scripts/kernel-doc: Detect mismatched inline member documentation tags",
+      "subsystem": "scripts/kernel-doc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -2316,6 +3006,78 @@
       ]
     },
     {
+      "sha": "08f0e65e784c4b20e6e620dd4f68d8636073a3d2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/08f0e65e784c4b20e6e620dd4f68d8636073a3d2",
+      "authoredAt": "2026-05-04T10:51:47.000-06:00",
+      "committedAt": "2026-05-15T18:08:37.000+08:00",
+      "authorName": "Tycho Andersen (AMD)",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: ccp - Do not initialize SNP for ioctl(SNP_CONFIG)",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "f91e9dbb5845d1e5abf1028e6df57dcf61583e1b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f91e9dbb5845d1e5abf1028e6df57dcf61583e1b",
+      "authoredAt": "2026-05-04T10:51:46.000-06:00",
+      "committedAt": "2026-05-15T18:08:37.000+08:00",
+      "authorName": "Tycho Andersen (AMD)",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: ccp - Do not initialize SNP for ioctl(SNP_VLEK_LOAD)",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "5a1364da2f04217a36e2fdfa2db4ee025b383a20",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5a1364da2f04217a36e2fdfa2db4ee025b383a20",
+      "authoredAt": "2026-05-04T10:51:45.000-06:00",
+      "committedAt": "2026-05-15T18:08:37.000+08:00",
+      "authorName": "Tycho Andersen (AMD)",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: ccp - Do not initialize SNP for ioctl(SNP_COMMIT)",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "fb1758e74b8061aacfbce7bbb7a7cc650537e167",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fb1758e74b8061aacfbce7bbb7a7cc650537e167",
+      "authoredAt": "2026-05-04T10:51:44.000-06:00",
+      "committedAt": "2026-05-15T18:08:37.000+08:00",
+      "authorName": "Tycho Andersen (AMD)",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: ccp - Do not initialize SNP for SEV ioctls",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
       "sha": "cd86529ec61474a38c3837fb7823790a7c3f8cce",
       "htmlUrl": "https://github.com/torvalds/linux/commit/cd86529ec61474a38c3837fb7823790a7c3f8cce",
       "authoredAt": "2026-05-04T11:14:45.000-04:00",
@@ -2334,6 +3096,24 @@
       ]
     },
     {
+      "sha": "c8ebfd4436aa8a1cf5f13f5ade2e06ddf8bbbda5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c8ebfd4436aa8a1cf5f13f5ade2e06ddf8bbbda5",
+      "authoredAt": "2026-05-03T19:02:22.000+03:00",
+      "committedAt": "2026-05-15T08:24:22.000-06:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Jonathan Corbet",
+      "subject": "docs: locking: Fix stale dquot.c path",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "c5d415596cb6fbdf6334b06cc87a1a5a268d8725",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c5d415596cb6fbdf6334b06cc87a1a5a268d8725",
       "authoredAt": "2026-05-02T12:43:03.000-04:00",
@@ -2348,6 +3128,24 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "cb7083f9db3f634d22845c29b3af733bd751fc17",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cb7083f9db3f634d22845c29b3af733bd751fc17",
+      "authoredAt": "2026-05-02T15:02:05.000+03:00",
+      "committedAt": "2026-05-03T08:36:03.000-06:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Jonathan Corbet",
+      "subject": "docs: Remove stale ISDN parameters",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
@@ -4214,6 +5012,78 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "fed613c1230277105bb512bce6e1fda8f316d178",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fed613c1230277105bb512bce6e1fda8f316d178",
+      "authoredAt": "2026-04-08T08:32:59.000-06:00",
+      "committedAt": "2026-05-07T16:09:58.000+08:00",
+      "authorName": "Tycho Andersen (AMD)",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: ccp - Initialize data during __sev_snp_init_locked()",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "a8d5370eef00eca132a292b1901c9914c817e385",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a8d5370eef00eca132a292b1901c9914c817e385",
+      "authoredAt": "2026-04-08T08:32:58.000-06:00",
+      "committedAt": "2026-05-07T16:09:58.000+08:00",
+      "authorName": "Tycho Andersen (AMD)",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: ccp - Check for page allocation failure correctly in TIO",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "1b864b6cb213bbd7b406e9b2e98c962077f300df",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1b864b6cb213bbd7b406e9b2e98c962077f300df",
+      "authoredAt": "2026-04-08T08:32:57.000-06:00",
+      "committedAt": "2026-05-07T16:09:58.000+08:00",
+      "authorName": "Tycho Andersen (AMD)",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: ccp - Fix snp_filter_reserved_mem_regions() off-by-one",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "4a76a164ba1617f60d1c8a2fd754466c9d9e48e9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4a76a164ba1617f60d1c8a2fd754466c9d9e48e9",
+      "authoredAt": "2026-04-08T08:32:56.000-06:00",
+      "committedAt": "2026-05-07T16:09:58.000+08:00",
+      "authorName": "Tycho Andersen (AMD)",
+      "committerName": "Herbert Xu",
+      "subject": "crypto: ccp - Reverse the cleanup order in psp_dev_destroy()",
+      "subsystem": "crypto",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-4.6-opus",
+          "identity": "Claude:claude-4.6-opus",
+          "agent": "Claude",
+          "model": "claude-4.6-opus"
         }
       ]
     },
