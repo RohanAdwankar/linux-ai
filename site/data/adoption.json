@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-16T05:35:22.809Z",
+  "generatedAt": "2026-06-16T11:35:35.372Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 400,
-    "totalSubsystems": 157,
-    "totalAuthors": 112,
-    "totalAgents": 93
+    "totalCommits": 407,
+    "totalSubsystems": 160,
+    "totalAuthors": 114,
+    "totalAgents": 94
   },
   "commits": [
     {
@@ -158,6 +158,42 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "0fd835f5e9477ebea2439b8ada58f34e1b8cf25a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0fd835f5e9477ebea2439b8ada58f34e1b8cf25a",
+      "authoredAt": "2026-06-07T08:48:34.000-04:00",
+      "committedAt": "2026-06-09T10:01:50.000-06:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jens Axboe",
+      "subject": "virtio-blk: clamp zone report to the report buffer capacity",
+      "subsystem": "virtio-blk",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "b0d27d43791b7a3057c3c4aedf9b4aa033d37c46",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b0d27d43791b7a3057c3c4aedf9b4aa033d37c46",
+      "authoredAt": "2026-06-06T22:25:13.000-07:00",
+      "committedAt": "2026-06-09T18:22:46.000+02:00",
+      "authorName": "Weiming Shi",
+      "committerName": "Johannes Thumshirn",
+      "subject": "btrfs: lzo: reject compressed segment that overflows the compressed input",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -576,6 +612,24 @@
       ]
     },
     {
+      "sha": "2e1b3f4c51ace14f67201bd2a92ca6312a3c3724",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2e1b3f4c51ace14f67201bd2a92ca6312a3c3724",
+      "authoredAt": "2026-05-29T18:12:55.000-07:00",
+      "committedAt": "2026-05-31T19:48:53.000-06:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Jens Axboe",
+      "subject": "rbd: check snap_count against RBD_MAX_SNAP_COUNT",
+      "subsystem": "rbd",
+      "assistedBy": [
+        {
+          "raw": "Opencode:Big-pickle",
+          "identity": "Opencode:Big-pickle",
+          "agent": "Opencode",
+          "model": "Big-pickle"
+        }
+      ]
+    },
+    {
       "sha": "098bcea71b8d257d80b0037b97b66070806600a5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/098bcea71b8d257d80b0037b97b66070806600a5",
       "authoredAt": "2026-05-29T17:27:24.000-07:00",
@@ -792,6 +846,24 @@
       ]
     },
     {
+      "sha": "23fd95663b070cf781f37b8058a8c055f168110b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/23fd95663b070cf781f37b8058a8c055f168110b",
+      "authoredAt": "2026-05-26T18:37:39.000-04:00",
+      "committedAt": "2026-06-09T18:22:45.000+02:00",
+      "authorName": "Rik van Riel",
+      "committerName": "Johannes Thumshirn",
+      "subject": "btrfs: allocate eb-attached btree pages as movable",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "3b7be8e7fa698359616c3276e005f08c3b6070e4",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3b7be8e7fa698359616c3276e005f08c3b6070e4",
       "authoredAt": "2026-05-26T12:43:29.000-07:00",
@@ -860,6 +932,24 @@
           "identity": "Claude:claude-sonnet-4-6",
           "agent": "Claude",
           "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "5bdb8ec58b54b0e86672ba1991087611c7e52de5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5bdb8ec58b54b0e86672ba1991087611c7e52de5",
+      "authoredAt": "2026-05-26T10:15:55.000+08:00",
+      "committedAt": "2026-06-09T10:12:50.000-06:00",
+      "authorName": "Tang Yizhou",
+      "committerName": "Jens Axboe",
+      "subject": "block: propagate in_flight to whole disk on partition I/O",
+      "subsystem": "block",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -1916,6 +2006,42 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "5f0419457f89dce1a3f1c8e62a3adf2f39ab8168",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5f0419457f89dce1a3f1c8e62a3adf2f39ab8168",
+      "authoredAt": "2026-05-15T10:23:27.000-04:00",
+      "committedAt": "2026-05-18T10:48:48.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jan Kara",
+      "subject": "udf: validate free block extents against the partition length",
+      "subsystem": "udf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "67ee1f021a9b74ef289934be5e7a474e20031add",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/67ee1f021a9b74ef289934be5e7a474e20031add",
+      "authoredAt": "2026-05-15T09:59:03.000-04:00",
+      "committedAt": "2026-05-15T08:05:26.000-06:00",
+      "authorName": "Vineeth Pillai",
+      "committerName": "Jens Axboe",
+      "subject": "io_uring: Use trace_call__##name() at guarded tracepoint call sites",
+      "subsystem": "io_uring",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
