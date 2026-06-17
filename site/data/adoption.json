@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-17T11:17:43.056Z",
+  "generatedAt": "2026-06-17T16:05:22.903Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 535,
-    "totalSubsystems": 172,
-    "totalAuthors": 138,
-    "totalAgents": 113
+    "totalCommits": 563,
+    "totalSubsystems": 173,
+    "totalAuthors": 143,
+    "totalAgents": 116
   },
   "commits": [
     {
@@ -56,6 +56,24 @@
       "committerName": "Mark Brown",
       "subject": "spi: Fix mismatched DT property access types",
       "subsystem": "spi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5-5",
+          "identity": "Codex:gpt-5-5",
+          "agent": "Codex",
+          "model": "gpt-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "4346d91cfa47b0d9303533edde8acd33e4b9ca40",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4346d91cfa47b0d9303533edde8acd33e4b9ca40",
+      "authoredAt": "2026-06-12T16:49:11.000-05:00",
+      "committedAt": "2026-06-14T01:03:38.000+01:00",
+      "authorName": "Rob Herring (Arm)",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: dt-bindings: Fix RT5677 \"realtek,gpio-config\" type",
+      "subsystem": "asoc",
       "assistedBy": [
         {
           "raw": "Codex:gpt-5-5",
@@ -170,6 +188,78 @@
       "committerName": "Pablo Neira Ayuso",
       "subject": "netfilter: nf_log: validate MAC header was set before dumping it",
       "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "1d8aabb413b5638670dfd1162169edc0ba276a2e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1d8aabb413b5638670dfd1162169edc0ba276a2e",
+      "authoredAt": "2026-06-09T21:43:16.000+09:00",
+      "committedAt": "2026-06-11T20:44:45.000+01:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: tegra: tegra210_ahub: Validate written enum value",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "3cd17e4e2871114d5579fa7bc8da66faf7fc1930",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3cd17e4e2871114d5579fa7bc8da66faf7fc1930",
+      "authoredAt": "2026-06-09T21:43:15.000+09:00",
+      "committedAt": "2026-06-11T20:44:45.000+01:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: fsl: fsl_audmix: Validate written enum values",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "d65adf85477247be04ac86886f8edfaa047b5d4a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d65adf85477247be04ac86886f8edfaa047b5d4a",
+      "authoredAt": "2026-06-09T21:43:14.000+09:00",
+      "committedAt": "2026-06-11T20:44:44.000+01:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: meson: aiu: Validate written enum values",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "0b08baeccdcf52fad328ad645f5b4fbee04eea34",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0b08baeccdcf52fad328ad645f5b4fbee04eea34",
+      "authoredAt": "2026-06-09T21:43:13.000+09:00",
+      "committedAt": "2026-06-11T20:44:43.000+01:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: codecs: hdac_hdmi: Validate written enum value",
+      "subsystem": "asoc",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -918,6 +1008,24 @@
       ]
     },
     {
+      "sha": "af31e980def6cd6554ad4d7f266ecf5c4ebce4e3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/af31e980def6cd6554ad4d7f266ecf5c4ebce4e3",
+      "authoredAt": "2026-05-31T18:58:48.000-07:00",
+      "committedAt": "2026-06-02T08:24:06.000+02:00",
+      "authorName": "Ferus Castor",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: oxygen: add HT-Omega eClaro (7284:9783) support",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
       "sha": "2d5e755b0698572c6564567645c31385055e1f5c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2d5e755b0698572c6564567645c31385055e1f5c",
       "authoredAt": "2026-05-31T17:18:22.000+03:00",
@@ -979,6 +1087,24 @@
       "authorName": "Costa Shulyupin",
       "committerName": "Jonathan Corbet",
       "subject": "docs: kgdb: Fix stale source file paths",
+      "subsystem": "docs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "6935f0496c2eb74dd3f57228a799d2db1a8a9ac8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6935f0496c2eb74dd3f57228a799d2db1a8a9ac8",
+      "authoredAt": "2026-05-31T17:00:45.000+03:00",
+      "committedAt": "2026-05-31T06:27:30.000-10:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Tejun Heo",
+      "subject": "docs: cgroup: Fix stale source file paths",
       "subsystem": "docs",
       "assistedBy": [
         {
@@ -1458,6 +1584,24 @@
       ]
     },
     {
+      "sha": "336f87d742a616236006bb77275f79a3ac101637",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/336f87d742a616236006bb77275f79a3ac101637",
+      "authoredAt": "2026-05-28T13:28:39.000+09:00",
+      "committedAt": "2026-05-28T05:40:06.000-10:00",
+      "authorName": "Ren Tamura",
+      "committerName": "Tejun Heo",
+      "subject": "cgroup: pair max limit READ_ONCE() with WRITE_ONCE()",
+      "subsystem": "cgroup",
+      "assistedBy": [
+        {
+          "raw": "OpenAI-Codex:gpt-5.5",
+          "identity": "OpenAI-Codex:gpt-5.5",
+          "agent": "OpenAI-Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "5974454ab26a5351abe4897f7110a68120d170fa",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5974454ab26a5351abe4897f7110a68120d170fa",
       "authoredAt": "2026-05-27T21:10:31.000-07:00",
@@ -1562,6 +1706,132 @@
           "identity": "Claude:claude-sonnet-4-6",
           "agent": "Claude",
           "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "8df560fefe6fed6a20b7e06720eeaeccec349ac0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8df560fefe6fed6a20b7e06720eeaeccec349ac0",
+      "authoredAt": "2026-05-27T20:09:14.000+08:00",
+      "committedAt": "2026-05-28T09:36:43.000+02:00",
+      "authorName": "Zhao Dongdong",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: aoa: check snd_ctl_new1() return value",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Opencode:DeepSeek-V4-Flash",
+          "identity": "Opencode:DeepSeek-V4-Flash",
+          "agent": "Opencode",
+          "model": "DeepSeek-V4-Flash"
+        }
+      ]
+    },
+    {
+      "sha": "c205bd1b28fb7e5f1061a4e78813fad7d315cb3e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c205bd1b28fb7e5f1061a4e78813fad7d315cb3e",
+      "authoredAt": "2026-05-27T20:09:13.000+08:00",
+      "committedAt": "2026-05-28T09:36:23.000+02:00",
+      "authorName": "Zhao Dongdong",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: cmipci: check snd_ctl_new1() return value",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Opencode:DeepSeek-V4-Flash",
+          "identity": "Opencode:DeepSeek-V4-Flash",
+          "agent": "Opencode",
+          "model": "DeepSeek-V4-Flash"
+        }
+      ]
+    },
+    {
+      "sha": "e64d170346d00b580c0043de3e5ccb3e331c47d4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e64d170346d00b580c0043de3e5ccb3e331c47d4",
+      "authoredAt": "2026-05-27T20:09:12.000+08:00",
+      "committedAt": "2026-05-28T09:36:09.000+02:00",
+      "authorName": "Zhao Dongdong",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: ymfpci: check snd_ctl_new1() return value",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Opencode:DeepSeek-V4-Flash",
+          "identity": "Opencode:DeepSeek-V4-Flash",
+          "agent": "Opencode",
+          "model": "DeepSeek-V4-Flash"
+        }
+      ]
+    },
+    {
+      "sha": "2b929b91b0f3bc6de8a844370049cd99ee8e31ff",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2b929b91b0f3bc6de8a844370049cd99ee8e31ff",
+      "authoredAt": "2026-05-27T20:09:11.000+08:00",
+      "committedAt": "2026-05-28T09:35:52.000+02:00",
+      "authorName": "Zhao Dongdong",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: ice1712: check snd_ctl_new1() return value",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Opencode:DeepSeek-V4-Flash",
+          "identity": "Opencode:DeepSeek-V4-Flash",
+          "agent": "Opencode",
+          "model": "DeepSeek-V4-Flash"
+        }
+      ]
+    },
+    {
+      "sha": "c7fa99d30c7a166a5e5db5a585ce7501ff68326b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c7fa99d30c7a166a5e5db5a585ce7501ff68326b",
+      "authoredAt": "2026-05-27T20:09:10.000+08:00",
+      "committedAt": "2026-05-28T09:35:21.000+02:00",
+      "authorName": "Zhao Dongdong",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: gus: check snd_ctl_new1() return value",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Opencode:DeepSeek-V4-Flash",
+          "identity": "Opencode:DeepSeek-V4-Flash",
+          "agent": "Opencode",
+          "model": "DeepSeek-V4-Flash"
+        }
+      ]
+    },
+    {
+      "sha": "1edd1f02dddd20aeb6066ded41017615766ea42f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1edd1f02dddd20aeb6066ded41017615766ea42f",
+      "authoredAt": "2026-05-27T20:09:09.000+08:00",
+      "committedAt": "2026-05-28T09:34:41.000+02:00",
+      "authorName": "Zhao Dongdong",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: es1938: check snd_ctl_new1() return value",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Opencode:DeepSeek-V4-Flash",
+          "identity": "Opencode:DeepSeek-V4-Flash",
+          "agent": "Opencode",
+          "model": "DeepSeek-V4-Flash"
+        }
+      ]
+    },
+    {
+      "sha": "ef7607ab1c8adc6258fb1b27d08e26aecdc18a58",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ef7607ab1c8adc6258fb1b27d08e26aecdc18a58",
+      "authoredAt": "2026-05-27T14:29:48.000+08:00",
+      "committedAt": "2026-05-27T12:34:29.000+02:00",
+      "authorName": "Zhang Cen",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: seq: midi: Serialize output teardown with event_input",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -1922,6 +2192,24 @@
           "identity": "Claude:claude-opus-4-7 berkoc-pipeline",
           "agent": "Claude",
           "model": "claude-opus-4-7 berkoc-pipeline"
+        }
+      ]
+    },
+    {
+      "sha": "36cf16513f9dfc6dc5eee7ed5ca5fd4f649e1f1a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/36cf16513f9dfc6dc5eee7ed5ca5fd4f649e1f1a",
+      "authoredAt": "2026-05-22T18:17:49.000-07:00",
+      "committedAt": "2026-06-01T15:59:15.000+01:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: aw88395: use struct_size() and __counted_by() for aw_container",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Claude:Opus-4.7",
+          "identity": "Claude:Opus-4.7",
+          "agent": "Claude",
+          "model": "Opus-4.7"
         }
       ]
     },
@@ -2478,6 +2766,60 @@
       ]
     },
     {
+      "sha": "0c09413bde6ffa07b4b91a660fb6393dfdead82a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0c09413bde6ffa07b4b91a660fb6393dfdead82a",
+      "authoredAt": "2026-05-18T17:49:35.000-07:00",
+      "committedAt": "2026-05-19T08:04:15.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: usb-audio: Use flexible allocation for Scarlett2 packets",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "cce8ec8209892b972c743d66180cbe64f19ba83d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cce8ec8209892b972c743d66180cbe64f19ba83d",
+      "authoredAt": "2026-05-18T17:48:34.000-07:00",
+      "committedAt": "2026-05-19T08:03:37.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: usb-audio: Use flexible allocation for FCP packets",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "2c515c221a7a2fd0dcb335b9866a98d0bedd9ca5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2c515c221a7a2fd0dcb335b9866a98d0bedd9ca5",
+      "authoredAt": "2026-05-18T17:46:47.000-07:00",
+      "committedAt": "2026-05-19T08:02:52.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: oss: Use flexible allocation for PCM plugins",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
       "sha": "82056957e5c42c4060a1d8b1576aad2dfe54e568",
       "htmlUrl": "https://github.com/torvalds/linux/commit/82056957e5c42c4060a1d8b1576aad2dfe54e568",
       "authoredAt": "2026-05-18T17:43:52.000-07:00",
@@ -2618,6 +2960,24 @@
           "identity": "Cursor:claude-4.6-opus",
           "agent": "Cursor",
           "model": "claude-4.6-opus"
+        }
+      ]
+    },
+    {
+      "sha": "8ab3536678a4ae66ef9c084c5e3244ce129e796d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8ab3536678a4ae66ef9c084c5e3244ce129e796d",
+      "authoredAt": "2026-05-17T22:17:06.000-07:00",
+      "committedAt": "2026-05-20T13:09:05.000+01:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: fsl: Allow MPC5200 PSC audio compile testing",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
         }
       ]
     },
@@ -3600,6 +3960,78 @@
       ]
     },
     {
+      "sha": "fea3df9eab74863b6d388fc71357342e25c5e877",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fea3df9eab74863b6d388fc71357342e25c5e877",
+      "authoredAt": "2026-05-11T16:13:13.000-07:00",
+      "committedAt": "2026-05-16T11:29:30.000+09:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: pcm6240: Use flexible array for config blocks",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "e0014849e9af1e08aaaf2b7bc26b1918d8275f24",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e0014849e9af1e08aaaf2b7bc26b1918d8275f24",
+      "authoredAt": "2026-05-11T16:03:51.000-07:00",
+      "committedAt": "2026-05-16T11:30:33.000+09:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: sigmadsp: Use flexible array for control cache",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "3aec8baeb517c3aa391fecd2136ab4a1d8e5fd74",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3aec8baeb517c3aa391fecd2136ab4a1d8e5fd74",
+      "authoredAt": "2026-05-11T16:01:21.000-07:00",
+      "committedAt": "2026-05-15T08:56:51.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: asihpi: Use flexible array for control cache",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "57cd11e788bdf68460eedbc414be9fb4ac8d8f4c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/57cd11e788bdf68460eedbc414be9fb4ac8d8f4c",
+      "authoredAt": "2026-05-11T16:00:26.000-07:00",
+      "committedAt": "2026-05-15T08:56:18.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: ctxfi: Use flexible array for SRCIMP imappers",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
       "sha": "adf67034b1f61f7119295208085bfd43f85f56af",
       "htmlUrl": "https://github.com/torvalds/linux/commit/adf67034b1f61f7119295208085bfd43f85f56af",
       "authoredAt": "2026-05-11T16:46:25.000-04:00",
@@ -3812,6 +4244,24 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "cb02416507bc0c31415f1527aefc280ae96260bd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cb02416507bc0c31415f1527aefc280ae96260bd",
+      "authoredAt": "2026-05-11T00:54:47.000-07:00",
+      "committedAt": "2026-05-15T08:52:44.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: seq: Use flexible array for MIDI channels",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
         }
       ]
     },
@@ -4194,6 +4644,42 @@
       ]
     },
     {
+      "sha": "b2d1eaa9b6608ba6e34f0b9419254ec9e5d47d41",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b2d1eaa9b6608ba6e34f0b9419254ec9e5d47d41",
+      "authoredAt": "2026-05-08T01:20:50.000-03:00",
+      "committedAt": "2026-05-10T22:46:04.000+09:00",
+      "authorName": "Cássio Gabriel",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: docs: Fix stale and misspelled references",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "04b8f96b10881006e8aadbf72c59427ec5eaa9b4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/04b8f96b10881006e8aadbf72c59427ec5eaa9b4",
+      "authoredAt": "2026-05-07T16:21:31.000-07:00",
+      "committedAt": "2026-05-08T09:52:17.000+09:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: tegra: tegra210-mixer: Use div_u64() for 64-bit division",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
       "sha": "6c92f6d9600efa3ef0d9e560a2b52776d9803c29",
       "htmlUrl": "https://github.com/torvalds/linux/commit/6c92f6d9600efa3ef0d9e560a2b52776d9803c29",
       "authoredAt": "2026-05-07T16:26:31.000-04:00",
@@ -4334,6 +4820,24 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "8468c8aafe8b5807e5acba2f8aa96d0b3ce0c248",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8468c8aafe8b5807e5acba2f8aa96d0b3ce0c248",
+      "authoredAt": "2026-05-07T10:36:52.000+09:00",
+      "committedAt": "2026-05-25T13:37:14.000+01:00",
+      "authorName": "Chancel Liu",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: dapm: Fix widget lookup with prefixed names across DAPM contexts",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Cody:Claude-4.5-Sonnet",
+          "identity": "Cody:Claude-4.5-Sonnet",
+          "agent": "Cody",
+          "model": "Claude-4.5-Sonnet"
         }
       ]
     },
