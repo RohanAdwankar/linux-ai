@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-17T18:35:28.184Z",
+  "generatedAt": "2026-06-17T21:22:17.536Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 578,
-    "totalSubsystems": 174,
-    "totalAuthors": 147,
-    "totalAgents": 119
+    "totalCommits": 590,
+    "totalSubsystems": 182,
+    "totalAuthors": 151,
+    "totalAgents": 120
   },
   "commits": [
     {
@@ -152,6 +152,24 @@
           "identity": "Codex:GPT-5.4",
           "agent": "Codex",
           "model": "GPT-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "298ab7e6f1637cec44163f52e84e2030ec16ed9d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/298ab7e6f1637cec44163f52e84e2030ec16ed9d",
+      "authoredAt": "2026-06-10T13:44:41.000-07:00",
+      "committedAt": "2026-06-12T10:10:34.000-03:00",
+      "authorName": "Alex Mastro",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommufd: Clarify IOAS_MAP_FILE dma-buf support",
+      "subsystem": "iommufd",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-high",
+          "identity": "Codex:gpt-5.5-high",
+          "agent": "Codex",
+          "model": "gpt-5.5-high"
         }
       ]
     },
@@ -738,6 +756,24 @@
       ]
     },
     {
+      "sha": "f46452c3df7a8d8a5addc0926e76ef19ea7da0a0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f46452c3df7a8d8a5addc0926e76ef19ea7da0a0",
+      "authoredAt": "2026-06-04T14:03:07.000+08:00",
+      "committedAt": "2026-06-04T09:21:49.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Joerg Roedel",
+      "subject": "iommu/vt-d: Clear Present bit before tearing down scalable-mode context entry",
+      "subsystem": "iommu/vt-d",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "ec4cbdd163f9bb2a2bd44eb93ecf4a2fa0e912a9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ec4cbdd163f9bb2a2bd44eb93ecf4a2fa0e912a9",
       "authoredAt": "2026-06-03T16:39:47.000-07:00",
@@ -756,6 +792,78 @@
       ]
     },
     {
+      "sha": "e28bee5b445178390d63f7a93a5a219063c6434e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e28bee5b445178390d63f7a93a5a219063c6434e",
+      "authoredAt": "2026-06-03T14:26:55.000-07:00",
+      "committedAt": "2026-06-12T10:44:44.000-03:00",
+      "authorName": "Nicolin Chen",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommu: Avoid copying the user array twice in the full-array copy helper",
+      "subsystem": "iommu",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "5623c8cb81365f845f318135979d25a4b6671900",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5623c8cb81365f845f318135979d25a4b6671900",
+      "authoredAt": "2026-06-03T14:26:54.000-07:00",
+      "committedAt": "2026-06-12T10:44:44.000-03:00",
+      "authorName": "Nicolin Chen",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommufd/selftest: Add invalidation entry_num and entry_len boundary tests",
+      "subsystem": "iommufd/selftest",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "4d70986002f2f3eaaed89124fb2522bded38b016",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4d70986002f2f3eaaed89124fb2522bded38b016",
+      "authoredAt": "2026-06-03T14:26:53.000-07:00",
+      "committedAt": "2026-06-12T10:44:43.000-03:00",
+      "authorName": "Nicolin Chen",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommufd: Set upper bounds on cache invalidation entry_num and entry_len",
+      "subsystem": "iommufd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "3afcb3630944d7565d6ab6106b61461b292aa93f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3afcb3630944d7565d6ab6106b61461b292aa93f",
+      "authoredAt": "2026-06-03T16:33:28.000-04:00",
+      "committedAt": "2026-06-10T02:16:59.000-04:00",
+      "authorName": "Michael S. Tsirkin",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "tools/virtio: fix build for kmalloc_obj API and missing stubs",
+      "subsystem": "tools/virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "c3009418f9fa1dcb3eb86f4d8c92583537b5faa3",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c3009418f9fa1dcb3eb86f4d8c92583537b5faa3",
       "authoredAt": "2026-06-03T00:38:17.000-07:00",
@@ -770,6 +878,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "7318301e060e3f1207a34f2fca6cd86770dd9160",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7318301e060e3f1207a34f2fca6cd86770dd9160",
+      "authoredAt": "2026-06-02T20:17:58.000-07:00",
+      "committedAt": "2026-06-03T08:20:02.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Marek Szyprowski",
+      "subject": "dma: map_benchmark: turn dma_sg_map_param buf into a flexible array",
+      "subsystem": "dma",
+      "assistedBy": [
+        {
+          "raw": "Claude:Opus-4.7",
+          "identity": "Claude:Opus-4.7",
+          "agent": "Claude",
+          "model": "Opus-4.7"
         }
       ]
     },
@@ -990,6 +1116,42 @@
       ]
     },
     {
+      "sha": "61d525d96ade3367ce65e340b33aa2f1fd5a3602",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/61d525d96ade3367ce65e340b33aa2f1fd5a3602",
+      "authoredAt": "2026-06-01T13:42:38.000-07:00",
+      "committedAt": "2026-06-05T11:07:12.000-03:00",
+      "authorName": "Nicolin Chen",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommufd/selftest: Cover invalid read counts on vEVENTQ FD",
+      "subsystem": "iommufd/selftest",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "091ab6d70dc444f56ed14faedbcacfc979f4c613",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/091ab6d70dc444f56ed14faedbcacfc979f4c613",
+      "authoredAt": "2026-06-01T13:42:37.000-07:00",
+      "committedAt": "2026-06-05T11:07:12.000-03:00",
+      "authorName": "Nicolin Chen",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommufd: Avoid partial fault group delivery in iommufd_fault_fops_read()",
+      "subsystem": "iommufd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "cf24cbb4e5861caacfdb5bface90b80eaa26e649",
       "htmlUrl": "https://github.com/torvalds/linux/commit/cf24cbb4e5861caacfdb5bface90b80eaa26e649",
       "authoredAt": "2026-06-01T23:35:21.000+09:00",
@@ -1022,6 +1184,24 @@
           "identity": "Claude:claude-sonnet-4-6",
           "agent": "Claude",
           "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "e3046eeada299f917a8ad883af4434bfb86556b1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e3046eeada299f917a8ad883af4434bfb86556b1",
+      "authoredAt": "2026-05-31T10:22:51.000-04:00",
+      "committedAt": "2026-06-04T01:18:20.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "hwrng: virtio: clamp device-reported used.len at copy_data()",
+      "subsystem": "hwrng",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -4860,6 +5040,24 @@
       ]
     },
     {
+      "sha": "4d130b63bd08b789f70a9f4a7af33104cc8cebce",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4d130b63bd08b789f70a9f4a7af33104cc8cebce",
+      "authoredAt": "2026-05-07T22:18:37.000-07:00",
+      "committedAt": "2026-06-10T02:17:00.000-04:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "vdpa/mlx5: Use kvzalloc_flex() for MTT command memory",
+      "subsystem": "vdpa/mlx5",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
       "sha": "b2d1eaa9b6608ba6e34f0b9419254ec9e5d47d41",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b2d1eaa9b6608ba6e34f0b9419254ec9e5d47d41",
       "authoredAt": "2026-05-08T01:20:50.000-03:00",
@@ -5990,6 +6188,24 @@
           "identity": "Copilot:Claude-Opus-4.6",
           "agent": "Copilot",
           "model": "Claude-Opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "a6e1618a65d453d4e739e5898c662ccb1e3de6c0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a6e1618a65d453d4e739e5898c662ccb1e3de6c0",
+      "authoredAt": "2026-04-23T15:32:30.000+05:30",
+      "committedAt": "2026-05-19T11:15:08.000+01:00",
+      "authorName": "Bibek Kumar Patro",
+      "committerName": "Will Deacon",
+      "subject": "iommu/arm-smmu-qcom: Fix fastrpc compatible string in ACTLR client match table",
+      "subsystem": "iommu/arm-smmu-qcom",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
