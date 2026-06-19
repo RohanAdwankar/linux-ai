@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-19T02:06:32.455Z",
+  "generatedAt": "2026-06-19T07:29:38.030Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 640,
+    "totalCommits": 644,
     "totalSubsystems": 195,
     "totalAuthors": 156,
     "totalAgents": 125
@@ -2484,6 +2484,24 @@
       ]
     },
     {
+      "sha": "01046072880b654dbadf71be2f645aad4a7b5d87",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/01046072880b654dbadf71be2f645aad4a7b5d87",
+      "authoredAt": "2026-05-25T19:04:28.000+02:00",
+      "committedAt": "2026-05-29T11:21:58.000-04:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Disable KCOV instrumentation for trace_irqsoff.o",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
       "sha": "009b6c6486b94a3aff566b017256b598dc96bf18",
       "htmlUrl": "https://github.com/torvalds/linux/commit/009b6c6486b94a3aff566b017256b598dc96bf18",
       "authoredAt": "2026-05-25T17:38:17.000+01:00",
@@ -2726,6 +2744,24 @@
       "committerName": "Thomas Gleixner",
       "subject": "timers/migration: Turn tmigr_hierarchy level_list into a flexible array",
       "subsystem": "timers/migration",
+      "assistedBy": [
+        {
+          "raw": "Claude:Opus-4.7",
+          "identity": "Claude:Opus-4.7",
+          "agent": "Claude",
+          "model": "Opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "bfda3b9424e02c6b2afac74410457c9c1743ba4a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bfda3b9424e02c6b2afac74410457c9c1743ba4a",
+      "authoredAt": "2026-05-22T14:44:07.000-07:00",
+      "committedAt": "2026-05-29T11:20:47.000-04:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Turn hist_elt_data field_var_str into a flexible array",
+      "subsystem": "tracing",
       "assistedBy": [
         {
           "raw": "Claude:Opus-4.7",
@@ -4238,6 +4274,42 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "2dad375e5f21223c5ed51dabd9ae22e35db1ab79",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2dad375e5f21223c5ed51dabd9ae22e35db1ab79",
+      "authoredAt": "2026-05-15T10:01:21.000-04:00",
+      "committedAt": "2026-05-21T18:03:07.000-04:00",
+      "authorName": "Vineeth Pillai",
+      "committerName": "Steven Rostedt",
+      "subject": "cpufreq: amd-pstate: Use trace_call__##name() at guarded tracepoint call site",
+      "subsystem": "cpufreq",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "5307505fe7937358c426e19af8686928581b4c6e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5307505fe7937358c426e19af8686928581b4c6e",
+      "authoredAt": "2026-05-15T09:59:41.000-04:00",
+      "committedAt": "2026-05-21T18:03:07.000-04:00",
+      "authorName": "Vineeth Pillai",
+      "committerName": "Steven Rostedt",
+      "subject": "HID: Use trace_call__##name() at guarded tracepoint call sites",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
