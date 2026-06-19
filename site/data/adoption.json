@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-18T23:07:51.549Z",
+  "generatedAt": "2026-06-19T02:06:32.455Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 629,
-    "totalSubsystems": 189,
-    "totalAuthors": 152,
-    "totalAgents": 123
+    "totalCommits": 640,
+    "totalSubsystems": 195,
+    "totalAuthors": 156,
+    "totalAgents": 125
   },
   "commits": [
     {
@@ -56,6 +56,24 @@
       "committerName": "Mark Brown",
       "subject": "spi: Fix mismatched DT property access types",
       "subsystem": "spi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5-5",
+          "identity": "Codex:gpt-5-5",
+          "agent": "Codex",
+          "model": "gpt-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "894a81b9c4fbb36032db3cad0c5697aecb2bd694",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/894a81b9c4fbb36032db3cad0c5697aecb2bd694",
+      "authoredAt": "2026-06-12T16:49:38.000-05:00",
+      "committedAt": "2026-06-13T00:22:16.000+02:00",
+      "authorName": "Rob Herring (Arm)",
+      "committerName": "Linus Walleij",
+      "subject": "pinctrl: Match DT helper types",
+      "subsystem": "pinctrl",
       "assistedBy": [
         {
           "raw": "Codex:gpt-5-5",
@@ -666,6 +684,24 @@
       ]
     },
     {
+      "sha": "81eafcada109b653977c4dfbd2b6a72470025a01",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/81eafcada109b653977c4dfbd2b6a72470025a01",
+      "authoredAt": "2026-06-05T10:12:38.000-07:00",
+      "committedAt": "2026-06-10T11:19:10.000-07:00",
+      "authorName": "Dave Jiang",
+      "committerName": "Dave Jiang",
+      "subject": "cxl/test: Fix integer overflow in mock LSA bounds checks",
+      "subsystem": "cxl/test",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "b66774b48dd98f07254951f74ea6f513efe7ff8b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b66774b48dd98f07254951f74ea6f513efe7ff8b",
       "authoredAt": "2026-06-05T16:23:35.000+02:00",
@@ -770,6 +806,42 @@
           "identity": "Claude:Opus 4.8",
           "agent": "Claude",
           "model": "Opus 4.8"
+        }
+      ]
+    },
+    {
+      "sha": "26aa60e0276272ae61b843a05a91748dcb1130f9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/26aa60e0276272ae61b843a05a91748dcb1130f9",
+      "authoredAt": "2026-06-04T11:01:54.000-07:00",
+      "committedAt": "2026-06-04T16:01:01.000-07:00",
+      "authorName": "Dave Jiang",
+      "committerName": "Dave Jiang",
+      "subject": "cxl/pci: Convert PCIBIOS errors to errno on DVSEC config accesses",
+      "subsystem": "cxl/pci",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "66782cfa0085369e2d8c861042f7c6d43431bdb3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/66782cfa0085369e2d8c861042f7c6d43431bdb3",
+      "authoredAt": "2026-06-04T11:01:53.000-07:00",
+      "committedAt": "2026-06-04T15:38:00.000-07:00",
+      "authorName": "Dave Jiang",
+      "committerName": "Dave Jiang",
+      "subject": "cxl/pci: Fix the incorrect check of pci_read_config_word() return",
+      "subsystem": "cxl/pci",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -1548,6 +1620,24 @@
       ]
     },
     {
+      "sha": "f22a5db8a7d38152556f230d6d68e59dbc27971b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f22a5db8a7d38152556f230d6d68e59dbc27971b",
+      "authoredAt": "2026-05-30T17:01:50.000-07:00",
+      "committedAt": "2026-06-01T18:41:14.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Benjamin Tissoires",
+      "subject": "HID: logitech-hidpp: remove excess kernel-doc member in hidpp_scroll_counter",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
+    {
       "sha": "2e1b3f4c51ace14f67201bd2a92ca6312a3c3724",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2e1b3f4c51ace14f67201bd2a92ca6312a3c3724",
       "authoredAt": "2026-05-29T18:12:55.000-07:00",
@@ -1706,6 +1796,24 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "e46d95f060a2d465413638c5861ee0c205ba12b5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e46d95f060a2d465413638c5861ee0c205ba12b5",
+      "authoredAt": "2026-05-28T13:24:55.000-07:00",
+      "committedAt": "2026-06-03T12:04:31.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Ulf Hansson",
+      "subject": "pmdomain: mediatek: mfg: move __packed after struct name to fix kernel-doc",
+      "subsystem": "pmdomain",
+      "assistedBy": [
+        {
+          "raw": "Opencode:Big-pickle",
+          "identity": "Opencode:Big-pickle",
+          "agent": "Opencode",
+          "model": "Big-pickle"
         }
       ]
     },
@@ -1980,6 +2088,24 @@
       ]
     },
     {
+      "sha": "8d4b989d9c9afe5f185aa5853b666fc4617afe9e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8d4b989d9c9afe5f185aa5853b666fc4617afe9e",
+      "authoredAt": "2026-05-27T19:16:22.000-07:00",
+      "committedAt": "2026-06-01T13:53:24.000-07:00",
+      "authorName": "Alison Schofield",
+      "committerName": "Alison Schofield",
+      "subject": "nvdimm/btt: Handle preemption in BTT lane acquisition",
+      "subsystem": "nvdimm/btt",
+      "assistedBy": [
+        {
+          "raw": "Claude-Sonnet:4.5",
+          "identity": "Claude-Sonnet:4.5",
+          "agent": "Claude-Sonnet",
+          "model": "4.5"
+        }
+      ]
+    },
+    {
       "sha": "b003086d76968298f22e7cf62239833b5a3a06b1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b003086d76968298f22e7cf62239833b5a3a06b1",
       "authoredAt": "2026-05-28T00:00:00.000Z",
@@ -2030,6 +2156,24 @@
           "identity": "Github Copilot:claude-opus-4-6",
           "agent": "Github Copilot",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "9146038120a6e5b2ba872515ed2097e4c285602d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9146038120a6e5b2ba872515ed2097e4c285602d",
+      "authoredAt": "2026-05-27T10:01:32.000-06:00",
+      "committedAt": "2026-06-10T18:31:33.000+02:00",
+      "authorName": "Hector Zelaya",
+      "committerName": "Jiri Kosina",
+      "subject": "HID: nintendo: add support for HORI Wireless Switch Pad",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "Kiro:Auto [Amazon Kiro IDE]",
+          "identity": "Kiro:Auto [Amazon Kiro IDE]",
+          "agent": "Kiro",
+          "model": "Auto [Amazon Kiro IDE]"
         }
       ]
     },
@@ -5058,6 +5202,24 @@
       ]
     },
     {
+      "sha": "ba07fd2f5742e8b0d965003b34c7a44eb4f67e53",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ba07fd2f5742e8b0d965003b34c7a44eb4f67e53",
+      "authoredAt": "2026-05-10T19:50:36.000-04:00",
+      "committedAt": "2026-05-12T09:39:02.000+02:00",
+      "authorName": "Ben Hoff",
+      "committerName": "Hans Verkuil",
+      "subject": "media: pci: add AVMatrix HWS capture driver",
+      "subsystem": "media",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "6c9dddeb582fde005360f4fe02c760d45ca05fb5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/6c9dddeb582fde005360f4fe02c760d45ca05fb5",
       "authoredAt": "2026-05-10T19:24:55.000-04:00",
@@ -6786,6 +6948,24 @@
       ]
     },
     {
+      "sha": "d92e7ca6931910e72ebbed7ff96f4f74c24cf0d8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d92e7ca6931910e72ebbed7ff96f4f74c24cf0d8",
+      "authoredAt": "2026-04-25T20:03:21.000-04:00",
+      "committedAt": "2026-06-17T11:28:17.000+01:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Lee Jones",
+      "subject": "leds: as3668: Fix Kconfig symbol name mismatch in Makefile",
+      "subsystem": "leds",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6 kconfiglint",
+          "identity": "Claude:claude-opus-4-6 kconfiglint",
+          "agent": "Claude",
+          "model": "claude-opus-4-6 kconfiglint"
+        }
+      ]
+    },
+    {
       "sha": "1a1414c675ee1b637bbe3840241555a49c61b123",
       "htmlUrl": "https://github.com/torvalds/linux/commit/1a1414c675ee1b637bbe3840241555a49c61b123",
       "authoredAt": "2026-04-25T20:03:19.000-04:00",
@@ -6794,6 +6974,24 @@
       "committerName": "Guenter Roeck",
       "subject": "hwmon: Remove stale CONFIG_SENSORS_SBRMI Makefile reference",
       "subsystem": "hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6 kconfiglint",
+          "identity": "Claude:claude-opus-4-6 kconfiglint",
+          "agent": "Claude",
+          "model": "claude-opus-4-6 kconfiglint"
+        }
+      ]
+    },
+    {
+      "sha": "e4107c6b301d1afa4e3ae471f964da83d15ead4a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e4107c6b301d1afa4e3ae471f964da83d15ead4a",
+      "authoredAt": "2026-04-25T20:03:16.000-04:00",
+      "committedAt": "2026-05-06T09:05:56.000+02:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Hans Verkuil",
+      "subject": "media: tegra-vde: Add HAS_IOMEM dependency to match SRAM select",
+      "subsystem": "media",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-6 kconfiglint",
