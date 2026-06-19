@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-19T12:17:50.548Z",
+  "generatedAt": "2026-06-19T16:15:06.937Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 644,
-    "totalSubsystems": 195,
-    "totalAuthors": 156,
+    "totalCommits": 649,
+    "totalSubsystems": 196,
+    "totalAuthors": 157,
     "totalAgents": 125
   },
   "commits": [
@@ -608,6 +608,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "bf4a195f063b0a0805c1417f6aad1dd32ea48f0f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bf4a195f063b0a0805c1417f6aad1dd32ea48f0f",
+      "authoredAt": "2026-06-06T20:17:58.000-06:00",
+      "committedAt": "2026-06-06T23:48:15.000-06:00",
+      "authorName": "Zishun Yi",
+      "committerName": "Paul Walmsley",
+      "subject": "riscv: cacheinfo: Fix node reference leak in populate_cache_leaves",
+      "subsystem": "riscv",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro",
+          "identity": "Gemini:gemini-3.1-pro",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro"
         }
       ]
     },
@@ -4116,6 +4134,42 @@
       ]
     },
     {
+      "sha": "eb013e9685e2ec6e608bbeb79e7ce98782fdcc63",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/eb013e9685e2ec6e608bbeb79e7ce98782fdcc63",
+      "authoredAt": "2026-05-15T21:50:41.000+03:00",
+      "committedAt": "2026-05-26T16:35:37.000+02:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Thomas Bogendoerfer",
+      "subject": "include: Remove unused jz4740-battery.h",
+      "subsystem": "include",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "56388011db71026e04ffe9963c816269f0bb3165",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/56388011db71026e04ffe9963c816269f0bb3165",
+      "authoredAt": "2026-05-15T21:42:23.000+03:00",
+      "committedAt": "2026-05-26T16:35:37.000+02:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Thomas Bogendoerfer",
+      "subject": "include: Remove unused jz4740-adc.h",
+      "subsystem": "include",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "d7391997ea9c93137bc855fd2b55392acbb7ef63",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d7391997ea9c93137bc855fd2b55392acbb7ef63",
       "authoredAt": "2026-05-15T21:01:57.000+03:00",
@@ -5688,6 +5742,24 @@
       ]
     },
     {
+      "sha": "e5d64f868e484da06f5c141c18c32c01c269625e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e5d64f868e484da06f5c141c18c32c01c269625e",
+      "authoredAt": "2026-05-07T16:23:23.000-07:00",
+      "committedAt": "2026-05-26T16:35:36.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Thomas Bogendoerfer",
+      "subject": "mips: cps: Assemble jr.hb with an R2 ISA level",
+      "subsystem": "mips",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
       "sha": "04b8f96b10881006e8aadbf72c59427ec5eaa9b4",
       "htmlUrl": "https://github.com/torvalds/linux/commit/04b8f96b10881006e8aadbf72c59427ec5eaa9b4",
       "authoredAt": "2026-05-07T16:21:31.000-07:00",
@@ -6998,6 +7070,24 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "1cb79c435a2ff812f7b9e9318962fda4b4663347",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1cb79c435a2ff812f7b9e9318962fda4b4663347",
+      "authoredAt": "2026-04-25T20:03:32.000-04:00",
+      "committedAt": "2026-05-26T16:35:37.000+02:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Thomas Bogendoerfer",
+      "subject": "MIPS: mobileye: Remove duplicate FIT_IMAGE_FDT_EPM5 from main Kconfig",
+      "subsystem": "mips",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6 kconfiglint",
+          "identity": "Claude:claude-opus-4-6 kconfiglint",
+          "agent": "Claude",
+          "model": "claude-opus-4-6 kconfiglint"
         }
       ]
     },
