@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-19T16:15:06.937Z",
+  "generatedAt": "2026-06-19T18:10:27.502Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 649,
+    "totalCommits": 659,
     "totalSubsystems": 196,
-    "totalAuthors": 157,
-    "totalAgents": 125
+    "totalAuthors": 158,
+    "totalAgents": 126
   },
   "commits": [
     {
@@ -1106,6 +1106,24 @@
       "committerName": "Michael S. Tsirkin",
       "subject": "tools/virtio: fix build for kmalloc_obj API and missing stubs",
       "subsystem": "tools/virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "48dbe473219832788c3940c84faa7f1df4375d5d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/48dbe473219832788c3940c84faa7f1df4375d5d",
+      "authoredAt": "2026-06-03T11:57:33.000-04:00",
+      "committedAt": "2026-06-08T09:15:43.000-07:00",
+      "authorName": "Michael S. Tsirkin",
+      "committerName": "Sean Christopherson",
+      "subject": "KVM: guest_memfd: fix NUMA interleave index double-counting",
+      "subsystem": "kvm",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-6",
@@ -2466,6 +2484,24 @@
       ]
     },
     {
+      "sha": "76ae7c7ee004b3d9d869f4d59b175ab4750db985",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/76ae7c7ee004b3d9d869f4d59b175ab4750db985",
+      "authoredAt": "2026-05-26T03:15:17.000Z",
+      "committedAt": "2026-06-04T11:18:12.000+05:30",
+      "authorName": "Jiakai Xu",
+      "committerName": "Anup Patel",
+      "subject": "RISC-V: KVM: Fix NULL pointer dereference in AIA IMSIC functions",
+      "subsystem": "risc-v",
+      "assistedBy": [
+        {
+          "raw": "YuanSheng:DeepSeek-V3.2",
+          "identity": "YuanSheng:DeepSeek-V3.2",
+          "agent": "YuanSheng",
+          "model": "DeepSeek-V3.2"
+        }
+      ]
+    },
+    {
       "sha": "5bdb8ec58b54b0e86672ba1991087611c7e52de5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5bdb8ec58b54b0e86672ba1991087611c7e52de5",
       "authoredAt": "2026-05-26T10:15:55.000+08:00",
@@ -2642,6 +2678,24 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "ce31a1ee2a1ed61f6d42308633f9bed717f5348b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ce31a1ee2a1ed61f6d42308633f9bed717f5348b",
+      "authoredAt": "2026-05-25T01:36:42.000Z",
+      "committedAt": "2026-06-04T11:12:40.000+05:30",
+      "authorName": "Jiakai Xu",
+      "committerName": "Anup Patel",
+      "subject": "RISC-V: KVM: Document a TOCTOU race in SBI system suspend handler",
+      "subsystem": "risc-v",
+      "assistedBy": [
+        {
+          "raw": "YuanSheng:DeepSeek-V3.2",
+          "identity": "YuanSheng:DeepSeek-V3.2",
+          "agent": "YuanSheng",
+          "model": "DeepSeek-V3.2"
         }
       ]
     },
@@ -5328,6 +5382,24 @@
       ]
     },
     {
+      "sha": "c70faabb6ddd06327ae778bf4f9b5b977749b315",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c70faabb6ddd06327ae778bf4f9b5b977749b315",
+      "authoredAt": "2026-05-10T20:21:44.000-07:00",
+      "committedAt": "2026-06-01T13:55:04.000+05:30",
+      "authorName": "Rosen Penev",
+      "committerName": "Anup Patel",
+      "subject": "RISC-V: KVM: Use flexible array for APLIC IRQ state",
+      "subsystem": "risc-v",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
       "sha": "ba07fd2f5742e8b0d965003b34c7a44eb4f67e53",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ba07fd2f5742e8b0d965003b34c7a44eb4f67e53",
       "authoredAt": "2026-05-10T19:50:36.000-04:00",
@@ -6444,6 +6516,24 @@
       ]
     },
     {
+      "sha": "cada2549ca4c934e6fb3801f857c6b4b0c36490b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cada2549ca4c934e6fb3801f857c6b4b0c36490b",
+      "authoredAt": "2026-05-01T12:21:49.000+01:00",
+      "committedAt": "2026-05-27T14:23:59.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Pre-check vcpu memcache for host->guest donate",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
+        }
+      ]
+    },
+    {
       "sha": "effc0a39b8e0f30670fe24f51e44329d4324e566",
       "htmlUrl": "https://github.com/torvalds/linux/commit/effc0a39b8e0f30670fe24f51e44329d4324e566",
       "authoredAt": "2026-05-01T12:21:49.000+01:00",
@@ -6451,6 +6541,24 @@
       "authorName": "Fuad Tabba",
       "committerName": "Marc Zyngier",
       "subject": "KVM: arm64: Pre-check vcpu memcache for host->guest donate",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
+        }
+      ]
+    },
+    {
+      "sha": "8ed0fbe5404616041f6daf1d2fa1824d75602f63",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8ed0fbe5404616041f6daf1d2fa1824d75602f63",
+      "authoredAt": "2026-05-01T12:21:48.000+01:00",
+      "committedAt": "2026-05-27T14:23:59.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Pre-check vcpu memcache for host->guest share",
       "subsystem": "kvm",
       "assistedBy": [
         {
@@ -6480,6 +6588,24 @@
       ]
     },
     {
+      "sha": "3a4f5b96730cb40d5d9b31293fd34e11a10f2d6d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3a4f5b96730cb40d5d9b31293fd34e11a10f2d6d",
+      "authoredAt": "2026-05-01T12:21:47.000+01:00",
+      "committedAt": "2026-05-27T14:23:59.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Seed pkvm_ownership_selftest vcpu memcache",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
+        }
+      ]
+    },
+    {
       "sha": "5130d450d1488e62e1b5310f41910a3c7320e827",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5130d450d1488e62e1b5310f41910a3c7320e827",
       "authoredAt": "2026-05-01T12:21:47.000+01:00",
@@ -6498,6 +6624,24 @@
       ]
     },
     {
+      "sha": "1bdcdc84f9f91e702bb4410cb46016cde1d57d9b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1bdcdc84f9f91e702bb4410cb46016cde1d57d9b",
+      "authoredAt": "2026-05-01T12:21:46.000+01:00",
+      "committedAt": "2026-05-27T14:20:56.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Fix __deactivate_fgt macro parameter typo",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
+        }
+      ]
+    },
+    {
       "sha": "d4d215e5b81ba5acb17752cab12c514a8062bada",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d4d215e5b81ba5acb17752cab12c514a8062bada",
       "authoredAt": "2026-05-01T12:21:46.000+01:00",
@@ -6505,6 +6649,24 @@
       "authorName": "Fuad Tabba",
       "committerName": "Marc Zyngier",
       "subject": "KVM: arm64: Fix __deactivate_fgt macro parameter typo",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro review-prompts",
+          "identity": "Gemini:gemini-3.1-pro review-prompts",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro review-prompts"
+        }
+      ]
+    },
+    {
+      "sha": "214a821c1462924668644e167a9706564cba65ea",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/214a821c1462924668644e167a9706564cba65ea",
+      "authoredAt": "2026-05-01T12:21:45.000+01:00",
+      "committedAt": "2026-05-27T14:20:56.000+01:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Guard against NULL vcpu on VHE hyp panic path",
       "subsystem": "kvm",
       "assistedBy": [
         {
@@ -8576,6 +8738,24 @@
           "identity": "gregkh_clanker_t1000",
           "agent": "gregkh_clanker_t1000",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "1f3e69af5f938ff331bf5d6bf379a877e4b69315",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1f3e69af5f938ff331bf5d6bf379a877e4b69315",
+      "authoredAt": "2026-04-10T16:26:54.000-07:00",
+      "committedAt": "2026-05-13T11:25:57.000-07:00",
+      "authorName": "Rick Edgecombe",
+      "committerName": "Sean Christopherson",
+      "subject": "KVM: TDX: Fix x2APIC MSR handling in tdx_has_emulated_msr()",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
