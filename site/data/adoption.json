@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-21T16:12:09.833Z",
+  "generatedAt": "2026-06-21T17:53:36.070Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 678,
-    "totalSubsystems": 206,
+    "totalCommits": 683,
+    "totalSubsystems": 207,
     "totalAuthors": 163,
-    "totalAgents": 132
+    "totalAgents": 134
   },
   "commits": [
     {
@@ -932,6 +932,24 @@
           "identity": "opencode:big-pickle",
           "agent": "opencode",
           "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "3c08f6034d7459f6d4d5c1599de7bb42c1d89521",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3c08f6034d7459f6d4d5c1599de7bb42c1d89521",
+      "authoredAt": "2026-06-04T23:43:56.000Z",
+      "committedAt": "2026-06-08T16:37:42.000-04:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: scsi_debug: Fix one-partition tape setup bounds",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
         }
       ]
     },
@@ -1998,6 +2016,24 @@
       ]
     },
     {
+      "sha": "7d54894a1ee265a72d70f7cae1da6cc774cccc71",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7d54894a1ee265a72d70f7cae1da6cc774cccc71",
+      "authoredAt": "2026-05-29T15:39:31.000+08:00",
+      "committedAt": "2026-06-21T05:22:57.000Z",
+      "authorName": "Yizhou Zhao",
+      "committerName": "Dominique Martinet",
+      "subject": "net/9p: fix race condition on rdma->state in trans_rdma.c",
+      "subsystem": "net/9p",
+      "assistedBy": [
+        {
+          "raw": "GLM:GLM-5.1",
+          "identity": "GLM:GLM-5.1",
+          "agent": "GLM",
+          "model": "GLM-5.1"
+        }
+      ]
+    },
+    {
       "sha": "6770d3a8acdf9151769180cc3710346c4cfbe6f0",
       "htmlUrl": "https://github.com/torvalds/linux/commit/6770d3a8acdf9151769180cc3710346c4cfbe6f0",
       "authoredAt": "2026-05-29T11:22:09.000+08:00",
@@ -2264,6 +2300,24 @@
           "identity": "oh-my-pi:GPT-5.5",
           "agent": "oh-my-pi",
           "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "1a3860d46e3eb47dbd60339783cdad7904486b9f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1a3860d46e3eb47dbd60339783cdad7904486b9f",
+      "authoredAt": "2026-05-28T13:39:16.000+08:00",
+      "committedAt": "2026-06-21T05:22:56.000Z",
+      "authorName": "Yizhou Zhao",
+      "committerName": "Dominique Martinet",
+      "subject": "9p: avoid putting oldfid in p9_client_walk() error path",
+      "subsystem": "9p",
+      "assistedBy": [
+        {
+          "raw": "GLM 5.1",
+          "identity": "GLM 5.1",
+          "agent": "GLM 5.1",
+          "model": ""
         }
       ]
     },
@@ -3002,6 +3056,24 @@
           "identity": "Claude:claude-opus-4-7 berkoc-pipeline",
           "agent": "Claude",
           "model": "claude-opus-4-7 berkoc-pipeline"
+        }
+      ]
+    },
+    {
+      "sha": "056fca1f276fa41792838d5eb88e316dd81c982d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/056fca1f276fa41792838d5eb88e316dd81c982d",
+      "authoredAt": "2026-05-22T22:02:41.000-07:00",
+      "committedAt": "2026-06-01T21:46:50.000-04:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: lpfc: Turn lpfc_queue q_pgs into a flexible array",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:Opus-4.7",
+          "identity": "Claude:Opus-4.7",
+          "agent": "Claude",
+          "model": "Opus-4.7"
         }
       ]
     },
@@ -7568,6 +7640,24 @@
       "committerName": "Thomas Bogendoerfer",
       "subject": "MIPS: mobileye: Remove duplicate FIT_IMAGE_FDT_EPM5 from main Kconfig",
       "subsystem": "mips",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6 kconfiglint",
+          "identity": "Claude:claude-opus-4-6 kconfiglint",
+          "agent": "Claude",
+          "model": "claude-opus-4-6 kconfiglint"
+        }
+      ]
+    },
+    {
+      "sha": "7787588db949a6caa7ca40bd6b67ecb75b68c932",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7787588db949a6caa7ca40bd6b67ecb75b68c932",
+      "authoredAt": "2026-04-25T20:03:30.000-04:00",
+      "committedAt": "2026-04-30T11:56:20.000-04:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: ncr53c8xx: Drop CONFIG_ prefix from Zalon-specific compiler defines",
+      "subsystem": "scsi",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-6 kconfiglint",
