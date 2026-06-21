@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-21T20:03:51.356Z",
+  "generatedAt": "2026-06-21T21:42:46.875Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 683,
-    "totalSubsystems": 207,
-    "totalAuthors": 163,
-    "totalAgents": 134
+    "totalCommits": 704,
+    "totalSubsystems": 215,
+    "totalAuthors": 165,
+    "totalAgents": 135
   },
   "commits": [
     {
@@ -98,6 +98,24 @@
           "identity": "Codex:gpt-5-5",
           "agent": "Codex",
           "model": "gpt-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "ff6f26c58421614b02694ac9d219ac61d924bc68",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ff6f26c58421614b02694ac9d219ac61d924bc68",
+      "authoredAt": "2026-06-12T11:50:20.000Z",
+      "committedAt": "2026-06-17T15:37:48.000-07:00",
+      "authorName": "Aleksandr Nogikh",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: fix circular locking dependency in ocfs2_dio_end_io_write",
+      "subsystem": "ocfs2",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot",
+          "identity": "Gemini:gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot"
         }
       ]
     },
@@ -242,6 +260,24 @@
           "identity": "GitHub-Copilot:claude-opus-4.8 copilot-review",
           "agent": "GitHub-Copilot",
           "model": "claude-opus-4.8 copilot-review"
+        }
+      ]
+    },
+    {
+      "sha": "22920541c35a9f23f219038ba5874c843a7c4419",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/22920541c35a9f23f219038ba5874c843a7c4419",
+      "authoredAt": "2026-06-11T14:35:10.000-07:00",
+      "committedAt": "2026-06-17T15:37:47.000-07:00",
+      "authorName": "Kyle Zeng",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: avoid moving extents to occupied clusters",
+      "subsystem": "ocfs2",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -446,6 +482,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "c1fff9794a165b6b64ae4ad9b54c00bc94e7daed",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c1fff9794a165b6b64ae4ad9b54c00bc94e7daed",
+      "authoredAt": "2026-06-09T00:54:47.000Z",
+      "committedAt": "2026-06-17T15:37:47.000-07:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "Andrew Morton",
+      "subject": "lib: interval_tree_test: validate benchmark parameters",
+      "subsystem": "lib",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
         }
       ]
     },
@@ -846,6 +900,24 @@
       ]
     },
     {
+      "sha": "5108f4765637bd0ac5ea2897dc7d537486a09885",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5108f4765637bd0ac5ea2897dc7d537486a09885",
+      "authoredAt": "2026-06-05T15:52:15.000Z",
+      "committedAt": "2026-06-17T15:37:46.000-07:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "Andrew Morton",
+      "subject": "fat: reject BPB volumes whose data area starts beyond total sectors",
+      "subsystem": "fat",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
+    {
       "sha": "b66774b48dd98f07254951f74ea6f513efe7ff8b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b66774b48dd98f07254951f74ea6f513efe7ff8b",
       "authoredAt": "2026-06-05T16:23:35.000+02:00",
@@ -932,6 +1004,24 @@
           "identity": "opencode:big-pickle",
           "agent": "opencode",
           "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "f2737dc40d2ef3e9f3f9395d61f53f6668306a71",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f2737dc40d2ef3e9f3f9395d61f53f6668306a71",
+      "authoredAt": "2026-06-05T00:30:37.000Z",
+      "committedAt": "2026-06-11T11:42:21.000-07:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "Andrew Morton",
+      "subject": "lib/test_firmware: allocate the configured into_buf size",
+      "subsystem": "lib/test_firmware",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
         }
       ]
     },
@@ -1548,6 +1638,24 @@
       ]
     },
     {
+      "sha": "4f2692a5383e4bdd43ae940cda012360f7217a2d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4f2692a5383e4bdd43ae940cda012360f7217a2d",
+      "authoredAt": "2026-06-01T19:07:23.000-07:00",
+      "committedAt": "2026-06-11T09:19:30.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Miquel Raynal",
+      "subject": "mtd: rawnand: ndfc: use ioread32be/iowrite32be and allow COMPILE_TEST",
+      "subsystem": "mtd",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
+    {
       "sha": "1cecde1005399eb4e4069c036dcfcbe3c240b6e0",
       "htmlUrl": "https://github.com/torvalds/linux/commit/1cecde1005399eb4e4069c036dcfcbe3c240b6e0",
       "authoredAt": "2026-06-01T18:46:45.000-07:00",
@@ -1796,6 +1904,24 @@
           "identity": "GitHub Copilot:gpt-5.3-codex",
           "agent": "GitHub Copilot",
           "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "03ad858ce8064861ea580021976dc19b7aabb549",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/03ad858ce8064861ea580021976dc19b7aabb549",
+      "authoredAt": "2026-05-31T12:47:14.000+08:00",
+      "committedAt": "2026-06-04T14:49:29.000-07:00",
+      "authorName": "Zhang Cen",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2/dlm: require a ref for locking_state debugfs open",
+      "subsystem": "ocfs2/dlm",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -2228,6 +2354,42 @@
           "identity": "Claude:Sonnet 4-5",
           "agent": "Claude",
           "model": "Sonnet 4-5"
+        }
+      ]
+    },
+    {
+      "sha": "ca1afd88f5eaaff9168e1466e5401385edf59543",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ca1afd88f5eaaff9168e1466e5401385edf59543",
+      "authoredAt": "2026-05-28T23:12:47.000+08:00",
+      "committedAt": "2026-06-04T14:49:29.000-07:00",
+      "authorName": "Zhang Cen",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: reject FITRIM ranges shorter than a cluster",
+      "subsystem": "ocfs2",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "e234973f286ed2e8961a24561ec91594ec3e3ff8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e234973f286ed2e8961a24561ec91594ec3e3ff8",
+      "authoredAt": "2026-05-28T23:12:30.000+08:00",
+      "committedAt": "2026-06-04T14:49:28.000-07:00",
+      "authorName": "Zhang Cen",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: validate fast symlink target during inode read",
+      "subsystem": "ocfs2",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -2700,6 +2862,24 @@
       ]
     },
     {
+      "sha": "9a79524d1420e6b79a6868208c264f4518d1318e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9a79524d1420e6b79a6868208c264f4518d1318e",
+      "authoredAt": "2026-05-26T13:47:15.000+02:00",
+      "committedAt": "2026-06-04T14:49:26.000-07:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Andrew Morton",
+      "subject": "kcov: use WRITE_ONCE() for selftest mode stores",
+      "subsystem": "kcov",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
       "sha": "98d0912e9f841e5529a5b89a972805f34cb1c69d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/98d0912e9f841e5529a5b89a972805f34cb1c69d",
       "authoredAt": "2026-05-26T11:12:39.000+07:00",
@@ -2750,6 +2930,24 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "7fbdbc7d028a20a78b7d28a9510a216c76b5fbfd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7fbdbc7d028a20a78b7d28a9510a216c76b5fbfd",
+      "authoredAt": "2026-05-25T15:04:40.000-07:00",
+      "committedAt": "2026-05-27T11:10:21.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Miquel Raynal",
+      "subject": "mtd: rawnand: qcom: embed nand_controller into qcom_nand_controller",
+      "subsystem": "mtd",
+      "assistedBy": [
+        {
+          "raw": "Claude:Opus-4.7",
+          "identity": "Claude:Opus-4.7",
+          "agent": "Claude",
+          "model": "Opus-4.7"
         }
       ]
     },
@@ -2916,6 +3114,24 @@
       ]
     },
     {
+      "sha": "93612d48fa42b3d1a637eb9279e15281c611c000",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/93612d48fa42b3d1a637eb9279e15281c611c000",
+      "authoredAt": "2026-05-25T12:17:26.000+08:00",
+      "committedAt": "2026-06-04T14:49:26.000-07:00",
+      "authorName": "Zhang Cen",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: rebase copied fsdlm LVB pointers in locking_state",
+      "subsystem": "ocfs2",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "ce31a1ee2a1ed61f6d42308633f9bed717f5348b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ce31a1ee2a1ed61f6d42308633f9bed717f5348b",
       "authoredAt": "2026-05-25T01:36:42.000Z",
@@ -2966,6 +3182,24 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "9bd541e09dffff27e5bec0f9f45b0228173a5375",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9bd541e09dffff27e5bec0f9f45b0228173a5375",
+      "authoredAt": "2026-05-24T19:12:48.000+08:00",
+      "committedAt": "2026-06-04T14:49:27.000-07:00",
+      "authorName": "Zhang Cen",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: reject oversized group bitmap descriptors",
+      "subsystem": "ocfs2",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -3900,6 +4134,60 @@
       ]
     },
     {
+      "sha": "442082297e3d38f3a59754ff56fc07d72a93fdbd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/442082297e3d38f3a59754ff56fc07d72a93fdbd",
+      "authoredAt": "2026-05-19T20:22:59.000+03:00",
+      "committedAt": "2026-05-28T21:24:51.000-07:00",
+      "authorName": "Dmitry Antipov",
+      "committerName": "Andrew Morton",
+      "subject": "riscv: fix building compressed EFI image",
+      "subsystem": "riscv",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview sashiko",
+          "identity": "Gemini:gemini-3.1-pro-preview sashiko",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview sashiko"
+        }
+      ]
+    },
+    {
+      "sha": "6bba2ae43e8f379d3bed4c3eb258ea6d81baae80",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6bba2ae43e8f379d3bed4c3eb258ea6d81baae80",
+      "authoredAt": "2026-05-19T20:22:58.000+03:00",
+      "committedAt": "2026-05-28T21:24:51.000-07:00",
+      "authorName": "Dmitry Antipov",
+      "committerName": "Andrew Morton",
+      "subject": "lib: kunit: add tests for __ashldi3(), __ashrdi3(), and __lshrdi3()",
+      "subsystem": "lib",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview sashiko",
+          "identity": "Gemini:gemini-3.1-pro-preview sashiko",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview sashiko"
+        }
+      ]
+    },
+    {
+      "sha": "a354b8de9ad607c0a11419a402df46b46503f921",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a354b8de9ad607c0a11419a402df46b46503f921",
+      "authoredAt": "2026-05-19T20:22:57.000+03:00",
+      "committedAt": "2026-05-28T21:24:51.000-07:00",
+      "authorName": "Dmitry Antipov",
+      "committerName": "Andrew Morton",
+      "subject": "riscv: add platform-specific double word shifts for riscv32",
+      "subsystem": "riscv",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview sashiko",
+          "identity": "Gemini:gemini-3.1-pro-preview sashiko",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview sashiko"
+        }
+      ]
+    },
+    {
       "sha": "f19c354dbd457759dfcf1195ab4bdba2bb568323",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f19c354dbd457759dfcf1195ab4bdba2bb568323",
       "authoredAt": "2026-05-19T09:50:42.000-04:00",
@@ -3950,6 +4238,60 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "7ebc672fab7a76e1e47e0f2fc1ee48118d27fde4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7ebc672fab7a76e1e47e0f2fc1ee48118d27fde4",
+      "authoredAt": "2026-05-19T07:04:04.000-04:00",
+      "committedAt": "2026-05-28T21:24:58.000-07:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: reject non-inline dinodes with i_size and zero i_clusters",
+      "subsystem": "ocfs2",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "51407c2d249987a466416890a5c931a2354a46aa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/51407c2d249987a466416890a5c931a2354a46aa",
+      "authoredAt": "2026-05-19T07:04:03.000-04:00",
+      "committedAt": "2026-05-28T21:24:58.000-07:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: reject dinodes whose i_rdev disagrees with the file type",
+      "subsystem": "ocfs2",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "5366a017099c6a3c443be908a05f26fd72af12a1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5366a017099c6a3c443be908a05f26fd72af12a1",
+      "authoredAt": "2026-05-19T07:04:02.000-04:00",
+      "committedAt": "2026-05-28T21:24:57.000-07:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: reject dinodes with non-canonical i_mode type",
+      "subsystem": "ocfs2",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -4573,6 +4915,24 @@
       "authorName": "Costa Shulyupin",
       "committerName": "Thomas Bogendoerfer",
       "subject": "include: Remove unused jz4740-adc.h",
+      "subsystem": "include",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "f7ea0d13735ef812f7c777d5c0a79ff6a4b369c3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f7ea0d13735ef812f7c777d5c0a79ff6a4b369c3",
+      "authoredAt": "2026-05-15T21:34:24.000+03:00",
+      "committedAt": "2026-05-28T21:24:57.000-07:00",
+      "authorName": "Costa Shulyupin",
+      "committerName": "Andrew Morton",
+      "subject": "include: remove unused cnt32_to_63.h",
       "subsystem": "include",
       "assistedBy": [
         {
@@ -9674,6 +10034,24 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "09d8b39563e84fc245d642182715a7e0e024b0f2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/09d8b39563e84fc245d642182715a7e0e024b0f2",
+      "authoredAt": "2026-04-08T15:45:42.000-04:00",
+      "committedAt": "2026-05-28T21:24:42.000-07:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Andrew Morton",
+      "subject": "get_maintainer: add --json output mode",
+      "subsystem": "get_maintainer",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
