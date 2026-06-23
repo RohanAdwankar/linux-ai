@@ -1,16 +1,232 @@
 {
-  "generatedAt": "2026-06-23T21:51:26.656Z",
+  "generatedAt": "2026-06-23T23:31:06.826Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 745,
-    "totalSubsystems": 224,
-    "totalAuthors": 174,
-    "totalAgents": 141
+    "totalCommits": 935,
+    "totalSubsystems": 280,
+    "totalAuthors": 176,
+    "totalAgents": 148
   },
   "commits": [
+    {
+      "sha": "e22a4228546f7220d0425630abf703fd2ef7c600",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e22a4228546f7220d0425630abf703fd2ef7c600",
+      "authoredAt": "2026-06-16T16:37:09.000-03:00",
+      "committedAt": "2026-06-16T16:37:09.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf evsel: Add no-libtraceevent stubs for evsel__field() and evsel__common_field()",
+      "subsystem": "perf evsel",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "9212e395c64d80f7b6af314ff6dfc4b526571493",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9212e395c64d80f7b6af314ff6dfc4b526571493",
+      "authoredAt": "2026-06-16T16:35:43.000-03:00",
+      "committedAt": "2026-06-16T16:35:43.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf evsel: Add lazy-initialized probe type detection helpers",
+      "subsystem": "perf evsel",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "d669529868b355e1f10ff869539dc995cd25db3f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d669529868b355e1f10ff869539dc995cd25db3f",
+      "authoredAt": "2026-06-15T22:17:41.000-03:00",
+      "committedAt": "2026-06-15T22:17:41.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf trace: Guard __probe_ip suppression with evsel__is_probe()",
+      "subsystem": "perf trace",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "1a5f9334a45a6b0c1cd7341cc72a3b87adad1d27",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1a5f9334a45a6b0c1cd7341cc72a3b87adad1d27",
+      "authoredAt": "2026-06-13T15:55:33.000-03:00",
+      "committedAt": "2026-06-17T09:21:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf dso: Set standard errno on decompression failure",
+      "subsystem": "perf dso",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "5ebf4137d23a4fd6c0cc6a6fb766ee60d2b09193",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5ebf4137d23a4fd6c0cc6a6fb766ee60d2b09193",
+      "authoredAt": "2026-06-13T15:25:11.000-03:00",
+      "committedAt": "2026-06-17T09:21:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf bpf: Validate array presence before casting BPF prog info pointers",
+      "subsystem": "perf bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "fe68cf349fb343c0a7cb6c4fe6c3de4f4afe8d1c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fe68cf349fb343c0a7cb6c4fe6c3de4f4afe8d1c",
+      "authoredAt": "2026-06-13T15:16:42.000-03:00",
+      "committedAt": "2026-06-17T09:21:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf c2c: Fix hist entry and format list leaks in c2c_he_free()",
+      "subsystem": "perf c2c",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "61a21d11afd8dd83b2260ae00541bed62a843219",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/61a21d11afd8dd83b2260ae00541bed62a843219",
+      "authoredAt": "2026-06-13T15:13:54.000-03:00",
+      "committedAt": "2026-06-17T09:21:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf c2c: Free format list entries when c2c_hists__init() fails",
+      "subsystem": "perf c2c",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "9a989e60cc6e29d98aed2087425cba53bf4b392d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9a989e60cc6e29d98aed2087425cba53bf4b392d",
+      "authoredAt": "2026-06-13T14:55:32.000-03:00",
+      "committedAt": "2026-06-17T09:21:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf cs-etm: Bounds-check CPU in cs_etm__get_queue()",
+      "subsystem": "perf cs-etm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "78d8ba680126f3545e8d0fba667e12d79fd4353b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/78d8ba680126f3545e8d0fba667e12d79fd4353b",
+      "authoredAt": "2026-06-13T14:40:36.000-03:00",
+      "committedAt": "2026-06-17T09:21:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf cs-etm: Require full global header in auxtrace_info size check",
+      "subsystem": "perf cs-etm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "312d91329b8fc6989a916a3f9a12d0674167b7e4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/312d91329b8fc6989a916a3f9a12d0674167b7e4",
+      "authoredAt": "2026-06-13T14:16:45.000-03:00",
+      "committedAt": "2026-06-17T09:21:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf cs-etm: Validate num_cpu before metadata allocation",
+      "subsystem": "perf cs-etm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "fe63d3bca288c5bb983304efd5fc3a5ff3183403",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fe63d3bca288c5bb983304efd5fc3a5ff3183403",
+      "authoredAt": "2026-06-13T13:59:39.000-03:00",
+      "committedAt": "2026-06-17T09:21:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf machine: Use snprintf() for guestmount path construction",
+      "subsystem": "perf machine",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "8a4506595857356fcef9f7aad3506593e9fabbbc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8a4506595857356fcef9f7aad3506593e9fabbbc",
+      "authoredAt": "2026-06-13T13:46:29.000-03:00",
+      "committedAt": "2026-06-17T09:21:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf machine: Propagate machine__init() error to callers",
+      "subsystem": "perf machine",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
     {
       "sha": "5cf2c21ab0900b41c0e29c925b9a640a92340d40",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5cf2c21ab0900b41c0e29c925b9a640a92340d40",
@@ -354,6 +570,24 @@
       ]
     },
     {
+      "sha": "325aabebbbc0520f95db3974d46e13a081cf6c28",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/325aabebbbc0520f95db3974d46e13a081cf6c28",
+      "authoredAt": "2026-06-11T14:56:32.000-07:00",
+      "committedAt": "2026-06-11T21:21:37.000-03:00",
+      "authorName": "Chun-Tse Shao",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf stat: Fix false NMI watchdog warning in aggregation modes",
+      "subsystem": "perf stat",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-next",
+          "identity": "Gemini:gemini-next",
+          "agent": "Gemini",
+          "model": "gemini-next"
+        }
+      ]
+    },
+    {
       "sha": "22920541c35a9f23f219038ba5874c843a7c4419",
       "htmlUrl": "https://github.com/torvalds/linux/commit/22920541c35a9f23f219038ba5874c843a7c4419",
       "authoredAt": "2026-06-11T14:35:10.000-07:00",
@@ -368,6 +602,96 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "190c4546384461f3dee70a649b438aa41c24d01e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/190c4546384461f3dee70a649b438aa41c24d01e",
+      "authoredAt": "2026-06-11T09:41:22.000-07:00",
+      "committedAt": "2026-06-15T14:33:49.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Add inject ASLR test",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.1-pro",
+          "identity": "Antigravity:gemini-3.1-pro",
+          "agent": "Antigravity",
+          "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "d6dbf2d4a9009a9cec1b33325308fa5b3a7b6ba9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d6dbf2d4a9009a9cec1b33325308fa5b3a7b6ba9",
+      "authoredAt": "2026-06-11T09:41:21.000-07:00",
+      "committedAt": "2026-06-15T14:33:49.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf aslr: Strip sample registers",
+      "subsystem": "perf aslr",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.1-pro",
+          "identity": "Antigravity:gemini-3.1-pro",
+          "agent": "Antigravity",
+          "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "575c6d2bc470ec809d6c803ec0db9e61762cfa32",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/575c6d2bc470ec809d6c803ec0db9e61762cfa32",
+      "authoredAt": "2026-06-11T09:41:20.000-07:00",
+      "committedAt": "2026-06-15T14:32:21.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf inject/aslr: Implement sample address remapping",
+      "subsystem": "perf inject/aslr",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.1-pro",
+          "identity": "Antigravity:gemini-3.1-pro",
+          "agent": "Antigravity",
+          "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "febea9ec382f5616954c1e3578e70308f4762e59",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/febea9ec382f5616954c1e3578e70308f4762e59",
+      "authoredAt": "2026-06-11T09:41:19.000-07:00",
+      "committedAt": "2026-06-15T09:02:17.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf inject/aslr: Add ASLR tool infrastructure and MMAP tracking",
+      "subsystem": "perf inject/aslr",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.1-pro",
+          "identity": "Antigravity:gemini-3.1-pro",
+          "agent": "Antigravity",
+          "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "75a4888b7029a1f98613aef91f517b2ee1f03d43",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/75a4888b7029a1f98613aef91f517b2ee1f03d43",
+      "authoredAt": "2026-06-11T09:41:18.000-07:00",
+      "committedAt": "2026-06-15T09:01:27.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf maps: Add maps__mutate_mapping",
+      "subsystem": "perf maps",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.1-pro",
+          "identity": "Antigravity:gemini-3.1-pro",
+          "agent": "Antigravity",
+          "model": "gemini-3.1-pro"
         }
       ]
     },
@@ -426,6 +750,240 @@
       ]
     },
     {
+      "sha": "542e88a4c6f7b6edd1326ce767d4cb3c2ea9d61d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/542e88a4c6f7b6edd1326ce767d4cb3c2ea9d61d",
+      "authoredAt": "2026-06-10T22:45:08.000-03:00",
+      "committedAt": "2026-06-17T08:29:07.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf cs-etm: Reject CPU IDs that would overflow signed comparison",
+      "subsystem": "perf cs-etm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "4a7500d772fe59653053db22ca83c9e2232b22e1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4a7500d772fe59653053db22ca83c9e2232b22e1",
+      "authoredAt": "2026-06-10T21:23:35.000-03:00",
+      "committedAt": "2026-06-17T08:29:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf c2c: Free format list entries when releasing c2c hist entries",
+      "subsystem": "perf c2c",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "033e85edfbf271f92979d2a39aeaf40f8472a795",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/033e85edfbf271f92979d2a39aeaf40f8472a795",
+      "authoredAt": "2026-06-10T21:03:16.000-03:00",
+      "committedAt": "2026-06-17T08:29:00.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf bpf: Bounds-check array offsets in bpil_offs_to_addr()",
+      "subsystem": "perf bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "2d6ea0875093da9033fcb62c09a9e2f1de49fe91",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2d6ea0875093da9033fcb62c09a9e2f1de49fe91",
+      "authoredAt": "2026-06-10T21:02:25.000-03:00",
+      "committedAt": "2026-06-17T08:28:57.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf bpf: Reject oversized BPF metadata events that truncate header.size",
+      "subsystem": "perf bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "10b3c3d63ecc17c6acb855bac5f40367f1115765",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/10b3c3d63ecc17c6acb855bac5f40367f1115765",
+      "authoredAt": "2026-06-10T21:01:15.000-03:00",
+      "committedAt": "2026-06-17T08:28:53.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf bpf: Validate func_info_rec_size and sub_id in synthesize_bpf_prog_name()",
+      "subsystem": "perf bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "500f5dd0a8b6f7bd174102587c7dff5a7d2fecbf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/500f5dd0a8b6f7bd174102587c7dff5a7d2fecbf",
+      "authoredAt": "2026-06-10T21:00:11.000-03:00",
+      "committedAt": "2026-06-17T08:28:50.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Replace (void*)1 sentinel with proper runtime allocation",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "cfafef390ca9c753b34c7e97b5abee4cab0ce270",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cfafef390ca9c753b34c7e97b5abee4cab0ce270",
+      "authoredAt": "2026-06-10T20:40:34.000-03:00",
+      "committedAt": "2026-06-17T08:28:47.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf hwmon: Fix fd check to accept fd 0 in hwmon_pmu__describe_items()",
+      "subsystem": "perf hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "7b0df6f4d498b1608afccfd6dffb264e6da91693",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7b0df6f4d498b1608afccfd6dffb264e6da91693",
+      "authoredAt": "2026-06-10T20:34:38.000-03:00",
+      "committedAt": "2026-06-17T08:28:44.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Use snprintf() for root_dir path construction",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "d2c6069d68ee9d53b05fe38bc2049cc4286fbb16",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d2c6069d68ee9d53b05fe38bc2049cc4286fbb16",
+      "authoredAt": "2026-06-10T20:16:02.000-03:00",
+      "committedAt": "2026-06-17T08:28:40.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf dso: Set error code when open() fails on uncompressed fallback path",
+      "subsystem": "perf dso",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "f973e52a99776fcc473488984828d1fce56d5382",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f973e52a99776fcc473488984828d1fce56d5382",
+      "authoredAt": "2026-06-10T19:33:48.000-03:00",
+      "committedAt": "2026-06-17T08:28:37.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf dso: Fix heap overflow in dso__get_filename() on decompressed path",
+      "subsystem": "perf dso",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "063c647b24f640657d6d9e2e90d620ea3ee19ae6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/063c647b24f640657d6d9e2e90d620ea3ee19ae6",
+      "authoredAt": "2026-06-10T19:32:22.000-03:00",
+      "committedAt": "2026-06-17T08:28:31.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf symbols: Break infinite loop on zero-filled notes in sysfs__read_build_id()",
+      "subsystem": "perf symbols",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "2a3716544359d4312c81b0fa909a13301186da17",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2a3716544359d4312c81b0fa909a13301186da17",
+      "authoredAt": "2026-06-10T19:29:34.000-03:00",
+      "committedAt": "2026-06-17T08:25:14.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf symbols: Validate p_filesz before use in filename__read_build_id()",
+      "subsystem": "perf symbols",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "081b387c7397498c583b1ba7c2fdaf4c6da6b538",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/081b387c7397498c583b1ba7c2fdaf4c6da6b538",
+      "authoredAt": "2026-06-10T19:28:43.000-03:00",
+      "committedAt": "2026-06-17T08:25:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf symbols: Fix bswap copy-paste error for 32-bit ELF p_filesz",
+      "subsystem": "perf symbols",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "298ab7e6f1637cec44163f52e84e2030ec16ed9d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/298ab7e6f1637cec44163f52e84e2030ec16ed9d",
       "authoredAt": "2026-06-10T13:44:41.000-07:00",
@@ -440,6 +998,24 @@
           "identity": "Codex:gpt-5.5-high",
           "agent": "Codex",
           "model": "gpt-5.5-high"
+        }
+      ]
+    },
+    {
+      "sha": "52e582e316c48c53bb3082c29f7862ebc554087e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/52e582e316c48c53bb3082c29f7862ebc554087e",
+      "authoredAt": "2026-06-10T16:09:45.000-03:00",
+      "committedAt": "2026-06-10T18:56:02.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf symbols: Add bounds checks to read_build_id() note iteration in minimal build",
+      "subsystem": "perf symbols",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -518,6 +1094,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "d281fb9dfdaf30af4dfc68262b6b4997439a6aea",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d281fb9dfdaf30af4dfc68262b6b4997439a6aea",
+      "authoredAt": "2026-06-09T15:40:07.000+01:00",
+      "committedAt": "2026-06-10T18:55:48.000-03:00",
+      "authorName": "James Clark",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Add workload-ctl option",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
         }
       ]
     },
@@ -602,6 +1196,24 @@
       "committerName": "Andrew Morton",
       "subject": "lib: interval_tree_test: validate benchmark parameters",
       "subsystem": "lib",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
+    {
+      "sha": "e8ae6fd67021fafa9205330b3b248c9fc7216e0b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e8ae6fd67021fafa9205330b3b248c9fc7216e0b",
+      "authoredAt": "2026-06-09T00:48:15.000Z",
+      "committedAt": "2026-06-21T11:37:37.000-07:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "Andrew Morton",
+      "subject": "mm/gup_test: reject wrapped user ranges",
+      "subsystem": "mm/gup_test",
       "assistedBy": [
         {
           "raw": "Codex:gpt-5.5-cyber-preview",
@@ -698,6 +1310,24 @@
           "identity": "Codex:gpt-5.5-cyber-preview",
           "agent": "Codex",
           "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
+    {
+      "sha": "7435c4069a546a5d2421407b3d43fdc1790ce6cc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7435c4069a546a5d2421407b3d43fdc1790ce6cc",
+      "authoredAt": "2026-06-08T15:32:32.000-03:00",
+      "committedAt": "2026-06-10T15:23:54.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "libperf: Document code simplification case for widening struct perf_cpu",
+      "subsystem": "libperf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -810,6 +1440,150 @@
       ]
     },
     {
+      "sha": "acc56d3941fc2997a5a21ea9233a8ac3d87c4f2f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/acc56d3941fc2997a5a21ea9233a8ac3d87c4f2f",
+      "authoredAt": "2026-06-08T08:12:34.000-03:00",
+      "committedAt": "2026-06-10T18:56:02.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf symbols: Add bounds checks to elf_read_build_id() note iteration",
+      "subsystem": "perf symbols",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "a0e4362a3e7b592f1d58949ffe3d6decad39a17c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a0e4362a3e7b592f1d58949ffe3d6decad39a17c",
+      "authoredAt": "2026-06-08T08:12:04.000-03:00",
+      "committedAt": "2026-06-10T18:56:02.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf bpf: Fix metadata leak in perf_env__add_bpf_info() on duplicate insert",
+      "subsystem": "perf bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "aece2b8966fc8de5be46ee9287d0f60d6690c300",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/aece2b8966fc8de5be46ee9287d0f60d6690c300",
+      "authoredAt": "2026-06-08T08:11:28.000-03:00",
+      "committedAt": "2026-06-10T18:56:02.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf bpf: Fix map data leak in bpf_metadata_create() on alloc failure",
+      "subsystem": "perf bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "903b0526dcf86d030c5970b4b0a67f9c227368e2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/903b0526dcf86d030c5970b4b0a67f9c227368e2",
+      "authoredAt": "2026-06-08T08:10:43.000-03:00",
+      "committedAt": "2026-06-10T18:56:02.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf bpf: Add NULL check for btf__type_by_id() in synthesize_bpf_prog_name()",
+      "subsystem": "perf bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "fd1f70776add263f8ef38a87ae593c75303f1dcd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fd1f70776add263f8ef38a87ae593c75303f1dcd",
+      "authoredAt": "2026-06-08T08:10:18.000-03:00",
+      "committedAt": "2026-06-10T18:56:02.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "tools lib api: Fix mount_overload() snprintf truncation and toupper range",
+      "subsystem": "tools lib api",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "438ece06185696e14c63c6113d5e2d34ec0a9680",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/438ece06185696e14c63c6113d5e2d34ec0a9680",
+      "authoredAt": "2026-06-08T07:05:19.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "tools lib api: Fix filename__write_int() writing uninitialized stack data",
+      "subsystem": "tools lib api",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "2ea64782a428bed74f595961e651ceb8c4c5bf22",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2ea64782a428bed74f595961e651ceb8c4c5bf22",
+      "authoredAt": "2026-06-08T07:04:25.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Use snprintf() in dso__read_running_kernel_build_id()",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "34d3d93fac6d92237cb9d730ca04c37ed361c7a6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/34d3d93fac6d92237cb9d730ca04c37ed361c7a6",
+      "authoredAt": "2026-06-08T07:03:04.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf hwmon: Guard label read against empty or failed reads",
+      "subsystem": "perf hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "b74360369e13a68337a411efba1fd2bdbb6f1b80",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b74360369e13a68337a411efba1fd2bdbb6f1b80",
       "authoredAt": "2026-06-08T02:44:57.000-07:00",
@@ -846,6 +1620,240 @@
       ]
     },
     {
+      "sha": "51cdb188edeaf389e4377859b9c483c19ce5a259",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/51cdb188edeaf389e4377859b9c483c19ce5a259",
+      "authoredAt": "2026-06-07T22:43:09.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Fix uninitialized pathname on uncompressed fallback in filename__decompress()",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "1b4e9fbdeabc549965e70ac0cd8095d57ff6df06",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1b4e9fbdeabc549965e70ac0cd8095d57ff6df06",
+      "authoredAt": "2026-06-07T22:40:20.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf symbols: Bounds-check descsz in sysfs__read_build_id() GNU fallback",
+      "subsystem": "perf symbols",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "e1a2c9d70b312acc262f6be936dd5bbd9bbc6236",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e1a2c9d70b312acc262f6be936dd5bbd9bbc6236",
+      "authoredAt": "2026-06-07T22:39:53.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf hwmon: Fix parse_hwmon_filename() strlcpy buffer overflow",
+      "subsystem": "perf hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "ae75956c166fe169b8c137bf375305fc97820a62",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ae75956c166fe169b8c137bf375305fc97820a62",
+      "authoredAt": "2026-06-07T22:38:48.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf hwmon: Use scnprintf() in hwmon_pmu__for_each_event()",
+      "subsystem": "perf hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "1847c5fae344a0fb9cc0f95be40b378359c6fc3b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1847c5fae344a0fb9cc0f95be40b378359c6fc3b",
+      "authoredAt": "2026-06-07T22:38:26.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf hwmon: Fix off-by-one null termination on sysfs reads",
+      "subsystem": "perf hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "31d596054550f793508abe7dd593853ece47d428",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/31d596054550f793508abe7dd593853ece47d428",
+      "authoredAt": "2026-06-07T22:37:55.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Fix thread__set_comm_from_proc() on empty comm file",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "b6bb3b005dcdd960b8e0b7f9d6869132b3de08d5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b6bb3b005dcdd960b8e0b7f9d6869132b3de08d5",
+      "authoredAt": "2026-06-07T21:06:54.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf intel-pt: Fix snprintf size tracking bug in insn decoder",
+      "subsystem": "perf intel-pt",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "b8acc68f1382a3f380a0e7320a95d328ac5e9027",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b8acc68f1382a3f380a0e7320a95d328ac5e9027",
+      "authoredAt": "2026-06-07T21:06:12.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Use mkostemp() for O_CLOEXEC on temporary files",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "9c74f0aab398cb32ab250401f323c0fdc9a3a496",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9c74f0aab398cb32ab250401f323c0fdc9a3a496",
+      "authoredAt": "2026-06-07T21:05:15.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf symbols: Bounds-check .gnu_debuglink section data",
+      "subsystem": "perf symbols",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "6eaa8ee3e2abe5112e80e94c27196bb175689469",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6eaa8ee3e2abe5112e80e94c27196bb175689469",
+      "authoredAt": "2026-06-07T21:04:50.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf symbols: Fix signed overflow in sysfs__read_build_id() size check",
+      "subsystem": "perf symbols",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "52b1f9678499b13b7aeb0186d9c6f486c043283f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/52b1f9678499b13b7aeb0186d9c6f486c043283f",
+      "authoredAt": "2026-06-07T21:03:55.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "tools lib api: Fix missing null termination in filename__read_int/ull()",
+      "subsystem": "tools lib api",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "33035f7dd4e49f3f117e70c5e36c8c1ae88d37f2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/33035f7dd4e49f3f117e70c5e36c8c1ae88d37f2",
+      "authoredAt": "2026-06-07T21:03:13.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf pmu: Fix perf_pmu__parse_scale/unit() OOB access on empty sysfs file",
+      "subsystem": "perf pmu",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "836455e6dbd34eb3d12eeab5e2d2b9a7f1512459",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/836455e6dbd34eb3d12eeab5e2d2b9a7f1512459",
+      "authoredAt": "2026-06-07T21:01:43.000-03:00",
+      "committedAt": "2026-06-10T18:56:01.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf pmu: Fix pmu_id() heap underwrite on empty identifier file",
+      "subsystem": "perf pmu",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "1c1e0fc88d6ef65bf15d517853251f75ab9d18c3",
       "htmlUrl": "https://github.com/torvalds/linux/commit/1c1e0fc88d6ef65bf15d517853251f75ab9d18c3",
       "authoredAt": "2026-06-08T01:05:02.000+02:00",
@@ -860,6 +1868,60 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "e33711d5e757011bb6d3506af4d6c97dad412b8f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e33711d5e757011bb6d3506af4d6c97dad412b8f",
+      "authoredAt": "2026-06-07T14:36:57.000-03:00",
+      "committedAt": "2026-06-10T15:23:53.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Use scnprintf() in build_id__snprintf() and hwmon read_events()",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "227a8748742f0263f1fe3131449b44563b77a209",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/227a8748742f0263f1fe3131449b44563b77a209",
+      "authoredAt": "2026-06-07T14:35:28.000-03:00",
+      "committedAt": "2026-06-10T15:23:53.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf hists: Fix snprintf() in hists__scnprintf_title() UID filter path",
+      "subsystem": "perf hists",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "cab3a9331ed0b3f884dd61c8a25b3cf123705982",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cab3a9331ed0b3f884dd61c8a25b3cf123705982",
+      "authoredAt": "2026-06-07T14:23:15.000-03:00",
+      "committedAt": "2026-06-10T15:23:53.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf bpf: Use scnprintf() in snprintf_hex() and synthesize_bpf_prog_name()",
+      "subsystem": "perf bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -914,6 +1976,276 @@
           "identity": "Gemini:gemini-3.1-pro",
           "agent": "Gemini",
           "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "b145137fec13dc8fc7fcb14193ce395a1164e3a1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b145137fec13dc8fc7fcb14193ce395a1164e3a1",
+      "authoredAt": "2026-06-06T21:51:42.000-03:00",
+      "committedAt": "2026-06-10T15:23:53.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Add O_CLOEXEC to open() calls in DSO and ELF code",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "d9b99dc8148e0c1f5da3942131b47e0d21187a32",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d9b99dc8148e0c1f5da3942131b47e0d21187a32",
+      "authoredAt": "2026-06-06T21:49:16.000-03:00",
+      "committedAt": "2026-06-10T15:23:53.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Fix idle-hist callchain display using wrong rb_first variant",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "4477dc01fcfc7f404772a67e0c1e056541ceb61d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4477dc01fcfc7f404772a67e0c1e056541ceb61d",
+      "authoredAt": "2026-06-06T21:48:13.000-03:00",
+      "committedAt": "2026-06-10T15:23:53.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Bounds-check prio before test_bit() in timehist",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "a9e900bc5c5914aca750afafa459363e575d3046",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a9e900bc5c5914aca750afafa459363e575d3046",
+      "authoredAt": "2026-06-06T21:31:51.000-03:00",
+      "committedAt": "2026-06-10T13:13:32.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: NULL bitmap pointers after bitmap_free()",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "5484b43a0ec8231c36fba6ead654cb72dbba8b8f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5484b43a0ec8231c36fba6ead654cb72dbba8b8f",
+      "authoredAt": "2026-06-06T20:57:49.000-03:00",
+      "committedAt": "2026-06-10T11:38:45.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Use perf_env__get_cpu_topology() in machine__resolve()",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "7953a3a9b8e02e98c6e6958f291d0ae22393e46a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7953a3a9b8e02e98c6e6958f291d0ae22393e46a",
+      "authoredAt": "2026-06-06T20:43:52.000-03:00",
+      "committedAt": "2026-06-10T11:38:45.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Use scnprintf() in cpu_map__snprint() to prevent overflow",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "0a012113bb3a44482c163f16f4db03ccaa37a339",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0a012113bb3a44482c163f16f4db03ccaa37a339",
+      "authoredAt": "2026-06-06T20:37:52.000-03:00",
+      "committedAt": "2026-06-10T11:38:45.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Fix get_max_num() size_t underflow on empty sysfs file",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "f54ce06049bf716f6b1e3a78e72360d583ea2acb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f54ce06049bf716f6b1e3a78e72360d583ea2acb",
+      "authoredAt": "2026-06-06T14:42:09.000-03:00",
+      "committedAt": "2026-06-06T14:46:37.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "libperf: Document struct perf_cpu int16_t ABI limitation",
+      "subsystem": "libperf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "c3e51ed45ffa7547495a851e33ce332f81ef3665",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c3e51ed45ffa7547495a851e33ce332f81ef3665",
+      "authoredAt": "2026-06-06T11:33:41.000-03:00",
+      "committedAt": "2026-06-06T14:42:19.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Free callchain nodes in idle thread cleanup",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "33fa2bf5608fc36bc25231592145f4738f14f11b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/33fa2bf5608fc36bc25231592145f4738f14f11b",
+      "authoredAt": "2026-06-06T11:25:40.000-03:00",
+      "committedAt": "2026-06-06T14:42:19.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Fix int16_t truncation of max_cpu_num in set_max_cpu_num()",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "e2496db45bfd8dfb6154ec415798fee330f1cc0a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e2496db45bfd8dfb6154ec415798fee330f1cc0a",
+      "authoredAt": "2026-06-06T11:21:32.000-03:00",
+      "committedAt": "2026-06-06T14:27:52.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf timechart: Fix cpu2y() OOB read on untrusted CPU index",
+      "subsystem": "perf timechart",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "5e5e6196d737c5be03d20647428316b36621608d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5e5e6196d737c5be03d20647428316b36621608d",
+      "authoredAt": "2026-06-06T11:19:10.000-03:00",
+      "committedAt": "2026-06-06T13:44:46.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf c2c: Fix use-after-free in he__get_c2c_hists() error path",
+      "subsystem": "perf c2c",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "afa4363a91a19dff65dceb7fbce7bba689bbc854",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/afa4363a91a19dff65dceb7fbce7bba689bbc854",
+      "authoredAt": "2026-06-06T11:17:45.000-03:00",
+      "committedAt": "2026-06-06T13:44:46.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf stat: Introduce perf_env__get_cpu_topology() to guard NULL env->cpu",
+      "subsystem": "perf stat",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "25627346b10e6a564610ea2c49dc6dd54812226d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/25627346b10e6a564610ea2c49dc6dd54812226d",
+      "authoredAt": "2026-06-06T11:03:29.000-03:00",
+      "committedAt": "2026-06-06T11:03:29.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf mmap: Fix NULL deref in aio cleanup on alloc failure",
+      "subsystem": "perf mmap",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "c9b3054c99cafd5f5f92158101760992a83e5a5e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c9b3054c99cafd5f5f92158101760992a83e5a5e",
+      "authoredAt": "2026-06-05T19:01:35.000-03:00",
+      "committedAt": "2026-06-05T19:17:31.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Use is_idle_sample() for idle thread runtime cast guard",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -990,6 +2322,24 @@
       ]
     },
     {
+      "sha": "5419cac89c0224b5acdbcda183a3c4809510ce95",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5419cac89c0224b5acdbcda183a3c4809510ce95",
+      "authoredAt": "2026-06-05T18:41:52.000Z",
+      "committedAt": "2026-06-21T11:37:37.000-07:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "Andrew Morton",
+      "subject": "mm/page_frag: reject invalid CPUs in page_frag_test",
+      "subsystem": "mm/page_frag",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
+    {
       "sha": "81eafcada109b653977c4dfbd2b6a72470025a01",
       "htmlUrl": "https://github.com/torvalds/linux/commit/81eafcada109b653977c4dfbd2b6a72470025a01",
       "authoredAt": "2026-06-05T10:12:38.000-07:00",
@@ -1026,6 +2376,24 @@
       ]
     },
     {
+      "sha": "75eafe4a3a93a0143a20c0cc286bfb9008ac1478",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/75eafe4a3a93a0143a20c0cc286bfb9008ac1478",
+      "authoredAt": "2026-06-05T11:26:28.000-03:00",
+      "committedAt": "2026-06-05T19:17:31.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Replace BUG_ON and add NULL checks in replay event helpers",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "b66774b48dd98f07254951f74ea6f513efe7ff8b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b66774b48dd98f07254951f74ea6f513efe7ff8b",
       "authoredAt": "2026-06-05T16:23:35.000+02:00",
@@ -1040,6 +2408,132 @@
           "identity": "Gemini:gemini-3.1-pro-preview",
           "agent": "Gemini",
           "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "a99d6394cd48fed75b1d24733d5afe6837a61a3f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a99d6394cd48fed75b1d24733d5afe6837a61a3f",
+      "authoredAt": "2026-06-05T11:17:03.000-03:00",
+      "committedAt": "2026-06-05T19:17:31.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Use thread__put() in free_idle_threads()",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "662d56d48e527ee21a0b03082ee318258a6f7919",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/662d56d48e527ee21a0b03082ee318258a6f7919",
+      "authoredAt": "2026-06-05T11:15:58.000-03:00",
+      "committedAt": "2026-06-05T19:17:31.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Fix thread reference leak in idle hist processing",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "cda5a94ad9181cd60cbf04be11d524201bf489a2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cda5a94ad9181cd60cbf04be11d524201bf489a2",
+      "authoredAt": "2026-06-05T11:12:08.000-03:00",
+      "committedAt": "2026-06-05T19:17:31.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Clean up idle_threads entry on init failure",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "5fb2e6ad8c5d6b3b380f94c7456595511f3731be",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5fb2e6ad8c5d6b3b380f94c7456595511f3731be",
+      "authoredAt": "2026-06-05T11:06:30.000-03:00",
+      "committedAt": "2026-06-05T19:17:31.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf c2c: Bounds-check CPU IDs in setup_nodes() topology loop",
+      "subsystem": "perf c2c",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "65117c3da50f749f4c22eb7a7effc53453dff57f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/65117c3da50f749f4c22eb7a7effc53453dff57f",
+      "authoredAt": "2026-06-05T11:05:13.000-03:00",
+      "committedAt": "2026-06-05T19:17:31.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf c2c: Bounds-check CPU and node IDs before bitmap and array access",
+      "subsystem": "perf c2c",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "52e69b1c5b606b513d403dd4addc784c27a0c8e2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/52e69b1c5b606b513d403dd4addc784c27a0c8e2",
+      "authoredAt": "2026-06-05T10:59:11.000-03:00",
+      "committedAt": "2026-06-05T17:22:21.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf stat: Bounds-check CPU index in topology aggregation callbacks",
+      "subsystem": "perf stat",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "f32dc302a090f48893477ef297a888db109ec0bd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f32dc302a090f48893477ef297a888db109ec0bd",
+      "authoredAt": "2026-06-05T10:56:33.000-03:00",
+      "committedAt": "2026-06-05T17:22:21.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf mmap: Guard cpu__get_node() return in aio_bind()",
+      "subsystem": "perf mmap",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -1170,6 +2664,114 @@
       ]
     },
     {
+      "sha": "9e3fcab6fbecebbcffeafeb5db612a57688cb7f4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9e3fcab6fbecebbcffeafeb5db612a57688cb7f4",
+      "authoredAt": "2026-06-04T15:06:27.000-07:00",
+      "committedAt": "2026-06-11T12:05:26.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Truncate printed test descriptions dynamically to avoid terminal wrapping",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3.1 Pro",
+          "identity": "Gemini-CLI:Google Gemini 3.1 Pro",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3.1 Pro"
+        }
+      ]
+    },
+    {
+      "sha": "5949d339f5ec98752d56dcd4e36f619a59d513a5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5949d339f5ec98752d56dcd4e36f619a59d513a5",
+      "authoredAt": "2026-06-04T18:25:57.000-03:00",
+      "committedAt": "2026-06-05T17:19:42.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Fix register_pid() overflow, strcpy, and BUG_ON",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "06e7994427ab56e32699a5e45d048ff0826f3d53",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/06e7994427ab56e32699a5e45d048ff0826f3d53",
+      "authoredAt": "2026-06-04T18:23:35.000-03:00",
+      "committedAt": "2026-06-05T17:19:31.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Cap max_cpu at MAX_CPUS in timehist sample processing",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "fa20c1f8f4e094abe0169d39fce8181bc26d6dab",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fa20c1f8f4e094abe0169d39fce8181bc26d6dab",
+      "authoredAt": "2026-06-04T18:18:05.000-03:00",
+      "committedAt": "2026-06-04T19:17:36.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Fix thread reference leaks in timehist_get_thread()",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "1e7921d7227de5da0dfc167943092c823ec7e49b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1e7921d7227de5da0dfc167943092c823ec7e49b",
+      "authoredAt": "2026-06-04T18:14:23.000-03:00",
+      "committedAt": "2026-06-04T19:17:36.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Add bounds check to cpu__get_node()",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "7ccd2e6cecd5bb02a5a15f0dd7199d1e81380bda",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7ccd2e6cecd5bb02a5a15f0dd7199d1e81380bda",
+      "authoredAt": "2026-06-04T18:11:41.000-03:00",
+      "committedAt": "2026-06-04T19:17:36.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Guard remaining test_bit calls from OOB sample CPU",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "26aa60e0276272ae61b843a05a91748dcb1130f9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/26aa60e0276272ae61b843a05a91748dcb1130f9",
       "authoredAt": "2026-06-04T11:01:54.000-07:00",
@@ -1206,6 +2808,24 @@
       ]
     },
     {
+      "sha": "be694c488a1e96e728517b26de9f15fed56b2e74",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/be694c488a1e96e728517b26de9f15fed56b2e74",
+      "authoredAt": "2026-06-04T09:36:26.000-07:00",
+      "committedAt": "2026-06-04T17:34:52.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf pmu: Recognize 'default_core' as a core PMU and document matching",
+      "subsystem": "perf pmu",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3.1 Pro",
+          "identity": "Gemini-CLI:Google Gemini 3.1 Pro",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3.1 Pro"
+        }
+      ]
+    },
+    {
       "sha": "ed46f39c47eb5530a9c161481a2080d3a869cfaf",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ed46f39c47eb5530a9c161481a2080d3a869cfaf",
       "authoredAt": "2026-06-04T09:07:13.000-07:00",
@@ -1214,6 +2834,78 @@
       "committerName": "Jens Axboe",
       "subject": "io_uring/net: inherit IORING_CQE_F_BUF_MORE across bundle recv retries",
       "subsystem": "io_uring/net",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "c8b04142078a9ccb9e402ab7c38de7123256f4a5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c8b04142078a9ccb9e402ab7c38de7123256f4a5",
+      "authoredAt": "2026-06-04T13:05:10.000-03:00",
+      "committedAt": "2026-06-04T17:40:25.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Fix comp_cpus heap overflow with cross-machine recordings",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "8cbca8a480e15f6326ce94287570993f27a4b2d5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8cbca8a480e15f6326ce94287570993f27a4b2d5",
+      "authoredAt": "2026-06-04T12:56:02.000-03:00",
+      "committedAt": "2026-06-04T17:34:52.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Fix NULL dereference in latency_runtime_event",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "66ea9de60396a4dea5276bc87025884691876c36",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/66ea9de60396a4dea5276bc87025884691876c36",
+      "authoredAt": "2026-06-04T12:55:29.000-03:00",
+      "committedAt": "2026-06-04T17:34:52.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Fix thread reference leak in latency_switch_event",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "a5498ccf8079fc91c938f122ff9697b0c526b2fd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a5498ccf8079fc91c938f122ff9697b0c526b2fd",
+      "authoredAt": "2026-06-04T12:55:06.000-03:00",
+      "committedAt": "2026-06-04T17:34:52.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Guard test_bit from out-of-bounds sample CPU",
+      "subsystem": "perf tools",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4.6",
@@ -1566,6 +3258,24 @@
       ]
     },
     {
+      "sha": "078fc0430bf17e2a571e36877c1942f6c0860524",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/078fc0430bf17e2a571e36877c1942f6c0860524",
+      "authoredAt": "2026-06-02T20:45:14.000-03:00",
+      "committedAt": "2026-06-03T16:31:04.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Add file offset diagnostic test for corrupted perf.data",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "13e91fd076306f5d0cdfa14f53d69e37274723c4",
       "htmlUrl": "https://github.com/torvalds/linux/commit/13e91fd076306f5d0cdfa14f53d69e37274723c4",
       "authoredAt": "2026-06-02T18:04:57.000-04:00",
@@ -1638,6 +3348,294 @@
       ]
     },
     {
+      "sha": "a77ecea7ced2fef7cc0a8ad0323542f781ad9788",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a77ecea7ced2fef7cc0a8ad0323542f781ad9788",
+      "authoredAt": "2026-06-02T10:41:27.000-07:00",
+      "committedAt": "2026-06-04T11:41:46.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Remove /usr/bin/cc dependency from Intel PT shell test",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "0dd6025171436822e54ae556dc48aed89c42b6a9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0dd6025171436822e54ae556dc48aed89c42b6a9",
+      "authoredAt": "2026-06-02T10:41:26.000-07:00",
+      "committedAt": "2026-06-04T11:41:33.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Add shell test to validate JUnit XML reporting output",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "e2c545737bf4387d1217d3608274823421e1dbf2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e2c545737bf4387d1217d3608274823421e1dbf2",
+      "authoredAt": "2026-06-02T10:41:25.000-07:00",
+      "committedAt": "2026-06-04T11:41:11.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Add -j/--junit option for JUnit XML test reports",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "a540f031bbbceb6e390a71eb9f7f8d65363356ba",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a540f031bbbceb6e390a71eb9f7f8d65363356ba",
+      "authoredAt": "2026-06-02T10:41:24.000-07:00",
+      "committedAt": "2026-06-04T11:40:51.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Split monolithic 'util' test suite into sub-tests",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "85fe2fdb2726e8e85b0dc1217260d7b5bf0a5dca",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/85fe2fdb2726e8e85b0dc1217260d7b5bf0a5dca",
+      "authoredAt": "2026-06-02T10:41:23.000-07:00",
+      "committedAt": "2026-06-04T11:40:36.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Skip shebang and SPDX comments in shell test descriptions",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "94ac3ce427c8f80d699909c85a7cb70a589c562d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/94ac3ce427c8f80d699909c85a7cb70a589c562d",
+      "authoredAt": "2026-06-02T10:41:22.000-07:00",
+      "committedAt": "2026-06-04T11:40:13.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Fix subtest status alignment for multi-digit indexes",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "33f20342ba525ef75fd9734db71e9823fe65e769",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/33f20342ba525ef75fd9734db71e9823fe65e769",
+      "authoredAt": "2026-06-02T10:41:21.000-07:00",
+      "committedAt": "2026-06-04T11:37:57.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Add summary reporting",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "b5a4a361f5cfb8f6f6f0a59536fd5fad11ed9f5f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b5a4a361f5cfb8f6f6f0a59536fd5fad11ed9f5f",
+      "authoredAt": "2026-06-02T10:41:20.000-07:00",
+      "committedAt": "2026-06-04T11:37:24.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Show snippet failure output for verbose=1",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "f35450738e789b80b540f41487b9053defd0bb8d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f35450738e789b80b540f41487b9053defd0bb8d",
+      "authoredAt": "2026-06-02T10:41:19.000-07:00",
+      "committedAt": "2026-06-04T11:37:02.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Refactor parallel poll loop to drain all pipes simultaneously",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "c7dacfb87beed63ffe360c73c2a284d9e334f135",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c7dacfb87beed63ffe360c73c2a284d9e334f135",
+      "authoredAt": "2026-06-02T10:41:18.000-07:00",
+      "committedAt": "2026-06-04T11:36:51.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "tools subcmd: Robust fallback and existence checks for process reaping",
+      "subsystem": "tools subcmd",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "8ae26f6ae7013f0ba753feed723eb0613796cb67",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8ae26f6ae7013f0ba753feed723eb0613796cb67",
+      "authoredAt": "2026-06-02T10:41:17.000-07:00",
+      "committedAt": "2026-06-04T11:36:36.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test pmu-events: A sub-test per metric table",
+      "subsystem": "perf test pmu-events",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "8c8d61c38d8e1755a4325f8acb396137bbd5371a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8c8d61c38d8e1755a4325f8acb396137bbd5371a",
+      "authoredAt": "2026-06-02T10:41:16.000-07:00",
+      "committedAt": "2026-06-04T11:36:21.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Support dynamic test suites with setup callback and private data",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "744af598719776b2ca8b0f5388b51d2493cc94b7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/744af598719776b2ca8b0f5388b51d2493cc94b7",
+      "authoredAt": "2026-06-02T10:41:15.000-07:00",
+      "committedAt": "2026-06-04T11:36:09.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Drain pipe after child finishes to avoid losing output",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "53247b207bd02116cefd3409494382e7adf32849",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/53247b207bd02116cefd3409494382e7adf32849",
+      "authoredAt": "2026-06-02T10:41:14.000-07:00",
+      "committedAt": "2026-06-04T11:35:52.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf pmu-events: Add API to get metric table name and iterate tables",
+      "subsystem": "perf pmu-events",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "2c43c0c78668a7026967ab8280f0f9ffc04e65f4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2c43c0c78668a7026967ab8280f0f9ffc04e65f4",
+      "authoredAt": "2026-06-02T10:41:13.000-07:00",
+      "committedAt": "2026-06-04T11:35:32.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf jevents.py: Make generated C code more kernel style",
+      "subsystem": "perf jevents.py",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "bded0398ac19bc808984f50023bb482ce41f7bdd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bded0398ac19bc808984f50023bb482ce41f7bdd",
+      "authoredAt": "2026-06-02T10:41:12.000-07:00",
+      "committedAt": "2026-06-04T11:35:04.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tpebs: Fix concurrent stop races and PID reuse hazards in tpebs_stop",
+      "subsystem": "perf tpebs",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
       "sha": "6f5fb689fdf80bdd143f22a502f9eb1f3c85e286",
       "htmlUrl": "https://github.com/torvalds/linux/commit/6f5fb689fdf80bdd143f22a502f9eb1f3c85e286",
       "authoredAt": "2026-06-03T01:06:21.000+08:00",
@@ -1688,6 +3686,60 @@
           "identity": "Copilot:Claude-Opus-4.6",
           "agent": "Copilot",
           "model": "Claude-Opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "044462f6f64d16e9f51a695719a3248e277c1d4e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/044462f6f64d16e9f51a695719a3248e277c1d4e",
+      "authoredAt": "2026-06-02T08:25:16.000-07:00",
+      "committedAt": "2026-06-03T16:54:09.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf symbol: Lazily compute idle",
+      "subsystem": "perf symbol",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "979e87ab1f258036aab9ed874aecede0163586e5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/979e87ab1f258036aab9ed874aecede0163586e5",
+      "authoredAt": "2026-06-02T08:25:15.000-07:00",
+      "committedAt": "2026-06-03T16:53:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf symbol: Add setters for bitfields sharing a byte to avoid concurrent update issues",
+      "subsystem": "perf symbol",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "f7c6e4b99ded250b3fdeaa5be4ccaac9ae05f8d9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f7c6e4b99ded250b3fdeaa5be4ccaac9ae05f8d9",
+      "authoredAt": "2026-06-02T08:25:00.000-07:00",
+      "committedAt": "2026-06-03T16:45:21.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf env, dso, thread: Add _endian variants for e_machine helpers",
+      "subsystem": "perf env, dso, thread",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
         }
       ]
     },
@@ -1782,6 +3834,42 @@
       ]
     },
     {
+      "sha": "1e2c83f732deb329ebce23e26cbc482f4c4bf194",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1e2c83f732deb329ebce23e26cbc482f4c4bf194",
+      "authoredAt": "2026-06-01T19:53:41.000-03:00",
+      "committedAt": "2026-06-03T16:31:04.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Replace BUG_ON on invalid CPU with graceful skip",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "fa06520fa0aae5a8e7386c1d6b622c4d8b6a400d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fa06520fa0aae5a8e7386c1d6b622c4d8b6a400d",
+      "authoredAt": "2026-06-01T19:24:42.000-03:00",
+      "committedAt": "2026-06-03T16:31:04.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf timechart: Fix cat_backtrace() use-after-free on corrupted callchain",
+      "subsystem": "perf timechart",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "61d525d96ade3367ce65e340b33aa2f1fd5a3602",
       "htmlUrl": "https://github.com/torvalds/linux/commit/61d525d96ade3367ce65e340b33aa2f1fd5a3602",
       "authoredAt": "2026-06-01T13:42:38.000-07:00",
@@ -1814,6 +3902,96 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "865224bfde78b31be8883302db496ecb3b7919ab",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/865224bfde78b31be8883302db496ecb3b7919ab",
+      "authoredAt": "2026-06-01T15:21:20.000-03:00",
+      "committedAt": "2026-06-03T16:31:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Include file offset and event type name in skip messages",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "4cd74dee09d4b06f0e80826bf9d472d5aa42caaf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4cd74dee09d4b06f0e80826bf9d472d5aa42caaf",
+      "authoredAt": "2026-06-01T14:25:40.000-03:00",
+      "committedAt": "2026-06-03T16:31:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf timechart: Include file offset in CPU bounds check messages",
+      "subsystem": "perf timechart",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "d38bee6d8082c23635faa5473162291d228ca96e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d38bee6d8082c23635faa5473162291d228ca96e",
+      "authoredAt": "2026-06-01T14:21:44.000-03:00",
+      "committedAt": "2026-06-03T16:31:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Include file offset in event skip messages",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "43f827251af596072834fd6eb2b562468d1990d5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/43f827251af596072834fd6eb2b562468d1990d5",
+      "authoredAt": "2026-06-01T14:19:30.000-03:00",
+      "committedAt": "2026-06-03T16:31:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Include file offset in event skip/stop messages",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "7a490187f22b4bfae7ef752edbe3fb13017ca11c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7a490187f22b4bfae7ef752edbe3fb13017ca11c",
+      "authoredAt": "2026-06-01T13:07:52.000-03:00",
+      "committedAt": "2026-06-03T16:31:03.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sample: Add file_offset field to struct perf_sample",
+      "subsystem": "perf sample",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -2070,6 +4248,42 @@
       ]
     },
     {
+      "sha": "cc4fea19daeb0460fe3569e0a2d523f427b2bac1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cc4fea19daeb0460fe3569e0a2d523f427b2bac1",
+      "authoredAt": "2026-05-30T19:08:43.000-07:00",
+      "committedAt": "2026-06-08T17:02:21.000+05:30",
+      "authorName": "Rosen Penev",
+      "committerName": "Vinod Koul",
+      "subject": "dmaengine: ste_dma40: turn d40_base phy_chans into a flexible array",
+      "subsystem": "dmaengine",
+      "assistedBy": [
+        {
+          "raw": "Claude:Opus-4.7",
+          "identity": "Claude:Opus-4.7",
+          "agent": "Claude",
+          "model": "Opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "7e1f74bbbed7d3bf2f0597f820eba15ec70f35fa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7e1f74bbbed7d3bf2f0597f820eba15ec70f35fa",
+      "authoredAt": "2026-05-30T18:09:24.000-07:00",
+      "committedAt": "2026-06-04T10:58:47.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "tools build: Fix feature checks to touch target files on success",
+      "subsystem": "tools build",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
       "sha": "231fc9bc27fd03db171cab4e75116923250af7a7",
       "htmlUrl": "https://github.com/torvalds/linux/commit/231fc9bc27fd03db171cab4e75116923250af7a7",
       "authoredAt": "2026-05-30T18:07:50.000-07:00",
@@ -2102,6 +4316,24 @@
           "identity": "opencode:big-pickle",
           "agent": "opencode",
           "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "87aab0781cb35baa2214d0a95ff01e786e428226",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/87aab0781cb35baa2214d0a95ff01e786e428226",
+      "authoredAt": "2026-05-30T13:03:22.000-07:00",
+      "committedAt": "2026-06-08T17:02:21.000+05:30",
+      "authorName": "Rosen Penev",
+      "committerName": "Vinod Koul",
+      "subject": "dmaengine: dmatest: split struct dmatest_info from variable declaration",
+      "subsystem": "dmaengine",
+      "assistedBy": [
+        {
+          "raw": "Opencode:Big-pickle",
+          "identity": "Opencode:Big-pickle",
+          "agent": "Opencode",
+          "model": "Big-pickle"
         }
       ]
     },
@@ -2336,6 +4568,42 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "3dfaf02e554f63f9b4e68b69deda9617a1948993",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3dfaf02e554f63f9b4e68b69deda9617a1948993",
+      "authoredAt": "2026-05-28T16:44:55.000-07:00",
+      "committedAt": "2026-05-29T21:12:53.000-03:00",
+      "authorName": "Chun-Tse Shao",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf jevents: Add IOMMU metrics for Intel",
+      "subsystem": "perf jevents",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "a43581b5dd1f05dd42f9a7b43e3bdfa09daed440",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a43581b5dd1f05dd42f9a7b43e3bdfa09daed440",
+      "authoredAt": "2026-05-28T16:44:54.000-07:00",
+      "committedAt": "2026-05-29T21:12:46.000-03:00",
+      "authorName": "Chun-Tse Shao",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf jevents: Add IOMMU metrics for AMD",
+      "subsystem": "perf jevents",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
         }
       ]
     },
@@ -3438,6 +5706,24 @@
       ]
     },
     {
+      "sha": "f6ded4d1e8b5e29278605e89c893197fb484c2a6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f6ded4d1e8b5e29278605e89c893197fb484c2a6",
+      "authoredAt": "2026-05-23T15:30:15.000-03:00",
+      "committedAt": "2026-05-29T11:44:35.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Snapshot event->header.size in process_user_event()",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
       "sha": "b182633f8ce52172a40097ccc0c60047e58c2320",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b182633f8ce52172a40097ccc0c60047e58c2320",
       "authoredAt": "2026-05-23T20:37:59.000+03:00",
@@ -3506,6 +5792,24 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "1e389b7639f17e947ab9ed77bcba9f2ab7420f74",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1e389b7639f17e947ab9ed77bcba9f2ab7420f74",
+      "authoredAt": "2026-05-23T08:06:35.000-03:00",
+      "committedAt": "2026-05-29T11:44:11.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Bounds-check one_mmap event pointer in peek_event",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
         }
       ]
     },
@@ -3888,6 +6192,42 @@
       ]
     },
     {
+      "sha": "ca156ab12b2e2718b35dd6d30e0aea7be0edb11d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ca156ab12b2e2718b35dd6d30e0aea7be0edb11d",
+      "authoredAt": "2026-05-21T13:15:05.000-07:00",
+      "committedAt": "2026-06-04T10:58:47.000-03:00",
+      "authorName": "Chun-Tse Shao",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf stat: Use aggr_nr scaling for Intel uncore miss latency metrics",
+      "subsystem": "perf stat",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "e565ceb48bbf82cc4db4a42a33e378fe30d8d010",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e565ceb48bbf82cc4db4a42a33e378fe30d8d010",
+      "authoredAt": "2026-05-21T13:15:04.000-07:00",
+      "committedAt": "2026-06-04T10:58:47.000-03:00",
+      "authorName": "Chun-Tse Shao",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf stat: Add aggr_nr metric parser support",
+      "subsystem": "perf stat",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
       "sha": "0853ac544c590880d797b04daa33fcb72b6be0e1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0853ac544c590880d797b04daa33fcb72b6be0e1",
       "authoredAt": "2026-05-21T13:51:43.000-04:00",
@@ -4254,6 +6594,60 @@
       ]
     },
     {
+      "sha": "35c9fb22000f1ce10c0f3627d30fa8763e721719",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/35c9fb22000f1ce10c0f3627d30fa8763e721719",
+      "authoredAt": "2026-05-20T10:20:17.000Z",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Swapnil Sapkal",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf lock contention: Fix SIGCHLD vs pause() race in __cmd_contention()",
+      "subsystem": "perf lock contention",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "5b8c90e06622308ff4b6c14260baee6fad064289",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5b8c90e06622308ff4b6c14260baee6fad064289",
+      "authoredAt": "2026-05-20T10:20:16.000Z",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Swapnil Sapkal",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched stats: Fix SIGCHLD vs pause() race in schedstat_live()",
+      "subsystem": "perf sched stats",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "9416008e5462cf7a1da62bbaca915f483cea8b77",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9416008e5462cf7a1da62bbaca915f483cea8b77",
+      "authoredAt": "2026-05-20T10:20:15.000Z",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Swapnil Sapkal",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched stats: Fix SIGCHLD vs pause() race in schedstat_record()",
+      "subsystem": "perf sched stats",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "ce44b78512e9102aea54ff6b6e521d6c8de9f31c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ce44b78512e9102aea54ff6b6e521d6c8de9f31c",
       "authoredAt": "2026-05-20T12:16:13.000+02:00",
@@ -4404,6 +6798,42 @@
       ]
     },
     {
+      "sha": "bd2a5be1fe731bc7548205dd148db75f1d588da2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bd2a5be1fe731bc7548205dd148db75f1d588da2",
+      "authoredAt": "2026-05-19T08:27:16.000-07:00",
+      "committedAt": "2026-05-25T16:47:14.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Add stat metrics --for-each-cgroup test",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3-flash",
+          "identity": "Antigravity:gemini-3-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3-flash"
+        }
+      ]
+    },
+    {
+      "sha": "65bd18199ad5358f7c879dc69b4de3671b33e62e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/65bd18199ad5358f7c879dc69b4de3671b33e62e",
+      "authoredAt": "2026-05-19T08:27:15.000-07:00",
+      "committedAt": "2026-05-25T16:46:17.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf stat: Propagate supported flag to follower cgroup BPF events",
+      "subsystem": "perf stat",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3-flash",
+          "identity": "Antigravity:gemini-3-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3-flash"
+        }
+      ]
+    },
+    {
       "sha": "f19c354dbd457759dfcf1195ab4bdba2bb568323",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f19c354dbd457759dfcf1195ab4bdba2bb568323",
       "authoredAt": "2026-05-19T09:50:42.000-04:00",
@@ -4526,6 +6956,42 @@
           "identity": "Copilot:claude-4-opus",
           "agent": "Copilot",
           "model": "claude-4-opus"
+        }
+      ]
+    },
+    {
+      "sha": "f83deb058025d1b6eb0ff297422634a5a11ef87b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f83deb058025d1b6eb0ff297422634a5a11ef87b",
+      "authoredAt": "2026-05-18T18:41:06.000-07:00",
+      "committedAt": "2026-05-22T21:39:28.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tests: Add test for stat delay option with duration_time",
+      "subsystem": "perf tests",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3-flash",
+          "identity": "Antigravity:gemini-3-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3-flash"
+        }
+      ]
+    },
+    {
+      "sha": "0b18bced5444f4fc54ba4500c377f2e88d31ea09",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0b18bced5444f4fc54ba4500c377f2e88d31ea09",
+      "authoredAt": "2026-05-18T18:41:05.000-07:00",
+      "committedAt": "2026-05-22T21:37:34.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tool_pmu: Make tool PMU events respect enable/disable",
+      "subsystem": "perf tool_pmu",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3-flash",
+          "identity": "Antigravity:gemini-3-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3-flash"
         }
       ]
     },
@@ -4728,6 +7194,42 @@
       ]
     },
     {
+      "sha": "daac18e7c42c012e289bfd310503f9417e4a9481",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/daac18e7c42c012e289bfd310503f9417e4a9481",
+      "authoredAt": "2026-05-18T15:43:25.000-07:00",
+      "committedAt": "2026-05-20T16:12:29.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf inject: Fix itrace branch stack synthesis",
+      "subsystem": "perf inject",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "059e9100d82aae2254f1b06835a55755936b1417",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/059e9100d82aae2254f1b06835a55755936b1417",
+      "authoredAt": "2026-05-18T15:43:24.000-07:00",
+      "committedAt": "2026-05-20T16:11:30.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf event: Fix size of synthesized sample with branch stacks",
+      "subsystem": "perf event",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
       "sha": "3b069f0596e169bc1b1a991fbba64ffaefe8de75",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3b069f0596e169bc1b1a991fbba64ffaefe8de75",
       "authoredAt": "2026-05-18T14:13:03.000-07:00",
@@ -4778,6 +7280,222 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "98e68cb7782347a07ab1a94f8f5b629c59df1a73",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/98e68cb7782347a07ab1a94f8f5b629c59df1a73",
+      "authoredAt": "2026-05-18T08:46:38.000-07:00",
+      "committedAt": "2026-05-20T18:23:49.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf build: Convert llvm-config shell queries to simply expanded variables",
+      "subsystem": "perf build",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "90a815a22abfd3d90436c021a5e8f7b8207df2be",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/90a815a22abfd3d90436c021a5e8f7b8207df2be",
+      "authoredAt": "2026-05-18T08:46:37.000-07:00",
+      "committedAt": "2026-05-20T18:23:39.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf pmu-events: Convert recursive shell assignments and macros to Make built-ins",
+      "subsystem": "perf pmu-events",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "85cc481af5ffa23809b7bb100aa774172369983c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/85cc481af5ffa23809b7bb100aa774172369983c",
+      "authoredAt": "2026-05-18T08:46:36.000-07:00",
+      "committedAt": "2026-05-20T18:24:06.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf build: Prefix SCRIPTS with output directory to fix continuous rebuilds",
+      "subsystem": "perf build",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "bb922345eec1fdef5b094bbb739caa136c8e8213",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bb922345eec1fdef5b094bbb739caa136c8e8213",
+      "authoredAt": "2026-05-18T08:46:34.000-07:00",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf pmu-events: Split big_c_string storage into standalone compilation unit",
+      "subsystem": "perf pmu-events",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "29331b2edb861e1a7e2fadc8d06403c460eb6064",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/29331b2edb861e1a7e2fadc8d06403c460eb6064",
+      "authoredAt": "2026-05-18T08:46:33.000-07:00",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf build: Remove redundant libbpf feature check for static builds",
+      "subsystem": "perf build",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "96e808e5671dc6a72a392dd7696bbad92b3171f8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/96e808e5671dc6a72a392dd7696bbad92b3171f8",
+      "authoredAt": "2026-05-18T08:46:32.000-07:00",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf build: Move libsymbol dependency out of prepare step",
+      "subsystem": "perf build",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "32969ef6e3e1979a903a53a2287dffa6fdcb74d4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/32969ef6e3e1979a903a53a2287dffa6fdcb74d4",
+      "authoredAt": "2026-05-18T08:46:31.000-07:00",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf build: Pre-generate BPF skeleton tooling during umbrella prepare phase",
+      "subsystem": "perf build",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "9798ac0128daf35cb52ca648b1d93f0d40bd0cf5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9798ac0128daf35cb52ca648b1d93f0d40bd0cf5",
+      "authoredAt": "2026-05-18T08:46:30.000-07:00",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf build: Encapsulate vmlinux.h and bpftool in bpf_skel.mak",
+      "subsystem": "perf build",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "713eeb2279402758bbfba301be6fae62c729b34e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/713eeb2279402758bbfba301be6fae62c729b34e",
+      "authoredAt": "2026-05-18T08:46:29.000-07:00",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf build: Move BPF skeleton generation out of Makefile.perf",
+      "subsystem": "perf build",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "5af31e15732e343528058f987bc54175bb9a8588",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5af31e15732e343528058f987bc54175bb9a8588",
+      "authoredAt": "2026-05-18T08:46:28.000-07:00",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf build: Remove empty archheaders target",
+      "subsystem": "perf build",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "b9453fa7726a225de8f80279e6085e164b3fc5a1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b9453fa7726a225de8f80279e6085e164b3fc5a1",
+      "authoredAt": "2026-05-18T08:46:27.000-07:00",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf build: Decouple pmu-events from prepare umbrella target",
+      "subsystem": "perf build",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "537609924c43715e39a41762d3e3d3c7c534bb71",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/537609924c43715e39a41762d3e3d3c7c534bb71",
+      "authoredAt": "2026-05-18T08:46:26.000-07:00",
+      "committedAt": "2026-05-20T17:46:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf trace beauty: Make beauty generated C code standalone .o files",
+      "subsystem": "perf trace beauty",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
         }
       ]
     },
@@ -6750,6 +9468,24 @@
       ]
     },
     {
+      "sha": "6f31bb737ef8c519e0d58d39d93a5352b920b9b7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6f31bb737ef8c519e0d58d39d93a5352b920b9b7",
+      "authoredAt": "2026-05-11T10:19:35.000+01:00",
+      "committedAt": "2026-05-29T11:48:48.000-03:00",
+      "authorName": "James Clark",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Make leafloop workload immune to compiler options",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:GPT-5.5",
+          "identity": "GitHub-Copilot:GPT-5.5",
+          "agent": "GitHub-Copilot",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
       "sha": "cb02416507bc0c31415f1527aefc280ae96260bd",
       "htmlUrl": "https://github.com/torvalds/linux/commit/cb02416507bc0c31415f1527aefc280ae96260bd",
       "authoredAt": "2026-05-11T00:54:47.000-07:00",
@@ -6998,6 +9734,24 @@
           "identity": "Kiro:claude-opus-4.6",
           "agent": "Kiro",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "f86446669053125485a4721a722b446e1c3e5efa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f86446669053125485a4721a722b446e1c3e5efa",
+      "authoredAt": "2026-05-09T23:55:07.000-03:00",
+      "committedAt": "2026-05-29T11:44:35.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf test: Add truncated perf.data robustness test",
+      "subsystem": "perf test",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
         }
       ]
     },
@@ -7470,6 +10224,24 @@
       ]
     },
     {
+      "sha": "3ade633da7aa58e2a643c9eb0686c91d7dfa4f4e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3ade633da7aa58e2a643c9eb0686c91d7dfa4f4e",
+      "authoredAt": "2026-05-06T17:00:50.000-03:00",
+      "committedAt": "2026-05-29T11:44:32.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Use bounded copy for PERF_RECORD_TIME_CONV",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
       "sha": "6ee2ba9dcefe5bb41d179e183919531c8da01d14",
       "htmlUrl": "https://github.com/torvalds/linux/commit/6ee2ba9dcefe5bb41d179e183919531c8da01d14",
       "authoredAt": "2026-05-06T16:40:15.000+01:00",
@@ -7484,6 +10256,24 @@
           "identity": "Codex:GPT-5.5",
           "agent": "Codex",
           "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "111388a0c01e6c2f9822623a764b3dcf8bc1492c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/111388a0c01e6c2f9822623a764b3dcf8bc1492c",
+      "authoredAt": "2026-05-05T21:10:04.000-07:00",
+      "committedAt": "2026-05-11T14:20:44.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched stats: Fix segmentation faults, memory leaks, and stale pointers in diff mode",
+      "subsystem": "perf sched stats",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
         }
       ]
     },
@@ -7520,6 +10310,42 @@
           "identity": "Claude:claude-opus-4-7 bpftrace tcpdump",
           "agent": "Claude",
           "model": "claude-opus-4-7 bpftrace tcpdump"
+        }
+      ]
+    },
+    {
+      "sha": "09d355618f7ccc27ffc7fc668b2e232872962079",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/09d355618f7ccc27ffc7fc668b2e232872962079",
+      "authoredAt": "2026-05-05T17:45:43.000-07:00",
+      "committedAt": "2026-05-11T15:26:04.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tool: Fix missing schedstat delegates and dont_split_sample_group in delegate_tool",
+      "subsystem": "perf tool",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "91182741369b261c441e63e6678893032a6d7e4c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/91182741369b261c441e63e6678893032a6d7e4c",
+      "authoredAt": "2026-05-05T17:45:42.000-07:00",
+      "committedAt": "2026-05-11T15:25:56.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf sched: Add missing mmap2 handler in timehist",
+      "subsystem": "perf sched",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
         }
       ]
     },
@@ -7650,6 +10476,24 @@
       ]
     },
     {
+      "sha": "da27c4379ce6b2b7d5d3359e9b10c829b9e5dbbe",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/da27c4379ce6b2b7d5d3359e9b10c829b9e5dbbe",
+      "authoredAt": "2026-05-05T12:36:18.000-03:00",
+      "committedAt": "2026-05-29T11:44:06.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Add minimum event size and alignment validation",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
       "sha": "38e10ddae6f8d42a2e8437fcd25a1cac51106c64",
       "htmlUrl": "https://github.com/torvalds/linux/commit/38e10ddae6f8d42a2e8437fcd25a1cac51106c64",
       "authoredAt": "2026-05-05T14:39:20.000+05:30",
@@ -7736,6 +10580,24 @@
           "identity": "Copilot:Claude-Sonnet-4.6",
           "agent": "Copilot",
           "model": "Claude-Sonnet-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "a18908b5056b8fdb2c44505f0c57ff05865740a3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a18908b5056b8fdb2c44505f0c57ff05865740a3",
+      "authoredAt": "2026-05-04T18:26:07.000-03:00",
+      "committedAt": "2026-05-29T11:44:23.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf zstd: Fix compression error path in zstd_compress_stream_to_records()",
+      "subsystem": "perf zstd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
         }
       ]
     },
@@ -7956,6 +10818,24 @@
       ]
     },
     {
+      "sha": "f11a797cb6a8707be7e18603519406076c90efe3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f11a797cb6a8707be7e18603519406076c90efe3",
+      "authoredAt": "2026-05-04T11:17:19.000-03:00",
+      "committedAt": "2026-05-29T11:44:32.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf cpumap: Reject RANGE_CPUS with start_cpu > end_cpu",
+      "subsystem": "perf cpumap",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
       "sha": "63b02a9409cb5180398491b093e48bcb5315f5fb",
       "htmlUrl": "https://github.com/torvalds/linux/commit/63b02a9409cb5180398491b093e48bcb5315f5fb",
       "authoredAt": "2026-05-04T12:55:17.000Z",
@@ -7970,6 +10850,150 @@
           "identity": "Claude:unspecified",
           "agent": "Claude",
           "model": "unspecified"
+        }
+      ]
+    },
+    {
+      "sha": "1a646a28a0063f1fb31589f7190f2b4fb613e413",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1a646a28a0063f1fb31589f7190f2b4fb613e413",
+      "authoredAt": "2026-05-04T07:37:22.000-03:00",
+      "committedAt": "2026-05-29T11:44:19.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Fix event_contains() macro to verify full field extent",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "31088ccf0312b1a547046f1f69890ede07834a30",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/31088ccf0312b1a547046f1f69890ede07834a30",
+      "authoredAt": "2026-05-04T01:12:27.000-07:00",
+      "committedAt": "2026-05-05T21:52:51.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf debuginfo: Fix libdw API contract violations",
+      "subsystem": "perf debuginfo",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "5aa1941900050a2c80d29bc7ee0dfbddbad8f294",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5aa1941900050a2c80d29bc7ee0dfbddbad8f294",
+      "authoredAt": "2026-05-04T01:12:26.000-07:00",
+      "committedAt": "2026-05-05T21:51:59.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf annotate-data: Fix libdw API contract violations",
+      "subsystem": "perf annotate-data",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "9a2ef19b5f5218d35c161f272a901f6c070faf79",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9a2ef19b5f5218d35c161f272a901f6c070faf79",
+      "authoredAt": "2026-05-04T01:12:25.000-07:00",
+      "committedAt": "2026-05-05T21:50:56.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf probe-finder: Fix libdw API contract violations",
+      "subsystem": "perf probe-finder",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "9c6d535ddb794fb540c3b142ab1d7416d469c1de",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9c6d535ddb794fb540c3b142ab1d7416d469c1de",
+      "authoredAt": "2026-05-04T01:12:24.000-07:00",
+      "committedAt": "2026-05-05T21:49:59.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf libdw: Fix libdw API contract violations and memory leaks",
+      "subsystem": "perf libdw",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "17e9b4243e76f0a0fe951d30ce990d6081a8b426",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/17e9b4243e76f0a0fe951d30ce990d6081a8b426",
+      "authoredAt": "2026-05-04T01:12:20.000-07:00",
+      "committedAt": "2026-05-05T21:48:45.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf dwarf-aux: Fix libdw API contract violations",
+      "subsystem": "perf dwarf-aux",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "d37a5467709e627370124d7346ef71ce605ababa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d37a5467709e627370124d7346ef71ce605ababa",
+      "authoredAt": "2026-05-04T01:12:19.000-07:00",
+      "committedAt": "2026-05-05T21:47:32.000-03:00",
+      "authorName": "Ian Rogers",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf dwarf-aux: Fix libdw segmentation fault in cu_walk_functions_at",
+      "subsystem": "perf dwarf-aux",
+      "assistedBy": [
+        {
+          "raw": "Gemini-CLI:Google Gemini 3",
+          "identity": "Gemini-CLI:Google Gemini 3",
+          "agent": "Gemini-CLI",
+          "model": "Google Gemini 3"
+        }
+      ]
+    },
+    {
+      "sha": "48d004c0742dcbc940ffb3b7390540c5a200729e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/48d004c0742dcbc940ffb3b7390540c5a200729e",
+      "authoredAt": "2026-05-03T13:05:51.000-03:00",
+      "committedAt": "2026-05-29T11:44:35.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf kwork: Bounds check work->cpu before indexing cpus_runtime[]",
+      "subsystem": "perf kwork",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
         }
       ]
     },
@@ -7992,6 +11016,186 @@
       ]
     },
     {
+      "sha": "3ec93875fda94e7f4c466855825c860a2e0ceac2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3ec93875fda94e7f4c466855825c860a2e0ceac2",
+      "authoredAt": "2026-05-02T19:46:21.000-03:00",
+      "committedAt": "2026-05-29T11:44:27.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf zstd: Fix multi-iteration decompression and error handling",
+      "subsystem": "perf zstd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "a2e59fb79f449fb43ca277a413f1e1de3c3a6326",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a2e59fb79f449fb43ca277a413f1e1de3c3a6326",
+      "authoredAt": "2026-05-02T14:55:43.000-03:00",
+      "committedAt": "2026-05-29T11:44:35.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Bound nr_cpus_avail and validate sample CPU",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "d88e954c8271c9c47d6d50dcfdd864e6b031d166",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d88e954c8271c9c47d6d50dcfdd864e6b031d166",
+      "authoredAt": "2026-05-02T14:51:05.000-03:00",
+      "committedAt": "2026-05-29T11:44:34.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Check for decompression buffer size overflow",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "6e803f1e0198f436d512f9b0eebd89ec2a85ac85",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6e803f1e0198f436d512f9b0eebd89ec2a85ac85",
+      "authoredAt": "2026-05-02T14:47:38.000-03:00",
+      "committedAt": "2026-05-29T11:44:34.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Harden compressed event processing",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "3669697bda41c562d90eb38f54881cc02ef3d51c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3669697bda41c562d90eb38f54881cc02ef3d51c",
+      "authoredAt": "2026-05-02T14:41:46.000-03:00",
+      "committedAt": "2026-05-29T11:44:34.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf header: Validate bitmap size before allocating in do_read_bitmap()",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "944f65c8b8231d26d4db6be67bcb641142603cb4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/944f65c8b8231d26d4db6be67bcb641142603cb4",
+      "authoredAt": "2026-05-02T14:37:39.000-03:00",
+      "committedAt": "2026-05-29T11:44:34.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf header: Sanity check HEADER_EVENT_DESC attr.size before swap",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "b8deecd753441eea76e67f08989189ce6ddf8011",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b8deecd753441eea76e67f08989189ce6ddf8011",
+      "authoredAt": "2026-05-02T14:32:58.000-03:00",
+      "committedAt": "2026-05-29T11:44:34.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf header: Validate feature section size and add read path bounds checking",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "7685cc0f2ea34b341524453badf1933142a0961d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7685cc0f2ea34b341524453badf1933142a0961d",
+      "authoredAt": "2026-05-02T14:28:06.000-03:00",
+      "committedAt": "2026-05-29T11:44:33.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf header: Validate f_attr.ids section before use in perf_session__read_header()",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "7d19f2008abf4b5440bfd9962f46f605beab69df",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7d19f2008abf4b5440bfd9962f46f605beab69df",
+      "authoredAt": "2026-05-02T14:24:02.000-03:00",
+      "committedAt": "2026-05-29T11:44:33.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf header: Propagate feature section processing errors",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "2bd03e3054a4e21895e6aa20dd8a14c08e37edee",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2bd03e3054a4e21895e6aa20dd8a14c08e37edee",
+      "authoredAt": "2026-05-02T14:20:14.000-03:00",
+      "committedAt": "2026-05-29T11:44:33.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf tools: Bounds check perf_event_attr fields against attr.size before printing",
+      "subsystem": "perf tools",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
       "sha": "c5d415596cb6fbdf6334b06cc87a1a5a268d8725",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c5d415596cb6fbdf6334b06cc87a1a5a268d8725",
       "authoredAt": "2026-05-02T12:43:03.000-04:00",
@@ -8006,6 +11210,186 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "3c18544fb18b18fa824d072fc6a22e8d9f6dc070",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3c18544fb18b18fa824d072fc6a22e8d9f6dc070",
+      "authoredAt": "2026-05-02T13:31:40.000-03:00",
+      "committedAt": "2026-05-29T11:44:33.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf header: Validate null-termination in PERF_RECORD_EVENT_UPDATE string fields",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "355ca55e3e96ea272b330f3fb80401472f60d18c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/355ca55e3e96ea272b330f3fb80401472f60d18c",
+      "authoredAt": "2026-05-02T13:26:51.000-03:00",
+      "committedAt": "2026-05-29T11:44:33.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Add byte-swap and bounds check for PERF_RECORD_BPF_METADATA events",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "1c9d2ac2ead70d4d7c70e7f1276d68ca86e15fa4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1c9d2ac2ead70d4d7c70e7f1276d68ca86e15fa4",
+      "authoredAt": "2026-05-02T13:22:33.000-03:00",
+      "committedAt": "2026-05-29T11:44:34.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Add byte-swap handler for PERF_RECORD_COMPRESSED2",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "97cd22555c6dd3c5124ff16417fa66dd7bb844be",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/97cd22555c6dd3c5124ff16417fa66dd7bb844be",
+      "authoredAt": "2026-05-02T13:18:45.000-03:00",
+      "committedAt": "2026-05-29T11:44:33.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf auxtrace: Harden auxtrace_error event handling",
+      "subsystem": "perf auxtrace",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "5682175baf39cddefe6697ee3faed05928c26364",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5682175baf39cddefe6697ee3faed05928c26364",
+      "authoredAt": "2026-05-02T13:14:06.000-03:00",
+      "committedAt": "2026-05-29T11:44:32.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Validate nr fields against event size on both swap and common paths",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "6a38b515a5ea7101e8a9e14acf248d14083c632f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6a38b515a5ea7101e8a9e14acf248d14083c632f",
+      "authoredAt": "2026-05-02T13:07:27.000-03:00",
+      "committedAt": "2026-05-29T11:44:32.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Validate HEADER_ATTR attr.size before swapping",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "315c81b4b971b6e92cb47c990fb4fbaa14f0386c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/315c81b4b971b6e92cb47c990fb4fbaa14f0386c",
+      "authoredAt": "2026-05-02T13:01:34.000-03:00",
+      "committedAt": "2026-05-29T11:44:31.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Fix swap_sample_id_all() crash on crafted events",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "fe84caf425f9d404833dc165eb60efbd0fc54e43",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fe84caf425f9d404833dc165eb60efbd0fc54e43",
+      "authoredAt": "2026-05-02T12:57:48.000-03:00",
+      "committedAt": "2026-05-29T11:44:29.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Fix PERF_RECORD_READ swap and dump for variable-length events",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "23d6be944edd59f2e0a9a2a186388c0c58e85416",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/23d6be944edd59f2e0a9a2a186388c0c58e85416",
+      "authoredAt": "2026-05-02T12:53:52.000-03:00",
+      "committedAt": "2026-05-29T11:44:32.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf header: Byte-swap build ID event pid and bounds check section entries",
+      "subsystem": "perf header",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "981f13ae6255fe8e9e68ca6435cd8194446460ec",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/981f13ae6255fe8e9e68ca6435cd8194446460ec",
+      "authoredAt": "2026-05-02T12:47:46.000-03:00",
+      "committedAt": "2026-05-29T11:44:32.000-03:00",
+      "authorName": "Arnaldo Carvalho de Melo",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf session: Add validated swap infrastructure with null-termination checks",
+      "subsystem": "perf session",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6-1m",
+          "identity": "Claude:claude-opus-4.6-1m",
+          "agent": "Claude",
+          "model": "claude-opus-4.6-1m"
         }
       ]
     },
@@ -8892,6 +12276,24 @@
       ]
     },
     {
+      "sha": "18af47764d75bf2cd6297289255fd7f83967e7cf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/18af47764d75bf2cd6297289255fd7f83967e7cf",
+      "authoredAt": "2026-04-25T20:03:09.000-04:00",
+      "committedAt": "2026-05-10T16:43:13.000+05:30",
+      "authorName": "Sasha Levin",
+      "committerName": "Vinod Koul",
+      "subject": "phy: tegra: xusb: Make USB_CONN_GPIO select conditional on GPIOLIB",
+      "subsystem": "phy",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6 kconfiglint",
+          "identity": "Claude:claude-opus-4-6 kconfiglint",
+          "agent": "Claude",
+          "model": "claude-opus-4-6 kconfiglint"
+        }
+      ]
+    },
+    {
       "sha": "dad701bdb74368e6da30177b1d9e5529e3381591",
       "htmlUrl": "https://github.com/torvalds/linux/commit/dad701bdb74368e6da30177b1d9e5529e3381591",
       "authoredAt": "2026-04-25T20:02:49.000-04:00",
@@ -9518,6 +12920,24 @@
           "identity": "Claude:claude-sonnet-4-6",
           "agent": "Claude",
           "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "74802634e4a7e556429417963a8cbda27dd8b4b3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/74802634e4a7e556429417963a8cbda27dd8b4b3",
+      "authoredAt": "2026-04-20T12:52:17.000+01:00",
+      "committedAt": "2026-06-04T11:13:25.000-03:00",
+      "authorName": "James Clark",
+      "committerName": "Arnaldo Carvalho de Melo",
+      "subject": "perf annotate: Fix crashes on empty annotate windows",
+      "subsystem": "perf annotate",
+      "assistedBy": [
+        {
+          "raw": "GitHub Copilot:GPT-5.4",
+          "identity": "GitHub Copilot:GPT-5.4",
+          "agent": "GitHub Copilot",
+          "model": "GPT-5.4"
         }
       ]
     },
