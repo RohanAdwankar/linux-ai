@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-23T13:47:00.901Z",
+  "generatedAt": "2026-06-23T16:42:49.120Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 735,
-    "totalSubsystems": 218,
-    "totalAuthors": 171,
-    "totalAgents": 140
+    "totalCommits": 745,
+    "totalSubsystems": 224,
+    "totalAuthors": 174,
+    "totalAgents": 141
   },
   "commits": [
     {
@@ -98,6 +98,96 @@
           "identity": "Codex:gpt-5-5",
           "agent": "Codex",
           "model": "gpt-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "08b94937c78aaa144e3afff659c6112bffea6bf0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/08b94937c78aaa144e3afff659c6112bffea6bf0",
+      "authoredAt": "2026-06-12T14:01:54.000-07:00",
+      "committedAt": "2026-06-15T02:13:14.000+03:00",
+      "authorName": "David E. Box",
+      "committerName": "Ilpo Järvinen",
+      "subject": "platform/x86/intel/pmc/ssram: Add ACPI discovery scaffolding",
+      "subsystem": "platform/x86/intel/pmc/ssram",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-5",
+          "identity": "Claude:claude-sonnet-4-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-5"
+        }
+      ]
+    },
+    {
+      "sha": "e3c9200a9c0e05532c495956883ba11fe23a3df0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e3c9200a9c0e05532c495956883ba11fe23a3df0",
+      "authoredAt": "2026-06-12T14:01:53.000-07:00",
+      "committedAt": "2026-06-15T02:13:12.000+03:00",
+      "authorName": "David E. Box",
+      "committerName": "Ilpo Järvinen",
+      "subject": "platform/x86/intel/pmc/ssram: Switch to static array with per-index probe state",
+      "subsystem": "platform/x86/intel/pmc/ssram",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-5",
+          "identity": "Claude:claude-sonnet-4-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-5"
+        }
+      ]
+    },
+    {
+      "sha": "adc5d98d9ff8b5d37e89e11a2ac5512595541329",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/adc5d98d9ff8b5d37e89e11a2ac5512595541329",
+      "authoredAt": "2026-06-12T14:01:49.000-07:00",
+      "committedAt": "2026-06-15T02:13:05.000+03:00",
+      "authorName": "David E. Box",
+      "committerName": "Ilpo Järvinen",
+      "subject": "platform/x86/intel/pmc: Add ACPI PWRM telemetry driver for Nova Lake S",
+      "subsystem": "platform/x86/intel/pmc",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.7",
+          "identity": "GitHub-Copilot:claude-opus-4.7",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "13793c7f9e9ff30042a54bb680662b5cfa0f58fa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/13793c7f9e9ff30042a54bb680662b5cfa0f58fa",
+      "authoredAt": "2026-06-12T14:01:47.000-07:00",
+      "committedAt": "2026-06-15T02:13:01.000+03:00",
+      "authorName": "David E. Box",
+      "committerName": "Ilpo Järvinen",
+      "subject": "platform/x86/intel/pmt: Unify header fetch and add ACPI source",
+      "subsystem": "platform/x86/intel/pmt",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.7",
+          "identity": "GitHub-Copilot:claude-opus-4.7",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "4dfc7dca6e934ca414d8d3c70a84e79d13d9e750",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4dfc7dca6e934ca414d8d3c70a84e79d13d9e750",
+      "authoredAt": "2026-06-12T14:01:46.000-07:00",
+      "committedAt": "2026-06-15T02:12:59.000+03:00",
+      "authorName": "David E. Box",
+      "committerName": "Ilpo Järvinen",
+      "subject": "platform/x86/intel/pmt: Cache the telemetry discovery header",
+      "subsystem": "platform/x86/intel/pmt",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.7",
+          "identity": "GitHub-Copilot:claude-opus-4.7",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.7"
         }
       ]
     },
@@ -374,6 +464,24 @@
           "identity": "GitHub-Copilot:claude-opus-4.8",
           "agent": "GitHub-Copilot",
           "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "6b3bbe770f4ca0439710b7c42f88b9f6eeebabd0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6b3bbe770f4ca0439710b7c42f88b9f6eeebabd0",
+      "authoredAt": "2026-06-10T17:21:30.000+02:00",
+      "committedAt": "2026-06-11T14:53:35.000+03:00",
+      "authorName": "Marco Scardovi",
+      "committerName": "Ilpo Järvinen",
+      "subject": "platform/x86: asus-armoury: add support for G614PR",
+      "subsystem": "platform/x86",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
         }
       ]
     },
@@ -1908,6 +2016,24 @@
       ]
     },
     {
+      "sha": "73851a7c43dfa52d2ed9415889b33daf85da0ed9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/73851a7c43dfa52d2ed9415889b33daf85da0ed9",
+      "authoredAt": "2026-05-31T08:44:28.000-04:00",
+      "committedAt": "2026-06-21T04:25:28.000+03:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jarkko Sakkinen",
+      "subject": "tpm: tpm2-sessions: wait for async KPP completion in tpm_buf_append_salt",
+      "subsystem": "tpm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "093305d801fae6ff9b8bb531fd78b579794c4f80",
       "htmlUrl": "https://github.com/torvalds/linux/commit/093305d801fae6ff9b8bb531fd78b579794c4f80",
       "authoredAt": "2026-05-31T13:30:19.000+03:00",
@@ -2066,6 +2192,24 @@
           "identity": "Kiro:claude-opus-4.6-1m",
           "agent": "Kiro",
           "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "375bbbbd112af028ee0b45d833a6233c23d19bbf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/375bbbbd112af028ee0b45d833a6233c23d19bbf",
+      "authoredAt": "2026-05-29T11:31:49.000-07:00",
+      "committedAt": "2026-06-10T14:44:54.000+03:00",
+      "authorName": "David E. Box",
+      "committerName": "Ilpo Järvinen",
+      "subject": "platform/x86/intel/vsec: Restore BAR fallback for header walk",
+      "subsystem": "platform/x86/intel/vsec",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
@@ -3344,6 +3488,24 @@
           "identity": "Claude:claude-opus-4-7 berkoc-pipeline",
           "agent": "Claude",
           "model": "claude-opus-4-7 berkoc-pipeline"
+        }
+      ]
+    },
+    {
+      "sha": "ceb8678adfd68b33d5e8a52cb2e96cfa90d81761",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ceb8678adfd68b33d5e8a52cb2e96cfa90d81761",
+      "authoredAt": "2026-05-23T07:45:17.000-04:00",
+      "committedAt": "2026-06-09T10:34:59.000+03:00",
+      "authorName": "Mike Bommarito",
+      "committerName": "Ilpo Järvinen",
+      "subject": "platform/x86/intel/pmc: rate-limit LTR scale-factor warning",
+      "subsystem": "platform/x86/intel/pmc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -6818,6 +6980,24 @@
           "identity": "Codex:GPT-5.5",
           "agent": "Codex",
           "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "595ca21f797e43da24cb80529fb8b29381ed8716",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/595ca21f797e43da24cb80529fb8b29381ed8716",
+      "authoredAt": "2026-05-10T17:11:27.000Z",
+      "committedAt": "2026-06-21T04:25:28.000+03:00",
+      "authorName": "Gunnar Kudrjavets",
+      "committerName": "Jarkko Sakkinen",
+      "subject": "tpm: Initialize name_size_alg for non-NULL name in tpm_buf_append_name()",
+      "subsystem": "tpm",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-4.6",
+          "identity": "Kiro:claude-opus-4.6",
+          "agent": "Kiro",
+          "model": "claude-opus-4.6"
         }
       ]
     },
