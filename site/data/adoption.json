@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-24T17:19:20.336Z",
+  "generatedAt": "2026-06-24T20:11:05.299Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 951,
+    "totalCommits": 958,
     "totalSubsystems": 285,
     "totalAuthors": 178,
-    "totalAgents": 151
+    "totalAgents": 150
   },
   "commits": [
     {
@@ -3942,6 +3942,42 @@
       ]
     },
     {
+      "sha": "fc4626bb3656362de8b0ecd56605d47a19ec3518",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fc4626bb3656362de8b0ecd56605d47a19ec3518",
+      "authoredAt": "2026-06-02T15:21:03.000+02:00",
+      "committedAt": "2026-06-03T16:37:02.000+02:00",
+      "authorName": "Konstantin Komarov",
+      "committerName": "Konstantin Komarov",
+      "subject": "fs/ntfs3: bound DeleteIndexEntryAllocation memmove length",
+      "subsystem": "fs/ntfs3",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "d1570c48f49a693974d000251030370ee2e83539",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d1570c48f49a693974d000251030370ee2e83539",
+      "authoredAt": "2026-06-02T15:15:47.000+02:00",
+      "committedAt": "2026-06-03T16:36:45.000+02:00",
+      "authorName": "Konstantin Komarov",
+      "committerName": "Konstantin Komarov",
+      "subject": "fs/ntfs3: bound attr_off in UpdateResidentValue against data_off",
+      "subsystem": "fs/ntfs3",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "aa496720618f1a6054f1c870bf10b4f6c99bf656",
       "htmlUrl": "https://github.com/torvalds/linux/commit/aa496720618f1a6054f1c870bf10b4f6c99bf656",
       "authoredAt": "2026-06-02T16:43:33.000+08:00",
@@ -7122,6 +7158,24 @@
       ]
     },
     {
+      "sha": "3e127829e57f5190f612412ece4541cb96d5ec7a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3e127829e57f5190f612412ece4541cb96d5ec7a",
+      "authoredAt": "2026-05-19T05:51:35.000-04:00",
+      "committedAt": "2026-06-09T09:53:43.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Konstantin Komarov",
+      "subject": "fs/ntfs3: bound NTFS_DE view.data_off in UpdateRecordData{Root,Allocation}",
+      "subsystem": "fs/ntfs3",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "651479b69add00ffd269ee6d31476b63e898d45f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/651479b69add00ffd269ee6d31476b63e898d45f",
       "authoredAt": "2026-05-19T11:44:55.000+08:00",
@@ -8166,6 +8220,24 @@
       ]
     },
     {
+      "sha": "9611f644302c07d21bc8af97e3e06a3d30064253",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9611f644302c07d21bc8af97e3e06a3d30064253",
+      "authoredAt": "2026-05-17T19:41:40.000-04:00",
+      "committedAt": "2026-06-09T09:54:04.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Konstantin Komarov",
+      "subject": "ntfs3: cap RESTART_TABLE free-chain walker at rt->used",
+      "subsystem": "ntfs3",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "13cdd324cc155200ea328257c746004d898ff3de",
       "htmlUrl": "https://github.com/torvalds/linux/commit/13cdd324cc155200ea328257c746004d898ff3de",
       "authoredAt": "2026-05-17T15:21:36.000-07:00",
@@ -8486,6 +8558,24 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "5e7b598660cfa8e5af172cf4c65cffc126333307",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5e7b598660cfa8e5af172cf4c65cffc126333307",
+      "authoredAt": "2026-05-15T12:34:05.000-04:00",
+      "committedAt": "2026-06-03T16:37:02.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Konstantin Komarov",
+      "subject": "fs/ntfs3: bound copy_lcns dp->page_lcns[] index in analysis pass",
+      "subsystem": "fs/ntfs3",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -13488,6 +13578,42 @@
       ]
     },
     {
+      "sha": "9b6926ac9c970ae0b2c2fe6289b16e9aa10b6a67",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9b6926ac9c970ae0b2c2fe6289b16e9aa10b6a67",
+      "authoredAt": "2026-04-17T19:33:05.000-04:00",
+      "committedAt": "2026-04-30T13:55:23.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Konstantin Komarov",
+      "subject": "ntfs3: bound to_move in indx_insert_into_root before hdr_insert_head",
+      "subsystem": "ntfs3",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "f1df9d771df47aa40de6d70949c28720ae1e430d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f1df9d771df47aa40de6d70949c28720ae1e430d",
+      "authoredAt": "2026-04-17T18:57:12.000-04:00",
+      "committedAt": "2026-04-30T13:55:25.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Konstantin Komarov",
+      "subject": "ntfs3: validate split-point offset in indx_insert_into_buffer",
+      "subsystem": "ntfs3",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "30471982cd667972ba93ce894765d4b8544958e6",
       "htmlUrl": "https://github.com/torvalds/linux/commit/30471982cd667972ba93ce894765d4b8544958e6",
       "authoredAt": "2026-04-17T14:27:58.000-06:00",
@@ -13994,6 +14120,30 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "1ebd684b8f627f75bc3e03f8b2ad8400fd1f02cd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1ebd684b8f627f75bc3e03f8b2ad8400fd1f02cd",
+      "authoredAt": "2026-04-13T09:31:17.000-04:00",
+      "committedAt": "2026-04-30T13:55:07.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Konstantin Komarov",
+      "subject": "fs/ntfs3: add depth limit to indx_find_buffer to prevent stack overflow",
+      "subsystem": "fs/ntfs3",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        },
+        {
+          "raw": "Codex:gpt-5-4",
+          "identity": "Codex:gpt-5-4",
+          "agent": "Codex",
+          "model": "gpt-5-4"
         }
       ]
     },
@@ -17311,24 +17461,6 @@
           "raw": "claude-opus-4-5-20251101",
           "identity": "claude-opus-4-5-20251101",
           "agent": "claude-opus-4-5-20251101",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "913e65a2fe1a16fa253c4a016e2306b2cf9ffef8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/913e65a2fe1a16fa253c4a016e2306b2cf9ffef8",
-      "authoredAt": "2025-09-04T17:38:53.000+08:00",
-      "committedAt": "2025-09-13T17:32:55.000-07:00",
-      "authorName": "Coiby Xu",
-      "committerName": "Andrew Morton",
-      "subject": "crash: add KUnit tests for crash_exclude_mem_range",
-      "subsystem": "crash",
-      "assistedBy": [
-        {
-          "raw": "Google Gemini",
-          "identity": "Google Gemini",
-          "agent": "Google Gemini",
           "model": ""
         }
       ]
