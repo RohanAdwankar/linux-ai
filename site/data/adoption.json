@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-06-23T23:31:06.826Z",
+  "generatedAt": "2026-06-24T04:37:37.814Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 935,
-    "totalSubsystems": 280,
-    "totalAuthors": 176,
-    "totalAgents": 148
+    "totalCommits": 951,
+    "totalSubsystems": 285,
+    "totalAuthors": 178,
+    "totalAgents": 151
   },
   "commits": [
+    {
+      "sha": "de3ab9bd3133899efb92e4cd05ba4203e58fc0a3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/de3ab9bd3133899efb92e4cd05ba4203e58fc0a3",
+      "authoredAt": "2026-06-16T16:38:17.000-04:00",
+      "committedAt": "2026-06-19T21:44:16.000+02:00",
+      "authorName": "Rik van Riel",
+      "committerName": "Thomas Gleixner",
+      "subject": "sched/mmcid: Fix OOB clear_bit when CID is MM_CID_UNSET in fixup path",
+      "subsystem": "sched/mmcid",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8 syzkaller",
+          "identity": "Claude:claude-opus-4-8 syzkaller",
+          "agent": "Claude",
+          "model": "claude-opus-4-8 syzkaller"
+        }
+      ]
+    },
     {
       "sha": "e22a4228546f7220d0425630abf703fd2ef7c600",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e22a4228546f7220d0425630abf703fd2ef7c600",
@@ -62,6 +80,24 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "c4810ada31e80cbe4011467c4f3b1e93f94134f3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c4810ada31e80cbe4011467c4f3b1e93f94134f3",
+      "authoredAt": "2026-06-15T15:19:54.000+08:00",
+      "committedAt": "2026-06-22T19:52:37.000Z",
+      "authorName": "Zhang Cen",
+      "committerName": "Jaegeuk Kim",
+      "subject": "f2fs: validate ACL entry sizes in f2fs_acl_from_disk()",
+      "subsystem": "f2fs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -2772,6 +2808,42 @@
       ]
     },
     {
+      "sha": "1d62e659c0bf11649cf48e002c2a55d148f2610a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1d62e659c0bf11649cf48e002c2a55d148f2610a",
+      "authoredAt": "2026-06-04T16:24:03.000-04:00",
+      "committedAt": "2026-06-08T12:06:41.000-04:00",
+      "authorName": "Mike Snitzer",
+      "committerName": "Anna Schumaker",
+      "subject": "NFSv4/flexfiles: honor FF_FLAGS_NO_IO_THRU_MDS in pg_get_mirror_count_write",
+      "subsystem": "nfsv4/flexfiles",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "7a375cafc14ed151508f908ea5681caf0a9cc1d6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7a375cafc14ed151508f908ea5681caf0a9cc1d6",
+      "authoredAt": "2026-06-04T16:24:02.000-04:00",
+      "committedAt": "2026-06-08T12:06:41.000-04:00",
+      "authorName": "Mike Snitzer",
+      "committerName": "Anna Schumaker",
+      "subject": "NFSv4/flexfiles: honor FF_FLAGS_NO_IO_THRU_MDS on fatal DS connect errors",
+      "subsystem": "nfsv4/flexfiles",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "26aa60e0276272ae61b843a05a91748dcb1130f9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/26aa60e0276272ae61b843a05a91748dcb1130f9",
       "authoredAt": "2026-06-04T11:01:54.000-07:00",
@@ -2804,6 +2876,60 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "c7653d5cebc8492c77ec0415b5e9c0fb3e644bc6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c7653d5cebc8492c77ec0415b5e9c0fb3e644bc6",
+      "authoredAt": "2026-06-04T13:06:37.000-04:00",
+      "committedAt": "2026-06-10T15:47:06.000-04:00",
+      "authorName": "Chris Mason",
+      "committerName": "Anna Schumaker",
+      "subject": "xprtrdma: Fix bcall rep leak and unbounded peek",
+      "subsystem": "xprtrdma",
+      "assistedBy": [
+        {
+          "raw": "kres:claude-opus-4-7",
+          "identity": "kres:claude-opus-4-7",
+          "agent": "kres",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "bb7caa63e1db22fd03e8dc591b12169e99169dff",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bb7caa63e1db22fd03e8dc591b12169e99169dff",
+      "authoredAt": "2026-06-04T13:06:34.000-04:00",
+      "committedAt": "2026-06-10T15:47:06.000-04:00",
+      "authorName": "Chris Mason",
+      "committerName": "Anna Schumaker",
+      "subject": "xprtrdma: Initialize re_id before removal registration",
+      "subsystem": "xprtrdma",
+      "assistedBy": [
+        {
+          "raw": "kres:openai-gpt-5",
+          "identity": "kres:openai-gpt-5",
+          "agent": "kres",
+          "model": "openai-gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "af9b65b29af341932625c4283dc7a23cdb62688a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/af9b65b29af341932625c4283dc7a23cdb62688a",
+      "authoredAt": "2026-06-04T13:06:33.000-04:00",
+      "committedAt": "2026-06-10T15:47:06.000-04:00",
+      "authorName": "Chris Mason",
+      "committerName": "Anna Schumaker",
+      "subject": "xprtrdma: Fix ep kref imbalance on ADDR_CHANGE",
+      "subsystem": "xprtrdma",
+      "assistedBy": [
+        {
+          "raw": "kres:claude-opus-4-7",
+          "identity": "kres:claude-opus-4-7",
+          "agent": "kres",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -3168,6 +3294,24 @@
       ]
     },
     {
+      "sha": "90e02a8e1b6863c41876473f844c8e24b06d55f7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/90e02a8e1b6863c41876473f844c8e24b06d55f7",
+      "authoredAt": "2026-06-03T16:11:26.000Z",
+      "committedAt": "2026-06-22T19:52:37.000Z",
+      "authorName": "Samuel Moelius",
+      "committerName": "Jaegeuk Kim",
+      "subject": "f2fs: validate dentry name length before lookup compares it",
+      "subsystem": "f2fs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
+    {
       "sha": "48dbe473219832788c3940c84faa7f1df4375d5d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/48dbe473219832788c3940c84faa7f1df4375d5d",
       "authoredAt": "2026-06-03T11:57:33.000-04:00",
@@ -3182,6 +3326,24 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "cfcd0e49a178b3dac2c0ece656079081dbf5da74",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cfcd0e49a178b3dac2c0ece656079081dbf5da74",
+      "authoredAt": "2026-06-03T15:11:40.000Z",
+      "committedAt": "2026-06-22T19:52:36.000Z",
+      "authorName": "Samuel Moelius",
+      "committerName": "Jaegeuk Kim",
+      "subject": "f2fs: validate inline dentry name lengths before conversion",
+      "subsystem": "f2fs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
         }
       ]
     },
@@ -5018,6 +5180,24 @@
           "identity": "Github Copilot:claude-opus-4-6",
           "agent": "Github Copilot",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "41fe0f7b84f0cb822ae10ab08592996a592b2a25",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/41fe0f7b84f0cb822ae10ab08592996a592b2a25",
+      "authoredAt": "2026-05-27T12:30:35.000-04:00",
+      "committedAt": "2026-06-15T15:06:06.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Anna Schumaker",
+      "subject": "NFSv4/pNFS: reject zero-length r_addr in nfs4_decode_mp_ds_addr",
+      "subsystem": "nfsv4/pnfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -8850,6 +9030,24 @@
       ]
     },
     {
+      "sha": "2c6bb3c40bc24f6aa8dfbe6fe98c3ad6389203f2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2c6bb3c40bc24f6aa8dfbe6fe98c3ad6389203f2",
+      "authoredAt": "2026-05-13T12:26:56.000-04:00",
+      "committedAt": "2026-06-08T10:21:55.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Anna Schumaker",
+      "subject": "NFSv4/flexfiles: reject zero filehandle version count",
+      "subsystem": "nfsv4/flexfiles",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
       "sha": "288a81a8507052bcfbf884d39a463c44c42c5fd9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/288a81a8507052bcfbf884d39a463c44c42c5fd9",
       "authoredAt": "2026-05-13T17:52:55.000+02:00",
@@ -9080,6 +9278,78 @@
           "identity": "Copilot:claude-opus-4.6 Mythos",
           "agent": "Copilot",
           "model": "claude-opus-4.6 Mythos"
+        }
+      ]
+    },
+    {
+      "sha": "bd5e6b056bd0900d8efde90da7a5877dc50842c7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bd5e6b056bd0900d8efde90da7a5877dc50842c7",
+      "authoredAt": "2026-05-12T12:12:45.000-04:00",
+      "committedAt": "2026-06-08T10:21:54.000-04:00",
+      "authorName": "Jeff Layton",
+      "committerName": "Anna Schumaker",
+      "subject": "nfs: remove fileid field from struct nfs_inode",
+      "subsystem": "nfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "2026c8a96afe6e5783497860c4af0a0e1a53991b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2026c8a96afe6e5783497860c4af0a0e1a53991b",
+      "authoredAt": "2026-05-12T12:12:44.000-04:00",
+      "committedAt": "2026-06-08T10:21:54.000-04:00",
+      "authorName": "Jeff Layton",
+      "committerName": "Anna Schumaker",
+      "subject": "nfs: replace NFS_FILEID() and nfsi->fileid with inode->i_ino",
+      "subsystem": "nfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "0e06a884f5ba6226829441bfc656ff9f5e9e90ac",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0e06a884f5ba6226829441bfc656ff9f5e9e90ac",
+      "authoredAt": "2026-05-12T12:12:43.000-04:00",
+      "committedAt": "2026-06-08T10:21:54.000-04:00",
+      "authorName": "Jeff Layton",
+      "committerName": "Anna Schumaker",
+      "subject": "nfs: remove nfs_compat_user_ino64() and deprecate enable_ino64",
+      "subsystem": "nfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "0cad7630425f4c9ee0dfa376ff8bf60c88ff2566",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0cad7630425f4c9ee0dfa376ff8bf60c88ff2566",
+      "authoredAt": "2026-05-12T12:12:42.000-04:00",
+      "committedAt": "2026-06-08T10:21:54.000-04:00",
+      "authorName": "Jeff Layton",
+      "committerName": "Anna Schumaker",
+      "subject": "nfs: store the full NFS fileid in inode->i_ino",
+      "subsystem": "nfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
@@ -13124,6 +13394,24 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "84800a8d1d22c475b3c35bdbcf8ed64a55f3b66f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/84800a8d1d22c475b3c35bdbcf8ed64a55f3b66f",
+      "authoredAt": "2026-04-18T12:03:01.000-07:00",
+      "committedAt": "2026-06-15T15:06:06.000-04:00",
+      "authorName": "Tom Haynes",
+      "committerName": "Anna Schumaker",
+      "subject": "nfs: don't skip revalidate on directory delegation when attrs flagged stale",
+      "subsystem": "nfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7 [bpftrace] [tshark]",
+          "identity": "Claude:claude-opus-4-7 [bpftrace] [tshark]",
+          "agent": "Claude",
+          "model": "claude-opus-4-7 [bpftrace] [tshark]"
         }
       ]
     },
