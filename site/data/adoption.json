@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-25T17:25:22.809Z",
+  "generatedAt": "2026-06-25T20:22:51.076Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 976,
-    "totalSubsystems": 286,
+    "totalCommits": 975,
+    "totalSubsystems": 285,
     "totalAuthors": 177,
-    "totalAgents": 147
+    "totalAgents": 146
   },
   "commits": [
     {
@@ -848,6 +848,24 @@
       "committerName": "Alexei Starovoitov",
       "subject": "bpf: Add support to specify uprobe_multi target via file descriptor",
       "subsystem": "bpf",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.4",
+          "identity": "Codex:GPT-5.4",
+          "agent": "Codex",
+          "model": "GPT-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "5feba91006ec92da57acc1cc2e34df623b98541e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5feba91006ec92da57acc1cc2e34df623b98541e",
+      "authoredAt": "2026-06-11T15:21:42.000+08:00",
+      "committedAt": "2026-06-19T12:22:14.000+02:00",
+      "authorName": "Wyatt Feng",
+      "committerName": "Pablo Neira Ayuso",
+      "subject": "netfilter: xt_cluster: reject template conntracks in hash match",
+      "subsystem": "netfilter",
       "assistedBy": [
         {
           "raw": "Codex:GPT-5.4",
@@ -5496,6 +5514,24 @@
       ]
     },
     {
+      "sha": "4db86f8ab11b5a41bfc36680be837e6ac1375ec6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4db86f8ab11b5a41bfc36680be837e6ac1375ec6",
+      "authoredAt": "2026-05-27T20:18:18.000Z",
+      "committedAt": "2026-06-19T22:49:48.000+02:00",
+      "authorName": "Aleksandr Nogikh",
+      "committerName": "Stefan Schmidt",
+      "subject": "ieee802154: fix kernel-infoleak in dgram_recvmsg()",
+      "subsystem": "ieee802154",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot",
+          "identity": "Gemini:gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot"
+        }
+      ]
+    },
+    {
       "sha": "b74e377cad9271950c57472867c469e4b5b2ff0c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b74e377cad9271950c57472867c469e4b5b2ff0c",
       "authoredAt": "2026-05-27T23:05:11.000+03:00",
@@ -7244,6 +7280,42 @@
           "identity": "Codex:GPT-5.5",
           "agent": "Codex",
           "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "a6bfdfcc6711d1d5a92e98644359dedc67c0c858",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a6bfdfcc6711d1d5a92e98644359dedc67c0c858",
+      "authoredAt": "2026-05-20T10:16:40.000-04:00",
+      "committedAt": "2026-06-19T23:02:42.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Stefan Schmidt",
+      "subject": "ieee802154: allow legacy LLSEC ADD/DEL ops to pass strict validation",
+      "subsystem": "ieee802154",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "9c1e0b6d49471a712511d23fc9d06901561135e8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9c1e0b6d49471a712511d23fc9d06901561135e8",
+      "authoredAt": "2026-05-20T10:16:39.000-04:00",
+      "committedAt": "2026-06-19T23:02:42.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Stefan Schmidt",
+      "subject": "ieee802154: admin-gate legacy LLSEC dump operations",
+      "subsystem": "ieee802154",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -10688,6 +10760,24 @@
       "committerName": "Uwe Kleine-König",
       "subject": "pwm: ipq: Add missing module description",
       "subsystem": "pwm",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "7edfb7fb58ee058298e18fde76a6077ef17d19d8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7edfb7fb58ee058298e18fde76a6077ef17d19d8",
+      "authoredAt": "2026-05-08T17:36:02.000-07:00",
+      "committedAt": "2026-05-13T12:35:57.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Heiko Stuebner",
+      "subject": "clk: rockchip: allow COMPILE_TEST builds",
+      "subsystem": "clk",
       "assistedBy": [
         {
           "raw": "Codex:GPT-5.5",
@@ -17684,114 +17774,6 @@
           "identity": "Codex:GPT-5",
           "agent": "Codex",
           "model": "GPT-5"
-        }
-      ]
-    },
-    {
-      "sha": "ee0e6e69a772d601e152e5368a1da25d656122a8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ee0e6e69a772d601e152e5368a1da25d656122a8",
-      "authoredAt": "2026-03-05T18:48:05.000-08:00",
-      "committedAt": "2026-03-06T09:58:47.000+01:00",
-      "authorName": "Guenter Roeck",
-      "committerName": "Niklas Cassel",
-      "subject": "ata: libata-eh: Fix detection of deferred qc timeouts",
-      "subsystem": "ata",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "457965c13f0837a289c9164b842d0860133f6274",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/457965c13f0837a289c9164b842d0860133f6274",
-      "authoredAt": "2026-03-05T11:33:39.000-08:00",
-      "committedAt": "2026-03-06T13:04:30.000-05:00",
-      "authorName": "Guenter Roeck",
-      "committerName": "Steven Rostedt (Google)",
-      "subject": "tracing: Add NULL pointer check to trigger_data_free()",
-      "subsystem": "tracing",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "f7093ebf612f45544600f06681d6fb7be7d0649a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f7093ebf612f45544600f06681d6fb7be7d0649a",
-      "authoredAt": "2026-03-05T10:39:09.000+01:00",
-      "committedAt": "2026-03-11T09:33:01.000+01:00",
-      "authorName": "Thomas Hellström",
-      "committerName": "Thomas Hellström",
-      "subject": "drm/xe/userptr: Defer Waiting for TLB invalidation to the second pass if possible",
-      "subsystem": "drm/xe/userptr",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-sonnet-4.6",
-          "identity": "GitHub Copilot:claude-sonnet-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "400ee0f4f1f06b2c447ba87868b6da613445c31a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/400ee0f4f1f06b2c447ba87868b6da613445c31a",
-      "authoredAt": "2026-03-05T10:39:08.000+01:00",
-      "committedAt": "2026-03-11T09:32:59.000+01:00",
-      "authorName": "Thomas Hellström",
-      "committerName": "Thomas Hellström",
-      "subject": "drm/xe: Split TLB invalidation into submit and wait steps",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-sonnet-4.6",
-          "identity": "GitHub Copilot:claude-sonnet-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "18c4e536959e983b74c6a21968f2513a6ca2acf0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/18c4e536959e983b74c6a21968f2513a6ca2acf0",
-      "authoredAt": "2026-03-05T10:39:07.000+01:00",
-      "committedAt": "2026-03-11T09:32:58.000+01:00",
-      "authorName": "Thomas Hellström",
-      "committerName": "Thomas Hellström",
-      "subject": "drm/xe/userptr: Convert invalidation to two-pass MMU notifier",
-      "subsystem": "drm/xe/userptr",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-sonnet-4.6",
-          "identity": "GitHub Copilot:claude-sonnet-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "7aba71dbc41641e43a79fb9f6fac91719094b4fb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7aba71dbc41641e43a79fb9f6fac91719094b4fb",
-      "authoredAt": "2026-03-05T10:39:06.000+01:00",
-      "committedAt": "2026-03-11T09:32:58.000+01:00",
-      "authorName": "Thomas Hellström",
-      "committerName": "Thomas Hellström",
-      "subject": "mm/mmu_notifier: Allow two-pass struct mmu_interval_notifiers",
-      "subsystem": "mm/mmu_notifier",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-sonnet-4.6 # Documentation only.",
-          "identity": "GitHub Copilot:claude-sonnet-4.6 # Documentation only.",
-          "agent": "GitHub Copilot",
-          "model": "claude-sonnet-4.6 # Documentation only."
         }
       ]
     }
