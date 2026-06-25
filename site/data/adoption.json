@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-25T15:16:43.651Z",
+  "generatedAt": "2026-06-25T17:25:22.809Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 975,
-    "totalSubsystems": 282,
-    "totalAuthors": 176,
-    "totalAgents": 148
+    "totalCommits": 976,
+    "totalSubsystems": 286,
+    "totalAuthors": 177,
+    "totalAgents": 147
   },
   "commits": [
     {
@@ -26,6 +26,24 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "17b2d950a3c0328ed749476e6118ca869b3ca8b5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/17b2d950a3c0328ed749476e6118ca869b3ca8b5",
+      "authoredAt": "2026-06-21T21:59:30.000+08:00",
+      "committedAt": "2026-06-22T15:57:31.000-06:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Jens Axboe",
+      "subject": "block, bfq: protect async queue reset with blkcg locks",
+      "subsystem": "block, bfq",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -308,6 +326,24 @@
       "committerName": "Guenter Roeck",
       "subject": "hwmon: tmp401: Read \"ti,n-factor\" as signed",
       "subsystem": "hwmon",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5-5",
+          "identity": "Codex:gpt-5-5",
+          "agent": "Codex",
+          "model": "gpt-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "4910aa198d25e5d1067236560ba34ab12bccc677",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4910aa198d25e5d1067236560ba34ab12bccc677",
+      "authoredAt": "2026-06-12T16:52:16.000-05:00",
+      "committedAt": "2026-06-16T09:19:32.000+02:00",
+      "authorName": "Rob Herring (Arm)",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: pisosr: Read \"ngpios\" as u32",
+      "subsystem": "gpio",
       "assistedBy": [
         {
           "raw": "Codex:gpt-5-5",
@@ -1128,6 +1164,42 @@
       ]
     },
     {
+      "sha": "ae9f812df3149729643d27d2af488c112f62af9a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ae9f812df3149729643d27d2af488c112f62af9a",
+      "authoredAt": "2026-06-10T17:42:04.000+02:00",
+      "committedAt": "2026-06-17T08:14:30.000+02:00",
+      "authorName": "Marco Scardovi",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpiolib: acpi: Prevent out-of-bounds pin access in OperationRegion handler",
+      "subsystem": "gpiolib",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "dece79032f529d2c9fdbf63a9f2fc32244722775",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dece79032f529d2c9fdbf63a9f2fc32244722775",
+      "authoredAt": "2026-06-10T17:42:03.000+02:00",
+      "committedAt": "2026-06-17T08:14:30.000+02:00",
+      "authorName": "Marco Scardovi",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpiolib: acpi: Add robust bounds-checking for GPIO pin resources",
+      "subsystem": "gpiolib",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
       "sha": "347ccc0453fca2c669e8dc8a72000e76ca4adf10",
       "htmlUrl": "https://github.com/torvalds/linux/commit/347ccc0453fca2c669e8dc8a72000e76ca4adf10",
       "authoredAt": "2026-06-10T11:25:49.000-04:00",
@@ -1215,6 +1287,30 @@
       "subject": "netfilter: nf_log: validate MAC header was set before dumping it",
       "subsystem": "netfilter",
       "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "779575bc35c687697ba69e904f2cd22e60112534",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/779575bc35c687697ba69e904f2cd22e60112534",
+      "authoredAt": "2026-06-09T14:24:31.000-04:00",
+      "committedAt": "2026-06-10T07:43:15.000-07:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Keith Busch",
+      "subject": "nvmet-auth: reject short AUTH_RECEIVE buffers",
+      "subsystem": "nvmet-auth",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5-5-xhigh",
+          "identity": "Codex:gpt-5-5-xhigh",
+          "agent": "Codex",
+          "model": "gpt-5-5-xhigh"
+        },
         {
           "raw": "Claude:claude-opus-4-8",
           "identity": "Claude:claude-opus-4-8",
@@ -3380,6 +3476,24 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "39851b7e580a65bee732e5364f0efb974b242370",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/39851b7e580a65bee732e5364f0efb974b242370",
+      "authoredAt": "2026-06-03T12:25:11.000-07:00",
+      "committedAt": "2026-06-04T06:19:19.000-05:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Corey Minyard",
+      "subject": "ipmi: si: Use platform_get_irq_optional() to retrieve interrupt",
+      "subsystem": "ipmi",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:Gemini-3.5-Flash",
+          "identity": "Antigravity:Gemini-3.5-Flash",
+          "agent": "Antigravity",
+          "model": "Gemini-3.5-Flash"
         }
       ]
     },
@@ -17678,96 +17792,6 @@
           "identity": "GitHub Copilot:claude-sonnet-4.6 # Documentation only.",
           "agent": "GitHub Copilot",
           "model": "claude-sonnet-4.6 # Documentation only."
-        }
-      ]
-    },
-    {
-      "sha": "fefeeec6123587c6b08884865042988d40405bd2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fefeeec6123587c6b08884865042988d40405bd2",
-      "authoredAt": "2026-03-04T15:56:52.000-05:00",
-      "committedAt": "2026-03-05T15:03:04.000-08:00",
-      "authorName": "Josef Bacik",
-      "committerName": "Andrii Nakryiko",
-      "subject": "selftests/bpf: Add test for btf__add_btf() with split BTF sources",
-      "subsystem": "selftests/bpf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "d8d5c0151148b0194e8bbba66eb56d4d9cab94cd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d8d5c0151148b0194e8bbba66eb56d4d9cab94cd",
-      "authoredAt": "2026-03-04T15:56:51.000-05:00",
-      "committedAt": "2026-03-05T15:03:02.000-08:00",
-      "authorName": "Josef Bacik",
-      "committerName": "Andrii Nakryiko",
-      "subject": "bpftool: Support merging multiple module BTFs in btf dump",
-      "subsystem": "bpftool",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "be872ccf370915b858ab693aa0707a2eff4bb1fd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/be872ccf370915b858ab693aa0707a2eff4bb1fd",
-      "authoredAt": "2026-03-04T15:56:50.000-05:00",
-      "committedAt": "2026-03-05T14:57:58.000-08:00",
-      "authorName": "Josef Bacik",
-      "committerName": "Andrii Nakryiko",
-      "subject": "libbpf: Support appending split BTF in btf__add_btf()",
-      "subsystem": "libbpf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "5c52607c43c397b79a9852ce33fc61de58c3645c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5c52607c43c397b79a9852ce33fc61de58c3645c",
-      "authoredAt": "2026-03-04T12:39:34.000-08:00",
-      "committedAt": "2026-03-14T14:01:37.000+09:00",
-      "authorName": "Guenter Roeck",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: ccp - Fix leaking the same page twice",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "724b4a12116fdb60130b89778611482bf8de0a6a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/724b4a12116fdb60130b89778611482bf8de0a6a",
-      "authoredAt": "2026-03-03T14:30:41.000-08:00",
-      "committedAt": "2026-03-04T10:42:43.000-08:00",
-      "authorName": "Niranjana Vishwanathapura",
-      "committerName": "Niranjana Vishwanathapura",
-      "subject": "drm/xe: Add missing kernel docs in xe_exec_queue.c",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "Claude 4.5 Sonnet",
-          "identity": "Claude 4.5 Sonnet",
-          "agent": "Claude 4.5 Sonnet",
-          "model": ""
         }
       ]
     }
