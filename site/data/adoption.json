@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-27T01:23:47.505Z",
+  "generatedAt": "2026-06-27T06:02:59.429Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 976,
-    "totalSubsystems": 285,
+    "totalSubsystems": 281,
     "totalAuthors": 177,
-    "totalAgents": 146
+    "totalAgents": 148
   },
   "commits": [
     {
@@ -134,6 +134,24 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "faaa1e1155833e7d4ce7e3cfaf64c0d636b190db",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/faaa1e1155833e7d4ce7e3cfaf64c0d636b190db",
+      "authoredAt": "2026-06-15T11:47:37.000-07:00",
+      "committedAt": "2026-06-22T11:13:27.000+03:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Jani Nikula",
+      "subject": "drm/edid: fix OOB read in drm_parse_tiled_block()",
+      "subsystem": "drm/edid",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -548,6 +566,24 @@
           "identity": "Gemini:gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot",
           "agent": "Gemini",
           "model": "gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot"
+        }
+      ]
+    },
+    {
+      "sha": "632ecc90e1ca5d3b6822bb4d08f84a175b6c42c0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/632ecc90e1ca5d3b6822bb4d08f84a175b6c42c0",
+      "authoredAt": "2026-06-12T12:34:02.000+05:30",
+      "committedAt": "2026-06-16T10:18:49.000-07:00",
+      "authorName": "Tejas Upadhyay",
+      "committerName": "Matthew Brost",
+      "subject": "drm/xe/guc: Fix buffer overflow in steered register list allocation",
+      "subsystem": "drm/xe/guc",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.6",
+          "identity": "GitHub-Copilot:claude-opus-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -1236,6 +1272,30 @@
       ]
     },
     {
+      "sha": "770031ec2312bfab307d05db5469f24fd297e758",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/770031ec2312bfab307d05db5469f24fd297e758",
+      "authoredAt": "2026-06-10T11:25:49.000-04:00",
+      "committedAt": "2026-06-16T10:18:40.000-07:00",
+      "authorName": "Rodrigo Vivi",
+      "committerName": "Matthew Brost",
+      "subject": "drm/xe: fix job timeout recovery for unstarted jobs and kernel queues",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-sonnet-4.6",
+          "identity": "GitHub-Copilot:claude-sonnet-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-sonnet-4.6"
+        },
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.8",
+          "identity": "GitHub-Copilot:claude-opus-4.8",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "347ccc0453fca2c669e8dc8a72000e76ca4adf10",
       "htmlUrl": "https://github.com/torvalds/linux/commit/347ccc0453fca2c669e8dc8a72000e76ca4adf10",
       "authoredAt": "2026-06-10T11:25:49.000-04:00",
@@ -1580,6 +1640,24 @@
       "committerName": "Arnaldo Carvalho de Melo",
       "subject": "libperf: Document code simplification case for widening struct perf_cpu",
       "subsystem": "libperf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "f2d238408db2b963951f0f2ae70ff7f9e337b540",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f2d238408db2b963951f0f2ae70ff7f9e337b540",
+      "authoredAt": "2026-06-08T21:57:44.000+05:30",
+      "committedAt": "2026-06-16T10:18:35.000-07:00",
+      "authorName": "Tangudu Tilak Tirumalesh",
+      "committerName": "Matthew Brost",
+      "subject": "drm/xe: include all registered queues in TLB invalidation",
+      "subsystem": "drm/xe",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4.6",
@@ -2508,6 +2586,24 @@
       ]
     },
     {
+      "sha": "0b5ed2756d45b04669502a1f13b1657ec7664571",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0b5ed2756d45b04669502a1f13b1657ec7664571",
+      "authoredAt": "2026-06-05T22:42:58.000Z",
+      "committedAt": "2026-06-16T10:18:52.000-07:00",
+      "authorName": "Brian Nguyen",
+      "committerName": "Matthew Brost",
+      "subject": "drm/xe: Add compact-PT and addr mask handling for page reclaim",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "Sashiko-Review:gemini-3.1-pro-preview",
+          "identity": "Sashiko-Review:gemini-3.1-pro-preview",
+          "agent": "Sashiko-Review",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
       "sha": "c9b3054c99cafd5f5f92158101760992a83e5a5e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c9b3054c99cafd5f5f92158101760992a83e5a5e",
       "authoredAt": "2026-06-05T19:01:35.000-03:00",
@@ -3336,6 +3432,24 @@
       ]
     },
     {
+      "sha": "92dc59ab2a09097cdf249e0288ff9b69261761c6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/92dc59ab2a09097cdf249e0288ff9b69261761c6",
+      "authoredAt": "2026-06-04T09:45:00.000+02:00",
+      "committedAt": "2026-06-16T10:18:43.000-07:00",
+      "authorName": "Thomas Hellström",
+      "committerName": "Matthew Brost",
+      "subject": "drm/xe: Fix wa_oob codegen recipe for external module builds",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-sonnet-4.6",
+          "identity": "GitHub_Copilot:claude-sonnet-4.6",
+          "agent": "GitHub_Copilot",
+          "model": "claude-sonnet-4.6"
+        }
+      ]
+    },
+    {
       "sha": "f46452c3df7a8d8a5addc0926e76ef19ea7da0a0",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f46452c3df7a8d8a5addc0926e76ef19ea7da0a0",
       "authoredAt": "2026-06-04T14:03:07.000+08:00",
@@ -3422,6 +3536,24 @@
           "identity": "Codex:gpt-5-5",
           "agent": "Codex",
           "model": "gpt-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "65280af331aa15eab7012bd7f07823be13754ba2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/65280af331aa15eab7012bd7f07823be13754ba2",
+      "authoredAt": "2026-06-03T16:39:47.000-07:00",
+      "committedAt": "2026-06-16T10:18:23.000-07:00",
+      "authorName": "Niranjana Vishwanathapura",
+      "committerName": "Matthew Brost",
+      "subject": "drm/xe/multi_queue: skip submit when primary queue is suspended",
+      "subsystem": "drm/xe/multi_queue",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-sonnet-4.6",
+          "identity": "GitHub-Copilot:claude-sonnet-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-sonnet-4.6"
         }
       ]
     },
@@ -5348,6 +5480,24 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "1142738572ef3fcf8b169f1c48d94b4a71cc2d97",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1142738572ef3fcf8b169f1c48d94b4a71cc2d97",
+      "authoredAt": "2026-05-28T10:32:52.000-04:00",
+      "committedAt": "2026-06-17T18:12:00.000-04:00",
+      "authorName": "Andrew Martin",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdkfd: Fix SMI event PID reporting for containers",
+      "subsystem": "drm/amdkfd",
+      "assistedBy": [
+        {
+          "raw": "Claude:Sonnet 4-5",
+          "identity": "Claude:Sonnet 4-5",
+          "agent": "Claude",
+          "model": "Sonnet 4-5"
         }
       ]
     },
@@ -17648,150 +17798,6 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "2727d44f5d5bc3f8e55a6a0ccf24d8105a5a400e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2727d44f5d5bc3f8e55a6a0ccf24d8105a5a400e",
-      "authoredAt": "2026-03-15T18:09:31.000+01:00",
-      "committedAt": "2026-03-17T15:18:54.000+01:00",
-      "authorName": "Kit Dallege",
-      "committerName": "Christian Brauner",
-      "subject": "writeback: fix kernel-doc function name mismatch for wb_put_many()",
-      "subsystem": "writeback",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "7b52b262f8a8cd96dac33721389a884420c18365",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7b52b262f8a8cd96dac33721389a884420c18365",
-      "authoredAt": "2026-03-15T16:34:14.000+01:00",
-      "committedAt": "2026-03-23T13:33:51.000-04:00",
-      "authorName": "Kit Dallege",
-      "committerName": "Yury Norov",
-      "subject": "bitops: fix kernel-doc parameter name for parity8()",
-      "subsystem": "bitops",
-      "assistedBy": [
-        {
-          "raw": "Claude <noreply@anthropic.com>",
-          "identity": "Claude <noreply@anthropic.com>",
-          "agent": "Claude <noreply@anthropic.com>",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "4821d563cd7f251ae728be1a6d04af82a294a5b9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4821d563cd7f251ae728be1a6d04af82a294a5b9",
-      "authoredAt": "2026-03-13T09:22:29.000+01:00",
-      "committedAt": "2026-04-06T13:39:23.000-07:00",
-      "authorName": "Michal Schmidt",
-      "committerName": "Tony Nguyen",
-      "subject": "ixgbevf: add missing negotiate_features op to Hyper-V ops table",
-      "subsystem": "ixgbevf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-4.6-opus-high Cursor",
-          "identity": "Claude:claude-4.6-opus-high Cursor",
-          "agent": "Claude",
-          "model": "claude-4.6-opus-high Cursor"
-        }
-      ]
-    },
-    {
-      "sha": "d4e981b280454f4368950db6269c6077d66453cf",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d4e981b280454f4368950db6269c6077d66453cf",
-      "authoredAt": "2026-03-12T13:38:12.000+08:00",
-      "committedAt": "2026-04-05T13:53:28.000-07:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Andrew Morton",
-      "subject": "kasan: update outdated comment",
-      "subsystem": "kasan",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "8f921f61005450589c0bc1a941a5ddde21d9aed9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8f921f61005450589c0bc1a941a5ddde21d9aed9",
-      "authoredAt": "2026-03-11T21:35:19.000+08:00",
-      "committedAt": "2026-03-12T19:29:01.000-07:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Jakub Kicinski",
-      "subject": "netlink: update outdated comment",
-      "subsystem": "netlink",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "886d56099d947443936298a8f98533768c5ad44b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/886d56099d947443936298a8f98533768c5ad44b",
-      "authoredAt": "2026-03-11T21:30:11.000+08:00",
-      "committedAt": "2026-03-12T19:27:43.000-07:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Jakub Kicinski",
-      "subject": "qlcnic: update outdated comment",
-      "subsystem": "qlcnic",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "2ef3bac16fb5e9eee4fb1d722578a79b751ea58a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2ef3bac16fb5e9eee4fb1d722578a79b751ea58a",
-      "authoredAt": "2026-03-09T00:26:24.000-06:00",
-      "committedAt": "2026-03-21T17:34:30.000+09:00",
-      "authorName": "Wesley Atwell",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: krb5enc - fix sleepable flag handling in encrypt dispatch",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5",
-          "identity": "Codex:GPT-5",
-          "agent": "Codex",
-          "model": "GPT-5"
-        }
-      ]
-    },
-    {
-      "sha": "e0ce97f781c78b717b00493630a9e34caf04f79b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e0ce97f781c78b717b00493630a9e34caf04f79b",
-      "authoredAt": "2026-03-08T22:31:43.000-06:00",
-      "committedAt": "2026-03-21T17:34:30.000+09:00",
-      "authorName": "Wesley Atwell",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: simd - reject compat registrations without __ prefixes",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5",
-          "identity": "Codex:GPT-5",
-          "agent": "Codex",
-          "model": "GPT-5"
         }
       ]
     }
