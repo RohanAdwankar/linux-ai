@@ -1,16 +1,106 @@
 {
-  "generatedAt": "2026-06-27T20:33:14.000Z",
+  "generatedAt": "2026-06-27T22:16:41.113Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 976,
+    "totalCommits": 978,
     "totalSubsystems": 281,
     "totalAuthors": 177,
-    "totalAgents": 148
+    "totalAgents": 149
   },
   "commits": [
+    {
+      "sha": "2c1c805c65fb7dc7524e20376d6987721e73a0b1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2c1c805c65fb7dc7524e20376d6987721e73a0b1",
+      "authoredAt": "2026-06-25T23:50:48.000-05:00",
+      "committedAt": "2026-06-26T14:56:13.000+02:00",
+      "authorName": "Ian Bridges",
+      "committerName": "Helge Deller",
+      "subject": "fbdev: fix use-after-free in store_modes()",
+      "subsystem": "fbdev",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "7f08fc10fa3d3366dc3af723970bd03d7d6d10e3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7f08fc10fa3d3366dc3af723970bd03d7d6d10e3",
+      "authoredAt": "2026-06-24T23:13:12.000-05:00",
+      "committedAt": "2026-06-26T15:12:45.000+02:00",
+      "authorName": "Ian Bridges",
+      "committerName": "Helge Deller",
+      "subject": "fbdev: Fix fb_new_modelist to prevent null-ptr-deref in fb_videomode_to_var",
+      "subsystem": "fbdev",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "5fae9a928482d4845bca169a3a098789203a1ca4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5fae9a928482d4845bca169a3a098789203a1ca4",
+      "authoredAt": "2026-06-24T16:11:36.000-05:00",
+      "committedAt": "2026-06-26T15:07:38.000+02:00",
+      "authorName": "Ian Bridges",
+      "committerName": "Helge Deller",
+      "subject": "fbcon: fix NULL pointer dereference for a console without vc_data",
+      "subsystem": "fbcon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "7693c0cc415f3a16a7a3355f245474a5e661be4e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7693c0cc415f3a16a7a3355f245474a5e661be4e",
+      "authoredAt": "2026-06-24T07:37:23.000-07:00",
+      "committedAt": "2026-06-25T13:52:32.000+02:00",
+      "authorName": "Darvell Long",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: usb-audio: avoid kobject path lookup in DualSense match",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Cute:gpt-5.5",
+          "identity": "Cute:gpt-5.5",
+          "agent": "Cute",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4",
+      "authoredAt": "2026-06-24T08:38:40.000+09:00",
+      "committedAt": "2026-06-24T11:03:25.000+02:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: seq: Fix uninitialised heap leak in snd_seq_event_dup()",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
     {
       "sha": "a6ac4e24c1a8a533bb61035184fdcc7eede4cc8d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a6ac4e24c1a8a533bb61035184fdcc7eede4cc8d",
@@ -48,6 +138,24 @@
       ]
     },
     {
+      "sha": "f199c8a8bdd54296d3458777e70fe82a78bd9817",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f199c8a8bdd54296d3458777e70fe82a78bd9817",
+      "authoredAt": "2026-06-19T01:00:10.000+08:00",
+      "committedAt": "2026-06-19T10:49:21.000+02:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: usb-audio: Kill MIDI 2.0 URBs before freeing endpoints",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "4be31c943a3a27a5a0251dbb8f5cb89059ec3d5a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/4be31c943a3a27a5a0251dbb8f5cb89059ec3d5a",
       "authoredAt": "2026-06-18T23:28:05.000+08:00",
@@ -62,6 +170,42 @@
           "identity": "Codex:GPT-5.4",
           "agent": "Codex",
           "model": "GPT-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "3c7af07943b2718087ae791cad450af5cf646d90",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3c7af07943b2718087ae791cad450af5cf646d90",
+      "authoredAt": "2026-06-17T22:51:26.000-04:00",
+      "committedAt": "2026-06-18T12:44:59.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: usb-audio: qcom: clear opened when stream enable fails",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "bdb640be82e645e2828731648f485224d0c2587b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bdb640be82e645e2828731648f485224d0c2587b",
+      "authoredAt": "2026-06-17T22:51:25.000-04:00",
+      "committedAt": "2026-06-18T12:43:02.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: usb-audio: qcom: reject stream disable with no active interface",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -116,6 +260,24 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "2e9261761b35f0b67b7487688cd1365f535be0b3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2e9261761b35f0b67b7487688cd1365f535be0b3",
+      "authoredAt": "2026-06-16T18:02:57.000+01:00",
+      "committedAt": "2026-06-17T13:50:03.000+01:00",
+      "authorName": "Srinivas Kandagatla",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: qcom: q6apm: fix NULL pointer dereference in graph_callback",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-4-6-sonnet",
+          "identity": "Claude:claude-4-6-sonnet",
+          "agent": "Claude",
+          "model": "claude-4-6-sonnet"
         }
       ]
     },
@@ -7285,6 +7447,24 @@
           "raw": "kres:claude-opus-4-6",
           "identity": "kres:claude-opus-4-6",
           "agent": "kres",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "947d7ea6f60b5fe24d8f8b69e55e0d6e1e8855e7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/947d7ea6f60b5fe24d8f8b69e55e0d6e1e8855e7",
+      "authoredAt": "2026-05-20T23:37:13.000-05:00",
+      "committedAt": "2026-06-23T00:13:21.000+02:00",
+      "authorName": "Mario Limonciello",
+      "committerName": "Alexandre Belloni",
+      "subject": "rtc: interface: Add rtc_read_next_alarm() to read next expiring timer",
+      "subsystem": "rtc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
           "model": "claude-opus-4-6"
         }
       ]
@@ -17654,150 +17834,6 @@
           "identity": "GitHub Copilot:claude-opus-4.6",
           "agent": "GitHub Copilot",
           "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "e7ac8ddfefa3729e858ac9c5a0c9af3a53d4c699",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e7ac8ddfefa3729e858ac9c5a0c9af3a53d4c699",
-      "authoredAt": "2026-03-17T21:57:17.000Z",
-      "committedAt": "2026-04-06T08:52:53.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe: Add missing include guards to unprotected headers",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "94d79f51efecb74be1d88dde66bdc8bfcca17935",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/94d79f51efecb74be1d88dde66bdc8bfcca17935",
-      "authoredAt": "2026-03-17T13:54:11.000-04:00",
-      "committedAt": "2026-03-23T14:09:28.000-04:00",
-      "authorName": "Ruijing Dong",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amdgpu: fix strsep() corrupting lockup_timeout on multi-GPU (v3)",
-      "subsystem": "drm/amdgpu",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "2d300ebfc411205fa31ba7741c5821d381912381",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2d300ebfc411205fa31ba7741c5821d381912381",
-      "authoredAt": "2026-03-17T13:54:11.000-04:00",
-      "committedAt": "2026-03-23T14:47:47.000-04:00",
-      "authorName": "Ruijing Dong",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amdgpu: fix strsep() corrupting lockup_timeout on multi-GPU (v3)",
-      "subsystem": "drm/amdgpu",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "a0529bbe70d74e495b682933955e5938245ad84b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a0529bbe70d74e495b682933955e5938245ad84b",
-      "authoredAt": "2026-03-17T11:01:34.000-03:00",
-      "committedAt": "2026-03-22T14:45:44.000-06:00",
-      "authorName": "Daniel Castro",
-      "committerName": "Jonathan Corbet",
-      "subject": "docs: pt_BR: translate process/1.Intro.rst",
-      "subsystem": "docs",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "1333eee56cdf3f0cf67c6ab4114c2c9e0a952026",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1333eee56cdf3f0cf67c6ab4114c2c9e0a952026",
-      "authoredAt": "2026-03-16T20:23:29.000-04:00",
-      "committedAt": "2026-03-19T21:54:51.000-04:00",
-      "authorName": "Josef Bacik",
-      "committerName": "Martin K. Petersen",
-      "subject": "scsi: target: tcm_loop: Drain commands in target_reset handler",
-      "subsystem": "scsi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "890d56964c62dfbe228b30b157811088cf64f9f1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/890d56964c62dfbe228b30b157811088cf64f9f1",
-      "authoredAt": "2026-03-15T20:06:33.000+01:00",
-      "committedAt": "2026-04-16T02:57:01.000Z",
-      "authorName": "Kit Dallege",
-      "committerName": "Dominique Martinet",
-      "subject": "9p: document missing enum values in kernel-doc comments",
-      "subsystem": "9p",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "d9794c0600f95b226b6672c5b364e44c80d660c5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d9794c0600f95b226b6672c5b364e44c80d660c5",
-      "authoredAt": "2026-03-15T18:10:01.000+01:00",
-      "committedAt": "2026-03-20T12:12:52.000+01:00",
-      "authorName": "Kit Dallege",
-      "committerName": "Marek Szyprowski",
-      "subject": "dma-mapping: fix false kernel-doc comment marker",
-      "subsystem": "dma-mapping",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "c291cfac49a67debdad766eedc450ef613f41b2d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c291cfac49a67debdad766eedc450ef613f41b2d",
-      "authoredAt": "2026-03-15T18:09:41.000+01:00",
-      "committedAt": "2026-03-24T23:06:33.000+01:00",
-      "authorName": "Kit Dallege",
-      "committerName": "Thomas Gleixner",
-      "subject": "entry: Add missing kernel-doc for arch_ptrace_report_syscall functions",
-      "subsystem": "entry",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
         }
       ]
     }
