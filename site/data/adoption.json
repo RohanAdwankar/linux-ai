@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-07-02T15:31:37.936Z",
+  "generatedAt": "2026-07-02T18:02:15.527Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 978,
-    "totalSubsystems": 281,
-    "totalAuthors": 177,
-    "totalAgents": 149
+    "totalCommits": 979,
+    "totalSubsystems": 282,
+    "totalAuthors": 176,
+    "totalAgents": 150
   },
   "commits": [
+    {
+      "sha": "a225f8c20712713406ae47024b8df42deacddd4a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a225f8c20712713406ae47024b8df42deacddd4a",
+      "authoredAt": "2026-06-29T16:44:59.000Z",
+      "committedAt": "2026-07-01T09:09:38.000+01:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "David S. Miller",
+      "subject": "net/sched: hhf: clear heavy-hitter state on reset",
+      "subsystem": "net/sched",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
+    {
+      "sha": "bf83ee45874e9f071478bed39f9cf40cc741629f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bf83ee45874e9f071478bed39f9cf40cc741629f",
+      "authoredAt": "2026-06-28T13:48:47.000Z",
+      "committedAt": "2026-07-01T09:00:25.000+01:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "David S. Miller",
+      "subject": "net/sched: dualpi2: clear stale classification on filter miss",
+      "subsystem": "net/sched",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
     {
       "sha": "2d6d33e45dd4fb768758d5f6e747deadcd66b9fc",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2d6d33e45dd4fb768758d5f6e747deadcd66b9fc",
@@ -26,6 +62,24 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "dbf803bc4a8b0522c9a12560c20905a5952d1cb9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dbf803bc4a8b0522c9a12560c20905a5952d1cb9",
+      "authoredAt": "2026-06-26T15:52:28.000-07:00",
+      "committedAt": "2026-06-30T12:19:07.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Paolo Abeni",
+      "subject": "net: gianfar: dispose irq mappings on probe failure and device removal",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
         }
       ]
     },
@@ -56,6 +110,24 @@
       "committerName": "Helge Deller",
       "subject": "fbdev: Fix fb_new_modelist to prevent null-ptr-deref in fb_videomode_to_var",
       "subsystem": "fbdev",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "7cd9103283b26b917360ec99d7d2f2d761bcf1ab",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7cd9103283b26b917360ec99d7d2f2d761bcf1ab",
+      "authoredAt": "2026-06-24T18:00:06.000-07:00",
+      "committedAt": "2026-06-30T06:37:11.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Florian Westphal",
+      "subject": "netfilter: ipset: fix race between dump and ip_set_list resize",
+      "subsystem": "netfilter",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -152,6 +224,42 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "828cd614e2af053ca5e1d6da767bbd8a1b5cabfb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/828cd614e2af053ca5e1d6da767bbd8a1b5cabfb",
+      "authoredAt": "2026-06-20T00:50:37.000-07:00",
+      "committedAt": "2026-06-29T08:44:41.000-07:00",
+      "authorName": "Abdurrahman Hussain",
+      "committerName": "Guenter Roeck",
+      "subject": "hwmon: (pmbus/core) honor vrm_version in pmbus_data2reg_vid()",
+      "subsystem": "hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7 [Claude Code]",
+          "identity": "Claude:claude-opus-4-7 [Claude Code]",
+          "agent": "Claude",
+          "model": "claude-opus-4-7 [Claude Code]"
+        }
+      ]
+    },
+    {
+      "sha": "e2735b39f044bad7bf2017aef248935525bc0b97",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e2735b39f044bad7bf2017aef248935525bc0b97",
+      "authoredAt": "2026-06-19T21:27:46.000+09:00",
+      "committedAt": "2026-06-29T08:51:59.000-07:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Guenter Roeck",
+      "subject": "hwmon: (asus_atk0110) Check package count before accessing element",
+      "subsystem": "hwmon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -17744,96 +17852,6 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "6c2128505f61b504c79a20b89596feba61388112",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6c2128505f61b504c79a20b89596feba61388112",
-      "authoredAt": "2026-03-19T17:08:08.000-07:00",
-      "committedAt": "2026-03-21T12:51:44.000-07:00",
-      "authorName": "Ihor Solodrai",
-      "committerName": "Alexei Starovoitov",
-      "subject": "bpf: Fix exception exit lock checking for subprogs",
-      "subsystem": "bpf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "deb353d9bb009638b7762cae2d0b6e8fdbb41a69",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/deb353d9bb009638b7762cae2d0b6e8fdbb41a69",
-      "authoredAt": "2026-03-17T23:46:36.000-07:00",
-      "committedAt": "2026-03-18T09:05:06.000+01:00",
-      "authorName": "Guenter Roeck",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: wlcore: Return -ENOMEM instead of -EAGAIN if there is not enough headroom",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "62ef3e610b347b743042c9ab3b942b4be7aab501",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/62ef3e610b347b743042c9ab3b942b4be7aab501",
-      "authoredAt": "2026-03-17T21:57:21.000Z",
-      "committedAt": "2026-04-06T08:52:53.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe: Normalize double-underscore include guards to single-underscore",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "57aad39219d334c4b505aa37dad658005f8a58ec",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/57aad39219d334c4b505aa37dad658005f8a58ec",
-      "authoredAt": "2026-03-17T21:57:20.000Z",
-      "committedAt": "2026-04-06T08:52:53.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe: Add missing leading underscore to include guards",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "b85ff232d25128f7cea47021f419f5aa13101609",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b85ff232d25128f7cea47021f419f5aa13101609",
-      "authoredAt": "2026-03-17T21:57:19.000Z",
-      "committedAt": "2026-04-06T08:52:53.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe: Add missing trailing underscore to include guards",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
         }
       ]
     }
