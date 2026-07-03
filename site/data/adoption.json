@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-03T15:26:20.096Z",
+  "generatedAt": "2026-07-03T17:48:50.432Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 979,
-    "totalSubsystems": 282,
-    "totalAuthors": 175,
-    "totalAgents": 150
+    "totalSubsystems": 284,
+    "totalAuthors": 176,
+    "totalAgents": 151
   },
   "commits": [
     {
@@ -26,6 +26,24 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "6c732471740bc2ac9b0946134f9f551dc75f4369",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6c732471740bc2ac9b0946134f9f551dc75f4369",
+      "authoredAt": "2026-07-01T11:44:28.000Z",
+      "committedAt": "2026-07-01T15:26:32.000+02:00",
+      "authorName": "David Lee",
+      "committerName": "Christian Brauner",
+      "subject": "fhandle: reject detached mounts in capable_wrt_mount()",
+      "subsystem": "fhandle",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -318,6 +336,24 @@
       ]
     },
     {
+      "sha": "fb3e566cafc38fe3ba35e6843a2d529a3748870c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fb3e566cafc38fe3ba35e6843a2d529a3748870c",
+      "authoredAt": "2026-06-18T10:39:22.000-04:00",
+      "committedAt": "2026-07-01T15:26:24.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Christian Brauner",
+      "subject": "minix: avoid overflow in bitmap block count calculation",
+      "subsystem": "minix",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "3c7af07943b2718087ae791cad450af5cf646d90",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3c7af07943b2718087ae791cad450af5cf646d90",
       "authoredAt": "2026-06-17T22:51:26.000-04:00",
@@ -344,6 +380,24 @@
       "committerName": "Takashi Iwai",
       "subject": "ALSA: usb-audio: qcom: reject stream disable with no active interface",
       "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "d33846c8dcc06b83b7acdeac1e8bfbb5c0c26cb2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d33846c8dcc06b83b7acdeac1e8bfbb5c0c26cb2",
+      "authoredAt": "2026-06-16T21:41:49.000-04:00",
+      "committedAt": "2026-07-01T09:31:02.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Juergen Gross",
+      "subject": "xen/pvcalls: bound backend response req_id before indexing rsp[]",
+      "subsystem": "xen/pvcalls",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -17792,60 +17846,6 @@
       "committerName": "Andrew Morton",
       "subject": "mm: vmalloc: update outdated comment for renamed vread()",
       "subsystem": "mm",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "f2a48f8fb56466488f7525e3349d4e2f45dc5d74",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f2a48f8fb56466488f7525e3349d4e2f45dc5d74",
-      "authoredAt": "2026-03-21T18:58:14.000+08:00",
-      "committedAt": "2026-04-05T13:53:35.000-07:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Andrew Morton",
-      "subject": "mm: update outdated comments for removed scan_swap_map_slots()",
-      "subsystem": "mm",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "67cb50aee082842077a8404337dc21b7d03829d7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/67cb50aee082842077a8404337dc21b7d03829d7",
-      "authoredAt": "2026-03-21T18:57:59.000+08:00",
-      "committedAt": "2026-03-25T09:35:14.000-03:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Jason Gunthorpe",
-      "subject": "iommufd: update outdated comment for renamed iommufd_hw_pagetable_alloc()",
-      "subsystem": "iommufd",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "88c07dff9f6dd0b89b3e5364b202978eab2541c2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/88c07dff9f6dd0b89b3e5364b202978eab2541c2",
-      "authoredAt": "2026-03-21T18:57:53.000+08:00",
-      "committedAt": "2026-03-24T13:16:58.000+01:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Paolo Abeni",
-      "subject": "hv_sock: update outdated comment for renamed vsock_stream_recvmsg()",
-      "subsystem": "hv_sock",
       "assistedBy": [
         {
           "raw": "unnamed:deepseek-v3.2 coccinelle",
