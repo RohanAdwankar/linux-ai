@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-02T23:30:27.764Z",
+  "generatedAt": "2026-07-03T04:10:17.667Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 979,
-    "totalSubsystems": 282,
-    "totalAuthors": 176,
+    "totalSubsystems": 281,
+    "totalAuthors": 174,
     "totalAgents": 150
   },
   "commits": [
@@ -422,6 +422,132 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "dc7fe87de492ea7f33a72b78d26650b75bf37f4f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dc7fe87de492ea7f33a72b78d26650b75bf37f4f",
+      "authoredAt": "2026-06-15T14:47:00.000-06:00",
+      "committedAt": "2026-06-29T14:26:28.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio: Remove device debugfs before releasing devres",
+      "subsystem": "vfio",
+      "assistedBy": [
+        {
+          "raw": "OpenAI Codex:gpt-5",
+          "identity": "OpenAI Codex:gpt-5",
+          "agent": "OpenAI Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "586a989d8b0db75d6f97c80a4f588d46e1df6881",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/586a989d8b0db75d6f97c80a4f588d46e1df6881",
+      "authoredAt": "2026-06-15T13:12:34.000-06:00",
+      "committedAt": "2026-06-29T14:26:31.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/pci: Expose latched module parameter policy in debugfs",
+      "subsystem": "vfio/pci",
+      "assistedBy": [
+        {
+          "raw": "OpenAI Codex:gpt-5",
+          "identity": "OpenAI Codex:gpt-5",
+          "agent": "OpenAI Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "3788cd493e444742bc2ba252eb5c09ffc8b345dc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3788cd493e444742bc2ba252eb5c09ffc8b345dc",
+      "authoredAt": "2026-06-15T13:12:33.000-06:00",
+      "committedAt": "2026-06-29T13:46:50.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/pci: Latch all module parameters per device",
+      "subsystem": "vfio/pci",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "f2365a63b02ddea32e7db78b742c2503ec7b81f1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f2365a63b02ddea32e7db78b742c2503ec7b81f1",
+      "authoredAt": "2026-06-15T13:12:32.000-06:00",
+      "committedAt": "2026-06-29T13:46:50.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/mlx5: Fix racy bitfields and tighten struct layout",
+      "subsystem": "vfio/mlx5",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "e73638e55f861758d49f14d7bb5dba3035981cd7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e73638e55f861758d49f14d7bb5dba3035981cd7",
+      "authoredAt": "2026-06-15T13:12:31.000-06:00",
+      "committedAt": "2026-06-29T13:46:49.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/pci: Fix racy bitfields and tighten struct layout",
+      "subsystem": "vfio/pci",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "daedde7f024ecf88bc8e832ed40cf2c795f0796a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/daedde7f024ecf88bc8e832ed40cf2c795f0796a",
+      "authoredAt": "2026-06-15T13:12:30.000-06:00",
+      "committedAt": "2026-06-29T13:46:49.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/pci: Release the VGA arbiter client on register_device() failure",
+      "subsystem": "vfio/pci",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "4575e9aac5336d1365138c0284773bf8da4b1fa3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4575e9aac5336d1365138c0284773bf8da4b1fa3",
+      "authoredAt": "2026-06-15T13:12:29.000-06:00",
+      "committedAt": "2026-06-29T13:46:49.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/pci: Latch disable_idle_d3 per device",
+      "subsystem": "vfio/pci",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -17726,132 +17852,6 @@
           "identity": "unnamed:deepseek-v3.2 coccinelle",
           "agent": "unnamed",
           "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "94c7e9669be1a29b8e44fa6ca3d2d8943b60a91e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/94c7e9669be1a29b8e44fa6ca3d2d8943b60a91e",
-      "authoredAt": "2026-03-21T18:57:17.000+08:00",
-      "committedAt": "2026-03-24T13:33:15.000-04:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: update outdated comments for renamed vblank_control_worker()",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "e4cabc973133c0623a63e6e3bc3d64e53a2e6d62",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e4cabc973133c0623a63e6e3bc3d64e53a2e6d62",
-      "authoredAt": "2026-03-21T18:57:04.000+08:00",
-      "committedAt": "2026-04-02T17:09:41.000+02:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "drivers/base/memory: fix stale reference to memory_block_add_nid()",
-      "subsystem": "drivers/base/memory",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "3f74e30d857bd546c32eba78739dc85dabc6aae1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3f74e30d857bd546c32eba78739dc85dabc6aae1",
-      "authoredAt": "2026-03-21T18:57:04.000+08:00",
-      "committedAt": "2026-04-05T13:53:36.000-07:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Andrew Morton",
-      "subject": "drivers/base/memory: fix stale reference to memory_block_add_nid()",
-      "subsystem": "drivers/base/memory",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "70b5f3f7822a8737de350ce3731189e724bc45be",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/70b5f3f7822a8737de350ce3731189e724bc45be",
-      "authoredAt": "2026-03-21T18:56:58.000+08:00",
-      "committedAt": "2026-03-24T13:37:29.000-07:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Alexei Starovoitov",
-      "subject": "bpf: update outdated comment for refactored btf_check_kfunc_arg_match()",
-      "subsystem": "bpf",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "a8eebf9699d69987cc49cec4e4fdb4111ab32423",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a8eebf9699d69987cc49cec4e4fdb4111ab32423",
-      "authoredAt": "2026-03-20T19:22:09.000Z",
-      "committedAt": "2026-03-27T07:35:05.000-07:00",
-      "authorName": "Robert Beckett",
-      "committerName": "Keith Busch",
-      "subject": "nvme-pci: add NVME_QUIRK_DISABLE_WRITE_ZEROES for Kingston OM3SGP4",
-      "subsystem": "nvme-pci",
-      "assistedBy": [
-        {
-          "raw": "claude-opus-4-6-v1",
-          "identity": "claude-opus-4-6-v1",
-          "agent": "claude-opus-4-6-v1",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "40f0496b617b431f8d2dd94d7f785c1121f8a68a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/40f0496b617b431f8d2dd94d7f785c1121f8a68a",
-      "authoredAt": "2026-03-20T19:22:08.000Z",
-      "committedAt": "2026-03-27T07:35:05.000-07:00",
-      "authorName": "Robert Beckett",
-      "committerName": "Keith Busch",
-      "subject": "nvme: respect NVME_QUIRK_DISABLE_WRITE_ZEROES when wzsl is set",
-      "subsystem": "nvme",
-      "assistedBy": [
-        {
-          "raw": "claude-opus-4-6-v1",
-          "identity": "claude-opus-4-6-v1",
-          "agent": "claude-opus-4-6-v1",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "a1e5c46eaed3151be93e1aec9af0d8f8db79b8f6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a1e5c46eaed3151be93e1aec9af0d8f8db79b8f6",
-      "authoredAt": "2026-03-19T17:08:09.000-07:00",
-      "committedAt": "2026-03-21T12:51:44.000-07:00",
-      "authorName": "Ihor Solodrai",
-      "committerName": "Alexei Starovoitov",
-      "subject": "selftests/bpf: Add tests for bpf_throw lock leak from subprogs",
-      "subsystem": "selftests/bpf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
         }
       ]
     }
