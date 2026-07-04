@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-03T23:19:11.723Z",
+  "generatedAt": "2026-07-04T04:02:58.311Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 979,
-    "totalSubsystems": 284,
+    "totalCommits": 974,
+    "totalSubsystems": 283,
     "totalAuthors": 176,
-    "totalAgents": 151
+    "totalAgents": 152
   },
   "commits": [
     {
@@ -84,6 +84,24 @@
       ]
     },
     {
+      "sha": "7ad2bcf2441430bb2e918fb3ef9a90d775a6e422",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7ad2bcf2441430bb2e918fb3ef9a90d775a6e422",
+      "authoredAt": "2026-06-28T17:19:24.000+08:00",
+      "committedAt": "2026-07-01T20:19:15.000-05:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Steve French",
+      "subject": "smb: client: harden POSIX SID length parsing",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.4",
+          "identity": "Codex:gpt-5.4",
+          "agent": "Codex",
+          "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
       "sha": "2d6d33e45dd4fb768758d5f6e747deadcd66b9fc",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2d6d33e45dd4fb768758d5f6e747deadcd66b9fc",
       "authoredAt": "2026-06-26T16:33:21.000-07:00",
@@ -120,6 +138,24 @@
       ]
     },
     {
+      "sha": "7ac3cae7a251d28e9079de07a991bd4eb2bb7fd8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7ac3cae7a251d28e9079de07a991bd4eb2bb7fd8",
+      "authoredAt": "2026-06-26T21:06:31.000Z",
+      "committedAt": "2026-07-02T12:29:43.000+02:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/hw_engine: Fix double-free of managed BO in error path",
+      "subsystem": "drm/xe/hw_engine",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "2c1c805c65fb7dc7524e20376d6987721e73a0b1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2c1c805c65fb7dc7524e20376d6987721e73a0b1",
       "authoredAt": "2026-06-25T23:50:48.000-05:00",
@@ -134,6 +170,78 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "0c56ea482aab1470b96a525ef53fa3eb8704f9a6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0c56ea482aab1470b96a525ef53fa3eb8704f9a6",
+      "authoredAt": "2026-06-25T22:44:52.000Z",
+      "committedAt": "2026-07-02T12:29:43.000+02:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/userptr: Drop bogus static from finish in force_invalidate",
+      "subsystem": "drm/xe/userptr",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "dca6e08c923a44d2d66b955e03dd57a3a38c2b94",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dca6e08c923a44d2d66b955e03dd57a3a38c2b94",
+      "authoredAt": "2026-06-25T21:56:15.000Z",
+      "committedAt": "2026-07-02T12:29:43.000+02:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/userptr: Hold notifier_lock for write on inject test path",
+      "subsystem": "drm/xe/userptr",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "8a0fb57675be578c4db19deb4298ed08a70f0f1a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8a0fb57675be578c4db19deb4298ed08a70f0f1a",
+      "authoredAt": "2026-06-25T16:20:58.000+01:00",
+      "committedAt": "2026-07-02T12:29:43.000+02:00",
+      "authorName": "Matthew Auld",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/pt: prevent invalid cursor access for purged BOs",
+      "subsystem": "drm/xe/pt",
+      "assistedBy": [
+        {
+          "raw": "Copilot:gemini-3.1-pro-preview",
+          "identity": "Copilot:gemini-3.1-pro-preview",
+          "agent": "Copilot",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "b5c55015d4164a0f206bcdcf2985da948b3c7837",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b5c55015d4164a0f206bcdcf2985da948b3c7837",
+      "authoredAt": "2026-06-25T16:20:56.000+01:00",
+      "committedAt": "2026-07-02T12:29:43.000+02:00",
+      "authorName": "Matthew Auld",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe: fix NPD in bo_meminfo()",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "Copilot:gemini-3.1-pro-preview",
+          "identity": "Copilot:gemini-3.1-pro-preview",
+          "agent": "Copilot",
+          "model": "gemini-3.1-pro-preview"
         }
       ]
     },
@@ -476,6 +584,24 @@
           "identity": "Claude:claude-4-6-sonnet",
           "agent": "Claude",
           "model": "claude-4-6-sonnet"
+        }
+      ]
+    },
+    {
+      "sha": "93c8fe6d56037f284be7116d0c8155847c6d7fbe",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/93c8fe6d56037f284be7116d0c8155847c6d7fbe",
+      "authoredAt": "2026-06-16T12:17:45.000-04:00",
+      "committedAt": "2026-07-01T13:00:40.000-04:00",
+      "authorName": "Harry Wentland",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: guard against overflow in HDCP message dump",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Copilot:claude-opus-4.8",
+          "identity": "Copilot:claude-opus-4.8",
+          "agent": "Copilot",
+          "model": "claude-opus-4.8"
         }
       ]
     },
@@ -1034,6 +1160,42 @@
           "identity": "Codex:GPT-5",
           "agent": "Codex",
           "model": "GPT-5"
+        }
+      ]
+    },
+    {
+      "sha": "d472497265374e895e31cf2af8a2c5f650019889",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d472497265374e895e31cf2af8a2c5f650019889",
+      "authoredAt": "2026-06-12T18:05:02.000+01:00",
+      "committedAt": "2026-07-02T12:29:43.000+02:00",
+      "authorName": "Matthew Auld",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/display: skip FORCE_WC and vm_bound check for external dma-bufs",
+      "subsystem": "drm/xe/display",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "d42df9dce7b374079c5c41691bd62d8765768a80",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d42df9dce7b374079c5c41691bd62d8765768a80",
+      "authoredAt": "2026-06-12T12:24:15.000-04:00",
+      "committedAt": "2026-07-01T18:01:02.000+02:00",
+      "authorName": "Rodrigo Vivi",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe: wedge from the timeout handler only after releasing the queue",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.8",
+          "identity": "GitHub-Copilot:claude-opus-4.8",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.8"
         }
       ]
     },
@@ -3446,6 +3608,24 @@
           "identity": "Claude:claude-sonnet-4-6",
           "agent": "Claude",
           "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "61596826b89af9dc20a53bae79b2b41e2bdc1fb5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/61596826b89af9dc20a53bae79b2b41e2bdc1fb5",
+      "authoredAt": "2026-06-05T11:33:05.000+02:00",
+      "committedAt": "2026-07-02T12:28:02.000+02:00",
+      "authorName": "Thomas Hellström",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/rtp: Fix build error with clang < 21 and non-const initializers",
+      "subsystem": "drm/xe/rtp",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-sonnet-4.6",
+          "identity": "GitHub_Copilot:claude-sonnet-4.6",
+          "agent": "GitHub_Copilot",
+          "model": "claude-sonnet-4.6"
         }
       ]
     },
@@ -8444,6 +8624,24 @@
           "identity": "Copilot:claude-4-opus",
           "agent": "Copilot",
           "model": "claude-4-opus"
+        }
+      ]
+    },
+    {
+      "sha": "da353a6b30086674c77bdbbfd86e9e0c7416ba99",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/da353a6b30086674c77bdbbfd86e9e0c7416ba99",
+      "authoredAt": "2026-05-18T20:06:19.000-07:00",
+      "committedAt": "2026-07-01T12:58:21.000-04:00",
+      "authorName": "Leorize",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: set MSA MISC1 bit 6 when using VSC SDP for DCE 11.x",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "oh-my-pi:GPT-5.5",
+          "identity": "oh-my-pi:GPT-5.5",
+          "agent": "oh-my-pi",
+          "model": "GPT-5.5"
         }
       ]
     },
@@ -17564,294 +17762,6 @@
           "identity": "Codex:GPT-5.4",
           "agent": "Codex",
           "model": "GPT-5.4"
-        }
-      ]
-    },
-    {
-      "sha": "adc09d7fbbb9d286057c98675994c445d81c27fa",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/adc09d7fbbb9d286057c98675994c445d81c27fa",
-      "authoredAt": "2026-03-23T21:44:50.000+08:00",
-      "committedAt": "2026-03-30T13:47:44.000-04:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Leon Romanovsky",
-      "subject": "RDMA: Remove outdated comments referencing hfi1_destroy_qp()",
-      "subsystem": "rdma",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "c7f27a8ab9f2f43570f0725256597a0d7abe2c5b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c7f27a8ab9f2f43570f0725256597a0d7abe2c5b",
-      "authoredAt": "2026-03-21T20:30:45.000-07:00",
-      "committedAt": "2026-03-21T18:34:59.000-10:00",
-      "authorName": "Song Liu",
-      "committerName": "Tejun Heo",
-      "subject": "workqueue: Fix false positive stall reports",
-      "subsystem": "workqueue",
-      "assistedBy": [
-        {
-          "raw": "claude-code:claude-opus-4-6",
-          "identity": "claude-code:claude-opus-4-6",
-          "agent": "claude-code",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "d57fe7b02072ad04a41517e40c737ed7c11f4520",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d57fe7b02072ad04a41517e40c737ed7c11f4520",
-      "authoredAt": "2026-03-21T19:50:18.000+08:00",
-      "committedAt": "2026-03-23T17:59:19.000Z",
-      "authorName": "Kexin Sun",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: generic: update outdated comment for removed soc_bind_dai_link()",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "fdfdd01e801f4e808cba27b3e78504cfeca610d9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fdfdd01e801f4e808cba27b3e78504cfeca610d9",
-      "authoredAt": "2026-03-21T19:00:39.000+08:00",
-      "committedAt": "2026-04-10T11:05:06.000+02:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Juergen Gross",
-      "subject": "xen/swiotlb: fix stale reference to swiotlb_unmap_page()",
-      "subsystem": "xen/swiotlb",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "30d516006fa1f72f957c18c6171f5680dcdebfb0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/30d516006fa1f72f957c18c6171f5680dcdebfb0",
-      "authoredAt": "2026-03-21T19:00:11.000+08:00",
-      "committedAt": "2026-05-20T09:57:20.000-07:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Jeff Johnson",
-      "subject": "wifi: ath10k: update outdated comment for renamed ieee80211_tx_status()",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "091ef6f503f49cdb3b19542b23f3cfd3e80a5f11",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/091ef6f503f49cdb3b19542b23f3cfd3e80a5f11",
-      "authoredAt": "2026-03-21T19:00:06.000+08:00",
-      "committedAt": "2026-03-30T16:50:09.000+02:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: udc: update outdated comment for renamed usb_gadget_udc_start()",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "762a3847a05c5c229009d36fbd0e2feee9dff81a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/762a3847a05c5c229009d36fbd0e2feee9dff81a",
-      "authoredAt": "2026-03-21T18:59:45.000+08:00",
-      "committedAt": "2026-03-24T19:55:23.000Z",
-      "authorName": "Kexin Sun",
-      "committerName": "Mark Brown",
-      "subject": "spi: pxa2xx: update outdated reference to pump_transfers()",
-      "subsystem": "spi",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "a37fb5166be943fa78962f77db00ce5a25366e87",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a37fb5166be943fa78962f77db00ce5a25366e87",
-      "authoredAt": "2026-03-21T18:59:40.000+08:00",
-      "committedAt": "2026-03-23T18:11:00.000Z",
-      "authorName": "Kexin Sun",
-      "committerName": "Mark Brown",
-      "subject": "spi: pl022: update outdated references to pump_transfers()",
-      "subsystem": "spi",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "2cdd477261a989278fea3e1127cea472b6eca52a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2cdd477261a989278fea3e1127cea472b6eca52a",
-      "authoredAt": "2026-03-21T18:59:35.000+08:00",
-      "committedAt": "2026-06-12T13:50:29.000+02:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Andreas Larsson",
-      "subject": "sparc32: remove deadwood swift_flush_tlb_page() debug code",
-      "subsystem": "sparc32",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "4c68d150246d7e1d826a807a82e6eb6b4669f42c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4c68d150246d7e1d826a807a82e6eb6b4669f42c",
-      "authoredAt": "2026-03-21T18:59:27.000+08:00",
-      "committedAt": "2026-03-23T16:38:31.000+01:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Christian Brauner",
-      "subject": "signal: update outdated comment for removed freezable_schedule()",
-      "subsystem": "signal",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "3d1a36afa49da89c414e991e4d497e8dce2c1d02",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3d1a36afa49da89c414e991e4d497e8dce2c1d02",
-      "authoredAt": "2026-03-21T18:59:09.000+08:00",
-      "committedAt": "2026-03-27T16:49:04.000-04:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Martin K. Petersen",
-      "subject": "scsi: lpfc: Update outdated comment for renamed lpfc_freenode()",
-      "subsystem": "scsi",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "5b44c3757ca36e49959cf6819b77d7079de75705",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5b44c3757ca36e49959cf6819b77d7079de75705",
-      "authoredAt": "2026-03-21T18:59:04.000+08:00",
-      "committedAt": "2026-03-27T16:51:15.000-04:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Martin K. Petersen",
-      "subject": "scsi: iscsi_tcp: update outdated comment for renamed iscsi_conn_set_callbacks()",
-      "subsystem": "scsi",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "b247ed6f60bdc61616b0243024e118b0659ce78f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b247ed6f60bdc61616b0243024e118b0659ce78f",
-      "authoredAt": "2026-03-21T18:58:59.000+08:00",
-      "committedAt": "2026-03-30T13:47:44.000-04:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Leon Romanovsky",
-      "subject": "RDMA/uverbs: Update outdated reference to remove_commit_idr_uobject()",
-      "subsystem": "rdma/uverbs",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "0b6c8e21157fb6dfa35163fdfe5c10387bcc6c41",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0b6c8e21157fb6dfa35163fdfe5c10387bcc6c41",
-      "authoredAt": "2026-03-21T18:58:31.000+08:00",
-      "committedAt": "2026-04-17T11:32:46.000+02:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Helge Deller",
-      "subject": "parisc: update outdated comments for renamed ccio_alloc_consistent()",
-      "subsystem": "parisc",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "a4b908c89d88d4b7251c566457979c4167b9664c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a4b908c89d88d4b7251c566457979c4167b9664c",
-      "authoredAt": "2026-03-21T18:58:25.000+08:00",
-      "committedAt": "2026-03-24T13:21:28.000+01:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Paolo Abeni",
-      "subject": "net: phy: update outdated comment for removed phy_package_read/write()",
-      "subsystem": "net",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "3cb0dc0d0eab18d6ef738e10d5634e3a71121044",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3cb0dc0d0eab18d6ef738e10d5634e3a71121044",
-      "authoredAt": "2026-03-21T18:58:20.000+08:00",
-      "committedAt": "2026-04-05T13:53:34.000-07:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Andrew Morton",
-      "subject": "mm: vmalloc: update outdated comment for renamed vread()",
-      "subsystem": "mm",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
         }
       ]
     }
