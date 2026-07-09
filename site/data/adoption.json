@@ -1,16 +1,178 @@
 {
-  "generatedAt": "2026-07-09T15:36:46.724Z",
+  "generatedAt": "2026-07-09T18:11:16.031Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 974,
-    "totalSubsystems": 283,
-    "totalAuthors": 177,
-    "totalAgents": 152
+    "totalCommits": 978,
+    "totalSubsystems": 275,
+    "totalAuthors": 174,
+    "totalAgents": 154
   },
   "commits": [
+    {
+      "sha": "2f75c0faa3361b28e36cc0512b3299e163e25789",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2f75c0faa3361b28e36cc0512b3299e163e25789",
+      "authoredAt": "2026-07-06T18:16:24.000+08:00",
+      "committedAt": "2026-07-08T15:33:44.000+02:00",
+      "authorName": "Yizhou Zhao",
+      "committerName": "Florian Westphal",
+      "subject": "ipvs: use parsed transport offset in SCTP state lookup",
+      "subsystem": "ipvs",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:GLM-5.2",
+          "identity": "Claude Code:GLM-5.2",
+          "agent": "Claude Code",
+          "model": "GLM-5.2"
+        }
+      ]
+    },
+    {
+      "sha": "2500fa3958b1ba51c2b065e39db1b04dfa7e23a2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2500fa3958b1ba51c2b065e39db1b04dfa7e23a2",
+      "authoredAt": "2026-07-06T18:16:23.000+08:00",
+      "committedAt": "2026-07-08T15:33:44.000+02:00",
+      "authorName": "Yizhou Zhao",
+      "committerName": "Florian Westphal",
+      "subject": "ipvs: use parsed transport offset in TCP state lookup",
+      "subsystem": "ipvs",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:GLM-5.2",
+          "identity": "Claude Code:GLM-5.2",
+          "agent": "Claude Code",
+          "model": "GLM-5.2"
+        }
+      ]
+    },
+    {
+      "sha": "3b08fed5b7e0d5e3a25d73ef3ba09cd33ade16c9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3b08fed5b7e0d5e3a25d73ef3ba09cd33ade16c9",
+      "authoredAt": "2026-07-05T16:36:29.000-07:00",
+      "committedAt": "2026-07-08T15:22:03.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Florian Westphal",
+      "subject": "netfilter: nf_conntrack_reasm: guard mac_header adjustment after IPv6 defrag",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "a622d2e9608c9dff47fc2e5759ac7aa3a836b45d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a622d2e9608c9dff47fc2e5759ac7aa3a836b45d",
+      "authoredAt": "2026-07-05T14:58:00.000-07:00",
+      "committedAt": "2026-07-08T15:22:03.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Florian Westphal",
+      "subject": "netfilter: ebtables: terminate table name before find_table_lock()",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "e6107a4c74b54cb33e3bce162a63048ae5a6b198",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e6107a4c74b54cb33e3bce162a63048ae5a6b198",
+      "authoredAt": "2026-07-03T16:22:57.000Z",
+      "committedAt": "2026-07-08T15:33:37.000+02:00",
+      "authorName": "Tamaki Yanagawa",
+      "committerName": "Florian Westphal",
+      "subject": "netfilter: nft_lookup: fix catchall element handling with inverted lookups",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-5",
+          "identity": "Claude:claude-sonnet-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "1b47026fb4b35bac850ad6e8a4ad7fc018e09ebc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1b47026fb4b35bac850ad6e8a4ad7fc018e09ebc",
+      "authoredAt": "2026-07-03T13:04:46.000+08:00",
+      "committedAt": "2026-07-03T14:45:21.000+02:00",
+      "authorName": "Wyatt Feng",
+      "committerName": "Florian Westphal",
+      "subject": "netfilter: xt_connmark: reject invalid shift parameters",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.4",
+          "identity": "Codex:GPT-5.4",
+          "agent": "Codex",
+          "model": "GPT-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "2975324d164c552b028632f107b567302863b7f6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2975324d164c552b028632f107b567302863b7f6",
+      "authoredAt": "2026-07-02T19:28:36.000+08:00",
+      "committedAt": "2026-07-03T14:45:21.000+02:00",
+      "authorName": "Yizhou Zhao",
+      "committerName": "Florian Westphal",
+      "subject": "ipvs: reset full ip_vs_seq structs in ip_vs_conn_new",
+      "subsystem": "ipvs",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:GLM-5.2",
+          "identity": "Claude-Code:GLM-5.2",
+          "agent": "Claude-Code",
+          "model": "GLM-5.2"
+        }
+      ]
+    },
+    {
+      "sha": "6b335af0d0d1ff44ac579d106953bf19299e5233",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6b335af0d0d1ff44ac579d106953bf19299e5233",
+      "authoredAt": "2026-07-02T15:34:28.000+08:00",
+      "committedAt": "2026-07-03T14:45:21.000+02:00",
+      "authorName": "Yizhou Zhao",
+      "committerName": "Florian Westphal",
+      "subject": "ipvs: fix PMTU for GUE/GRE tunnel ICMP errors",
+      "subsystem": "ipvs",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:GLM-5.2",
+          "identity": "Claude-Code:GLM-5.2",
+          "agent": "Claude-Code",
+          "model": "GLM-5.2"
+        }
+      ]
+    },
+    {
+      "sha": "1a3267a8c9ecabb8e27f5cbda6d19295d5e41beb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1a3267a8c9ecabb8e27f5cbda6d19295d5e41beb",
+      "authoredAt": "2026-07-01T20:26:52.000-07:00",
+      "committedAt": "2026-07-08T10:04:01.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Paolo Abeni",
+      "subject": "net: mdio: select REGMAP_MMIO instead of depending on it",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
     {
       "sha": "cd64be0ecd399fa2b1ab60b3aaf2b2b744243467",
       "htmlUrl": "https://github.com/torvalds/linux/commit/cd64be0ecd399fa2b1ab60b3aaf2b2b744243467",
@@ -26,6 +188,42 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "b7f97cae7ec1b6c3c32843c42be218690d310467",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b7f97cae7ec1b6c3c32843c42be218690d310467",
+      "authoredAt": "2026-07-02T00:07:59.000Z",
+      "committedAt": "2026-07-08T11:42:21.000+02:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "Paolo Abeni",
+      "subject": "net/sched: cake: reject overhead values that underflow length",
+      "subsystem": "net/sched",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
+    {
+      "sha": "dd068ef044128db655f48323a4acfd5907e04903",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dd068ef044128db655f48323a4acfd5907e04903",
+      "authoredAt": "2026-07-01T09:06:14.000-07:00",
+      "committedAt": "2026-07-06T10:46:58.000-04:00",
+      "authorName": "Weiming Shi",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: bpa10x: avoid OOB read of revision string in bpa10x_setup()",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -56,6 +254,78 @@
       "committerName": "Takashi Iwai",
       "subject": "ALSA: usx2y: us144mkii: fix work UAF on disconnect",
       "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "77e43bcb7ec177e293a5c3f1b91a2c5aebfb6c68",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/77e43bcb7ec177e293a5c3f1b91a2c5aebfb6c68",
+      "authoredAt": "2026-07-01T07:44:17.000+02:00",
+      "committedAt": "2026-07-03T14:45:20.000+02:00",
+      "authorName": "Florian Westphal",
+      "committerName": "Florian Westphal",
+      "subject": "netfilter: nf_nat_sip: reload possible stale data pointer",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "9d160b35cc34a2ba8229d07651468a7848325135",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9d160b35cc34a2ba8229d07651468a7848325135",
+      "authoredAt": "2026-06-30T11:32:27.000-07:00",
+      "committedAt": "2026-07-06T12:58:12.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Paolo Abeni",
+      "subject": "net/smc: fix UAF in smc_cdc_rx_handler() by pinning the socket",
+      "subsystem": "net/smc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "9c36951474d8e1127f4946f39cb874a200f34e9f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9c36951474d8e1127f4946f39cb874a200f34e9f",
+      "authoredAt": "2026-06-30T22:29:19.000+05:30",
+      "committedAt": "2026-07-06T10:46:58.000-04:00",
+      "authorName": "Kiran K",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: btintel_pcie: Refactor FLR to use device_reprobe()",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-4.7-opus",
+          "identity": "GitHub-Copilot:claude-4.7-opus",
+          "agent": "GitHub-Copilot",
+          "model": "claude-4.7-opus"
+        }
+      ]
+    },
+    {
+      "sha": "03f384bc0cb8d4a1301d4f5b0baef2d980258383",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/03f384bc0cb8d4a1301d4f5b0baef2d980258383",
+      "authoredAt": "2026-06-29T21:51:21.000-07:00",
+      "committedAt": "2026-07-03T08:23:23.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Paolo Abeni",
+      "subject": "net: usb: net1080: validate packet_len before pad-byte access in rx_fixup",
+      "subsystem": "net",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -102,6 +372,24 @@
       ]
     },
     {
+      "sha": "6fef032af0092ed5ccb767239a9ac1bc38c08a40",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6fef032af0092ed5ccb767239a9ac1bc38c08a40",
+      "authoredAt": "2026-06-29T09:49:58.000-04:00",
+      "committedAt": "2026-07-06T10:46:58.000-04:00",
+      "authorName": "Siwei Zhang",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: L2CAP: Fix use-after-free in l2cap_sock_new_connection_cb()",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "bf83ee45874e9f071478bed39f9cf40cc741629f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/bf83ee45874e9f071478bed39f9cf40cc741629f",
       "authoredAt": "2026-06-28T13:48:47.000Z",
@@ -134,6 +422,24 @@
           "identity": "Codex:gpt-5.4",
           "agent": "Codex",
           "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "64cdf7d30ac18e43df6c48004435febb965809a8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/64cdf7d30ac18e43df6c48004435febb965809a8",
+      "authoredAt": "2026-06-28T16:05:54.000+08:00",
+      "committedAt": "2026-07-03T14:45:21.000+02:00",
+      "authorName": "Wyatt Feng",
+      "committerName": "Florian Westphal",
+      "subject": "netfilter: xt_u32: reject invalid shift counts",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.4",
+          "identity": "Codex:GPT-5.4",
+          "agent": "Codex",
+          "model": "GPT-5.4"
         }
       ]
     },
@@ -390,6 +696,60 @@
       ]
     },
     {
+      "sha": "384a4b2fef9ffe5e270ee5558975c0504881c5fb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/384a4b2fef9ffe5e270ee5558975c0504881c5fb",
+      "authoredAt": "2026-06-24T00:13:28.000+08:00",
+      "committedAt": "2026-07-06T10:46:57.000-04:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: MGMT: Fix adv monitor add failure cleanup",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "518aa9505fa10ea5662349e5d2efd8c9e32a820b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/518aa9505fa10ea5662349e5d2efd8c9e32a820b",
+      "authoredAt": "2026-06-24T00:12:59.000+08:00",
+      "committedAt": "2026-07-06T10:46:57.000-04:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: 6lowpan: hold L2CAP conn across debugfs control",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "352a59dc1f4a41314b6f827c17e16af7ca88271a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/352a59dc1f4a41314b6f827c17e16af7ca88271a",
+      "authoredAt": "2026-06-24T00:12:29.000+08:00",
+      "committedAt": "2026-07-06T10:46:57.000-04:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: 6lowpan: avoid untracked enable work",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "a6ac4e24c1a8a533bb61035184fdcc7eede4cc8d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a6ac4e24c1a8a533bb61035184fdcc7eede4cc8d",
       "authoredAt": "2026-06-22T22:35:18.000-07:00",
@@ -506,6 +866,24 @@
       "committerName": "Christian Brauner",
       "subject": "minix: avoid overflow in bitmap block count calculation",
       "subsystem": "minix",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "590cc4d782487632a52f37c2171bee1eeea29627",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/590cc4d782487632a52f37c2171bee1eeea29627",
+      "authoredAt": "2026-06-18T15:37:37.000+09:00",
+      "committedAt": "2026-06-29T11:18:07.000+02:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Jiri Kosina",
+      "subject": "HID: logitech-dj: Fix maxfield check in DJ short report validation",
+      "subsystem": "hid",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -818,6 +1196,42 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "12917f591cea1af36087dba5b9ec888652f0b42a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/12917f591cea1af36087dba5b9ec888652f0b42a",
+      "authoredAt": "2026-06-15T11:33:05.000-04:00",
+      "committedAt": "2026-07-06T10:46:57.000-04:00",
+      "authorName": "Siwei Zhang",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: hci_conn: Fix null ptr deref in hci_abort_conn()",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "fa85d985f614bc3feb343000f14a1072e99b0df1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fa85d985f614bc3feb343000f14a1072e99b0df1",
+      "authoredAt": "2026-06-15T16:09:22.000+01:00",
+      "committedAt": "2026-07-06T10:46:56.000-04:00",
+      "authorName": "Samuel Page",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: MGMT: Fix UAF of hci_conn_params in add_device_complete",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Bynario AI",
+          "identity": "Bynario AI",
+          "agent": "Bynario AI",
+          "model": ""
         }
       ]
     },
@@ -1250,6 +1664,30 @@
           "identity": "GitHub-Copilot:claude-opus-4.8",
           "agent": "GitHub-Copilot",
           "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "6e1930ece855a4c256f1c7e6632d634cfb9888b5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6e1930ece855a4c256f1c7e6632d634cfb9888b5",
+      "authoredAt": "2026-06-12T16:38:18.000+02:00",
+      "committedAt": "2026-07-06T10:46:58.000-04:00",
+      "authorName": "Stig Hornang",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: L2CAP: fix tx ident leak for commands without a response",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        },
+        {
+          "raw": "Fable:5",
+          "identity": "Fable:5",
+          "agent": "Fable",
+          "model": "5"
         }
       ]
     },
@@ -17402,366 +17840,6 @@
           "identity": "Claude:claude-4.6-opus",
           "agent": "Claude",
           "model": "claude-4.6-opus"
-        }
-      ]
-    },
-    {
-      "sha": "df03d7c2bbc91d1e83f8b42881ad791353df7d94",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/df03d7c2bbc91d1e83f8b42881ad791353df7d94",
-      "authoredAt": "2026-03-27T21:27:49.000+01:00",
-      "committedAt": "2026-03-30T11:00:45.000+02:00",
-      "authorName": "Francois Dugast",
-      "committerName": "Francois Dugast",
-      "subject": "drm/xe: Document GT statistics",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-sonnet-4.6",
-          "identity": "GitHub Copilot:claude-sonnet-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "8545d9bc4bd0801e0bdfbfdfdc2532ff31236ddf",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8545d9bc4bd0801e0bdfbfdfdc2532ff31236ddf",
-      "authoredAt": "2026-03-27T11:41:57.000-04:00",
-      "committedAt": "2026-03-30T10:00:40.000-06:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Jonathan Corbet",
-      "subject": "scripts/checkpatch: add Assisted-by: tag validation",
-      "subsystem": "scripts/checkpatch",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "7a4790b1a2c9ff66bd7a95d8761d5e9fc9334ba9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7a4790b1a2c9ff66bd7a95d8761d5e9fc9334ba9",
-      "authoredAt": "2026-03-27T14:07:09.000+01:00",
-      "committedAt": "2026-03-30T08:37:01.000-05:00",
-      "authorName": "David Heidelberg",
-      "committerName": "Bjorn Andersson",
-      "subject": "arm64: dts: qcom: sdm845-oneplus: Describe Wi-Fi/BT properly",
-      "subsystem": "arm64",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "0a9c8715663998dc4d8eaa8f1a40440214906d96",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0a9c8715663998dc4d8eaa8f1a40440214906d96",
-      "authoredAt": "2026-03-27T14:07:08.000+01:00",
-      "committedAt": "2026-03-30T08:37:01.000-05:00",
-      "authorName": "David Heidelberg",
-      "committerName": "Bjorn Andersson",
-      "subject": "arm64: dts: qcom: sdm845-google: Describe Wi-Fi/BT properly",
-      "subsystem": "arm64",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "8df9160f6a50dbdae8ec287d429efc9d2d9001bd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8df9160f6a50dbdae8ec287d429efc9d2d9001bd",
-      "authoredAt": "2026-03-27T10:11:28.000+01:00",
-      "committedAt": "2026-04-27T14:07:45.000+02:00",
-      "authorName": "Midgy BALON",
-      "committerName": "Heiko Stuebner",
-      "subject": "arm64: dts: rockchip: rock-3b: Model PI6C20100 as gated-fixed-clock",
-      "subsystem": "arm64",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-3-opus",
-          "identity": "Claude:claude-3-opus",
-          "agent": "Claude",
-          "model": "claude-3-opus"
-        }
-      ]
-    },
-    {
-      "sha": "fcc25a291fbdca2c06c2c6602532050873f0c9de",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fcc25a291fbdca2c06c2c6602532050873f0c9de",
-      "authoredAt": "2026-03-26T17:17:46.000+05:30",
-      "committedAt": "2026-04-02T11:28:12.000-05:00",
-      "authorName": "Gautham R. Shenoy",
-      "committerName": "Mario Limonciello (AMD)",
-      "subject": "amd-pstate: Update cppc_req_cached in fast_switch case",
-      "subsystem": "amd-pstate",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6 review-prompts/linux",
-          "identity": "Claude:claude-opus-4.6 review-prompts/linux",
-          "agent": "Claude",
-          "model": "claude-opus-4.6 review-prompts/linux"
-        }
-      ]
-    },
-    {
-      "sha": "beda3b363546a423e4e29a7395e04c0ac4ff677e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/beda3b363546a423e4e29a7395e04c0ac4ff677e",
-      "authoredAt": "2026-03-26T17:17:45.000+05:30",
-      "committedAt": "2026-04-02T11:28:05.000-05:00",
-      "authorName": "Gautham R. Shenoy",
-      "committerName": "Mario Limonciello (AMD)",
-      "subject": "amd-pstate: Fix memory leak in amd_pstate_epp_cpu_init()",
-      "subsystem": "amd-pstate",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6 review-prompts/linux",
-          "identity": "Claude:claude-opus-4.6 review-prompts/linux",
-          "agent": "Claude",
-          "model": "claude-opus-4.6 review-prompts/linux"
-        }
-      ]
-    },
-    {
-      "sha": "3de711fba73ad93b8b3fbe09cf681cefed5d573d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3de711fba73ad93b8b3fbe09cf681cefed5d573d",
-      "authoredAt": "2026-03-24T17:34:16.000-04:00",
-      "committedAt": "2026-05-04T21:16:00.000-07:00",
-      "authorName": "Joe Lawrence",
-      "committerName": "Josh Poimboeuf",
-      "subject": "objtool/klp: Fix create_fake_symbols() skipping entsize-based sections",
-      "subsystem": "objtool/klp",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-4-opus",
-          "identity": "Claude:claude-4-opus",
-          "agent": "Claude",
-          "model": "claude-4-opus"
-        }
-      ]
-    },
-    {
-      "sha": "f8995c2df519f382525ca4bc90553ad2ec611067",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f8995c2df519f382525ca4bc90553ad2ec611067",
-      "authoredAt": "2026-03-24T17:42:51.000+01:00",
-      "committedAt": "2026-04-02T08:24:55.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Thomas Zimmermann",
-      "subject": "drm/ioc32: stop speculation on the drm_compat_ioctl path",
-      "subsystem": "drm/ioc32",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_2000",
-          "identity": "gkh_clanker_2000",
-          "agent": "gkh_clanker_2000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "48b8814e25d073dd84daf990a879a820bad2bcbd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/48b8814e25d073dd84daf990a879a820bad2bcbd",
-      "authoredAt": "2026-03-24T17:34:05.000+01:00",
-      "committedAt": "2026-03-28T00:43:39.000+01:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Vasily Gorbik",
-      "subject": "s390/syscalls: Add spectre boundary for syscall dispatch table",
-      "subsystem": "s390/syscalls",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_2000",
-          "identity": "gkh_clanker_2000",
-          "agent": "gkh_clanker_2000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "3e839947b842b81e3d940044425853477c5a4d7e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3e839947b842b81e3d940044425853477c5a4d7e",
-      "authoredAt": "2026-03-24T12:14:00.000+08:00",
-      "committedAt": "2026-03-24T19:52:27.000Z",
-      "authorName": "Kexin Sun",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: update outdated comments for removed snd_soc_new_pcms()",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "256e5254efff48d6de97e314dc17d55504c55164",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/256e5254efff48d6de97e314dc17d55504c55164",
-      "authoredAt": "2026-03-24T11:23:44.000+08:00",
-      "committedAt": "2026-04-21T16:41:54.000+01:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Daniel Thompson",
-      "subject": "kgdb: update outdated references to kgdb_wait()",
-      "subsystem": "kgdb",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "fdb19f4ede3bf41c48721889114441389d1ad403",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fdb19f4ede3bf41c48721889114441389d1ad403",
-      "authoredAt": "2026-03-24T10:48:57.000+08:00",
-      "committedAt": "2026-03-30T17:36:45.000+02:00",
-      "authorName": "Kexin Sun",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "tty: atmel_serial: update outdated reference to atmel_tasklet_func()",
-      "subsystem": "tty",
-      "assistedBy": [
-        {
-          "raw": "unnamed:deepseek-v3.2 coccinelle",
-          "identity": "unnamed:deepseek-v3.2 coccinelle",
-          "agent": "unnamed",
-          "model": "deepseek-v3.2 coccinelle"
-        }
-      ]
-    },
-    {
-      "sha": "d7447f2dce46e1237e7908f49703803ffc0ef19f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d7447f2dce46e1237e7908f49703803ffc0ef19f",
-      "authoredAt": "2026-03-23T12:00:34.000-04:00",
-      "committedAt": "2026-03-26T10:24:40.000-04:00",
-      "authorName": "Vineeth Pillai (Google)",
-      "committerName": "Steven Rostedt (Google)",
-      "subject": "btrfs: Use trace_call__##name() at guarded tracepoint call sites",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "47f570fcfd5a5a8c58913fee8fa2db2f99591ae9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/47f570fcfd5a5a8c58913fee8fa2db2f99591ae9",
-      "authoredAt": "2026-03-23T12:00:32.000-04:00",
-      "committedAt": "2026-03-26T10:24:39.000-04:00",
-      "authorName": "Vineeth Pillai (Google)",
-      "committerName": "Steven Rostedt (Google)",
-      "subject": "spi: Use trace_call__##name() at guarded tracepoint call sites",
-      "subsystem": "spi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "fa9ac2fdb605bbf318bb2cbbc76b855341b7c115",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fa9ac2fdb605bbf318bb2cbbc76b855341b7c115",
-      "authoredAt": "2026-03-23T12:00:31.000-04:00",
-      "committedAt": "2026-03-26T10:24:39.000-04:00",
-      "authorName": "Vineeth Pillai (Google)",
-      "committerName": "Steven Rostedt (Google)",
-      "subject": "i2c: Use trace_call__##name() at guarded tracepoint call sites",
-      "subsystem": "i2c",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "ad8363ebf851599489e8821f5278f784df154398",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ad8363ebf851599489e8821f5278f784df154398",
-      "authoredAt": "2026-03-23T12:00:25.000-04:00",
-      "committedAt": "2026-03-28T13:37:06.000-04:00",
-      "authorName": "Vineeth Pillai (Google)",
-      "committerName": "Steven Rostedt (Google)",
-      "subject": "cpufreq: Use trace_call__##name() at guarded tracepoint call sites",
-      "subsystem": "cpufreq",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "7b1c2d7547943ddb0d425138b3b42262ff92eea3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7b1c2d7547943ddb0d425138b3b42262ff92eea3",
-      "authoredAt": "2026-03-23T12:00:21.000-04:00",
-      "committedAt": "2026-03-26T08:28:49.000-04:00",
-      "authorName": "Vineeth Pillai (Google)",
-      "committerName": "Steven Rostedt (Google)",
-      "subject": "kernel: Use trace_call__##name() at guarded tracepoint call sites",
-      "subsystem": "kernel",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "677a3d82b6407522d922705209c311e043a17813",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/677a3d82b6407522d922705209c311e043a17813",
-      "authoredAt": "2026-03-23T12:00:20.000-04:00",
-      "committedAt": "2026-03-26T08:27:39.000-04:00",
-      "authorName": "Vineeth Pillai (Google)",
-      "committerName": "Steven Rostedt (Google)",
-      "subject": "tracepoint: Add trace_call__##name() API",
-      "subsystem": "tracepoint",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "3aff388bc4e8d64583d144f3be9c0aff9a54f14d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3aff388bc4e8d64583d144f3be9c0aff9a54f14d",
-      "authoredAt": "2026-03-23T11:33:42.000-04:00",
-      "committedAt": "2026-03-25T13:17:13.000-06:00",
-      "authorName": "Rito Rhymes",
-      "committerName": "Jonathan Corbet",
-      "subject": "docs: contain horizontal overflow in C API descriptions",
-      "subsystem": "docs",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.4",
-          "identity": "Codex:GPT-5.4",
-          "agent": "Codex",
-          "model": "GPT-5.4"
         }
       ]
     }
