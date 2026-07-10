@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-07-10T15:02:27.505Z",
+  "generatedAt": "2026-07-10T17:09:31.474Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 978,
-    "totalSubsystems": 275,
-    "totalAuthors": 174,
+    "totalCommits": 976,
+    "totalSubsystems": 272,
+    "totalAuthors": 171,
     "totalAgents": 154
   },
   "commits": [
+    {
+      "sha": "b11c513ad943f35cf5e8007d3a56279c79b7ed4b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b11c513ad943f35cf5e8007d3a56279c79b7ed4b",
+      "authoredAt": "2026-07-07T16:23:58.000-07:00",
+      "committedAt": "2026-07-08T14:05:11.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: mvebu: free generic chips on unbind",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "793bf193b18e9bff6c4280268bbffd16a5b533e5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/793bf193b18e9bff6c4280268bbffd16a5b533e5",
+      "authoredAt": "2026-07-06T14:00:54.000-07:00",
+      "committedAt": "2026-07-08T13:49:48.000+09:00",
+      "authorName": "TJ Adams",
+      "committerName": "Damien Le Moal",
+      "subject": "ata: libata-core: Allow capacity transition to zero for locked drives",
+      "subsystem": "ata",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
     {
       "sha": "2f75c0faa3361b28e36cc0512b3299e163e25789",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2f75c0faa3361b28e36cc0512b3299e163e25789",
@@ -120,6 +156,24 @@
       ]
     },
     {
+      "sha": "af80e2bfde9312c76b60cf9274248dce0410b30d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/af80e2bfde9312c76b60cf9274248dce0410b30d",
+      "authoredAt": "2026-07-02T14:58:05.000-07:00",
+      "committedAt": "2026-07-09T12:09:24.000+02:00",
+      "authorName": "Matthew Brost",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe: Wait on external BO kernel fences in exec IOCTL",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-opus-4.8",
+          "identity": "GitHub_Copilot:claude-opus-4.8",
+          "agent": "GitHub_Copilot",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "2975324d164c552b028632f107b567302863b7f6",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2975324d164c552b028632f107b567302863b7f6",
       "authoredAt": "2026-07-02T19:28:36.000+08:00",
@@ -188,6 +242,24 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "34a4dd45cf210c04fee773b0dbc350aec285f03c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/34a4dd45cf210c04fee773b0dbc350aec285f03c",
+      "authoredAt": "2026-07-01T18:24:34.000-07:00",
+      "committedAt": "2026-07-09T12:09:18.000+02:00",
+      "authorName": "Matthew Brost",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe: Fix PTE index in xe_vm_populate_pgtable() for chunked binds",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-opus-4.8",
+          "identity": "GitHub_Copilot:claude-opus-4.8",
+          "agent": "GitHub_Copilot",
+          "model": "claude-opus-4.8"
         }
       ]
     },
@@ -17732,114 +17804,6 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "54fc83a1728535831df0f251e155d05574918115",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/54fc83a1728535831df0f251e155d05574918115",
-      "authoredAt": "2026-04-05T13:52:22.000-07:00",
-      "committedAt": "2026-04-10T15:52:24.000-07:00",
-      "authorName": "Andy Roulin",
-      "committerName": "Jakub Kicinski",
-      "subject": "net: bridge: add stp_mode attribute for STP mode selection",
-      "subsystem": "net",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "c6e80201e057dfb7253385e60bf541121bf5dc33",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c6e80201e057dfb7253385e60bf541121bf5dc33",
-      "authoredAt": "2026-04-03T17:00:14.000-04:00",
-      "committedAt": "2026-04-07T09:23:52.000+02:00",
-      "authorName": "Joseph Salisbury",
-      "committerName": "Peter Zijlstra",
-      "subject": "sched: Use u64 for bandwidth ratio calculations",
-      "subsystem": "sched",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5",
-          "identity": "Codex:GPT-5",
-          "agent": "Codex",
-          "model": "GPT-5"
-        }
-      ]
-    },
-    {
-      "sha": "bd39fc81340aed5445c731eb391af9ac9a701658",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bd39fc81340aed5445c731eb391af9ac9a701658",
-      "authoredAt": "2026-04-03T11:01:28.000-04:00",
-      "committedAt": "2026-04-12T19:14:37.000+02:00",
-      "authorName": "Matt Turner",
-      "committerName": "Magnus Lindholm",
-      "subject": "alpha: Define pgprot_modify to silence tautological comparison warnings",
-      "subsystem": "alpha",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "82b915051d32a68ea3bbe261c93f5620699ff047",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/82b915051d32a68ea3bbe261c93f5620699ff047",
-      "authoredAt": "2026-04-02T16:23:38.000-07:00",
-      "committedAt": "2026-04-07T15:30:21.000+02:00",
-      "authorName": "Josh Snyder",
-      "committerName": "Thomas Gleixner",
-      "subject": "tick/nohz: Fix inverted return value in check_tick_dependency() fast path",
-      "subsystem": "tick/nohz",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "3457a5ccacd34fdd5ebd3a4745e721b5a1239690",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3457a5ccacd34fdd5ebd3a4745e721b5a1239690",
-      "authoredAt": "2026-04-01T17:09:10.000+02:00",
-      "committedAt": "2026-04-07T18:51:11.000+02:00",
-      "authorName": "Günther Noack",
-      "committerName": "Mickaël Salaün",
-      "subject": "landlock: Document fallocate(2) as another truncation corner case",
-      "subsystem": "landlock",
-      "assistedBy": [
-        {
-          "raw": "Gemini-CLI:gemini-3.1",
-          "identity": "Gemini-CLI:gemini-3.1",
-          "agent": "Gemini-CLI",
-          "model": "gemini-3.1"
-        }
-      ]
-    },
-    {
-      "sha": "215be76e025d1311acd6eafc5cfd444974f0f30e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/215be76e025d1311acd6eafc5cfd444974f0f30e",
-      "authoredAt": "2026-04-01T11:28:05.000+11:00",
-      "committedAt": "2026-05-21T10:53:29.000+02:00",
-      "authorName": "Aleksa Sarai",
-      "committerName": "Christian Brauner",
-      "subject": "selftests: openat2: migrate to kselftest harness",
-      "subsystem": "selftests",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-4.6-opus",
-          "identity": "Claude:claude-4.6-opus",
-          "agent": "Claude",
-          "model": "claude-4.6-opus"
         }
       ]
     }
