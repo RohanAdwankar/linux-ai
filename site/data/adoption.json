@@ -1,16 +1,70 @@
 {
-  "generatedAt": "2026-07-11T19:32:42.488Z",
+  "generatedAt": "2026-07-11T21:07:56.117Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 976,
-    "totalSubsystems": 274,
-    "totalAuthors": 174,
+    "totalCommits": 977,
+    "totalSubsystems": 280,
+    "totalAuthors": 175,
     "totalAgents": 156
   },
   "commits": [
+    {
+      "sha": "386df1a57b631c456d14f857cb0c0c2e11c16bef",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/386df1a57b631c456d14f857cb0c0c2e11c16bef",
+      "authoredAt": "2026-07-10T18:37:15.000+02:00",
+      "committedAt": "2026-07-10T18:40:27.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-stats: fix dm_jiffies_to_msec64",
+      "subsystem": "dm-stats",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "1917eb2db750ecbdf710f79a8042eaa545a063c7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1917eb2db750ecbdf710f79a8042eaa545a063c7",
+      "authoredAt": "2026-07-10T18:35:49.000+02:00",
+      "committedAt": "2026-07-10T18:40:00.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-stats: fix merge accounting",
+      "subsystem": "dm-stats",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "422f1d4f141eaa3a6e4199ceec86cc6b9bf26570",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/422f1d4f141eaa3a6e4199ceec86cc6b9bf26570",
+      "authoredAt": "2026-07-10T18:32:49.000+02:00",
+      "committedAt": "2026-07-10T18:39:17.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-bufio: fix wrong count calculation in dm_bufio_issue_discard",
+      "subsystem": "dm-bufio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
     {
       "sha": "bd910a7660d280595ef94cb6d193951d855d330f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/bd910a7660d280595ef94cb6d193951d855d330f",
@@ -32,6 +86,168 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "8ec4d9c5a5cf4b61fc087f871465b1f79b393325",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8ec4d9c5a5cf4b61fc087f871465b1f79b393325",
+      "authoredAt": "2026-07-09T21:37:38.000+02:00",
+      "committedAt": "2026-07-10T14:42:33.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-verity: make error counter atomic",
+      "subsystem": "dm-verity",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "88dd117c92a142253fb7a17e791773902b3babc6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/88dd117c92a142253fb7a17e791773902b3babc6",
+      "authoredAt": "2026-07-09T21:36:01.000+02:00",
+      "committedAt": "2026-07-10T14:42:05.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-verity: increase sprintf buffer size",
+      "subsystem": "dm-verity",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "e72b793ae440f6900fb17a4b8518c707b5cd3e17",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e72b793ae440f6900fb17a4b8518c707b5cd3e17",
+      "authoredAt": "2026-07-09T21:35:06.000+02:00",
+      "committedAt": "2026-07-10T14:41:43.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-verity: fix a possible NULL pointer dereference",
+      "subsystem": "dm-verity",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "72e9ec2fe32b00994f41719cf77423fca67d48b2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/72e9ec2fe32b00994f41719cf77423fca67d48b2",
+      "authoredAt": "2026-07-09T21:33:16.000+02:00",
+      "committedAt": "2026-07-10T14:41:17.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-verity: avoid double increment of &use_bh_wq_enabled",
+      "subsystem": "dm-verity",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "76c6f845dc0c614304a6e6ee619b552f97cf24b3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/76c6f845dc0c614304a6e6ee619b552f97cf24b3",
+      "authoredAt": "2026-07-09T21:31:47.000+02:00",
+      "committedAt": "2026-07-10T14:40:51.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-ioctl: fix a possible overflow in list_version_get_info",
+      "subsystem": "dm-ioctl",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "366665416f20527ff7cad548a32d1ddf23195740",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/366665416f20527ff7cad548a32d1ddf23195740",
+      "authoredAt": "2026-07-09T21:29:11.000+02:00",
+      "committedAt": "2026-07-10T14:40:24.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm_early_create: fix freeing used table on dm_resume failure",
+      "subsystem": "dm_early_create",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "5a266764fadaff8b5c1fe37a186ebf9b09cb953e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5a266764fadaff8b5c1fe37a186ebf9b09cb953e",
+      "authoredAt": "2026-07-09T21:25:39.000+02:00",
+      "committedAt": "2026-07-10T14:39:47.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-integrity: fix a bug if the bio is out of limits",
+      "subsystem": "dm-integrity",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "edf025f083854f80032b73a1aad69a3c90db236f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/edf025f083854f80032b73a1aad69a3c90db236f",
+      "authoredAt": "2026-07-09T21:24:09.000+02:00",
+      "committedAt": "2026-07-10T14:39:16.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-integrity: don't increment hash_offset twice",
+      "subsystem": "dm-integrity",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "7bb03b2b01b814a9fc14afbfc2cbb2cca5b34750",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7bb03b2b01b814a9fc14afbfc2cbb2cca5b34750",
+      "authoredAt": "2026-07-09T21:22:47.000+02:00",
+      "committedAt": "2026-07-10T14:38:50.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-integrity: fix leaking uninitialized kernel memory",
+      "subsystem": "dm-integrity",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -360,6 +576,24 @@
       ]
     },
     {
+      "sha": "a868196f03c2b19418ae3d2b69e195d668a271e5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a868196f03c2b19418ae3d2b69e195d668a271e5",
+      "authoredAt": "2026-07-02T00:27:35.000Z",
+      "committedAt": "2026-07-08T22:33:34.000+02:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm era: fix out-of-bounds memory access for non-zero start sector",
+      "subsystem": "dm era",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
+    {
       "sha": "b7f97cae7ec1b6c3c32843c42be218690d310467",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b7f97cae7ec1b6c3c32843c42be218690d310467",
       "authoredAt": "2026-07-02T00:07:59.000Z",
@@ -374,6 +608,24 @@
           "identity": "Codex:gpt-5.5-cyber-preview",
           "agent": "Codex",
           "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
+    {
+      "sha": "31d6e6c0ba8d5a7bd59660035a089307100c5e8e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/31d6e6c0ba8d5a7bd59660035a089307100c5e8e",
+      "authoredAt": "2026-07-01T18:13:50.000+02:00",
+      "committedAt": "2026-07-08T22:33:34.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-verity: fix buffer overflow in FEC calculation",
+      "subsystem": "dm-verity",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
@@ -548,6 +800,24 @@
       "committerName": "David S. Miller",
       "subject": "net/sched: hhf: clear heavy-hitter state on reset",
       "subsystem": "net/sched",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-cyber-preview",
+          "identity": "Codex:gpt-5.5-cyber-preview",
+          "agent": "Codex",
+          "model": "gpt-5.5-cyber-preview"
+        }
+      ]
+    },
+    {
+      "sha": "d9c631e3fbd44246a2be781d26cfacbb9b8ec127",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d9c631e3fbd44246a2be781d26cfacbb9b8ec127",
+      "authoredAt": "2026-06-29T15:47:40.000Z",
+      "committedAt": "2026-07-08T22:33:34.000+02:00",
+      "authorName": "Samuel Moelius",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-pcache: reject option groups without values",
+      "subsystem": "dm-pcache",
       "assistedBy": [
         {
           "raw": "Codex:gpt-5.5-cyber-preview",
@@ -17551,264 +17821,6 @@
           "raw": "Bynario AI",
           "identity": "Bynario AI",
           "agent": "Bynario AI",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "91e901c65b4da02a6fd543e3f0049829ae9645b7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/91e901c65b4da02a6fd543e3f0049829ae9645b7",
-      "authoredAt": "2026-04-08T03:01:02.000-04:00",
-      "committedAt": "2026-04-08T09:25:22.000+02:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Johannes Berg",
-      "subject": "um: drivers: call kernel_strrchr() explicitly in cow_user.c",
-      "subsystem": "um",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        },
-        {
-          "raw": "Codex:gpt-5-4",
-          "identity": "Codex:gpt-5-4",
-          "agent": "Codex",
-          "model": "gpt-5-4"
-        }
-      ]
-    },
-    {
-      "sha": "f3cc22d4df3ed58439ea7e21daa54c3608e03b78",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f3cc22d4df3ed58439ea7e21daa54c3608e03b78",
-      "authoredAt": "2026-04-08T02:06:47.000Z",
-      "committedAt": "2026-04-29T12:51:20.000-04:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Rodrigo Vivi",
-      "subject": "drm/xe: Fix error cleanup in xe_exec_queue_create_ioctl()",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "37c831f401746a45d510b312b0ed7a77b1e06ec8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/37c831f401746a45d510b312b0ed7a77b1e06ec8",
-      "authoredAt": "2026-04-08T02:06:47.000Z",
-      "committedAt": "2026-04-14T08:37:50.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe: Fix error cleanup in xe_exec_queue_create_ioctl()",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "8f993d30b95dc9557a8a96ceca11abed674c8acb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8f993d30b95dc9557a8a96ceca11abed674c8acb",
-      "authoredAt": "2026-04-07T11:02:54.000+02:00",
-      "committedAt": "2026-04-07T13:50:49.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: f_ncm: validate minimum block_len in ncm_unwrap_ntb()",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "c088d5dd2fffb4de1fb8e7f57751c8b82942180a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c088d5dd2fffb4de1fb8e7f57751c8b82942180a",
-      "authoredAt": "2026-04-07T10:55:05.000+02:00",
-      "committedAt": "2026-04-07T13:50:34.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: f_phonet: fix skb frags[] overflow in pn_rx_complete()",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "5150b57dacf9563ab29661c8e8a37a73f5a9fc54",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5150b57dacf9563ab29661c8e8a37a73f5a9fc54",
-      "authoredAt": "2026-04-07T03:00:46.000Z",
-      "committedAt": "2026-04-08T09:22:26.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/uapi: Fix doc formatting and completeness in xe_drm.h",
-      "subsystem": "drm/xe/uapi",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "96cc9d79df5f7092c3807fad0d2fc3415cbd66b2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/96cc9d79df5f7092c3807fad0d2fc3415cbd66b2",
-      "authoredAt": "2026-04-07T03:00:45.000Z",
-      "committedAt": "2026-04-08T09:22:26.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/uapi: Fix code examples in xe_drm.h documentation",
-      "subsystem": "drm/xe/uapi",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "4bd87e7c4d467ce1f9e3b56abebeffc2ba45a2fb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4bd87e7c4d467ce1f9e3b56abebeffc2ba45a2fb",
-      "authoredAt": "2026-04-07T03:00:44.000Z",
-      "committedAt": "2026-04-08T09:22:26.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/uapi: Fix kernel-doc cross-reference syntax in xe_drm.h",
-      "subsystem": "drm/xe/uapi",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "ea842c235828152258fc5197212e896bc59d7b83",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ea842c235828152258fc5197212e896bc59d7b83",
-      "authoredAt": "2026-04-07T03:00:43.000Z",
-      "committedAt": "2026-04-08T09:22:25.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/uapi: Fix wrong names and references in xe_drm.h",
-      "subsystem": "drm/xe/uapi",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "65d53c13d43b8b5690c326807c1535b1d19138e8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/65d53c13d43b8b5690c326807c1535b1d19138e8",
-      "authoredAt": "2026-04-07T03:00:42.000Z",
-      "committedAt": "2026-04-08T09:22:25.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/uapi: Fix grammar errors in xe_drm.h documentation",
-      "subsystem": "drm/xe/uapi",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "3233db7682e759d101028285386ee7a11183fa2a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3233db7682e759d101028285386ee7a11183fa2a",
-      "authoredAt": "2026-04-07T03:00:41.000Z",
-      "committedAt": "2026-04-08T09:22:25.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/uapi: Fix typos and spelling errors in xe_drm.h documentation",
-      "subsystem": "drm/xe/uapi",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "d10119968d0e1f2b669604baf2a8b5fdb72fa6b4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d10119968d0e1f2b669604baf2a8b5fdb72fa6b4",
-      "authoredAt": "2026-04-06T17:34:22.000+02:00",
-      "committedAt": "2026-04-07T10:36:38.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Steffen Klassert",
-      "subject": "xfrm_user: fix info leak in build_report()",
-      "subsystem": "xfrm_user",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "1beb76b2053b68c491b78370794b8ff63c8f8c02",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1beb76b2053b68c491b78370794b8ff63c8f8c02",
-      "authoredAt": "2026-04-06T17:33:03.000+02:00",
-      "committedAt": "2026-04-07T10:36:37.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Steffen Klassert",
-      "subject": "xfrm_user: fix info leak in build_mapping()",
-      "subsystem": "xfrm_user",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "f880aac8a57ebd92abfa685d45424b2998ac1059",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f880aac8a57ebd92abfa685d45424b2998ac1059",
-      "authoredAt": "2026-04-06T17:09:48.000+02:00",
-      "committedAt": "2026-04-07T13:48:30.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: renesas_usb3: validate endpoint index in standard request handlers",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
           "model": ""
         }
       ]
