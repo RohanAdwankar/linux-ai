@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T00:10:41.649Z",
+  "generatedAt": "2026-07-11T03:43:49.253Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,10 +7,28 @@
   "stats": {
     "totalCommits": 976,
     "totalSubsystems": 272,
-    "totalAuthors": 171,
-    "totalAgents": 154
+    "totalAuthors": 173,
+    "totalAgents": 155
   },
   "commits": [
+    {
+      "sha": "e3d9c7160d483fc8f9e225aafad8ecbbc43f3151",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e3d9c7160d483fc8f9e225aafad8ecbbc43f3151",
+      "authoredAt": "2026-07-09T15:54:39.000Z",
+      "committedAt": "2026-07-09T12:25:16.000-05:00",
+      "authorName": "Norbert Manthey",
+      "committerName": "Steve French",
+      "subject": "smb: client: mask server-provided mode to 07777 in modefromsid",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-4.6",
+          "identity": "Kiro:claude-opus-4.6",
+          "agent": "Kiro",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
     {
       "sha": "b11c513ad943f35cf5e8007d3a56279c79b7ed4b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b11c513ad943f35cf5e8007d3a56279c79b7ed4b",
@@ -26,6 +44,24 @@
           "identity": "opencode:big-pickle",
           "agent": "opencode",
           "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "27934d02cbeb8a957dd11c985a579e58d30c5270",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/27934d02cbeb8a957dd11c985a579e58d30c5270",
+      "authoredAt": "2026-07-07T11:07:16.000-04:00",
+      "committedAt": "2026-07-08T14:43:40.000-04:00",
+      "authorName": "Benjamin Coddington",
+      "committerName": "Anna Schumaker",
+      "subject": "NFS: Charge unstable writes by request size, not folio size",
+      "subsystem": "nfs",
+      "assistedBy": [
+        {
+          "raw": "Claude Sonnet 5 <noreply@anthropic.com>",
+          "identity": "Claude Sonnet 5 <noreply@anthropic.com>",
+          "agent": "Claude Sonnet 5 <noreply@anthropic.com>",
+          "model": ""
         }
       ]
     },
@@ -80,6 +116,24 @@
           "identity": "Claude Code:GLM-5.2",
           "agent": "Claude Code",
           "model": "GLM-5.2"
+        }
+      ]
+    },
+    {
+      "sha": "0ebe8f625ab0520217a425d7cd366e4670484941",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0ebe8f625ab0520217a425d7cd366e4670484941",
+      "authoredAt": "2026-07-06T12:00:15.000+08:00",
+      "committedAt": "2026-07-06T20:27:18.000+09:00",
+      "authorName": "Peiyang He",
+      "committerName": "Namjae Jeon",
+      "subject": "ntfs: fail attrlist updates when the superblock is inactive",
+      "subsystem": "ntfs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -408,6 +462,24 @@
       ]
     },
     {
+      "sha": "eb94f5a41a193a425e09a63cb75dffd151d8f42e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/eb94f5a41a193a425e09a63cb75dffd151d8f42e",
+      "authoredAt": "2026-06-30T11:08:56.000+08:00",
+      "committedAt": "2026-06-30T23:22:34.000+09:00",
+      "authorName": "Peiyang He",
+      "committerName": "Namjae Jeon",
+      "subject": "ntfs: fix mrec_lock ABBA deadlock in rename",
+      "subsystem": "ntfs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "e782d687d2f5bf8b8113dc48ba22cca4b472c252",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e782d687d2f5bf8b8113dc48ba22cca4b472c252",
       "authoredAt": "2026-06-30T09:33:28.000+09:00",
@@ -512,6 +584,24 @@
           "identity": "Codex:GPT-5.4",
           "agent": "Codex",
           "model": "GPT-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "88496c4ac5a6ade75619f4b1015706a8b924d50a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/88496c4ac5a6ade75619f4b1015706a8b924d50a",
+      "authoredAt": "2026-06-27T12:27:58.000+08:00",
+      "committedAt": "2026-06-30T23:19:36.000+09:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Namjae Jeon",
+      "subject": "ntfs: avoid stale runlist element dereference in fallocate",
+      "subsystem": "ntfs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -674,6 +764,24 @@
           "identity": "Copilot:gemini-3.1-pro-preview",
           "agent": "Copilot",
           "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "81fe702ff1760da32bcd3ef4494b2a33dbeced72",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/81fe702ff1760da32bcd3ef4494b2a33dbeced72",
+      "authoredAt": "2026-06-25T12:45:47.000+08:00",
+      "committedAt": "2026-06-25T23:12:02.000+09:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Namjae Jeon",
+      "subject": "ntfs: avoid stale runlist element dereference in MFT writeback",
+      "subsystem": "ntfs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -17696,114 +17804,6 @@
           "identity": "gregkh_clanker_t1000",
           "agent": "gregkh_clanker_t1000",
           "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "3df690bba28edec865cf7190be10708ad0ddd67e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3df690bba28edec865cf7190be10708ad0ddd67e",
-      "authoredAt": "2026-04-06T15:49:38.000+02:00",
-      "committedAt": "2026-04-07T15:51:39.000-05:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Steve French",
-      "subject": "smb: client: fix OOB reads parsing symlink error response",
-      "subsystem": "smb",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "3d8b9d06bd3ac4c6846f5498800b0f5f8062e53b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3d8b9d06bd3ac4c6846f5498800b0f5f8062e53b",
-      "authoredAt": "2026-04-06T15:49:37.000+02:00",
-      "committedAt": "2026-04-07T15:51:01.000-05:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Steve French",
-      "subject": "smb: client: fix off-by-8 bounds check in check_wsl_eas()",
-      "subsystem": "smb",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "ad0057fb91218914d6c98268718ceb9d59b388e1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ad0057fb91218914d6c98268718ceb9d59b388e1",
-      "authoredAt": "2026-04-06T15:46:48.000+02:00",
-      "committedAt": "2026-04-12T18:07:55.000-05:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Steve French",
-      "subject": "ksmbd: fix mechToken leak when SPNEGO decode fails after token alloc",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "53370cf9090777774e07fd9a8ebce67c6cc333ab",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/53370cf9090777774e07fd9a8ebce67c6cc333ab",
-      "authoredAt": "2026-04-06T15:46:47.000+02:00",
-      "committedAt": "2026-04-12T18:07:55.000-05:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Steve French",
-      "subject": "ksmbd: require 3 sub-authorities before reading sub_auth[2]",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "66751841212c2cc196577453c37f7774ff363f02",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/66751841212c2cc196577453c37f7774ff363f02",
-      "authoredAt": "2026-04-06T15:46:46.000+02:00",
-      "committedAt": "2026-04-12T18:07:55.000-05:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Steve French",
-      "subject": "ksmbd: validate EaNameLength in smb2_get_ea()",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "gregkh_clanker_t1000",
-          "identity": "gregkh_clanker_t1000",
-          "agent": "gregkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "20ae6d76e381eb520d0d1db526a41b22390816f6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/20ae6d76e381eb520d0d1db526a41b22390816f6",
-      "authoredAt": "2026-04-05T13:52:24.000-07:00",
-      "committedAt": "2026-04-10T15:52:25.000-07:00",
-      "authorName": "Andy Roulin",
-      "committerName": "Jakub Kicinski",
-      "subject": "selftests: net: add bridge STP mode selection test",
-      "subsystem": "selftests",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
         }
       ]
     }
