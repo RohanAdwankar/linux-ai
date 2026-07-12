@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-12T17:27:57.537Z",
+  "generatedAt": "2026-07-12T19:32:26.941Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 977,
-    "totalSubsystems": 279,
-    "totalAuthors": 175,
+    "totalSubsystems": 281,
+    "totalAuthors": 176,
     "totalAgents": 155
   },
   "commits": [
@@ -302,6 +302,60 @@
           "identity": "opencode:big-pickle",
           "agent": "opencode",
           "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "42e74d8f21ce448fe12ba3dd59db817b3e977f49",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/42e74d8f21ce448fe12ba3dd59db817b3e977f49",
+      "authoredAt": "2026-07-07T14:02:40.000-04:00",
+      "committedAt": "2026-07-08T09:33:22.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Steven Rostedt",
+      "subject": "selftests/user_events: Wait for deferred event teardown after unregister",
+      "subsystem": "selftests/user_events",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "50fd6dd755c6e48a38af2fa4621167eea56829c2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/50fd6dd755c6e48a38af2fa4621167eea56829c2",
+      "authoredAt": "2026-07-07T12:59:11.000-04:00",
+      "committedAt": "2026-07-07T13:59:35.000-04:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing/user_events: Fix use-after-free in user_event_mm_dup()",
+      "subsystem": "tracing/user_events",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "70b439e46effd782097f640c0b64f5f8b0e79913",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/70b439e46effd782097f640c0b64f5f8b0e79913",
+      "authoredAt": "2026-07-07T17:38:27.000+02:00",
+      "committedAt": "2026-07-07T20:30:31.000-06:00",
+      "authorName": "Andrew Jones",
+      "committerName": "Paul Walmsley",
+      "subject": "selftests: riscv: Bypass libc in inactive vector ptrace test",
+      "subsystem": "selftests",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
@@ -680,6 +734,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "0a6070839b1ef276d5b05bedfb787743e140fb17",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0a6070839b1ef276d5b05bedfb787743e140fb17",
+      "authoredAt": "2026-07-01T18:28:46.000+08:00",
+      "committedAt": "2026-07-07T10:42:28.000-04:00",
+      "authorName": "Huihui Huang",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Prevent out-of-bounds read in glob matching",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.4",
+          "identity": "Codex:GPT-5.4",
+          "agent": "Codex",
+          "model": "GPT-5.4"
         }
       ]
     },
@@ -17750,78 +17822,6 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "3fbd6cf43cac7b60757f3ce3d95195d3843a902c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3fbd6cf43cac7b60757f3ce3d95195d3843a902c",
-      "authoredAt": "2026-04-08T17:52:53.000Z",
-      "committedAt": "2026-04-14T08:36:10.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/bo: Fix bo leak on GGTT flag validation in xe_bo_init_locked()",
-      "subsystem": "drm/xe/bo",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "09a8f3c1c11977a6e10c167f26dd298790b31c32",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/09a8f3c1c11977a6e10c167f26dd298790b31c32",
-      "authoredAt": "2026-04-08T17:52:52.000Z",
-      "committedAt": "2026-04-29T12:51:20.000-04:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Rodrigo Vivi",
-      "subject": "drm/xe/bo: Fix bo leak on unaligned size validation in xe_bo_init_locked()",
-      "subsystem": "drm/xe/bo",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "601c2aa087b6f21014300a3f107a08ee4dde7bdf",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/601c2aa087b6f21014300a3f107a08ee4dde7bdf",
-      "authoredAt": "2026-04-08T17:52:52.000Z",
-      "committedAt": "2026-04-14T08:36:10.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/bo: Fix bo leak on unaligned size validation in xe_bo_init_locked()",
-      "subsystem": "drm/xe/bo",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "fed613c1230277105bb512bce6e1fda8f316d178",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fed613c1230277105bb512bce6e1fda8f316d178",
-      "authoredAt": "2026-04-08T08:32:59.000-06:00",
-      "committedAt": "2026-05-07T16:09:58.000+08:00",
-      "authorName": "Tycho Andersen (AMD)",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: ccp - Initialize data during __sev_snp_init_locked()",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro-preview",
-          "identity": "Gemini:gemini-3.1-pro-preview",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro-preview"
         }
       ]
     }
