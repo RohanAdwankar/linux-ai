@@ -1,16 +1,232 @@
 {
-  "generatedAt": "2026-07-16T16:42:13.208Z",
+  "generatedAt": "2026-07-16T18:33:04.462Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 351,
-    "totalSubsystems": 127,
-    "totalAuthors": 112,
-    "totalAgents": 98
+    "totalCommits": 365,
+    "totalSubsystems": 128,
+    "totalAuthors": 113,
+    "totalAgents": 99
   },
   "commits": [
+    {
+      "sha": "59c462b0f5cfa107794228051724b34ae9334168",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/59c462b0f5cfa107794228051724b34ae9334168",
+      "authoredAt": "2026-07-13T23:07:30.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: don't zap bmbt forks if they are MAXLEVELS tall",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "15e38a9366b31d3d61081ead115f1dff59379e24",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/15e38a9366b31d3d61081ead115f1dff59379e24",
+      "authoredAt": "2026-07-13T23:07:15.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: clamp timestamp nanoseconds correctly",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ba150ce63453ccd74bae1404c1dfedbd01ecfd55",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ba150ce63453ccd74bae1404c1dfedbd01ecfd55",
+      "authoredAt": "2026-07-13T23:06:59.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: fully check the parent handle when it points to the rootdir",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "353a5900bc85234e7df05caac37698042dc26348",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/353a5900bc85234e7df05caac37698042dc26348",
+      "authoredAt": "2026-07-13T23:06:43.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: handle non-inode owners for rtrmap record checking",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "5d72a68f2007ba2a968d6bf47dba3f4620bd182e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5d72a68f2007ba2a968d6bf47dba3f4620bd182e",
+      "authoredAt": "2026-07-13T23:06:28.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: fix off-by-one error when calling xchk_xref_has_rt_owner",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "540ddc626245f12f56326ee0c1601f71ebb41d64",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/540ddc626245f12f56326ee0c1601f71ebb41d64",
+      "authoredAt": "2026-07-13T23:06:12.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: set xfarray killable sort correctly",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ea6e2d9de25d2095845e0cdf2274e581fd40d636",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ea6e2d9de25d2095845e0cdf2274e581fd40d636",
+      "authoredAt": "2026-07-13T23:05:57.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: grab rtrmap btree when checking rgsuper",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9af789fa274bc14b907f811f79fa988a6fc6d4e7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9af789fa274bc14b907f811f79fa988a6fc6d4e7",
+      "authoredAt": "2026-07-13T23:05:41.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: write the rg superblock when fixing it",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "881f2eb0fcdea2f46a50fa6a892fe9e3ccf19e01",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/881f2eb0fcdea2f46a50fa6a892fe9e3ccf19e01",
+      "authoredAt": "2026-07-13T23:05:26.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: use the rt version of the cow staging checker",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ee248157da501f0c02688fb64e5359f2832b0b01",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ee248157da501f0c02688fb64e5359f2832b0b01",
+      "authoredAt": "2026-07-13T23:05:10.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: use rtrefcount btree cursor in xchk_xref_is_rt_cow_staging",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "d766e4e5e85d829629c3ba503802fe1303d7b591",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d766e4e5e85d829629c3ba503802fe1303d7b591",
+      "authoredAt": "2026-07-13T23:04:55.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: don't wrap around quota ids in dqiterate",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "a1caeeadbf57ff86dfc3454398c46de86056a74e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a1caeeadbf57ff86dfc3454398c46de86056a74e",
+      "authoredAt": "2026-07-13T23:04:08.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: don't replace the wrong part of the cow fork",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "386df1a57b631c456d14f857cb0c0c2e11c16bef",
       "htmlUrl": "https://github.com/torvalds/linux/commit/386df1a57b631c456d14f857cb0c0c2e11c16bef",
@@ -354,6 +570,24 @@
       ]
     },
     {
+      "sha": "d128ffd2baa708da0362b562f0b7f9df96e43653",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d128ffd2baa708da0362b562f0b7f9df96e43653",
+      "authoredAt": "2026-07-05T12:23:58.000+08:00",
+      "committedAt": "2026-07-08T14:54:04.000+02:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: tie zoned sysfs lifetime to zone info",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "151edde741f8bc7f2931c5f44ab376d32b0c8beb",
       "htmlUrl": "https://github.com/torvalds/linux/commit/151edde741f8bc7f2931c5f44ab376d32b0c8beb",
       "authoredAt": "2026-07-04T14:58:16.000+08:00",
@@ -440,6 +674,24 @@
           "identity": "GitHub_Copilot:claude-opus-4.8",
           "agent": "GitHub_Copilot",
           "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "2094dab19d45c487285617b7b68913d0cc0c1211",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2094dab19d45c487285617b7b68913d0cc0c1211",
+      "authoredAt": "2026-07-02T09:20:00.000-07:00",
+      "committedAt": "2026-07-08T14:53:59.000+02:00",
+      "authorName": "Weiming Shi",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: fail recovery on a committed log item with no regions",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
