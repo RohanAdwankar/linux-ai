@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-17T19:33:41.856Z",
+  "generatedAt": "2026-07-17T21:08:12.934Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 366,
-    "totalSubsystems": 129,
-    "totalAuthors": 113,
-    "totalAgents": 99
+    "totalCommits": 399,
+    "totalSubsystems": 135,
+    "totalAuthors": 119,
+    "totalAgents": 102
   },
   "commits": [
     {
@@ -224,6 +224,24 @@
           "identity": "LOLLM # finding obvious bugs",
           "agent": "LOLLM # finding obvious bugs",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "56d96fededd61192cd7cc8d2b0f36adfd59036c3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/56d96fededd61192cd7cc8d2b0f36adfd59036c3",
+      "authoredAt": "2026-07-11T04:50:00.000-07:00",
+      "committedAt": "2026-07-17T13:20:38.000+02:00",
+      "authorName": "Weiming Shi",
+      "committerName": "Paolo Abeni",
+      "subject": "mpls: fix NULL deref in mpls_valid_fib_dump_req() on CONFIG_INET=n",
+      "subsystem": "mpls",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -444,6 +462,42 @@
       ]
     },
     {
+      "sha": "c43122fef328a70045fe7621c06de6b2b8e19264",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c43122fef328a70045fe7621c06de6b2b8e19264",
+      "authoredAt": "2026-07-09T16:41:59.000Z",
+      "committedAt": "2026-07-14T10:59:53.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Marc Kleine-Budde",
+      "subject": "can: esd_usb: kill anchored URBs before freeing netdevs",
+      "subsystem": "can",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "a2f57827bf7c695b8c72dc4511cae8e86582369d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a2f57827bf7c695b8c72dc4511cae8e86582369d",
+      "authoredAt": "2026-07-08T16:21:30.000+02:00",
+      "committedAt": "2026-07-10T16:28:47.000+02:00",
+      "authorName": "Florian Westphal",
+      "committerName": "Florian Westphal",
+      "subject": "ipvs: reload ip header after head reallocation",
+      "subsystem": "ipvs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
       "sha": "21b5bf155435008e0fb0736795289788e63d426f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/21b5bf155435008e0fb0736795289788e63d426f",
       "authoredAt": "2026-07-08T13:08:59.000+02:00",
@@ -476,6 +530,24 @@
           "identity": "gkh_clanker_2000",
           "agent": "gkh_clanker_2000",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f62c41b4910e65da396ec9a8c40c1fe7fe82e449",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f62c41b4910e65da396ec9a8c40c1fe7fe82e449",
+      "authoredAt": "2026-07-08T13:27:28.000+08:00",
+      "committedAt": "2026-07-10T16:28:47.000+02:00",
+      "authorName": "Yizhou Zhao",
+      "committerName": "Florian Westphal",
+      "subject": "netfilter: nf_conncount: fix zone comparison in tuple dedup",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:GLM-5.2",
+          "identity": "Claude-Code:GLM-5.2",
+          "agent": "Claude-Code",
+          "model": "GLM-5.2"
         }
       ]
     },
@@ -552,6 +624,90 @@
       ]
     },
     {
+      "sha": "b06163ce52ec0561f202fbfb9b08090cb61f512e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b06163ce52ec0561f202fbfb9b08090cb61f512e",
+      "authoredAt": "2026-07-07T19:00:14.000+08:00",
+      "committedAt": "2026-07-10T16:28:47.000+02:00",
+      "authorName": "Yizhou Zhao",
+      "committerName": "Florian Westphal",
+      "subject": "netfilter: ecache: fix inverted time_after() check",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:GLM-5.2",
+          "identity": "Claude-Code:GLM-5.2",
+          "agent": "Claude-Code",
+          "model": "GLM-5.2"
+        }
+      ]
+    },
+    {
+      "sha": "2bf282f8f715f5d05d6f4c49ffb3bd241c5e667e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2bf282f8f715f5d05d6f4c49ffb3bd241c5e667e",
+      "authoredAt": "2026-07-07T12:15:18.000+08:00",
+      "committedAt": "2026-07-13T10:07:45.000-04:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: MGMT: revalidate LOAD_CONN_PARAM queued update",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "b760113aeca2e9362d56bf9e9263373ffe6c8eb3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b760113aeca2e9362d56bf9e9263373ffe6c8eb3",
+      "authoredAt": "2026-07-07T10:53:35.000+08:00",
+      "committedAt": "2026-07-07T09:31:38.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: validate assoc response length before status and IE access",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        },
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "d5e4586546974179feca305a94e07fac3e9727fe",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d5e4586546974179feca305a94e07fac3e9727fe",
+      "authoredAt": "2026-07-07T10:53:34.000+08:00",
+      "committedAt": "2026-07-07T09:29:26.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: validate rx/tx MLME callback frame lengths before access",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        },
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "793bf193b18e9bff6c4280268bbffd16a5b533e5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/793bf193b18e9bff6c4280268bbffd16a5b533e5",
       "authoredAt": "2026-07-06T14:00:54.000-07:00",
@@ -570,6 +726,78 @@
       ]
     },
     {
+      "sha": "0c2ed186bbe14304415476d6707b747dddcd8583",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0c2ed186bbe14304415476d6707b747dddcd8583",
+      "authoredAt": "2026-07-06T23:24:18.000+08:00",
+      "committedAt": "2026-07-07T09:27:42.000+02:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: use wiphy work for socket owner autodisconnect",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "f3858d5b1432098c1936e03d6e03dd0e33facf60",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f3858d5b1432098c1936e03d6e03dd0e33facf60",
+      "authoredAt": "2026-07-06T22:08:41.000+08:00",
+      "committedAt": "2026-07-07T09:23:23.000+02:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: free AP_VLAN bc_buf SKBs outside IRQ lock",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "3f1f755366687d051174739fb99f7d560202f60b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3f1f755366687d051174739fb99f7d560202f60b",
+      "authoredAt": "2026-07-06T09:44:10.000Z",
+      "committedAt": "2026-07-11T13:09:11.000+02:00",
+      "authorName": "Asim Viladi Oglu Manizada",
+      "committerName": "Paolo Abeni",
+      "subject": "net: openvswitch: reject oversized nested action attrs",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
+          "identity": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
+          "agent": "avom-custom-harness",
+          "model": "gpt-5.5-qwen3.6-mod-mix"
+        }
+      ]
+    },
+    {
+      "sha": "ec4215683e47424c9c4762fd3c60f552a3119142",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ec4215683e47424c9c4762fd3c60f552a3119142",
+      "authoredAt": "2026-07-06T11:01:59.000+02:00",
+      "committedAt": "2026-07-10T13:31:47.000+02:00",
+      "authorName": "Norbert Szetei",
+      "committerName": "Paolo Abeni",
+      "subject": "ppp: defer channel free to an RCU grace period to fix pppol2tp RX UAF",
+      "subsystem": "ppp",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "d128ffd2baa708da0362b562f0b7f9df96e43653",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d128ffd2baa708da0362b562f0b7f9df96e43653",
       "authoredAt": "2026-07-05T12:23:58.000+08:00",
@@ -584,6 +812,42 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "c90164ca0f7036942ba088eb7ea8d3f6c2352020",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c90164ca0f7036942ba088eb7ea8d3f6c2352020",
+      "authoredAt": "2026-07-04T16:10:30.000-07:00",
+      "committedAt": "2026-07-13T10:02:57.000-04:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: qca: fix NVM tag length underflow in TLV parser",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "f2f152e94a67bc746afaf05a1b2702c195553112",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f2f152e94a67bc746afaf05a1b2702c195553112",
+      "authoredAt": "2026-07-04T10:14:21.000-07:00",
+      "committedAt": "2026-07-10T16:00:41.000+02:00",
+      "authorName": "Weiming Shi",
+      "committerName": "Paolo Abeni",
+      "subject": "ipv4: fib: free fib_alias with kfree_rcu() on insert error path",
+      "subsystem": "ipv4",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -638,6 +902,24 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "1cd23ca80784223fa2204e16203f754da4e821f8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1cd23ca80784223fa2204e16203f754da4e821f8",
+      "authoredAt": "2026-07-03T20:35:46.000-07:00",
+      "committedAt": "2026-07-10T16:51:34.000+02:00",
+      "authorName": "Weiming Shi",
+      "committerName": "Paolo Abeni",
+      "subject": "sctp: validate STALE_COOKIE cause length before reading staleness",
+      "subsystem": "sctp",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -840,6 +1122,78 @@
       ]
     },
     {
+      "sha": "ebd6d37fa94bee929e0b4c9ca19fdf9b1dcf6cea",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ebd6d37fa94bee929e0b4c9ca19fdf9b1dcf6cea",
+      "authoredAt": "2026-06-27T17:05:10.000-07:00",
+      "committedAt": "2026-07-06T14:11:07.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: p54: validate RX frame length in p54_rx_eeprom_readback()",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "c4a5f0071cc6d378a0e7151b60d85986aefac1f3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c4a5f0071cc6d378a0e7151b60d85986aefac1f3",
+      "authoredAt": "2026-06-27T11:50:58.000+08:00",
+      "committedAt": "2026-07-02T09:12:58.000+02:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Steffen Klassert",
+      "subject": "xfrm: cache the offload ifindex for netlink dumps",
+      "subsystem": "xfrm",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "2538bd3cd1ff5af655908469544ac7b7ae259386",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2538bd3cd1ff5af655908469544ac7b7ae259386",
+      "authoredAt": "2026-06-27T11:01:17.000+08:00",
+      "committedAt": "2026-07-06T08:29:06.000+02:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Steffen Klassert",
+      "subject": "xfrm: clear mode callbacks after failed mode setup",
+      "subsystem": "xfrm",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "2c51457d930f723e5f2903af90f5847f7df53f42",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2c51457d930f723e5f2903af90f5847f7df53f42",
+      "authoredAt": "2026-06-27T00:58:30.000+08:00",
+      "committedAt": "2026-07-06T14:11:07.000+02:00",
+      "authorName": "Zhiling Zou",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: free ack status frame on TX header build failure",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.4",
+          "identity": "Codex:gpt-5.4",
+          "agent": "Codex",
+          "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
       "sha": "c5371e0b91b24159a3ebaa61e70b0980bcf03c0a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c5371e0b91b24159a3ebaa61e70b0980bcf03c0a",
       "authoredAt": "2026-06-26T14:29:10.000+10:00",
@@ -872,6 +1226,60 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "286e52a799fa158bdbd77da1426c4d93f9a6e7ad",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/286e52a799fa158bdbd77da1426c4d93f9a6e7ad",
+      "authoredAt": "2026-06-21T02:35:32.000-07:00",
+      "committedAt": "2026-07-06T14:11:06.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: fix fils_discovery double free on alloc failure",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "1d067abcd37062426c59ec73dbc4e87a63f33fea",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1d067abcd37062426c59ec73dbc4e87a63f33fea",
+      "authoredAt": "2026-06-21T02:35:31.000-07:00",
+      "committedAt": "2026-07-06T14:11:06.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: fix unsol_bcast_probe_resp double free on alloc failure",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "edf0730be33696a1bd142792830d392129e495cc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/edf0730be33696a1bd142792830d392129e495cc",
+      "authoredAt": "2026-06-20T00:25:42.000+08:00",
+      "committedAt": "2026-07-06T14:11:00.000+02:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: cancel sched scan results work on unregister",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -1008,6 +1416,24 @@
       ]
     },
     {
+      "sha": "5d1a2240935ea47e2673d0ea17fdb058e4dc91dd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5d1a2240935ea47e2673d0ea17fdb058e4dc91dd",
+      "authoredAt": "2026-06-13T18:27:15.000+08:00",
+      "committedAt": "2026-07-10T16:28:47.000+02:00",
+      "authorName": "Wyatt Feng",
+      "committerName": "Florian Westphal",
+      "subject": "netfilter: xt_nat: reject unsupported target families",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.4",
+          "identity": "Codex:GPT-5.4",
+          "agent": "Codex",
+          "model": "GPT-5.4"
+        }
+      ]
+    },
+    {
       "sha": "9955c92abe72564a49c293b1c15cd3b4f02ea6a0",
       "htmlUrl": "https://github.com/torvalds/linux/commit/9955c92abe72564a49c293b1c15cd3b4f02ea6a0",
       "authoredAt": "2026-06-12T16:53:32.000-05:00",
@@ -1040,6 +1466,216 @@
           "identity": "Codex:gpt-5-5",
           "agent": "Codex",
           "model": "gpt-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f",
+      "authoredAt": "2026-06-13T02:50:45.000+08:00",
+      "committedAt": "2026-07-06T14:11:11.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: validate deauth frame length before reason access",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        },
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "035ed430ce6a2c35b01e211844a9f0a7643e57a4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/035ed430ce6a2c35b01e211844a9f0a7643e57a4",
+      "authoredAt": "2026-06-12T23:24:41.000+08:00",
+      "committedAt": "2026-07-06T14:11:10.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: avoid non-S1G AID fallback for S1G assoc",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        },
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "57c05ce14fea03df01288fe1250f49197e161710",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/57c05ce14fea03df01288fe1250f49197e161710",
+      "authoredAt": "2026-06-12T21:37:18.000+08:00",
+      "committedAt": "2026-07-06T14:11:10.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: reject empty PMSR peer lists",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        },
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "69ef6a7ec277f16d216be8da2b3cbe872786c999",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/69ef6a7ec277f16d216be8da2b3cbe872786c999",
+      "authoredAt": "2026-06-12T21:37:11.000+08:00",
+      "committedAt": "2026-07-06T14:11:10.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: reject unsupported PMSR FTM location requests",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        },
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "36230936468f0ba4930e94aef496fc229d4bb951",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/36230936468f0ba4930e94aef496fc229d4bb951",
+      "authoredAt": "2026-06-12T21:37:04.000+08:00",
+      "committedAt": "2026-07-06T14:11:10.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: validate PMSR FTM preamble range",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        },
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "41aa973eb05922848dded26875c55ef982ac1c49",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/41aa973eb05922848dded26875c55ef982ac1c49",
+      "authoredAt": "2026-06-12T21:36:57.000+08:00",
+      "committedAt": "2026-07-06T14:11:10.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: validate PMSR measurement type data",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        },
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "172f06023669f0a96d32511669ff45c600731380",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/172f06023669f0a96d32511669ff45c600731380",
+      "authoredAt": "2026-06-12T21:18:56.000+08:00",
+      "committedAt": "2026-07-06T14:11:10.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: nl80211: constrain MBSSID TX link ID range",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        },
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "7f4b01812323443b55e4c65381c9dc851ff009e3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7f4b01812323443b55e4c65381c9dc851ff009e3",
+      "authoredAt": "2026-06-12T21:18:55.000+08:00",
+      "committedAt": "2026-07-06T14:11:09.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: nl80211: validate nested MBSSID IE blobs",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        },
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "d78a407bad6f500884a8606aea1a5a9207be4030",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d78a407bad6f500884a8606aea1a5a9207be4030",
+      "authoredAt": "2026-06-12T09:25:46.000-03:00",
+      "committedAt": "2026-07-06T10:09:01.000+02:00",
+      "authorName": "Rafael Beims",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mwifiex: fix permanently busy scans after multiple roam iterations",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -1310,6 +1946,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "a707e4127c0f893c7a7703500ab56297a5bd2d51",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a707e4127c0f893c7a7703500ab56297a5bd2d51",
+      "authoredAt": "2026-06-10T12:00:18.000-03:00",
+      "committedAt": "2026-07-06T10:06:40.000+02:00",
+      "authorName": "Rafael Beims",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mwifiex: fix roaming to different channel in host_mlme mode",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
