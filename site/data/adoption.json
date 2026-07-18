@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-07-18T03:33:26.843Z",
+  "generatedAt": "2026-07-18T06:19:25.967Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 399,
-    "totalSubsystems": 135,
-    "totalAuthors": 119,
-    "totalAgents": 102
+    "totalCommits": 415,
+    "totalSubsystems": 142,
+    "totalAuthors": 127,
+    "totalAgents": 111
   },
   "commits": [
+    {
+      "sha": "6384271ac1ac0099198d15df79212a19ebdb929d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6384271ac1ac0099198d15df79212a19ebdb929d",
+      "authoredAt": "2026-07-14T23:24:32.000Z",
+      "committedAt": "2026-07-16T16:32:56.000+02:00",
+      "authorName": "Zongyao Bai",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/pt: Reset current_op in xe_pt_update_ops_init()",
+      "subsystem": "drm/xe/pt",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-sonnet-4.6",
+          "identity": "GitHub-Copilot:claude-sonnet-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-sonnet-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "56441f9e08ad68697295b8835266d2bc48ab59b5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/56441f9e08ad68697295b8835266d2bc48ab59b5",
+      "authoredAt": "2026-07-13T23:24:40.000-07:00",
+      "committedAt": "2026-07-16T16:32:45.000+02:00",
+      "authorName": "Matthew Brost",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/vf: Fix VF CCS attach/detach race with in-flight BO moves",
+      "subsystem": "drm/xe/vf",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-sonnet-5",
+          "identity": "GitHub_Copilot:claude-sonnet-5",
+          "agent": "GitHub_Copilot",
+          "model": "claude-sonnet-5"
+        }
+      ]
+    },
     {
       "sha": "59c462b0f5cfa107794228051724b34ae9334168",
       "htmlUrl": "https://github.com/torvalds/linux/commit/59c462b0f5cfa107794228051724b34ae9334168",
@@ -228,6 +264,114 @@
       ]
     },
     {
+      "sha": "38953513d7313992676d4136cd425cdb70c6278e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/38953513d7313992676d4136cd425cdb70c6278e",
+      "authoredAt": "2026-07-13T19:30:29.000+02:00",
+      "committedAt": "2026-07-14T18:09:08.000-07:00",
+      "authorName": "Doruk Tan Ozturk",
+      "committerName": "Lizhi Hou",
+      "subject": "accel/amdxdna: reject command submission on devices without a submit op",
+      "subsystem": "accel/amdxdna",
+      "assistedBy": [
+        {
+          "raw": "0sec:claude-opus-4-8",
+          "identity": "0sec:claude-opus-4-8",
+          "agent": "0sec",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "261c1fe3327ad24508f54552c6366e3e4db82c15",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/261c1fe3327ad24508f54552c6366e3e4db82c15",
+      "authoredAt": "2026-07-13T19:30:28.000+02:00",
+      "committedAt": "2026-07-14T18:08:40.000-07:00",
+      "authorName": "Doruk Tan Ozturk",
+      "committerName": "Lizhi Hou",
+      "subject": "accel/amdxdna: reject user command submission without a command BO",
+      "subsystem": "accel/amdxdna",
+      "assistedBy": [
+        {
+          "raw": "0sec:claude-opus-4-8",
+          "identity": "0sec:claude-opus-4-8",
+          "agent": "0sec",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "c2130f6553f4a5cbdc259de069600117a995f197",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c2130f6553f4a5cbdc259de069600117a995f197",
+      "authoredAt": "2026-07-12T14:37:28.000-07:00",
+      "committedAt": "2026-07-13T14:32:11.000+09:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Damien Le Moal",
+      "subject": "ata: sata_dwc_460ex: fix infinite loop in NCQ tag completion bit-scanning",
+      "subsystem": "ata",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "66c4e310ad71f41e41736d33dd8a1fb5eaaec7f3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/66c4e310ad71f41e41736d33dd8a1fb5eaaec7f3",
+      "authoredAt": "2026-07-12T14:37:27.000-07:00",
+      "committedAt": "2026-07-13T14:32:11.000+09:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Damien Le Moal",
+      "subject": "ata: sata_dwc_460ex: fix clear_interrupt_bit() clearing all pending interrupts",
+      "subsystem": "ata",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "4bbc16a353a98023e5ddfca7c1fc0e49971cf4d0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4bbc16a353a98023e5ddfca7c1fc0e49971cf4d0",
+      "authoredAt": "2026-07-12T14:37:26.000-07:00",
+      "committedAt": "2026-07-13T14:32:11.000+09:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Damien Le Moal",
+      "subject": "ata: sata_dwc_460ex: enable SATA interrupts only after IRQ handler is registered",
+      "subsystem": "ata",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "a4af122106f73ea510bb35a9ea1dedd980fc0db7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a4af122106f73ea510bb35a9ea1dedd980fc0db7",
+      "authoredAt": "2026-07-12T14:37:25.000-07:00",
+      "committedAt": "2026-07-13T14:32:11.000+09:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Damien Le Moal",
+      "subject": "ata: sata_dwc_460ex: use platform_get_irq()",
+      "subsystem": "ata",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
+    {
       "sha": "56d96fededd61192cd7cc8d2b0f36adfd59036c3",
       "htmlUrl": "https://github.com/torvalds/linux/commit/56d96fededd61192cd7cc8d2b0f36adfd59036c3",
       "authoredAt": "2026-07-11T04:50:00.000-07:00",
@@ -242,6 +386,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "62775525a27c3b0d56382e08ba81ee2d322058b6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/62775525a27c3b0d56382e08ba81ee2d322058b6",
+      "authoredAt": "2026-07-11T00:40:28.000+05:30",
+      "committedAt": "2026-07-16T16:32:19.000+02:00",
+      "authorName": "Nitin Gote",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe: Hold a dma-buf reference for imported BOs",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-sonnet-4.6",
+          "identity": "GitHub_Copilot:claude-sonnet-4.6",
+          "agent": "GitHub_Copilot",
+          "model": "claude-sonnet-4.6"
         }
       ]
     },
@@ -476,6 +638,42 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "1c0ae3df692ea2a4ce992f786346154e75a3f0d5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1c0ae3df692ea2a4ce992f786346154e75a3f0d5",
+      "authoredAt": "2026-07-09T17:05:30.000+02:00",
+      "committedAt": "2026-07-16T10:18:25.000-05:00",
+      "authorName": "Ibrahim Hashimov",
+      "committerName": "Steve French",
+      "subject": "ksmbd: fix integer overflow in set_file_allocation_info()",
+      "subsystem": "ksmbd",
+      "assistedBy": [
+        {
+          "raw": "AuditCode-AI:2026.07",
+          "identity": "AuditCode-AI:2026.07",
+          "agent": "AuditCode-AI",
+          "model": "2026.07"
+        }
+      ]
+    },
+    {
+      "sha": "0148ac33547b9af1c5a7f3bb6e5baffcb6e9fac2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0148ac33547b9af1c5a7f3bb6e5baffcb6e9fac2",
+      "authoredAt": "2026-07-08T22:15:20.000-05:00",
+      "committedAt": "2026-07-17T17:40:31.000-04:00",
+      "authorName": "Mario Limonciello",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: Disable PCIe dynamic speed switching on Ryzen Pinnacle Ridge",
+      "subsystem": "drm/amdgpu",
+      "assistedBy": [
+        {
+          "raw": "Claude:sonnet",
+          "identity": "Claude:sonnet",
+          "agent": "Claude",
+          "model": "sonnet"
         }
       ]
     },
@@ -960,6 +1158,24 @@
       ]
     },
     {
+      "sha": "5b7b3b6595ee77d01c7463757baed114786094dd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5b7b3b6595ee77d01c7463757baed114786094dd",
+      "authoredAt": "2026-07-02T14:48:15.000-07:00",
+      "committedAt": "2026-07-14T22:10:05.000-07:00",
+      "authorName": "Matthew Brost",
+      "committerName": "Matthew Brost",
+      "subject": "drm/ttm: Account for NULL and handle pages in ttm_pool_backup",
+      "subsystem": "drm/ttm",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-opus-4.8",
+          "identity": "GitHub_Copilot:claude-opus-4.8",
+          "agent": "GitHub_Copilot",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "2094dab19d45c487285617b7b68913d0cc0c1211",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2094dab19d45c487285617b7b68913d0cc0c1211",
       "authoredAt": "2026-07-02T09:20:00.000-07:00",
@@ -1320,6 +1536,24 @@
       ]
     },
     {
+      "sha": "f61289af2667a942f48859fe0b030894153ad1d2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f61289af2667a942f48859fe0b030894153ad1d2",
+      "authoredAt": "2026-06-18T23:48:37.000+05:30",
+      "committedAt": "2026-07-14T09:38:19.000-04:00",
+      "authorName": "Vidya Srinivas",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/i915/display: Fix NV12 ceiling division for bigjoiner case",
+      "subsystem": "drm/i915/display",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:Claude-Opus-4.8",
+          "identity": "GitHub-Copilot:Claude-Opus-4.8",
+          "agent": "GitHub-Copilot",
+          "model": "Claude-Opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "0bfeec21984fedd32987f4e4c0cde34b445af404",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0bfeec21984fedd32987f4e4c0cde34b445af404",
       "authoredAt": "2026-06-18T20:40:29.000+08:00",
@@ -1358,6 +1592,24 @@
           "identity": "Sashiko:claude-opus-4-7",
           "agent": "Sashiko",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "e89978c1cff54e265345c66e1177d19ea5a8bc00",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e89978c1cff54e265345c66e1177d19ea5a8bc00",
+      "authoredAt": "2026-06-15T23:33:49.000+03:00",
+      "committedAt": "2026-07-16T11:27:12.000-04:00",
+      "authorName": "Vinod Govindapillai",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/i915/wm: clear the plane ddb_y entries on plane disable",
+      "subsystem": "drm/i915/wm",
+      "assistedBy": [
+        {
+          "raw": "Copilot:claude-sonnet-4.6",
+          "identity": "Copilot:claude-sonnet-4.6",
+          "agent": "Copilot",
+          "model": "claude-sonnet-4.6"
         }
       ]
     },
@@ -1470,6 +1722,24 @@
       ]
     },
     {
+      "sha": "48ab86360af117123eb1b15e38f068acf3826400",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/48ab86360af117123eb1b15e38f068acf3826400",
+      "authoredAt": "2026-06-12T15:49:03.000-04:00",
+      "committedAt": "2026-07-17T17:42:18.000-04:00",
+      "authorName": "Leo Li",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: check GRPH_FLIP status before sending event",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Copilot:claude-opus-4.8",
+          "identity": "Copilot:claude-opus-4.8",
+          "agent": "Copilot",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f",
       "authoredAt": "2026-06-13T02:50:45.000+08:00",
@@ -1489,6 +1759,24 @@
           "raw": "Claude:claude-opus-4.8",
           "identity": "Claude:claude-opus-4.8",
           "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "8382cd234981ae36299bb66a10bac2cd8ff1b99d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8382cd234981ae36299bb66a10bac2cd8ff1b99d",
+      "authoredAt": "2026-06-12T13:29:31.000-04:00",
+      "committedAt": "2026-07-17T17:41:50.000-04:00",
+      "authorName": "Leo Li",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: consolidate DCN vblank/flip handling onto vupdate_no_lock",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Copilot:claude-opus-4.8",
+          "identity": "Copilot:claude-opus-4.8",
+          "agent": "Copilot",
           "model": "claude-opus-4.8"
         }
       ]
