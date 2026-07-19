@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-07-19T16:13:47.362Z",
+  "generatedAt": "2026-07-19T17:18:23.303Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 417,
-    "totalSubsystems": 142,
-    "totalAuthors": 127,
-    "totalAgents": 111
+    "totalCommits": 421,
+    "totalSubsystems": 145,
+    "totalAuthors": 130,
+    "totalAgents": 113
   },
   "commits": [
+    {
+      "sha": "691b052139c94ee6640ac39e0b764dd3867897c0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/691b052139c94ee6640ac39e0b764dd3867897c0",
+      "authoredAt": "2026-07-15T15:29:50.000-04:00",
+      "committedAt": "2026-07-15T16:31:05.000-06:00",
+      "authorName": "Mike Waychison",
+      "committerName": "Jens Axboe",
+      "subject": "block: fix race in blk_time_get_ns() returning 0",
+      "subsystem": "block",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "bd2df8dc72201f626d66ca97f2afc8b7f2740713",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bd2df8dc72201f626d66ca97f2afc8b7f2740713",
+      "authoredAt": "2026-07-15T15:35:18.000+08:00",
+      "committedAt": "2026-07-16T06:08:14.000-06:00",
+      "authorName": "Jackie Liu",
+      "committerName": "Jens Axboe",
+      "subject": "block: free copied pages when blk_rq_map_kern() fails",
+      "subsystem": "block",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
     {
       "sha": "6384271ac1ac0099198d15df79212a19ebdb929d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/6384271ac1ac0099198d15df79212a19ebdb929d",
@@ -26,6 +62,24 @@
           "identity": "GitHub-Copilot:claude-sonnet-4.6",
           "agent": "GitHub-Copilot",
           "model": "claude-sonnet-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "d35e236282992e583ed9c1b7ab52e9ef1b873585",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d35e236282992e583ed9c1b7ab52e9ef1b873585",
+      "authoredAt": "2026-07-14T07:48:06.000-04:00",
+      "committedAt": "2026-07-15T16:32:49.000-06:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jens Axboe",
+      "subject": "partitions: aix: bound the lvd scan to one sector",
+      "subsystem": "partitions",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -368,6 +422,24 @@
           "identity": "opencode:big-pickle",
           "agent": "opencode",
           "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "f1596ba3e6b390aa0fef8466afce44efecf39d8d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f1596ba3e6b390aa0fef8466afce44efecf39d8d",
+      "authoredAt": "2026-07-12T14:27:12.000Z",
+      "committedAt": "2026-07-14T12:14:59.000-06:00",
+      "authorName": "Jaeyeong Lee",
+      "committerName": "Jens Axboe",
+      "subject": "io_uring/kbuf: free the replaced iovec after a successful grow",
+      "subsystem": "io_uring/kbuf",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.3-codex-spark",
+          "identity": "Codex:gpt-5.3-codex-spark",
+          "agent": "Codex",
+          "model": "gpt-5.3-codex-spark"
         }
       ]
     },
