@@ -1,16 +1,106 @@
 {
-  "generatedAt": "2026-07-21T16:43:00.922Z",
+  "generatedAt": "2026-07-21T18:41:01.167Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 423,
-    "totalSubsystems": 146,
-    "totalAuthors": 130,
-    "totalAgents": 113
+    "totalCommits": 429,
+    "totalSubsystems": 148,
+    "totalAuthors": 133,
+    "totalAgents": 115
   },
   "commits": [
+    {
+      "sha": "f418d68d71fd4a0a9cef92377bc8c4c3334b5b53",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f418d68d71fd4a0a9cef92377bc8c4c3334b5b53",
+      "authoredAt": "2026-07-20T19:12:38.000+09:00",
+      "committedAt": "2026-07-21T10:23:21.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/eprobe: Fix exact system name matching in eprobe_dyn_event_match()",
+      "subsystem": "tracing/eprobe",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "8ce20bfba48902e1382187cd1a852f7cf3a1e739",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8ce20bfba48902e1382187cd1a852f7cf3a1e739",
+      "authoredAt": "2026-07-20T19:12:29.000+09:00",
+      "committedAt": "2026-07-21T10:23:17.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Fix potential underflow in LEN_OR_ZERO macro",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "a9d6fb284039a5d3858a1d9f9a0d7e46cfb7c2d4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a9d6fb284039a5d3858a1d9f9a0d7e46cfb7c2d4",
+      "authoredAt": "2026-07-20T19:12:20.000+09:00",
+      "committedAt": "2026-07-21T10:23:13.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Prevent out-of-bounds write in __trace_probe_log_err()",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "15f197856d68882af9416fc97516bb55079b7677",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/15f197856d68882af9416fc97516bb55079b7677",
+      "authoredAt": "2026-07-20T19:12:10.000+09:00",
+      "committedAt": "2026-07-21T10:23:10.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Avoid temporary buffer truncation in trace_probe_match_command_args()",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "e800decd9c0ac4349bcd8f8f9b29fd21fe93165e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e800decd9c0ac4349bcd8f8f9b29fd21fe93165e",
+      "authoredAt": "2026-07-15T23:42:35.000Z",
+      "committedAt": "2026-07-21T12:25:28.000+02:00",
+      "authorName": "Venkatesh Srinivas",
+      "committerName": "Paolo Bonzini",
+      "subject": "KVM: x86: Only reset TSC Deadline Timer in apic_timer_expired on KVM_RUN",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "gemini:gemini-3.1-pro-preview",
+          "identity": "gemini:gemini-3.1-pro-preview",
+          "agent": "gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
     {
       "sha": "691b052139c94ee6640ac39e0b764dd3867897c0",
       "htmlUrl": "https://github.com/torvalds/linux/commit/691b052139c94ee6640ac39e0b764dd3867897c0",
@@ -1370,6 +1460,24 @@
           "identity": "Codex:GPT-5.4",
           "agent": "Codex",
           "model": "GPT-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "1cc935ec2d87673e3c52ba04f943ab1276c0635b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1cc935ec2d87673e3c52ba04f943ab1276c0635b",
+      "authoredAt": "2026-07-01T03:52:39.000-04:00",
+      "committedAt": "2026-07-13T18:17:01.000+05:30",
+      "authorName": "Dylan.Wu",
+      "committerName": "Anup Patel",
+      "subject": "riscv: kvm: Skip TLB flush when G-stage PTE becomes valid with Svvptc",
+      "subsystem": "riscv",
+      "assistedBy": [
+        {
+          "raw": "YuanSheng: deepseek-v4-pro",
+          "identity": "YuanSheng: deepseek-v4-pro",
+          "agent": "YuanSheng",
+          "model": " deepseek-v4-pro"
         }
       ]
     },
