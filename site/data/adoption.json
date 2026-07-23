@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-07-23T18:38:01.232Z",
+  "generatedAt": "2026-07-23T20:30:59.024Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 434,
-    "totalSubsystems": 149,
-    "totalAuthors": 134,
-    "totalAgents": 116
+    "totalCommits": 470,
+    "totalSubsystems": 153,
+    "totalAuthors": 137,
+    "totalAgents": 124
   },
   "commits": [
+    {
+      "sha": "3dc723ac78a6e4fa0fd49e27e487ed319da40a9f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3dc723ac78a6e4fa0fd49e27e487ed319da40a9f",
+      "authoredAt": "2026-07-21T13:53:46.000+02:00",
+      "committedAt": "2026-07-21T14:09:21.000+02:00",
+      "authorName": "Ibrahim Hashimov",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211_hwsim: reject undersized HWSIM_ATTR_TX_INFO",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "AuditCode-AI:2026.07",
+          "identity": "AuditCode-AI:2026.07",
+          "agent": "AuditCode-AI",
+          "model": "2026.07"
+        }
+      ]
+    },
     {
       "sha": "f418d68d71fd4a0a9cef92377bc8c4c3334b5b53",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f418d68d71fd4a0a9cef92377bc8c4c3334b5b53",
@@ -120,6 +138,150 @@
       ]
     },
     {
+      "sha": "43b25879f004c98defa2776bedc6ca4763c51945",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/43b25879f004c98defa2776bedc6ca4763c51945",
+      "authoredAt": "2026-07-18T02:43:53.000Z",
+      "committedAt": "2026-07-21T13:35:29.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: brcmfmac: drain bus_reset work on device removal",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "538c51e9d124cf656f2dd0c0394a8545efc7102d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/538c51e9d124cf656f2dd0c0394a8545efc7102d",
+      "authoredAt": "2026-07-18T02:43:52.000Z",
+      "committedAt": "2026-07-21T13:35:29.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: brcmfmac: make release_scratchbuffers idempotent",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "d13d5d299c11b7bd3362d5692c56225d9e176664",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d13d5d299c11b7bd3362d5692c56225d9e176664",
+      "authoredAt": "2026-07-17T17:33:40.000+03:00",
+      "committedAt": "2026-07-18T22:37:38.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: validate SEC_RT TLV minimum size",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:GPT-5.3-Codex",
+          "identity": "GitHubCopilot:GPT-5.3-Codex",
+          "agent": "GitHubCopilot",
+          "model": "GPT-5.3-Codex"
+        }
+      ]
+    },
+    {
+      "sha": "9ba1e0a4060e5a4802ccb9c9defa946c1aa6c629",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9ba1e0a4060e5a4802ccb9c9defa946c1aa6c629",
+      "authoredAt": "2026-07-17T17:33:39.000+03:00",
+      "committedAt": "2026-07-18T22:37:38.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: uefi: bound PPAG revision bitmap shift",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:GPT-5.3-Codex",
+          "identity": "GitHubCopilot:GPT-5.3-Codex",
+          "agent": "GitHubCopilot",
+          "model": "GPT-5.3-Codex"
+        }
+      ]
+    },
+    {
+      "sha": "954e821f42aaca56073ca830c5fd4bcf1a89048c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/954e821f42aaca56073ca830c5fd4bcf1a89048c",
+      "authoredAt": "2026-07-17T17:33:38.000+03:00",
+      "committedAt": "2026-07-18T22:37:38.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: acpi: validate WGDS table revision index",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:GPT-5.3-Codex",
+          "identity": "GitHubCopilot:GPT-5.3-Codex",
+          "agent": "GitHubCopilot",
+          "model": "GPT-5.3-Codex"
+        }
+      ]
+    },
+    {
+      "sha": "856ab29632c507d51d7bfe86100389d05d4d9a7f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/856ab29632c507d51d7bfe86100389d05d4d9a7f",
+      "authoredAt": "2026-07-17T17:33:37.000+03:00",
+      "committedAt": "2026-07-18T22:37:38.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: dbg-tlv: bound aligned TLV walk length",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:GPT-5.3-Codex",
+          "identity": "GitHubCopilot:GPT-5.3-Codex",
+          "agent": "GitHubCopilot",
+          "model": "GPT-5.3-Codex"
+        }
+      ]
+    },
+    {
+      "sha": "acad742714bdc70e7fd7f234323807c596828213",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/acad742714bdc70e7fd7f234323807c596828213",
+      "authoredAt": "2026-07-17T17:33:36.000+03:00",
+      "committedAt": "2026-07-18T22:37:38.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: bound aligned TLV advance in FW parser",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:GPT-5.3-Codex",
+          "identity": "GitHubCopilot:GPT-5.3-Codex",
+          "agent": "GitHubCopilot",
+          "model": "GPT-5.3-Codex"
+        }
+      ]
+    },
+    {
+      "sha": "c3d68e294cbb6a4090bb219d3dcaca85a011809b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c3d68e294cbb6a4090bb219d3dcaca85a011809b",
+      "authoredAt": "2026-07-16T12:30:42.000+02:00",
+      "committedAt": "2026-07-21T13:29:52.000+02:00",
+      "authorName": "Doruk Tan Ozturk",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mwifiex: fix NULL dereference when the AP has HT-cap but no HT-oper",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "0sec:multi-model",
+          "identity": "0sec:multi-model",
+          "agent": "0sec",
+          "model": "multi-model"
+        }
+      ]
+    },
+    {
       "sha": "4416f8a9ed5f49256dc69c664f1386b496ca16a1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/4416f8a9ed5f49256dc69c664f1386b496ca16a1",
       "authoredAt": "2026-07-16T09:26:06.000+08:00",
@@ -174,6 +336,186 @@
       ]
     },
     {
+      "sha": "a426d3227c669ef0ad9855b311a68129f10ac8bf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a426d3227c669ef0ad9855b311a68129f10ac8bf",
+      "authoredAt": "2026-07-15T21:57:15.000+03:00",
+      "committedAt": "2026-07-16T21:12:21.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: adapt ND match notif sizing to fixed matches array",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "0e4c0d83267261cf67ec9690856edf4a56bb7dfc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0e4c0d83267261cf67ec9690856edf4a56bb7dfc",
+      "authoredAt": "2026-07-15T21:57:12.000+03:00",
+      "committedAt": "2026-07-16T21:12:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: add a check on the tid coming from the firmware",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "94d3982806c7f194b23484befde12934dda23064",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/94d3982806c7f194b23484befde12934dda23064",
+      "authoredAt": "2026-07-15T21:57:11.000+03:00",
+      "committedAt": "2026-07-16T21:12:19.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: fix out-of-bounds tid_data access in BA notif",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "7b271df210848e8d0dd9c0d7b032050b3f3affbf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7b271df210848e8d0dd9c0d7b032050b3f3affbf",
+      "authoredAt": "2026-07-15T21:57:10.000+03:00",
+      "committedAt": "2026-07-16T21:12:19.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: pcie: validate FW section counts in iwl_pcie_init_fw_sec",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "7455ba7b4d6d869e337db063c466033cf9392fb5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7455ba7b4d6d869e337db063c466033cf9392fb5",
+      "authoredAt": "2026-07-15T21:57:09.000+03:00",
+      "committedAt": "2026-07-16T21:12:19.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: ptp: free response on success path",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:GPT-5.3-Codex",
+          "identity": "GitHubCopilot:GPT-5.3-Codex",
+          "agent": "GitHubCopilot",
+          "model": "GPT-5.3-Codex"
+        }
+      ]
+    },
+    {
+      "sha": "daec24a5ed5da77a108e246ad77aa8b889911f93",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/daec24a5ed5da77a108e246ad77aa8b889911f93",
+      "authoredAt": "2026-07-15T21:57:07.000+03:00",
+      "committedAt": "2026-07-16T21:12:18.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: validate payload length in iwl_pnvm_complete_fn",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "bc796f84ec9a95b356959ec7caf1d4fce33f3a76",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bc796f84ec9a95b356959ec7caf1d4fce33f3a76",
+      "authoredAt": "2026-07-15T21:57:06.000+03:00",
+      "committedAt": "2026-07-16T21:12:18.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: fix pointer arithmetic in iwl_add_mcc_to_tas_block_list",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "8d70881707b47353359df57df12f6de67fdacdd2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8d70881707b47353359df57df12f6de67fdacdd2",
+      "authoredAt": "2026-07-15T21:57:03.000+03:00",
+      "committedAt": "2026-07-16T21:12:17.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: validate TX_CMD response layout",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "e66ddfd94b829b8ecaaac932d9487fb4de6d267c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e66ddfd94b829b8ecaaac932d9487fb4de6d267c",
+      "authoredAt": "2026-07-15T21:57:01.000+03:00",
+      "committedAt": "2026-07-16T21:12:16.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mld: validate txq_id in TX response handler",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:claude-haiku-4.5",
+          "identity": "GitHubCopilot:claude-haiku-4.5",
+          "agent": "GitHubCopilot",
+          "model": "claude-haiku-4.5"
+        }
+      ]
+    },
+    {
+      "sha": "61a799ffd1e5a4fd3702d547828b7ff3d161468e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/61a799ffd1e5a4fd3702d547828b7ff3d161468e",
+      "authoredAt": "2026-07-15T22:08:10.000+08:00",
+      "committedAt": "2026-07-21T13:27:38.000+02:00",
+      "authorName": "Huihui Huang",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: at76c50x-usb: avoid length underflow in at76_guess_freq()",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "0b604e886ece11b71c4daaeccc512c784b89b014",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0b604e886ece11b71c4daaeccc512c784b89b014",
       "authoredAt": "2026-07-15T18:06:20.000+08:00",
@@ -188,6 +530,24 @@
           "identity": "VeroCoder:claude-sonnet-4-5",
           "agent": "VeroCoder",
           "model": "claude-sonnet-4-5"
+        }
+      ]
+    },
+    {
+      "sha": "793b9b729f1e8de57be8c8daf1a9838be96cabed",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/793b9b729f1e8de57be8c8daf1a9838be96cabed",
+      "authoredAt": "2026-07-15T10:20:21.000+02:00",
+      "committedAt": "2026-07-23T15:34:00.000+02:00",
+      "authorName": "Doruk Tan Ozturk",
+      "committerName": "Paolo Abeni",
+      "subject": "mctp: serial: handle zero-length frames to prevent rx buffer overflow",
+      "subsystem": "mctp",
+      "assistedBy": [
+        {
+          "raw": "0sec:multi-model",
+          "identity": "0sec:multi-model",
+          "agent": "0sec",
+          "model": "multi-model"
         }
       ]
     },
@@ -236,6 +596,204 @@
       "committerName": "Jens Axboe",
       "subject": "partitions: aix: bound the lvd scan to one sector",
       "subsystem": "partitions",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "c1a1dc162870a5447cb0fbcf81983473744772d2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c1a1dc162870a5447cb0fbcf81983473744772d2",
+      "authoredAt": "2026-07-14T14:20:04.000+03:00",
+      "committedAt": "2026-07-14T20:45:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: d3: validate D3 resume notification payloads",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHub Copilot <copilot@github.com>",
+          "identity": "GitHub Copilot <copilot@github.com>",
+          "agent": "GitHub Copilot <copilot@github.com>",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "2c79d7a7b583050c9f58041465cb46fe3483ab5d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2c79d7a7b583050c9f58041465cb46fe3483ab5d",
+      "authoredAt": "2026-07-14T14:20:03.000+03:00",
+      "committedAt": "2026-07-14T20:45:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: pcie: null RX pointers after free",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "4f155d262b31b9b17e0f9856bdabe0968eb4930f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4f155d262b31b9b17e0f9856bdabe0968eb4930f",
+      "authoredAt": "2026-07-14T14:20:02.000+03:00",
+      "committedAt": "2026-07-14T20:45:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: fix sched scan IE sizing",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "5c55827ef5c74a5d56939ed0e93df21e6f1f864e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5c55827ef5c74a5d56939ed0e93df21e6f1f864e",
+      "authoredAt": "2026-07-14T14:20:01.000+03:00",
+      "committedAt": "2026-07-14T20:45:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mld: clear tzone on fail",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "71245daf7d58a3c407c7e1422facce13ff6a584b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/71245daf7d58a3c407c7e1422facce13ff6a584b",
+      "authoredAt": "2026-07-14T14:20:00.000+03:00",
+      "committedAt": "2026-07-14T20:45:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: validate mac_link_id in session protect notif",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "6aa77efaea9efea92e3090c35ad348fd759a3cf3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6aa77efaea9efea92e3090c35ad348fd759a3cf3",
+      "authoredAt": "2026-07-14T14:19:59.000+03:00",
+      "committedAt": "2026-07-14T20:45:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: validate sta_id in BA window status notif",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "3ed8d1705d3aa5fbec918b8e241b41c483706cc2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3ed8d1705d3aa5fbec918b8e241b41c483706cc2",
+      "authoredAt": "2026-07-14T14:19:58.000+03:00",
+      "committedAt": "2026-07-14T20:45:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: validate sta_id in TLC notif",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "77f33bed0cb49a11f03427f2fa368830c1cae3c2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/77f33bed0cb49a11f03427f2fa368830c1cae3c2",
+      "authoredAt": "2026-07-14T14:19:57.000+03:00",
+      "committedAt": "2026-07-14T20:45:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: validate MCC header before n_channels",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHub Copilot:gpt-5.3-codex",
+          "identity": "GitHub Copilot:gpt-5.3-codex",
+          "agent": "GitHub Copilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "b77c6f50b1f80414cb3f542ae72e532ed90fc7f7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b77c6f50b1f80414cb3f542ae72e532ed90fc7f7",
+      "authoredAt": "2026-07-14T14:19:56.000+03:00",
+      "committedAt": "2026-07-14T20:45:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mvm: parse beacon notif per layout",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHub Copilot:gpt-5.3-codex",
+          "identity": "GitHub Copilot:gpt-5.3-codex",
+          "agent": "GitHub Copilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "219292e73e40d131925a1caf413203671092dd7a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/219292e73e40d131925a1caf413203671092dd7a",
+      "authoredAt": "2026-07-14T14:19:55.000+03:00",
+      "committedAt": "2026-07-14T20:45:20.000+03:00",
+      "authorName": "Emmanuel Grumbach",
+      "committerName": "Miri Korenblit",
+      "subject": "wifi: iwlwifi: mld: validate reorder BAID",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHubCopilot:gpt-5.3-codex",
+          "identity": "GitHubCopilot:gpt-5.3-codex",
+          "agent": "GitHubCopilot",
+          "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "4c4c97b60a5e978121d9ee8cb0ab3916e5d6a8de",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4c4c97b60a5e978121d9ee8cb0ab3916e5d6a8de",
+      "authoredAt": "2026-07-14T17:17:58.000+08:00",
+      "committedAt": "2026-07-21T13:25:06.000+02:00",
+      "authorName": "Huihui Huang",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: wilc1000: validate assoc response length before subtracting header",
+      "subsystem": "wifi",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -534,6 +1092,24 @@
       ]
     },
     {
+      "sha": "5499e0602d2faafd42c580d25f615903c3fbe11b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5499e0602d2faafd42c580d25f615903c3fbe11b",
+      "authoredAt": "2026-07-13T10:47:50.000Z",
+      "committedAt": "2026-07-23T11:58:20.000+02:00",
+      "authorName": "David Lee",
+      "committerName": "Paolo Abeni",
+      "subject": "net/x25: fix use-after-free in x25_kill_by_neigh()",
+      "subsystem": "net/x25",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "c2130f6553f4a5cbdc259de069600117a995f197",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c2130f6553f4a5cbdc259de069600117a995f197",
       "authoredAt": "2026-07-12T14:37:28.000-07:00",
@@ -620,6 +1196,24 @@
           "identity": "Codex:gpt-5.3-codex-spark",
           "agent": "Codex",
           "model": "gpt-5.3-codex-spark"
+        }
+      ]
+    },
+    {
+      "sha": "952c02b33f56207a160421bcd61e7ac53c9c59ae",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/952c02b33f56207a160421bcd61e7ac53c9c59ae",
+      "authoredAt": "2026-07-11T14:03:02.000-07:00",
+      "committedAt": "2026-07-21T13:05:32.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: tear down new links on vif update error path",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -930,6 +1524,30 @@
       ]
     },
     {
+      "sha": "b24adfed83ae3fe623d978a30d5c6c636a874821",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b24adfed83ae3fe623d978a30d5c6c636a874821",
+      "authoredAt": "2026-07-09T03:59:07.000+08:00",
+      "committedAt": "2026-07-21T14:12:24.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: guard optional PMSR nominal time",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        },
+        {
+          "raw": "Claude:opus-4.8",
+          "identity": "Claude:opus-4.8",
+          "agent": "Claude",
+          "model": "opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "a2f57827bf7c695b8c72dc4511cae8e86582369d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a2f57827bf7c695b8c72dc4511cae8e86582369d",
       "authoredAt": "2026-07-08T16:21:30.000+02:00",
@@ -1002,6 +1620,24 @@
       ]
     },
     {
+      "sha": "e32649b4bad90a6216d8e93cd7dd050af8ac9740",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e32649b4bad90a6216d8e93cd7dd050af8ac9740",
+      "authoredAt": "2026-07-07T16:39:11.000-07:00",
+      "committedAt": "2026-07-21T11:00:13.000+02:00",
+      "authorName": "Manjunath Patil",
+      "committerName": "Paolo Abeni",
+      "subject": "net/mlx5e: Use sender devcom for MPV master-up",
+      "subsystem": "net/mlx5e",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
       "sha": "b11c513ad943f35cf5e8007d3a56279c79b7ed4b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b11c513ad943f35cf5e8007d3a56279c79b7ed4b",
       "authoredAt": "2026-07-07T16:23:58.000-07:00",
@@ -1016,6 +1652,24 @@
           "identity": "opencode:big-pickle",
           "agent": "opencode",
           "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "4032f8ed10fcb84d41c508dfb04be96589f78dfe",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4032f8ed10fcb84d41c508dfb04be96589f78dfe",
+      "authoredAt": "2026-07-07T15:16:35.000-07:00",
+      "committedAt": "2026-07-21T10:25:25.000+02:00",
+      "authorName": "Kyle Zeng",
+      "committerName": "Paolo Abeni",
+      "subject": "openvswitch: fix GSO userspace truncation underflow",
+      "subsystem": "openvswitch",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
