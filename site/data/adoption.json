@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-07-24T19:47:50.489Z",
+  "generatedAt": "2026-07-24T21:29:02.019Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 471,
-    "totalSubsystems": 154,
-    "totalAuthors": 138,
-    "totalAgents": 124
+    "totalCommits": 479,
+    "totalSubsystems": 158,
+    "totalAuthors": 140,
+    "totalAgents": 125
   },
   "commits": [
+    {
+      "sha": "d2c6800ad1802bed72a6de1416536737f114f1d6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d2c6800ad1802bed72a6de1416536737f114f1d6",
+      "authoredAt": "2026-07-21T20:55:14.000Z",
+      "committedAt": "2026-07-23T09:19:08.000+02:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/vm: Fix SVM leak on resv obj alloc failure in xe_vm_create()",
+      "subsystem": "drm/xe/vm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
     {
       "sha": "3dc723ac78a6e4fa0fd49e27e487ed319da40a9f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3dc723ac78a6e4fa0fd49e27e487ed319da40a9f",
@@ -278,6 +296,24 @@
           "identity": "GitHubCopilot:GPT-5.3-Codex",
           "agent": "GitHubCopilot",
           "model": "GPT-5.3-Codex"
+        }
+      ]
+    },
+    {
+      "sha": "a3fdf74ffa5966e5b4a17f1e9c5687f73bb0d536",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a3fdf74ffa5966e5b4a17f1e9c5687f73bb0d536",
+      "authoredAt": "2026-07-16T13:13:58.000-07:00",
+      "committedAt": "2026-07-17T09:09:27.000-07:00",
+      "authorName": "Matthew Brost",
+      "committerName": "Matthew Brost",
+      "subject": "drm/ttm/pool: back up at native page order",
+      "subsystem": "drm/ttm/pool",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -2064,6 +2100,24 @@
       ]
     },
     {
+      "sha": "b04a248cfa6cfa1e7dc9ce91cb1eb88b1a70dd69",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b04a248cfa6cfa1e7dc9ce91cb1eb88b1a70dd69",
+      "authoredAt": "2026-07-03T17:07:43.000+02:00",
+      "committedAt": "2026-07-23T11:48:43.000+02:00",
+      "authorName": "José Expósito",
+      "committerName": "José Expósito",
+      "subject": "drm/tests: shmem: Set DMA mask to 64-bit in drm_gem_shmem",
+      "subsystem": "drm/tests",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-4.6-opus",
+          "identity": "Claude:claude-4.6-opus",
+          "agent": "Claude",
+          "model": "claude-4.6-opus"
+        }
+      ]
+    },
+    {
       "sha": "7c4a234bd31a64a8dbd0140dc812da592c5e0787",
       "htmlUrl": "https://github.com/torvalds/linux/commit/7c4a234bd31a64a8dbd0140dc812da592c5e0787",
       "authoredAt": "2026-07-03T13:07:37.000+02:00",
@@ -2478,6 +2532,24 @@
       ]
     },
     {
+      "sha": "bbeae12fda3384a90fbebc8a19ba9d33f85b5361",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bbeae12fda3384a90fbebc8a19ba9d33f85b5361",
+      "authoredAt": "2026-06-19T15:40:03.000+08:00",
+      "committedAt": "2026-07-23T20:29:41.000+02:00",
+      "authorName": "Zhao Zhang",
+      "committerName": "Ilya Dryomov",
+      "subject": "libceph: guard missing CRUSH type name lookup",
+      "subsystem": "libceph",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.4",
+          "identity": "Codex:GPT-5.4",
+          "agent": "Codex",
+          "model": "GPT-5.4"
+        }
+      ]
+    },
+    {
       "sha": "8bdcf96eb135aebacac319667f87db034fb38406",
       "htmlUrl": "https://github.com/torvalds/linux/commit/8bdcf96eb135aebacac319667f87db034fb38406",
       "authoredAt": "2026-06-19T04:06:04.000Z",
@@ -2588,6 +2660,24 @@
           "identity": "Copilot:claude-sonnet-4.6",
           "agent": "Copilot",
           "model": "claude-sonnet-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "e4c804726c4afce3ba648b982d564f6af2cfa328",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e4c804726c4afce3ba648b982d564f6af2cfa328",
+      "authoredAt": "2026-06-15T14:31:06.000+08:00",
+      "committedAt": "2026-07-23T20:29:41.000+02:00",
+      "authorName": "Douya Le",
+      "committerName": "Ilya Dryomov",
+      "subject": "libceph: remove debugfs files before client teardown",
+      "subsystem": "libceph",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.4",
+          "identity": "Codex:GPT-5.4",
+          "agent": "Codex",
+          "model": "GPT-5.4"
         }
       ]
     },
@@ -3378,6 +3468,24 @@
       ]
     },
     {
+      "sha": "9f00f9cf2be293efe899db67dc5272e3a9c62717",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9f00f9cf2be293efe899db67dc5272e3a9c62717",
+      "authoredAt": "2026-06-08T21:40:09.000-07:00",
+      "committedAt": "2026-07-23T20:29:42.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Ilya Dryomov",
+      "subject": "libceph: bound pg_{temp,upmap,upmap_items} length to CEPH_PG_MAX_SIZE",
+      "subsystem": "libceph",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "c1fff9794a165b6b64ae4ad9b54c00bc94e7daed",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c1fff9794a165b6b64ae4ad9b54c00bc94e7daed",
       "authoredAt": "2026-06-09T00:54:47.000Z",
@@ -3590,6 +3698,24 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "d3c32939fa0e3ee9b883b9a0fd1972c5c444e3d0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d3c32939fa0e3ee9b883b9a0fd1972c5c444e3d0",
+      "authoredAt": "2026-06-07T17:35:49.000+08:00",
+      "committedAt": "2026-07-23T20:29:41.000+02:00",
+      "authorName": "Douya Le",
+      "committerName": "Ilya Dryomov",
+      "subject": "libceph: bound get_version reply decode to front len",
+      "subsystem": "libceph",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.4",
+          "identity": "Codex:GPT-5.4",
+          "agent": "Codex",
+          "model": "GPT-5.4"
         }
       ]
     },
@@ -4688,6 +4814,24 @@
           "identity": "Gemini:gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot",
           "agent": "Gemini",
           "model": "gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot"
+        }
+      ]
+    },
+    {
+      "sha": "05f90284223381005d6bcddab3fda4a97f9c3401",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/05f90284223381005d6bcddab3fda4a97f9c3401",
+      "authoredAt": "2026-05-29T16:11:44.000+08:00",
+      "committedAt": "2026-07-23T20:29:40.000+02:00",
+      "authorName": "Douya Le",
+      "committerName": "Ilya Dryomov",
+      "subject": "libceph: reject zero bucket types in crush_decode",
+      "subsystem": "libceph",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.4",
+          "identity": "Codex:GPT-5.4",
+          "agent": "Codex",
+          "model": "GPT-5.4"
         }
       ]
     },
