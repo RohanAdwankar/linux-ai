@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-26T19:38:30.806Z",
+  "generatedAt": "2026-07-26T21:12:08.471Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 481,
-    "totalSubsystems": 159,
-    "totalAuthors": 142,
-    "totalAgents": 126
+    "totalCommits": 493,
+    "totalSubsystems": 161,
+    "totalAuthors": 147,
+    "totalAgents": 131
   },
   "commits": [
     {
@@ -62,6 +62,24 @@
           "identity": "AuditCode-AI:2026.07",
           "agent": "AuditCode-AI",
           "model": "2026.07"
+        }
+      ]
+    },
+    {
+      "sha": "a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6",
+      "authoredAt": "2026-07-20T21:25:17.000+05:30",
+      "committedAt": "2026-07-21T22:35:08.000+01:00",
+      "authorName": "Kamal Wadhwa",
+      "committerName": "Mark Brown",
+      "subject": "regulator: core: clamp voltage constraints before applying apply_uV",
+      "subsystem": "regulator",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-5",
+          "identity": "Claude:claude-sonnet-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-5"
         }
       ]
     },
@@ -318,6 +336,42 @@
       ]
     },
     {
+      "sha": "1a087033a6bad73b4140020b40e819b0933aafc3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1a087033a6bad73b4140020b40e819b0933aafc3",
+      "authoredAt": "2026-07-17T11:51:59.000+09:00",
+      "committedAt": "2026-07-24T13:43:18.000-04:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Steven Rostedt",
+      "subject": "selftests/ftrace: Reset triggers at top level before instance loop",
+      "subsystem": "selftests/ftrace",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "b4eb07bde606c2096b24252be589e735eff6d413",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b4eb07bde606c2096b24252be589e735eff6d413",
+      "authoredAt": "2026-07-17T11:51:49.000+09:00",
+      "committedAt": "2026-07-24T13:43:17.000-04:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Fix union collision of module and refcnt for dynamic events",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
       "sha": "a3fdf74ffa5966e5b4a17f1e9c5687f73bb0d536",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a3fdf74ffa5966e5b4a17f1e9c5687f73bb0d536",
       "authoredAt": "2026-07-16T13:13:58.000-07:00",
@@ -332,6 +386,24 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "fc3afb5728e297994863f8a2a01b88a920bbf53e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fc3afb5728e297994863f8a2a01b88a920bbf53e",
+      "authoredAt": "2026-07-16T18:41:26.000+08:00",
+      "committedAt": "2026-07-16T17:12:21.000+02:00",
+      "authorName": "Xu Yang",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: chipidea: fix usage_count leak when autosuspend_delay is negative",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4.6",
+          "identity": "Claude:claude-sonnet-4.6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4.6"
         }
       ]
     },
@@ -570,6 +642,24 @@
       ]
     },
     {
+      "sha": "4e0197fbb0eec588795d5431716a244d9ac8fa93",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4e0197fbb0eec588795d5431716a244d9ac8fa93",
+      "authoredAt": "2026-07-15T16:59:05.000+02:00",
+      "committedAt": "2026-07-16T17:11:44.000+02:00",
+      "authorName": "Griffin Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: core: sysfs: add lock to bos_descriptors_read()",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "61a799ffd1e5a4fd3702d547828b7ff3d161468e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/61a799ffd1e5a4fd3702d547828b7ff3d161468e",
       "authoredAt": "2026-07-15T22:08:10.000+08:00",
@@ -624,6 +714,24 @@
       ]
     },
     {
+      "sha": "655111f878a455f724e20122929cf2afa52b76e4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/655111f878a455f724e20122929cf2afa52b76e4",
+      "authoredAt": "2026-07-15T15:44:55.000+08:00",
+      "committedAt": "2026-07-23T12:30:07.000-04:00",
+      "authorName": "Jackie Liu",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Propagate errors from remote event bulk updates",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
       "sha": "bd2df8dc72201f626d66ca97f2afc8b7f2740713",
       "htmlUrl": "https://github.com/torvalds/linux/commit/bd2df8dc72201f626d66ca97f2afc8b7f2740713",
       "authoredAt": "2026-07-15T15:35:18.000+08:00",
@@ -656,6 +764,24 @@
           "identity": "GitHub-Copilot:claude-sonnet-4.6",
           "agent": "GitHub-Copilot",
           "model": "claude-sonnet-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "30d49cba27f8905bc288cef5846963f0004f644c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/30d49cba27f8905bc288cef5846963f0004f644c",
+      "authoredAt": "2026-07-14T22:14:21.000+09:00",
+      "committedAt": "2026-07-17T14:22:34.000+02:00",
+      "authorName": "MinJea Kim",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "staging: rtl8723bs: fix inverted HT40 secondary channel offset",
+      "subsystem": "staging",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:claude-fable-5 bpftrace",
+          "identity": "Claude-Code:claude-fable-5 bpftrace",
+          "agent": "Claude-Code",
+          "model": "claude-fable-5 bpftrace"
         }
       ]
     },
@@ -854,6 +980,24 @@
           "identity": "GitHubCopilot:gpt-5.3-codex",
           "agent": "GitHubCopilot",
           "model": "gpt-5.3-codex"
+        }
+      ]
+    },
+    {
+      "sha": "faaddd811c5099f11a5f52e68a6b31a5898cda4f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/faaddd811c5099f11a5f52e68a6b31a5898cda4f",
+      "authoredAt": "2026-07-14T19:42:30.000+09:00",
+      "committedAt": "2026-07-22T11:23:54.000+02:00",
+      "authorName": "Sunho Park",
+      "committerName": "Johan Hovold",
+      "subject": "USB: serial: io_edgeport: cap received transmit credits",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5",
+          "identity": "Codex:GPT-5",
+          "agent": "Codex",
+          "model": "GPT-5"
         }
       ]
     },
@@ -1560,6 +1704,24 @@
       ]
     },
     {
+      "sha": "5650c18d93a1db7e27cb5a40b394747eb4686d5b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5650c18d93a1db7e27cb5a40b394747eb4686d5b",
+      "authoredAt": "2026-07-09T15:07:17.000Z",
+      "committedAt": "2026-07-13T07:10:11.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: gadget: f_midi: cancel pending IN work before freeing the midi object",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "1c0ae3df692ea2a4ce992f786346154e75a3f0d5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/1c0ae3df692ea2a4ce992f786346154e75a3f0d5",
       "authoredAt": "2026-07-09T17:05:30.000+02:00",
@@ -1592,6 +1754,24 @@
           "identity": "Claude:sonnet",
           "agent": "Claude",
           "model": "sonnet"
+        }
+      ]
+    },
+    {
+      "sha": "0583f2fbf8f86ae3a0ce054f96783dd83e65d9bb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0583f2fbf8f86ae3a0ce054f96783dd83e65d9bb",
+      "authoredAt": "2026-07-09T02:09:04.000Z",
+      "committedAt": "2026-07-13T07:10:11.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: gadget: udc: bdc: free IRQ and drain func_wake_notify before teardown",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -2154,6 +2334,24 @@
       ]
     },
     {
+      "sha": "1febec7e47cdcd01f43fb0211094e3010474666e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1febec7e47cdcd01f43fb0211094e3010474666e",
+      "authoredAt": "2026-07-03T08:37:24.000Z",
+      "committedAt": "2026-07-13T07:10:11.000+02:00",
+      "authorName": "Sonali Pradhan",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: gadget: f_ncm: validate datagram bounds in ncm_unwrap_ntb()",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Jetski:Gemini-2.5-Pro",
+          "identity": "Jetski:Gemini-2.5-Pro",
+          "agent": "Jetski",
+          "model": "Gemini-2.5-Pro"
+        }
+      ]
+    },
+    {
       "sha": "bbf0a8e931204ecdab494a88d43b0a24a04285c5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/bbf0a8e931204ecdab494a88d43b0a24a04285c5",
       "authoredAt": "2026-07-03T11:22:09.000+09:00",
@@ -2426,6 +2624,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "79e2d75725c85607f8a9d87ae9cace62a19f767d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/79e2d75725c85607f8a9d87ae9cace62a19f767d",
+      "authoredAt": "2026-06-27T18:41:53.000+08:00",
+      "committedAt": "2026-07-13T07:10:11.000+02:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: gadget: f_tcm: synchronize delayed set_alt with teardown",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
