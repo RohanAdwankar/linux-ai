@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-27T20:43:36.764Z",
+  "generatedAt": "2026-07-27T22:18:47.815Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 493,
-    "totalSubsystems": 161,
-    "totalAuthors": 147,
+    "totalCommits": 502,
+    "totalSubsystems": 167,
+    "totalAuthors": 148,
     "totalAgents": 131
   },
   "commits": [
@@ -188,6 +188,78 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "a82c8a05e86f3f84e09698f65b4515b5d04633f6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a82c8a05e86f3f84e09698f65b4515b5d04633f6",
+      "authoredAt": "2026-07-19T12:15:05.000-04:00",
+      "committedAt": "2026-07-23T18:23:45.000+03:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jarkko Sakkinen",
+      "subject": "assoc_array: trim the final shortcut word using the current chunk end",
+      "subsystem": "assoc_array",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "58565eef0f8d861aae92abfb7658458d661cee17",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/58565eef0f8d861aae92abfb7658458d661cee17",
+      "authoredAt": "2026-07-19T12:15:04.000-04:00",
+      "committedAt": "2026-07-23T18:23:39.000+03:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jarkko Sakkinen",
+      "subject": "keys: make keyring key-chunk byte order agree with keyring_diff_objects()",
+      "subsystem": "keys",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "63918731f9ae25b5deb022f118e941e6dddfcef4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/63918731f9ae25b5deb022f118e941e6dddfcef4",
+      "authoredAt": "2026-07-19T12:15:03.000-04:00",
+      "committedAt": "2026-07-23T18:23:32.000+03:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Jarkko Sakkinen",
+      "subject": "keys: fix out-of-bounds read in keyring_get_key_chunk()",
+      "subsystem": "keys",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "015b5bcbcb622b32317642be91a7f79aa5413649",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/015b5bcbcb622b32317642be91a7f79aa5413649",
+      "authoredAt": "2026-07-19T14:11:40.000+02:00",
+      "committedAt": "2026-07-25T11:17:23.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Linus Walleij",
+      "subject": "pinctrl: devicetree: don't free uninitialized dev_name on error path",
+      "subsystem": "pinctrl",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
         }
       ]
     },
@@ -660,6 +732,24 @@
       ]
     },
     {
+      "sha": "40de8160ca7f67d14619ee0351ce5d68fc4a237a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/40de8160ca7f67d14619ee0351ce5d68fc4a237a",
+      "authoredAt": "2026-07-15T15:42:33.000+01:00",
+      "committedAt": "2026-07-20T17:41:29.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "fs/proc/task_mmu: fix PAGEMAP_SCAN written state for PMD holes",
+      "subsystem": "fs/proc/task_mmu",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
       "sha": "61a799ffd1e5a4fd3702d547828b7ff3d161468e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/61a799ffd1e5a4fd3702d547828b7ff3d161468e",
       "authoredAt": "2026-07-15T22:08:10.000+08:00",
@@ -794,6 +884,24 @@
       "committerName": "Jens Axboe",
       "subject": "partitions: aix: bound the lvd scan to one sector",
       "subsystem": "partitions",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "c9b47e6b23114e939b17f818471c7a46e59006e7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c9b47e6b23114e939b17f818471c7a46e59006e7",
+      "authoredAt": "2026-07-14T07:47:29.000-04:00",
+      "committedAt": "2026-07-27T12:31:11.000+08:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Gao Xiang",
+      "subject": "erofs: cap LZMA stream pool size",
+      "subsystem": "erofs",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -1686,6 +1794,24 @@
       ]
     },
     {
+      "sha": "89b1b79c308818a715e75f28744b70d8940a07c9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/89b1b79c308818a715e75f28744b70d8940a07c9",
+      "authoredAt": "2026-07-09T15:12:01.000-04:00",
+      "committedAt": "2026-07-20T17:41:27.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "mm/percpu-km: fix bitmap overflow and accounting in pcpu_create_chunk()",
+      "subsystem": "mm/percpu-km",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5",
+          "identity": "Codex:GPT-5",
+          "agent": "Codex",
+          "model": "GPT-5"
+        }
+      ]
+    },
+    {
       "sha": "c43122fef328a70045fe7621c06de6b2b8e19264",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c43122fef328a70045fe7621c06de6b2b8e19264",
       "authoredAt": "2026-07-09T16:41:59.000Z",
@@ -1854,6 +1980,24 @@
       ]
     },
     {
+      "sha": "83abe2fd5b3aeb3123b5408a5a91709c5538fb23",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/83abe2fd5b3aeb3123b5408a5a91709c5538fb23",
+      "authoredAt": "2026-07-08T10:01:10.000+01:00",
+      "committedAt": "2026-07-20T17:41:27.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "mm/hugetlb: fix swap entry corruption when clearing uffd-wp at fork()",
+      "subsystem": "mm/hugetlb",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
       "sha": "f62c41b4910e65da396ec9a8c40c1fe7fe82e449",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f62c41b4910e65da396ec9a8c40c1fe7fe82e449",
       "authoredAt": "2026-07-08T13:27:28.000+08:00",
@@ -1976,6 +2120,24 @@
           "identity": "Claude:claude-sonnet-4-6",
           "agent": "Claude",
           "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "07b4377bdbe74a3ec0c8da5849d014f70e003384",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/07b4377bdbe74a3ec0c8da5849d014f70e003384",
+      "authoredAt": "2026-07-07T16:13:49.000+01:00",
+      "committedAt": "2026-07-20T17:41:26.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "fs/proc/task_mmu: fix PAGEMAP_SCAN written state for unpopulated ptes",
+      "subsystem": "fs/proc/task_mmu",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
         }
       ]
     },
