@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:51:47.362Z",
+  "generatedAt": "2026-07-28T18:46:59.754Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,7 +7,7 @@
   "stats": {
     "totalCommits": 977,
     "totalSubsystems": 284,
-    "totalAuthors": 195,
+    "totalAuthors": 196,
     "totalAgents": 166
   },
   "commits": [
@@ -254,6 +254,24 @@
       "committerName": "Linus Walleij",
       "subject": "pinctrl: devicetree: don't free uninitialized dev_name on error path",
       "subsystem": "pinctrl",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
+      "sha": "c4c0673e4cb15b0c127e6d00732a2427bdd12c11",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c4c0673e4cb15b0c127e6d00732a2427bdd12c11",
+      "authoredAt": "2026-07-18T16:37:10.000-07:00",
+      "committedAt": "2026-07-21T06:44:08.000+02:00",
+      "authorName": "Mykola Lysenko",
+      "committerName": "David Sterba",
+      "subject": "btrfs: raid56: fix scrub read assembly submitting no reads",
+      "subsystem": "btrfs",
       "assistedBy": [
         {
           "raw": "Claude:claude-fable-5",
@@ -17822,24 +17840,6 @@
       "committerName": "Arnaldo Carvalho de Melo",
       "subject": "perf header: Byte-swap build ID event pid and bounds check section entries",
       "subsystem": "perf header",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "981f13ae6255fe8e9e68ca6435cd8194446460ec",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/981f13ae6255fe8e9e68ca6435cd8194446460ec",
-      "authoredAt": "2026-05-02T12:47:46.000-03:00",
-      "committedAt": "2026-05-29T11:44:32.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf session: Add validated swap infrastructure with null-termination checks",
-      "subsystem": "perf session",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4.6-1m",
