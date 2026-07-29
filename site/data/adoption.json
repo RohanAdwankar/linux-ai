@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T22:14:28.760Z",
+  "generatedAt": "2026-07-29T23:16:14.301Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,7 +7,7 @@
   "stats": {
     "totalCommits": 977,
     "totalSubsystems": 284,
-    "totalAuthors": 196,
+    "totalAuthors": 197,
     "totalAgents": 166
   },
   "commits": [
@@ -62,6 +62,42 @@
           "identity": "AuditCode-AI:2026.07",
           "agent": "AuditCode-AI",
           "model": "2026.07"
+        }
+      ]
+    },
+    {
+      "sha": "2e8a2c1b03068d76782343446f1b2114ae2ee0bd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2e8a2c1b03068d76782343446f1b2114ae2ee0bd",
+      "authoredAt": "2026-07-21T19:35:12.000+09:00",
+      "committedAt": "2026-07-28T18:07:18.000+02:00",
+      "authorName": "Jinu Kim",
+      "committerName": "Paolo Bonzini",
+      "subject": "KVM: x86/mmu: Check all address spaces before skipping unsync",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5",
+          "identity": "Codex:GPT-5",
+          "agent": "Codex",
+          "model": "GPT-5"
+        }
+      ]
+    },
+    {
+      "sha": "0f38453cdb2e17566ccb7c0f3dabd5bd21caca26",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0f38453cdb2e17566ccb7c0f3dabd5bd21caca26",
+      "authoredAt": "2026-07-21T19:35:11.000+09:00",
+      "committedAt": "2026-07-28T18:07:14.000+02:00",
+      "authorName": "Jinu Kim",
+      "committerName": "Paolo Bonzini",
+      "subject": "KVM: x86/mmu: Check write tracking in all address spaces",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5",
+          "identity": "Codex:GPT-5",
+          "agent": "Codex",
+          "model": "GPT-5"
         }
       ]
     },
@@ -17804,42 +17840,6 @@
       "committerName": "Arnaldo Carvalho de Melo",
       "subject": "perf session: Fix swap_sample_id_all() crash on crafted events",
       "subsystem": "perf session",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "fe84caf425f9d404833dc165eb60efbd0fc54e43",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fe84caf425f9d404833dc165eb60efbd0fc54e43",
-      "authoredAt": "2026-05-02T12:57:48.000-03:00",
-      "committedAt": "2026-05-29T11:44:29.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf session: Fix PERF_RECORD_READ swap and dump for variable-length events",
-      "subsystem": "perf session",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "23d6be944edd59f2e0a9a2a186388c0c58e85416",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/23d6be944edd59f2e0a9a2a186388c0c58e85416",
-      "authoredAt": "2026-05-02T12:53:52.000-03:00",
-      "committedAt": "2026-05-29T11:44:32.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf header: Byte-swap build ID event pid and bounds check section entries",
-      "subsystem": "perf header",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4.6-1m",
