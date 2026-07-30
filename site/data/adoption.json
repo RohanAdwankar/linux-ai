@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-30T20:35:34.027Z",
+  "generatedAt": "2026-07-30T22:19:24.441Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 977,
-    "totalSubsystems": 285,
-    "totalAuthors": 198,
+    "totalSubsystems": 287,
+    "totalAuthors": 199,
     "totalAgents": 169
   },
   "commits": [
@@ -198,6 +198,24 @@
       ]
     },
     {
+      "sha": "246df90b5f1a8a6e6abbd2f058b029558720adec",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/246df90b5f1a8a6e6abbd2f058b029558720adec",
+      "authoredAt": "2026-07-21T23:37:41.000+08:00",
+      "committedAt": "2026-07-29T16:19:06.000-04:00",
+      "authorName": "Luxiao Xu",
+      "committerName": "Paul Moore",
+      "subject": "audit: fix potential use-after-free in audit_del_rule()",
+      "subsystem": "audit",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.4",
+          "identity": "Codex:gpt-5.4",
+          "agent": "Codex",
+          "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
       "sha": "d0a7b48ad0921bd88effaee10bf970ab1d5d0ddd",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d0a7b48ad0921bd88effaee10bf970ab1d5d0ddd",
       "authoredAt": "2026-07-21T22:36:07.000+08:00",
@@ -356,6 +374,24 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "738e6f32e61d80b554e37015ecb7bc620b88001c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/738e6f32e61d80b554e37015ecb7bc620b88001c",
+      "authoredAt": "2026-07-20T16:50:16.000+08:00",
+      "committedAt": "2026-07-26T13:16:21.000-03:00",
+      "authorName": "Peiyang He",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommu/iommufd: Fix IOPF group ownership UAF",
+      "subsystem": "iommu/iommufd",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -2678,6 +2714,60 @@
       "committerName": "Paolo Abeni",
       "subject": "ppp: defer channel free to an RCU grace period to fix pppol2tp RX UAF",
       "subsystem": "ppp",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "c3b8ee84a965058b41275069d4696f37a8b14bf6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c3b8ee84a965058b41275069d4696f37a8b14bf6",
+      "authoredAt": "2026-07-05T22:36:11.000-07:00",
+      "committedAt": "2026-07-14T10:51:57.000-03:00",
+      "authorName": "Nicolin Chen",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommu/arm-smmu-v3-iommufd: Require exactly one Stream ID for a vDEVICE",
+      "subsystem": "iommu/arm-smmu-v3-iommufd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "9be311cfbe6154da146a7408e0d5e518a9321ed3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9be311cfbe6154da146a7408e0d5e518a9321ed3",
+      "authoredAt": "2026-07-05T22:36:10.000-07:00",
+      "committedAt": "2026-07-14T10:51:57.000-03:00",
+      "authorName": "Nicolin Chen",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommufd/viommu: Publish a vDEVICE only after vdevice_init() succeeds",
+      "subsystem": "iommufd/viommu",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "339bd11591593ab7ce88136ab7fd01ef3813b724",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/339bd11591593ab7ce88136ab7fd01ef3813b724",
+      "authoredAt": "2026-07-05T22:36:09.000-07:00",
+      "committedAt": "2026-07-14T10:51:56.000-03:00",
+      "authorName": "Nicolin Chen",
+      "committerName": "Jason Gunthorpe",
+      "subject": "iommufd/viommu: Release the igroup lock on the vdevice_size error path",
+      "subsystem": "iommufd/viommu",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -17774,96 +17864,6 @@
       "committerName": "Arnaldo Carvalho de Melo",
       "subject": "perf session: Bound nr_cpus_avail and validate sample CPU",
       "subsystem": "perf session",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "d88e954c8271c9c47d6d50dcfdd864e6b031d166",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d88e954c8271c9c47d6d50dcfdd864e6b031d166",
-      "authoredAt": "2026-05-02T14:51:05.000-03:00",
-      "committedAt": "2026-05-29T11:44:34.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf session: Check for decompression buffer size overflow",
-      "subsystem": "perf session",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "6e803f1e0198f436d512f9b0eebd89ec2a85ac85",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6e803f1e0198f436d512f9b0eebd89ec2a85ac85",
-      "authoredAt": "2026-05-02T14:47:38.000-03:00",
-      "committedAt": "2026-05-29T11:44:34.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf tools: Harden compressed event processing",
-      "subsystem": "perf tools",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "3669697bda41c562d90eb38f54881cc02ef3d51c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3669697bda41c562d90eb38f54881cc02ef3d51c",
-      "authoredAt": "2026-05-02T14:41:46.000-03:00",
-      "committedAt": "2026-05-29T11:44:34.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf header: Validate bitmap size before allocating in do_read_bitmap()",
-      "subsystem": "perf header",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "944f65c8b8231d26d4db6be67bcb641142603cb4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/944f65c8b8231d26d4db6be67bcb641142603cb4",
-      "authoredAt": "2026-05-02T14:37:39.000-03:00",
-      "committedAt": "2026-05-29T11:44:34.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf header: Sanity check HEADER_EVENT_DESC attr.size before swap",
-      "subsystem": "perf header",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "b8deecd753441eea76e67f08989189ce6ddf8011",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b8deecd753441eea76e67f08989189ce6ddf8011",
-      "authoredAt": "2026-05-02T14:32:58.000-03:00",
-      "committedAt": "2026-05-29T11:44:34.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf header: Validate feature section size and add read path bounds checking",
-      "subsystem": "perf header",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4.6-1m",
