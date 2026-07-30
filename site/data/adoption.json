@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T18:47:32.929Z",
+  "generatedAt": "2026-07-30T20:35:34.027Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,8 +7,8 @@
   "stats": {
     "totalCommits": 977,
     "totalSubsystems": 285,
-    "totalAuthors": 197,
-    "totalAgents": 167
+    "totalAuthors": 198,
+    "totalAgents": 169
   },
   "commits": [
     {
@@ -26,6 +26,96 @@
           "identity": "Antigravity:gemini-3.6-flash",
           "agent": "Antigravity",
           "model": "gemini-3.6-flash"
+        }
+      ]
+    },
+    {
+      "sha": "99a948382af8a225e2d5e54a7052158cd6281cc6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/99a948382af8a225e2d5e54a7052158cd6281cc6",
+      "authoredAt": "2026-07-28T19:53:25.000+08:00",
+      "committedAt": "2026-07-28T15:07:45.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mwifiex: use the subframe length when parsing A-MSDU TDLS frames",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        },
+        {
+          "raw": "Kimi:K3",
+          "identity": "Kimi:K3",
+          "agent": "Kimi",
+          "model": "K3"
+        }
+      ]
+    },
+    {
+      "sha": "2f067f5a450ea07efd249142a11d940a068fe29c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2f067f5a450ea07efd249142a11d940a068fe29c",
+      "authoredAt": "2026-07-28T19:21:56.000+08:00",
+      "committedAt": "2026-07-28T15:03:42.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: fix tid_tx use-after-free on BA session stop",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        },
+        {
+          "raw": "Kimi:K3",
+          "identity": "Kimi:K3",
+          "agent": "Kimi",
+          "model": "K3"
+        }
+      ]
+    },
+    {
+      "sha": "04513922958005046f8b481c0f77212c556a9c38",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/04513922958005046f8b481c0f77212c556a9c38",
+      "authoredAt": "2026-07-24T04:22:23.000+08:00",
+      "committedAt": "2026-07-28T15:08:57.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: publish PMSR request before starting the driver",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        },
+        {
+          "raw": "Claude:opus-4.8",
+          "identity": "Claude:opus-4.8",
+          "agent": "Claude",
+          "model": "opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "8f2f62855a41d1730fb9e8122912bd2c8d6bed5d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8f2f62855a41d1730fb9e8122912bd2c8d6bed5d",
+      "authoredAt": "2026-07-24T00:43:46.000+08:00",
+      "committedAt": "2026-07-28T14:52:31.000-04:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: mgmt: fix pending command UAF in EIR updates",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.4",
+          "identity": "Codex:gpt-5.4",
+          "agent": "Codex",
+          "model": "gpt-5.4"
         }
       ]
     },
@@ -48,6 +138,48 @@
       ]
     },
     {
+      "sha": "c4740e7f23ff9a8210198d8b4703259e21b9f69d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c4740e7f23ff9a8210198d8b4703259e21b9f69d",
+      "authoredAt": "2026-07-23T14:48:45.000+08:00",
+      "committedAt": "2026-07-28T14:57:23.000-04:00",
+      "authorName": "Jiale Yao",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: L2CAP: fix UAF in l2cap_le_connect_rsp",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Claude:deepseek-v4-pro",
+          "identity": "Claude:deepseek-v4-pro",
+          "agent": "Claude",
+          "model": "deepseek-v4-pro"
+        }
+      ]
+    },
+    {
+      "sha": "0502d5077e419427d80f4d46ba95d0067f5fb916",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0502d5077e419427d80f4d46ba95d0067f5fb916",
+      "authoredAt": "2026-07-23T09:09:28.000+08:00",
+      "committedAt": "2026-07-28T15:34:31.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: validate individual TWT params before driver setup",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        },
+        {
+          "raw": "Claude:opus-4.8",
+          "identity": "Claude:opus-4.8",
+          "agent": "Claude",
+          "model": "opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "d2c6800ad1802bed72a6de1416536737f114f1d6",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d2c6800ad1802bed72a6de1416536737f114f1d6",
       "authoredAt": "2026-07-21T20:55:14.000Z",
@@ -62,6 +194,24 @@
           "identity": "Claude:claude-opus-4.7",
           "agent": "Claude",
           "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "d0a7b48ad0921bd88effaee10bf970ab1d5d0ddd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d0a7b48ad0921bd88effaee10bf970ab1d5d0ddd",
+      "authoredAt": "2026-07-21T22:36:07.000+08:00",
+      "committedAt": "2026-07-28T14:49:20.000-04:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: mgmt: fix UAF in pair command cancellation",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.4",
+          "identity": "Codex:gpt-5.4",
+          "agent": "Codex",
+          "model": "gpt-5.4"
         }
       ]
     },
@@ -1502,6 +1652,42 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "f30415929be8aeb002d557c8d3f7ab2d2188003a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f30415929be8aeb002d557c8d3f7ab2d2188003a",
+      "authoredAt": "2026-07-13T09:59:15.000Z",
+      "committedAt": "2026-07-23T17:58:46.000+02:00",
+      "authorName": "David Lee",
+      "committerName": "Pablo Neira Ayuso",
+      "subject": "netfilter: ipset: do not update comments from kernel-side hash adds",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "db3d0e0e5d4bc5ab4fe445b9f413d1b486508ca5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/db3d0e0e5d4bc5ab4fe445b9f413d1b486508ca5",
+      "authoredAt": "2026-07-12T16:42:01.000-07:00",
+      "committedAt": "2026-07-22T19:47:17.000+02:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Pablo Neira Ayuso",
+      "subject": "netfilter: nf_conntrack_sip: widen NAT rewrite delta to s32 in sip_help_tcp()",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -4178,6 +4364,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "9f7007ee9858c99aa43101bc8352c672fee85644",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9f7007ee9858c99aa43101bc8352c672fee85644",
+      "authoredAt": "2026-06-17T17:57:54.000-04:00",
+      "committedAt": "2026-07-28T11:23:01.000-07:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Tony Nguyen",
+      "subject": "idpf: bound interrupt-vector register fill to the allocated array",
+      "subsystem": "idpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -17660,186 +17864,6 @@
       "committerName": "Arnaldo Carvalho de Melo",
       "subject": "perf header: Validate feature section size and add read path bounds checking",
       "subsystem": "perf header",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "7685cc0f2ea34b341524453badf1933142a0961d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7685cc0f2ea34b341524453badf1933142a0961d",
-      "authoredAt": "2026-05-02T14:28:06.000-03:00",
-      "committedAt": "2026-05-29T11:44:33.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf header: Validate f_attr.ids section before use in perf_session__read_header()",
-      "subsystem": "perf header",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "7d19f2008abf4b5440bfd9962f46f605beab69df",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7d19f2008abf4b5440bfd9962f46f605beab69df",
-      "authoredAt": "2026-05-02T14:24:02.000-03:00",
-      "committedAt": "2026-05-29T11:44:33.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf header: Propagate feature section processing errors",
-      "subsystem": "perf header",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "2bd03e3054a4e21895e6aa20dd8a14c08e37edee",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2bd03e3054a4e21895e6aa20dd8a14c08e37edee",
-      "authoredAt": "2026-05-02T14:20:14.000-03:00",
-      "committedAt": "2026-05-29T11:44:33.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf tools: Bounds check perf_event_attr fields against attr.size before printing",
-      "subsystem": "perf tools",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "c5d415596cb6fbdf6334b06cc87a1a5a268d8725",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c5d415596cb6fbdf6334b06cc87a1a5a268d8725",
-      "authoredAt": "2026-05-02T12:43:03.000-04:00",
-      "committedAt": "2026-05-06T16:27:53.000-04:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: HIDP: serialise l2cap_unregister_user via hidp_session_sem",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7",
-          "identity": "Claude:claude-opus-4-7",
-          "agent": "Claude",
-          "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "3c18544fb18b18fa824d072fc6a22e8d9f6dc070",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3c18544fb18b18fa824d072fc6a22e8d9f6dc070",
-      "authoredAt": "2026-05-02T13:31:40.000-03:00",
-      "committedAt": "2026-05-29T11:44:33.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf header: Validate null-termination in PERF_RECORD_EVENT_UPDATE string fields",
-      "subsystem": "perf header",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "355ca55e3e96ea272b330f3fb80401472f60d18c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/355ca55e3e96ea272b330f3fb80401472f60d18c",
-      "authoredAt": "2026-05-02T13:26:51.000-03:00",
-      "committedAt": "2026-05-29T11:44:33.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf session: Add byte-swap and bounds check for PERF_RECORD_BPF_METADATA events",
-      "subsystem": "perf session",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "1c9d2ac2ead70d4d7c70e7f1276d68ca86e15fa4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1c9d2ac2ead70d4d7c70e7f1276d68ca86e15fa4",
-      "authoredAt": "2026-05-02T13:22:33.000-03:00",
-      "committedAt": "2026-05-29T11:44:34.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf session: Add byte-swap handler for PERF_RECORD_COMPRESSED2",
-      "subsystem": "perf session",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "97cd22555c6dd3c5124ff16417fa66dd7bb844be",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/97cd22555c6dd3c5124ff16417fa66dd7bb844be",
-      "authoredAt": "2026-05-02T13:18:45.000-03:00",
-      "committedAt": "2026-05-29T11:44:33.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf auxtrace: Harden auxtrace_error event handling",
-      "subsystem": "perf auxtrace",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "5682175baf39cddefe6697ee3faed05928c26364",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5682175baf39cddefe6697ee3faed05928c26364",
-      "authoredAt": "2026-05-02T13:14:06.000-03:00",
-      "committedAt": "2026-05-29T11:44:32.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf session: Validate nr fields against event size on both swap and common paths",
-      "subsystem": "perf session",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "6a38b515a5ea7101e8a9e14acf248d14083c632f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6a38b515a5ea7101e8a9e14acf248d14083c632f",
-      "authoredAt": "2026-05-02T13:07:27.000-03:00",
-      "committedAt": "2026-05-29T11:44:32.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf session: Validate HEADER_ATTR attr.size before swapping",
-      "subsystem": "perf session",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4.6-1m",
