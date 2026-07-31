@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-31T17:53:08.972Z",
+  "generatedAt": "2026-07-31T19:53:23.656Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 977,
-    "totalSubsystems": 287,
-    "totalAuthors": 199,
-    "totalAgents": 169
+    "totalSubsystems": 285,
+    "totalAuthors": 200,
+    "totalAgents": 173
   },
   "commits": [
     {
@@ -26,6 +26,60 @@
           "identity": "Antigravity:gemini-3.6-flash",
           "agent": "Antigravity",
           "model": "gemini-3.6-flash"
+        }
+      ]
+    },
+    {
+      "sha": "8d7a30c50c2e58a6839634ed0acde14466d1dc61",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8d7a30c50c2e58a6839634ed0acde14466d1dc61",
+      "authoredAt": "2026-07-28T20:24:32.000Z",
+      "committedAt": "2026-07-29T08:25:27.000+02:00",
+      "authorName": "Sonali Pradhan",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: usb-audio: Clamp frame size in implicit-feedback mode",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Jetski:Gemini-3.6-Flash",
+          "identity": "Jetski:Gemini-3.6-Flash",
+          "agent": "Jetski",
+          "model": "Gemini-3.6-Flash"
+        }
+      ]
+    },
+    {
+      "sha": "d0199ae1666ff9ae2d1d568d64c3430d4c47f0e5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d0199ae1666ff9ae2d1d568d64c3430d4c47f0e5",
+      "authoredAt": "2026-07-28T20:17:16.000Z",
+      "committedAt": "2026-07-29T08:23:32.000+02:00",
+      "authorName": "Sonali Pradhan",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: usb-audio: Fix DMA buffer out-of-bounds write when fill_max is set",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Jetski:Gemini-3.6-Flash",
+          "identity": "Jetski:Gemini-3.6-Flash",
+          "agent": "Jetski",
+          "model": "Gemini-3.6-Flash"
+        }
+      ]
+    },
+    {
+      "sha": "f495b6c4c8594122918552c9be2b51eb71647cd9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f495b6c4c8594122918552c9be2b51eb71647cd9",
+      "authoredAt": "2026-07-28T14:50:01.000+02:00",
+      "committedAt": "2026-07-28T18:29:48.000+02:00",
+      "authorName": "Norbert Szetei",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: pcm: wake linked drain waiters on unlink",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -74,6 +128,42 @@
           "identity": "Kimi:K3",
           "agent": "Kimi",
           "model": "K3"
+        }
+      ]
+    },
+    {
+      "sha": "c2744d5f3aea474513fd2298daecb94a952ce441",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c2744d5f3aea474513fd2298daecb94a952ce441",
+      "authoredAt": "2026-07-26T10:01:45.000+02:00",
+      "committedAt": "2026-07-26T16:11:45.000+02:00",
+      "authorName": "Norbert Szetei",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: timer: Clear SNDRV_TIMER_IFLG_DEAD once the close completes",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "21e19688433452dfbbbe6b2bb670dea6eb92f0f6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/21e19688433452dfbbbe6b2bb670dea6eb92f0f6",
+      "authoredAt": "2026-07-25T08:33:45.000+02:00",
+      "committedAt": "2026-07-25T08:53:34.000+02:00",
+      "authorName": "Norbert Szetei",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: seq: Fix division by zero in initialize_timer()",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -212,6 +302,24 @@
           "identity": "Codex:gpt-5.4",
           "agent": "Codex",
           "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "a9df7939a2c5e3794769fde809ea892e5a414b93",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a9df7939a2c5e3794769fde809ea892e5a414b93",
+      "authoredAt": "2026-07-21T17:19:23.000+02:00",
+      "committedAt": "2026-07-23T12:50:36.000+01:00",
+      "authorName": "Jorn Baayen",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: amd: yc: Add DMI quirk for Acer Aspire AG14-22P",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:claude-fable-5",
+          "identity": "Claude-Code:claude-fable-5",
+          "agent": "Claude-Code",
+          "model": "claude-fable-5"
         }
       ]
     },
@@ -716,6 +824,24 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "45ebe4540817cb540a59e4dc04014ac5dddc9990",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/45ebe4540817cb540a59e4dc04014ac5dddc9990",
+      "authoredAt": "2026-07-16T11:53:25.000Z",
+      "committedAt": "2026-07-28T17:37:32.000-07:00",
+      "authorName": "Jiakai Xu",
+      "committerName": "Andrew Morton",
+      "subject": "riscv/mm: use physical alignment for vmemmap_start_pfn",
+      "subsystem": "riscv/mm",
+      "assistedBy": [
+        {
+          "raw": "YuanSheng:DeepSeek-V4-Flash",
+          "identity": "YuanSheng:DeepSeek-V4-Flash",
+          "agent": "YuanSheng",
+          "model": "DeepSeek-V4-Flash"
         }
       ]
     },
@@ -4148,6 +4274,24 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "af421e9aed3920c7ac88c24daa48606c7112feca",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/af421e9aed3920c7ac88c24daa48606c7112feca",
+      "authoredAt": "2026-06-22T08:47:22.000-04:00",
+      "committedAt": "2026-07-23T21:31:14.000+02:00",
+      "authorName": "Michael Bommarito",
+      "committerName": "Richard Weinberger",
+      "subject": "um: vector: fix use-after-free in vector_mmsg_rx()",
+      "subsystem": "um",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -17726,150 +17870,6 @@
           "identity": "Gemini-CLI:Google Gemini 3",
           "agent": "Gemini-CLI",
           "model": "Google Gemini 3"
-        }
-      ]
-    },
-    {
-      "sha": "9a2ef19b5f5218d35c161f272a901f6c070faf79",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9a2ef19b5f5218d35c161f272a901f6c070faf79",
-      "authoredAt": "2026-05-04T01:12:25.000-07:00",
-      "committedAt": "2026-05-05T21:50:56.000-03:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf probe-finder: Fix libdw API contract violations",
-      "subsystem": "perf probe-finder",
-      "assistedBy": [
-        {
-          "raw": "Gemini-CLI:Google Gemini 3",
-          "identity": "Gemini-CLI:Google Gemini 3",
-          "agent": "Gemini-CLI",
-          "model": "Google Gemini 3"
-        }
-      ]
-    },
-    {
-      "sha": "9c6d535ddb794fb540c3b142ab1d7416d469c1de",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9c6d535ddb794fb540c3b142ab1d7416d469c1de",
-      "authoredAt": "2026-05-04T01:12:24.000-07:00",
-      "committedAt": "2026-05-05T21:49:59.000-03:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf libdw: Fix libdw API contract violations and memory leaks",
-      "subsystem": "perf libdw",
-      "assistedBy": [
-        {
-          "raw": "Gemini-CLI:Google Gemini 3",
-          "identity": "Gemini-CLI:Google Gemini 3",
-          "agent": "Gemini-CLI",
-          "model": "Google Gemini 3"
-        }
-      ]
-    },
-    {
-      "sha": "17e9b4243e76f0a0fe951d30ce990d6081a8b426",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/17e9b4243e76f0a0fe951d30ce990d6081a8b426",
-      "authoredAt": "2026-05-04T01:12:20.000-07:00",
-      "committedAt": "2026-05-05T21:48:45.000-03:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf dwarf-aux: Fix libdw API contract violations",
-      "subsystem": "perf dwarf-aux",
-      "assistedBy": [
-        {
-          "raw": "Gemini-CLI:Google Gemini 3",
-          "identity": "Gemini-CLI:Google Gemini 3",
-          "agent": "Gemini-CLI",
-          "model": "Google Gemini 3"
-        }
-      ]
-    },
-    {
-      "sha": "d37a5467709e627370124d7346ef71ce605ababa",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d37a5467709e627370124d7346ef71ce605ababa",
-      "authoredAt": "2026-05-04T01:12:19.000-07:00",
-      "committedAt": "2026-05-05T21:47:32.000-03:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf dwarf-aux: Fix libdw segmentation fault in cu_walk_functions_at",
-      "subsystem": "perf dwarf-aux",
-      "assistedBy": [
-        {
-          "raw": "Gemini-CLI:Google Gemini 3",
-          "identity": "Gemini-CLI:Google Gemini 3",
-          "agent": "Gemini-CLI",
-          "model": "Google Gemini 3"
-        }
-      ]
-    },
-    {
-      "sha": "48d004c0742dcbc940ffb3b7390540c5a200729e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/48d004c0742dcbc940ffb3b7390540c5a200729e",
-      "authoredAt": "2026-05-03T13:05:51.000-03:00",
-      "committedAt": "2026-05-29T11:44:35.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf kwork: Bounds check work->cpu before indexing cpus_runtime[]",
-      "subsystem": "perf kwork",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "c8ebfd4436aa8a1cf5f13f5ade2e06ddf8bbbda5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c8ebfd4436aa8a1cf5f13f5ade2e06ddf8bbbda5",
-      "authoredAt": "2026-05-03T19:02:22.000+03:00",
-      "committedAt": "2026-05-15T08:24:22.000-06:00",
-      "authorName": "Costa Shulyupin",
-      "committerName": "Jonathan Corbet",
-      "subject": "docs: locking: Fix stale dquot.c path",
-      "subsystem": "docs",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "3ec93875fda94e7f4c466855825c860a2e0ceac2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3ec93875fda94e7f4c466855825c860a2e0ceac2",
-      "authoredAt": "2026-05-02T19:46:21.000-03:00",
-      "committedAt": "2026-05-29T11:44:27.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf zstd: Fix multi-iteration decompression and error handling",
-      "subsystem": "perf zstd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "a2e59fb79f449fb43ca277a413f1e1de3c3a6326",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a2e59fb79f449fb43ca277a413f1e1de3c3a6326",
-      "authoredAt": "2026-05-02T14:55:43.000-03:00",
-      "committedAt": "2026-05-29T11:44:35.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf session: Bound nr_cpus_avail and validate sample CPU",
-      "subsystem": "perf session",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
         }
       ]
     }
