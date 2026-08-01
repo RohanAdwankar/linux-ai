@@ -1,16 +1,70 @@
 {
-  "generatedAt": "2026-08-01T03:53:15.247Z",
+  "generatedAt": "2026-08-01T06:41:05.864Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 977,
-    "totalSubsystems": 283,
+    "totalSubsystems": 286,
     "totalAuthors": 202,
     "totalAgents": 175
   },
   "commits": [
+    {
+      "sha": "260b20d9b78bf002f89088fb62d60e8dee98f6f8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/260b20d9b78bf002f89088fb62d60e8dee98f6f8",
+      "authoredAt": "2026-07-31T23:16:46.000+09:00",
+      "committedAt": "2026-07-31T19:48:27.000-04:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Steven Rostedt",
+      "subject": "ring-buffer: Fix subbuf_ids memory leak in rb_allocate_cpu_buffer() error path",
+      "subsystem": "ring-buffer",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.6-flash",
+          "identity": "Antigravity:gemini-3.6-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.6-flash"
+        }
+      ]
+    },
+    {
+      "sha": "c22c7b735f9810ad276014f788f9aa5c879ec238",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c22c7b735f9810ad276014f788f9aa5c879ec238",
+      "authoredAt": "2026-07-29T09:28:07.000+09:00",
+      "committedAt": "2026-07-29T14:32:11.000-04:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing/filters: Fix false positive match in regex_match_full()",
+      "subsystem": "tracing/filters",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "ac8719969e6c3c54e939834df812bc41f25453cf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ac8719969e6c3c54e939834df812bc41f25453cf",
+      "authoredAt": "2026-07-29T09:27:58.000+09:00",
+      "committedAt": "2026-07-29T14:32:11.000-04:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Check return value of __register_event() in trace_module_add_events()",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
     {
       "sha": "8cf2f40ceb85047ad8a84dffae3bebc9fed18216",
       "htmlUrl": "https://github.com/torvalds/linux/commit/8cf2f40ceb85047ad8a84dffae3bebc9fed18216",
@@ -104,6 +158,42 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "12b80cdbc54cf615b4717a4e8180063408091ea2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/12b80cdbc54cf615b4717a4e8180063408091ea2",
+      "authoredAt": "2026-07-28T21:50:00.000+09:00",
+      "committedAt": "2026-07-29T14:27:55.000-04:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing/mmiotrace: Add NULL check for mmio_trace_array in logging functions",
+      "subsystem": "tracing/mmiotrace",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.6-flash",
+          "identity": "Antigravity:gemini-3.6-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.6-flash"
+        }
+      ]
+    },
+    {
+      "sha": "c786d2bdf1f3964deee192ad942dee2a741c1e2c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c786d2bdf1f3964deee192ad942dee2a741c1e2c",
+      "authoredAt": "2026-07-28T21:49:51.000+09:00",
+      "committedAt": "2026-07-29T14:27:55.000-04:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing/mmiotrace: Reset dropped_count in mmio_reset_data()",
+      "subsystem": "tracing/mmiotrace",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.6-flash",
+          "identity": "Antigravity:gemini-3.6-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.6-flash"
         }
       ]
     },
@@ -17779,96 +17869,6 @@
       "authorName": "Dmitry Torokhov",
       "committerName": "Dmitry Torokhov",
       "subject": "Input: rmi4 - iterative IRQ handler",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "a55a683a8e2bddb5467baab3e597a93022d4ee05",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a55a683a8e2bddb5467baab3e597a93022d4ee05",
-      "authoredAt": "2026-05-04T21:59:35.000-07:00",
-      "committedAt": "2026-06-11T22:39:27.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - fix memory leak in rmi_set_attn_data()",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "2b4b482d5c4c23c668b998a7da985aea0fa4a978",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2b4b482d5c4c23c668b998a7da985aea0fa4a978",
-      "authoredAt": "2026-05-04T21:59:34.000-07:00",
-      "committedAt": "2026-06-11T22:39:27.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - fix num_subpackets overflow in register descriptor",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "a0a87e441238e07c5f7e3de133ef77a9d4229f01",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a0a87e441238e07c5f7e3de133ef77a9d4229f01",
-      "authoredAt": "2026-05-04T21:59:33.000-07:00",
-      "committedAt": "2026-06-11T22:39:27.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - fix type overflow in register counts",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "0adb483fbf2dc43c875cd7550a58b41e92efc52d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0adb483fbf2dc43c875cd7550a58b41e92efc52d",
-      "authoredAt": "2026-05-04T21:59:32.000-07:00",
-      "committedAt": "2026-06-11T22:39:27.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - refactor register descriptor parsing",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "a98518e72439fd42cbfe641c2896543cb088e3d1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a98518e72439fd42cbfe641c2896543cb088e3d1",
-      "authoredAt": "2026-05-04T21:59:31.000-07:00",
-      "committedAt": "2026-06-11T22:39:26.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - fix register descriptor address calculation",
       "subsystem": "input",
       "assistedBy": [
         {
