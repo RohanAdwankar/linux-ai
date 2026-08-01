@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-01T00:13:43.987Z",
+  "generatedAt": "2026-08-01T03:53:15.247Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 977,
-    "totalSubsystems": 285,
-    "totalAuthors": 200,
-    "totalAgents": 173
+    "totalSubsystems": 283,
+    "totalAuthors": 202,
+    "totalAgents": 175
   },
   "commits": [
     {
@@ -62,6 +62,30 @@
           "identity": "Jetski:Gemini-3.6-Flash",
           "agent": "Jetski",
           "model": "Gemini-3.6-Flash"
+        }
+      ]
+    },
+    {
+      "sha": "8419331e64d92a8de5fc4feef0e305f201fb8b33",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8419331e64d92a8de5fc4feef0e305f201fb8b33",
+      "authoredAt": "2026-07-28T13:02:47.000-04:00",
+      "committedAt": "2026-07-29T18:21:24.000-04:00",
+      "authorName": "Leo Li",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Exit idle optimizations before programming",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        },
+        {
+          "raw": "Claude:opus-5",
+          "identity": "Claude:opus-5",
+          "agent": "Claude",
+          "model": "opus-5"
         }
       ]
     },
@@ -132,6 +156,42 @@
       ]
     },
     {
+      "sha": "5e70f6804b4d6256058c360b10e044ee04ea4a4e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5e70f6804b4d6256058c360b10e044ee04ea4a4e",
+      "authoredAt": "2026-07-27T14:37:56.000-04:00",
+      "committedAt": "2026-07-28T20:01:16.000-04:00",
+      "authorName": "Harkirat Gill",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: cap GTT size to physical RAM on APUs",
+      "subsystem": "drm/amdgpu",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4",
+          "identity": "Claude:claude-opus-4",
+          "agent": "Claude",
+          "model": "claude-opus-4"
+        }
+      ]
+    },
+    {
+      "sha": "6395789e4739aa5177bbec0fa0f07ccc38d249b0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6395789e4739aa5177bbec0fa0f07ccc38d249b0",
+      "authoredAt": "2026-07-27T11:32:28.000-03:00",
+      "committedAt": "2026-07-28T09:16:09.000-03:00",
+      "authorName": "Jose Maria Casanova Crespo",
+      "committerName": "Maíra Canal",
+      "subject": "drm/vc4: Supply the overflow slot size in BPOS, not the whole bin BO size",
+      "subsystem": "drm/vc4",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "c2744d5f3aea474513fd2298daecb94a952ce441",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c2744d5f3aea474513fd2298daecb94a952ce441",
       "authoredAt": "2026-07-26T10:01:45.000+02:00",
@@ -164,6 +224,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "1e024d2b41ee32bc06818f7f09a3562c58842cf9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1e024d2b41ee32bc06818f7f09a3562c58842cf9",
+      "authoredAt": "2026-07-24T03:39:42.000-04:00",
+      "committedAt": "2026-07-28T12:04:17.000+09:00",
+      "authorName": "Matt Vollrath",
+      "committerName": "Damien Le Moal",
+      "subject": "ata: libata-eh: Increase STANDBY IMMEDIATE timeout",
+      "subsystem": "ata",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-5-fable",
+          "identity": "Claude:claude-5-fable",
+          "agent": "Claude",
+          "model": "claude-5-fable"
         }
       ]
     },
@@ -1854,6 +1932,24 @@
       ]
     },
     {
+      "sha": "ef19a9cf037957fe3a35df8355c76ff0a63a0436",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ef19a9cf037957fe3a35df8355c76ff0a63a0436",
+      "authoredAt": "2026-07-12T15:31:37.000-07:00",
+      "committedAt": "2026-07-18T10:35:23.000+09:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Damien Le Moal",
+      "subject": "ata: sata_mv: accept 1 or 2 resources in platform probe",
+      "subsystem": "ata",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
+        }
+      ]
+    },
+    {
       "sha": "c2130f6553f4a5cbdc259de069600117a995f197",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c2130f6553f4a5cbdc259de069600117a995f197",
       "authoredAt": "2026-07-12T14:37:28.000-07:00",
@@ -2072,6 +2168,42 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "43c9f7cba9f9fcd09a5e23686ab4f0f67b62d888",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/43c9f7cba9f9fcd09a5e23686ab4f0f67b62d888",
+      "authoredAt": "2026-07-09T16:33:12.000-06:00",
+      "committedAt": "2026-07-28T19:59:22.000-04:00",
+      "authorName": "Alex Hung",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: Pack nested ucode_info struct",
+      "subsystem": "drm/amdgpu",
+      "assistedBy": [
+        {
+          "raw": "Copilot:Claude-Opus-4.8",
+          "identity": "Copilot:Claude-Opus-4.8",
+          "agent": "Copilot",
+          "model": "Claude-Opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "3cbb92ca935f964f6d415cd1c0ac91d061aafa63",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3cbb92ca935f964f6d415cd1c0ac91d061aafa63",
+      "authoredAt": "2026-07-09T16:33:11.000-06:00",
+      "committedAt": "2026-07-28T19:59:22.000-04:00",
+      "authorName": "Alex Hung",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: Fix __rcu fence pointer accesses",
+      "subsystem": "drm/amdgpu",
+      "assistedBy": [
+        {
+          "raw": "Copilot:Claude-Opus-4.8",
+          "identity": "Copilot:Claude-Opus-4.8",
+          "agent": "Copilot",
+          "model": "Claude-Opus-4.8"
         }
       ]
     },
@@ -3212,6 +3344,24 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "c216b39fbbc4b007fd6984cffd85039d49a55154",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c216b39fbbc4b007fd6984cffd85039d49a55154",
+      "authoredAt": "2026-07-03T09:14:49.000+08:00",
+      "committedAt": "2026-07-28T19:59:08.000-04:00",
+      "authorName": "Ray Wu",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Increase HDMI AV mute wait from 2 to 3 frames",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Cursor:Claude-Opus-4.6",
+          "identity": "Cursor:Claude-Opus-4.6",
+          "agent": "Cursor",
+          "model": "Claude-Opus-4.6"
         }
       ]
     },
@@ -16956,6 +17106,222 @@
       ]
     },
     {
+      "sha": "706c93c5813caabbb0d0a576c017d15aeec2c113",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/706c93c5813caabbb0d0a576c017d15aeec2c113",
+      "authoredAt": "2026-05-05T18:22:33.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: validate external BO copy bounds for both stride paths",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "54d56d5b42d2e4c72ba6e365e9774da90698aa22",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/54d56d5b42d2e4c72ba6e365e9774da90698aa22",
+      "authoredAt": "2026-05-05T18:22:32.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: use check_add_overflow for shader size+offset bound",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "e5c3e484e0d84744a9bd9349469cd41dc8666a2f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e5c3e484e0d84744a9bd9349469cd41dc8666a2f",
+      "authoredAt": "2026-05-05T18:22:31.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: skip hash_del_rcu when validation context has no hash table",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "d5ed8749168ad13c0dbaa8300f68d854b6076966",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d5ed8749168ad13c0dbaa8300f68d854b6076966",
+      "authoredAt": "2026-05-05T18:22:30.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: enforce cursor size limits for MOB cursors",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "05eaa887e7b4f40fba425f8a1d7a5a8a043092a6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/05eaa887e7b4f40fba425f8a1d7a5a8a043092a6",
+      "authoredAt": "2026-05-05T18:22:29.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: avoid destroy_workqueue(NULL) on vkms init failure",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "f4f1db96bfd68b81053693ba53405b6f510ac16c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f4f1db96bfd68b81053693ba53405b6f510ac16c",
+      "authoredAt": "2026-05-05T18:22:28.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: bound DMA command body size against suffix pointer",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "85891d174707d8bddcec7a888fb4e1d17def34f3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/85891d174707d8bddcec7a888fb4e1d17def34f3",
+      "authoredAt": "2026-05-05T18:22:27.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: validate DRAW_PRIMITIVES header size before division",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "f739416dc555fa205a785e5135d73fa39b26f35d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f739416dc555fa205a785e5135d73fa39b26f35d",
+      "authoredAt": "2026-05-05T18:22:26.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: drop dma_buf reference on foreign-fd prime import",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "250af2e8c3e90dc978e062a936b633870a22e660",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/250af2e8c3e90dc978e062a936b633870a22e660",
+      "authoredAt": "2026-05-05T18:22:25.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: take fman->lock around fence list mutation in fifo_down",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "f47d542d5912f236273399d7139b522f6950e2e4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f47d542d5912f236273399d7139b522f6950e2e4",
+      "authoredAt": "2026-05-05T18:22:24.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: clamp dirty-page range with min, not max",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "55ec09c9ce10b1272802c7ab6c1be2ea0dbc68db",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/55ec09c9ce10b1272802c7ab6c1be2ea0dbc68db",
+      "authoredAt": "2026-05-05T18:22:23.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: reject DX_BIND_QUERY without a DX context",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
+      "sha": "83195b778f2d109a3a4f3ffaba4dce7e4cdb58aa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/83195b778f2d109a3a4f3ffaba4dce7e4cdb58aa",
+      "authoredAt": "2026-05-05T18:22:22.000-04:00",
+      "committedAt": "2026-07-27T11:29:24.000-04:00",
+      "authorName": "Zack Rusin",
+      "committerName": "Zack Rusin",
+      "subject": "drm/vmwgfx: fix guest_memory_dirty bitfield clobbered as size",
+      "subsystem": "drm/vmwgfx",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.7",
+          "identity": "Claude:claude-opus-4.7",
+          "agent": "Claude",
+          "model": "claude-opus-4.7"
+        }
+      ]
+    },
+    {
       "sha": "af3f2f5db2659a13c256d2fb096c473eb50412ef",
       "htmlUrl": "https://github.com/torvalds/linux/commit/af3f2f5db2659a13c256d2fb096c473eb50412ef",
       "authoredAt": "2026-05-05T10:20:18.000-06:00",
@@ -17510,366 +17876,6 @@
           "identity": "Gemini:gemini-3.1-pro",
           "agent": "Gemini",
           "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "29480acd8f95d4267702cefc48e216b31de03cf9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/29480acd8f95d4267702cefc48e216b31de03cf9",
-      "authoredAt": "2026-05-04T17:20:44.000-06:00",
-      "committedAt": "2026-06-03T13:31:41.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Enable gcov coverage for amdgpu_dm KUnit builds",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Sonnet-4.6",
-          "identity": "Copilot:Claude-Sonnet-4.6",
-          "agent": "Copilot",
-          "model": "Claude-Sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "a18908b5056b8fdb2c44505f0c57ff05865740a3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a18908b5056b8fdb2c44505f0c57ff05865740a3",
-      "authoredAt": "2026-05-04T18:26:07.000-03:00",
-      "committedAt": "2026-05-29T11:44:23.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf zstd: Fix compression error path in zstd_compress_stream_to_records()",
-      "subsystem": "perf zstd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "86d2b20644b11d21fe52c596e6e922b4590a3e3f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/86d2b20644b11d21fe52c596e6e922b4590a3e3f",
-      "authoredAt": "2026-05-04T16:14:11.000-04:00",
-      "committedAt": "2026-05-19T12:13:29.000-04:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Validate GPIO pin LUT table size before iterating",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4-6",
-          "identity": "GitHub Copilot:claude-opus-4-6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "ba5e95b43b773ae1bf1f66ee6b31eb774e65afe3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ba5e95b43b773ae1bf1f66ee6b31eb774e65afe3",
-      "authoredAt": "2026-05-04T16:14:11.000-04:00",
-      "committedAt": "2026-05-19T11:45:41.000-04:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Validate GPIO pin LUT table size before iterating",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4-6",
-          "identity": "GitHub Copilot:claude-opus-4-6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "5a7f0ef90195940c54b0f5bb85b87da55f038c69",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5a7f0ef90195940c54b0f5bb85b87da55f038c69",
-      "authoredAt": "2026-05-04T15:51:13.000-04:00",
-      "committedAt": "2026-06-03T13:32:55.000-04:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Clamp VBIOS HDMI retimer register count to array size",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "fb0707ce00eef4e2d60c3020e1c0432739703e4a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fb0707ce00eef4e2d60c3020e1c0432739703e4a",
-      "authoredAt": "2026-05-04T15:51:13.000-04:00",
-      "committedAt": "2026-06-03T14:43:49.000-04:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Clamp VBIOS HDMI retimer register count to array size",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "b7710233c16c1f42e0b58a1f0485658fc4fa61c1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b7710233c16c1f42e0b58a1f0485658fc4fa61c1",
-      "authoredAt": "2026-05-04T11:54:47.000-07:00",
-      "committedAt": "2026-05-07T10:12:00.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: atmel_mxt_ts - use __free() for obuf in mxt_object_show",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "a5fd88a5d63f812422e69682f3cb663d9d7f3e9c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a5fd88a5d63f812422e69682f3cb663d9d7f3e9c",
-      "authoredAt": "2026-05-04T11:54:46.000-07:00",
-      "committedAt": "2026-05-07T10:09:54.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: atmel_mxt_ts - check mem_size before calculating config memory size",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "baa0210fb6a9dc3882509a9411b6d284d88fe30e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/baa0210fb6a9dc3882509a9411b6d284d88fe30e",
-      "authoredAt": "2026-05-04T11:54:45.000-07:00",
-      "committedAt": "2026-05-07T10:09:05.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: atmel_mxt_ts - fix boundary check in mxt_prepare_cfg_mem",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "08f0e65e784c4b20e6e620dd4f68d8636073a3d2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/08f0e65e784c4b20e6e620dd4f68d8636073a3d2",
-      "authoredAt": "2026-05-04T10:51:47.000-06:00",
-      "committedAt": "2026-05-15T18:08:37.000+08:00",
-      "authorName": "Tycho Andersen (AMD)",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: ccp - Do not initialize SNP for ioctl(SNP_CONFIG)",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro-preview",
-          "identity": "Gemini:gemini-3.1-pro-preview",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro-preview"
-        }
-      ]
-    },
-    {
-      "sha": "f91e9dbb5845d1e5abf1028e6df57dcf61583e1b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f91e9dbb5845d1e5abf1028e6df57dcf61583e1b",
-      "authoredAt": "2026-05-04T10:51:46.000-06:00",
-      "committedAt": "2026-05-15T18:08:37.000+08:00",
-      "authorName": "Tycho Andersen (AMD)",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: ccp - Do not initialize SNP for ioctl(SNP_VLEK_LOAD)",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro-preview",
-          "identity": "Gemini:gemini-3.1-pro-preview",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro-preview"
-        }
-      ]
-    },
-    {
-      "sha": "5a1364da2f04217a36e2fdfa2db4ee025b383a20",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5a1364da2f04217a36e2fdfa2db4ee025b383a20",
-      "authoredAt": "2026-05-04T10:51:45.000-06:00",
-      "committedAt": "2026-05-15T18:08:37.000+08:00",
-      "authorName": "Tycho Andersen (AMD)",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: ccp - Do not initialize SNP for ioctl(SNP_COMMIT)",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro-preview",
-          "identity": "Gemini:gemini-3.1-pro-preview",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro-preview"
-        }
-      ]
-    },
-    {
-      "sha": "fb1758e74b8061aacfbce7bbb7a7cc650537e167",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fb1758e74b8061aacfbce7bbb7a7cc650537e167",
-      "authoredAt": "2026-05-04T10:51:44.000-06:00",
-      "committedAt": "2026-05-15T18:08:37.000+08:00",
-      "authorName": "Tycho Andersen (AMD)",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: ccp - Do not initialize SNP for SEV ioctls",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro-preview",
-          "identity": "Gemini:gemini-3.1-pro-preview",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro-preview"
-        }
-      ]
-    },
-    {
-      "sha": "cd86529ec61474a38c3837fb7823790a7c3f8cce",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cd86529ec61474a38c3837fb7823790a7c3f8cce",
-      "authoredAt": "2026-05-04T11:14:45.000-04:00",
-      "committedAt": "2026-05-19T12:13:07.000-04:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Fix integer overflow in bios_get_image()",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "d40fb392af659c4a02b560319f226842f6ec1a95",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d40fb392af659c4a02b560319f226842f6ec1a95",
-      "authoredAt": "2026-05-04T11:14:45.000-04:00",
-      "committedAt": "2026-05-19T11:45:41.000-04:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Fix integer overflow in bios_get_image()",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-opus-4.6",
-          "identity": "GitHub Copilot:claude-opus-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "f11a797cb6a8707be7e18603519406076c90efe3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f11a797cb6a8707be7e18603519406076c90efe3",
-      "authoredAt": "2026-05-04T11:17:19.000-03:00",
-      "committedAt": "2026-05-29T11:44:32.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf cpumap: Reject RANGE_CPUS with start_cpu > end_cpu",
-      "subsystem": "perf cpumap",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "63b02a9409cb5180398491b093e48bcb5315f5fb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/63b02a9409cb5180398491b093e48bcb5315f5fb",
-      "authoredAt": "2026-05-04T12:55:17.000Z",
-      "committedAt": "2026-06-02T15:22:20.000-07:00",
-      "authorName": "Jose Fernandez (Anthropic)",
-      "committerName": "Andrew Morton",
-      "subject": "mm: swap_cgroup: fix NULL deref in lookup_swap_cgroup_id on swapless host",
-      "subsystem": "mm",
-      "assistedBy": [
-        {
-          "raw": "Claude:unspecified",
-          "identity": "Claude:unspecified",
-          "agent": "Claude",
-          "model": "unspecified"
-        }
-      ]
-    },
-    {
-      "sha": "1a646a28a0063f1fb31589f7190f2b4fb613e413",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1a646a28a0063f1fb31589f7190f2b4fb613e413",
-      "authoredAt": "2026-05-04T07:37:22.000-03:00",
-      "committedAt": "2026-05-29T11:44:19.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf tools: Fix event_contains() macro to verify full field extent",
-      "subsystem": "perf tools",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "31088ccf0312b1a547046f1f69890ede07834a30",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/31088ccf0312b1a547046f1f69890ede07834a30",
-      "authoredAt": "2026-05-04T01:12:27.000-07:00",
-      "committedAt": "2026-05-05T21:52:51.000-03:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf debuginfo: Fix libdw API contract violations",
-      "subsystem": "perf debuginfo",
-      "assistedBy": [
-        {
-          "raw": "Gemini-CLI:Google Gemini 3",
-          "identity": "Gemini-CLI:Google Gemini 3",
-          "agent": "Gemini-CLI",
-          "model": "Google Gemini 3"
-        }
-      ]
-    },
-    {
-      "sha": "5aa1941900050a2c80d29bc7ee0dfbddbad8f294",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5aa1941900050a2c80d29bc7ee0dfbddbad8f294",
-      "authoredAt": "2026-05-04T01:12:26.000-07:00",
-      "committedAt": "2026-05-05T21:51:59.000-03:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf annotate-data: Fix libdw API contract violations",
-      "subsystem": "perf annotate-data",
-      "assistedBy": [
-        {
-          "raw": "Gemini-CLI:Google Gemini 3",
-          "identity": "Gemini-CLI:Google Gemini 3",
-          "agent": "Gemini-CLI",
-          "model": "Google Gemini 3"
         }
       ]
     }
