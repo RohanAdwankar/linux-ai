@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T18:14:28.845Z",
+  "generatedAt": "2026-08-02T19:37:05.445Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,7 +7,7 @@
   "stats": {
     "totalCommits": 976,
     "totalSubsystems": 286,
-    "totalAuthors": 202,
+    "totalAuthors": 203,
     "totalAgents": 176
   },
   "commits": [
@@ -26,6 +26,24 @@
           "identity": "Antigravity:gemini-3.6-flash",
           "agent": "Antigravity",
           "model": "gemini-3.6-flash"
+        }
+      ]
+    },
+    {
+      "sha": "a0188cc133696627857d16054e43f9ebc7efc821",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a0188cc133696627857d16054e43f9ebc7efc821",
+      "authoredAt": "2026-07-29T03:21:32.000+02:00",
+      "committedAt": "2026-07-29T17:35:05.000-06:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Paul Walmsley",
+      "subject": "riscv: mm: Fix out-of-bounds page-table walk during memory hot-remove",
+      "subsystem": "riscv",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
         }
       ]
     },
@@ -1074,6 +1092,24 @@
       ]
     },
     {
+      "sha": "c1dea15f819cded9b3faf58f8bec72323568b6e6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c1dea15f819cded9b3faf58f8bec72323568b6e6",
+      "authoredAt": "2026-07-16T15:58:48.000+09:00",
+      "committedAt": "2026-07-26T15:31:33.000-04:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: libiscsi_tcp: Bound SCSI Response data segment to the connection buffer",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "4416f8a9ed5f49256dc69c664f1386b496ca16a1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/4416f8a9ed5f49256dc69c664f1386b496ca16a1",
       "authoredAt": "2026-07-16T09:26:06.000+08:00",
@@ -1668,6 +1704,24 @@
       ]
     },
     {
+      "sha": "98b87885de4b7f605533a2860685f5689fce8e82",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/98b87885de4b7f605533a2860685f5689fce8e82",
+      "authoredAt": "2026-07-14T19:49:34.000+09:00",
+      "committedAt": "2026-07-26T15:21:39.000-04:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: libiscsi: Fix stale-data leak into the SCSI sense buffer",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "faaddd811c5099f11a5f52e68a6b31a5898cda4f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/faaddd811c5099f11a5f52e68a6b31a5898cda4f",
       "authoredAt": "2026-07-14T19:42:30.000+09:00",
@@ -2132,6 +2186,24 @@
           "identity": "opencode:big-pickle",
           "agent": "opencode",
           "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "93dde0bf2f39a0f9f57fd610aa3201ce5b753433",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/93dde0bf2f39a0f9f57fd610aa3201ce5b753433",
+      "authoredAt": "2026-07-12T20:37:39.000+02:00",
+      "committedAt": "2026-07-28T21:52:08.000-04:00",
+      "authorName": "Ibrahim Hashimov",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: scsi_debug: Fix REPORT ZONES alloc_len underflow OOB write",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "AuditCode-AI:2026.07",
+          "identity": "AuditCode-AI:2026.07",
+          "agent": "AuditCode-AI",
+          "model": "2026.07"
         }
       ]
     },
@@ -5774,6 +5846,24 @@
           "identity": "Gemini:gemini-3.1-pro-preview",
           "agent": "Gemini",
           "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "f51fed61eea0daba2f95f1a6074085e4cd513c7b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f51fed61eea0daba2f95f1a6074085e4cd513c7b",
+      "authoredAt": "2026-06-12T11:24:43.000-05:00",
+      "committedAt": "2026-07-29T13:24:24.000-06:00",
+      "authorName": "Anirudh Srinivasan",
+      "committerName": "Paul Walmsley",
+      "subject": "riscv: drop __init from vec_check_unaligned_access_speed_all_cpus",
+      "subsystem": "riscv",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
         }
       ]
     },
@@ -17767,96 +17857,6 @@
       "authorName": "Dmitry Torokhov",
       "committerName": "Dmitry Torokhov",
       "subject": "Input: rmi4 - change reg_size type to u32",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "3d353b06d1151badda2fed7e02704f058cfbc812",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3d353b06d1151badda2fed7e02704f058cfbc812",
-      "authoredAt": "2026-05-04T21:59:42.000-07:00",
-      "committedAt": "2026-06-11T22:39:28.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - refactor F12 probe function",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "f7e1920f6ad997e98345af246d30f46493691242",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f7e1920f6ad997e98345af246d30f46493691242",
-      "authoredAt": "2026-05-04T21:59:41.000-07:00",
-      "committedAt": "2026-06-11T22:39:28.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - use kzalloc_flex() for struct rmi_function",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "58d42ec10b7324fa2965d74b9bfbacac3af55c70",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/58d42ec10b7324fa2965d74b9bfbacac3af55c70",
-      "authoredAt": "2026-05-04T21:59:40.000-07:00",
-      "committedAt": "2026-06-11T22:39:28.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - refactor function allocation and registration",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "4e5336f303e2845a82735b5578f7c0e4a175f8c5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4e5336f303e2845a82735b5578f7c0e4a175f8c5",
-      "authoredAt": "2026-05-04T21:59:39.000-07:00",
-      "committedAt": "2026-06-11T22:39:28.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - use local presence map in rmi_read_register_desc()",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "97b16e777ba49a25a1d3883ff7f7d38e61648bb0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/97b16e777ba49a25a1d3883ff7f7d38e61648bb0",
-      "authoredAt": "2026-05-04T21:59:38.000-07:00",
-      "committedAt": "2026-06-11T22:39:28.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - fix limit in rmi_register_desc_has_subpacket()",
       "subsystem": "input",
       "assistedBy": [
         {
