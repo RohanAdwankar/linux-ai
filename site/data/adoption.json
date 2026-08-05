@@ -1,34 +1,16 @@
 {
-  "generatedAt": "2026-08-05T09:56:48.369Z",
+  "generatedAt": "2026-08-05T12:17:24.411Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 976,
-    "totalSubsystems": 290,
-    "totalAuthors": 207,
-    "totalAgents": 179
+    "totalSubsystems": 287,
+    "totalAuthors": 204,
+    "totalAgents": 177
   },
   "commits": [
-    {
-      "sha": "de845981da67a6b049080c87e605130b0c30adc5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/de845981da67a6b049080c87e605130b0c30adc5",
-      "authoredAt": "2026-08-03T09:45:14.000+08:00",
-      "committedAt": "2026-08-03T23:08:15.000-04:00",
-      "authorName": "Jun Yang",
-      "committerName": "Michael S. Tsirkin",
-      "subject": "vhost: reset the vring metadata cache on vring reconfiguration",
-      "subsystem": "vhost",
-      "assistedBy": [
-        {
-          "raw": "tencentos-corvus-ai:kimi-k3",
-          "identity": "tencentos-corvus-ai:kimi-k3",
-          "agent": "tencentos-corvus-ai",
-          "model": "kimi-k3"
-        }
-      ]
-    },
     {
       "sha": "260b20d9b78bf002f89088fb62d60e8dee98f6f8",
       "htmlUrl": "https://github.com/torvalds/linux/commit/260b20d9b78bf002f89088fb62d60e8dee98f6f8",
@@ -44,24 +26,6 @@
           "identity": "Antigravity:gemini-3.6-flash",
           "agent": "Antigravity",
           "model": "gemini-3.6-flash"
-        }
-      ]
-    },
-    {
-      "sha": "a0188cc133696627857d16054e43f9ebc7efc821",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a0188cc133696627857d16054e43f9ebc7efc821",
-      "authoredAt": "2026-07-29T03:21:32.000+02:00",
-      "committedAt": "2026-07-29T17:35:05.000-06:00",
-      "authorName": "Karl Mehltretter",
-      "committerName": "Paul Walmsley",
-      "subject": "riscv: mm: Fix out-of-bounds page-table walk during memory hot-remove",
-      "subsystem": "riscv",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
         }
       ]
     },
@@ -314,24 +278,6 @@
           "identity": "Claude:claude-opus-4.8",
           "agent": "Claude",
           "model": "claude-opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "d876c493fc4b811941bfeb4c80beb2dfc4bf025e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d876c493fc4b811941bfeb4c80beb2dfc4bf025e",
-      "authoredAt": "2026-07-27T16:18:41.000+08:00",
-      "committedAt": "2026-08-03T23:08:15.000-04:00",
-      "authorName": "Linfeng Sun",
-      "committerName": "Michael S. Tsirkin",
-      "subject": "vhost-scsi: Validate T10 PI scatterlist counts",
-      "subsystem": "vhost-scsi",
-      "assistedBy": [
-        {
-          "raw": "OpenAI-Codex:GPT-5",
-          "identity": "OpenAI-Codex:GPT-5",
-          "agent": "OpenAI-Codex",
-          "model": "GPT-5"
         }
       ]
     },
@@ -614,24 +560,6 @@
           "identity": "Codex:GPT-5",
           "agent": "Codex",
           "model": "GPT-5"
-        }
-      ]
-    },
-    {
-      "sha": "6d4514ca9cdf61fec4ec634cf50386f6f7e69748",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6d4514ca9cdf61fec4ec634cf50386f6f7e69748",
-      "authoredAt": "2026-07-21T00:31:48.000Z",
-      "committedAt": "2026-08-02T09:57:35.000+02:00",
-      "authorName": "Keno Fischer",
-      "committerName": "Ingo Molnar",
-      "subject": "futex: Prevent robust futex exit race some more",
-      "subsystem": "futex",
-      "assistedBy": [
-        {
-          "raw": "ClaudeCode:claude-fable-5 tla+",
-          "identity": "ClaudeCode:claude-fable-5 tla+",
-          "agent": "ClaudeCode",
-          "model": "claude-fable-5 tla+"
         }
       ]
     },
@@ -1142,24 +1070,6 @@
           "identity": "0sec:multi-model",
           "agent": "0sec",
           "model": "multi-model"
-        }
-      ]
-    },
-    {
-      "sha": "c1dea15f819cded9b3faf58f8bec72323568b6e6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c1dea15f819cded9b3faf58f8bec72323568b6e6",
-      "authoredAt": "2026-07-16T15:58:48.000+09:00",
-      "committedAt": "2026-07-26T15:31:33.000-04:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Martin K. Petersen",
-      "subject": "scsi: libiscsi_tcp: Bound SCSI Response data segment to the connection buffer",
-      "subsystem": "scsi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -1758,24 +1668,6 @@
       ]
     },
     {
-      "sha": "98b87885de4b7f605533a2860685f5689fce8e82",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/98b87885de4b7f605533a2860685f5689fce8e82",
-      "authoredAt": "2026-07-14T19:49:34.000+09:00",
-      "committedAt": "2026-07-26T15:21:39.000-04:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Martin K. Petersen",
-      "subject": "scsi: libiscsi: Fix stale-data leak into the SCSI sense buffer",
-      "subsystem": "scsi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
       "sha": "faaddd811c5099f11a5f52e68a6b31a5898cda4f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/faaddd811c5099f11a5f52e68a6b31a5898cda4f",
       "authoredAt": "2026-07-14T19:42:30.000+09:00",
@@ -1802,6 +1694,42 @@
       "committerName": "Johannes Berg",
       "subject": "wifi: wilc1000: validate assoc response length before subtracting header",
       "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "4c4c97b60a5e978121d9ee8cb0ab3916e5d6a8de",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4c4c97b60a5e978121d9ee8cb0ab3916e5d6a8de",
+      "authoredAt": "2026-07-14T17:17:58.000+08:00",
+      "committedAt": "2026-07-21T13:25:06.000+02:00",
+      "authorName": "Huihui Huang",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: wilc1000: validate assoc response length before subtracting header",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "2c4dc0ed50b05cd847a4b34b8cebf0775f19aeb9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2c4dc0ed50b05cd847a4b34b8cebf0775f19aeb9",
+      "authoredAt": "2026-07-14T10:29:23.000+02:00",
+      "committedAt": "2026-07-14T11:08:59.000+02:00",
+      "authorName": "Norbert Szetei",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: seq: close a re-opened queue timer in the destructor",
+      "subsystem": "alsa",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -1848,6 +1776,42 @@
       ]
     },
     {
+      "sha": "56441f9e08ad68697295b8835266d2bc48ab59b5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/56441f9e08ad68697295b8835266d2bc48ab59b5",
+      "authoredAt": "2026-07-13T23:24:40.000-07:00",
+      "committedAt": "2026-07-16T16:32:45.000+02:00",
+      "authorName": "Matthew Brost",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/vf: Fix VF CCS attach/detach race with in-flight BO moves",
+      "subsystem": "drm/xe/vf",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-sonnet-5",
+          "identity": "GitHub_Copilot:claude-sonnet-5",
+          "agent": "GitHub_Copilot",
+          "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "59c462b0f5cfa107794228051724b34ae9334168",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/59c462b0f5cfa107794228051724b34ae9334168",
+      "authoredAt": "2026-07-13T23:07:30.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: don't zap bmbt forks if they are MAXLEVELS tall",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "59c462b0f5cfa107794228051724b34ae9334168",
       "htmlUrl": "https://github.com/torvalds/linux/commit/59c462b0f5cfa107794228051724b34ae9334168",
       "authoredAt": "2026-07-13T23:07:30.000-07:00",
@@ -1873,6 +1837,42 @@
       "authorName": "Darrick J. Wong",
       "committerName": "Carlos Maiolino",
       "subject": "xfs: clamp timestamp nanoseconds correctly",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "15e38a9366b31d3d61081ead115f1dff59379e24",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/15e38a9366b31d3d61081ead115f1dff59379e24",
+      "authoredAt": "2026-07-13T23:07:15.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: clamp timestamp nanoseconds correctly",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LOLLM # finding obvious bugs",
+          "identity": "LOLLM # finding obvious bugs",
+          "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ba150ce63453ccd74bae1404c1dfedbd01ecfd55",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ba150ce63453ccd74bae1404c1dfedbd01ecfd55",
+      "authoredAt": "2026-07-13T23:06:59.000-07:00",
+      "committedAt": "2026-07-14T11:01:47.000+02:00",
+      "authorName": "Darrick J. Wong",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: fully check the parent handle when it points to the rootdir",
       "subsystem": "xfs",
       "assistedBy": [
         {
