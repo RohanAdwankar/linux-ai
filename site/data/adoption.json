@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T15:28:39.276Z",
+  "generatedAt": "2026-08-05T17:54:14.808Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,7 +7,7 @@
   "stats": {
     "totalCommits": 976,
     "totalSubsystems": 290,
-    "totalAuthors": 207,
+    "totalAuthors": 208,
     "totalAgents": 179
   },
   "commits": [
@@ -350,6 +350,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "bab4d538f8485e0d48538fcb82b285df3779278e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bab4d538f8485e0d48538fcb82b285df3779278e",
+      "authoredAt": "2026-07-25T14:57:22.000-07:00",
+      "committedAt": "2026-07-29T15:42:57.000-07:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Florian Fainelli",
+      "subject": "ARM: dts: BCM5301X: fix PCIe controller 2 second interrupt",
+      "subsystem": "arm",
+      "assistedBy": [
+        {
+          "raw": "opencode:big-pickle",
+          "identity": "opencode:big-pickle",
+          "agent": "opencode",
+          "model": "big-pickle"
         }
       ]
     },
@@ -6380,6 +6398,42 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "52c7084c8fe57c259e50ff0a7d4f99ccecfc4c7a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/52c7084c8fe57c259e50ff0a7d4f99ccecfc4c7a",
+      "authoredAt": "2026-06-11T19:00:44.000Z",
+      "committedAt": "2026-06-28T20:02:15.000-05:00",
+      "authorName": "Bjorn Andersson",
+      "committerName": "Bjorn Andersson",
+      "subject": "arm64: dts: qcom: glymur: fix PCIe SMMU interrupts",
+      "subsystem": "arm64",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "a74a98f956ef8e075f28d58507bc5dad7f937fb4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a74a98f956ef8e075f28d58507bc5dad7f937fb4",
+      "authoredAt": "2026-06-11T17:22:37.000Z",
+      "committedAt": "2026-06-28T20:02:17.000-05:00",
+      "authorName": "Bjorn Andersson",
+      "committerName": "Bjorn Andersson",
+      "subject": "arm64: dts: qcom: glymur: fix QUP serial engine IRQs",
+      "subsystem": "arm64",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
         }
       ]
     },
@@ -17810,60 +17864,6 @@
           "identity": "gemini:gemini-3.1-pro-preview",
           "agent": "gemini",
           "model": "gemini-3.1-pro-preview"
-        }
-      ]
-    },
-    {
-      "sha": "0655e58946e480cb99fb276e87280d0715b32ada",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0655e58946e480cb99fb276e87280d0715b32ada",
-      "authoredAt": "2026-05-04T21:59:49.000-07:00",
-      "committedAt": "2026-06-11T22:39:29.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - propagate proper error code in F12 sensor tuning",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "7d8be1ecf44f032f3fb444088b43b933ead9b00d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7d8be1ecf44f032f3fb444088b43b933ead9b00d",
-      "authoredAt": "2026-05-04T21:59:48.000-07:00",
-      "committedAt": "2026-06-11T22:39:29.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - simplify size calculations in F12",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "57d9212421e3a10fc336bed732e70b8521fea1e6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/57d9212421e3a10fc336bed732e70b8521fea1e6",
-      "authoredAt": "2026-05-04T21:59:47.000-07:00",
-      "committedAt": "2026-06-11T22:39:29.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: rmi4 - use sizeof(*ptr) and idiomatic checks in f12 allocators",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
         }
       ]
     }
