@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-07T03:20:03.916Z",
+  "generatedAt": "2026-08-07T05:51:01.237Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 976,
-    "totalSubsystems": 289,
+    "totalSubsystems": 291,
     "totalAuthors": 209,
-    "totalAgents": 180
+    "totalAgents": 179
   },
   "commits": [
     {
@@ -714,6 +714,24 @@
       ]
     },
     {
+      "sha": "5deb65c34e682e7c5f5df417a70e223e8fcc5f5a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5deb65c34e682e7c5f5df417a70e223e8fcc5f5a",
+      "authoredAt": "2026-07-26T09:48:15.000+08:00",
+      "committedAt": "2026-08-04T20:02:04.000-07:00",
+      "authorName": "liyouhong",
+      "committerName": "Andrew Morton",
+      "subject": "mm/damon/ops-common: putback folios on invalid migrate nid",
+      "subsystem": "mm/damon/ops-common",
+      "assistedBy": [
+        {
+          "raw": "Cursor:grok-4.5",
+          "identity": "Cursor:grok-4.5",
+          "agent": "Cursor",
+          "model": "grok-4.5"
+        }
+      ]
+    },
+    {
       "sha": "bab4d538f8485e0d48538fcb82b285df3779278e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/bab4d538f8485e0d48538fcb82b285df3779278e",
       "authoredAt": "2026-07-25T14:57:22.000-07:00",
@@ -866,6 +884,24 @@
           "identity": "Claude:opus-4.8",
           "agent": "Claude",
           "model": "opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "8db4bab826ccc9ec10fa41736a48031cd338d392",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8db4bab826ccc9ec10fa41736a48031cd338d392",
+      "authoredAt": "2026-07-23T00:48:13.000+08:00",
+      "committedAt": "2026-08-04T20:02:03.000-07:00",
+      "authorName": "Zhiling Zou",
+      "committerName": "Andrew Morton",
+      "subject": "mm/page_table_check: skip special zero mappings",
+      "subsystem": "mm/page_table_check",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.4",
+          "identity": "Codex:gpt-5.4",
+          "agent": "Codex",
+          "model": "gpt-5.4"
         }
       ]
     },
@@ -17828,42 +17864,6 @@
           "identity": "Gemini:gemini-3.1-pro-preview",
           "agent": "Gemini",
           "model": "gemini-3.1-pro-preview"
-        }
-      ]
-    },
-    {
-      "sha": "37d65384aa6f9cbe45f4052b13b378af1aab3e95",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/37d65384aa6f9cbe45f4052b13b378af1aab3e95",
-      "authoredAt": "2026-05-06T04:39:16.000+03:00",
-      "committedAt": "2026-06-09T10:15:20.000Z",
-      "authorName": "ElXreno",
-      "committerName": "Felix Fietkau",
-      "subject": "wifi: mt76: mt7925: don't disable AP BSS when removing TDLS peer",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7 bpftrace",
-          "identity": "Claude:claude-opus-4-7 bpftrace",
-          "agent": "Claude",
-          "model": "claude-opus-4-7 bpftrace"
-        }
-      ]
-    },
-    {
-      "sha": "5b7154f934c4c1b86e0fbfd95ad570a25bd08662",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5b7154f934c4c1b86e0fbfd95ad570a25bd08662",
-      "authoredAt": "2026-05-06T04:39:15.000+03:00",
-      "committedAt": "2026-06-09T10:15:20.000Z",
-      "authorName": "ElXreno",
-      "committerName": "Felix Fietkau",
-      "subject": "wifi: mt76: route TDLS-peer frames as 3-addr non-DS in HW encap",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7 bpftrace tcpdump",
-          "identity": "Claude:claude-opus-4-7 bpftrace tcpdump",
-          "agent": "Claude",
-          "model": "claude-opus-4-7 bpftrace tcpdump"
         }
       ]
     }
