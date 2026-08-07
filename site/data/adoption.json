@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-07T21:56:23.431Z",
+  "generatedAt": "2026-08-07T22:55:45.985Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 977,
-    "totalSubsystems": 291,
+    "totalCommits": 976,
+    "totalSubsystems": 289,
     "totalAuthors": 212,
-    "totalAgents": 180
+    "totalAgents": 179
   },
   "commits": [
     {
@@ -206,6 +206,48 @@
           "identity": "Claude:claude-fable-5",
           "agent": "Claude",
           "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
+      "sha": "8099bd08646544730ba8c9fc7c0ebf6773206e19",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8099bd08646544730ba8c9fc7c0ebf6773206e19",
+      "authoredAt": "2026-07-30T05:32:00.000+02:00",
+      "committedAt": "2026-08-06T14:34:44.000-04:00",
+      "authorName": "David Weber",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: allow self-refresh exit while entry is blocked",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        },
+        {
+          "raw": "Claude:opus-5",
+          "identity": "Claude:opus-5",
+          "agent": "Claude",
+          "model": "opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "e40ff9840fa8a633d149f0242df10cae5e518062",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e40ff9840fa8a633d149f0242df10cae5e518062",
+      "authoredAt": "2026-07-29T16:23:58.000+05:30",
+      "committedAt": "2026-08-06T14:32:54.000-04:00",
+      "authorName": "Lijo Lazar",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: Allocate coredump ring buffers per ring",
+      "subsystem": "drm/amdgpu",
+      "assistedBy": [
+        {
+          "raw": "Claude Code",
+          "identity": "Claude Code",
+          "agent": "Claude Code",
+          "model": ""
         }
       ]
     },
@@ -17828,60 +17870,6 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "9175f49330d199c03eb970f799526c9d479b5f1a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9175f49330d199c03eb970f799526c9d479b5f1a",
-      "authoredAt": "2026-05-07T11:16:06.000+02:00",
-      "committedAt": "2026-05-07T14:07:36.000-04:00",
-      "authorName": "Francois Dugast",
-      "committerName": "Rodrigo Vivi",
-      "subject": "drm: Drop HPAGE_PMD_SIZE dependency in dma_iova_try_alloc calls",
-      "subsystem": "drm",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-sonnet-4.6 # Documentation",
-          "identity": "GitHub Copilot:claude-sonnet-4.6 # Documentation",
-          "agent": "GitHub Copilot",
-          "model": "claude-sonnet-4.6 # Documentation"
-        }
-      ]
-    },
-    {
-      "sha": "46d9c16115cf046ce564f0230126cae785f73826",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/46d9c16115cf046ce564f0230126cae785f73826",
-      "authoredAt": "2026-05-07T02:32:32.000Z",
-      "committedAt": "2026-05-15T08:34:13.000-06:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Jonathan Corbet",
-      "subject": "scripts/kernel-doc: Detect mismatched inline member documentation tags",
-      "subsystem": "scripts/kernel-doc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "8468c8aafe8b5807e5acba2f8aa96d0b3ce0c248",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8468c8aafe8b5807e5acba2f8aa96d0b3ce0c248",
-      "authoredAt": "2026-05-07T10:36:52.000+09:00",
-      "committedAt": "2026-05-25T13:37:14.000+01:00",
-      "authorName": "Chancel Liu",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: dapm: Fix widget lookup with prefixed names across DAPM contexts",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Cody:Claude-4.5-Sonnet",
-          "identity": "Cody:Claude-4.5-Sonnet",
-          "agent": "Cody",
-          "model": "Claude-4.5-Sonnet"
         }
       ]
     }
