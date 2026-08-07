@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T15:09:40.376Z",
+  "generatedAt": "2026-08-07T16:09:12.904Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,8 +7,8 @@
   "stats": {
     "totalCommits": 977,
     "totalSubsystems": 291,
-    "totalAuthors": 210,
-    "totalAgents": 179
+    "totalAuthors": 211,
+    "totalAgents": 180
   },
   "commits": [
     {
@@ -98,6 +98,24 @@
           "identity": "LLM (analysis)",
           "agent": "LLM (analysis)",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "e5fd3f514e27db1f05fbd72ba615d74941e23c51",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e5fd3f514e27db1f05fbd72ba615d74941e23c51",
+      "authoredAt": "2026-07-30T22:32:47.000Z",
+      "committedAt": "2026-08-03T01:45:01.000+02:00",
+      "authorName": "Jose Fernandez (Anthropic)",
+      "committerName": "Kumar Kartikeya Dwivedi",
+      "subject": "bpf: tcp: Fix use-after-free in bpf_iter_tcp_established_batch()",
+      "subsystem": "bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:unspecified",
+          "identity": "Claude:unspecified",
+          "agent": "Claude",
+          "model": "unspecified"
         }
       ]
     },
@@ -17864,24 +17882,6 @@
           "identity": "Claude:claude-opus-4.6-1m",
           "agent": "Claude",
           "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "6ee2ba9dcefe5bb41d179e183919531c8da01d14",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6ee2ba9dcefe5bb41d179e183919531c8da01d14",
-      "authoredAt": "2026-05-06T16:40:15.000+01:00",
-      "committedAt": "2026-06-17T01:19:53.000+02:00",
-      "authorName": "David Carlier",
-      "committerName": "Andi Shyti",
-      "subject": "i2c: ls2x-v2: return IRQ_HANDLED after servicing an error",
-      "subsystem": "i2c",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
         }
       ]
     }
