@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-07T13:40:16.641Z",
+  "generatedAt": "2026-08-07T15:09:40.376Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 976,
+    "totalCommits": 977,
     "totalSubsystems": 291,
-    "totalAuthors": 209,
+    "totalAuthors": 210,
     "totalAgents": 179
   },
   "commits": [
@@ -152,6 +152,42 @@
           "identity": "LLM (reproduction, analysis)",
           "agent": "LLM (reproduction, analysis)",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "56f24311fd5607588a47e44675195a9efb200f29",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/56f24311fd5607588a47e44675195a9efb200f29",
+      "authoredAt": "2026-07-30T12:58:13.000+02:00",
+      "committedAt": "2026-08-01T01:01:59.000+01:00",
+      "authorName": "Dawid Wróbel",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
+      "sha": "1ba381759e45d5d0442452cfa5c42e836191a568",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1ba381759e45d5d0442452cfa5c42e836191a568",
+      "authoredAt": "2026-07-30T12:58:12.000+02:00",
+      "committedAt": "2026-08-01T01:01:58.000+01:00",
+      "authorName": "Dawid Wróbel",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: codecs: lpass-tx-macro: Fix enum kcontrol accesses",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
         }
       ]
     },
@@ -17846,24 +17882,6 @@
           "identity": "Codex:GPT-5.5",
           "agent": "Codex",
           "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "111388a0c01e6c2f9822623a764b3dcf8bc1492c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/111388a0c01e6c2f9822623a764b3dcf8bc1492c",
-      "authoredAt": "2026-05-05T21:10:04.000-07:00",
-      "committedAt": "2026-05-11T14:20:44.000-03:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf sched stats: Fix segmentation faults, memory leaks, and stale pointers in diff mode",
-      "subsystem": "perf sched stats",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro-preview",
-          "identity": "Gemini:gemini-3.1-pro-preview",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro-preview"
         }
       ]
     }
