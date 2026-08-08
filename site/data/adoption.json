@@ -1,16 +1,70 @@
 {
-  "generatedAt": "2026-08-08T14:50:31.369Z",
+  "generatedAt": "2026-08-08T15:47:06.308Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 976,
-    "totalSubsystems": 289,
-    "totalAuthors": 212,
+    "totalSubsystems": 288,
+    "totalAuthors": 213,
     "totalAgents": 179
   },
   "commits": [
+    {
+      "sha": "e033cbf3975a8465f879ebd5989dc35b04423a4d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e033cbf3975a8465f879ebd5989dc35b04423a4d",
+      "authoredAt": "2026-08-07T22:19:56.000-04:00",
+      "committedAt": "2026-08-08T08:08:58.000+02:00",
+      "authorName": "Rik van Riel",
+      "committerName": "Helge Deller",
+      "subject": "fbdev: bitblit: bound-check glyph index in bit_cursor()",
+      "subsystem": "fbdev",
+      "assistedBy": [
+        {
+          "raw": "Hermes:muse-spark-1.2 syzkaller",
+          "identity": "Hermes:muse-spark-1.2 syzkaller",
+          "agent": "Hermes",
+          "model": "muse-spark-1.2 syzkaller"
+        }
+      ]
+    },
+    {
+      "sha": "27f380ef0e1d3de3cde114e02d33f9320ce3a5a6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/27f380ef0e1d3de3cde114e02d33f9320ce3a5a6",
+      "authoredAt": "2026-08-03T21:18:52.000-07:00",
+      "committedAt": "2026-08-03T21:51:42.000-07:00",
+      "authorName": "Jianing Li",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: hynitron_cstxxx - validate touch count and finger IDs",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.6-flash",
+          "identity": "Antigravity:gemini-3.6-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.6-flash"
+        }
+      ]
+    },
+    {
+      "sha": "3abd29c61d2ef37c4102cf755b18be53bb9dbea6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3abd29c61d2ef37c4102cf755b18be53bb9dbea6",
+      "authoredAt": "2026-08-03T18:41:49.000-07:00",
+      "committedAt": "2026-08-05T23:04:05.000-07:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: evdev - sanitize event type index when fetching event masks",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.6-flash",
+          "identity": "Antigravity:gemini-3.6-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.6-flash"
+        }
+      ]
+    },
     {
       "sha": "de845981da67a6b049080c87e605130b0c30adc5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/de845981da67a6b049080c87e605130b0c30adc5",
@@ -1466,6 +1520,24 @@
           "identity": "Claude:claude-fable-5",
           "agent": "Claude",
           "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
+      "sha": "7d5c576cb1c86047b1fcb1aa9532e17fc5e46c1d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7d5c576cb1c86047b1fcb1aa9532e17fc5e46c1d",
+      "authoredAt": "2026-07-18T16:40:32.000+09:00",
+      "committedAt": "2026-07-24T16:47:47.000-07:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: cs40l50-vibra - validate custom data from user space",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -4994,6 +5066,96 @@
           "identity": "Codex:gpt-5.4",
           "agent": "Codex",
           "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "8786d74bf50e6797b6f655eb381ef6b25451161f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8786d74bf50e6797b6f655eb381ef6b25451161f",
+      "authoredAt": "2026-06-25T22:17:55.000-07:00",
+      "committedAt": "2026-08-05T10:09:53.000-07:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "fbfd76746adc16d64be29ff113f673b70bc3f5c2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fbfd76746adc16d64be29ff113f673b70bc3f5c2",
+      "authoredAt": "2026-06-25T22:17:54.000-07:00",
+      "committedAt": "2026-08-04T21:20:12.000-07:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: synaptics-rmi4 - block s_input when F54 queue is busy",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "49c5adc2b7d6e43c5cf033e1c86fdb9c16ababb1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/49c5adc2b7d6e43c5cf033e1c86fdb9c16ababb1",
+      "authoredAt": "2026-06-25T22:17:52.000-07:00",
+      "committedAt": "2026-08-04T21:17:03.000-07:00",
+      "authorName": "Bryam Vargas",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "dc76c3c8e8ad09362b8c1561f3928288c15cba2e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dc76c3c8e8ad09362b8c1561f3928288c15cba2e",
+      "authoredAt": "2026-06-25T22:17:51.000-07:00",
+      "committedAt": "2026-08-04T21:16:51.000-07:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: synaptics-rmi4 - zero report size on F54 work error",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "6058f0fea10f3caf63a435677358d1b8e9325114",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6058f0fea10f3caf63a435677358d1b8e9325114",
+      "authoredAt": "2026-06-25T22:17:50.000-07:00",
+      "committedAt": "2026-08-04T21:16:42.000-07:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Dmitry Torokhov",
+      "subject": "Input: synaptics-rmi4 - fix F55 transmitter electrode count typo",
+      "subsystem": "input",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
         }
       ]
     },
@@ -17708,168 +17870,6 @@
           "identity": "Codex:GPT-5.5",
           "agent": "Codex",
           "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "852fed2e8bfe195351fb0078ba7245d41154e7a5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/852fed2e8bfe195351fb0078ba7245d41154e7a5",
-      "authoredAt": "2026-05-07T17:08:34.000-07:00",
-      "committedAt": "2026-06-15T10:05:11.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Andreas Larsson",
-      "subject": "sparc: Disable compat support with LLD",
-      "subsystem": "sparc",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "e5d64f868e484da06f5c141c18c32c01c269625e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e5d64f868e484da06f5c141c18c32c01c269625e",
-      "authoredAt": "2026-05-07T16:23:23.000-07:00",
-      "committedAt": "2026-05-26T16:35:36.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Thomas Bogendoerfer",
-      "subject": "mips: cps: Assemble jr.hb with an R2 ISA level",
-      "subsystem": "mips",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "04b8f96b10881006e8aadbf72c59427ec5eaa9b4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/04b8f96b10881006e8aadbf72c59427ec5eaa9b4",
-      "authoredAt": "2026-05-07T16:21:31.000-07:00",
-      "committedAt": "2026-05-08T09:52:17.000+09:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: tegra: tegra210-mixer: Use div_u64() for 64-bit division",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "6c92f6d9600efa3ef0d9e560a2b52776d9803c29",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6c92f6d9600efa3ef0d9e560a2b52776d9803c29",
-      "authoredAt": "2026-05-07T16:26:31.000-04:00",
-      "committedAt": "2026-05-19T12:13:56.000-04:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Validate payload length and link_index in dc_process_dmub_aux_transfer_async",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:Claude claude-4-opus",
-          "identity": "GitHub Copilot:Claude claude-4-opus",
-          "agent": "GitHub Copilot",
-          "model": "Claude claude-4-opus"
-        }
-      ]
-    },
-    {
-      "sha": "ba4caa9fecdf7a38f98c878ad05a8a64148b6881",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ba4caa9fecdf7a38f98c878ad05a8a64148b6881",
-      "authoredAt": "2026-05-07T16:26:31.000-04:00",
-      "committedAt": "2026-05-19T11:45:41.000-04:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Validate payload length and link_index in dc_process_dmub_aux_transfer_async",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:Claude claude-4-opus",
-          "identity": "GitHub Copilot:Claude claude-4-opus",
-          "agent": "GitHub Copilot",
-          "model": "Claude claude-4-opus"
-        }
-      ]
-    },
-    {
-      "sha": "229212219e4247d9486f8ba41ef087358490be09",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/229212219e4247d9486f8ba41ef087358490be09",
-      "authoredAt": "2026-05-07T15:38:37.000-04:00",
-      "committedAt": "2026-06-03T13:38:01.000-04:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Clamp HDMI HDCP2 rx_id_list read to buffer size",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:claude-opus-4.6",
-          "identity": "Copilot:claude-opus-4.6",
-          "agent": "Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "f0f3981c43b32cadfe373d636d9e9ca522bb3702",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f0f3981c43b32cadfe373d636d9e9ca522bb3702",
-      "authoredAt": "2026-05-07T15:38:37.000-04:00",
-      "committedAt": "2026-06-03T14:45:23.000-04:00",
-      "authorName": "Harry Wentland",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Clamp HDMI HDCP2 rx_id_list read to buffer size",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:claude-opus-4.6",
-          "identity": "Copilot:claude-opus-4.6",
-          "agent": "Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "c64a647c84f30be368404f50f9052ed6c75c0f17",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c64a647c84f30be368404f50f9052ed6c75c0f17",
-      "authoredAt": "2026-05-07T08:35:46.000-06:00",
-      "committedAt": "2026-05-13T13:58:27.000-06:00",
-      "authorName": "Alex Williamson",
-      "committerName": "Alex Williamson",
-      "subject": "vfio/pci: fix dma-buf kref underflow after revoke",
-      "subsystem": "vfio/pci",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7",
-          "identity": "Claude:claude-opus-4-7",
-          "agent": "Claude",
-          "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "c0375944d99781e13285a62a3485257ad488b30c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c0375944d99781e13285a62a3485257ad488b30c",
-      "authoredAt": "2026-05-07T13:59:06.000+03:00",
-      "committedAt": "2026-05-08T16:50:27.000-07:00",
-      "authorName": "Ido Schimmel",
-      "committerName": "Jakub Kicinski",
-      "subject": "selftests: net: Add protodown tests",
-      "subsystem": "selftests",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
         }
       ]
     }
