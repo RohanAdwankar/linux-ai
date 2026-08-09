@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-08T23:45:52.695Z",
+  "generatedAt": "2026-08-09T02:29:53.416Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 976,
-    "totalSubsystems": 288,
-    "totalAuthors": 213,
-    "totalAgents": 179
+    "totalCommits": 978,
+    "totalSubsystems": 287,
+    "totalAuthors": 217,
+    "totalAgents": 183
   },
   "commits": [
     {
@@ -26,6 +26,24 @@
           "identity": "Hermes:muse-spark-1.2 syzkaller",
           "agent": "Hermes",
           "model": "muse-spark-1.2 syzkaller"
+        }
+      ]
+    },
+    {
+      "sha": "3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9",
+      "authoredAt": "2026-08-04T11:36:39.000+03:00",
+      "committedAt": "2026-08-04T10:54:57.000+02:00",
+      "authorName": "Lachlan Hodges",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: xhci: use BIT_ULL for CRCR bits to fix incorrect 64bit mask",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-5",
+          "identity": "Claude:claude-sonnet-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-5"
         }
       ]
     },
@@ -138,6 +156,114 @@
       ]
     },
     {
+      "sha": "c2f811314be351d86b6ab41e9297ae80d8da6f86",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c2f811314be351d86b6ab41e9297ae80d8da6f86",
+      "authoredAt": "2026-07-31T10:15:20.000Z",
+      "committedAt": "2026-08-03T17:23:58.000+02:00",
+      "authorName": "Aleksandr Nogikh",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: atm: cxacru: properly kill rcv_urb on error in cxacru_cm()",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "identity": "Gemini:gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "agent": "Gemini",
+          "model": "gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot"
+        }
+      ]
+    },
+    {
+      "sha": "440915499231e9db1c361aa45bb702e8fd3b4a32",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/440915499231e9db1c361aa45bb702e8fd3b4a32",
+      "authoredAt": "2026-07-31T08:59:15.000Z",
+      "committedAt": "2026-08-03T16:31:22.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "serial: amba-pl011: synchronize DMA teardown",
+      "subsystem": "serial",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "36672c8d7d14e9c43287528455d2c97b526ea6ad",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/36672c8d7d14e9c43287528455d2c97b526ea6ad",
+      "authoredAt": "2026-07-31T08:59:14.000Z",
+      "committedAt": "2026-08-03T16:31:19.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "serial: amba-pl011: cancel RS485 hrtimers after freeing IRQ",
+      "subsystem": "serial",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "dcb2f7576ce460eb4f6b9048b7c266c8da5848a8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dcb2f7576ce460eb4f6b9048b7c266c8da5848a8",
+      "authoredAt": "2026-07-31T08:59:13.000Z",
+      "committedAt": "2026-08-03T16:31:15.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "serial: amba-pl011: fix indefinite RS485 post-send delay",
+      "subsystem": "serial",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "a7ad0034453ba4c353f9b8f810ee2569de33d283",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a7ad0034453ba4c353f9b8f810ee2569de33d283",
+      "authoredAt": "2026-07-31T09:56:17.000+02:00",
+      "committedAt": "2026-08-03T16:31:14.000+02:00",
+      "authorName": "Joshua Rogers",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "vt: add permission check for KDSKBMETA ioctl",
+      "subsystem": "vt",
+      "assistedBy": [
+        {
+          "raw": "AISLE:Snapshot",
+          "identity": "AISLE:Snapshot",
+          "agent": "AISLE",
+          "model": "Snapshot"
+        }
+      ]
+    },
+    {
+      "sha": "e25d47a526939ad44b75f778b8a7500562b84fc1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e25d47a526939ad44b75f778b8a7500562b84fc1",
+      "authoredAt": "2026-07-31T09:56:16.000+02:00",
+      "committedAt": "2026-08-03T16:31:12.000+02:00",
+      "authorName": "Joshua Rogers",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "vt: stabilize tty reference in kbd_keycode with tty_port_tty_get",
+      "subsystem": "vt",
+      "assistedBy": [
+        {
+          "raw": "AISLE:Snapshot",
+          "identity": "AISLE:Snapshot",
+          "agent": "AISLE",
+          "model": "Snapshot"
+        }
+      ]
+    },
+    {
       "sha": "0ef349734a93227b45f65fc50a3311d1cc5f03e9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0ef349734a93227b45f65fc50a3311d1cc5f03e9",
       "authoredAt": "2026-07-31T10:14:49.000+09:30",
@@ -170,6 +296,24 @@
           "identity": "Claude:unspecified",
           "agent": "Claude",
           "model": "unspecified"
+        }
+      ]
+    },
+    {
+      "sha": "1423415471274abda87024967d7fe2206ceee0ea",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1423415471274abda87024967d7fe2206ceee0ea",
+      "authoredAt": "2026-07-30T16:39:20.000-03:00",
+      "committedAt": "2026-08-03T16:31:07.000+02:00",
+      "authorName": "Ryan Wilbur",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "serial: 8250_of: clear stuck empty-FIFO RX-timeout on LPC32xx",
+      "subsystem": "serial",
+      "assistedBy": [
+        {
+          "raw": "Claude:Opus4.8",
+          "identity": "Claude:Opus4.8",
+          "agent": "Claude",
+          "model": "Opus4.8"
         }
       ]
     },
@@ -284,6 +428,24 @@
           "identity": "Claude:opus-5",
           "agent": "Claude",
           "model": "opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "e3c04834ae1ab5e9cfbe8ac54ec734aa4774249d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e3c04834ae1ab5e9cfbe8ac54ec734aa4774249d",
+      "authoredAt": "2026-07-29T19:41:05.000+02:00",
+      "committedAt": "2026-07-30T16:46:29.000+02:00",
+      "authorName": "Jan Sebastian Götte",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "serial: qcom-geni: fix TX DMA buffer flush",
+      "subsystem": "serial",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-5-opus Codex:gpt-5",
+          "identity": "Claude:claude-5-opus Codex:gpt-5",
+          "agent": "Claude",
+          "model": "claude-5-opus Codex:gpt-5"
         }
       ]
     },
@@ -2768,6 +2930,24 @@
           "identity": "LOLLM # finding obvious bugs",
           "agent": "LOLLM # finding obvious bugs",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f1a3a9946aab611dd2200c01ff122f64b033dad2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f1a3a9946aab611dd2200c01ff122f64b033dad2",
+      "authoredAt": "2026-07-14T04:29:10.000Z",
+      "committedAt": "2026-08-02T21:41:51.000+09:00",
+      "authorName": "Babanpreet Singh",
+      "committerName": "William Breathitt Gray",
+      "subject": "counter: microchip-tcb-capture: Fix DT channel validation",
+      "subsystem": "counter",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5 [gcc W=1]",
+          "identity": "Claude:claude-fable-5 [gcc W=1]",
+          "agent": "Claude",
+          "model": "claude-fable-5 [gcc W=1]"
         }
       ]
     },
@@ -17726,150 +17906,6 @@
           "identity": "GitHub Copilot:claude-sonnet-4.6",
           "agent": "GitHub Copilot",
           "model": "claude-sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "00cf90125ba6f914dd36bf36af82156519ac03a8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/00cf90125ba6f914dd36bf36af82156519ac03a8",
-      "authoredAt": "2026-05-08T12:44:28.000-07:00",
-      "committedAt": "2026-05-08T12:54:04.000-07:00",
-      "authorName": "Niranjana Vishwanathapura",
-      "committerName": "Niranjana Vishwanathapura",
-      "subject": "drm/xe/multi_queue: Remove redundant assignment in guc_exec_queue_run_job",
-      "subsystem": "drm/xe/multi_queue",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-sonnet-4.6",
-          "identity": "GitHub Copilot:claude-sonnet-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "591711b32681a04b57d00c2a404658f8419a081c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/591711b32681a04b57d00c2a404658f8419a081c",
-      "authoredAt": "2026-05-08T18:09:20.000+02:00",
-      "committedAt": "2026-05-14T13:12:57.000+02:00",
-      "authorName": "Thomas Hellström",
-      "committerName": "Thomas Hellström",
-      "subject": "drm/ttm: Convert -EAGAIN from dmem_cgroup_try_charge to -ENOSPC",
-      "subsystem": "drm/ttm",
-      "assistedBy": [
-        {
-          "raw": "GitHub_Copilot:claude-sonnet-4.6",
-          "identity": "GitHub_Copilot:claude-sonnet-4.6",
-          "agent": "GitHub_Copilot",
-          "model": "claude-sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "981bedbbe61364fcc3a3b87ebaf648a66cd07108",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/981bedbbe61364fcc3a3b87ebaf648a66cd07108",
-      "authoredAt": "2026-05-08T11:26:36.000+01:00",
-      "committedAt": "2026-05-11T16:46:12.000-04:00",
-      "authorName": "Matthew Auld",
-      "committerName": "Rodrigo Vivi",
-      "subject": "drm/xe/dma-buf: handle empty bo and UAF races",
-      "subsystem": "drm/xe/dma-buf",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3 #debug",
-          "identity": "Gemini:gemini-3 #debug",
-          "agent": "Gemini",
-          "model": "gemini-3 #debug"
-        }
-      ]
-    },
-    {
-      "sha": "af1f2ad0c59fe4e2f924c526f66e968289d77971",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/af1f2ad0c59fe4e2f924c526f66e968289d77971",
-      "authoredAt": "2026-05-08T11:26:36.000+01:00",
-      "committedAt": "2026-05-11T10:57:19.000+01:00",
-      "authorName": "Matthew Auld",
-      "committerName": "Matthew Auld",
-      "subject": "drm/xe/dma-buf: handle empty bo and UAF races",
-      "subsystem": "drm/xe/dma-buf",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3 #debug",
-          "identity": "Gemini:gemini-3 #debug",
-          "agent": "Gemini",
-          "model": "gemini-3 #debug"
-        }
-      ]
-    },
-    {
-      "sha": "35b535db69589ea0025ec3f06df08f2e3faad26f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/35b535db69589ea0025ec3f06df08f2e3faad26f",
-      "authoredAt": "2026-05-08T12:25:45.000+05:30",
-      "committedAt": "2026-05-08T19:16:19.000+05:30",
-      "authorName": "Tejas Upadhyay",
-      "committerName": "Arunpravin Paneer Selvam",
-      "subject": "drm/buddy: Integrate lockdep annotations for gpu buddy manager",
-      "subsystem": "drm/buddy",
-      "assistedBy": [
-        {
-          "raw": "Copilot:claude-opus-4.6",
-          "identity": "Copilot:claude-opus-4.6",
-          "agent": "Copilot",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "1307a5a1eac20aacf32495491f28c32c0a419dc9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1307a5a1eac20aacf32495491f28c32c0a419dc9",
-      "authoredAt": "2026-05-07T22:20:56.000-07:00",
-      "committedAt": "2026-05-08T14:55:35.000-04:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Lyude Paul",
-      "subject": "drm/nouveau/gsp: Use kzalloc_flex() for r535 display funcs",
-      "subsystem": "drm/nouveau/gsp",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "4d130b63bd08b789f70a9f4a7af33104cc8cebce",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4d130b63bd08b789f70a9f4a7af33104cc8cebce",
-      "authoredAt": "2026-05-07T22:18:37.000-07:00",
-      "committedAt": "2026-06-10T02:17:00.000-04:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Michael S. Tsirkin",
-      "subject": "vdpa/mlx5: Use kvzalloc_flex() for MTT command memory",
-      "subsystem": "vdpa/mlx5",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "b2d1eaa9b6608ba6e34f0b9419254ec9e5d47d41",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b2d1eaa9b6608ba6e34f0b9419254ec9e5d47d41",
-      "authoredAt": "2026-05-08T01:20:50.000-03:00",
-      "committedAt": "2026-05-10T22:46:04.000+09:00",
-      "authorName": "Cássio Gabriel",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: docs: Fix stale and misspelled references",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
         }
       ]
     }
