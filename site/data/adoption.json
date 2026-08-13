@@ -1,16 +1,70 @@
 {
-  "generatedAt": "2026-08-13T16:12:29.734Z",
+  "generatedAt": "2026-08-13T17:13:57.061Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 978,
-    "totalSubsystems": 287,
-    "totalAuthors": 217,
-    "totalAgents": 183
+    "totalCommits": 979,
+    "totalSubsystems": 288,
+    "totalAuthors": 218,
+    "totalAgents": 185
   },
   "commits": [
+    {
+      "sha": "9006c116dd111d457bf5d074990210f70a4ad2c8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9006c116dd111d457bf5d074990210f70a4ad2c8",
+      "authoredAt": "2026-08-11T14:46:51.000Z",
+      "committedAt": "2026-08-13T11:49:31.000+02:00",
+      "authorName": "Eric Dumazet",
+      "committerName": "Paolo Abeni",
+      "subject": "l2tp: fix tunnel and session refcount leak on seq_file release",
+      "subsystem": "l2tp",
+      "assistedBy": [
+        {
+          "raw": "Jetski:Gemini-3.1-Pro",
+          "identity": "Jetski:Gemini-3.1-Pro",
+          "agent": "Jetski",
+          "model": "Gemini-3.1-Pro"
+        }
+      ]
+    },
+    {
+      "sha": "cba9ccb47e9fa4cc77692fb896cc5ab57a667882",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cba9ccb47e9fa4cc77692fb896cc5ab57a667882",
+      "authoredAt": "2026-08-10T18:21:38.000+08:00",
+      "committedAt": "2026-08-11T15:50:22.000+02:00",
+      "authorName": "Jun Yang",
+      "committerName": "Paolo Abeni",
+      "subject": "tipc: read le->link under the node lock in tipc_node_link_down()",
+      "subsystem": "tipc",
+      "assistedBy": [
+        {
+          "raw": "tencentos-corvus-ai:kimi-k3",
+          "identity": "tencentos-corvus-ai:kimi-k3",
+          "agent": "tencentos-corvus-ai",
+          "model": "kimi-k3"
+        }
+      ]
+    },
+    {
+      "sha": "2014ac62df9d45bb9a004a043e85df7be09ed780",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2014ac62df9d45bb9a004a043e85df7be09ed780",
+      "authoredAt": "2026-08-08T12:40:02.000Z",
+      "committedAt": "2026-08-10T20:27:50.000+02:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Pablo Neira Ayuso",
+      "subject": "netfilter: flowtable: publish GC-visible tuple last",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
     {
       "sha": "e033cbf3975a8465f879ebd5989dc35b04423a4d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e033cbf3975a8465f879ebd5989dc35b04423a4d",
@@ -30,6 +84,60 @@
       ]
     },
     {
+      "sha": "42d217add8d80d6e7d9f58f80d11ea9b07ea113e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/42d217add8d80d6e7d9f58f80d11ea9b07ea113e",
+      "authoredAt": "2026-08-07T14:25:26.000Z",
+      "committedAt": "2026-08-13T21:02:23.000+09:00",
+      "authorName": "Aleksandr Nogikh",
+      "committerName": "Takashi Sakamoto",
+      "subject": "firewire: ohci: fix NULL pointer dereference in ar_context_release",
+      "subsystem": "firewire",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "identity": "Gemini:gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "agent": "Gemini",
+          "model": "gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot"
+        }
+      ]
+    },
+    {
+      "sha": "cbb35cbe8db268fefe34c23df15348cf99025298",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cbb35cbe8db268fefe34c23df15348cf99025298",
+      "authoredAt": "2026-08-07T14:34:05.000+08:00",
+      "committedAt": "2026-08-11T13:14:00.000+02:00",
+      "authorName": "Wei Fang",
+      "committerName": "Paolo Abeni",
+      "subject": "net: tap: fix wrong transport_header when sending VLAN-tagged frame",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "WChat:claude-opus-4-8",
+          "identity": "WChat:claude-opus-4-8",
+          "agent": "WChat",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "01fdecc0480d916c799dbee584833a4a37e94d06",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/01fdecc0480d916c799dbee584833a4a37e94d06",
+      "authoredAt": "2026-08-07T14:34:04.000+08:00",
+      "committedAt": "2026-08-11T13:14:00.000+02:00",
+      "authorName": "Wei Fang",
+      "committerName": "Paolo Abeni",
+      "subject": "net: packet: fix wrong transport_header when sending VLAN-tagged frame",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "WChat:claude-opus-4-8",
+          "identity": "WChat:claude-opus-4-8",
+          "agent": "WChat",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9",
       "authoredAt": "2026-08-04T11:36:39.000+03:00",
@@ -44,6 +152,24 @@
           "identity": "Claude:claude-sonnet-5",
           "agent": "Claude",
           "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "e0ba936287dfe9783426aac27e5fd76fe35b38c9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e0ba936287dfe9783426aac27e5fd76fe35b38c9",
+      "authoredAt": "2026-08-04T06:10:55.000Z",
+      "committedAt": "2026-08-10T20:27:07.000+02:00",
+      "authorName": "Kyle Zeng",
+      "committerName": "Pablo Neira Ayuso",
+      "subject": "ipvs: clear IPv4 options after rebasing tunnel ICMP errors",
+      "subsystem": "ipvs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol Codex:gpt-5.5-cyber",
+          "identity": "Codex:gpt-5.6-sol Codex:gpt-5.5-cyber",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol Codex:gpt-5.5-cyber"
         }
       ]
     },
@@ -102,6 +228,24 @@
       ]
     },
     {
+      "sha": "2d19b95c9723001f214f7a47d67b09f46238f200",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2d19b95c9723001f214f7a47d67b09f46238f200",
+      "authoredAt": "2026-08-01T14:27:17.000Z",
+      "committedAt": "2026-08-10T20:25:56.000+02:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Pablo Neira Ayuso",
+      "subject": "netfilter: nf_conntrack: defer invalid log until after unlock",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.4",
+          "identity": "Codex:gpt-5.4",
+          "agent": "Codex",
+          "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
       "sha": "d8eb9a06b922418598eac38fb9772ea4e9ef4273",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d8eb9a06b922418598eac38fb9772ea4e9ef4273",
       "authoredAt": "2026-08-01T21:42:34.000+08:00",
@@ -134,6 +278,24 @@
           "identity": "Codex:gpt-5.4",
           "agent": "Codex",
           "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "cdcc4e46180df8161f4d2f3c6fd6beaf6990133d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cdcc4e46180df8161f4d2f3c6fd6beaf6990133d",
+      "authoredAt": "2026-07-31T22:27:43.000+08:00",
+      "committedAt": "2026-08-10T20:23:35.000+02:00",
+      "authorName": "Yizhou Zhao",
+      "committerName": "Pablo Neira Ayuso",
+      "subject": "ipvs: separate destination availability state",
+      "subsystem": "ipvs",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:GLM-5.2",
+          "identity": "Claude-Code:GLM-5.2",
+          "agent": "Claude-Code",
+          "model": "GLM-5.2"
         }
       ]
     },
@@ -296,6 +458,24 @@
           "identity": "Claude:unspecified",
           "agent": "Claude",
           "model": "unspecified"
+        }
+      ]
+    },
+    {
+      "sha": "44f3468a0aef1aabdad551898ab7cfa2a9d20e99",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/44f3468a0aef1aabdad551898ab7cfa2a9d20e99",
+      "authoredAt": "2026-07-31T01:02:57.000+03:00",
+      "committedAt": "2026-08-10T12:49:04.000+02:00",
+      "authorName": "Cengiz Can",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: sloppy-logic-analyzer: fix use-after-free via debugfs trigger on unbind",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
         }
       ]
     },
@@ -17744,168 +17924,6 @@
           "identity": "Kiro:claude-opus-4.6",
           "agent": "Kiro",
           "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "f86446669053125485a4721a722b446e1c3e5efa",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f86446669053125485a4721a722b446e1c3e5efa",
-      "authoredAt": "2026-05-09T23:55:07.000-03:00",
-      "committedAt": "2026-05-29T11:44:35.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf test: Add truncated perf.data robustness test",
-      "subsystem": "perf test",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6-1m",
-          "identity": "Claude:claude-opus-4.6-1m",
-          "agent": "Claude",
-          "model": "claude-opus-4.6-1m"
-        }
-      ]
-    },
-    {
-      "sha": "537cd3082b9000b15a25e85152dd16967d9a1a94",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/537cd3082b9000b15a25e85152dd16967d9a1a94",
-      "authoredAt": "2026-05-09T15:57:59.000+02:00",
-      "committedAt": "2026-06-09T16:00:10.000+02:00",
-      "authorName": "Rahman Mahmutović",
-      "committerName": "Helge Deller",
-      "subject": "fbdev: sunxvr2500: replace printk with device-aware logging functions",
-      "subsystem": "fbdev",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "92a91dc8bd6aa31a0a59144de6bee6221cd20833",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/92a91dc8bd6aa31a0a59144de6bee6221cd20833",
-      "authoredAt": "2026-05-09T15:18:31.000+02:00",
-      "committedAt": "2026-06-09T16:00:10.000+02:00",
-      "authorName": "Rahman Mahmutović",
-      "committerName": "Helge Deller",
-      "subject": "fbdev: chipsfb: add missing MODULE_DESCRIPTION() macro",
-      "subsystem": "fbdev",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "b15fd8c043f79d57c6bf56edb4cf036644842647",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b15fd8c043f79d57c6bf56edb4cf036644842647",
-      "authoredAt": "2026-05-09T08:56:38.000+02:00",
-      "committedAt": "2026-05-15T08:01:48.000-06:00",
-      "authorName": "Mauro Carvalho Chehab",
-      "committerName": "Jonathan Corbet",
-      "subject": "docs: maintainers_include: do some coding style cleanups",
-      "subsystem": "docs",
-      "assistedBy": [
-        {
-          "raw": "pylint, black",
-          "identity": "pylint, black",
-          "agent": "pylint, black",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "3c8cec6ddae0297854ad568def98e49084cc9cfb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3c8cec6ddae0297854ad568def98e49084cc9cfb",
-      "authoredAt": "2026-05-08T19:36:09.000-07:00",
-      "committedAt": "2026-05-26T07:50:42.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Uwe Kleine-König",
-      "subject": "pwm: ipq: Add missing module description",
-      "subsystem": "pwm",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "7edfb7fb58ee058298e18fde76a6077ef17d19d8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7edfb7fb58ee058298e18fde76a6077ef17d19d8",
-      "authoredAt": "2026-05-08T17:36:02.000-07:00",
-      "committedAt": "2026-05-13T12:35:57.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Heiko Stuebner",
-      "subject": "clk: rockchip: allow COMPILE_TEST builds",
-      "subsystem": "clk",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "5d6f7ce387c09fbd30360f268168606803ee9ebf",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5d6f7ce387c09fbd30360f268168606803ee9ebf",
-      "authoredAt": "2026-05-08T17:34:38.000-07:00",
-      "committedAt": "2026-05-11T12:14:37.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Bartosz Golaszewski",
-      "subject": "gpio: zevio: allow COMPILE_TEST builds",
-      "subsystem": "gpio",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "dd074f04e04648d89d9d10ae9846cd057c97b385",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/dd074f04e04648d89d9d10ae9846cd057c97b385",
-      "authoredAt": "2026-05-08T18:55:07.000-04:00",
-      "committedAt": "2026-05-15T08:37:33.000+02:00",
-      "authorName": "Nicholas Bonello",
-      "committerName": "Takashi Iwai",
-      "subject": "ALSA: hda/realtek: Fix Legion 7 16ITHG6 speaker amp binding",
-      "subsystem": "alsa",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5",
-          "identity": "Codex:GPT-5",
-          "agent": "Codex",
-          "model": "GPT-5"
-        }
-      ]
-    },
-    {
-      "sha": "5dd993ef9d5e70b05adac92b3fb2f079b0a3fe1a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5dd993ef9d5e70b05adac92b3fb2f079b0a3fe1a",
-      "authoredAt": "2026-05-08T12:44:29.000-07:00",
-      "committedAt": "2026-05-08T12:54:14.000-07:00",
-      "authorName": "Niranjana Vishwanathapura",
-      "committerName": "Niranjana Vishwanathapura",
-      "subject": "drm/xe/multi_queue: Refactor CGP_SYNC send path",
-      "subsystem": "drm/xe/multi_queue",
-      "assistedBy": [
-        {
-          "raw": "GitHub Copilot:claude-sonnet-4.6",
-          "identity": "GitHub Copilot:claude-sonnet-4.6",
-          "agent": "GitHub Copilot",
-          "model": "claude-sonnet-4.6"
         }
       ]
     }
