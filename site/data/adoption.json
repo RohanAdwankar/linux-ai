@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-14T22:41:45.428Z",
+  "generatedAt": "2026-08-14T23:38:01.477Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 979,
-    "totalSubsystems": 288,
-    "totalAuthors": 217,
-    "totalAgents": 186
+    "totalSubsystems": 289,
+    "totalAuthors": 221,
+    "totalAgents": 190
   },
   "commits": [
     {
@@ -48,6 +48,42 @@
       ]
     },
     {
+      "sha": "cb4afddf9e018a83fec8614d8e337d313871569f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cb4afddf9e018a83fec8614d8e337d313871569f",
+      "authoredAt": "2026-08-10T07:18:14.000Z",
+      "committedAt": "2026-08-13T14:56:33.000+02:00",
+      "authorName": "Gajendra Uttamchand",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe/lrc: document sentinel and make CTX_TIMESTAMP read TOCTOU-safe",
+      "subsystem": "drm/xe/lrc",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-sonnet-5",
+          "identity": "GitHub-Copilot:claude-sonnet-5",
+          "agent": "GitHub-Copilot",
+          "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "090a95dbe13df9965279b588d97eda134831769c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/090a95dbe13df9965279b588d97eda134831769c",
+      "authoredAt": "2026-08-08T17:05:06.000+02:00",
+      "committedAt": "2026-08-12T11:09:12.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Ulf Hansson",
+      "subject": "pmdomain: mediatek: mfg: initialize prev_o in mtk_mfg_attach_dev()",
+      "subsystem": "pmdomain",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
       "sha": "2014ac62df9d45bb9a004a043e85df7be09ed780",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2014ac62df9d45bb9a004a043e85df7be09ed780",
       "authoredAt": "2026-08-08T12:40:02.000Z",
@@ -80,6 +116,24 @@
           "identity": "Hermes:muse-spark-1.2 syzkaller",
           "agent": "Hermes",
           "model": "muse-spark-1.2 syzkaller"
+        }
+      ]
+    },
+    {
+      "sha": "9f83c94469ff0fa37274b873ba24922e02531fa7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9f83c94469ff0fa37274b873ba24922e02531fa7",
+      "authoredAt": "2026-08-07T10:17:16.000-07:00",
+      "committedAt": "2026-08-13T14:56:33.000+02:00",
+      "authorName": "Matthew Brost",
+      "committerName": "Thomas Hellström",
+      "subject": "drm/xe: Order ring writes before ring tail updates",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-opus-5",
+          "identity": "GitHub_Copilot:claude-opus-5",
+          "agent": "GitHub_Copilot",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -156,6 +210,24 @@
       ]
     },
     {
+      "sha": "931cd1d1baeae68e8eb2c23bc1f3d8934dca6241",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/931cd1d1baeae68e8eb2c23bc1f3d8934dca6241",
+      "authoredAt": "2026-08-06T12:45:24.000+08:00",
+      "committedAt": "2026-08-12T10:20:50.000-04:00",
+      "authorName": "Junrui Luo",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: disallow multiple FENCE chunks in one submit",
+      "subsystem": "drm/amdgpu",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
       "sha": "3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9",
       "authoredAt": "2026-08-04T11:36:39.000+03:00",
@@ -228,6 +300,24 @@
       ]
     },
     {
+      "sha": "c125ee35a49a0518521b52b27631eef061b8719a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c125ee35a49a0518521b52b27631eef061b8719a",
+      "authoredAt": "2026-08-03T17:48:21.000+08:00",
+      "committedAt": "2026-08-04T15:05:39.000+02:00",
+      "authorName": "Pei Xiao",
+      "committerName": "Ulf Hansson",
+      "subject": "mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition",
+      "subsystem": "mmc",
+      "assistedBy": [
+        {
+          "raw": "Codex:deepseek-v4-flash",
+          "identity": "Codex:deepseek-v4-flash",
+          "agent": "Codex",
+          "model": "deepseek-v4-flash"
+        }
+      ]
+    },
+    {
       "sha": "de845981da67a6b049080c87e605130b0c30adc5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/de845981da67a6b049080c87e605130b0c30adc5",
       "authoredAt": "2026-08-03T09:45:14.000+08:00",
@@ -242,6 +332,42 @@
           "identity": "tencentos-corvus-ai:kimi-k3",
           "agent": "tencentos-corvus-ai",
           "model": "kimi-k3"
+        }
+      ]
+    },
+    {
+      "sha": "cd22349e86faf6e15e6c622d70c0efc57d43201e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cd22349e86faf6e15e6c622d70c0efc57d43201e",
+      "authoredAt": "2026-08-02T08:35:24.000-06:00",
+      "committedAt": "2026-08-12T10:22:47.000-04:00",
+      "authorName": "Nathan Lucas",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: fix BT.2020 YCbCr output CSC matrices for DCE",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "OpenAI-Codex:GPT-5.6-Sol",
+          "identity": "OpenAI-Codex:GPT-5.6-Sol",
+          "agent": "OpenAI-Codex",
+          "model": "GPT-5.6-Sol"
+        }
+      ]
+    },
+    {
+      "sha": "2f9a5c0f018d4a1586ee892f81f1383219676415",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2f9a5c0f018d4a1586ee892f81f1383219676415",
+      "authoredAt": "2026-08-02T08:35:23.000-06:00",
+      "committedAt": "2026-08-12T10:22:39.000-04:00",
+      "authorName": "Nathan Lucas",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: fix BT.2020 YCbCr limited output CSC matrix",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "OpenAI-Codex:GPT-5.6-Sol",
+          "identity": "OpenAI-Codex:GPT-5.6-Sol",
+          "agent": "OpenAI-Codex",
+          "model": "GPT-5.6-Sol"
         }
       ]
     },
@@ -968,6 +1094,24 @@
           "identity": "Claude:claude-opus-4.8",
           "agent": "Claude",
           "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "ae31bcc92bb42502bb7c9029e6dc7a824cf6cd14",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ae31bcc92bb42502bb7c9029e6dc7a824cf6cd14",
+      "authoredAt": "2026-07-27T18:38:49.000+08:00",
+      "committedAt": "2026-08-04T13:23:00.000+02:00",
+      "authorName": "Haibo Chen",
+      "committerName": "Ulf Hansson",
+      "subject": "mmc: sdhci: make tuning_err a signed int",
+      "subsystem": "mmc",
+      "assistedBy": [
+        {
+          "raw": "Cline:claude-sonnet [read_file, search_files, git]",
+          "identity": "Cline:claude-sonnet [read_file, search_files, git]",
+          "agent": "Cline",
+          "model": "claude-sonnet [read_file, search_files, git]"
         }
       ]
     },
@@ -17756,168 +17900,6 @@
       "committerName": "Anup Patel",
       "subject": "RISC-V: KVM: Use flexible array for APLIC IRQ state",
       "subsystem": "risc-v",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "ba07fd2f5742e8b0d965003b34c7a44eb4f67e53",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ba07fd2f5742e8b0d965003b34c7a44eb4f67e53",
-      "authoredAt": "2026-05-10T19:50:36.000-04:00",
-      "committedAt": "2026-05-12T09:39:02.000+02:00",
-      "authorName": "Ben Hoff",
-      "committerName": "Hans Verkuil",
-      "subject": "media: pci: add AVMatrix HWS capture driver",
-      "subsystem": "media",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "6c9dddeb582fde005360f4fe02c760d45ca05fb5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6c9dddeb582fde005360f4fe02c760d45ca05fb5",
-      "authoredAt": "2026-05-10T19:24:55.000-04:00",
-      "committedAt": "2026-05-15T18:08:49.000+08:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: krb5 - filter out async aead implementations at alloc",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7",
-          "identity": "Claude:claude-opus-4-7",
-          "agent": "Claude",
-          "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "c12b5ee30fb665133b3119283cfe7ce9474e3589",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c12b5ee30fb665133b3119283cfe7ce9474e3589",
-      "authoredAt": "2026-05-10T19:16:59.000-04:00",
-      "committedAt": "2026-05-11T11:32:44.000+02:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Mika Westerberg",
-      "subject": "thunderbolt: test: add KUnit regression tests for XDomain property parser",
-      "subsystem": "thunderbolt",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7",
-          "identity": "Claude:claude-opus-4-7",
-          "agent": "Claude",
-          "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "928abe19fbf0127003abcb1ea69cabc1c897d0ab",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/928abe19fbf0127003abcb1ea69cabc1c897d0ab",
-      "authoredAt": "2026-05-10T19:16:58.000-04:00",
-      "committedAt": "2026-05-11T11:32:03.000+02:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Mika Westerberg",
-      "subject": "thunderbolt: property: Cap recursion depth in __tb_property_parse_dir()",
-      "subsystem": "thunderbolt",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        },
-        {
-          "raw": "Codex:gpt-5-4",
-          "identity": "Codex:gpt-5-4",
-          "agent": "Codex",
-          "model": "gpt-5-4"
-        }
-      ]
-    },
-    {
-      "sha": "de21b59c29e31c5108ddc04210631bbfab81b997",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/de21b59c29e31c5108ddc04210631bbfab81b997",
-      "authoredAt": "2026-05-10T19:16:57.000-04:00",
-      "committedAt": "2026-05-11T11:31:55.000+02:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Mika Westerberg",
-      "subject": "thunderbolt: property: Reject dir_len < 4 to prevent size_t underflow",
-      "subsystem": "thunderbolt",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        },
-        {
-          "raw": "Codex:gpt-5-4",
-          "identity": "Codex:gpt-5-4",
-          "agent": "Codex",
-          "model": "gpt-5-4"
-        }
-      ]
-    },
-    {
-      "sha": "01deda0152066c6c955f0619114ea6afa070aaec",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/01deda0152066c6c955f0619114ea6afa070aaec",
-      "authoredAt": "2026-05-10T19:16:56.000-04:00",
-      "committedAt": "2026-05-11T11:31:48.000+02:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Mika Westerberg",
-      "subject": "thunderbolt: property: Reject u32 wrap in tb_property_entry_valid()",
-      "subsystem": "thunderbolt",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        },
-        {
-          "raw": "Codex:gpt-5-4",
-          "identity": "Codex:gpt-5-4",
-          "agent": "Codex",
-          "model": "gpt-5-4"
-        }
-      ]
-    },
-    {
-      "sha": "3da1dbf936d2fb25ef9925550bb276861d803e57",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3da1dbf936d2fb25ef9925550bb276861d803e57",
-      "authoredAt": "2026-05-10T14:39:48.000-07:00",
-      "committedAt": "2026-05-26T15:36:58.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Rafael J. Wysocki",
-      "subject": "PM: hibernate: Use flexible array for CRC uncompressed buffers",
-      "subsystem": "pm",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "63677aa485245cfc0e107f9d625d4f846223415a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/63677aa485245cfc0e107f9d625d4f846223415a",
-      "authoredAt": "2026-05-10T12:55:31.000-07:00",
-      "committedAt": "2026-05-11T15:23:59.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Bartosz Golaszewski",
-      "subject": "gpio: spear-spics: Add COMPILE_TEST support",
-      "subsystem": "gpio",
       "assistedBy": [
         {
           "raw": "Codex:GPT-5.5",
