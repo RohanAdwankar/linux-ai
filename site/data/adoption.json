@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-16T17:34:43.855Z",
+  "generatedAt": "2026-08-16T18:47:41.011Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 979,
-    "totalSubsystems": 289,
-    "totalAuthors": 221,
+    "totalSubsystems": 291,
+    "totalAuthors": 222,
     "totalAgents": 190
   },
   "commits": [
@@ -174,6 +174,24 @@
       ]
     },
     {
+      "sha": "42c5ca1f0a288a52878bd72a5595b08261057438",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/42c5ca1f0a288a52878bd72a5595b08261057438",
+      "authoredAt": "2026-08-07T18:11:52.000+05:30",
+      "committedAt": "2026-08-07T18:27:05.000+02:00",
+      "authorName": "Aditya Chillara",
+      "committerName": "Peter Zijlstra",
+      "subject": "perf/core: Fix group leader use-after-free after sibling detach",
+      "subsystem": "perf/core",
+      "assistedBy": [
+        {
+          "raw": "PatchWise:gpt-5.5",
+          "identity": "PatchWise:gpt-5.5",
+          "agent": "PatchWise",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "cbb35cbe8db268fefe34c23df15348cf99025298",
       "htmlUrl": "https://github.com/torvalds/linux/commit/cbb35cbe8db268fefe34c23df15348cf99025298",
       "authoredAt": "2026-08-07T14:34:05.000+08:00",
@@ -224,6 +242,24 @@
           "identity": "opencode:deepseek-v4-flash-free",
           "agent": "opencode",
           "model": "deepseek-v4-flash-free"
+        }
+      ]
+    },
+    {
+      "sha": "fa091f46c3833fb22384f10eade2b4e1e1d0b278",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fa091f46c3833fb22384f10eade2b4e1e1d0b278",
+      "authoredAt": "2026-08-06T13:56:55.000-07:00",
+      "committedAt": "2026-08-07T18:27:04.000+02:00",
+      "authorName": "Kyle Zeng",
+      "committerName": "Peter Zijlstra",
+      "subject": "perf: Reject exited events as group leaders",
+      "subsystem": "perf",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -1574,6 +1610,24 @@
           "identity": "Codex:gpt-5.4",
           "agent": "Codex",
           "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "45f8dffc0714c3ef49c83e5bba4c56a4499bd5fc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/45f8dffc0714c3ef49c83e5bba4c56a4499bd5fc",
+      "authoredAt": "2026-07-22T08:21:41.000+02:00",
+      "committedAt": "2026-08-10T16:38:33.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Thomas Gleixner",
+      "subject": "tick: Include ktime.h and jiffies.h in linux/tick.h",
+      "subsystem": "tick",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -17852,60 +17906,6 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "cfa30b4330677e351d6d26a0a12bfe505bc9f31d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cfa30b4330677e351d6d26a0a12bfe505bc9f31d",
-      "authoredAt": "2026-05-11T13:26:10.000+02:00",
-      "committedAt": "2026-05-31T10:59:39.000+01:00",
-      "authorName": "Joshua Crofts",
-      "committerName": "Jonathan Cameron",
-      "subject": "iio: magnetometer: ak8975: modernize polling loops with iopoll() macros",
-      "subsystem": "iio",
-      "assistedBy": [
-        {
-          "raw": "Gemini:3.1-Pro",
-          "identity": "Gemini:3.1-Pro",
-          "agent": "Gemini",
-          "model": "3.1-Pro"
-        }
-      ]
-    },
-    {
-      "sha": "6f31bb737ef8c519e0d58d39d93a5352b920b9b7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6f31bb737ef8c519e0d58d39d93a5352b920b9b7",
-      "authoredAt": "2026-05-11T10:19:35.000+01:00",
-      "committedAt": "2026-05-29T11:48:48.000-03:00",
-      "authorName": "James Clark",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf test: Make leafloop workload immune to compiler options",
-      "subsystem": "perf test",
-      "assistedBy": [
-        {
-          "raw": "GitHub-Copilot:GPT-5.5",
-          "identity": "GitHub-Copilot:GPT-5.5",
-          "agent": "GitHub-Copilot",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "cb02416507bc0c31415f1527aefc280ae96260bd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cb02416507bc0c31415f1527aefc280ae96260bd",
-      "authoredAt": "2026-05-11T00:54:47.000-07:00",
-      "committedAt": "2026-05-15T08:52:44.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Takashi Iwai",
-      "subject": "ALSA: seq: Use flexible array for MIDI channels",
-      "subsystem": "alsa",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
         }
       ]
     }
