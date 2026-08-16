@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-08-16T16:42:58.696Z",
+  "generatedAt": "2026-08-16T17:34:43.855Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 979,
-    "totalSubsystems": 288,
+    "totalSubsystems": 289,
     "totalAuthors": 221,
     "totalAgents": 190
   },
   "commits": [
+    {
+      "sha": "6ca662cc71df7eb4eaf1b4bcb07cd3f188ad19f2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6ca662cc71df7eb4eaf1b4bcb07cd3f188ad19f2",
+      "authoredAt": "2026-08-12T20:30:42.000Z",
+      "committedAt": "2026-08-12T19:53:35.000-06:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Jens Axboe",
+      "subject": "io_uring/rsrc: reject overflowing regvec bvec byte counts",
+      "subsystem": "io_uring/rsrc",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
     {
       "sha": "9006c116dd111d457bf5d074990210f70a4ad2c8",
       "htmlUrl": "https://github.com/torvalds/linux/commit/9006c116dd111d457bf5d074990210f70a4ad2c8",
@@ -17888,24 +17906,6 @@
           "identity": "Codex:GPT-5.5",
           "agent": "Codex",
           "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "277740023def559a4a2ddc3e8e784ee37a0f16a9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/277740023def559a4a2ddc3e8e784ee37a0f16a9",
-      "authoredAt": "2026-05-10T23:21:38.000-07:00",
-      "committedAt": "2026-05-14T12:20:06.000+02:00",
-      "authorName": "Xiang Mei",
-      "committerName": "Paolo Abeni",
-      "subject": "net/smc: reject CHID-0 ACCEPT that matches an empty ism_dev slot",
-      "subsystem": "net/smc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7",
-          "identity": "Claude:claude-opus-4-7",
-          "agent": "Claude",
-          "model": "claude-opus-4-7"
         }
       ]
     }
