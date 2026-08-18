@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-18T21:39:49.162Z",
+  "generatedAt": "2026-08-18T22:42:35.657Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 981,
-    "totalSubsystems": 309,
-    "totalAuthors": 218,
+    "totalSubsystems": 312,
+    "totalAuthors": 220,
     "totalAgents": 188
   },
   "commits": [
@@ -1544,6 +1544,42 @@
           "identity": "Kimi:K3",
           "agent": "Kimi",
           "model": "K3"
+        }
+      ]
+    },
+    {
+      "sha": "e412c77541c7926ff61baec712616837a2c6887f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e412c77541c7926ff61baec712616837a2c6887f",
+      "authoredAt": "2026-07-28T05:25:37.000Z",
+      "committedAt": "2026-07-29T13:17:45.000+02:00",
+      "authorName": "K Prateek Nayak",
+      "committerName": "Peter Zijlstra",
+      "subject": "riscv/runtime-const: Introduce runtime_const_mask_32()",
+      "subsystem": "riscv/runtime-const",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-5",
+          "identity": "Claude:claude-sonnet-4-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-5"
+        }
+      ]
+    },
+    {
+      "sha": "7eccf137dc044c802f11d3d60bc7fc29066fdf92",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7eccf137dc044c802f11d3d60bc7fc29066fdf92",
+      "authoredAt": "2026-07-28T05:25:35.000Z",
+      "committedAt": "2026-07-28T13:07:14.000+02:00",
+      "authorName": "K Prateek Nayak",
+      "committerName": "Peter Zijlstra",
+      "subject": "arm64/runtime-const: Introduce runtime_const_mask_32()",
+      "subsystem": "arm64/runtime-const",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
@@ -5406,6 +5442,24 @@
       ]
     },
     {
+      "sha": "554ba38456dad8053a1a80afe6ae6da9eff745cc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/554ba38456dad8053a1a80afe6ae6da9eff745cc",
+      "authoredAt": "2026-07-03T13:49:09.000+02:00",
+      "committedAt": "2026-07-03T16:30:36.000+02:00",
+      "authorName": "Jiri Olsa",
+      "committerName": "Peter Zijlstra",
+      "subject": "uprobes/x86: Move optimized uprobe from nop5 to nop10",
+      "subsystem": "uprobes/x86",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
       "sha": "7c4a234bd31a64a8dbd0140dc812da592c5e0787",
       "htmlUrl": "https://github.com/torvalds/linux/commit/7c4a234bd31a64a8dbd0140dc812da592c5e0787",
       "authoredAt": "2026-07-03T13:07:37.000+02:00",
@@ -7316,6 +7370,24 @@
           "identity": "Claude:claude-opus-4-7 [Claude Code]",
           "agent": "Claude",
           "model": "claude-opus-4-7 [Claude Code]"
+        }
+      ]
+    },
+    {
+      "sha": "4f166adb5cb0525d9e32d45729fd8f28c80acbee",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4f166adb5cb0525d9e32d45729fd8f28c80acbee",
+      "authoredAt": "2026-06-20T11:54:22.000+08:00",
+      "committedAt": "2026-06-30T10:56:51.000+02:00",
+      "authorName": "Chen, Yu C",
+      "committerName": "Peter Zijlstra",
+      "subject": "sched/fair: Fix overflow in update_tg_cfs_runnable()",
+      "subsystem": "sched/fair",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -17857,78 +17929,6 @@
       "authorName": "Costa Shulyupin",
       "committerName": "Herbert Xu",
       "subject": "include: Remove unused crypto-ux500.h",
-      "subsystem": "include",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "eb013e9685e2ec6e608bbeb79e7ce98782fdcc63",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/eb013e9685e2ec6e608bbeb79e7ce98782fdcc63",
-      "authoredAt": "2026-05-15T21:50:41.000+03:00",
-      "committedAt": "2026-05-26T16:35:37.000+02:00",
-      "authorName": "Costa Shulyupin",
-      "committerName": "Thomas Bogendoerfer",
-      "subject": "include: Remove unused jz4740-battery.h",
-      "subsystem": "include",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "0549c4c01338abe343a4ffaa4733475d0a85d38a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0549c4c01338abe343a4ffaa4733475d0a85d38a",
-      "authoredAt": "2026-05-15T21:50:41.000+03:00",
-      "committedAt": "2026-06-03T23:13:32.000+02:00",
-      "authorName": "Costa Shulyupin",
-      "committerName": "Sebastian Reichel",
-      "subject": "power: supply: Remove unused jz4740-battery.h",
-      "subsystem": "power",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "56388011db71026e04ffe9963c816269f0bb3165",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/56388011db71026e04ffe9963c816269f0bb3165",
-      "authoredAt": "2026-05-15T21:42:23.000+03:00",
-      "committedAt": "2026-05-26T16:35:37.000+02:00",
-      "authorName": "Costa Shulyupin",
-      "committerName": "Thomas Bogendoerfer",
-      "subject": "include: Remove unused jz4740-adc.h",
-      "subsystem": "include",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "f7ea0d13735ef812f7c777d5c0a79ff6a4b369c3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f7ea0d13735ef812f7c777d5c0a79ff6a4b369c3",
-      "authoredAt": "2026-05-15T21:34:24.000+03:00",
-      "committedAt": "2026-05-28T21:24:57.000-07:00",
-      "authorName": "Costa Shulyupin",
-      "committerName": "Andrew Morton",
-      "subject": "include: remove unused cnt32_to_63.h",
       "subsystem": "include",
       "assistedBy": [
         {
