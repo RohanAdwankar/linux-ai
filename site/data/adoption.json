@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T03:08:52.104Z",
+  "generatedAt": "2026-08-18T03:58:48.016Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,8 +7,8 @@
   "stats": {
     "totalCommits": 980,
     "totalSubsystems": 304,
-    "totalAuthors": 219,
-    "totalAgents": 184
+    "totalAuthors": 220,
+    "totalAgents": 185
   },
   "commits": [
     {
@@ -260,6 +260,24 @@
           "identity": "Codex:gpt-5.6-sol",
           "agent": "Codex",
           "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "00aedd67d75d7b86681bdecaa3b20394e1447d2e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/00aedd67d75d7b86681bdecaa3b20394e1447d2e",
+      "authoredAt": "2026-08-06T15:33:58.000+08:00",
+      "committedAt": "2026-08-11T16:22:26.000-07:00",
+      "authorName": "Jiaming Zhang",
+      "committerName": "Viacheslav Dubeyko",
+      "subject": "hfsplus: validate B-tree record offset table",
+      "subsystem": "hfsplus",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-xhigh",
+          "identity": "Codex:gpt-5.5-xhigh",
+          "agent": "Codex",
+          "model": "gpt-5.5-xhigh"
         }
       ]
     },
@@ -2214,6 +2232,24 @@
       ]
     },
     {
+      "sha": "7cb2f76a6a2ba2130b577cb8ac13e1e46c4fc689",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7cb2f76a6a2ba2130b577cb8ac13e1e46c4fc689",
+      "authoredAt": "2026-07-18T01:56:21.000+09:00",
+      "committedAt": "2026-07-28T16:46:37.000-07:00",
+      "authorName": "David Lee",
+      "committerName": "Viacheslav Dubeyko",
+      "subject": "nilfs2: prevent out-of-bounds read in super root block parsing",
+      "subsystem": "nilfs2",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "d13d5d299c11b7bd3362d5692c56225d9e176664",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d13d5d299c11b7bd3362d5692c56225d9e176664",
       "authoredAt": "2026-07-17T17:33:40.000+03:00",
@@ -2300,6 +2336,24 @@
           "identity": "GitHubCopilot:GPT-5.3-Codex",
           "agent": "GitHubCopilot",
           "model": "GPT-5.3-Codex"
+        }
+      ]
+    },
+    {
+      "sha": "ce5a5ad1a8330a2fcfdd9ec2ab341be739e89a18",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ce5a5ad1a8330a2fcfdd9ec2ab341be739e89a18",
+      "authoredAt": "2026-07-17T10:58:54.000Z",
+      "committedAt": "2026-07-28T16:39:45.000-07:00",
+      "authorName": "Joshua Crofts",
+      "committerName": "Viacheslav Dubeyko",
+      "subject": "nilfs2: fix infinite loop in nilfs_clean_segments()",
+      "subsystem": "nilfs2",
+      "assistedBy": [
+        {
+          "raw": "gemini:gemini-3.1-pro",
+          "identity": "gemini:gemini-3.1-pro",
+          "agent": "gemini",
+          "model": "gemini-3.1-pro"
         }
       ]
     },
@@ -4052,6 +4106,24 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "e2ea5cac61acfc11dad22f1d2d4bc71d56c52a20",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e2ea5cac61acfc11dad22f1d2d4bc71d56c52a20",
+      "authoredAt": "2026-07-08T18:02:03.000-07:00",
+      "committedAt": "2026-07-14T10:23:20.000-07:00",
+      "authorName": "Kyle Zeng",
+      "committerName": "Viacheslav Dubeyko",
+      "subject": "hfsplus: validate thread record before delete key rebuild",
+      "subsystem": "hfsplus",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
         }
       ]
     },
@@ -17839,78 +17911,6 @@
       "authorName": "Greg Kroah-Hartman",
       "committerName": "Greg Kroah-Hartman",
       "subject": "usb: typec: tcpm: bound altmode_desc[] per iteration in svdm_consume_modes()",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "8fbc349e8383125dd2d8de1c1e926279d398ab17",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8fbc349e8383125dd2d8de1c1e926279d398ab17",
-      "authoredAt": "2026-05-13T17:52:51.000+02:00",
-      "committedAt": "2026-05-19T12:25:49.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: typec: tcpm: validate VDO count in Discover Identity ACK handlers",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "aa2f716327be1818e1cb156da8a2844804aaec2f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/aa2f716327be1818e1cb156da8a2844804aaec2f",
-      "authoredAt": "2026-05-13T17:52:50.000+02:00",
-      "committedAt": "2026-05-19T12:25:40.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: typec: tcpm/tcpci_maxim: validate header NDO against RX_BYTE_CNT",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "8a18f896e667df491331371b55d4ad644dc51d60",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8a18f896e667df491331371b55d4ad644dc51d60",
-      "authoredAt": "2026-05-13T17:52:49.000+02:00",
-      "committedAt": "2026-05-19T12:25:35.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: typec: altmodes/displayport: validate count before reading Status Update VDO",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "4af7ad0e6d7aa4403dbb1dac7b9659b0421efcaa",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4af7ad0e6d7aa4403dbb1dac7b9659b0421efcaa",
-      "authoredAt": "2026-05-13T17:52:48.000+02:00",
-      "committedAt": "2026-05-19T12:25:27.000+02:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: typec: wcove: don't write past struct pd_message in wcove_read_rx_buffer()",
       "subsystem": "usb",
       "assistedBy": [
         {
