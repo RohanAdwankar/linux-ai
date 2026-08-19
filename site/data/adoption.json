@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-19T17:41:55.737Z",
+  "generatedAt": "2026-08-19T18:54:09.764Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 981,
-    "totalSubsystems": 289,
+    "totalSubsystems": 290,
     "totalAuthors": 224,
-    "totalAgents": 186
+    "totalAgents": 185
   },
   "commits": [
     {
@@ -6372,6 +6372,24 @@
       ]
     },
     {
+      "sha": "6e328b4a208f7a06df3c1df18d7645c74c90f5f3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6e328b4a208f7a06df3c1df18d7645c74c90f5f3",
+      "authoredAt": "2026-07-13T13:33:18.000-04:00",
+      "committedAt": "2026-07-18T16:07:22.000+02:00",
+      "authorName": "Ewan D. Milne",
+      "committerName": "Danilo Krummrich",
+      "subject": "drivers: base: Remove statistics group if encryption group not created",
+      "subsystem": "drivers",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "38953513d7313992676d4136cd425cdb70c6278e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/38953513d7313992676d4136cd425cdb70c6278e",
       "authoredAt": "2026-07-13T19:30:29.000+02:00",
@@ -11474,6 +11492,24 @@
       "committerName": "Guenter Roeck",
       "subject": "hwmon: tmp401: Read \"ti,n-factor\" as signed",
       "subsystem": "hwmon",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5-5",
+          "identity": "Codex:gpt-5-5",
+          "agent": "Codex",
+          "model": "gpt-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "c6fa876d8641dd01601d0f0a43733792bc4d1678",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c6fa876d8641dd01601d0f0a43733792bc4d1678",
+      "authoredAt": "2026-06-12T16:53:15.000-05:00",
+      "committedAt": "2026-07-20T15:35:54.000-05:00",
+      "authorName": "Rob Herring (Arm)",
+      "committerName": "Rob Herring (Arm)",
+      "subject": "dt-bindings: power: maxim,max17042: Fix temp types to signed",
+      "subsystem": "dt-bindings",
       "assistedBy": [
         {
           "raw": "Codex:gpt-5-5",
@@ -17780,42 +17816,6 @@
           "identity": "Claude:claude-4.5-opus-high-thinking",
           "agent": "Claude",
           "model": "claude-4.5-opus-high-thinking"
-        }
-      ]
-    },
-    {
-      "sha": "f58316a441b4626324993db585fa4b7b7c780fac",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f58316a441b4626324993db585fa4b7b7c780fac",
-      "authoredAt": "2026-05-27T09:27:03.000-05:00",
-      "committedAt": "2026-06-03T19:20:04.000-07:00",
-      "authorName": "Andrew Jones",
-      "committerName": "Nathan Chancellor",
-      "subject": "kconfig: add kconfig-sym-check static checker",
-      "subsystem": "kconfig",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "8df560fefe6fed6a20b7e06720eeaeccec349ac0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8df560fefe6fed6a20b7e06720eeaeccec349ac0",
-      "authoredAt": "2026-05-27T20:09:14.000+08:00",
-      "committedAt": "2026-05-28T09:36:43.000+02:00",
-      "authorName": "Zhao Dongdong",
-      "committerName": "Takashi Iwai",
-      "subject": "ALSA: aoa: check snd_ctl_new1() return value",
-      "subsystem": "alsa",
-      "assistedBy": [
-        {
-          "raw": "Opencode:DeepSeek-V4-Flash",
-          "identity": "Opencode:DeepSeek-V4-Flash",
-          "agent": "Opencode",
-          "model": "DeepSeek-V4-Flash"
         }
       ]
     }
