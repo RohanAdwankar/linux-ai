@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-18T23:37:59.206Z",
+  "generatedAt": "2026-08-19T01:53:57.233Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 981,
-    "totalSubsystems": 312,
-    "totalAuthors": 220,
-    "totalAgents": 188
+    "totalSubsystems": 314,
+    "totalAuthors": 221,
+    "totalAgents": 189
   },
   "commits": [
     {
@@ -260,6 +260,24 @@
           "identity": "GitHub-Copilot:claude-sonnet-5",
           "agent": "GitHub-Copilot",
           "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "18c7d85864e554adc8fad1e8d2e9d2cb6c3911c8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/18c7d85864e554adc8fad1e8d2e9d2cb6c3911c8",
+      "authoredAt": "2026-08-09T19:04:16.000Z",
+      "committedAt": "2026-08-11T15:43:12.000+02:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Thomas Gleixner",
+      "subject": "timers/itimer: Zero-init old itimerval before copy to userspace",
+      "subsystem": "timers/itimer",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
         }
       ]
     },
@@ -2876,6 +2894,24 @@
           "identity": "gemini:gemini-3.1-pro",
           "agent": "gemini",
           "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
+      "sha": "ecc330e3096173f433659aa64ab3674d0d48440e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ecc330e3096173f433659aa64ab3674d0d48440e",
+      "authoredAt": "2026-07-17T03:59:47.000Z",
+      "committedAt": "2026-07-20T16:07:39.000+02:00",
+      "authorName": "Babanpreet Singh",
+      "committerName": "Thomas Gleixner",
+      "subject": "timers/migration: Fix bad line kernel-doc warning in struct tmigr_cpu",
+      "subsystem": "timers/migration",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-5",
+          "identity": "Claude:claude-sonnet-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-5"
         }
       ]
     },
@@ -7122,6 +7158,24 @@
       ]
     },
     {
+      "sha": "d21808328225ab8cee46885bf9a0dffcefbe630e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d21808328225ab8cee46885bf9a0dffcefbe630e",
+      "authoredAt": "2026-06-25T06:04:34.000+08:00",
+      "committedAt": "2026-08-13T18:13:01.000+02:00",
+      "authorName": "Felix Yan",
+      "committerName": "Daniel Lezcano",
+      "subject": "clocksource/drivers/timer-sun4i: Advertise a real minimum delta",
+      "subsystem": "clocksource/drivers/timer-sun4i",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "5fae9a928482d4845bca169a3a098789203a1ca4",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5fae9a928482d4845bca169a3a098789203a1ca4",
       "authoredAt": "2026-06-24T16:11:36.000-05:00",
@@ -7280,6 +7334,114 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "794ddd6e15cfd133c4a5c01dac37a5da04cbe186",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/794ddd6e15cfd133c4a5c01dac37a5da04cbe186",
+      "authoredAt": "2026-06-21T22:54:00.000+01:00",
+      "committedAt": "2026-07-10T09:20:55.000+02:00",
+      "authorName": "David Woodhouse",
+      "committerName": "Thomas Gleixner",
+      "subject": "ntp: Remove tick_length_base, use tick_length directly",
+      "subsystem": "ntp",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-4.6-1m",
+          "identity": "Kiro:claude-opus-4.6-1m",
+          "agent": "Kiro",
+          "model": "claude-opus-4.6-1m"
+        }
+      ]
+    },
+    {
+      "sha": "34ce97c33dca9595455a63d7801e360d19fd97ed",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/34ce97c33dca9595455a63d7801e360d19fd97ed",
+      "authoredAt": "2026-06-21T22:53:59.000+01:00",
+      "committedAt": "2026-07-10T09:20:55.000+02:00",
+      "authorName": "David Woodhouse",
+      "committerName": "Thomas Gleixner",
+      "subject": "timekeeping: Settle competing time_offset and time_adjust skew",
+      "subsystem": "timekeeping",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-4.8",
+          "identity": "Kiro:claude-opus-4.8",
+          "agent": "Kiro",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "289d1759494f4a97b0ca4565f3eed00964b952c4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/289d1759494f4a97b0ca4565f3eed00964b952c4",
+      "authoredAt": "2026-06-21T22:53:58.000+01:00",
+      "committedAt": "2026-07-10T09:20:54.000+02:00",
+      "authorName": "David Woodhouse",
+      "committerName": "Thomas Gleixner",
+      "subject": "timekeeping: Drive time_adjust skew via per-tick ntp_error transfer",
+      "subsystem": "timekeeping",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-4.8",
+          "identity": "Kiro:claude-opus-4.8",
+          "agent": "Kiro",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "d375af58990902e73dd62bd7c049e759bcff92a5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d375af58990902e73dd62bd7c049e759bcff92a5",
+      "authoredAt": "2026-06-21T22:53:57.000+01:00",
+      "committedAt": "2026-07-10T09:20:54.000+02:00",
+      "authorName": "David Woodhouse",
+      "committerName": "Thomas Gleixner",
+      "subject": "timekeeping: Drive time_offset skew via per-tick ntp_error transfer",
+      "subsystem": "timekeeping",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-4.8",
+          "identity": "Kiro:claude-opus-4.8",
+          "agent": "Kiro",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "869a55e662a080a5c6618b68ae320231c720eeee",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/869a55e662a080a5c6618b68ae320231c720eeee",
+      "authoredAt": "2026-06-21T22:53:56.000+01:00",
+      "committedAt": "2026-07-10T09:20:54.000+02:00",
+      "authorName": "David Woodhouse",
+      "committerName": "Thomas Gleixner",
+      "subject": "timekeeping: Account for clocksource tick quantisation via NTP",
+      "subsystem": "timekeeping",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-4.8",
+          "identity": "Kiro:claude-opus-4.8",
+          "agent": "Kiro",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "b7befd6d91207cf3f4cecd68fea0c212093906cf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b7befd6d91207cf3f4cecd68fea0c212093906cf",
+      "authoredAt": "2026-06-21T22:53:55.000+01:00",
+      "committedAt": "2026-07-08T00:17:26.000+02:00",
+      "authorName": "David Woodhouse",
+      "committerName": "Thomas Gleixner",
+      "subject": "timekeeping: Account for monotonicity adjustment in ntp_error",
+      "subsystem": "timekeeping",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-4.6-1m",
+          "identity": "Kiro:claude-opus-4.6-1m",
+          "agent": "Kiro",
+          "model": "claude-opus-4.6-1m"
         }
       ]
     },
@@ -7622,6 +7784,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "fecdffa85fee91dab00e81617ed9cf9d6a5e907f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fecdffa85fee91dab00e81617ed9cf9d6a5e907f",
+      "authoredAt": "2026-06-17T18:09:02.000-07:00",
+      "committedAt": "2026-07-28T20:21:18.000-07:00",
+      "authorName": "Borislav Petkov (AMD)",
+      "committerName": "Borislav Petkov (AMD)",
+      "subject": "Documentation/x86: Document the intricacies of GS context switching",
+      "subsystem": "documentation/x86",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-sonnet-4-6",
+          "identity": "Claude Code:claude-sonnet-4-6",
+          "agent": "Claude Code",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
@@ -17756,186 +17936,6 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "fdb69d401967fd88d27982a7e4984b2a3a4f0314",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fdb69d401967fd88d27982a7e4984b2a3a4f0314",
-      "authoredAt": "2026-05-17T12:44:14.000Z",
-      "committedAt": "2026-05-18T10:19:18.000+05:30",
-      "authorName": "Jiakai Xu",
-      "committerName": "Anup Patel",
-      "subject": "RISC-V: KVM: Fix NULL pointer dereference in SBI v0.1 SEND_IPI handler",
-      "subsystem": "risc-v",
-      "assistedBy": [
-        {
-          "raw": "OpenClaw:DeepSeek-V3.2",
-          "identity": "OpenClaw:DeepSeek-V3.2",
-          "agent": "OpenClaw",
-          "model": "DeepSeek-V3.2"
-        }
-      ]
-    },
-    {
-      "sha": "b9254d222d0b38cc6f7b73119fad6316f65278be",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b9254d222d0b38cc6f7b73119fad6316f65278be",
-      "authoredAt": "2026-05-16T23:37:54.000-07:00",
-      "committedAt": "2026-07-31T17:27:25.000+05:30",
-      "authorName": "Rosen Penev",
-      "committerName": "Madhavan Srinivasan",
-      "subject": "powerpc/44x: Set GPIO chip parent",
-      "subsystem": "powerpc/44x",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "44589c155e6f4531100ddd3b6478190edd075035",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/44589c155e6f4531100ddd3b6478190edd075035",
-      "authoredAt": "2026-05-16T21:27:16.000-07:00",
-      "committedAt": "2026-06-06T08:46:29.000-07:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Jeff Johnson",
-      "subject": "wifi: ath9k: Clear DMA descriptors without memset",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "3da1fdf4efbc490041eb4f836bf596201203f8f2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3da1fdf4efbc490041eb4f836bf596201203f8f2",
-      "authoredAt": "2026-05-16T21:15:39.000Z",
-      "committedAt": "2026-05-19T10:43:05.000-05:00",
-      "authorName": "Asim Viladi Oglu Manizada",
-      "committerName": "Steve French",
-      "subject": "smb: client: reject userspace cifs.spnego descriptions",
-      "subsystem": "smb",
-      "assistedBy": [
-        {
-          "raw": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
-          "identity": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
-          "agent": "avom-custom-harness",
-          "model": "gpt-5.5-qwen3.6-mod-mix"
-        }
-      ]
-    },
-    {
-      "sha": "9aef3d167a1c0f1a59ef043ee7b0f525936fbfc6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9aef3d167a1c0f1a59ef043ee7b0f525936fbfc6",
-      "authoredAt": "2026-05-15T16:30:45.000-06:00",
-      "committedAt": "2026-06-03T13:43:23.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Clean up PSR helper functions",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Sonnet-4.6",
-          "identity": "Copilot:Claude-Sonnet-4.6",
-          "agent": "Copilot",
-          "model": "Claude-Sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "30b1f763bfc1b0db42f58904ec378066cc886c44",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/30b1f763bfc1b0db42f58904ec378066cc886c44",
-      "authoredAt": "2026-05-15T17:15:55.000-05:00",
-      "committedAt": "2026-06-08T22:37:35.000+09:00",
-      "authorName": "Dinh Nguyen",
-      "committerName": "Dinh Nguyen",
-      "subject": "firmware: stratix10-rsu: avoid blocking reboot_image sysfs when busy",
-      "subsystem": "firmware",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7",
-          "identity": "Claude:claude-opus-4-7",
-          "agent": "Claude",
-          "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "34f281489976fb20fe8be12f084055b5560a3190",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/34f281489976fb20fe8be12f084055b5560a3190",
-      "authoredAt": "2026-05-15T16:09:48.000-06:00",
-      "committedAt": "2026-06-03T13:41:56.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add KUnit tests for amdgpu_dm_psr_set_event",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Sonnet-4.6",
-          "identity": "Copilot:Claude-Sonnet-4.6",
-          "agent": "Copilot",
-          "model": "Claude-Sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "64aa07084a0d44541d022ac1dd2d8c03ba5b222c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/64aa07084a0d44541d022ac1dd2d8c03ba5b222c",
-      "authoredAt": "2026-05-15T13:28:05.000-06:00",
-      "committedAt": "2026-06-03T13:41:50.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add KUnit tests for dm_ism_dispatch_next_event",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Sonnet-4.6",
-          "identity": "Copilot:Claude-Sonnet-4.6",
-          "agent": "Copilot",
-          "model": "Claude-Sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "f84c48048b491941af8caaa65d4260123cab7257",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f84c48048b491941af8caaa65d4260123cab7257",
-      "authoredAt": "2026-05-15T13:27:56.000-06:00",
-      "committedAt": "2026-06-03T13:41:44.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Extract dm_ism_dispatch_next_event",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Sonnet-4.6",
-          "identity": "Copilot:Claude-Sonnet-4.6",
-          "agent": "Copilot",
-          "model": "Claude-Sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "43079e21ff53c6a77e669cec5b5b673b45f46e87",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/43079e21ff53c6a77e669cec5b5b673b45f46e87",
-      "authoredAt": "2026-05-15T22:02:14.000+03:00",
-      "committedAt": "2026-05-22T20:25:30.000+08:00",
-      "authorName": "Costa Shulyupin",
-      "committerName": "Herbert Xu",
-      "subject": "include: Remove unused crypto-ux500.h",
-      "subsystem": "include",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
         }
       ]
     }
