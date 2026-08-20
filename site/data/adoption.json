@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-20T20:47:28.854Z",
+  "generatedAt": "2026-08-20T21:44:21.107Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 979,
-    "totalSubsystems": 253,
-    "totalAuthors": 224,
+    "totalCommits": 978,
+    "totalSubsystems": 258,
+    "totalAuthors": 229,
     "totalAgents": 175
   },
   "commits": [
@@ -350,6 +350,24 @@
           "identity": "Z.ai:glm-5.2",
           "agent": "Z.ai",
           "model": "glm-5.2"
+        }
+      ]
+    },
+    {
+      "sha": "297b5ccea4acacaa47c150f043bce695202afbf1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/297b5ccea4acacaa47c150f043bce695202afbf1",
+      "authoredAt": "2026-08-11T00:01:27.000-07:00",
+      "committedAt": "2026-08-15T17:29:22.000-06:00",
+      "authorName": "Vishnu Razdan",
+      "committerName": "Jens Axboe",
+      "subject": "io_uring/io-wq: fix worker accounting when canceling creation callbacks",
+      "subsystem": "io_uring/io-wq",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -930,6 +948,24 @@
       ]
     },
     {
+      "sha": "95491fb05105b61050cb623a5e0227eb26aa3525",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/95491fb05105b61050cb623a5e0227eb26aa3525",
+      "authoredAt": "2026-08-08T11:42:39.000-04:00",
+      "committedAt": "2026-08-15T17:39:23.000-06:00",
+      "authorName": "Rik van Riel",
+      "committerName": "Jens Axboe",
+      "subject": "null_blk: fix UBSAN shift-out-of-bounds when zone_size is 0 or overflows",
+      "subsystem": "null_blk",
+      "assistedBy": [
+        {
+          "raw": "Hermes:muse-spark-1.2 syzkaller",
+          "identity": "Hermes:muse-spark-1.2 syzkaller",
+          "agent": "Hermes",
+          "model": "muse-spark-1.2 syzkaller"
+        }
+      ]
+    },
+    {
       "sha": "090a95dbe13df9965279b588d97eda134831769c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/090a95dbe13df9965279b588d97eda134831769c",
       "authoredAt": "2026-08-08T17:05:06.000+02:00",
@@ -1502,6 +1538,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "659ae9d02cb5d72c76f74fff7441eb8fb64d8f5c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/659ae9d02cb5d72c76f74fff7441eb8fb64d8f5c",
+      "authoredAt": "2026-08-04T21:36:25.000Z",
+      "committedAt": "2026-08-11T08:53:28.000-07:00",
+      "authorName": "Yifei Gao",
+      "committerName": "Keith Busch",
+      "subject": "nvmet: pci-epf: put CQ ref on create_cq mapping failure",
+      "subsystem": "nvmet",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -3828,6 +3882,24 @@
       ]
     },
     {
+      "sha": "ba98d6796d12258e837ece065d2ecb59d76ce4ff",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ba98d6796d12258e837ece065d2ecb59d76ce4ff",
+      "authoredAt": "2026-07-29T19:02:06.000+08:00",
+      "committedAt": "2026-08-10T12:00:29.000-07:00",
+      "authorName": "Jiang HongHui",
+      "committerName": "Keith Busch",
+      "subject": "nvmet-fc: fix invalid free in LS IOD error path",
+      "subsystem": "nvmet-fc",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
       "sha": "e40ff9840fa8a633d149f0242df10cae5e518062",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e40ff9840fa8a633d149f0242df10cae5e518062",
       "authoredAt": "2026-07-29T16:23:58.000+05:30",
@@ -4352,6 +4424,24 @@
           "identity": "opencode:big-pickle",
           "agent": "opencode",
           "model": "big-pickle"
+        }
+      ]
+    },
+    {
+      "sha": "737a3b535247226f6e1a7988fd9d6e63e7d6fc71",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/737a3b535247226f6e1a7988fd9d6e63e7d6fc71",
+      "authoredAt": "2026-07-27T22:03:31.000+02:00",
+      "committedAt": "2026-07-28T10:11:11.000-07:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "Keith Busch",
+      "subject": "nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations",
+      "subsystem": "nvmet-tcp",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_2000",
+          "identity": "gkh_clanker_2000",
+          "agent": "gkh_clanker_2000",
+          "model": ""
         }
       ]
     },
@@ -5072,6 +5162,42 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "1cdfe2fa62b48728a9b436fbbd3dbe4c11593e24",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1cdfe2fa62b48728a9b436fbbd3dbe4c11593e24",
+      "authoredAt": "2026-07-25T10:25:06.000+08:00",
+      "committedAt": "2026-08-15T17:06:51.000-06:00",
+      "authorName": "Zizhi Wo",
+      "committerName": "Jens Axboe",
+      "subject": "null_blk: reject per-device queue resize for shared tag set",
+      "subsystem": "null_blk",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:GLM-5.2",
+          "identity": "Claude-Code:GLM-5.2",
+          "agent": "Claude-Code",
+          "model": "GLM-5.2"
+        }
+      ]
+    },
+    {
+      "sha": "2a6357a9b935a34f5508618fee8a7fffbf7722a8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2a6357a9b935a34f5508618fee8a7fffbf7722a8",
+      "authoredAt": "2026-07-25T10:25:04.000+08:00",
+      "committedAt": "2026-08-15T17:06:50.000-06:00",
+      "authorName": "Zizhi Wo",
+      "committerName": "Jens Axboe",
+      "subject": "null_blk: free zones array on device power-off",
+      "subsystem": "null_blk",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:GLM-5.2",
+          "identity": "Claude-Code:GLM-5.2",
+          "agent": "Claude-Code",
+          "model": "GLM-5.2"
         }
       ]
     },
@@ -9936,6 +10062,24 @@
       ]
     },
     {
+      "sha": "4a3f00262a044e8e15064b1a6860968bf0500bf4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4a3f00262a044e8e15064b1a6860968bf0500bf4",
+      "authoredAt": "2026-07-09T15:25:33.000+02:00",
+      "committedAt": "2026-08-10T10:34:14.000-07:00",
+      "authorName": "Ibrahim Hashimov",
+      "committerName": "Keith Busch",
+      "subject": "nvmet-tcp: bound SGL data length before allocating command buffers",
+      "subsystem": "nvmet-tcp",
+      "assistedBy": [
+        {
+          "raw": "AuditCode-AI:2026.07",
+          "identity": "AuditCode-AI:2026.07",
+          "agent": "AuditCode-AI",
+          "model": "2026.07"
+        }
+      ]
+    },
+    {
       "sha": "e4a3c99bbf779d6357adb8101ad18f34c2194306",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e4a3c99bbf779d6357adb8101ad18f34c2194306",
       "authoredAt": "2026-07-09T15:24:16.000+02:00",
@@ -9968,6 +10112,42 @@
           "identity": "0sec:claude-opus-4-8",
           "agent": "0sec",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "29261f8bb41662f2a660c479e5cf592942b53f78",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/29261f8bb41662f2a660c479e5cf592942b53f78",
+      "authoredAt": "2026-07-09T14:30:33.000+02:00",
+      "committedAt": "2026-07-14T15:12:16.000-07:00",
+      "authorName": "Hari Mishal",
+      "committerName": "Keith Busch",
+      "subject": "nvme: clamp FDP nruhsd to allocated RUH status descriptor count",
+      "subsystem": "nvme",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3c568b35a0d309acb40746552bec2af24cd550ef",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3c568b35a0d309acb40746552bec2af24cd550ef",
+      "authoredAt": "2026-07-09T14:30:32.000+02:00",
+      "committedAt": "2026-07-14T15:11:59.000-07:00",
+      "authorName": "Hari Mishal",
+      "committerName": "Keith Busch",
+      "subject": "nvme: bound ns descriptor header and body to identify buffer",
+      "subsystem": "nvme",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
         }
       ]
     },
@@ -17648,204 +17828,6 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "96d47e40bf9db4a9efd5c8fb53287a508d165f14",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/96d47e40bf9db4a9efd5c8fb53287a508d165f14",
-      "authoredAt": "2026-06-08T18:09:26.000+09:00",
-      "committedAt": "2026-06-08T13:43:10.000+02:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Johan Hovold",
-      "subject": "USB: serial: kl5kusb105: fix bulk-out buffer overflow",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "51cdb188edeaf389e4377859b9c483c19ce5a259",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/51cdb188edeaf389e4377859b9c483c19ce5a259",
-      "authoredAt": "2026-06-07T22:43:09.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf tools: Fix uninitialized pathname on uncompressed fallback in filename__decompress()",
-      "subsystem": "perf tools",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "1b4e9fbdeabc549965e70ac0cd8095d57ff6df06",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1b4e9fbdeabc549965e70ac0cd8095d57ff6df06",
-      "authoredAt": "2026-06-07T22:40:20.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf symbols: Bounds-check descsz in sysfs__read_build_id() GNU fallback",
-      "subsystem": "perf symbols",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "e1a2c9d70b312acc262f6be936dd5bbd9bbc6236",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e1a2c9d70b312acc262f6be936dd5bbd9bbc6236",
-      "authoredAt": "2026-06-07T22:39:53.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf hwmon: Fix parse_hwmon_filename() strlcpy buffer overflow",
-      "subsystem": "perf hwmon",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "ae75956c166fe169b8c137bf375305fc97820a62",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ae75956c166fe169b8c137bf375305fc97820a62",
-      "authoredAt": "2026-06-07T22:38:48.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf hwmon: Use scnprintf() in hwmon_pmu__for_each_event()",
-      "subsystem": "perf hwmon",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "1847c5fae344a0fb9cc0f95be40b378359c6fc3b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1847c5fae344a0fb9cc0f95be40b378359c6fc3b",
-      "authoredAt": "2026-06-07T22:38:26.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf hwmon: Fix off-by-one null termination on sysfs reads",
-      "subsystem": "perf hwmon",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "31d596054550f793508abe7dd593853ece47d428",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/31d596054550f793508abe7dd593853ece47d428",
-      "authoredAt": "2026-06-07T22:37:55.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf tools: Fix thread__set_comm_from_proc() on empty comm file",
-      "subsystem": "perf tools",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "b6bb3b005dcdd960b8e0b7f9d6869132b3de08d5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b6bb3b005dcdd960b8e0b7f9d6869132b3de08d5",
-      "authoredAt": "2026-06-07T21:06:54.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf intel-pt: Fix snprintf size tracking bug in insn decoder",
-      "subsystem": "perf intel-pt",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "b8acc68f1382a3f380a0e7320a95d328ac5e9027",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b8acc68f1382a3f380a0e7320a95d328ac5e9027",
-      "authoredAt": "2026-06-07T21:06:12.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf tools: Use mkostemp() for O_CLOEXEC on temporary files",
-      "subsystem": "perf tools",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "9c74f0aab398cb32ab250401f323c0fdc9a3a496",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9c74f0aab398cb32ab250401f323c0fdc9a3a496",
-      "authoredAt": "2026-06-07T21:05:15.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf symbols: Bounds-check .gnu_debuglink section data",
-      "subsystem": "perf symbols",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "6eaa8ee3e2abe5112e80e94c27196bb175689469",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6eaa8ee3e2abe5112e80e94c27196bb175689469",
-      "authoredAt": "2026-06-07T21:04:50.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf symbols: Fix signed overflow in sysfs__read_build_id() size check",
-      "subsystem": "perf symbols",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
         }
       ]
     }
