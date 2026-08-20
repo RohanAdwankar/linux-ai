@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-20T21:44:21.107Z",
+  "generatedAt": "2026-08-20T22:46:02.381Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 978,
-    "totalSubsystems": 258,
+    "totalSubsystems": 261,
     "totalAuthors": 229,
-    "totalAgents": 175
+    "totalAgents": 173
   },
   "commits": [
     {
@@ -1070,6 +1070,42 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "326ba66db9494e71ddcafd1c4c063b49c3101495",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/326ba66db9494e71ddcafd1c4c063b49c3101495",
+      "authoredAt": "2026-08-07T19:24:32.000-06:00",
+      "committedAt": "2026-08-07T19:24:32.000-06:00",
+      "authorName": "Drew Fustini",
+      "committerName": "Paul Walmsley",
+      "subject": "riscv: Add support for srmcfg CSR from Ssqosid extension",
+      "subsystem": "riscv",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "d093d4524bb12eda49c3654cb04ad4663c2471f8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d093d4524bb12eda49c3654cb04ad4663c2471f8",
+      "authoredAt": "2026-08-08T06:44:11.000+09:00",
+      "committedAt": "2026-08-08T21:20:55.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/boot: Add support for eprobe, fprobe, and tprobe events",
+      "subsystem": "tracing/boot",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.6-flash",
+          "identity": "Antigravity:gemini-3.6-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.6-flash"
         }
       ]
     },
@@ -4080,6 +4116,24 @@
       ]
     },
     {
+      "sha": "29a86c5e6361caffa7e75e891169e813f82ff688",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/29a86c5e6361caffa7e75e891169e813f82ff688",
+      "authoredAt": "2026-07-29T08:29:58.000+09:00",
+      "committedAt": "2026-08-10T17:13:20.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "fprobe: Simplify fprobe_remove_ips() by reusing existing helpers",
+      "subsystem": "fprobe",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.6-flash",
+          "identity": "Antigravity:gemini-3.6-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.6-flash"
+        }
+      ]
+    },
+    {
       "sha": "8cf2f40ceb85047ad8a84dffae3bebc9fed18216",
       "htmlUrl": "https://github.com/torvalds/linux/commit/8cf2f40ceb85047ad8a84dffae3bebc9fed18216",
       "authoredAt": "2026-07-29T08:27:33.000+09:00",
@@ -5478,6 +5532,24 @@
       ]
     },
     {
+      "sha": "09f71dbeb287e367beea56d9ac8a3d356ef5e02a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/09f71dbeb287e367beea56d9ac8a3d356ef5e02a",
+      "authoredAt": "2026-07-23T06:10:55.000+02:00",
+      "committedAt": "2026-08-10T11:47:59.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Geert Uytterhoeven",
+      "subject": "m68k: Fix backtraces for non-running tasks",
+      "subsystem": "m68k",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "fd2bf5e718108c00732eb07fd94a5d8830f62a9f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/fd2bf5e718108c00732eb07fd94a5d8830f62a9f",
       "authoredAt": "2026-07-23T09:10:01.000+08:00",
@@ -5954,6 +6026,186 @@
           "identity": "Codex:gpt-5.6",
           "agent": "Codex",
           "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "5be3a9db600853578559681b2dd20a9bc7dd4fc5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5be3a9db600853578559681b2dd20a9bc7dd4fc5",
+      "authoredAt": "2026-07-20T19:45:02.000+09:00",
+      "committedAt": "2026-07-21T18:00:13.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Fix extra whitespace in trace_probe_kernel.h",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "5b385fd434c75b6288a36722d606f04444db34eb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5b385fd434c75b6288a36722d606f04444db34eb",
+      "authoredAt": "2026-07-20T19:44:53.000+09:00",
+      "committedAt": "2026-07-21T18:00:09.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/kprobe: Remove redundant memset in kprobe_perf_func()",
+      "subsystem": "tracing/kprobe",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "3d785646cc488d3f743e0cb67491e80b69200cfb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3d785646cc488d3f743e0cb67491e80b69200cfb",
+      "authoredAt": "2026-07-20T19:44:43.000+09:00",
+      "committedAt": "2026-07-21T18:00:05.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/fprobe: Remove redundant memset in fentry_perf_func()",
+      "subsystem": "tracing/fprobe",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "36db65d0e5de923909e4d2b13524375b139568ac",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/36db65d0e5de923909e4d2b13524375b139568ac",
+      "authoredAt": "2026-07-20T19:44:34.000+09:00",
+      "committedAt": "2026-07-21T18:00:01.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/fprobe: Remove redundant snprintf in trace_fprobe_match_command_head()",
+      "subsystem": "tracing/fprobe",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "0fb6fd1eb3e7c8649473bd0ea6d897c835740157",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0fb6fd1eb3e7c8649473bd0ea6d897c835740157",
+      "authoredAt": "2026-07-20T19:44:25.000+09:00",
+      "committedAt": "2026-07-21T17:59:58.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Simplify BTF_KIND_PTR case in fetch_type_from_btf_type()",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "78d252c935c9c54742443e871b7b39204ecb7a01",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/78d252c935c9c54742443e871b7b39204ecb7a01",
+      "authoredAt": "2026-07-20T19:44:16.000+09:00",
+      "committedAt": "2026-07-21T17:59:54.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Cleanup pointer arithmetic in store_trace_entry_data()",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "5428fca0cd542d4fb7beb781c1b44292aedb7915",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5428fca0cd542d4fb7beb781c1b44292aedb7915",
+      "authoredAt": "2026-07-20T19:44:07.000+09:00",
+      "committedAt": "2026-07-21T17:59:50.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Remove unused parameter from parse_probe_var_retval()",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "6e9328ed75afc2f2564514df53ff66259f805a2a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6e9328ed75afc2f2564514df53ff66259f805a2a",
+      "authoredAt": "2026-07-20T19:43:57.000+09:00",
+      "committedAt": "2026-07-21T17:59:46.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Remove redundant bounds check in trace_probe_compare_arg_type()",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "794b5640aa7b295623c1d6b6fc2fe229a30aad0d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/794b5640aa7b295623c1d6b6fc2fe229a30aad0d",
+      "authoredAt": "2026-07-20T19:43:48.000+09:00",
+      "committedAt": "2026-07-21T17:59:42.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Remove redundant boolean conversion in trace_probe_has_single_file()",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "323853e2d125ec1a99df61893fb546728f4d738e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/323853e2d125ec1a99df61893fb546728f4d738e",
+      "authoredAt": "2026-07-20T19:43:39.000+09:00",
+      "committedAt": "2026-07-21T17:59:39.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Remove duplicate MAX_ARRAY_LEN macro definition",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
         }
       ]
     },
@@ -8646,6 +8898,96 @@
       ]
     },
     {
+      "sha": "1a0ffe10bfb91efc730f2d34c6875c1084b0a462",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1a0ffe10bfb91efc730f2d34c6875c1084b0a462",
+      "authoredAt": "2026-07-14T10:10:14.000+09:00",
+      "committedAt": "2026-07-14T22:43:40.000+09:00",
+      "authorName": "Masami Hiramatsu",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Eliminate recursion in parse_probe_arg()",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "47e4ec68716624642f7108535960835bae7eff13",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/47e4ec68716624642f7108535960835bae7eff13",
+      "authoredAt": "2026-07-14T10:10:04.000+09:00",
+      "committedAt": "2026-07-14T22:43:40.000+09:00",
+      "authorName": "Masami Hiramatsu",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Extend max length of argument string",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "0b420da72e45bc71fc2a8c9b230cd37585452188",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0b420da72e45bc71fc2a8c9b230cd37585452188",
+      "authoredAt": "2026-07-14T10:09:55.000+09:00",
+      "committedAt": "2026-07-14T22:43:40.000+09:00",
+      "authorName": "Masami Hiramatsu",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Sort ERRORS list in trace_probe.h alphabetically",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "7e79d7fbaf1fe30a341ae128ad88f4586efb94f1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7e79d7fbaf1fe30a341ae128ad88f4586efb94f1",
+      "authoredAt": "2026-07-14T10:09:45.000+09:00",
+      "committedAt": "2026-07-14T22:43:40.000+09:00",
+      "authorName": "Masami Hiramatsu",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Refactor parse_probe_arg()",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "2590d67a1ce85a8d26980f4ff512ab7bcc1b8d89",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2590d67a1ce85a8d26980f4ff512ab7bcc1b8d89",
+      "authoredAt": "2026-07-14T10:09:36.000+09:00",
+      "committedAt": "2026-07-14T22:43:39.000+09:00",
+      "authorName": "Masami Hiramatsu",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Refactor parse_probe_vars()",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
       "sha": "7cefedf0c4a2d943f96f440b433bf71a1a8261d7",
       "htmlUrl": "https://github.com/torvalds/linux/commit/7cefedf0c4a2d943f96f440b433bf71a1a8261d7",
       "authoredAt": "2026-07-13T16:29:16.000-07:00",
@@ -9972,6 +10314,24 @@
       ]
     },
     {
+      "sha": "77b814c1832fde018c30357b4ec3fcdaa91a1c10",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/77b814c1832fde018c30357b4ec3fcdaa91a1c10",
+      "authoredAt": "2026-07-09T08:58:41.000-07:00",
+      "committedAt": "2026-07-14T09:01:56.000-07:00",
+      "authorName": "Dave Jiang",
+      "committerName": "Dave Jiang",
+      "subject": "cxl/features: Serialize multi-part Get/Set Feature transfers",
+      "subsystem": "cxl/features",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "12556c3198328df38b3444978391141ad6f7092b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/12556c3198328df38b3444978391141ad6f7092b",
       "authoredAt": "2026-07-09T11:58:37.000-04:00",
@@ -9998,6 +10358,24 @@
       "committerName": "Kumar Kartikeya Dwivedi",
       "subject": "bpf: Reject rdonly/rdwr_buf_size kfunc arguments that exceed u32 max",
       "subsystem": "bpf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "8b301c4afbce4bc3f94528441d8d5ce1366504ad",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8b301c4afbce4bc3f94528441d8d5ce1366504ad",
+      "authoredAt": "2026-07-09T08:57:14.000-07:00",
+      "committedAt": "2026-07-14T09:01:21.000-07:00",
+      "authorName": "Dave Jiang",
+      "committerName": "Dave Jiang",
+      "subject": "cxl/mbox: Break poison list loop on an empty payload",
+      "subsystem": "cxl/mbox",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -10884,6 +11262,24 @@
       ]
     },
     {
+      "sha": "430c502c80e542e77bcf97db13ec0e8cdf9addb0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/430c502c80e542e77bcf97db13ec0e8cdf9addb0",
+      "authoredAt": "2026-07-06T15:43:22.000-07:00",
+      "committedAt": "2026-07-14T09:01:39.000-07:00",
+      "authorName": "Dave Jiang",
+      "committerName": "Dave Jiang",
+      "subject": "cxl/pci: Honor -EPROBE_DEFER from component register setup",
+      "subsystem": "cxl/pci",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "793bf193b18e9bff6c4280268bbffd16a5b533e5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/793bf193b18e9bff6c4280268bbffd16a5b533e5",
       "authoredAt": "2026-07-06T14:00:54.000-07:00",
@@ -11696,6 +12092,42 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "7d8d6ad659c02ed5d2387777194c22e8e81dbb2b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7d8d6ad659c02ed5d2387777194c22e8e81dbb2b",
+      "authoredAt": "2026-07-02T21:12:42.000+09:00",
+      "committedAt": "2026-07-14T22:43:16.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Add a new testcase for BTF typecasts",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "dccddc39aa7d0167e16e9fb94942fd37a30d581b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dccddc39aa7d0167e16e9fb94942fd37a30d581b",
+      "authoredAt": "2026-07-02T21:12:40.000+09:00",
+      "committedAt": "2026-07-02T21:12:40.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Support dumping fetcharg program for debugging dynamic events",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
         }
       ]
     },
@@ -12728,6 +13160,24 @@
           "identity": "OpenAI-Codex:gpt-5.5",
           "agent": "OpenAI-Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "98ba41c3236b9a3bad206dbd9cf18c98ced75726",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/98ba41c3236b9a3bad206dbd9cf18c98ced75726",
+      "authoredAt": "2026-06-29T15:11:02.000-07:00",
+      "committedAt": "2026-06-30T10:47:30.000-07:00",
+      "authorName": "Dave Jiang",
+      "committerName": "Dave Jiang",
+      "subject": "cxl/test: Propagate -ENOMEM on platform_device_alloc() failures",
+      "subsystem": "cxl/test",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -14522,6 +14972,24 @@
       "committerName": "Juergen Gross",
       "subject": "xen/pvcalls: bound backend response req_id before indexing rsp[]",
       "subsystem": "xen/pvcalls",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "775d0f4558f4cec0ee0c8966595d1add1791f36e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/775d0f4558f4cec0ee0c8966595d1add1791f36e",
+      "authoredAt": "2026-06-16T15:49:11.000-07:00",
+      "committedAt": "2026-06-29T09:22:18.000-07:00",
+      "authorName": "Dave Jiang",
+      "committerName": "Dave Jiang",
+      "subject": "cxl/mce: Make the MCE notifier per-region",
+      "subsystem": "cxl/mce",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
@@ -17360,474 +17828,6 @@
           "identity": "Claude:unspecified",
           "agent": "Claude",
           "model": "unspecified"
-        }
-      ]
-    },
-    {
-      "sha": "123b4fc0f8576ac29b965cfc362630f51fa0fe7e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/123b4fc0f8576ac29b965cfc362630f51fa0fe7e",
-      "authoredAt": "2026-06-09T05:19:26.000Z",
-      "committedAt": "2026-07-22T20:50:51.000Z",
-      "authorName": "Jose Fernandez (Anthropic)",
-      "committerName": "Will Deacon",
-      "subject": "arm64: ftrace: prepare ftrace_modify_call() for use without CALL_OPS",
-      "subsystem": "arm64",
-      "assistedBy": [
-        {
-          "raw": "Claude:unspecified",
-          "identity": "Claude:unspecified",
-          "agent": "Claude",
-          "model": "unspecified"
-        }
-      ]
-    },
-    {
-      "sha": "9f00f9cf2be293efe899db67dc5272e3a9c62717",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9f00f9cf2be293efe899db67dc5272e3a9c62717",
-      "authoredAt": "2026-06-08T21:40:09.000-07:00",
-      "committedAt": "2026-07-23T20:29:42.000+02:00",
-      "authorName": "Xiang Mei",
-      "committerName": "Ilya Dryomov",
-      "subject": "libceph: bound pg_{temp,upmap,upmap_items} length to CEPH_PG_MAX_SIZE",
-      "subsystem": "libceph",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "c1fff9794a165b6b64ae4ad9b54c00bc94e7daed",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c1fff9794a165b6b64ae4ad9b54c00bc94e7daed",
-      "authoredAt": "2026-06-09T00:54:47.000Z",
-      "committedAt": "2026-06-17T15:37:47.000-07:00",
-      "authorName": "Samuel Moelius",
-      "committerName": "Andrew Morton",
-      "subject": "lib: interval_tree_test: validate benchmark parameters",
-      "subsystem": "lib",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5-cyber-preview",
-          "identity": "Codex:gpt-5.5-cyber-preview",
-          "agent": "Codex",
-          "model": "gpt-5.5-cyber-preview"
-        }
-      ]
-    },
-    {
-      "sha": "e8ae6fd67021fafa9205330b3b248c9fc7216e0b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e8ae6fd67021fafa9205330b3b248c9fc7216e0b",
-      "authoredAt": "2026-06-09T00:48:15.000Z",
-      "committedAt": "2026-06-21T11:37:37.000-07:00",
-      "authorName": "Samuel Moelius",
-      "committerName": "Andrew Morton",
-      "subject": "mm/gup_test: reject wrapped user ranges",
-      "subsystem": "mm/gup_test",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5-cyber-preview",
-          "identity": "Codex:gpt-5.5-cyber-preview",
-          "agent": "Codex",
-          "model": "gpt-5.5-cyber-preview"
-        }
-      ]
-    },
-    {
-      "sha": "446e8c31d0fc7f1d92c06c2d2f7e7ed27f55f0c6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/446e8c31d0fc7f1d92c06c2d2f7e7ed27f55f0c6",
-      "authoredAt": "2026-06-09T00:45:38.000Z",
-      "committedAt": "2026-06-09T13:19:56.000+02:00",
-      "authorName": "Samuel Moelius",
-      "committerName": "Bartosz Golaszewski",
-      "subject": "gpio: mockup: reject invalid gpio_mockup_ranges widths",
-      "subsystem": "gpio",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5-cyber-preview",
-          "identity": "Codex:gpt-5.5-cyber-preview",
-          "agent": "Codex",
-          "model": "gpt-5.5-cyber-preview"
-        }
-      ]
-    },
-    {
-      "sha": "bea4fe98204b6ce7eb8e29f7bf867dd7619b3ddd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bea4fe98204b6ce7eb8e29f7bf867dd7619b3ddd",
-      "authoredAt": "2026-06-08T17:28:55.000-07:00",
-      "committedAt": "2026-06-15T14:06:14.000+02:00",
-      "authorName": "Chris Mason",
-      "committerName": "Miklos Szeredi",
-      "subject": "fuse-uring: end fuse_req on io-uring cancel task work",
-      "subsystem": "fuse-uring",
-      "assistedBy": [
-        {
-          "raw": "kres (claude-opus-4-7)",
-          "identity": "kres (claude-opus-4-7)",
-          "agent": "kres (claude-opus-4-7)",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "88c2404a3c59c3126453919388dbd5ed98ed01bd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/88c2404a3c59c3126453919388dbd5ed98ed01bd",
-      "authoredAt": "2026-06-08T23:58:23.000Z",
-      "committedAt": "2026-06-11T14:24:41.000-04:00",
-      "authorName": "Samuel Moelius",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: vhci: validate devcoredump state before side effects",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5-cyber-preview",
-          "identity": "Codex:gpt-5.5-cyber-preview",
-          "agent": "Codex",
-          "model": "gpt-5.5-cyber-preview"
-        }
-      ]
-    },
-    {
-      "sha": "a40a5f922546b3bd7c094d882b29177db4f2abe0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a40a5f922546b3bd7c094d882b29177db4f2abe0",
-      "authoredAt": "2026-06-08T23:57:05.000Z",
-      "committedAt": "2026-06-11T14:24:41.000-04:00",
-      "authorName": "Samuel Moelius",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: L2CAP: validate connectionless PSM length",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5-cyber-preview",
-          "identity": "Codex:gpt-5.5-cyber-preview",
-          "agent": "Codex",
-          "model": "gpt-5.5-cyber-preview"
-        }
-      ]
-    },
-    {
-      "sha": "c38fbcdc407925c7088f7e5f11c1fff73d2d35a2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c38fbcdc407925c7088f7e5f11c1fff73d2d35a2",
-      "authoredAt": "2026-06-08T23:56:28.000Z",
-      "committedAt": "2026-06-11T14:24:41.000-04:00",
-      "authorName": "Samuel Moelius",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: hci: validate codec capability element length",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5-cyber-preview",
-          "identity": "Codex:gpt-5.5-cyber-preview",
-          "agent": "Codex",
-          "model": "gpt-5.5-cyber-preview"
-        }
-      ]
-    },
-    {
-      "sha": "7435c4069a546a5d2421407b3d43fdc1790ce6cc",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7435c4069a546a5d2421407b3d43fdc1790ce6cc",
-      "authoredAt": "2026-06-08T15:32:32.000-03:00",
-      "committedAt": "2026-06-10T15:23:54.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "libperf: Document code simplification case for widening struct perf_cpu",
-      "subsystem": "libperf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "f2d238408db2b963951f0f2ae70ff7f9e337b540",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f2d238408db2b963951f0f2ae70ff7f9e337b540",
-      "authoredAt": "2026-06-08T21:57:44.000+05:30",
-      "committedAt": "2026-06-16T10:18:35.000-07:00",
-      "authorName": "Tangudu Tilak Tirumalesh",
-      "committerName": "Matthew Brost",
-      "subject": "drm/xe: include all registered queues in TLB invalidation",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "e4aaac46593733a06ec1a1f1a63128206d67fcaa",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e4aaac46593733a06ec1a1f1a63128206d67fcaa",
-      "authoredAt": "2026-06-08T21:57:44.000+05:30",
-      "committedAt": "2026-06-10T09:33:29.000-07:00",
-      "authorName": "Tangudu Tilak Tirumalesh",
-      "committerName": "Matthew Brost",
-      "subject": "drm/xe: include all registered queues in TLB invalidation",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "54bf38b27afc08a0eb6b732f9c14eb8a4bcb66b5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/54bf38b27afc08a0eb6b732f9c14eb8a4bcb66b5",
-      "authoredAt": "2026-06-08T15:47:15.000+02:00",
-      "committedAt": "2026-06-08T15:21:28.000-03:00",
-      "authorName": "Aurelien DESBRIERES",
-      "committerName": "Jason Gunthorpe",
-      "subject": "RDMA/rtrs-srv: Fix integer underflow in process_read and process_write",
-      "subsystem": "rdma/rtrs-srv",
-      "assistedBy": [
-        {
-          "raw": "Claude <claude-sonnet-4-6>",
-          "identity": "Claude <claude-sonnet-4-6>",
-          "agent": "Claude <claude-sonnet-4-6>",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "21d83c6e9e45156f4cad8c7cd6fc2d5bbc76f73e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/21d83c6e9e45156f4cad8c7cd6fc2d5bbc76f73e",
-      "authoredAt": "2026-06-08T06:21:35.000-07:00",
-      "committedAt": "2026-06-09T06:50:29.000-07:00",
-      "authorName": "Jeff Johnson",
-      "committerName": "Jeff Johnson",
-      "subject": "wifi: ath: Update copyright in testmode_i.h",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "ae667b0f98b80146ea22830a1b53c5758ad742f1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ae667b0f98b80146ea22830a1b53c5758ad742f1",
-      "authoredAt": "2026-06-08T06:21:34.000-07:00",
-      "committedAt": "2026-06-09T06:50:28.000-07:00",
-      "authorName": "Jeff Johnson",
-      "committerName": "Jeff Johnson",
-      "subject": "wifi: ath10k: Update Qualcomm copyrights",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "053a93808d4654fae18633b01a747caa7a281aaa",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/053a93808d4654fae18633b01a747caa7a281aaa",
-      "authoredAt": "2026-06-08T06:21:33.000-07:00",
-      "committedAt": "2026-06-09T06:50:28.000-07:00",
-      "authorName": "Jeff Johnson",
-      "committerName": "Jeff Johnson",
-      "subject": "wifi: ath11k: Update Qualcomm copyrights",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "1c316d02c399e5efb1279666c078f99b3f72b0ca",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1c316d02c399e5efb1279666c078f99b3f72b0ca",
-      "authoredAt": "2026-06-08T06:21:32.000-07:00",
-      "committedAt": "2026-06-09T06:50:28.000-07:00",
-      "authorName": "Jeff Johnson",
-      "committerName": "Jeff Johnson",
-      "subject": "wifi: ath12k: Update Qualcomm copyrights",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "acc56d3941fc2997a5a21ea9233a8ac3d87c4f2f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/acc56d3941fc2997a5a21ea9233a8ac3d87c4f2f",
-      "authoredAt": "2026-06-08T08:12:34.000-03:00",
-      "committedAt": "2026-06-10T18:56:02.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf symbols: Add bounds checks to elf_read_build_id() note iteration",
-      "subsystem": "perf symbols",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "a0e4362a3e7b592f1d58949ffe3d6decad39a17c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a0e4362a3e7b592f1d58949ffe3d6decad39a17c",
-      "authoredAt": "2026-06-08T08:12:04.000-03:00",
-      "committedAt": "2026-06-10T18:56:02.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf bpf: Fix metadata leak in perf_env__add_bpf_info() on duplicate insert",
-      "subsystem": "perf bpf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "aece2b8966fc8de5be46ee9287d0f60d6690c300",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/aece2b8966fc8de5be46ee9287d0f60d6690c300",
-      "authoredAt": "2026-06-08T08:11:28.000-03:00",
-      "committedAt": "2026-06-10T18:56:02.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf bpf: Fix map data leak in bpf_metadata_create() on alloc failure",
-      "subsystem": "perf bpf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "903b0526dcf86d030c5970b4b0a67f9c227368e2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/903b0526dcf86d030c5970b4b0a67f9c227368e2",
-      "authoredAt": "2026-06-08T08:10:43.000-03:00",
-      "committedAt": "2026-06-10T18:56:02.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf bpf: Add NULL check for btf__type_by_id() in synthesize_bpf_prog_name()",
-      "subsystem": "perf bpf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "fd1f70776add263f8ef38a87ae593c75303f1dcd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fd1f70776add263f8ef38a87ae593c75303f1dcd",
-      "authoredAt": "2026-06-08T08:10:18.000-03:00",
-      "committedAt": "2026-06-10T18:56:02.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "tools lib api: Fix mount_overload() snprintf truncation and toupper range",
-      "subsystem": "tools lib api",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "438ece06185696e14c63c6113d5e2d34ec0a9680",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/438ece06185696e14c63c6113d5e2d34ec0a9680",
-      "authoredAt": "2026-06-08T07:05:19.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "tools lib api: Fix filename__write_int() writing uninitialized stack data",
-      "subsystem": "tools lib api",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "2ea64782a428bed74f595961e651ceb8c4c5bf22",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2ea64782a428bed74f595961e651ceb8c4c5bf22",
-      "authoredAt": "2026-06-08T07:04:25.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf tools: Use snprintf() in dso__read_running_kernel_build_id()",
-      "subsystem": "perf tools",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "34d3d93fac6d92237cb9d730ca04c37ed361c7a6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/34d3d93fac6d92237cb9d730ca04c37ed361c7a6",
-      "authoredAt": "2026-06-08T07:03:04.000-03:00",
-      "committedAt": "2026-06-10T18:56:01.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf hwmon: Guard label read against empty or failed reads",
-      "subsystem": "perf hwmon",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "b74360369e13a68337a411efba1fd2bdbb6f1b80",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b74360369e13a68337a411efba1fd2bdbb6f1b80",
-      "authoredAt": "2026-06-08T02:44:57.000-07:00",
-      "committedAt": "2026-06-11T12:19:05.000+02:00",
-      "authorName": "Breno Leitao",
-      "committerName": "Paolo Abeni",
-      "subject": "selftests: net: rds: add getsockopt() conversion test",
-      "subsystem": "selftests",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
         }
       ]
     }
