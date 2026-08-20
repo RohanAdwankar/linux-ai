@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-20T17:46:29.419Z",
+  "generatedAt": "2026-08-20T19:00:47.434Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 980,
-    "totalSubsystems": 259,
-    "totalAuthors": 223,
+    "totalCommits": 978,
+    "totalSubsystems": 260,
+    "totalAuthors": 226,
     "totalAgents": 176
   },
   "commits": [
@@ -210,6 +210,24 @@
       ]
     },
     {
+      "sha": "0c09d1ad81ed55b02f64f4dd2e2e7c83161e5740",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0c09d1ad81ed55b02f64f4dd2e2e7c83161e5740",
+      "authoredAt": "2026-08-12T14:11:16.000+08:00",
+      "committedAt": "2026-08-12T08:29:15.000-10:00",
+      "authorName": "fangqiurong",
+      "committerName": "Tejun Heo",
+      "subject": "sched_ext: Gate cid kfuncs behind the SCX struct_ops check",
+      "subsystem": "sched_ext",
+      "assistedBy": [
+        {
+          "raw": "Z.ai:glm-5.2",
+          "identity": "Z.ai:glm-5.2",
+          "agent": "Z.ai",
+          "model": "glm-5.2"
+        }
+      ]
+    },
+    {
       "sha": "783f0f0974c156aca630f4ffff248671082a098d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/783f0f0974c156aca630f4ffff248671082a098d",
       "authoredAt": "2026-08-11T22:01:27.000Z",
@@ -296,6 +314,42 @@
           "identity": "Codex:gpt-5.6-terra",
           "agent": "Codex",
           "model": "gpt-5.6-terra"
+        }
+      ]
+    },
+    {
+      "sha": "6dd5d93f6c48a461157c73b9e2ce7f6d19d57f5a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6dd5d93f6c48a461157c73b9e2ce7f6d19d57f5a",
+      "authoredAt": "2026-08-11T16:30:27.000+08:00",
+      "committedAt": "2026-08-11T15:43:08.000-10:00",
+      "authorName": "Guopeng Zhang",
+      "committerName": "Tejun Heo",
+      "subject": "cgroup/cpuset: Remove obsolete PFA_SPREAD_SLAB task flag",
+      "subsystem": "cgroup/cpuset",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "56bbc91219c0711f1580a8ba7cd60471b6e1684e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/56bbc91219c0711f1580a8ba7cd60471b6e1684e",
+      "authoredAt": "2026-08-11T16:11:43.000+08:00",
+      "committedAt": "2026-08-14T23:50:47.000-10:00",
+      "authorName": "fangqiurong",
+      "committerName": "Tejun Heo",
+      "subject": "sched_ext: Fix scx_bpf_dsq_move_to_local___v2 compat detection",
+      "subsystem": "sched_ext",
+      "assistedBy": [
+        {
+          "raw": "Z.ai:glm-5.2",
+          "identity": "Z.ai:glm-5.2",
+          "agent": "Z.ai",
+          "model": "glm-5.2"
         }
       ]
     },
@@ -548,6 +602,24 @@
           "identity": "tencentos-corvus-ai:kimi-k3",
           "agent": "tencentos-corvus-ai",
           "model": "kimi-k3"
+        }
+      ]
+    },
+    {
+      "sha": "26d3a59e0241c3ef9f66ae1ae990f9326acbc059",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/26d3a59e0241c3ef9f66ae1ae990f9326acbc059",
+      "authoredAt": "2026-08-10T17:55:59.000+08:00",
+      "committedAt": "2026-08-10T09:27:38.000-10:00",
+      "authorName": "Guopeng Zhang",
+      "committerName": "Tejun Heo",
+      "subject": "cgroup/cpuset: Use WRITE_ONCE() for shared prs_err updates",
+      "subsystem": "cgroup/cpuset",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -1430,6 +1502,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "2a8d68338ee77e200895f2697c56fd00094767f7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2a8d68338ee77e200895f2697c56fd00094767f7",
+      "authoredAt": "2026-08-04T12:13:44.000-04:00",
+      "committedAt": "2026-08-05T12:53:21.000-06:00",
+      "authorName": "Jeff Layton",
+      "committerName": "Jonathan Corbet",
+      "subject": "checkpatch.pl: adapt to new Assisted-by: format",
+      "subsystem": "checkpatch.pl",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -6012,6 +6102,24 @@
       ]
     },
     {
+      "sha": "5edf1547ac378526181dcd4eb7c8f3b2351e96f9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5edf1547ac378526181dcd4eb7c8f3b2351e96f9",
+      "authoredAt": "2026-07-18T19:50:41.000+02:00",
+      "committedAt": "2026-08-13T09:26:18.000-06:00",
+      "authorName": "Sebastian Andrzej Siewior",
+      "committerName": "Jonathan Corbet",
+      "subject": "Documentation: Extend the real-time hardware bits with some firmware bits",
+      "subsystem": "documentation",
+      "assistedBy": [
+        {
+          "raw": "Microsoft-Copilot",
+          "identity": "Microsoft-Copilot",
+          "agent": "Microsoft-Copilot",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "7d5c576cb1c86047b1fcb1aa9532e17fc5e46c1d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/7d5c576cb1c86047b1fcb1aa9532e17fc5e46c1d",
       "authoredAt": "2026-07-18T16:40:32.000+09:00",
@@ -8498,6 +8606,24 @@
           "identity": "Claude:claude-fable-5 [coccinelle]",
           "agent": "Claude",
           "model": "claude-fable-5 [coccinelle]"
+        }
+      ]
+    },
+    {
+      "sha": "98149f5425306cf0a1ed472b216da985b25350ff",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/98149f5425306cf0a1ed472b216da985b25350ff",
+      "authoredAt": "2026-07-12T19:55:10.000-04:00",
+      "committedAt": "2026-07-16T09:38:22.000-10:00",
+      "authorName": "Michal Koutný",
+      "committerName": "Tejun Heo",
+      "subject": "selftests/cgroup: Add test for cpuset affinity on controller disable",
+      "subsystem": "selftests/cgroup",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-5",
+          "identity": "Claude:claude-sonnet-4-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-5"
         }
       ]
     },
@@ -17690,168 +17816,6 @@
       "committerName": "Arnaldo Carvalho de Melo",
       "subject": "perf tools: Guard remaining test_bit calls from OOB sample CPU",
       "subsystem": "perf tools",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "1d62e659c0bf11649cf48e002c2a55d148f2610a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1d62e659c0bf11649cf48e002c2a55d148f2610a",
-      "authoredAt": "2026-06-04T16:24:03.000-04:00",
-      "committedAt": "2026-06-08T12:06:41.000-04:00",
-      "authorName": "Mike Snitzer",
-      "committerName": "Anna Schumaker",
-      "subject": "NFSv4/flexfiles: honor FF_FLAGS_NO_IO_THRU_MDS in pg_get_mirror_count_write",
-      "subsystem": "nfsv4/flexfiles",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7",
-          "identity": "Claude:claude-opus-4-7",
-          "agent": "Claude",
-          "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "7a375cafc14ed151508f908ea5681caf0a9cc1d6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7a375cafc14ed151508f908ea5681caf0a9cc1d6",
-      "authoredAt": "2026-06-04T16:24:02.000-04:00",
-      "committedAt": "2026-06-08T12:06:41.000-04:00",
-      "authorName": "Mike Snitzer",
-      "committerName": "Anna Schumaker",
-      "subject": "NFSv4/flexfiles: honor FF_FLAGS_NO_IO_THRU_MDS on fatal DS connect errors",
-      "subsystem": "nfsv4/flexfiles",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7",
-          "identity": "Claude:claude-opus-4-7",
-          "agent": "Claude",
-          "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "26aa60e0276272ae61b843a05a91748dcb1130f9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/26aa60e0276272ae61b843a05a91748dcb1130f9",
-      "authoredAt": "2026-06-04T11:01:54.000-07:00",
-      "committedAt": "2026-06-04T16:01:01.000-07:00",
-      "authorName": "Dave Jiang",
-      "committerName": "Dave Jiang",
-      "subject": "cxl/pci: Convert PCIBIOS errors to errno on DVSEC config accesses",
-      "subsystem": "cxl/pci",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "66782cfa0085369e2d8c861042f7c6d43431bdb3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/66782cfa0085369e2d8c861042f7c6d43431bdb3",
-      "authoredAt": "2026-06-04T11:01:53.000-07:00",
-      "committedAt": "2026-06-04T15:38:00.000-07:00",
-      "authorName": "Dave Jiang",
-      "committerName": "Dave Jiang",
-      "subject": "cxl/pci: Fix the incorrect check of pci_read_config_word() return",
-      "subsystem": "cxl/pci",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "c7653d5cebc8492c77ec0415b5e9c0fb3e644bc6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c7653d5cebc8492c77ec0415b5e9c0fb3e644bc6",
-      "authoredAt": "2026-06-04T13:06:37.000-04:00",
-      "committedAt": "2026-06-10T15:47:06.000-04:00",
-      "authorName": "Chris Mason",
-      "committerName": "Anna Schumaker",
-      "subject": "xprtrdma: Fix bcall rep leak and unbounded peek",
-      "subsystem": "xprtrdma",
-      "assistedBy": [
-        {
-          "raw": "kres:claude-opus-4-7",
-          "identity": "kres:claude-opus-4-7",
-          "agent": "kres",
-          "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "bb7caa63e1db22fd03e8dc591b12169e99169dff",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bb7caa63e1db22fd03e8dc591b12169e99169dff",
-      "authoredAt": "2026-06-04T13:06:34.000-04:00",
-      "committedAt": "2026-06-10T15:47:06.000-04:00",
-      "authorName": "Chris Mason",
-      "committerName": "Anna Schumaker",
-      "subject": "xprtrdma: Initialize re_id before removal registration",
-      "subsystem": "xprtrdma",
-      "assistedBy": [
-        {
-          "raw": "kres:openai-gpt-5",
-          "identity": "kres:openai-gpt-5",
-          "agent": "kres",
-          "model": "openai-gpt-5"
-        }
-      ]
-    },
-    {
-      "sha": "af9b65b29af341932625c4283dc7a23cdb62688a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/af9b65b29af341932625c4283dc7a23cdb62688a",
-      "authoredAt": "2026-06-04T13:06:33.000-04:00",
-      "committedAt": "2026-06-10T15:47:06.000-04:00",
-      "authorName": "Chris Mason",
-      "committerName": "Anna Schumaker",
-      "subject": "xprtrdma: Fix ep kref imbalance on ADDR_CHANGE",
-      "subsystem": "xprtrdma",
-      "assistedBy": [
-        {
-          "raw": "kres:claude-opus-4-7",
-          "identity": "kres:claude-opus-4-7",
-          "agent": "kres",
-          "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "be694c488a1e96e728517b26de9f15fed56b2e74",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/be694c488a1e96e728517b26de9f15fed56b2e74",
-      "authoredAt": "2026-06-04T09:36:26.000-07:00",
-      "committedAt": "2026-06-04T17:34:52.000-03:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf pmu: Recognize 'default_core' as a core PMU and document matching",
-      "subsystem": "perf pmu",
-      "assistedBy": [
-        {
-          "raw": "Gemini-CLI:Google Gemini 3.1 Pro",
-          "identity": "Gemini-CLI:Google Gemini 3.1 Pro",
-          "agent": "Gemini-CLI",
-          "model": "Google Gemini 3.1 Pro"
-        }
-      ]
-    },
-    {
-      "sha": "ed46f39c47eb5530a9c161481a2080d3a869cfaf",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ed46f39c47eb5530a9c161481a2080d3a869cfaf",
-      "authoredAt": "2026-06-04T09:07:13.000-07:00",
-      "committedAt": "2026-06-05T05:20:25.000-06:00",
-      "authorName": "Clément Léger",
-      "committerName": "Jens Axboe",
-      "subject": "io_uring/net: inherit IORING_CQE_F_BUF_MORE across bundle recv retries",
-      "subsystem": "io_uring/net",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4.6",
