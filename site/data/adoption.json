@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-20T23:41:34.806Z",
+  "generatedAt": "2026-08-21T01:58:17.679Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 978,
-    "totalSubsystems": 261,
-    "totalAuthors": 229,
+    "totalSubsystems": 264,
+    "totalAuthors": 230,
     "totalAgents": 173
   },
   "commits": [
@@ -1502,6 +1502,48 @@
           "identity": "Codex:gpt-5",
           "agent": "Codex",
           "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "1583ef1175ba533e326dfeff6d8b9f3aaf761225",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1583ef1175ba533e326dfeff6d8b9f3aaf761225",
+      "authoredAt": "2026-08-05T00:20:59.000Z",
+      "committedAt": "2026-08-10T13:24:40.000-06:00",
+      "authorName": "Josh Hilke",
+      "committerName": "Alex Williamson",
+      "subject": "vfio: selftests: igb: Add driver for Intel 82576 device",
+      "subsystem": "vfio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        },
+        {
+          "raw": "Gemini:gemini-3.1-pro-preview",
+          "identity": "Gemini:gemini-3.1-pro-preview",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro-preview"
+        }
+      ]
+    },
+    {
+      "sha": "aabaf84560e0737eeba0927395d04a813cbec8c0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/aabaf84560e0737eeba0927395d04a813cbec8c0",
+      "authoredAt": "2026-08-05T00:20:58.000Z",
+      "committedAt": "2026-08-10T13:24:40.000-06:00",
+      "authorName": "Alex Williamson",
+      "committerName": "Alex Williamson",
+      "subject": "vfio: selftests: Add helpers to re-enable interrupts",
+      "subsystem": "vfio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -8898,6 +8940,24 @@
       ]
     },
     {
+      "sha": "68e00d9212929805b40dcb9166755610f4f4acee",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/68e00d9212929805b40dcb9166755610f4f4acee",
+      "authoredAt": "2026-07-14T10:43:52.000+08:00",
+      "committedAt": "2026-08-19T06:38:47.000-04:00",
+      "authorName": "GuoHan Zhao",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "virtio: rtc: time out alarm requests",
+      "subsystem": "virtio",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
       "sha": "1a0ffe10bfb91efc730f2d34c6875c1084b0a462",
       "htmlUrl": "https://github.com/torvalds/linux/commit/1a0ffe10bfb91efc730f2d34c6875c1084b0a462",
       "authoredAt": "2026-07-14T10:10:14.000+09:00",
@@ -11694,6 +11754,24 @@
       ]
     },
     {
+      "sha": "281eb4732aae5473141b84e106fe906c69b2ff3d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/281eb4732aae5473141b84e106fe906c69b2ff3d",
+      "authoredAt": "2026-07-05T02:24:18.000-04:00",
+      "committedAt": "2026-08-19T06:38:43.000-04:00",
+      "authorName": "Michael S. Tsirkin",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "virtio_balloon: disable indirect descriptors",
+      "subsystem": "virtio_balloon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "d128ffd2baa708da0362b562f0b7f9df96e43653",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d128ffd2baa708da0362b562f0b7f9df96e43653",
       "authoredAt": "2026-07-05T12:23:58.000+08:00",
@@ -11708,6 +11786,24 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "dc77acfeb979dded39b247b60fef0399536bfa77",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dc77acfeb979dded39b247b60fef0399536bfa77",
+      "authoredAt": "2026-07-04T18:40:10.000-07:00",
+      "committedAt": "2026-07-17T08:39:36.000-06:00",
+      "authorName": "Xiang Mei",
+      "committerName": "Alex Williamson",
+      "subject": "vfio/pci: clear vdev->msi_perm after freeing it on init failure",
+      "subsystem": "vfio/pci",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -14352,6 +14448,24 @@
       ]
     },
     {
+      "sha": "5ab3b28c5b3b49b4b9ef580df08c1e160dff51f0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5ab3b28c5b3b49b4b9ef580df08c1e160dff51f0",
+      "authoredAt": "2026-06-22T22:27:57.000Z",
+      "committedAt": "2026-08-19T06:38:44.000-04:00",
+      "authorName": "Octavian Purdila",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "vsock/virtio: restore msg_iter on transmission failure",
+      "subsystem": "vsock/virtio",
+      "assistedBy": [
+        {
+          "raw": "gemini:gemini-3.1-pro",
+          "identity": "gemini:gemini-3.1-pro",
+          "agent": "gemini",
+          "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
       "sha": "7b681dd5fbf60b24a13c14661e5b7735759fb491",
       "htmlUrl": "https://github.com/torvalds/linux/commit/7b681dd5fbf60b24a13c14661e5b7735759fb491",
       "authoredAt": "2026-06-22T22:08:03.000Z",
@@ -14576,6 +14690,24 @@
       "committerName": "Michael S. Tsirkin",
       "subject": "vhost_iotlb: bound map allocation in add_range",
       "subsystem": "vhost_iotlb",
+      "assistedBy": [
+        {
+          "raw": "OpenAI-Codex:GPT-5",
+          "identity": "OpenAI-Codex:GPT-5",
+          "agent": "OpenAI-Codex",
+          "model": "GPT-5"
+        }
+      ]
+    },
+    {
+      "sha": "bd670e5dfd2b01fd9692f61fa1456434c54026a4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bd670e5dfd2b01fd9692f61fa1456434c54026a4",
+      "authoredAt": "2026-06-20T18:09:59.000+08:00",
+      "committedAt": "2026-08-19T06:38:43.000-04:00",
+      "authorName": "Linfeng Sun ",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "vdpa_sim: fix cleanup after worker creation failure",
+      "subsystem": "vdpa_sim",
       "assistedBy": [
         {
           "raw": "OpenAI-Codex:GPT-5",
@@ -14960,6 +15092,42 @@
           "identity": "Claude:claude-opus-4-7",
           "agent": "Claude",
           "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "6bc73befe1b4143ebe6a991b2ab133e9f3087128",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6bc73befe1b4143ebe6a991b2ab133e9f3087128",
+      "authoredAt": "2026-06-17T11:58:01.000-07:00",
+      "committedAt": "2026-07-17T08:39:35.000-06:00",
+      "authorName": "Alex Mastro",
+      "committerName": "Alex Williamson",
+      "subject": "vfio: selftests: Avoid VLAs",
+      "subsystem": "vfio",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-high",
+          "identity": "Codex:gpt-5.5-high",
+          "agent": "Codex",
+          "model": "gpt-5.5-high"
+        }
+      ]
+    },
+    {
+      "sha": "bc4be8c6fd8bf9f4d7febccfbd6441c4d708135a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bc4be8c6fd8bf9f4d7febccfbd6441c4d708135a",
+      "authoredAt": "2026-06-17T11:58:00.000-07:00",
+      "committedAt": "2026-07-17T08:39:35.000-06:00",
+      "authorName": "Alex Mastro",
+      "committerName": "Alex Williamson",
+      "subject": "vfio: selftests: Add allocation assert helpers",
+      "subsystem": "vfio",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5-high",
+          "identity": "Codex:gpt-5.5-high",
+          "agent": "Codex",
+          "model": "gpt-5.5-high"
         }
       ]
     },
@@ -17666,168 +17834,6 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "3cd17e4e2871114d5579fa7bc8da66faf7fc1930",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3cd17e4e2871114d5579fa7bc8da66faf7fc1930",
-      "authoredAt": "2026-06-09T21:43:15.000+09:00",
-      "committedAt": "2026-06-11T20:44:45.000+01:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: fsl: fsl_audmix: Validate written enum values",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "d65adf85477247be04ac86886f8edfaa047b5d4a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d65adf85477247be04ac86886f8edfaa047b5d4a",
-      "authoredAt": "2026-06-09T21:43:14.000+09:00",
-      "committedAt": "2026-06-11T20:44:44.000+01:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: meson: aiu: Validate written enum values",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "0b08baeccdcf52fad328ad645f5b4fbee04eea34",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0b08baeccdcf52fad328ad645f5b4fbee04eea34",
-      "authoredAt": "2026-06-09T21:43:13.000+09:00",
-      "committedAt": "2026-06-11T20:44:43.000+01:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: codecs: hdac_hdmi: Validate written enum value",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "5323d3e50c20ce53b9b393ef36b027d6cd1e6f11",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5323d3e50c20ce53b9b393ef36b027d6cd1e6f11",
-      "authoredAt": "2026-06-09T20:53:01.000+10:00",
-      "committedAt": "2026-07-31T12:25:37.000Z",
-      "authorName": "Filip Bakreski",
-      "committerName": "Felix Fietkau",
-      "subject": "wifi: mt76: mt76u: use a threaded NAPI for the RX path",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "d0f4c1c8cbffcfd5db683bd3f54396bfec12e9f5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d0f4c1c8cbffcfd5db683bd3f54396bfec12e9f5",
-      "authoredAt": "2026-06-09T09:29:05.000+02:00",
-      "committedAt": "2026-07-22T13:45:48.000-05:00",
-      "authorName": "Marco Scardovi",
-      "committerName": "Mario Limonciello",
-      "subject": "cpufreq/amd-pstate: Cache the firmware programmed EPP value",
-      "subsystem": "cpufreq/amd-pstate",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "9dfd13f80c856eab79130403a13fa3b83199346b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9dfd13f80c856eab79130403a13fa3b83199346b",
-      "authoredAt": "2026-06-09T09:29:04.000+02:00",
-      "committedAt": "2026-07-22T13:45:48.000-05:00",
-      "authorName": "Marco Scardovi",
-      "committerName": "Mario Limonciello",
-      "subject": "cpufreq/amd-pstate: Toggle auto_sel in active mode on shared memory systems",
-      "subsystem": "cpufreq/amd-pstate",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "57476909c3000a04e84a1d6018d63ba1b2aa20ab",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/57476909c3000a04e84a1d6018d63ba1b2aa20ab",
-      "authoredAt": "2026-06-09T09:29:03.000+02:00",
-      "committedAt": "2026-07-22T13:45:48.000-05:00",
-      "authorName": "Marco Scardovi",
-      "committerName": "Mario Limonciello",
-      "subject": "cpufreq/amd-pstate: Fix EPP return type and handle errors during initialization",
-      "subsystem": "cpufreq/amd-pstate",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "9a2925b823d541a23b8330f80056e6cca78c7677",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9a2925b823d541a23b8330f80056e6cca78c7677",
-      "authoredAt": "2026-06-09T06:32:31.000+01:00",
-      "committedAt": "2026-07-28T11:36:45.000+02:00",
-      "authorName": "David Carlier",
-      "committerName": "Hans Verkuil",
-      "subject": "media: mali-c55: Fix AEXP IHIST disable bit shift",
-      "subsystem": "media",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "9315e22b0c0a5be708798c03dc8f27549667e475",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9315e22b0c0a5be708798c03dc8f27549667e475",
-      "authoredAt": "2026-06-09T05:19:27.000Z",
-      "committedAt": "2026-07-22T20:50:52.000Z",
-      "authorName": "Jose Fernandez (Anthropic)",
-      "committerName": "Will Deacon",
-      "subject": "arm64: ftrace: allow DIRECT_CALLS without CALL_OPS",
-      "subsystem": "arm64",
-      "assistedBy": [
-        {
-          "raw": "Claude:unspecified",
-          "identity": "Claude:unspecified",
-          "agent": "Claude",
-          "model": "unspecified"
         }
       ]
     }
