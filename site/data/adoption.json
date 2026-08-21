@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-21T18:57:09.468Z",
+  "generatedAt": "2026-08-21T19:38:25.219Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 968,
-    "totalSubsystems": 241,
-    "totalAuthors": 214,
-    "totalAgents": 162
+    "totalCommits": 973,
+    "totalSubsystems": 243,
+    "totalAuthors": 213,
+    "totalAgents": 158
   },
   "commits": [
     {
@@ -1326,6 +1326,24 @@
       ]
     },
     {
+      "sha": "ceb6ac43b0f591722401922ceb958ce2616935e0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ceb6ac43b0f591722401922ceb958ce2616935e0",
+      "authoredAt": "2026-08-07T03:35:20.000Z",
+      "committedAt": "2026-08-12T23:24:55.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: lp8727: fix use-after-free in lp8727_release_irq()",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
       "sha": "97090500d776c3f6d08e857e3a0a7cf092999094",
       "htmlUrl": "https://github.com/torvalds/linux/commit/97090500d776c3f6d08e857e3a0a7cf092999094",
       "authoredAt": "2026-08-07T03:12:43.000Z",
@@ -1412,6 +1430,42 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "fe5c16bb6252dea6025b748257ddc3b2665495b0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fe5c16bb6252dea6025b748257ddc3b2665495b0",
+      "authoredAt": "2026-08-06T13:01:28.000Z",
+      "committedAt": "2026-08-11T16:57:33.000-03:00",
+      "authorName": "Fan Wu",
+      "committerName": "Jason Gunthorpe",
+      "subject": "RDMA/cxgb4: Free debugfs on registration failure",
+      "subsystem": "rdma/cxgb4",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "a7100601aa1a39f799a566acce10db20eaf4b7f2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a7100601aa1a39f799a566acce10db20eaf4b7f2",
+      "authoredAt": "2026-08-06T13:01:27.000Z",
+      "committedAt": "2026-08-11T16:57:33.000-03:00",
+      "authorName": "Fan Wu",
+      "committerName": "Jason Gunthorpe",
+      "subject": "RDMA/cxgb4: Cancel reg_work before freeing device on remove",
+      "subsystem": "rdma/cxgb4",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
         }
       ]
     },
@@ -1706,6 +1760,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "2dd6cd823777bea6d9a880a12a92a73ec76aee0b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2dd6cd823777bea6d9a880a12a92a73ec76aee0b",
+      "authoredAt": "2026-08-04T14:55:11.000Z",
+      "committedAt": "2026-08-12T23:23:56.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: bq256xx: drain usb_work before freeing the charger",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
         }
       ]
     },
@@ -3162,6 +3234,60 @@
       ]
     },
     {
+      "sha": "609af0ceeaefdfa42cd01dd060b20f2e41f9a232",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/609af0ceeaefdfa42cd01dd060b20f2e41f9a232",
+      "authoredAt": "2026-08-02T05:12:49.000Z",
+      "committedAt": "2026-08-04T00:57:24.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: ucs1002: fix use-after-free on remove",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "831c29a12d560f8a3225f43050b3fbb5dfd79c66",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/831c29a12d560f8a3225f43050b3fbb5dfd79c66",
+      "authoredAt": "2026-08-02T03:54:42.000Z",
+      "committedAt": "2026-08-04T00:56:57.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: lp8788-charger: fix use-after-free on remove",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "75b1e88d34254f4fb7753345e21bfee47abddd7f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/75b1e88d34254f4fb7753345e21bfee47abddd7f",
+      "authoredAt": "2026-08-02T02:03:16.000Z",
+      "committedAt": "2026-08-04T00:52:33.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: ab8500_fg: fix use-after-free on remove",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
       "sha": "0991f3b4624ed713d1d5eb56520c1c9b2deaab7a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0991f3b4624ed713d1d5eb56520c1c9b2deaab7a",
       "authoredAt": "2026-08-02T01:33:04.000Z",
@@ -3266,6 +3392,42 @@
           "identity": "Claude:claude-fable-5",
           "agent": "Claude",
           "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
+      "sha": "9d34c9d660c3d0931d2cc749c46c47cf31f96e48",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9d34c9d660c3d0931d2cc749c46c47cf31f96e48",
+      "authoredAt": "2026-08-01T05:19:58.000Z",
+      "committedAt": "2026-08-01T18:25:54.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: bq24257: fix use-after-free on remove",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "4e40befedfc8ed86f44e1f81df92d13c149c9f8d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4e40befedfc8ed86f44e1f81df92d13c149c9f8d",
+      "authoredAt": "2026-08-01T05:19:23.000Z",
+      "committedAt": "2026-08-01T18:24:54.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: qcom_battmgr: fix use-after-free",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
         }
       ]
     },
@@ -4662,6 +4824,24 @@
       ]
     },
     {
+      "sha": "c57cb36f76eb7ced45f57af1a890d8f3a6d76342",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c57cb36f76eb7ced45f57af1a890d8f3a6d76342",
+      "authoredAt": "2026-07-28T03:01:23.000Z",
+      "committedAt": "2026-07-31T00:08:20.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: charger-manager: register regulators before exposing sysfs",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
       "sha": "0293be2212d319d59589082461abf2a9b626cd1c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0293be2212d319d59589082461abf2a9b626cd1c",
       "authoredAt": "2026-07-27T16:39:41.000-07:00",
@@ -4820,6 +5000,60 @@
           "identity": "OpenAI-Codex:GPT-5",
           "agent": "OpenAI-Codex",
           "model": "GPT-5"
+        }
+      ]
+    },
+    {
+      "sha": "ecbe7d36dc2de07e5dfbb4a8ff5b315ab43de820",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ecbe7d36dc2de07e5dfbb4a8ff5b315ab43de820",
+      "authoredAt": "2026-07-27T10:08:36.000+02:00",
+      "committedAt": "2026-08-11T14:38:32.000-03:00",
+      "authorName": "Norbert Szetei",
+      "committerName": "Jason Gunthorpe",
+      "subject": "RDMA/ucma: Lock the handler in ucma_set_ib_path()",
+      "subsystem": "rdma/ucma",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "f4cc21c6a8e9d392871477f9fd98d68e5ad80272",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f4cc21c6a8e9d392871477f9fd98d68e5ad80272",
+      "authoredAt": "2026-07-27T10:06:12.000+02:00",
+      "committedAt": "2026-08-11T14:27:05.000-03:00",
+      "authorName": "Norbert Szetei",
+      "committerName": "Jason Gunthorpe",
+      "subject": "RDMA/ucma: Lock the handler in ucma_write_cm_event()",
+      "subsystem": "rdma/ucma",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "ab1112df8f4ffa88cb024dd370c432ced80f77d8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ab1112df8f4ffa88cb024dd370c432ced80f77d8",
+      "authoredAt": "2026-07-27T16:41:19.000+09:00",
+      "committedAt": "2026-07-27T15:02:35.000+02:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: qcom_battmgr: terminate the strings from firmware",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -5112,6 +5346,24 @@
       ]
     },
     {
+      "sha": "51f2c8d2c99fc1f452f7113c08a35edcc4bf8732",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/51f2c8d2c99fc1f452f7113c08a35edcc4bf8732",
+      "authoredAt": "2026-07-27T13:06:59.000+08:00",
+      "committedAt": "2026-07-28T08:03:10.000-04:00",
+      "authorName": "Peiyang He",
+      "committerName": "Leon Romanovsky",
+      "subject": "RDMA/rxe: Fix UAF in ODP init error-handling path",
+      "subsystem": "rdma/rxe",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
       "sha": "af3b69b16383fbc8fe5f61b5b0150d2e41ede71f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/af3b69b16383fbc8fe5f61b5b0150d2e41ede71f",
       "authoredAt": "2026-07-27T11:02:12.000+08:00",
@@ -5126,6 +5378,204 @@
           "identity": "Qoder:Qwen-3.8-MAX-Preview",
           "agent": "Qoder",
           "model": "Qwen-3.8-MAX-Preview"
+        }
+      ]
+    },
+    {
+      "sha": "c84ccde22d9d3070a9ee144e825270a7a784c570",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c84ccde22d9d3070a9ee144e825270a7a784c570",
+      "authoredAt": "2026-07-26T21:13:09.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "dt-bindings: power: supply: max17042: Allow generic power-supply properties",
+      "subsystem": "dt-bindings",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "6a376b843d937d2330b0111404b62589236620c1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6a376b843d937d2330b0111404b62589236620c1",
+      "authoredAt": "2026-07-26T21:13:08.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: max17042_battery: Honor MAX17055 charge voltage",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "ed2b9b4b9694239f9a39f3e5087d879f5e37e315",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ed2b9b4b9694239f9a39f3e5087d879f5e37e315",
+      "authoredAt": "2026-07-26T21:13:07.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: max17042_battery: Initialize MAX17055 from battery info",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "111a2d606a493c3b2f03864ea34a29df3a9e7c06",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/111a2d606a493c3b2f03864ea34a29df3a9e7c06",
+      "authoredAt": "2026-07-26T21:13:06.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: max17042_battery: Follow MAX17055 POR sequence",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "6f384023851d67bd242bf40e5a91328eb92edb5d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6f384023851d67bd242bf40e5a91328eb92edb5d",
+      "authoredAt": "2026-07-26T21:13:05.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: max17042_battery: Program MAX17055 EZ Config values",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "fc9ff915b1fb6f6f826953d1bef3087d7a489d65",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fc9ff915b1fb6f6f826953d1bef3087d7a489d65",
+      "authoredAt": "2026-07-26T21:13:04.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: max17042_battery: Retry failed MAX17055 initialization",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "98d02b5128833c3d812e62a2616f33f1524c8394",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/98d02b5128833c3d812e62a2616f33f1524c8394",
+      "authoredAt": "2026-07-26T21:13:03.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: max17042_battery: Propagate status register errors",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "01da1f4a6373f8d6a5a2d5d5adc256431087ccc4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/01da1f4a6373f8d6a5a2d5d5adc256431087ccc4",
+      "authoredAt": "2026-07-26T21:13:02.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: max17042_battery: Convert initialization to delayed work",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "e8e7cdd9ce46a763e5428e2673e90c6a5f91f6d8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e8e7cdd9ce46a763e5428e2673e90c6a5f91f6d8",
+      "authoredAt": "2026-07-26T21:13:01.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: max17042_battery: Use bool for init_complete",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "f05e30fd2ffd962e6f30dc0abd528b4182ecdf4b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f05e30fd2ffd962e6f30dc0abd528b4182ecdf4b",
+      "authoredAt": "2026-07-26T21:13:00.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: max17042_battery: Separate MAX17055 initialization",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "c1eb5905fdce35a66173658a93819641e5220c18",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c1eb5905fdce35a66173658a93819641e5220c18",
+      "authoredAt": "2026-07-26T21:12:59.000-04:00",
+      "committedAt": "2026-07-27T20:32:38.000+02:00",
+      "authorName": "Vincent Cloutier",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: Add registration init callback",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "OpenCode:gpt-5.6-sol",
+          "identity": "OpenCode:gpt-5.6-sol",
+          "agent": "OpenCode",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -5288,6 +5738,42 @@
           "identity": "Qoder:Qwen-3.8-MAX-Preview",
           "agent": "Qoder",
           "model": "Qwen-3.8-MAX-Preview"
+        }
+      ]
+    },
+    {
+      "sha": "645448becbd0b52216c6741897dd412f9ff1b925",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/645448becbd0b52216c6741897dd412f9ff1b925",
+      "authoredAt": "2026-07-26T07:22:06.000Z",
+      "committedAt": "2026-07-26T21:30:46.000+02:00",
+      "authorName": "Babanpreet Singh",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: sbs-battery: Bound the serial number conversion to 16 bits",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "6027892925b8d19d2245c2d077e2ae35b49cc2b1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6027892925b8d19d2245c2d077e2ae35b49cc2b1",
+      "authoredAt": "2026-07-26T07:22:05.000Z",
+      "committedAt": "2026-07-26T21:30:46.000+02:00",
+      "authorName": "Babanpreet Singh",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: sbs-battery: Use a per-device serial number buffer",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -5760,6 +6246,24 @@
       ]
     },
     {
+      "sha": "3e7a1ebc32fad5a558254a478efd401c17a24381",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3e7a1ebc32fad5a558254a478efd401c17a24381",
+      "authoredAt": "2026-07-23T22:53:10.000Z",
+      "committedAt": "2026-07-25T01:00:55.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Sebastian Reichel",
+      "subject": "power: supply: rt9455: quiesce delayed work before teardown",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
       "sha": "04513922958005046f8b481c0f77212c556a9c38",
       "htmlUrl": "https://github.com/torvalds/linux/commit/04513922958005046f8b481c0f77212c556a9c38",
       "authoredAt": "2026-07-24T04:22:23.000+08:00",
@@ -5928,6 +6432,42 @@
       ]
     },
     {
+      "sha": "57e5d877f898d5e5c9d672a77bb6bdd24f0d9bf5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/57e5d877f898d5e5c9d672a77bb6bdd24f0d9bf5",
+      "authoredAt": "2026-07-23T11:28:42.000Z",
+      "committedAt": "2026-07-27T17:59:33.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Ulf Hansson",
+      "subject": "mmc: via-sdmmc: cancel card-detect work on remove",
+      "subsystem": "mmc",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "088eaa92fcebaa6b957ccf9635afdf39643a577d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/088eaa92fcebaa6b957ccf9635afdf39643a577d",
+      "authoredAt": "2026-07-23T11:28:41.000Z",
+      "committedAt": "2026-07-27T17:58:41.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Ulf Hansson",
+      "subject": "mmc: via-sdmmc: stop card-detect handling on probe failure",
+      "subsystem": "mmc",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
       "sha": "c4740e7f23ff9a8210198d8b4703259e21b9f69d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c4740e7f23ff9a8210198d8b4703259e21b9f69d",
       "authoredAt": "2026-07-23T14:48:45.000+08:00",
@@ -6008,6 +6548,24 @@
           "identity": "Claude:opus-4.8",
           "agent": "Claude",
           "model": "opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "08f4661d40f41d6bfb94da1907eb3f7f172e652f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/08f4661d40f41d6bfb94da1907eb3f7f172e652f",
+      "authoredAt": "2026-07-22T13:46:43.000-07:00",
+      "committedAt": "2026-07-27T17:05:29.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Ulf Hansson",
+      "subject": "mmc: moxart: use platform helpers for resource and IRQ",
+      "subsystem": "mmc",
+      "assistedBy": [
+        {
+          "raw": "opencode:hy3-free",
+          "identity": "opencode:hy3-free",
+          "agent": "opencode",
+          "model": "hy3-free"
         }
       ]
     },
@@ -10770,6 +11328,42 @@
       ]
     },
     {
+      "sha": "126c757e4cd46f866ddc283143b58eb4d9bf52cd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/126c757e4cd46f866ddc283143b58eb4d9bf52cd",
+      "authoredAt": "2026-07-12T14:21:49.000+02:00",
+      "committedAt": "2026-07-20T09:00:40.000-04:00",
+      "authorName": "Ibrahim Hashimov",
+      "committerName": "Leon Romanovsky",
+      "subject": "RDMA/rxe: Validate num_sge/cur_sge before indexing wqe->dma.sge[]",
+      "subsystem": "rdma/rxe",
+      "assistedBy": [
+        {
+          "raw": "AuditCode-AI:2026.07",
+          "identity": "AuditCode-AI:2026.07",
+          "agent": "AuditCode-AI",
+          "model": "2026.07"
+        }
+      ]
+    },
+    {
+      "sha": "6f7014237405e7f032b5c53a82d9eccf6161c291",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6f7014237405e7f032b5c53a82d9eccf6161c291",
+      "authoredAt": "2026-07-12T14:17:20.000+02:00",
+      "committedAt": "2026-07-20T09:00:40.000-04:00",
+      "authorName": "Ibrahim Hashimov",
+      "committerName": "Leon Romanovsky",
+      "subject": "RDMA/rxe: Fix responder UAF on IB_QP_MAX_DEST_RD_ATOMIC modify_qp",
+      "subsystem": "rdma/rxe",
+      "assistedBy": [
+        {
+          "raw": "AuditCode-AI:2026.07",
+          "identity": "AuditCode-AI:2026.07",
+          "agent": "AuditCode-AI",
+          "model": "2026.07"
+        }
+      ]
+    },
+    {
       "sha": "3b87c46d0d5b8dee28dbb37f0d6cadb511216d48",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3b87c46d0d5b8dee28dbb37f0d6cadb511216d48",
       "authoredAt": "2026-07-12T08:12:58.000Z",
@@ -10820,6 +11414,24 @@
           "identity": "Claude:claude-sonnet-4-6",
           "agent": "Claude",
           "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "15ae32c4a3551c4c9da457370bdfdd65d171e512",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/15ae32c4a3551c4c9da457370bdfdd65d171e512",
+      "authoredAt": "2026-07-11T09:54:19.000-07:00",
+      "committedAt": "2026-07-12T07:26:03.000-04:00",
+      "authorName": "Allison Henderson",
+      "committerName": "Leon Romanovsky",
+      "subject": "RDMA/rxe: Avoid reprocessing the current packet after the QP enters the error state",
+      "subsystem": "rdma/rxe",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:claude-fable-5",
+          "identity": "Claude-Code:claude-fable-5",
+          "agent": "Claude-Code",
+          "model": "claude-fable-5"
         }
       ]
     },
@@ -14508,6 +15120,24 @@
       ]
     },
     {
+      "sha": "297b5b747a0a2c6b63088d3f5cc102a6cffaf292",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/297b5b747a0a2c6b63088d3f5cc102a6cffaf292",
+      "authoredAt": "2026-07-01T17:05:10.000+02:00",
+      "committedAt": "2026-07-06T02:10:33.000-04:00",
+      "authorName": "Michal Schmidt",
+      "committerName": "Leon Romanovsky",
+      "subject": "RDMA/hfi1: Remove unused non-user-accessible device class",
+      "subsystem": "rdma/hfi1",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "e504cc888f42999dd76b6a43788c422610f2aad2",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e504cc888f42999dd76b6a43788c422610f2aad2",
       "authoredAt": "2026-07-01T20:45:36.000+09:00",
@@ -14612,6 +15242,42 @@
           "identity": "Claude:claude-sonnet-4-6",
           "agent": "Claude",
           "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "8cbaf7b1ab4dd9ced322b6ebf60b079cc3a3d8d2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8cbaf7b1ab4dd9ced322b6ebf60b079cc3a3d8d2",
+      "authoredAt": "2026-07-01T00:49:22.000+02:00",
+      "committedAt": "2026-07-12T15:46:14.000-04:00",
+      "authorName": "Louis Sautier",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: mpt3sas: Add hwmon support",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "26018997054dabe5d8f17495f2d75f211d01884b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/26018997054dabe5d8f17495f2d75f211d01884b",
+      "authoredAt": "2026-07-01T00:49:21.000+02:00",
+      "committedAt": "2026-07-12T15:46:14.000-04:00",
+      "authorName": "Louis Sautier",
+      "committerName": "Martin K. Petersen",
+      "subject": "scsi: mpt3sas: Add IO Unit Page 7 config accessor",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-7",
+          "identity": "Claude:claude-opus-4-7",
+          "agent": "Claude",
+          "model": "claude-opus-4-7"
         }
       ]
     },
@@ -17018,582 +17684,6 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "d21808328225ab8cee46885bf9a0dffcefbe630e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d21808328225ab8cee46885bf9a0dffcefbe630e",
-      "authoredAt": "2026-06-25T06:04:34.000+08:00",
-      "committedAt": "2026-08-13T18:13:01.000+02:00",
-      "authorName": "Felix Yan",
-      "committerName": "Daniel Lezcano",
-      "subject": "clocksource/drivers/timer-sun4i: Advertise a real minimum delta",
-      "subsystem": "clocksource/drivers/timer-sun4i",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "5fae9a928482d4845bca169a3a098789203a1ca4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5fae9a928482d4845bca169a3a098789203a1ca4",
-      "authoredAt": "2026-06-24T16:11:36.000-05:00",
-      "committedAt": "2026-06-26T15:07:38.000+02:00",
-      "authorName": "Ian Bridges",
-      "committerName": "Helge Deller",
-      "subject": "fbcon: fix NULL pointer dereference for a console without vc_data",
-      "subsystem": "fbcon",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "bff7fad1010eea6f183fb110b54171cf8700ef8e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bff7fad1010eea6f183fb110b54171cf8700ef8e",
-      "authoredAt": "2026-06-24T23:10:02.000+02:00",
-      "committedAt": "2026-06-30T19:45:07.000+01:00",
-      "authorName": "David Heidelberg",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: dt-bindings: Convert cirrus,cs35l36 to DT schema",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "OpenAI:gpt-4",
-          "identity": "OpenAI:gpt-4",
-          "agent": "OpenAI",
-          "model": "gpt-4"
-        }
-      ]
-    },
-    {
-      "sha": "46011ff577cfbcdceef53bc6796660a5fcac5e5f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/46011ff577cfbcdceef53bc6796660a5fcac5e5f",
-      "authoredAt": "2026-06-24T16:50:25.000-04:00",
-      "committedAt": "2026-07-28T18:34:49.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add mode helper tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "27be8a5159b28067d1e037a1e5c5de81efef8535",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/27be8a5159b28067d1e037a1e5c5de81efef8535",
-      "authoredAt": "2026-06-24T16:32:57.000-04:00",
-      "committedAt": "2026-07-28T18:33:12.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add EDID management tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "1f235b05f6e54d16c5ae884d2b93f58c87b95f11",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1f235b05f6e54d16c5ae884d2b93f58c87b95f11",
-      "authoredAt": "2026-06-24T16:19:32.000-04:00",
-      "committedAt": "2026-07-28T18:33:08.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add encoder helper tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "e1b6b01c9223668657ac167117c293b74e9f7857",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e1b6b01c9223668657ac167117c293b74e9f7857",
-      "authoredAt": "2026-06-24T15:58:07.000-04:00",
-      "committedAt": "2026-07-28T18:32:59.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add destroy tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "663c4a821613f2758b0810253137d293c7222d3c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/663c4a821613f2758b0810253137d293c7222d3c",
-      "authoredAt": "2026-06-24T15:35:51.000-04:00",
-      "committedAt": "2026-07-28T18:32:54.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add register and unregister tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "ab9fb2738088cd8c16ac32e834d3ac929afe25ab",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ab9fb2738088cd8c16ac32e834d3ac929afe25ab",
-      "authoredAt": "2026-06-24T15:21:18.000-04:00",
-      "committedAt": "2026-07-28T18:32:49.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add detect and poll tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "128729b7079df0b604d940bbb60b118bfe46eee0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/128729b7079df0b604d940bbb60b118bfe46eee0",
-      "authoredAt": "2026-06-24T15:07:08.000-04:00",
-      "committedAt": "2026-07-28T18:32:43.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add stream creation tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "66251e0d45dafe5c119d79523c07d849a9444dc7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/66251e0d45dafe5c119d79523c07d849a9444dc7",
-      "authoredAt": "2026-06-24T14:36:05.000-04:00",
-      "committedAt": "2026-07-15T09:15:40.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add stream property tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "0eec0ebf820db3c1a160ce41c29a29f224e4ec75",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0eec0ebf820db3c1a160ce41c29a29f224e4ec75",
-      "authoredAt": "2026-06-24T14:12:05.000-04:00",
-      "committedAt": "2026-07-15T09:15:40.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add CACP caps tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "163944262f8646bf3a1eec557b6aff1f38582a9f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/163944262f8646bf3a1eec557b6aff1f38582a9f",
-      "authoredAt": "2026-06-24T23:51:15.000+08:00",
-      "committedAt": "2026-07-01T11:27:37.000-07:00",
-      "authorName": "Leon Hwang",
-      "committerName": "Andrii Nakryiko",
-      "subject": "selftests/bpf: Verify no non-zeroed kernel heap memory exposure",
-      "subsystem": "selftests/bpf",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "1803ad56ab8f1055eabfa584f1d4a8d1dcc57dce",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1803ad56ab8f1055eabfa584f1d4a8d1dcc57dce",
-      "authoredAt": "2026-06-24T11:47:52.000-04:00",
-      "committedAt": "2026-07-15T09:15:40.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add crtc matching and panel type tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "7693c0cc415f3a16a7a3355f245474a5e661be4e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7693c0cc415f3a16a7a3355f245474a5e661be4e",
-      "authoredAt": "2026-06-24T07:37:23.000-07:00",
-      "committedAt": "2026-06-25T13:52:32.000+02:00",
-      "authorName": "Darvell Long",
-      "committerName": "Takashi Iwai",
-      "subject": "ALSA: usb-audio: avoid kobject path lookup in DualSense match",
-      "subsystem": "alsa",
-      "assistedBy": [
-        {
-          "raw": "Cute:gpt-5.5",
-          "identity": "Cute:gpt-5.5",
-          "agent": "Cute",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4",
-      "authoredAt": "2026-06-24T08:38:40.000+09:00",
-      "committedAt": "2026-06-24T11:03:25.000+02:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Takashi Iwai",
-      "subject": "ALSA: seq: Fix uninitialised heap leak in snd_seq_event_dup()",
-      "subsystem": "alsa",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "35d1ea92c7d946e2ebdbe36cdb2c969c8704bebd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/35d1ea92c7d946e2ebdbe36cdb2c969c8704bebd",
-      "authoredAt": "2026-06-23T21:00:57.000+02:00",
-      "committedAt": "2026-07-28T11:49:32.000+02:00",
-      "authorName": "Samuel Page",
-      "committerName": "Konstantin Komarov",
-      "subject": "fs/ntfs3: fix info-leak on partial LZNT decompress in ni_read_frame()",
-      "subsystem": "fs/ntfs3",
-      "assistedBy": [
-        {
-          "raw": "Bynario AI",
-          "identity": "Bynario AI",
-          "agent": "Bynario AI",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "eff243192f707a079ceee35fa1b06cd3e1c0b0de",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/eff243192f707a079ceee35fa1b06cd3e1c0b0de",
-      "authoredAt": "2026-06-23T14:41:26.000-04:00",
-      "committedAt": "2026-07-15T09:15:40.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add MST link detection tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "5788ae1fb5effd6be75b13021c7e61e4f0a26fb3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5788ae1fb5effd6be75b13021c7e61e4f0a26fb3",
-      "authoredAt": "2026-06-23T14:41:01.000-04:00",
-      "committedAt": "2026-07-15T09:15:38.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add FBC init tests for connector",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "384a4b2fef9ffe5e270ee5558975c0504881c5fb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/384a4b2fef9ffe5e270ee5558975c0504881c5fb",
-      "authoredAt": "2026-06-24T00:13:28.000+08:00",
-      "committedAt": "2026-07-06T10:46:57.000-04:00",
-      "authorName": "Cen Zhang",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: MGMT: Fix adv monitor add failure cleanup",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "518aa9505fa10ea5662349e5d2efd8c9e32a820b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/518aa9505fa10ea5662349e5d2efd8c9e32a820b",
-      "authoredAt": "2026-06-24T00:12:59.000+08:00",
-      "committedAt": "2026-07-06T10:46:57.000-04:00",
-      "authorName": "Cen Zhang",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: 6lowpan: hold L2CAP conn across debugfs control",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "352a59dc1f4a41314b6f827c17e16af7ca88271a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/352a59dc1f4a41314b6f827c17e16af7ca88271a",
-      "authoredAt": "2026-06-24T00:12:29.000+08:00",
-      "committedAt": "2026-07-06T10:46:57.000-04:00",
-      "authorName": "Cen Zhang",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: 6lowpan: avoid untracked enable work",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "9370a5c664e8d95561cc9a418e499a15bf2bc1a3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9370a5c664e8d95561cc9a418e499a15bf2bc1a3",
-      "authoredAt": "2026-06-23T17:23:04.000+02:00",
-      "committedAt": "2026-07-01T16:52:48.000+02:00",
-      "authorName": "Christian König",
-      "committerName": "Christian König",
-      "subject": "dma-buf: rename dma_fence_enable_sw_signaling",
-      "subsystem": "dma-buf",
-      "assistedBy": [
-        {
-          "raw": "Claude Sonet 4",
-          "identity": "Claude Sonet 4",
-          "agent": "Claude Sonet 4",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "5d00879f30a2f9464c785cfc962815ee5780d9a8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5d00879f30a2f9464c785cfc962815ee5780d9a8",
-      "authoredAt": "2026-06-23T10:44:10.000-04:00",
-      "committedAt": "2026-07-15T09:15:38.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add more tests for HDCP",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "fb0601134c7e51728bd098abc6909315de1e5d86",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fb0601134c7e51728bd098abc6909315de1e5d86",
-      "authoredAt": "2026-06-23T12:30:52.000Z",
-      "committedAt": "2026-07-08T17:12:22.000+02:00",
-      "authorName": "Aleksandr Nogikh",
-      "committerName": "Jan Kara",
-      "subject": "udf: Mark LVID buffer as uptodate before marking it dirty",
-      "subsystem": "udf",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot",
-          "identity": "Gemini:gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro-preview Gemini:gemini-3-flash-preview syzbot"
-        }
-      ]
-    },
-    {
-      "sha": "111f8d74a19d85942ecbb3aba78f6f3c88e59391",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/111f8d74a19d85942ecbb3aba78f6f3c88e59391",
-      "authoredAt": "2026-06-23T03:14:35.000-07:00",
-      "committedAt": "2026-07-28T11:49:49.000+02:00",
-      "authorName": "Weiming Shi",
-      "committerName": "Konstantin Komarov",
-      "subject": "fs/ntfs3: reject restart table growth beyond U16_MAX entries",
-      "subsystem": "fs/ntfs3",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "98e08a815ef604837c4c7d7991ba8772107332da",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/98e08a815ef604837c4c7d7991ba8772107332da",
-      "authoredAt": "2026-06-23T15:35:30.000+08:00",
-      "committedAt": "2026-07-15T09:15:38.000-04:00",
-      "authorName": "Tom Chung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Tear down dangling pipe on boot to fix s0i3",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-4.8",
-          "identity": "Cursor:claude-opus-4.8",
-          "agent": "Cursor",
-          "model": "claude-opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "aec345ba11e8d570e3dc94101d6472884d822b38",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/aec345ba11e8d570e3dc94101d6472884d822b38",
-      "authoredAt": "2026-06-22T23:54:58.000-06:00",
-      "committedAt": "2026-07-15T09:15:38.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Test high-IRQ and handler registration",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "a76f7d5a14bb7c96ee9680cbba7d711e166b5672",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a76f7d5a14bb7c96ee9680cbba7d711e166b5672",
-      "authoredAt": "2026-06-22T23:54:13.000-06:00",
-      "committedAt": "2026-07-15T09:15:38.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Test dmub HPD callbacks and handlers",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "a9011c014c44542bedcaca79566c07c8041070d3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a9011c014c44542bedcaca79566c07c8041070d3",
-      "authoredAt": "2026-06-22T23:50:51.000-06:00",
-      "committedAt": "2026-07-15T09:15:38.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Test irq state setters and work",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "80e4717b4677bcc8a1eb19b1f763d13e1e227ee6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/80e4717b4677bcc8a1eb19b1f763d13e1e227ee6",
-      "authoredAt": "2026-06-22T23:50:10.000-06:00",
-      "committedAt": "2026-07-15T09:15:37.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Test irq funcs/suspend/workqueue",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "2718c726a0682e89e9fc1a11db928fad8781e268",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2718c726a0682e89e9fc1a11db928fad8781e268",
-      "authoredAt": "2026-06-22T22:38:01.000-07:00",
-      "committedAt": "2026-06-22T23:19:22.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: mms114 - refactor chip variant handling using descriptors",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
         }
       ]
     }
