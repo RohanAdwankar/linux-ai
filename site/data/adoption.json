@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-21T01:58:17.679Z",
+  "generatedAt": "2026-08-21T03:16:50.758Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 978,
-    "totalSubsystems": 264,
+    "totalCommits": 977,
+    "totalSubsystems": 268,
     "totalAuthors": 230,
-    "totalAgents": 173
+    "totalAgents": 175
   },
   "commits": [
     {
@@ -260,6 +260,24 @@
           "identity": "opencode:deepseek-v4-flash-free",
           "agent": "opencode",
           "model": "deepseek-v4-flash-free"
+        }
+      ]
+    },
+    {
+      "sha": "aedf2efd18977e0cef7eb963166e2b1fcc0aa321",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/aedf2efd18977e0cef7eb963166e2b1fcc0aa321",
+      "authoredAt": "2026-08-12T01:18:57.000+09:00",
+      "committedAt": "2026-08-13T18:06:48.000-07:00",
+      "authorName": "Hyunwoo Kim",
+      "committerName": "Andrew Morton",
+      "subject": "mm/pagewalk: fix stale walk->action escaping walk_pmd_range()",
+      "subsystem": "mm/pagewalk",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -5466,6 +5484,24 @@
       ]
     },
     {
+      "sha": "9365813cadfb086c04040278dcc7f463183ba727",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9365813cadfb086c04040278dcc7f463183ba727",
+      "authoredAt": "2026-07-23T10:36:35.000-07:00",
+      "committedAt": "2026-08-04T19:18:54.000-07:00",
+      "authorName": "Stanislav Kinsburskii",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: add HMM test for mmap lock-dropping faults",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.6",
+          "identity": "GitHub-Copilot:claude-opus-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
       "sha": "8f2f62855a41d1730fb9e8122912bd2c8d6bed5d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/8f2f62855a41d1730fb9e8122912bd2c8d6bed5d",
       "authoredAt": "2026-07-24T00:43:46.000+08:00",
@@ -7766,6 +7802,24 @@
           "identity": "gkh_clanker_t1000",
           "agent": "gkh_clanker_t1000",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "fb0493ad1ad4260b0f41ed8d63806a2278747c8a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fb0493ad1ad4260b0f41ed8d63806a2278747c8a",
+      "authoredAt": "2026-07-15T15:42:34.000+01:00",
+      "committedAt": "2026-08-06T18:57:10.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: add PAGEMAP_SCAN test for THP PMD holes",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
         }
       ]
     },
@@ -10824,6 +10878,258 @@
       ]
     },
     {
+      "sha": "a137d9f8f51484d1b6268260610b7e64e897b27e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a137d9f8f51484d1b6268260610b7e64e897b27e",
+      "authoredAt": "2026-07-08T12:14:16.000+01:00",
+      "committedAt": "2026-08-04T19:18:40.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "Documentation/userfaultfd: document RWP working set tracking",
+      "subsystem": "documentation/userfaultfd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "39a7c34ea5082d721c980db2064e749c61068535",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/39a7c34ea5082d721c980db2064e749c61068535",
+      "authoredAt": "2026-07-08T12:14:14.000+01:00",
+      "committedAt": "2026-08-04T19:18:39.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "userfaultfd: add UFFDIO_SET_MODE for runtime sync/async toggle",
+      "subsystem": "userfaultfd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "45347e3d32c15bc70f097bef9ef1a7b90218d450",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/45347e3d32c15bc70f097bef9ef1a7b90218d450",
+      "authoredAt": "2026-07-08T12:14:13.000+01:00",
+      "committedAt": "2026-08-04T19:18:39.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "userfaultfd: add UFFD_FEATURE_RWP_ASYNC for async fault resolution",
+      "subsystem": "userfaultfd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "3389648819829299517a8d482fda213fd7166a2c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3389648819829299517a8d482fda213fd7166a2c",
+      "authoredAt": "2026-07-08T12:14:12.000+01:00",
+      "committedAt": "2026-08-04T19:18:38.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "mm/pagemap: add PAGE_IS_ACCESSED for RWP tracking",
+      "subsystem": "mm/pagemap",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "2d427bb0163978875dfbbcec7b7dd0c1320f419e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2d427bb0163978875dfbbcec7b7dd0c1320f419e",
+      "authoredAt": "2026-07-08T12:14:11.000+01:00",
+      "committedAt": "2026-08-04T19:18:38.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "mm/userfaultfd: add RWP fault delivery and expose UFFDIO_REGISTER_MODE_RWP",
+      "subsystem": "mm/userfaultfd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "6eab8f2cc6465ab093b5171ece815ec24e678d4e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6eab8f2cc6465ab093b5171ece815ec24e678d4e",
+      "authoredAt": "2026-07-08T12:14:10.000+01:00",
+      "committedAt": "2026-08-04T19:18:38.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "userfaultfd: add UFFDIO_REGISTER_MODE_RWP and UFFDIO_RWPROTECT plumbing",
+      "subsystem": "userfaultfd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "7974c238531bfaa743878d8be8f062524a6f29ac",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7974c238531bfaa743878d8be8f062524a6f29ac",
+      "authoredAt": "2026-07-08T12:14:09.000+01:00",
+      "committedAt": "2026-08-04T19:18:38.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "mm: handle VM_UFFD_RWP in khugepaged, rmap, and GUP",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "763f43865fc4136562ae84542604081f7989a951",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/763f43865fc4136562ae84542604081f7989a951",
+      "authoredAt": "2026-07-08T12:14:08.000+01:00",
+      "committedAt": "2026-08-04T19:18:37.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "mm: preserve RWP marker across PTE rewrites",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "9cf3c554acbdd3661e2ae5043de842a551c5d0ed",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9cf3c554acbdd3661e2ae5043de842a551c5d0ed",
+      "authoredAt": "2026-07-08T12:14:07.000+01:00",
+      "committedAt": "2026-08-04T19:18:37.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "mm: add MM_CP_UFFD_RWP change_protection() flag",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "134c1d031a2e9d2f6a3f56fc358df8df7ffeef2b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/134c1d031a2e9d2f6a3f56fc358df8df7ffeef2b",
+      "authoredAt": "2026-07-08T12:14:06.000+01:00",
+      "committedAt": "2026-08-04T19:18:37.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "mm: add VM_UFFD_RWP VMA flag",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "2730ee209f95102edb89a87267d656bf0c2df46a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2730ee209f95102edb89a87267d656bf0c2df46a",
+      "authoredAt": "2026-07-08T12:14:05.000+01:00",
+      "committedAt": "2026-08-04T19:18:36.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "userfaultfd: test uffd VMA flags through the vma_flags_t API",
+      "subsystem": "userfaultfd",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "c0ffe79eedc1d6f821e8fdac9106351a5a95e77d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c0ffe79eedc1d6f821e8fdac9106351a5a95e77d",
+      "authoredAt": "2026-07-08T12:14:04.000+01:00",
+      "committedAt": "2026-08-04T19:18:36.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "mm: rename uffd-wp PTE accessors to uffd",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "2bd507795e629e5039924685f42ebf90ac191680",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2bd507795e629e5039924685f42ebf90ac191680",
+      "authoredAt": "2026-07-08T12:14:03.000+01:00",
+      "committedAt": "2026-08-04T19:18:36.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "mm: rename uffd-wp PTE bit macros to uffd",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "c6f11553c067d7d9ed2dcffe1e01780441d4e6e2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c6f11553c067d7d9ed2dcffe1e01780441d4e6e2",
+      "authoredAt": "2026-07-08T12:14:02.000+01:00",
+      "committedAt": "2026-08-04T19:18:36.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "mm: decouple protnone helpers from CONFIG_NUMA_BALANCING",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-6",
+          "identity": "Claude:claude-opus-4-6",
+          "agent": "Claude",
+          "model": "claude-opus-4-6"
+        }
+      ]
+    },
+    {
       "sha": "21b5bf155435008e0fb0736795289788e63d426f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/21b5bf155435008e0fb0736795289788e63d426f",
       "authoredAt": "2026-07-08T13:08:59.000+02:00",
@@ -12006,6 +12312,96 @@
       ]
     },
     {
+      "sha": "679e5aa1a299cc44121632363f9b345d1f5851a3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/679e5aa1a299cc44121632363f9b345d1f5851a3",
+      "authoredAt": "2026-07-03T12:31:52.000Z",
+      "committedAt": "2026-07-30T19:40:43.000-07:00",
+      "authorName": "Brendan Jackman",
+      "committerName": "Andrew Morton",
+      "subject": "net/funeth: switch to higher-level allocator API",
+      "subsystem": "net/funeth",
+      "assistedBy": [
+        {
+          "raw": "Gemini:unknown-version",
+          "identity": "Gemini:unknown-version",
+          "agent": "Gemini",
+          "model": "unknown-version"
+        }
+      ]
+    },
+    {
+      "sha": "579c6de3def20f4247cb7621778d943aed653fca",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/579c6de3def20f4247cb7621778d943aed653fca",
+      "authoredAt": "2026-07-03T12:31:51.000Z",
+      "committedAt": "2026-07-30T19:40:42.000-07:00",
+      "authorName": "Brendan Jackman",
+      "committerName": "Andrew Morton",
+      "subject": "sgi-xp: use higher-level allocator API",
+      "subsystem": "sgi-xp",
+      "assistedBy": [
+        {
+          "raw": "Gemini:unknown-model",
+          "identity": "Gemini:unknown-model",
+          "agent": "Gemini",
+          "model": "unknown-model"
+        }
+      ]
+    },
+    {
+      "sha": "9b5b281f21b458f0d56378981b6167ece362d3f6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9b5b281f21b458f0d56378981b6167ece362d3f6",
+      "authoredAt": "2026-07-03T12:31:50.000Z",
+      "committedAt": "2026-07-30T19:40:42.000-07:00",
+      "authorName": "Brendan Jackman",
+      "committerName": "Andrew Morton",
+      "subject": "x86/virt: use higher-level allocator API",
+      "subsystem": "x86/virt",
+      "assistedBy": [
+        {
+          "raw": "Gemini:unknown-version",
+          "identity": "Gemini:unknown-version",
+          "agent": "Gemini",
+          "model": "unknown-version"
+        }
+      ]
+    },
+    {
+      "sha": "bfceae3fd12c5295627bb7fe0fabcfa1b821f31a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bfceae3fd12c5295627bb7fe0fabcfa1b821f31a",
+      "authoredAt": "2026-07-03T12:31:49.000Z",
+      "committedAt": "2026-07-30T19:40:42.000-07:00",
+      "authorName": "Brendan Jackman",
+      "committerName": "Andrew Morton",
+      "subject": "KVM: VMX: use higher-level allocator API",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Gemini:unknown-version",
+          "identity": "Gemini:unknown-version",
+          "agent": "Gemini",
+          "model": "unknown-version"
+        }
+      ]
+    },
+    {
+      "sha": "ca74a8252289fc09cd69de891bb2cfbb34264e5a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ca74a8252289fc09cd69de891bb2cfbb34264e5a",
+      "authoredAt": "2026-07-03T12:31:48.000Z",
+      "committedAt": "2026-07-30T19:40:42.000-07:00",
+      "authorName": "Brendan Jackman",
+      "committerName": "Andrew Morton",
+      "subject": "perf/x86/intel: use higher-level allocator API",
+      "subsystem": "perf/x86/intel",
+      "assistedBy": [
+        {
+          "raw": "Gemini:unknown-version",
+          "identity": "Gemini:unknown-version",
+          "agent": "Gemini",
+          "model": "unknown-version"
+        }
+      ]
+    },
+    {
       "sha": "554ba38456dad8053a1a80afe6ae6da9eff745cc",
       "htmlUrl": "https://github.com/torvalds/linux/commit/554ba38456dad8053a1a80afe6ae6da9eff745cc",
       "authoredAt": "2026-07-03T13:49:09.000+02:00",
@@ -12548,6 +12944,30 @@
           "identity": "GitHub-Copilot:claude-4.7-opus",
           "agent": "GitHub-Copilot",
           "model": "claude-4.7-opus"
+        }
+      ]
+    },
+    {
+      "sha": "bd1e4c4aa469c9e946d9aa2831b8cd4ff3c198f5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bd1e4c4aa469c9e946d9aa2831b8cd4ff3c198f5",
+      "authoredAt": "2026-06-30T19:38:57.000+08:00",
+      "committedAt": "2026-07-30T19:40:28.000-07:00",
+      "authorName": "Wentao Guan",
+      "committerName": "Andrew Morton",
+      "subject": "mm/hugetlb: avoid unnecessary TLB flush for empty folio list in vmemmap optimize",
+      "subsystem": "mm/hugetlb",
+      "assistedBy": [
+        {
+          "raw": "kimi-cli:kimi-k2.7 code",
+          "identity": "kimi-cli:kimi-k2.7 code",
+          "agent": "kimi-cli",
+          "model": "kimi-k2.7 code"
+        },
+        {
+          "raw": "Github Copilot:gpt-5.2 #Reported-by",
+          "identity": "Github Copilot:gpt-5.2 #Reported-by",
+          "agent": "Github Copilot",
+          "model": "gpt-5.2 #Reported-by"
         }
       ]
     },
@@ -17384,456 +17804,6 @@
           "identity": "Claude:claude-opus-4.6",
           "agent": "Claude",
           "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "cfafef390ca9c753b34c7e97b5abee4cab0ce270",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cfafef390ca9c753b34c7e97b5abee4cab0ce270",
-      "authoredAt": "2026-06-10T20:40:34.000-03:00",
-      "committedAt": "2026-06-17T08:28:47.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf hwmon: Fix fd check to accept fd 0 in hwmon_pmu__describe_items()",
-      "subsystem": "perf hwmon",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "7b0df6f4d498b1608afccfd6dffb264e6da91693",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7b0df6f4d498b1608afccfd6dffb264e6da91693",
-      "authoredAt": "2026-06-10T20:34:38.000-03:00",
-      "committedAt": "2026-06-17T08:28:44.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf tools: Use snprintf() for root_dir path construction",
-      "subsystem": "perf tools",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "d2c6069d68ee9d53b05fe38bc2049cc4286fbb16",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d2c6069d68ee9d53b05fe38bc2049cc4286fbb16",
-      "authoredAt": "2026-06-10T20:16:02.000-03:00",
-      "committedAt": "2026-06-17T08:28:40.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf dso: Set error code when open() fails on uncompressed fallback path",
-      "subsystem": "perf dso",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "ff25a3b1cd607b268b7b3e47f068460ea1eeb956",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ff25a3b1cd607b268b7b3e47f068460ea1eeb956",
-      "authoredAt": "2026-06-10T16:02:42.000-07:00",
-      "committedAt": "2026-06-11T13:52:18.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: ipaq-micro-keys - add length check in micro_key_receive",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "f973e52a99776fcc473488984828d1fce56d5382",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f973e52a99776fcc473488984828d1fce56d5382",
-      "authoredAt": "2026-06-10T19:33:48.000-03:00",
-      "committedAt": "2026-06-17T08:28:37.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf dso: Fix heap overflow in dso__get_filename() on decompressed path",
-      "subsystem": "perf dso",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "063c647b24f640657d6d9e2e90d620ea3ee19ae6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/063c647b24f640657d6d9e2e90d620ea3ee19ae6",
-      "authoredAt": "2026-06-10T19:32:22.000-03:00",
-      "committedAt": "2026-06-17T08:28:31.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf symbols: Break infinite loop on zero-filled notes in sysfs__read_build_id()",
-      "subsystem": "perf symbols",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "2a3716544359d4312c81b0fa909a13301186da17",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2a3716544359d4312c81b0fa909a13301186da17",
-      "authoredAt": "2026-06-10T19:29:34.000-03:00",
-      "committedAt": "2026-06-17T08:25:14.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf symbols: Validate p_filesz before use in filename__read_build_id()",
-      "subsystem": "perf symbols",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "081b387c7397498c583b1ba7c2fdaf4c6da6b538",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/081b387c7397498c583b1ba7c2fdaf4c6da6b538",
-      "authoredAt": "2026-06-10T19:28:43.000-03:00",
-      "committedAt": "2026-06-17T08:25:03.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf symbols: Fix bswap copy-paste error for 32-bit ELF p_filesz",
-      "subsystem": "perf symbols",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "298ab7e6f1637cec44163f52e84e2030ec16ed9d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/298ab7e6f1637cec44163f52e84e2030ec16ed9d",
-      "authoredAt": "2026-06-10T13:44:41.000-07:00",
-      "committedAt": "2026-06-12T10:10:34.000-03:00",
-      "authorName": "Alex Mastro",
-      "committerName": "Jason Gunthorpe",
-      "subject": "iommufd: Clarify IOAS_MAP_FILE dma-buf support",
-      "subsystem": "iommufd",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5-high",
-          "identity": "Codex:gpt-5.5-high",
-          "agent": "Codex",
-          "model": "gpt-5.5-high"
-        }
-      ]
-    },
-    {
-      "sha": "52e582e316c48c53bb3082c29f7862ebc554087e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/52e582e316c48c53bb3082c29f7862ebc554087e",
-      "authoredAt": "2026-06-10T16:09:45.000-03:00",
-      "committedAt": "2026-06-10T18:56:02.000-03:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf symbols: Add bounds checks to read_build_id() note iteration in minimal build",
-      "subsystem": "perf symbols",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "a2d8d5647ed854e38f941741aea45b9eb15a6350",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a2d8d5647ed854e38f941741aea45b9eb15a6350",
-      "authoredAt": "2026-06-10T10:29:26.000-07:00",
-      "committedAt": "2026-06-30T01:59:04.000+02:00",
-      "authorName": "Xiang Mei",
-      "committerName": "David Sterba",
-      "subject": "btrfs: reject free space cache with more entries than pages",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "ae9f812df3149729643d27d2af488c112f62af9a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ae9f812df3149729643d27d2af488c112f62af9a",
-      "authoredAt": "2026-06-10T17:42:04.000+02:00",
-      "committedAt": "2026-06-17T08:14:30.000+02:00",
-      "authorName": "Marco Scardovi",
-      "committerName": "Bartosz Golaszewski",
-      "subject": "gpiolib: acpi: Prevent out-of-bounds pin access in OperationRegion handler",
-      "subsystem": "gpiolib",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "dece79032f529d2c9fdbf63a9f2fc32244722775",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/dece79032f529d2c9fdbf63a9f2fc32244722775",
-      "authoredAt": "2026-06-10T17:42:03.000+02:00",
-      "committedAt": "2026-06-17T08:14:30.000+02:00",
-      "authorName": "Marco Scardovi",
-      "committerName": "Bartosz Golaszewski",
-      "subject": "gpiolib: acpi: Add robust bounds-checking for GPIO pin resources",
-      "subsystem": "gpiolib",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "770031ec2312bfab307d05db5469f24fd297e758",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/770031ec2312bfab307d05db5469f24fd297e758",
-      "authoredAt": "2026-06-10T11:25:49.000-04:00",
-      "committedAt": "2026-06-16T10:18:40.000-07:00",
-      "authorName": "Rodrigo Vivi",
-      "committerName": "Matthew Brost",
-      "subject": "drm/xe: fix job timeout recovery for unstarted jobs and kernel queues",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "GitHub-Copilot:claude-sonnet-4.6",
-          "identity": "GitHub-Copilot:claude-sonnet-4.6",
-          "agent": "GitHub-Copilot",
-          "model": "claude-sonnet-4.6"
-        },
-        {
-          "raw": "GitHub-Copilot:claude-opus-4.8",
-          "identity": "GitHub-Copilot:claude-opus-4.8",
-          "agent": "GitHub-Copilot",
-          "model": "claude-opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "347ccc0453fca2c669e8dc8a72000e76ca4adf10",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/347ccc0453fca2c669e8dc8a72000e76ca4adf10",
-      "authoredAt": "2026-06-10T11:25:49.000-04:00",
-      "committedAt": "2026-06-11T06:39:43.000-07:00",
-      "authorName": "Rodrigo Vivi",
-      "committerName": "Matthew Brost",
-      "subject": "drm/xe: fix job timeout recovery for unstarted jobs and kernel queues",
-      "subsystem": "drm/xe",
-      "assistedBy": [
-        {
-          "raw": "GitHub-Copilot:claude-sonnet-4.6",
-          "identity": "GitHub-Copilot:claude-sonnet-4.6",
-          "agent": "GitHub-Copilot",
-          "model": "claude-sonnet-4.6"
-        },
-        {
-          "raw": "GitHub-Copilot:claude-opus-4.8",
-          "identity": "GitHub-Copilot:claude-opus-4.8",
-          "agent": "GitHub-Copilot",
-          "model": "claude-opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "6b3bbe770f4ca0439710b7c42f88b9f6eeebabd0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6b3bbe770f4ca0439710b7c42f88b9f6eeebabd0",
-      "authoredAt": "2026-06-10T17:21:30.000+02:00",
-      "committedAt": "2026-06-11T14:53:35.000+03:00",
-      "authorName": "Marco Scardovi",
-      "committerName": "Ilpo Järvinen",
-      "subject": "platform/x86: asus-armoury: add support for G614PR",
-      "subsystem": "platform/x86",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "a707e4127c0f893c7a7703500ab56297a5bd2d51",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a707e4127c0f893c7a7703500ab56297a5bd2d51",
-      "authoredAt": "2026-06-10T12:00:18.000-03:00",
-      "committedAt": "2026-07-06T10:06:40.000+02:00",
-      "authorName": "Rafael Beims",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mwifiex: fix roaming to different channel in host_mlme mode",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-7",
-          "identity": "Claude:claude-opus-4-7",
-          "agent": "Claude",
-          "model": "claude-opus-4-7"
-        }
-      ]
-    },
-    {
-      "sha": "2064bc663f89e61b8681c1fb9d1ce445de72063d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2064bc663f89e61b8681c1fb9d1ce445de72063d",
-      "authoredAt": "2026-06-10T19:57:25.000+08:00",
-      "committedAt": "2026-07-24T12:44:42.000+02:00",
-      "authorName": "Weiming Wu",
-      "committerName": "Konstantin Komarov",
-      "subject": "fs/ntfs3: fix out-of-bounds read of INDEX_ROOT in reparse/objid init",
-      "subsystem": "fs/ntfs3",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "ed0428e92812b5d4e9d5c4cbcab9a4f107137dfc",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ed0428e92812b5d4e9d5c4cbcab9a4f107137dfc",
-      "authoredAt": "2026-06-09T23:05:42.000-07:00",
-      "committedAt": "2026-06-11T13:52:09.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: ipaq-micro-keys - fix potential deadlock",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "54243797cedf55447b4c5d560e8cd709900061ae",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/54243797cedf55447b4c5d560e8cd709900061ae",
-      "authoredAt": "2026-06-10T00:37:18.000Z",
-      "committedAt": "2026-06-15T14:06:14.000+02:00",
-      "authorName": "Samuel Moelius",
-      "committerName": "Miklos Szeredi",
-      "subject": "fuse: avoid 32-bit prune notification count wrap",
-      "subsystem": "fuse",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5-cyber-preview",
-          "identity": "Codex:gpt-5.5-cyber-preview",
-          "agent": "Codex",
-          "model": "gpt-5.5-cyber-preview"
-        }
-      ]
-    },
-    {
-      "sha": "a84b6fedbc97078788be78dbdd7517d143ad1a77",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a84b6fedbc97078788be78dbdd7517d143ad1a77",
-      "authoredAt": "2026-06-09T15:55:02.000-07:00",
-      "committedAt": "2026-06-10T18:00:01.000+02:00",
-      "authorName": "Xiang Mei",
-      "committerName": "Pablo Neira Ayuso",
-      "subject": "netfilter: nf_log: validate MAC header was set before dumping it",
-      "subsystem": "netfilter",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "779575bc35c687697ba69e904f2cd22e60112534",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/779575bc35c687697ba69e904f2cd22e60112534",
-      "authoredAt": "2026-06-09T14:24:31.000-04:00",
-      "committedAt": "2026-06-10T07:43:15.000-07:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Keith Busch",
-      "subject": "nvmet-auth: reject short AUTH_RECEIVE buffers",
-      "subsystem": "nvmet-auth",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5-5-xhigh",
-          "identity": "Codex:gpt-5-5-xhigh",
-          "agent": "Codex",
-          "model": "gpt-5-5-xhigh"
-        },
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "d281fb9dfdaf30af4dfc68262b6b4997439a6aea",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d281fb9dfdaf30af4dfc68262b6b4997439a6aea",
-      "authoredAt": "2026-06-09T15:40:07.000+01:00",
-      "committedAt": "2026-06-10T18:55:48.000-03:00",
-      "authorName": "James Clark",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf test: Add workload-ctl option",
-      "subsystem": "perf test",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5.5",
-          "identity": "Codex:GPT-5.5",
-          "agent": "Codex",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "1d8aabb413b5638670dfd1162169edc0ba276a2e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1d8aabb413b5638670dfd1162169edc0ba276a2e",
-      "authoredAt": "2026-06-09T21:43:16.000+09:00",
-      "committedAt": "2026-06-11T20:44:45.000+01:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: tegra: tegra210_ahub: Validate written enum value",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
         }
       ]
     }
