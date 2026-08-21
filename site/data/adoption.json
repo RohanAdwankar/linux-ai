@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-21T19:38:25.219Z",
+  "generatedAt": "2026-08-21T20:42:04.523Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 973,
-    "totalSubsystems": 243,
+    "totalSubsystems": 246,
     "totalAuthors": 213,
     "totalAgents": 158
   },
@@ -10680,6 +10680,60 @@
       ]
     },
     {
+      "sha": "27c61f8565a438b2d1dea6f6a47af0e6dc12c112",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/27c61f8565a438b2d1dea6f6a47af0e6dc12c112",
+      "authoredAt": "2026-07-13T14:58:24.000-07:00",
+      "committedAt": "2026-07-17T12:46:24.000+02:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Thomas Bogendoerfer",
+      "subject": "MIPS: BCM47XX: Convert buttons to software nodes",
+      "subsystem": "mips",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "430efd697374891bbb289054580c29144cfc69f8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/430efd697374891bbb289054580c29144cfc69f8",
+      "authoredAt": "2026-07-13T14:58:23.000-07:00",
+      "committedAt": "2026-07-17T12:46:24.000+02:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Thomas Bogendoerfer",
+      "subject": "ssb: gpio: Add and register software node for GPIO controller",
+      "subsystem": "ssb",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "8595a9689182d16ae4f9e193d56ee5e7c3c3616d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8595a9689182d16ae4f9e193d56ee5e7c3c3616d",
+      "authoredAt": "2026-07-13T14:58:22.000-07:00",
+      "committedAt": "2026-07-17T12:46:24.000+02:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Thomas Bogendoerfer",
+      "subject": "bcma: gpio: Add and register software node for GPIO controller",
+      "subsystem": "bcma",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
       "sha": "3bbd05723d15dd06f0560bcd94fbf9a91b5f5613",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3bbd05723d15dd06f0560bcd94fbf9a91b5f5613",
       "authoredAt": "2026-07-13T23:32:51.000+02:00",
@@ -17630,60 +17684,6 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "7f08fc10fa3d3366dc3af723970bd03d7d6d10e3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7f08fc10fa3d3366dc3af723970bd03d7d6d10e3",
-      "authoredAt": "2026-06-24T23:13:12.000-05:00",
-      "committedAt": "2026-06-26T15:12:45.000+02:00",
-      "authorName": "Ian Bridges",
-      "committerName": "Helge Deller",
-      "subject": "fbdev: Fix fb_new_modelist to prevent null-ptr-deref in fb_videomode_to_var",
-      "subsystem": "fbdev",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "c22f91d82cb9a29d22bdffdce6c803467984ad0c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c22f91d82cb9a29d22bdffdce6c803467984ad0c",
-      "authoredAt": "2026-06-24T21:00:38.000-07:00",
-      "committedAt": "2026-08-18T10:35:39.000+02:00",
-      "authorName": "Weiming Shi",
-      "committerName": "Konstantin Komarov",
-      "subject": "fs/ntfs3: validate ef->size covers the record's name and value",
-      "subsystem": "fs/ntfs3",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "7cd9103283b26b917360ec99d7d2f2d761bcf1ab",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7cd9103283b26b917360ec99d7d2f2d761bcf1ab",
-      "authoredAt": "2026-06-24T18:00:06.000-07:00",
-      "committedAt": "2026-06-30T06:37:11.000+02:00",
-      "authorName": "Xiang Mei",
-      "committerName": "Florian Westphal",
-      "subject": "netfilter: ipset: fix race between dump and ip_set_list resize",
-      "subsystem": "netfilter",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
         }
       ]
     }
