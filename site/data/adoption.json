@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-23T18:48:52.027Z",
+  "generatedAt": "2026-08-23T19:36:42.661Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 982,
-    "totalSubsystems": 270,
-    "totalAuthors": 206,
+    "totalSubsystems": 272,
+    "totalAuthors": 207,
     "totalAgents": 153
   },
   "commits": [
@@ -224,6 +224,24 @@
           "identity": "Codex:gpt-5",
           "agent": "Codex",
           "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "101782f8945a125044347312d74d488c05741c4a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/101782f8945a125044347312d74d488c05741c4a",
+      "authoredAt": "2026-08-12T22:30:36.000+02:00",
+      "committedAt": "2026-08-13T16:56:45.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Vasily Gorbik",
+      "subject": "s390/percpu: Fix MVIY_PERCPU() with older binutils",
+      "subsystem": "s390/percpu",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -518,6 +536,24 @@
           "identity": "Jetski:Gemini-3.1-Pro",
           "agent": "Jetski",
           "model": "Gemini-3.1-Pro"
+        }
+      ]
+    },
+    {
+      "sha": "337bd95507a16063687cfc286ea90de5cca48c37",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/337bd95507a16063687cfc286ea90de5cca48c37",
+      "authoredAt": "2026-08-11T15:39:01.000+02:00",
+      "committedAt": "2026-08-13T16:56:45.000+02:00",
+      "authorName": "Thomas Richter",
+      "committerName": "Vasily Gorbik",
+      "subject": "s390/cpum_cf: Handle CPU hotplug via prepare/dead callbacks",
+      "subsystem": "s390/cpum_cf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-5",
+          "identity": "Claude:claude-sonnet-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-5"
         }
       ]
     },
@@ -17840,42 +17876,6 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "eb94f5a41a193a425e09a63cb75dffd151d8f42e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/eb94f5a41a193a425e09a63cb75dffd151d8f42e",
-      "authoredAt": "2026-06-30T11:08:56.000+08:00",
-      "committedAt": "2026-06-30T23:22:34.000+09:00",
-      "authorName": "Peiyang He",
-      "committerName": "Namjae Jeon",
-      "subject": "ntfs: fix mrec_lock ABBA deadlock in rename",
-      "subsystem": "ntfs",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "b8ea7da314c2efcb9c2f559ed65b7a36c869d68e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b8ea7da314c2efcb9c2f559ed65b7a36c869d68e",
-      "authoredAt": "2026-06-29T18:51:37.000-07:00",
-      "committedAt": "2026-07-02T11:48:25.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Paolo Abeni",
-      "subject": "net: dsa: qca8k: fall back to ethernet-ports node name for LEDs",
-      "subsystem": "net",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
         }
       ]
     }
