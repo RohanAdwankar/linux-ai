@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:56:45.473Z",
+  "generatedAt": "2026-08-24T16:56:27.777Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,10 +7,28 @@
   "stats": {
     "totalCommits": 982,
     "totalSubsystems": 272,
-    "totalAuthors": 207,
+    "totalAuthors": 209,
     "totalAgents": 153
   },
   "commits": [
+    {
+      "sha": "777979e627115734052b323d2721cdb500e81dcf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/777979e627115734052b323d2721cdb500e81dcf",
+      "authoredAt": "2026-08-15T23:17:20.000+08:00",
+      "committedAt": "2026-08-19T21:55:53.000+02:00",
+      "authorName": "Ruoyu Wang",
+      "committerName": "Andi Shyti",
+      "subject": "i2c: mxs: fix DMA channel leak on probe error",
+      "subsystem": "i2c",
+      "assistedBy": [
+        {
+          "raw": "unnamed:claude-opus-4.8 typestate",
+          "identity": "unnamed:claude-opus-4.8 typestate",
+          "agent": "unnamed",
+          "model": "claude-opus-4.8 typestate"
+        }
+      ]
+    },
     {
       "sha": "f5b57e9e9cfd9736246eb9a5f385da451d199039",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f5b57e9e9cfd9736246eb9a5f385da451d199039",
@@ -2946,6 +2964,42 @@
       ]
     },
     {
+      "sha": "35ff52e54b38b01914be62ece27899665a46af56",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/35ff52e54b38b01914be62ece27899665a46af56",
+      "authoredAt": "2026-08-03T08:10:24.000-06:00",
+      "committedAt": "2026-08-07T00:11:05.000+02:00",
+      "authorName": "Simon Glass",
+      "committerName": "Linus Walleij",
+      "subject": "pinctrl: rockchip: Restrict the RV1103B 2-bit drive type to bank 2",
+      "subsystem": "pinctrl",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "5b695c191cc85f0fd62eec885b55d01468dc9f2c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5b695c191cc85f0fd62eec885b55d01468dc9f2c",
+      "authoredAt": "2026-08-03T08:10:23.000-06:00",
+      "committedAt": "2026-08-07T00:11:05.000+02:00",
+      "authorName": "Simon Glass",
+      "committerName": "Linus Walleij",
+      "subject": "pinctrl: rockchip: Reset the pin count when recalculating SoC data",
+      "subsystem": "pinctrl",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
       "sha": "066976b7dbc7e2022efa0244457d804163bc1ee8",
       "htmlUrl": "https://github.com/torvalds/linux/commit/066976b7dbc7e2022efa0244457d804163bc1ee8",
       "authoredAt": "2026-08-03T14:09:13.000Z",
@@ -3776,6 +3830,24 @@
       "committerName": "Bartosz Golaszewski",
       "subject": "gpio: Use IRQ trigger mask helpers",
       "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-5",
+          "identity": "Claude:claude-sonnet-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "aef612f013de95bfe01b9b4c3a3231c4327cd3ab",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/aef612f013de95bfe01b9b4c3a3231c4327cd3ab",
+      "authoredAt": "2026-08-02T19:35:43.000+05:30",
+      "committedAt": "2026-08-06T23:40:54.000+02:00",
+      "authorName": "Maulik Shah",
+      "committerName": "Linus Walleij",
+      "subject": "pinctrl: Use IRQ trigger mask helpers",
+      "subsystem": "pinctrl",
       "assistedBy": [
         {
           "raw": "Claude:claude-sonnet-5",
@@ -17798,84 +17870,6 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "2889e84282dda147f10b10d94cf0efd90a349c53",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2889e84282dda147f10b10d94cf0efd90a349c53",
-      "authoredAt": "2026-06-30T17:02:18.000+08:00",
-      "committedAt": "2026-07-31T12:25:38.000Z",
-      "authorName": "Wentao Guan",
-      "committerName": "Felix Fietkau",
-      "subject": "wifi: mt76: mt7925: cancel pending mlo_pm_work",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "kimi-cli:kimi-k2.7 code",
-          "identity": "kimi-cli:kimi-k2.7 code",
-          "agent": "kimi-cli",
-          "model": "kimi-k2.7 code"
-        },
-        {
-          "raw": "atomcode:glm-5.2 #Reported-by",
-          "identity": "atomcode:glm-5.2 #Reported-by",
-          "agent": "atomcode",
-          "model": "glm-5.2 #Reported-by"
-        }
-      ]
-    },
-    {
-      "sha": "fe938ee497d58c644f6910cfe6ae155f6fb3e523",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fe938ee497d58c644f6910cfe6ae155f6fb3e523",
-      "authoredAt": "2026-06-29T22:49:15.000-07:00",
-      "committedAt": "2026-07-02T22:49:02.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: maplecontrol - set driver data before registering input device",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "738f24bbbc95dd50cb4229d1ed62a05f29db2bda",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/738f24bbbc95dd50cb4229d1ed62a05f29db2bda",
-      "authoredAt": "2026-06-29T22:47:34.000-07:00",
-      "committedAt": "2026-07-02T22:48:57.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: maplemouse - set driver data before registering input device",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "03f384bc0cb8d4a1301d4f5b0baef2d980258383",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/03f384bc0cb8d4a1301d4f5b0baef2d980258383",
-      "authoredAt": "2026-06-29T21:51:21.000-07:00",
-      "committedAt": "2026-07-03T08:23:23.000+02:00",
-      "authorName": "Xiang Mei",
-      "committerName": "Paolo Abeni",
-      "subject": "net: usb: net1080: validate packet_len before pad-byte access in rx_fixup",
-      "subsystem": "net",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
         }
       ]
     }
