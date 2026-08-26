@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-08-26T17:00:01.627Z",
+  "generatedAt": "2026-08-26T23:36:29.358Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 988,
-    "totalSubsystems": 258,
-    "totalAuthors": 219,
-    "totalAgents": 153
+    "totalCommits": 987,
+    "totalSubsystems": 260,
+    "totalAuthors": 220,
+    "totalAgents": 150
   },
   "commits": [
+    {
+      "sha": "8fa4804fe62ca4155a2d8fc2789d630376cbf2fc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8fa4804fe62ca4155a2d8fc2789d630376cbf2fc",
+      "authoredAt": "2026-08-20T20:53:29.000Z",
+      "committedAt": "2026-08-20T14:51:53.000-07:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Trond Myklebust",
+      "subject": "NFSv4.1: zero referring call lists before decoding",
+      "subsystem": "nfsv4.1",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
     {
       "sha": "81684340963da2e898eabb8c1e274433d9375bc6",
       "htmlUrl": "https://github.com/torvalds/linux/commit/81684340963da2e898eabb8c1e274433d9375bc6",
@@ -62,6 +80,60 @@
           "identity": "Claude:claude-sonnet-5",
           "agent": "Claude",
           "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "ee5a386cfe60f3f8286de16a9db8e1a08f0bc124",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ee5a386cfe60f3f8286de16a9db8e1a08f0bc124",
+      "authoredAt": "2026-08-16T16:01:29.000+08:00",
+      "committedAt": "2026-08-20T15:18:20.000-07:00",
+      "authorName": "Junrui Luo",
+      "committerName": "Trond Myklebust",
+      "subject": "NFSv4.1: fix layout segment leak on the pnfs_layout_process() forget path",
+      "subsystem": "nfsv4.1",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "13c23c5cb977f66390795437fd3837887ce1fd75",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/13c23c5cb977f66390795437fd3837887ce1fd75",
+      "authoredAt": "2026-08-16T16:01:28.000+08:00",
+      "committedAt": "2026-08-20T15:18:20.000-07:00",
+      "authorName": "Junrui Luo",
+      "committerName": "Trond Myklebust",
+      "subject": "NFSv4/pnfs: key the data server cache on the NFS version",
+      "subsystem": "nfsv4/pnfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "c75ef2137e749f2673f0617cfdaae53b2bb7195a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c75ef2137e749f2673f0617cfdaae53b2bb7195a",
+      "authoredAt": "2026-08-16T16:01:27.000+08:00",
+      "committedAt": "2026-08-20T15:18:20.000-07:00",
+      "authorName": "Junrui Luo",
+      "committerName": "Trond Myklebust",
+      "subject": "NFSv4.2: fix LAYOUTSTATS send buffer exhaustion",
+      "subsystem": "nfsv4.2",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -1296,6 +1368,24 @@
       ]
     },
     {
+      "sha": "a89dd597458848b463d284b15e42a8078beeb046",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a89dd597458848b463d284b15e42a8078beeb046",
+      "authoredAt": "2026-08-09T17:07:48.000Z",
+      "committedAt": "2026-08-17T09:02:08.000-07:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Trond Myklebust",
+      "subject": "SUNRPC: wait for in-flight client TLS handshake callback",
+      "subsystem": "sunrpc",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
       "sha": "785a490556b549493a6a25409f16026ce0959b02",
       "htmlUrl": "https://github.com/torvalds/linux/commit/785a490556b549493a6a25409f16026ce0959b02",
       "authoredAt": "2026-08-09T22:29:28.000+08:00",
@@ -2474,6 +2564,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "fbedf6d92e544648a48c054bfc6d494a4866ec14",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fbedf6d92e544648a48c054bfc6d494a4866ec14",
+      "authoredAt": "2026-08-04T12:02:24.000-07:00",
+      "committedAt": "2026-08-10T22:49:43.000-07:00",
+      "authorName": "John Johansen",
+      "committerName": "John Johansen",
+      "subject": "apparmor: constify aa_label parameters on read-only query helpers",
+      "subsystem": "apparmor",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
         }
       ]
     },
@@ -3836,6 +3944,24 @@
           "identity": "Claude:opus-4-8",
           "agent": "Claude",
           "model": "opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "3cf908dd13968e099163ed0db236443b7bdec835",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3cf908dd13968e099163ed0db236443b7bdec835",
+      "authoredAt": "2026-08-03T06:31:26.000Z",
+      "committedAt": "2026-08-17T09:28:13.000-07:00",
+      "authorName": "Babanpreet Singh",
+      "committerName": "Stephen Boyd",
+      "subject": "clk: zynq: pll: Fix kernel-doc after determine_rate() conversion",
+      "subsystem": "clk",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5 [kernel-doc]",
+          "identity": "Claude:claude-opus-5 [kernel-doc]",
+          "agent": "Claude",
+          "model": "claude-opus-5 [kernel-doc]"
         }
       ]
     },
@@ -5856,6 +5982,24 @@
       ]
     },
     {
+      "sha": "08066bcdeed037a99c47f7c8456cf30ee3055048",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/08066bcdeed037a99c47f7c8456cf30ee3055048",
+      "authoredAt": "2026-07-28T14:50:38.000-07:00",
+      "committedAt": "2026-08-10T22:49:43.000-07:00",
+      "authorName": "John Johansen",
+      "committerName": "John Johansen",
+      "subject": "apparmor: constify aa_profile parameters on read-only compute paths",
+      "subsystem": "apparmor",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "6eac877e0ea53b82fe726ba80bb1a349bd0b592b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/6eac877e0ea53b82fe726ba80bb1a349bd0b592b",
       "authoredAt": "2026-07-28T14:27:59.000-07:00",
@@ -5870,6 +6014,24 @@
           "identity": "Opencode:Big-Pickle",
           "agent": "Opencode",
           "model": "Big-Pickle"
+        }
+      ]
+    },
+    {
+      "sha": "e3bc982007fe5e704c6a7f5a189502ece056f68d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e3bc982007fe5e704c6a7f5a189502ece056f68d",
+      "authoredAt": "2026-07-28T13:57:10.000-07:00",
+      "committedAt": "2026-08-10T22:49:42.000-07:00",
+      "authorName": "John Johansen",
+      "committerName": "John Johansen",
+      "subject": "apparmor: constify aa_perms parameters that are read-only",
+      "subsystem": "apparmor",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.8",
+          "identity": "Claude:claude-opus-4.8",
+          "agent": "Claude",
+          "model": "claude-opus-4.8"
         }
       ]
     },
@@ -6422,6 +6584,60 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "b4dd7f81592287c9b4070e6669732d8770269303",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b4dd7f81592287c9b4070e6669732d8770269303",
+      "authoredAt": "2026-07-27T17:09:40.000-04:00",
+      "committedAt": "2026-08-17T09:02:07.000-07:00",
+      "authorName": "Mike Snitzer",
+      "committerName": "Trond Myklebust",
+      "subject": "nfs4.2: open UNCACHEABLE_FILE_DATA files with O_DIRECT",
+      "subsystem": "nfs4.2",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "6f36ce30983e2b7865cd1eaf3618fb65a0a78c37",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6f36ce30983e2b7865cd1eaf3618fb65a0a78c37",
+      "authoredAt": "2026-07-27T17:09:39.000-04:00",
+      "committedAt": "2026-08-17T09:02:07.000-07:00",
+      "authorName": "Mike Snitzer",
+      "committerName": "Trond Myklebust",
+      "subject": "nfs4.2: request UNCACHEABLE_FILE_DATA only for regular files",
+      "subsystem": "nfs4.2",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "86ff1842795b3e51f526460b1d701d48fdee49b8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/86ff1842795b3e51f526460b1d701d48fdee49b8",
+      "authoredAt": "2026-07-27T17:09:38.000-04:00",
+      "committedAt": "2026-08-17T09:02:07.000-07:00",
+      "authorName": "Tom Haynes",
+      "committerName": "Trond Myklebust",
+      "subject": "nfs4.2: add UNCACHEABLE_FILE_DATA attribute support",
+      "subsystem": "nfs4.2",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -10022,6 +10238,42 @@
           "identity": "opencode:hy3-free",
           "agent": "opencode",
           "model": "hy3-free"
+        }
+      ]
+    },
+    {
+      "sha": "3194c0f961a4d198e28d055b0be3f597b85012c9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3194c0f961a4d198e28d055b0be3f597b85012c9",
+      "authoredAt": "2026-07-19T14:54:56.000-07:00",
+      "committedAt": "2026-07-28T11:25:29.000-04:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Brian Masney",
+      "subject": "clk: hisilicon: hi3660-stub: use devm_platform_ioremap_resource",
+      "subsystem": "clk",
+      "assistedBy": [
+        {
+          "raw": "opencode:hy3-free",
+          "identity": "opencode:hy3-free",
+          "agent": "opencode",
+          "model": "hy3-free"
+        }
+      ]
+    },
+    {
+      "sha": "745dfe874d5b9136090af69eba3f61170ceaa168",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/745dfe874d5b9136090af69eba3f61170ceaa168",
+      "authoredAt": "2026-07-19T14:50:40.000-07:00",
+      "committedAt": "2026-07-28T11:25:29.000-04:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Brian Masney",
+      "subject": "clk: stm32: allow STM32MP COMPILE_TEST builds",
+      "subsystem": "clk",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
         }
       ]
     },
@@ -16740,6 +16992,24 @@
       ]
     },
     {
+      "sha": "8cb1ce7aa0e8ac30e55f5bccfb80125f2e43e84a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8cb1ce7aa0e8ac30e55f5bccfb80125f2e43e84a",
+      "authoredAt": "2026-07-07T21:36:23.000+08:00",
+      "committedAt": "2026-08-17T09:02:08.000-07:00",
+      "authorName": "Jia Zhu",
+      "committerName": "Trond Myklebust",
+      "subject": "NFSv4: pin the superblock for active state owners",
+      "subsystem": "nfsv4",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5",
+          "identity": "Codex:GPT-5",
+          "agent": "Codex",
+          "model": "GPT-5"
+        }
+      ]
+    },
+    {
       "sha": "b06163ce52ec0561f202fbfb9b08090cb61f512e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b06163ce52ec0561f202fbfb9b08090cb61f512e",
       "authoredAt": "2026-07-07T19:00:14.000+08:00",
@@ -16862,6 +17132,24 @@
           "identity": "Claude:claude-sonnet-5",
           "agent": "Claude",
           "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "932a8cf6abb2b2f8677b79153a823108d8861fe2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/932a8cf6abb2b2f8677b79153a823108d8861fe2",
+      "authoredAt": "2026-07-07T13:20:47.000+08:00",
+      "committedAt": "2026-08-17T09:02:08.000-07:00",
+      "authorName": "Luxiao Xu",
+      "committerName": "Trond Myklebust",
+      "subject": "sunrpc: fix use-after-free in __rpc_clnt_handle_event and __rpc_clnt_remove_pipedir",
+      "subsystem": "sunrpc",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.4",
+          "identity": "Codex:gpt-5.4",
+          "agent": "Codex",
+          "model": "gpt-5.4"
         }
       ]
     },
@@ -17256,6 +17544,24 @@
       ]
     },
     {
+      "sha": "b2ee00d0bf4cca5dd02702fc339d2b523191966f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b2ee00d0bf4cca5dd02702fc339d2b523191966f",
+      "authoredAt": "2026-07-06T17:56:19.000-07:00",
+      "committedAt": "2026-07-14T21:42:01.000-07:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Drew Fustini",
+      "subject": "clk: thead: allow COMPILE_TEST builds",
+      "subsystem": "clk",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5.5",
+          "identity": "Codex:GPT-5.5",
+          "agent": "Codex",
+          "model": "GPT-5.5"
+        }
+      ]
+    },
+    {
       "sha": "430c502c80e542e77bcf97db13ec0e8cdf9addb0",
       "htmlUrl": "https://github.com/torvalds/linux/commit/430c502c80e542e77bcf97db13ec0e8cdf9addb0",
       "authoredAt": "2026-07-06T15:43:22.000-07:00",
@@ -17324,6 +17630,60 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "3e05a62a97b15dfaf9b14875d68084003828fb74",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3e05a62a97b15dfaf9b14875d68084003828fb74",
+      "authoredAt": "2026-07-06T12:05:49.000-04:00",
+      "committedAt": "2026-08-17T09:02:08.000-07:00",
+      "authorName": "Mike Snitzer",
+      "committerName": "Trond Myklebust",
+      "subject": "NFS/localio: issue commit inline when not in a memory-reclaim context",
+      "subsystem": "nfs/localio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "b10c63dcf27a8dcb5468f2b4a360d07fe93029a0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b10c63dcf27a8dcb5468f2b4a360d07fe93029a0",
+      "authoredAt": "2026-07-06T12:05:48.000-04:00",
+      "committedAt": "2026-08-17T09:02:07.000-07:00",
+      "authorName": "Mike Snitzer",
+      "committerName": "Trond Myklebust",
+      "subject": "NFS/localio: remove dead FLUSH_SYNC handling from nfs_local_commit",
+      "subsystem": "nfs/localio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "da729ddd4a1bc7c9f119bf7dfcc2c173b887cafa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/da729ddd4a1bc7c9f119bf7dfcc2c173b887cafa",
+      "authoredAt": "2026-07-06T12:05:47.000-04:00",
+      "committedAt": "2026-08-17T09:02:07.000-07:00",
+      "authorName": "Mike Snitzer",
+      "committerName": "Trond Myklebust",
+      "subject": "NFS/localio: issue IO inline when not in a memory-reclaim context",
+      "subsystem": "nfs/localio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -17594,384 +17954,6 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "16aecbe3036f6097c26b51b12e4c1cf207769690",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/16aecbe3036f6097c26b51b12e4c1cf207769690",
-      "authoredAt": "2026-07-06T14:30:55.000+02:00",
-      "committedAt": "2026-07-24T11:22:22.000+02:00",
-      "authorName": "Florian Westphal",
-      "committerName": "Pablo Neira Ayuso",
-      "subject": "netfilter: nf_nat_sip: rewind offset when NAT shrinks the packet",
-      "subsystem": "netfilter",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "2f75c0faa3361b28e36cc0512b3299e163e25789",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2f75c0faa3361b28e36cc0512b3299e163e25789",
-      "authoredAt": "2026-07-06T18:16:24.000+08:00",
-      "committedAt": "2026-07-08T15:33:44.000+02:00",
-      "authorName": "Yizhou Zhao",
-      "committerName": "Florian Westphal",
-      "subject": "ipvs: use parsed transport offset in SCTP state lookup",
-      "subsystem": "ipvs",
-      "assistedBy": [
-        {
-          "raw": "Claude Code:GLM-5.2",
-          "identity": "Claude Code:GLM-5.2",
-          "agent": "Claude Code",
-          "model": "GLM-5.2"
-        }
-      ]
-    },
-    {
-      "sha": "2500fa3958b1ba51c2b065e39db1b04dfa7e23a2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2500fa3958b1ba51c2b065e39db1b04dfa7e23a2",
-      "authoredAt": "2026-07-06T18:16:23.000+08:00",
-      "committedAt": "2026-07-08T15:33:44.000+02:00",
-      "authorName": "Yizhou Zhao",
-      "committerName": "Florian Westphal",
-      "subject": "ipvs: use parsed transport offset in TCP state lookup",
-      "subsystem": "ipvs",
-      "assistedBy": [
-        {
-          "raw": "Claude Code:GLM-5.2",
-          "identity": "Claude Code:GLM-5.2",
-          "agent": "Claude Code",
-          "model": "GLM-5.2"
-        }
-      ]
-    },
-    {
-      "sha": "3f1f755366687d051174739fb99f7d560202f60b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3f1f755366687d051174739fb99f7d560202f60b",
-      "authoredAt": "2026-07-06T09:44:10.000Z",
-      "committedAt": "2026-07-11T13:09:11.000+02:00",
-      "authorName": "Asim Viladi Oglu Manizada",
-      "committerName": "Paolo Abeni",
-      "subject": "net: openvswitch: reject oversized nested action attrs",
-      "subsystem": "net",
-      "assistedBy": [
-        {
-          "raw": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
-          "identity": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
-          "agent": "avom-custom-harness",
-          "model": "gpt-5.5-qwen3.6-mod-mix"
-        }
-      ]
-    },
-    {
-      "sha": "ec4215683e47424c9c4762fd3c60f552a3119142",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ec4215683e47424c9c4762fd3c60f552a3119142",
-      "authoredAt": "2026-07-06T11:01:59.000+02:00",
-      "committedAt": "2026-07-10T13:31:47.000+02:00",
-      "authorName": "Norbert Szetei",
-      "committerName": "Paolo Abeni",
-      "subject": "ppp: defer channel free to an RCU grace period to fix pppol2tp RX UAF",
-      "subsystem": "ppp",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "c3b8ee84a965058b41275069d4696f37a8b14bf6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c3b8ee84a965058b41275069d4696f37a8b14bf6",
-      "authoredAt": "2026-07-05T22:36:11.000-07:00",
-      "committedAt": "2026-07-14T10:51:57.000-03:00",
-      "authorName": "Nicolin Chen",
-      "committerName": "Jason Gunthorpe",
-      "subject": "iommu/arm-smmu-v3-iommufd: Require exactly one Stream ID for a vDEVICE",
-      "subsystem": "iommu/arm-smmu-v3-iommufd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "9be311cfbe6154da146a7408e0d5e518a9321ed3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9be311cfbe6154da146a7408e0d5e518a9321ed3",
-      "authoredAt": "2026-07-05T22:36:10.000-07:00",
-      "committedAt": "2026-07-14T10:51:57.000-03:00",
-      "authorName": "Nicolin Chen",
-      "committerName": "Jason Gunthorpe",
-      "subject": "iommufd/viommu: Publish a vDEVICE only after vdevice_init() succeeds",
-      "subsystem": "iommufd/viommu",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "339bd11591593ab7ce88136ab7fd01ef3813b724",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/339bd11591593ab7ce88136ab7fd01ef3813b724",
-      "authoredAt": "2026-07-05T22:36:09.000-07:00",
-      "committedAt": "2026-07-14T10:51:56.000-03:00",
-      "authorName": "Nicolin Chen",
-      "committerName": "Jason Gunthorpe",
-      "subject": "iommufd/viommu: Release the igroup lock on the vdevice_size error path",
-      "subsystem": "iommufd/viommu",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "0ebe8f625ab0520217a425d7cd366e4670484941",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0ebe8f625ab0520217a425d7cd366e4670484941",
-      "authoredAt": "2026-07-06T12:00:15.000+08:00",
-      "committedAt": "2026-07-06T20:27:18.000+09:00",
-      "authorName": "Peiyang He",
-      "committerName": "Namjae Jeon",
-      "subject": "ntfs: fail attrlist updates when the superblock is inactive",
-      "subsystem": "ntfs",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "3b08fed5b7e0d5e3a25d73ef3ba09cd33ade16c9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3b08fed5b7e0d5e3a25d73ef3ba09cd33ade16c9",
-      "authoredAt": "2026-07-05T16:36:29.000-07:00",
-      "committedAt": "2026-07-08T15:22:03.000+02:00",
-      "authorName": "Xiang Mei",
-      "committerName": "Florian Westphal",
-      "subject": "netfilter: nf_conntrack_reasm: guard mac_header adjustment after IPv6 defrag",
-      "subsystem": "netfilter",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "a622d2e9608c9dff47fc2e5759ac7aa3a836b45d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a622d2e9608c9dff47fc2e5759ac7aa3a836b45d",
-      "authoredAt": "2026-07-05T14:58:00.000-07:00",
-      "committedAt": "2026-07-08T15:22:03.000+02:00",
-      "authorName": "Xiang Mei",
-      "committerName": "Florian Westphal",
-      "subject": "netfilter: ebtables: terminate table name before find_table_lock()",
-      "subsystem": "netfilter",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "342d6e14165eebac7279b7ea3a3d34a7224cc6f0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/342d6e14165eebac7279b7ea3a3d34a7224cc6f0",
-      "authoredAt": "2026-07-05T15:19:19.000-03:00",
-      "committedAt": "2026-07-24T21:30:28.000+02:00",
-      "authorName": "Brian Mayer",
-      "committerName": "Heiko Stuebner",
-      "subject": "arm64: dts: rockchip: add HYM8563 RTC to Radxa CM5 IO board",
-      "subsystem": "arm64",
-      "assistedBy": [
-        {
-          "raw": "Grok:grok-build",
-          "identity": "Grok:grok-build",
-          "agent": "Grok",
-          "model": "grok-build"
-        }
-      ]
-    },
-    {
-      "sha": "47c81dadb704cdf07bb8f9f43b4fbe758a351e08",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/47c81dadb704cdf07bb8f9f43b4fbe758a351e08",
-      "authoredAt": "2026-07-05T02:25:13.000-04:00",
-      "committedAt": "2026-07-09T15:48:56.000-07:00",
-      "authorName": "Michael S. Tsirkin",
-      "committerName": "Andrew Morton",
-      "subject": "mm: page_reporting: allow driver to set batch capacity",
-      "subsystem": "mm",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "281eb4732aae5473141b84e106fe906c69b2ff3d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/281eb4732aae5473141b84e106fe906c69b2ff3d",
-      "authoredAt": "2026-07-05T02:24:18.000-04:00",
-      "committedAt": "2026-08-19T06:38:43.000-04:00",
-      "authorName": "Michael S. Tsirkin",
-      "committerName": "Michael S. Tsirkin",
-      "subject": "virtio_balloon: disable indirect descriptors",
-      "subsystem": "virtio_balloon",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "d128ffd2baa708da0362b562f0b7f9df96e43653",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d128ffd2baa708da0362b562f0b7f9df96e43653",
-      "authoredAt": "2026-07-05T12:23:58.000+08:00",
-      "committedAt": "2026-07-08T14:54:04.000+02:00",
-      "authorName": "Cen Zhang",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: tie zoned sysfs lifetime to zone info",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "2cf82b46d5e43be0dfbaac7fa1073cec2fc1f5e6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2cf82b46d5e43be0dfbaac7fa1073cec2fc1f5e6",
-      "authoredAt": "2026-07-05T10:53:11.000+08:00",
-      "committedAt": "2026-08-03T21:10:11.000-07:00",
-      "authorName": "Cen Zhang",
-      "committerName": "Andrew Morton",
-      "subject": "ocfs2: validate external xattr entries when reading metadata",
-      "subsystem": "ocfs2",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "8914a3330b72378136c2c02d6328a826f6abdad7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8914a3330b72378136c2c02d6328a826f6abdad7",
-      "authoredAt": "2026-07-05T10:53:10.000+08:00",
-      "committedAt": "2026-08-03T21:10:10.000-07:00",
-      "authorName": "Cen Zhang",
-      "committerName": "Andrew Morton",
-      "subject": "ocfs2: validate inline xattrs during inode block validation",
-      "subsystem": "ocfs2",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "dc77acfeb979dded39b247b60fef0399536bfa77",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/dc77acfeb979dded39b247b60fef0399536bfa77",
-      "authoredAt": "2026-07-04T18:40:10.000-07:00",
-      "committedAt": "2026-07-17T08:39:36.000-06:00",
-      "authorName": "Xiang Mei",
-      "committerName": "Alex Williamson",
-      "subject": "vfio/pci: clear vdev->msi_perm after freeing it on init failure",
-      "subsystem": "vfio/pci",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "c90164ca0f7036942ba088eb7ea8d3f6c2352020",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c90164ca0f7036942ba088eb7ea8d3f6c2352020",
-      "authoredAt": "2026-07-04T16:10:30.000-07:00",
-      "committedAt": "2026-07-13T10:02:57.000-04:00",
-      "authorName": "Xiang Mei",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: qca: fix NVM tag length underflow in TLV parser",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "06b6f1245567a4be862c3e1cc74577922ceb05fb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/06b6f1245567a4be862c3e1cc74577922ceb05fb",
-      "authoredAt": "2026-07-04T21:28:57.000+02:00",
-      "committedAt": "2026-07-14T12:21:07.000+01:00",
-      "authorName": "Jorijn van der Graaf",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: codecs: aw88261: only check PLL and clock state at power-up",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "f2f152e94a67bc746afaf05a1b2702c195553112",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f2f152e94a67bc746afaf05a1b2702c195553112",
-      "authoredAt": "2026-07-04T10:14:21.000-07:00",
-      "committedAt": "2026-07-10T16:00:41.000+02:00",
-      "authorName": "Weiming Shi",
-      "committerName": "Paolo Abeni",
-      "subject": "ipv4: fib: free fib_alias with kfree_rcu() on insert error path",
-      "subsystem": "ipv4",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
         }
       ]
     }
