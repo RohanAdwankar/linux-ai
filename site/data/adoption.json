@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-08-27T09:52:22.399Z",
+  "generatedAt": "2026-08-27T20:32:34.609Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 987,
-    "totalSubsystems": 260,
-    "totalAuthors": 220,
-    "totalAgents": 150
+    "totalCommits": 986,
+    "totalSubsystems": 268,
+    "totalAuthors": 226,
+    "totalAgents": 154
   },
   "commits": [
+    {
+      "sha": "1476cca098f6d3a553fcec6fe9b7d86e15c00b59",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1476cca098f6d3a553fcec6fe9b7d86e15c00b59",
+      "authoredAt": "2026-08-21T22:42:52.000Z",
+      "committedAt": "2026-08-24T15:40:07.000+02:00",
+      "authorName": "Alexander Graf",
+      "committerName": "Marek Szyprowski",
+      "subject": "dma-contiguous: fix truncation of numa_cma / cma_pernuma sizes >= 2G",
+      "subsystem": "dma-contiguous",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-5",
+          "identity": "Kiro:claude-opus-5",
+          "agent": "Kiro",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
     {
       "sha": "8fa4804fe62ca4155a2d8fc2789d630376cbf2fc",
       "htmlUrl": "https://github.com/torvalds/linux/commit/8fa4804fe62ca4155a2d8fc2789d630376cbf2fc",
@@ -516,6 +534,24 @@
       ]
     },
     {
+      "sha": "0d0878fd7c9b49b8eff95c4426a2121c5f8f31cc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0d0878fd7c9b49b8eff95c4426a2121c5f8f31cc",
+      "authoredAt": "2026-08-12T17:28:56.000+08:00",
+      "committedAt": "2026-08-24T18:43:24.000-07:00",
+      "authorName": "Qiang Liu",
+      "committerName": "Andrew Morton",
+      "subject": "lib/test_hmm: fix garbage pfn and wrong direction in devmem fault debug",
+      "subsystem": "lib/test_hmm",
+      "assistedBy": [
+        {
+          "raw": "Qoder:Qwen-3.8-MAX-Preview",
+          "identity": "Qoder:Qwen-3.8-MAX-Preview",
+          "agent": "Qoder",
+          "model": "Qwen-3.8-MAX-Preview"
+        }
+      ]
+    },
+    {
       "sha": "0c09d1ad81ed55b02f64f4dd2e2e7c83161e5740",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0c09d1ad81ed55b02f64f4dd2e2e7c83161e5740",
       "authoredAt": "2026-08-12T14:11:16.000+08:00",
@@ -770,6 +806,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "cc044178edc9d7b5cd291ef0e2daf060379e6447",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cc044178edc9d7b5cd291ef0e2daf060379e6447",
+      "authoredAt": "2026-08-11T06:48:36.000-06:00",
+      "committedAt": "2026-08-24T18:43:22.000-07:00",
+      "authorName": "Nico Pache (Red Hat)",
+      "committerName": "Andrew Morton",
+      "subject": "mm/khugepaged: fix outdated comments",
+      "subsystem": "mm/khugepaged",
+      "assistedBy": [
+        {
+          "raw": "Cursor(claude-sonnet-4):4.6",
+          "identity": "Cursor(claude-sonnet-4):4.6",
+          "agent": "Cursor(claude-sonnet-4)",
+          "model": "4.6"
         }
       ]
     },
@@ -1404,6 +1458,24 @@
       ]
     },
     {
+      "sha": "f7bf5cd5b5f2b13fe2361860880c4e214c08b440",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f7bf5cd5b5f2b13fe2361860880c4e214c08b440",
+      "authoredAt": "2026-08-09T19:55:18.000+08:00",
+      "committedAt": "2026-08-24T18:43:19.000-07:00",
+      "authorName": "Longlong Xia",
+      "committerName": "Andrew Morton",
+      "subject": "zsmalloc: account for handle size in class lookup",
+      "subsystem": "zsmalloc",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
       "sha": "b48466e4be18822d58a62ae619ffb062220ad572",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b48466e4be18822d58a62ae619ffb062220ad572",
       "authoredAt": "2026-08-09T10:15:09.000Z",
@@ -1580,6 +1652,24 @@
           "identity": "Claude-Code:claude-fable-5",
           "agent": "Claude-Code",
           "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
+      "sha": "0685630fdccb62dcb0e3f44525a40578da5f6dc8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0685630fdccb62dcb0e3f44525a40578da5f6dc8",
+      "authoredAt": "2026-08-08T22:03:12.000+02:00",
+      "committedAt": "2026-08-24T18:43:33.000-07:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/proc: make proc-maps-race work with READ_IMPLIES_EXEC",
+      "subsystem": "selftests/proc",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-terra",
+          "identity": "Codex:gpt-5.6-terra",
+          "agent": "Codex",
+          "model": "gpt-5.6-terra"
         }
       ]
     },
@@ -2052,6 +2142,24 @@
       ]
     },
     {
+      "sha": "660ee6792edfe498e35ec17b1b34bb6704e74f4f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/660ee6792edfe498e35ec17b1b34bb6704e74f4f",
+      "authoredAt": "2026-08-06T23:21:40.000-07:00",
+      "committedAt": "2026-08-21T18:01:43.000-05:00",
+      "authorName": "Fenglin Wu",
+      "committerName": "Rob Herring (Arm)",
+      "subject": "dt-bindings: input: Add Qualcomm SPMI PMIC haptics",
+      "subsystem": "dt-bindings",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-4-8-opus",
+          "identity": "Claude:claude-4-8-opus",
+          "agent": "Claude",
+          "model": "claude-4-8-opus"
+        }
+      ]
+    },
+    {
       "sha": "ceb6ac43b0f591722401922ceb958ce2616935e0",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ceb6ac43b0f591722401922ceb958ce2616935e0",
       "authoredAt": "2026-08-07T03:35:20.000Z",
@@ -2318,6 +2426,24 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "5bb01c657ff9fc807c2c592ca18af34c4fc3bc6f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5bb01c657ff9fc807c2c592ca18af34c4fc3bc6f",
+      "authoredAt": "2026-08-05T13:31:00.000-07:00",
+      "committedAt": "2026-08-27T09:36:05.000-05:00",
+      "authorName": "Abdurrahman Hussain",
+      "committerName": "Rob Herring (Arm)",
+      "subject": "of: fix out-of-bounds read in of_alias_scan() stem parser",
+      "subsystem": "of",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5 [Claude Code]",
+          "identity": "Claude:claude-fable-5 [Claude Code]",
+          "agent": "Claude",
+          "model": "claude-fable-5 [Claude Code]"
         }
       ]
     },
@@ -2654,6 +2780,42 @@
           "identity": "Claude:claude-sonnet-5",
           "agent": "Claude",
           "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "391f057f44a51cc9418da5cba78b014324174264",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/391f057f44a51cc9418da5cba78b014324174264",
+      "authoredAt": "2026-08-04T14:59:19.000+08:00",
+      "committedAt": "2026-08-24T18:43:05.000-07:00",
+      "authorName": "Longlong Xia",
+      "committerName": "Andrew Morton",
+      "subject": "zram: fix out-of-bounds access in read_block_state()",
+      "subsystem": "zram",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "894913e2d35c46ff19a77530907771ae57862b96",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/894913e2d35c46ff19a77530907771ae57862b96",
+      "authoredAt": "2026-08-04T14:59:18.000+08:00",
+      "committedAt": "2026-08-24T18:43:05.000-07:00",
+      "authorName": "Longlong Xia",
+      "committerName": "Andrew Morton",
+      "subject": "zram: fix out-of-bounds access in writeback_store()",
+      "subsystem": "zram",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -4478,6 +4640,24 @@
       "committerName": "Paolo Abeni",
       "subject": "rtnetlink: cap IFLA_VFINFO_LIST at a documented number of VFs",
       "subsystem": "rtnetlink",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
+      "sha": "272b0d84b17f72f6396254dbaa6264f2f74a7997",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/272b0d84b17f72f6396254dbaa6264f2f74a7997",
+      "authoredAt": "2026-08-01T14:49:15.000+03:00",
+      "committedAt": "2026-08-24T18:43:00.000-07:00",
+      "authorName": "Artem Lytkin",
+      "committerName": "Andrew Morton",
+      "subject": "mm/vmalloc: make vm_struct.nr_pages an unsigned long",
+      "subsystem": "mm/vmalloc",
       "assistedBy": [
         {
           "raw": "Claude:claude-fable-5",
@@ -8240,6 +8420,24 @@
           "identity": "Copilot:Claude-Opus-4.8",
           "agent": "Copilot",
           "model": "Claude-Opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "942901eeda934f1bebf2605a781155e9d6bc7f6e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/942901eeda934f1bebf2605a781155e9d6bc7f6e",
+      "authoredAt": "2026-07-24T14:04:12.000-04:00",
+      "committedAt": "2026-08-06T14:51:44.000+01:00",
+      "authorName": "Steve Dunnagan",
+      "committerName": "Lee Jones",
+      "subject": "leds: gpio: Clear error pointers for skipped LEDs",
+      "subsystem": "leds",
+      "assistedBy": [
+        {
+          "raw": "ChatGPT:GPT-5.5-Thinking",
+          "identity": "ChatGPT:GPT-5.5-Thinking",
+          "agent": "ChatGPT",
+          "model": "GPT-5.5-Thinking"
         }
       ]
     },
@@ -14082,6 +14280,24 @@
       ]
     },
     {
+      "sha": "fb496eb062306f0a447f6059012205e10ab7b900",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fb496eb062306f0a447f6059012205e10ab7b900",
+      "authoredAt": "2026-07-13T04:48:04.000-07:00",
+      "committedAt": "2026-08-24T18:43:17.000-07:00",
+      "authorName": "Catalin Marinas",
+      "committerName": "Andrew Morton",
+      "subject": "mm: kmemleak: confirm suspected leaks with a second scan",
+      "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
       "sha": "5499e0602d2faafd42c580d25f615903c3fbe11b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5499e0602d2faafd42c580d25f615903c3fbe11b",
       "authoredAt": "2026-07-13T10:47:50.000Z",
@@ -17154,6 +17370,42 @@
       ]
     },
     {
+      "sha": "cbff6a720d94cec10265740f2369762acb3290e3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cbff6a720d94cec10265740f2369762acb3290e3",
+      "authoredAt": "2026-07-06T22:01:31.000-07:00",
+      "committedAt": "2026-07-30T14:33:06.000+01:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Lee Jones",
+      "subject": "mfd: ucb1x00: Convert Assabet gpio-keys to use software nodes",
+      "subsystem": "mfd",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "sha": "0674e2cd7f4049d0028681cc8f1f4b550327e54f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0674e2cd7f4049d0028681cc8f1f4b550327e54f",
+      "authoredAt": "2026-07-06T22:01:30.000-07:00",
+      "committedAt": "2026-07-30T14:33:04.000+01:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Lee Jones",
+      "subject": "mfd: ucb1x00: Register software node for GPIO controller",
+      "subsystem": "mfd",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
       "sha": "2bf282f8f715f5d05d6f4c49ffb3bd241c5e667e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2bf282f8f715f5d05d6f4c49ffb3bd241c5e667e",
       "authoredAt": "2026-07-07T12:15:18.000+08:00",
@@ -17562,6 +17814,24 @@
       ]
     },
     {
+      "sha": "1b86b4ef3abf18a5324278fc03e024c10e47cfce",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1b86b4ef3abf18a5324278fc03e024c10e47cfce",
+      "authoredAt": "2026-07-06T16:24:50.000-07:00",
+      "committedAt": "2026-07-30T14:33:08.000+01:00",
+      "authorName": "Dmitry Torokhov",
+      "committerName": "Lee Jones",
+      "subject": "mfd: rohm: Factor out power button registration",
+      "subsystem": "mfd",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.5-flash",
+          "identity": "Antigravity:gemini-3.5-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
       "sha": "430c502c80e542e77bcf97db13ec0e8cdf9addb0",
       "htmlUrl": "https://github.com/torvalds/linux/commit/430c502c80e542e77bcf97db13ec0e8cdf9addb0",
       "authoredAt": "2026-07-06T15:43:22.000-07:00",
@@ -17666,294 +17936,6 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "da729ddd4a1bc7c9f119bf7dfcc2c173b887cafa",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/da729ddd4a1bc7c9f119bf7dfcc2c173b887cafa",
-      "authoredAt": "2026-07-06T12:05:47.000-04:00",
-      "committedAt": "2026-08-17T09:02:07.000-07:00",
-      "authorName": "Mike Snitzer",
-      "committerName": "Trond Myklebust",
-      "subject": "NFS/localio: issue IO inline when not in a memory-reclaim context",
-      "subsystem": "nfs/localio",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "24a10b9d5bf2a94629c398885ce58789e1ebea7a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/24a10b9d5bf2a94629c398885ce58789e1ebea7a",
-      "authoredAt": "2026-07-06T09:27:59.000-06:00",
-      "committedAt": "2026-07-28T18:32:05.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: add VBIOS bounding box KUnit test",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8 GPT-5.5",
-          "identity": "Copilot:Claude-Opus-4.8 GPT-5.5",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8 GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "1d157a9aabe48eefce9c489e2623a36b199891ed",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1d157a9aabe48eefce9c489e2623a36b199891ed",
-      "authoredAt": "2026-07-06T09:26:07.000-06:00",
-      "committedAt": "2026-07-28T18:31:59.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: add DMUB command sync KUnit coverage",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8 GPT-5.5",
-          "identity": "Copilot:Claude-Opus-4.8 GPT-5.5",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8 GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "0c2ed186bbe14304415476d6707b747dddcd8583",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0c2ed186bbe14304415476d6707b747dddcd8583",
-      "authoredAt": "2026-07-06T23:24:18.000+08:00",
-      "committedAt": "2026-07-07T09:27:42.000+02:00",
-      "authorName": "Cen Zhang",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: cfg80211: use wiphy work for socket owner autodisconnect",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "f8e0a84ab1b786fda9a50087c267de67ec5aa79c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f8e0a84ab1b786fda9a50087c267de67ec5aa79c",
-      "authoredAt": "2026-07-06T09:21:06.000-06:00",
-      "committedAt": "2026-07-28T18:31:55.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: add fused IO KUnit coverage",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8 GPT-5.5",
-          "identity": "Copilot:Claude-Opus-4.8 GPT-5.5",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8 GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "b2e286091aba833c5e09a7ceb5eebcc08ced2695",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b2e286091aba833c5e09a7ceb5eebcc08ced2695",
-      "authoredAt": "2026-07-06T09:17:33.000-06:00",
-      "committedAt": "2026-07-28T18:31:51.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: add dm_dmub_hw_resume KUnit coverage",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8 GPT-5.5",
-          "identity": "Copilot:Claude-Opus-4.8 GPT-5.5",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8 GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "f1d518d1b799826fdb9bdedbbc557aa85a2cc6d3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f1d518d1b799826fdb9bdedbbc557aa85a2cc6d3",
-      "authoredAt": "2026-07-06T09:16:18.000-06:00",
-      "committedAt": "2026-07-28T18:31:46.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: add dm_dmub_hw_init KUnit coverage",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8 GPT-5.5",
-          "identity": "Copilot:Claude-Opus-4.8 GPT-5.5",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8 GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "116165611d4d287ae58992528ba779133e7c72b3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/116165611d4d287ae58992528ba779133e7c72b3",
-      "authoredAt": "2026-07-06T17:01:11.000+02:00",
-      "committedAt": "2026-07-13T12:08:39.000-04:00",
-      "authorName": "Griffin Kroah-Hartman",
-      "committerName": "Frank Li",
-      "subject": "soc: imx9: devm_kasprintf error handling",
-      "subsystem": "soc",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_2000",
-          "identity": "gkh_clanker_2000",
-          "agent": "gkh_clanker_2000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "b5ba63e247075087ab8a6a087622c762dc4172e9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b5ba63e247075087ab8a6a087622c762dc4172e9",
-      "authoredAt": "2026-07-06T16:58:21.000+02:00",
-      "committedAt": "2026-07-07T11:39:04.000+08:00",
-      "authorName": "Griffin Kroah-Hartman",
-      "committerName": "Xu Yilun",
-      "subject": "fpga: dfl: fme: add error handling",
-      "subsystem": "fpga",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_2000",
-          "identity": "gkh_clanker_2000",
-          "agent": "gkh_clanker_2000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "bf1af4dfdc017dfe989c0dbcf0e608dc95f1d2cb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bf1af4dfdc017dfe989c0dbcf0e608dc95f1d2cb",
-      "authoredAt": "2026-07-06T16:57:06.000+02:00",
-      "committedAt": "2026-07-14T17:07:27.000+05:30",
-      "authorName": "Griffin Kroah-Hartman",
-      "committerName": "Vinod Koul",
-      "subject": "dmaengine: fsl-edma: Add error handling for devm_kasprintf",
-      "subsystem": "dmaengine",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_2000",
-          "identity": "gkh_clanker_2000",
-          "agent": "gkh_clanker_2000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "f3858d5b1432098c1936e03d6e03dd0e33facf60",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f3858d5b1432098c1936e03d6e03dd0e33facf60",
-      "authoredAt": "2026-07-06T22:08:41.000+08:00",
-      "committedAt": "2026-07-07T09:23:23.000+02:00",
-      "authorName": "Cen Zhang",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: free AP_VLAN bc_buf SKBs outside IRQ lock",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "91141b8eb9c9d2580b073688c6b0ee2ba3718b34",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/91141b8eb9c9d2580b073688c6b0ee2ba3718b34",
-      "authoredAt": "2026-07-06T09:29:25.000-04:00",
-      "committedAt": "2026-08-10T09:54:35.000-04:00",
-      "authorName": "Jeff Layton",
-      "committerName": "Chuck Lever",
-      "subject": "sunrpc: derive the pool count instead of caching it in sv_nrpools",
-      "subsystem": "sunrpc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "0e024f580b171fb60c04118fef32977f84e3d3ea",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0e024f580b171fb60c04118fef32977f84e3d3ea",
-      "authoredAt": "2026-07-06T09:29:24.000-04:00",
-      "committedAt": "2026-08-10T09:54:35.000-04:00",
-      "authorName": "Jeff Layton",
-      "committerName": "Chuck Lever",
-      "subject": "sunrpc: tear down pool counters before dropping the pool map reference",
-      "subsystem": "sunrpc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "f59c4b77d655e4634d37cc977f09a0ae853fc18b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f59c4b77d655e4634d37cc977f09a0ae853fc18b",
-      "authoredAt": "2026-07-06T09:29:23.000-04:00",
-      "committedAt": "2026-08-10T09:54:35.000-04:00",
-      "authorName": "Jeff Layton",
-      "committerName": "Chuck Lever",
-      "subject": "sunrpc: guarantee a thread per pool when auto-distributing",
-      "subsystem": "sunrpc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "a1a7071195b9e6b09c4cf4b8300412165221e4d4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a1a7071195b9e6b09c4cf4b8300412165221e4d4",
-      "authoredAt": "2026-07-06T09:29:22.000-04:00",
-      "committedAt": "2026-08-10T09:54:35.000-04:00",
-      "authorName": "Jeff Layton",
-      "committerName": "Chuck Lever",
-      "subject": "sunrpc: hardcode pool_mode to pernode, remove other modes",
-      "subsystem": "sunrpc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "cffd0d2ed5f2603ef147fc8b625ca84b4041f5bf",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cffd0d2ed5f2603ef147fc8b625ca84b4041f5bf",
-      "authoredAt": "2026-07-06T20:37:56.000+08:00",
-      "committedAt": "2026-07-07T10:16:11.000+02:00",
-      "authorName": "Cen Zhang",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211_hwsim: clean up radio rhashtable on free",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
         }
       ]
     }
