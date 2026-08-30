@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T12:55:22.971Z",
+  "generatedAt": "2026-08-30T17:31:07.325Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,10 +7,28 @@
   "stats": {
     "totalCommits": 984,
     "totalSubsystems": 275,
-    "totalAuthors": 236,
-    "totalAgents": 159
+    "totalAuthors": 238,
+    "totalAgents": 160
   },
   "commits": [
+    {
+      "sha": "390f6bd8583d177029d9df4bea6667509e55a765",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/390f6bd8583d177029d9df4bea6667509e55a765",
+      "authoredAt": "2026-08-27T18:43:22.000Z",
+      "committedAt": "2026-08-27T21:30:22.000-04:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing/user_events: Clear copied tracing state before fork duplication",
+      "subsystem": "tracing/user_events",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
     {
       "sha": "05ec76cfbce653e07cec19b9b8b20e33449d5d87",
       "htmlUrl": "https://github.com/torvalds/linux/commit/05ec76cfbce653e07cec19b9b8b20e33449d5d87",
@@ -44,6 +62,42 @@
           "identity": "ChatGPT:GPT-5.6 Sol",
           "agent": "ChatGPT",
           "model": "GPT-5.6 Sol"
+        }
+      ]
+    },
+    {
+      "sha": "5eab74874d11160725c42ab676ba97a797a362eb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5eab74874d11160725c42ab676ba97a797a362eb",
+      "authoredAt": "2026-08-25T12:52:50.000-04:00",
+      "committedAt": "2026-08-27T21:31:51.000-04:00",
+      "authorName": "Ivan Immanuel Shaji",
+      "committerName": "Steven Rostedt",
+      "subject": "ring-buffer: Stop remote reader update when page swap fails",
+      "subsystem": "ring-buffer",
+      "assistedBy": [
+        {
+          "raw": "LLM sparse",
+          "identity": "LLM sparse",
+          "agent": "LLM sparse",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "e0d3aed7b12cf37b74c7cc5265073d0263b49cde",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e0d3aed7b12cf37b74c7cc5265073d0263b49cde",
+      "authoredAt": "2026-08-25T12:52:49.000-04:00",
+      "committedAt": "2026-08-27T21:31:41.000-04:00",
+      "authorName": "Ivan Immanuel Shaji",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Fix retry exhaustion in simple ring buffer reader swap",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "LLM sparse",
+          "identity": "LLM sparse",
+          "agent": "LLM sparse",
+          "model": ""
         }
       ]
     },
@@ -236,6 +290,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "7dd6343fc127935425a81a8f1989907996c2868d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7dd6343fc127935425a81a8f1989907996c2868d",
+      "authoredAt": "2026-08-22T10:44:47.000+02:00",
+      "committedAt": "2026-08-24T13:21:12.000+02:00",
+      "authorName": "Younes Akhouayri",
+      "committerName": "Miguel Ojeda",
+      "subject": "rust: num: restrict bool conversion to unsigned Bounded",
+      "subsystem": "rust",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -452,6 +524,42 @@
           "identity": "Claude:claude-sonnet-5",
           "agent": "Claude",
           "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "5febf432df1cfa5b25d99b54c32103fafbdd0eb9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5febf432df1cfa5b25d99b54c32103fafbdd0eb9",
+      "authoredAt": "2026-08-16T15:32:33.000+02:00",
+      "committedAt": "2026-08-23T21:27:17.000+02:00",
+      "authorName": "Miguel Ojeda",
+      "committerName": "Miguel Ojeda",
+      "subject": "kbuild: rust: keep Rust objects out of Clang LTO with inline helpers",
+      "subsystem": "kbuild",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "0bff7711c19ba05ff3b686554c5a2d503c3e9797",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0bff7711c19ba05ff3b686554c5a2d503c3e9797",
+      "authoredAt": "2026-08-16T15:32:32.000+02:00",
+      "committedAt": "2026-08-23T21:27:17.000+02:00",
+      "authorName": "Miguel Ojeda",
+      "committerName": "Miguel Ojeda",
+      "subject": "kbuild: rust: preserve unreachable traps with inline helpers",
+      "subsystem": "kbuild",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -9210,6 +9318,24 @@
       ]
     },
     {
+      "sha": "8a58a41100ea377e978d99600ec24a9bd0273662",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8a58a41100ea377e978d99600ec24a9bd0273662",
+      "authoredAt": "2026-07-24T08:05:31.000+01:00",
+      "committedAt": "2026-08-05T16:14:44.000+01:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Russell King",
+      "subject": "ARM: 9483/1: select HAVE_POSIX_CPU_TIMERS_TASK_WORK",
+      "subsystem": "arm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
       "sha": "3e7a1ebc32fad5a558254a478efd401c17a24381",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3e7a1ebc32fad5a558254a478efd401c17a24381",
       "authoredAt": "2026-07-23T22:53:10.000Z",
@@ -17774,132 +17900,6 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "4bd3158bd62466d57ed72a3f7bc5f205fedd6919",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4bd3158bd62466d57ed72a3f7bc5f205fedd6919",
-      "authoredAt": "2026-07-07T14:06:00.000-04:00",
-      "committedAt": "2026-08-26T19:57:27.000+02:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Ilya Dryomov",
-      "subject": "ceph: cap delegated inode count in ceph_parse_deleg_inos()",
-      "subsystem": "ceph",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "a3eb169ee297aa99670ba927c659990bd1e453f3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a3eb169ee297aa99670ba927c659990bd1e453f3",
-      "authoredAt": "2026-07-07T14:05:59.000-04:00",
-      "committedAt": "2026-08-26T19:57:27.000+02:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Ilya Dryomov",
-      "subject": "ceph: bound num_export_targets array for mds info v2/v3",
-      "subsystem": "ceph",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "77933e22adfe813be2bd10be08d6e950103c3967",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/77933e22adfe813be2bd10be08d6e950103c3967",
-      "authoredAt": "2026-07-07T14:05:58.000-04:00",
-      "committedAt": "2026-08-26T19:57:27.000+02:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Ilya Dryomov",
-      "subject": "ceph: bound MDSCapAuth path and fs_name decode in handle_session()",
-      "subsystem": "ceph",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "68d541754d6cd3bb98d1fd8314f57e5eb533557d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/68d541754d6cd3bb98d1fd8314f57e5eb533557d",
-      "authoredAt": "2026-07-07T14:05:57.000-04:00",
-      "committedAt": "2026-08-26T19:57:27.000+02:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Ilya Dryomov",
-      "subject": "ceph: bound xattr value length in __build_xattrs()",
-      "subsystem": "ceph",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "42e74d8f21ce448fe12ba3dd59db817b3e977f49",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/42e74d8f21ce448fe12ba3dd59db817b3e977f49",
-      "authoredAt": "2026-07-07T14:02:40.000-04:00",
-      "committedAt": "2026-07-08T09:33:22.000-04:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Steven Rostedt",
-      "subject": "selftests/user_events: Wait for deferred event teardown after unregister",
-      "subsystem": "selftests/user_events",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "50fd6dd755c6e48a38af2fa4621167eea56829c2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/50fd6dd755c6e48a38af2fa4621167eea56829c2",
-      "authoredAt": "2026-07-07T12:59:11.000-04:00",
-      "committedAt": "2026-07-07T13:59:35.000-04:00",
-      "authorName": "Michael Bommarito",
-      "committerName": "Steven Rostedt",
-      "subject": "tracing/user_events: Fix use-after-free in user_event_mm_dup()",
-      "subsystem": "tracing/user_events",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "9a80ddbf66e4fb549fe1e94858da659619333dda",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9a80ddbf66e4fb549fe1e94858da659619333dda",
-      "authoredAt": "2026-07-07T16:33:33.000Z",
-      "committedAt": "2026-07-13T08:18:37.000Z",
-      "authorName": "Yilin Chen",
-      "committerName": "Alice Ryhl",
-      "subject": "rust: drm: fix GEM object pointer safety docs",
-      "subsystem": "rust",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5",
-          "identity": "Codex:GPT-5",
-          "agent": "Codex",
-          "model": "GPT-5"
         }
       ]
     }
