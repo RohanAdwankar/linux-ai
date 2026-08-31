@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-08-31T20:07:26.628Z",
+  "generatedAt": "2026-08-31T23:52:25.642Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 984,
-    "totalSubsystems": 275,
+    "totalSubsystems": 276,
     "totalAuthors": 238,
     "totalAgents": 160
   },
   "commits": [
+    {
+      "sha": "3f4b7d1a49c5c826f3be9b684313eea5b83ac232",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3f4b7d1a49c5c826f3be9b684313eea5b83ac232",
+      "authoredAt": "2026-08-28T21:52:52.000Z",
+      "committedAt": "2026-08-31T06:19:53.000-10:00",
+      "authorName": "Etienne Perot",
+      "committerName": "Tejun Heo",
+      "subject": "selftests/cgroup: test clone3() into a previously killed cgroup",
+      "subsystem": "selftests/cgroup",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8e359920216689b3b79e0fe8961a77fe312a511f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8e359920216689b3b79e0fe8961a77fe312a511f",
+      "authoredAt": "2026-08-28T21:52:51.000Z",
+      "committedAt": "2026-08-31T06:19:38.000-10:00",
+      "authorName": "Etienne Perot",
+      "committerName": "Tejun Heo",
+      "subject": "cgroup: fix spurious SIGKILL of CLONE_INTO_CGROUP children",
+      "subsystem": "cgroup",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "390f6bd8583d177029d9df4bea6667509e55a765",
       "htmlUrl": "https://github.com/torvalds/linux/commit/390f6bd8583d177029d9df4bea6667509e55a765",
@@ -17864,42 +17900,6 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "7952692dce653d33e94d5482492278f822da7d19",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7952692dce653d33e94d5482492278f822da7d19",
-      "authoredAt": "2026-07-07T23:36:12.000+02:00",
-      "committedAt": "2026-07-09T16:44:02.000+03:00",
-      "authorName": "Marco Scardovi",
-      "committerName": "Ilpo Järvinen",
-      "subject": "platform/x86: asus-armoury: use cleanup.h to manage tunables",
-      "subsystem": "platform/x86",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "76708233b4acd6255fc54d5e1b15e779e91132e7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/76708233b4acd6255fc54d5e1b15e779e91132e7",
-      "authoredAt": "2026-07-07T23:36:11.000+02:00",
-      "committedAt": "2026-07-09T16:44:00.000+03:00",
-      "authorName": "Marco Scardovi",
-      "committerName": "Ilpo Järvinen",
-      "subject": "platform/x86: asus-armoury: fix Use-After-Free and memory leak in driver init",
-      "subsystem": "platform/x86",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
         }
       ]
     }
