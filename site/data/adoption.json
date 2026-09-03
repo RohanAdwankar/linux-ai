@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-09-03T16:27:14.748Z",
+  "generatedAt": "2026-09-03T19:51:19.898Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 984,
-    "totalSubsystems": 276,
-    "totalAuthors": 240,
-    "totalAgents": 161
+    "totalSubsystems": 273,
+    "totalAuthors": 239,
+    "totalAgents": 165
   },
   "commits": [
+    {
+      "sha": "03c6ecc4b4b13a3901f207152451fdd2d82e40c4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/03c6ecc4b4b13a3901f207152451fdd2d82e40c4",
+      "authoredAt": "2026-08-30T02:15:36.000+02:00",
+      "committedAt": "2026-08-30T11:47:25.000+09:00",
+      "authorName": "Jacopo Labardi",
+      "committerName": "Namjae Jeon",
+      "subject": "ntfs: fix FITRIM range alignment",
+      "subsystem": "ntfs",
+      "assistedBy": [
+        {
+          "raw": "OpenAI Codex:GPT-5.6 Sol Max",
+          "identity": "OpenAI Codex:GPT-5.6 Sol Max",
+          "agent": "OpenAI Codex",
+          "model": "GPT-5.6 Sol Max"
+        }
+      ]
+    },
+    {
+      "sha": "1d2929d0850fff683b8aff051275945e65f082c8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1d2929d0850fff683b8aff051275945e65f082c8",
+      "authoredAt": "2026-08-29T18:56:18.000+02:00",
+      "committedAt": "2026-09-01T15:12:24.000+02:00",
+      "authorName": "Norbert Szetei",
+      "committerName": "Paolo Abeni",
+      "subject": "net: psp: do not inherit the Rx association on clone",
+      "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
     {
       "sha": "ba9572bc43d04d71ba52ae7f20645f1eafe86875",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ba9572bc43d04d71ba52ae7f20645f1eafe86875",
@@ -66,6 +102,24 @@
       ]
     },
     {
+      "sha": "57938bbdb9bf7fd41cbd5cd509ec10c4b22bec18",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/57938bbdb9bf7fd41cbd5cd509ec10c4b22bec18",
+      "authoredAt": "2026-08-28T08:55:09.000Z",
+      "committedAt": "2026-08-31T13:52:54.000-04:00",
+      "authorName": "Aleksandr Nogikh",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: hci_core: Fix race condition during device registration",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.7-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "identity": "Gemini:gemini-3.7-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "agent": "Gemini",
+          "model": "gemini-3.7-flash Gemini:gemini-3.1-pro-preview syzbot"
+        }
+      ]
+    },
+    {
       "sha": "390f6bd8583d177029d9df4bea6667509e55a765",
       "htmlUrl": "https://github.com/torvalds/linux/commit/390f6bd8583d177029d9df4bea6667509e55a765",
       "authoredAt": "2026-08-27T18:43:22.000Z",
@@ -80,6 +134,60 @@
           "identity": "Codex:gpt-5",
           "agent": "Codex",
           "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "323751a604e7533fa473874d999371592a614207",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/323751a604e7533fa473874d999371592a614207",
+      "authoredAt": "2026-08-25T22:09:34.000-07:00",
+      "committedAt": "2026-08-26T20:40:46.000+09:00",
+      "authorName": "Dennis Tighe",
+      "committerName": "Namjae Jeon",
+      "subject": "ntfs: reject invalid sectors_per_cluster in the boot sector",
+      "subsystem": "ntfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "c8504fc1245f5322af5fa5c325ab05f9cf792b87",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c8504fc1245f5322af5fa5c325ab05f9cf792b87",
+      "authoredAt": "2026-08-25T21:44:24.000-07:00",
+      "committedAt": "2026-08-26T20:30:50.000+09:00",
+      "authorName": "Dennis Tighe",
+      "committerName": "Namjae Jeon",
+      "subject": "ntfs: bound $AttrDef table walk to the loaded table size",
+      "subsystem": "ntfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "148845aa1921d95ef5dc851c76e6a284f6657df6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/148845aa1921d95ef5dc851c76e6a284f6657df6",
+      "authoredAt": "2026-08-26T00:25:33.000Z",
+      "committedAt": "2026-09-01T13:24:50.000+02:00",
+      "authorName": "Ben Cressey",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-crypt: fix a tiny race condition in crypt_dec_pending",
+      "subsystem": "dm-crypt",
+      "assistedBy": [
+        {
+          "raw": "Claude:unspecified",
+          "identity": "Claude:unspecified",
+          "agent": "Claude",
+          "model": "unspecified"
         }
       ]
     },
@@ -192,6 +300,24 @@
       ]
     },
     {
+      "sha": "607a9478833db656e7ceac8e9e382fa4acfde545",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/607a9478833db656e7ceac8e9e382fa4acfde545",
+      "authoredAt": "2026-08-25T13:46:59.000+08:00",
+      "committedAt": "2026-08-26T20:25:46.000+09:00",
+      "authorName": "Wentao Guan",
+      "committerName": "Namjae Jeon",
+      "subject": "ntfs: treat any nonzero dio zero-range return as an error",
+      "subsystem": "ntfs",
+      "assistedBy": [
+        {
+          "raw": "atomcode:deepseek-v4-flash",
+          "identity": "atomcode:deepseek-v4-flash",
+          "agent": "atomcode",
+          "model": "deepseek-v4-flash"
+        }
+      ]
+    },
+    {
       "sha": "1739a976312e110c93a8dee66a1cdf893a1b187e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/1739a976312e110c93a8dee66a1cdf893a1b187e",
       "authoredAt": "2026-08-24T17:57:57.000-05:00",
@@ -236,6 +362,24 @@
           "identity": "tencentos-corvus-ai:kimi-k3",
           "agent": "tencentos-corvus-ai",
           "model": "kimi-k3"
+        }
+      ]
+    },
+    {
+      "sha": "0e4c839905418d55bafe571a92533a1d1ac7b0a8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0e4c839905418d55bafe571a92533a1d1ac7b0a8",
+      "authoredAt": "2026-08-23T22:08:40.000-07:00",
+      "committedAt": "2026-08-26T20:23:07.000+09:00",
+      "authorName": "Dennis Tighe",
+      "committerName": "Namjae Jeon",
+      "subject": "ntfs: do not mark the volume clean in sync_fs when errors were recorded",
+      "subsystem": "ntfs",
+      "assistedBy": [
+        {
+          "raw": "claude:claude-opus-5",
+          "identity": "claude:claude-opus-5",
+          "agent": "claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -290,6 +434,24 @@
           "identity": "OpenAI Codex",
           "agent": "OpenAI Codex",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "6faa235a649e78a82e3230b849607f446ba65ed5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6faa235a649e78a82e3230b849607f446ba65ed5",
+      "authoredAt": "2026-08-23T00:13:25.000-07:00",
+      "committedAt": "2026-08-27T21:47:38.000+09:00",
+      "authorName": "Dennis Tighe",
+      "committerName": "Namjae Jeon",
+      "subject": "ntfs: compute bi_sector in 512-byte units",
+      "subsystem": "ntfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -380,6 +542,42 @@
           "identity": "Kiro:claude-opus-5",
           "agent": "Kiro",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "18d80c77b4c7dd20699e81cedfbbff4e9d198f28",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/18d80c77b4c7dd20699e81cedfbbff4e9d198f28",
+      "authoredAt": "2026-08-20T21:44:58.000Z",
+      "committedAt": "2026-09-01T13:45:10.000+02:00",
+      "authorName": "Ben Cressey",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-integrity: fix infinite loop on discard with large tag size",
+      "subsystem": "dm-integrity",
+      "assistedBy": [
+        {
+          "raw": "Claude:unspecified",
+          "identity": "Claude:unspecified",
+          "agent": "Claude",
+          "model": "unspecified"
+        }
+      ]
+    },
+    {
+      "sha": "59e6f919d77d72ec79cbf171256f2f7819737580",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/59e6f919d77d72ec79cbf171256f2f7819737580",
+      "authoredAt": "2026-08-20T21:44:57.000Z",
+      "committedAt": "2026-09-01T13:44:42.000+02:00",
+      "authorName": "Ben Cressey",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-integrity: fix buffer overflow with keyed discard",
+      "subsystem": "dm-integrity",
+      "assistedBy": [
+        {
+          "raw": "Claude:unspecified",
+          "identity": "Claude:unspecified",
+          "agent": "Claude",
+          "model": "unspecified"
         }
       ]
     },
@@ -17702,204 +17900,6 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "21b5bf155435008e0fb0736795289788e63d426f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/21b5bf155435008e0fb0736795289788e63d426f",
-      "authoredAt": "2026-07-08T13:08:59.000+02:00",
-      "committedAt": "2026-07-08T13:32:16.000+02:00",
-      "authorName": "Griffin Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: function: rndis: add length check for header",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_2000",
-          "identity": "gkh_clanker_2000",
-          "agent": "gkh_clanker_2000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "95f90eea070837f7c72207d5520f805bdefc3bc5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/95f90eea070837f7c72207d5520f805bdefc3bc5",
-      "authoredAt": "2026-07-08T13:08:58.000+02:00",
-      "committedAt": "2026-07-08T13:32:14.000+02:00",
-      "authorName": "Griffin Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: function: rndis: add length check to response query",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_2000",
-          "identity": "gkh_clanker_2000",
-          "agent": "gkh_clanker_2000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "cac0cb07f29ccfb373fd4a36c81e908ef3ce608c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cac0cb07f29ccfb373fd4a36c81e908ef3ce608c",
-      "authoredAt": "2026-07-08T10:17:09.000Z",
-      "committedAt": "2026-07-09T15:35:53.000+02:00",
-      "authorName": "David Lee",
-      "committerName": "Jan Kara",
-      "subject": "udf: reject VAT indexes equal to the entry count",
-      "subsystem": "udf",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "11f5fd36076a2ef229ec5062c06954c955d90f9d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/11f5fd36076a2ef229ec5062c06954c955d90f9d",
-      "authoredAt": "2026-07-08T13:11:35.000+04:00",
-      "committedAt": "2026-07-10T18:49:17.000-07:00",
-      "authorName": "Rounak Das",
-      "committerName": "Borislav Petkov (AMD)",
-      "subject": "EDAC/altera: Remove remaining CONFIG_64BIT ifdefs in the DB-error path",
-      "subsystem": "edac/altera",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "83abe2fd5b3aeb3123b5408a5a91709c5538fb23",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/83abe2fd5b3aeb3123b5408a5a91709c5538fb23",
-      "authoredAt": "2026-07-08T10:01:10.000+01:00",
-      "committedAt": "2026-07-20T17:41:27.000-07:00",
-      "authorName": "Kiryl Shutsemau (Meta)",
-      "committerName": "Andrew Morton",
-      "subject": "mm/hugetlb: fix swap entry corruption when clearing uffd-wp at fork()",
-      "subsystem": "mm/hugetlb",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "28c1ef094e7c86977d9bf570dc0362fc54e36437",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/28c1ef094e7c86977d9bf570dc0362fc54e36437",
-      "authoredAt": "2026-07-08T14:54:39.000+08:00",
-      "committedAt": "2026-08-04T00:18:36.000Z",
-      "authorName": "Hao-Qun Huang",
-      "committerName": "Jaegeuk Kim",
-      "subject": "f2fs: reject overlapping move range after len expansion",
-      "subsystem": "f2fs",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "f62c41b4910e65da396ec9a8c40c1fe7fe82e449",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f62c41b4910e65da396ec9a8c40c1fe7fe82e449",
-      "authoredAt": "2026-07-08T13:27:28.000+08:00",
-      "committedAt": "2026-07-10T16:28:47.000+02:00",
-      "authorName": "Yizhou Zhao",
-      "committerName": "Florian Westphal",
-      "subject": "netfilter: nf_conncount: fix zone comparison in tuple dedup",
-      "subsystem": "netfilter",
-      "assistedBy": [
-        {
-          "raw": "Claude-Code:GLM-5.2",
-          "identity": "Claude-Code:GLM-5.2",
-          "agent": "Claude-Code",
-          "model": "GLM-5.2"
-        }
-      ]
-    },
-    {
-      "sha": "e5382133c51cc92766914b54c9c257d7c54c8079",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e5382133c51cc92766914b54c9c257d7c54c8079",
-      "authoredAt": "2026-07-08T03:35:04.000+03:00",
-      "committedAt": "2026-07-21T11:09:02.000+02:00",
-      "authorName": "Anton Danilov",
-      "committerName": "Paolo Abeni",
-      "subject": "selftests: net: add FOU multicast encapsulation resubmit test",
-      "subsystem": "selftests",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "3cb8d4b9bfeb8a76fc895975842539aa6d5084c4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3cb8d4b9bfeb8a76fc895975842539aa6d5084c4",
-      "authoredAt": "2026-07-08T03:35:03.000+03:00",
-      "committedAt": "2026-07-21T11:09:02.000+02:00",
-      "authorName": "Anton Danilov",
-      "committerName": "Paolo Abeni",
-      "subject": "udp: fix encapsulation packet resubmit in multicast deliver",
-      "subsystem": "udp",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "e32649b4bad90a6216d8e93cd7dd050af8ac9740",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e32649b4bad90a6216d8e93cd7dd050af8ac9740",
-      "authoredAt": "2026-07-07T16:39:11.000-07:00",
-      "committedAt": "2026-07-21T11:00:13.000+02:00",
-      "authorName": "Manjunath Patil",
-      "committerName": "Paolo Abeni",
-      "subject": "net/mlx5e: Use sender devcom for MPV master-up",
-      "subsystem": "net/mlx5e",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5",
-          "identity": "Codex:gpt-5",
-          "agent": "Codex",
-          "model": "gpt-5"
-        }
-      ]
-    },
-    {
-      "sha": "b11c513ad943f35cf5e8007d3a56279c79b7ed4b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b11c513ad943f35cf5e8007d3a56279c79b7ed4b",
-      "authoredAt": "2026-07-07T16:23:58.000-07:00",
-      "committedAt": "2026-07-08T14:05:11.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Bartosz Golaszewski",
-      "subject": "gpio: mvebu: free generic chips on unbind",
-      "subsystem": "gpio",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
         }
       ]
     }
