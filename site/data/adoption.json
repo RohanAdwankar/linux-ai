@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T01:00:01.180Z",
+  "generatedAt": "2026-09-04T05:56:12.006Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 984,
-    "totalSubsystems": 273,
-    "totalAuthors": 239,
-    "totalAgents": 165
+    "totalSubsystems": 274,
+    "totalAuthors": 240,
+    "totalAgents": 166
   },
   "commits": [
     {
@@ -654,6 +654,24 @@
       ]
     },
     {
+      "sha": "f025ca73decda1f895a4b80b961d3bc88825298a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f025ca73decda1f895a4b80b961d3bc88825298a",
+      "authoredAt": "2026-08-19T10:08:24.000+07:00",
+      "committedAt": "2026-09-01T20:26:21.000-07:00",
+      "authorName": "Bryan Lim",
+      "committerName": "Andrew Morton",
+      "subject": "userfaultfd: reset err to be 0 when move_pages_ptes succeeded",
+      "subsystem": "userfaultfd",
+      "assistedBy": [
+        {
+          "raw": "ChatGPT:GPT-5.6-Luna",
+          "identity": "ChatGPT:GPT-5.6-Luna",
+          "agent": "ChatGPT",
+          "model": "GPT-5.6-Luna"
+        }
+      ]
+    },
+    {
       "sha": "941929abe5feaed672b9a52e330e547d333240c6",
       "htmlUrl": "https://github.com/torvalds/linux/commit/941929abe5feaed672b9a52e330e547d333240c6",
       "authoredAt": "2026-08-18T15:29:35.000+02:00",
@@ -1046,6 +1064,24 @@
           "identity": "Gemini:gemini-3.6-flash Gemini:gemini-3.1-pro-preview syzbot",
           "agent": "Gemini",
           "model": "gemini-3.6-flash Gemini:gemini-3.1-pro-preview syzbot"
+        }
+      ]
+    },
+    {
+      "sha": "267bede12d3b108ca29997ce280e927a570ec97f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/267bede12d3b108ca29997ce280e927a570ec97f",
+      "authoredAt": "2026-08-14T16:30:27.000+08:00",
+      "committedAt": "2026-09-01T20:26:21.000-07:00",
+      "authorName": "Longlong Xia",
+      "committerName": "Andrew Morton",
+      "subject": "mm/hugetlb: keep max_huge_pages when dissolving surplus folios",
+      "subsystem": "mm/hugetlb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -17857,42 +17893,6 @@
       "authorName": "Kiryl Shutsemau (Meta)",
       "committerName": "Andrew Morton",
       "subject": "mm: rename uffd-wp PTE accessors to uffd",
-      "subsystem": "mm",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "2bd507795e629e5039924685f42ebf90ac191680",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2bd507795e629e5039924685f42ebf90ac191680",
-      "authoredAt": "2026-07-08T12:14:03.000+01:00",
-      "committedAt": "2026-08-04T19:18:36.000-07:00",
-      "authorName": "Kiryl Shutsemau (Meta)",
-      "committerName": "Andrew Morton",
-      "subject": "mm: rename uffd-wp PTE bit macros to uffd",
-      "subsystem": "mm",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "c6f11553c067d7d9ed2dcffe1e01780441d4e6e2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c6f11553c067d7d9ed2dcffe1e01780441d4e6e2",
-      "authoredAt": "2026-07-08T12:14:02.000+01:00",
-      "committedAt": "2026-08-04T19:18:36.000-07:00",
-      "authorName": "Kiryl Shutsemau (Meta)",
-      "committerName": "Andrew Morton",
-      "subject": "mm: decouple protnone helpers from CONFIG_NUMA_BALANCING",
       "subsystem": "mm",
       "assistedBy": [
         {
