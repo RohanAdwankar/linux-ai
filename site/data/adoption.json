@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-04T19:37:11.347Z",
+  "generatedAt": "2026-09-04T22:21:51.541Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 984,
-    "totalSubsystems": 273,
-    "totalAuthors": 244,
+    "totalCommits": 985,
+    "totalSubsystems": 279,
+    "totalAuthors": 249,
     "totalAgents": 170
   },
   "commits": [
@@ -43,6 +43,24 @@
           "raw": "Claude:claude-opus-5",
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "df72e55e754c8d449321ddddad19a8bd3cb8d032",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/df72e55e754c8d449321ddddad19a8bd3cb8d032",
+      "authoredAt": "2026-09-01T23:35:04.000-07:00",
+      "committedAt": "2026-09-02T12:25:32.000-07:00",
+      "authorName": "Matthew Brost",
+      "committerName": "Matthew Brost",
+      "subject": "drm/pagemap: Fix folio allocation fallback and use-after-put",
+      "subsystem": "drm/pagemap",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-opus-5",
+          "identity": "GitHub_Copilot:claude-opus-5",
+          "agent": "GitHub_Copilot",
           "model": "claude-opus-5"
         }
       ]
@@ -254,6 +272,24 @@
       "committerName": "Tejun Heo",
       "subject": "cgroup: fix spurious SIGKILL of CLONE_INTO_CGROUP children",
       "subsystem": "cgroup",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "a77644d009dece1104b6fcc6e322b0e4503db0d6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a77644d009dece1104b6fcc6e322b0e4503db0d6",
+      "authoredAt": "2026-08-28T19:41:31.000+02:00",
+      "committedAt": "2026-09-03T12:58:12.000Z",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Will Deacon",
+      "subject": "arm64: mm: Fix the lockless page-table walk in show_pte()",
+      "subsystem": "arm64",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -552,6 +588,24 @@
       ]
     },
     {
+      "sha": "92312d333bf700798f92f30406c721bce87506f3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/92312d333bf700798f92f30406c721bce87506f3",
+      "authoredAt": "2026-08-25T14:07:29.000+02:00",
+      "committedAt": "2026-08-26T08:54:58.000+02:00",
+      "authorName": "Slawomir Stepien",
+      "committerName": "Thomas Zimmermann",
+      "subject": "drm/cirrus-qemu: Validate BAR0 size during probe",
+      "subsystem": "drm/cirrus-qemu",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.6-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "identity": "Gemini:gemini-3.6-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "agent": "Gemini",
+          "model": "gemini-3.6-flash Gemini:gemini-3.1-pro-preview syzbot"
+        }
+      ]
+    },
+    {
       "sha": "4956993bb3befdf791d71a4952d8d13bcfd44c7b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/4956993bb3befdf791d71a4952d8d13bcfd44c7b",
       "authoredAt": "2026-08-25T18:31:17.000+08:00",
@@ -638,6 +692,24 @@
           "identity": "Codex:gpt-5.6-sol",
           "agent": "Codex",
           "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "db9deec5a345abc538d081fb221dc0b00a9695bd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/db9deec5a345abc538d081fb221dc0b00a9695bd",
+      "authoredAt": "2026-08-24T17:26:11.000+02:00",
+      "committedAt": "2026-08-24T17:20:58.000-05:00",
+      "authorName": "Tomeu Vizoso",
+      "committerName": "Rob Herring (Arm)",
+      "subject": "accel: ethosu: Don't read the U65 rounding mode as a storage mode",
+      "subsystem": "accel",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -782,6 +854,24 @@
           "identity": "Codex:GPT-5",
           "agent": "Codex",
           "model": "GPT-5"
+        }
+      ]
+    },
+    {
+      "sha": "f63de9054da858d57054474c32464106f8375e0d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f63de9054da858d57054474c32464106f8375e0d",
+      "authoredAt": "2026-08-22T16:57:51.000+02:00",
+      "committedAt": "2026-09-02T16:57:38.000-04:00",
+      "authorName": "Hari Mishal",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: fix division by zero in get_estimated_bw()",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
         }
       ]
     },
@@ -998,6 +1088,24 @@
           "identity": "Claude:claude-opus-5 btmon",
           "agent": "Claude",
           "model": "claude-opus-5 btmon"
+        }
+      ]
+    },
+    {
+      "sha": "7f1172a2ac0d7e50850785e2e65789c8aac8411a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7f1172a2ac0d7e50850785e2e65789c8aac8411a",
+      "authoredAt": "2026-08-18T15:21:49.000+05:30",
+      "committedAt": "2026-08-31T12:56:49.000+03:00",
+      "authorName": "Nemesa Garg",
+      "committerName": "Jani Nikula",
+      "subject": "drm/i915/display: Clear SEL_FETCH_PLANE_CTL on plane disable",
+      "subsystem": "drm/i915/display",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.6",
+          "identity": "GitHub-Copilot:claude-opus-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -1578,6 +1686,24 @@
       ]
     },
     {
+      "sha": "511585987d27d8cb668acebd399fc4deda23404c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/511585987d27d8cb668acebd399fc4deda23404c",
+      "authoredAt": "2026-08-13T01:13:27.000+02:00",
+      "committedAt": "2026-08-20T17:33:43.000-04:00",
+      "authorName": "Marek Czernohous",
+      "committerName": "Lyude Paul",
+      "subject": "drm/nouveau: unsubscribe the channel-kill event before the fence context",
+      "subsystem": "drm/nouveau",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
       "sha": "6ca662cc71df7eb4eaf1b4bcb07cd3f188ad19f2",
       "htmlUrl": "https://github.com/torvalds/linux/commit/6ca662cc71df7eb4eaf1b4bcb07cd3f188ad19f2",
       "authoredAt": "2026-08-12T20:30:42.000Z",
@@ -1926,6 +2052,42 @@
       ]
     },
     {
+      "sha": "c2256c044a1df39c8aad4dd2d6f709b2533e2d7a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c2256c044a1df39c8aad4dd2d6f709b2533e2d7a",
+      "authoredAt": "2026-08-11T22:28:51.000+08:00",
+      "committedAt": "2026-09-01T11:09:24.000+02:00",
+      "authorName": "Zhenhao Wan",
+      "committerName": "Danilo Krummrich",
+      "subject": "drm/nouveau/dmem: fix callocated underflow on large folio split",
+      "subsystem": "drm/nouveau/dmem",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "caa1bc2a0a6ca19dcb90bbf88208b0fe2decd66f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/caa1bc2a0a6ca19dcb90bbf88208b0fe2decd66f",
+      "authoredAt": "2026-08-11T22:28:50.000+08:00",
+      "committedAt": "2026-09-01T11:09:24.000+02:00",
+      "authorName": "Zhenhao Wan",
+      "committerName": "Danilo Krummrich",
+      "subject": "drm/nouveau/dmem: fix mismatched DMA unmap size for large folios",
+      "subsystem": "drm/nouveau/dmem",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
       "sha": "337bd95507a16063687cfc286ea90de5cca48c37",
       "htmlUrl": "https://github.com/torvalds/linux/commit/337bd95507a16063687cfc286ea90de5cca48c37",
       "authoredAt": "2026-08-11T15:39:01.000+02:00",
@@ -1994,6 +2156,60 @@
           "identity": "Codex:gpt-5.6-terra",
           "agent": "Codex",
           "model": "gpt-5.6-terra"
+        }
+      ]
+    },
+    {
+      "sha": "38a62306c4266bcb3cd89e33c7111ee33096ebb3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/38a62306c4266bcb3cd89e33c7111ee33096ebb3",
+      "authoredAt": "2026-08-11T16:46:30.000+08:00",
+      "committedAt": "2026-09-01T10:18:00.000+02:00",
+      "authorName": "Zhenhao Wan",
+      "committerName": "Danilo Krummrich",
+      "subject": "drm/nouveau/uvmm: clear the dirty flag when unwinding an OP_UNMAP_SPARSE",
+      "subsystem": "drm/nouveau/uvmm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "ccf930812f23b8259ef64fd3394d53b093e4651a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ccf930812f23b8259ef64fd3394d53b093e4651a",
+      "authoredAt": "2026-08-11T16:46:29.000+08:00",
+      "committedAt": "2026-09-01T10:18:00.000+02:00",
+      "authorName": "Zhenhao Wan",
+      "committerName": "Danilo Krummrich",
+      "subject": "drm/nouveau/uvmm: fix premature region free on failed OP_UNMAP_SPARSE",
+      "subsystem": "drm/nouveau/uvmm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "412a6ceb56d501ef2f8202e26ab4b5d4dfbca566",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/412a6ceb56d501ef2f8202e26ab4b5d4dfbca566",
+      "authoredAt": "2026-08-11T16:46:28.000+08:00",
+      "committedAt": "2026-09-01T10:18:00.000+02:00",
+      "authorName": "Zhenhao Wan",
+      "committerName": "Danilo Krummrich",
+      "subject": "drm/nouveau/uvmm: fix NULL deref unwinding an OP_MAP_SPARSE op",
+      "subsystem": "drm/nouveau/uvmm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -2462,6 +2678,24 @@
           "identity": "VeroCoder:claude-sonnet-4-6",
           "agent": "VeroCoder",
           "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "c4126f1db36e6b2e1c79b0e30a8a2de91c568f4c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c4126f1db36e6b2e1c79b0e30a8a2de91c568f4c",
+      "authoredAt": "2026-08-10T14:58:45.000+05:30",
+      "committedAt": "2026-08-31T14:56:03.000-07:00",
+      "authorName": "Arvind Yadav",
+      "committerName": "Matthew Brost",
+      "subject": "drm/pagemap: Prevent double migration of device pages",
+      "subsystem": "drm/pagemap",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -17672,222 +17906,6 @@
           "identity": "Claude:sonnet",
           "agent": "Claude",
           "model": "sonnet"
-        }
-      ]
-    },
-    {
-      "sha": "0583f2fbf8f86ae3a0ce054f96783dd83e65d9bb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0583f2fbf8f86ae3a0ce054f96783dd83e65d9bb",
-      "authoredAt": "2026-07-09T02:09:04.000Z",
-      "committedAt": "2026-07-13T07:10:11.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: udc: bdc: free IRQ and drain func_wake_notify before teardown",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "e2ea5cac61acfc11dad22f1d2d4bc71d56c52a20",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e2ea5cac61acfc11dad22f1d2d4bc71d56c52a20",
-      "authoredAt": "2026-07-08T18:02:03.000-07:00",
-      "committedAt": "2026-07-14T10:23:20.000-07:00",
-      "authorName": "Kyle Zeng",
-      "committerName": "Viacheslav Dubeyko",
-      "subject": "hfsplus: validate thread record before delete key rebuild",
-      "subsystem": "hfsplus",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6",
-          "identity": "Codex:gpt-5.6",
-          "agent": "Codex",
-          "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "7a90520e8c9a8f48fe6f3e741cf34d8c2b6dbc61",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7a90520e8c9a8f48fe6f3e741cf34d8c2b6dbc61",
-      "authoredAt": "2026-07-08T17:50:05.000-07:00",
-      "committedAt": "2026-08-09T12:47:04.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Gregory CLEMENT",
-      "subject": "ARM: dts: helios4: add SATA regulator supplies",
-      "subsystem": "arm",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
-        }
-      ]
-    },
-    {
-      "sha": "c23988f84496e937dd255564cb30bec67608dcc6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c23988f84496e937dd255564cb30bec67608dcc6",
-      "authoredAt": "2026-07-08T17:50:04.000-07:00",
-      "committedAt": "2026-08-09T12:47:04.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Gregory CLEMENT",
-      "subject": "ARM: dts: helios4: add vcc-supply to GPIO expander",
-      "subsystem": "arm",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
-        }
-      ]
-    },
-    {
-      "sha": "ef65cf08bd1aa723de2854d02fb8eb8cca273c90",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ef65cf08bd1aa723de2854d02fb8eb8cca273c90",
-      "authoredAt": "2026-07-08T17:50:03.000-07:00",
-      "committedAt": "2026-08-09T12:47:04.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Gregory CLEMENT",
-      "subject": "ARM: dts: helios4: add vcc-supply to EEPROM",
-      "subsystem": "arm",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
-        }
-      ]
-    },
-    {
-      "sha": "aa38147e4f07cd7af26b9458174e5fcb9e5b6dce",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/aa38147e4f07cd7af26b9458174e5fcb9e5b6dce",
-      "authoredAt": "2026-07-09T02:06:11.000+02:00",
-      "committedAt": "2026-08-17T15:00:42.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: implement full-file copy for AAPL ChunkCount=0 COPYCHUNK",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "152036e875e8cfe41dc70328f7e499ccc5142d6c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/152036e875e8cfe41dc70328f7e499ccc5142d6c",
-      "authoredAt": "2026-07-09T02:06:10.000+02:00",
-      "committedAt": "2026-08-17T15:00:42.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: defer CHANGE_NOTIFY completion instead of STATUS_NOT_IMPLEMENTED",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "eaff8e924f6094bb53291982dc4131e9ccca2232",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/eaff8e924f6094bb53291982dc4131e9ccca2232",
-      "authoredAt": "2026-07-09T02:06:08.000+02:00",
-      "committedAt": "2026-08-17T15:00:41.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: synthesize empty AFP_AfpInfo xattr on first probe",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "bfdf81c62f4f52a3626ea62db0744def6778e83f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bfdf81c62f4f52a3626ea62db0744def6778e83f",
-      "authoredAt": "2026-07-09T02:01:11.000+02:00",
-      "committedAt": "2026-08-17T15:00:40.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: skip fallocate for SMB2_CREATE_ALLOCATION_SIZE on a stream handle",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "86f901803080056668cdaf23b01c8e81d2e77956",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/86f901803080056668cdaf23b01c8e81d2e77956",
-      "authoredAt": "2026-07-09T02:01:10.000+02:00",
-      "committedAt": "2026-08-17T15:00:40.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: don't check directory emptiness when deleting a stream",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "439a472cb4fa5df77d595e37205115c01d887d95",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/439a472cb4fa5df77d595e37205115c01d887d95",
-      "authoredAt": "2026-07-09T02:01:09.000+02:00",
-      "committedAt": "2026-08-17T15:00:40.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: zero-initialize xattr_dos_attrib in smb2_update_xattrs()",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "5838cfd6111ae5abe842babf194c54cd3b719f92",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5838cfd6111ae5abe842babf194c54cd3b719f92",
-      "authoredAt": "2026-07-09T02:01:07.000+02:00",
-      "committedAt": "2026-08-17T15:00:40.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: validate out_buf_len before FSCTL_CREATE_OR_GET_OBJECT_ID and FSCTL_GET_REPARSE_POINT writes",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
         }
       ]
     }
