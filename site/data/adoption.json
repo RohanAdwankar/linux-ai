@@ -1,16 +1,70 @@
 {
-  "generatedAt": "2026-09-04T11:20:51.902Z",
+  "generatedAt": "2026-09-04T16:23:31.137Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 984,
-    "totalSubsystems": 274,
-    "totalAuthors": 240,
-    "totalAgents": 166
+    "totalSubsystems": 276,
+    "totalAuthors": 241,
+    "totalAgents": 168
   },
   "commits": [
+    {
+      "sha": "47e93045a2db80d24f5fef65adecc6b2b32efa23",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/47e93045a2db80d24f5fef65adecc6b2b32efa23",
+      "authoredAt": "2026-09-01T23:21:49.000+09:00",
+      "committedAt": "2026-09-03T09:04:25.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "tracing/probes: Fix BTF kflag check for anonymous struct member access",
+      "subsystem": "tracing/probes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.7-flash",
+          "identity": "Antigravity:gemini-3.7-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.7-flash"
+        }
+      ]
+    },
+    {
+      "sha": "738ef4cd82818b13f492fd5ddec7e00f177ffe60",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/738ef4cd82818b13f492fd5ddec7e00f177ffe60",
+      "authoredAt": "2026-08-31T08:04:37.000-07:00",
+      "committedAt": "2026-09-01T09:50:11.000+09:00",
+      "authorName": "Andi Kleen",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "uprobes: guard trace cleanup against error pointers",
+      "subsystem": "uprobes",
+      "assistedBy": [
+        {
+          "raw": "omp:gpt-5.6-luna sashiko",
+          "identity": "omp:gpt-5.6-luna sashiko",
+          "agent": "omp",
+          "model": "gpt-5.6-luna sashiko"
+        }
+      ]
+    },
+    {
+      "sha": "0c4256196b3a105307e2235fbfd85e768bbcdd0f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0c4256196b3a105307e2235fbfd85e768bbcdd0f",
+      "authoredAt": "2026-08-30T23:27:23.000+09:00",
+      "committedAt": "2026-09-03T09:04:25.000+09:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "kprobes: Protect kprobe_blacklist with RCU",
+      "subsystem": "kprobes",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.7-flash",
+          "identity": "Antigravity:gemini-3.7-flash",
+          "agent": "Antigravity",
+          "model": "gemini-3.7-flash"
+        }
+      ]
+    },
     {
       "sha": "03c6ecc4b4b13a3901f207152451fdd2d82e40c4",
       "htmlUrl": "https://github.com/torvalds/linux/commit/03c6ecc4b4b13a3901f207152451fdd2d82e40c4",
@@ -17839,60 +17893,6 @@
       "authorName": "Kiryl Shutsemau (Meta)",
       "committerName": "Andrew Morton",
       "subject": "mm: add MM_CP_UFFD_RWP change_protection() flag",
-      "subsystem": "mm",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "134c1d031a2e9d2f6a3f56fc358df8df7ffeef2b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/134c1d031a2e9d2f6a3f56fc358df8df7ffeef2b",
-      "authoredAt": "2026-07-08T12:14:06.000+01:00",
-      "committedAt": "2026-08-04T19:18:37.000-07:00",
-      "authorName": "Kiryl Shutsemau (Meta)",
-      "committerName": "Andrew Morton",
-      "subject": "mm: add VM_UFFD_RWP VMA flag",
-      "subsystem": "mm",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "2730ee209f95102edb89a87267d656bf0c2df46a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2730ee209f95102edb89a87267d656bf0c2df46a",
-      "authoredAt": "2026-07-08T12:14:05.000+01:00",
-      "committedAt": "2026-08-04T19:18:36.000-07:00",
-      "authorName": "Kiryl Shutsemau (Meta)",
-      "committerName": "Andrew Morton",
-      "subject": "userfaultfd: test uffd VMA flags through the vma_flags_t API",
-      "subsystem": "userfaultfd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "c0ffe79eedc1d6f821e8fdac9106351a5a95e77d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c0ffe79eedc1d6f821e8fdac9106351a5a95e77d",
-      "authoredAt": "2026-07-08T12:14:04.000+01:00",
-      "committedAt": "2026-08-04T19:18:36.000-07:00",
-      "authorName": "Kiryl Shutsemau (Meta)",
-      "committerName": "Andrew Morton",
-      "subject": "mm: rename uffd-wp PTE accessors to uffd",
       "subsystem": "mm",
       "assistedBy": [
         {
