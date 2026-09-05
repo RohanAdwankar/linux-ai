@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-05T13:52:04.394Z",
+  "generatedAt": "2026-09-05T16:50:04.960Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 985,
-    "totalSubsystems": 279,
-    "totalAuthors": 249,
-    "totalAgents": 170
+    "totalSubsystems": 278,
+    "totalAuthors": 251,
+    "totalAgents": 171
   },
   "commits": [
     {
@@ -152,6 +152,24 @@
           "identity": "omp:gpt-5.6-luna sashiko",
           "agent": "omp",
           "model": "gpt-5.6-luna sashiko"
+        }
+      ]
+    },
+    {
+      "sha": "139f57343b3d6b26d9f01580123b2ba2d2150337",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/139f57343b3d6b26d9f01580123b2ba2d2150337",
+      "authoredAt": "2026-08-31T07:59:17.000-04:00",
+      "committedAt": "2026-09-01T22:18:54.000-04:00",
+      "authorName": "Laurence Oberman",
+      "committerName": "Martin K. Petersen (Oracle)",
+      "subject": "scsi: mpi3mr: Fix use-after-free on tgt_dev->starget during target device refresh/update",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude:Sonnet5 [Claude Code]",
+          "identity": "Claude:Sonnet5 [Claude Code]",
+          "agent": "Claude",
+          "model": "Sonnet5 [Claude Code]"
         }
       ]
     },
@@ -710,6 +728,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "3f92a64545165bdbb36dee8fa35626b295463313",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3f92a64545165bdbb36dee8fa35626b295463313",
+      "authoredAt": "2026-08-24T19:36:18.000+08:00",
+      "committedAt": "2026-08-28T21:36:18.000-04:00",
+      "authorName": "Runyu Xiao",
+      "committerName": "Martin K. Petersen (Oracle)",
+      "subject": "scsi: pm8001: Use rollback index when freeing MSI-X vectors",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5",
+          "identity": "Codex:GPT-5",
+          "agent": "Codex",
+          "model": "GPT-5"
         }
       ]
     },
@@ -1358,6 +1394,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "14cc5a7e77731497d5bea70f3bb05df7eda982e4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/14cc5a7e77731497d5bea70f3bb05df7eda982e4",
+      "authoredAt": "2026-08-14T15:48:11.000-04:00",
+      "committedAt": "2026-09-03T14:15:10.000-07:00",
+      "authorName": "Shivam Kumar",
+      "committerName": "Keith Busch",
+      "subject": "nvmet-tcp: fix out-of-bounds write when receiving an over-long PDU",
+      "subsystem": "nvmet-tcp",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -5996,6 +6050,24 @@
           "identity": "Claude:claude-opus-5 [kernel-doc]",
           "agent": "Claude",
           "model": "claude-opus-5 [kernel-doc]"
+        }
+      ]
+    },
+    {
+      "sha": "f4825922d2fb371e2b969697d792077f1b62b62c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f4825922d2fb371e2b969697d792077f1b62b62c",
+      "authoredAt": "2026-08-01T21:30:00.000+05:45",
+      "committedAt": "2026-09-01T22:08:31.000-04:00",
+      "authorName": "Sujal Tuladhar",
+      "committerName": "Martin K. Petersen (Oracle)",
+      "subject": "scsi: target: iscsi: Reserve a terminator byte for the login payload",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude Opus5 (custom harness)",
+          "identity": "Claude Opus5 (custom harness)",
+          "agent": "Claude Opus5 (custom harness)",
+          "model": ""
         }
       ]
     },
@@ -17834,78 +17906,6 @@
           "identity": "0sec:claude-opus-4-8",
           "agent": "0sec",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "ab43bd72f958b69045320bee8dd86fbb0eb74969",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ab43bd72f958b69045320bee8dd86fbb0eb74969",
-      "authoredAt": "2026-07-09T11:17:55.000+02:00",
-      "committedAt": "2026-08-05T10:14:40.000+02:00",
-      "authorName": "Tomas Glozar",
-      "committerName": "Tomas Glozar",
-      "subject": "rtla/tests: Test all tracer options in runtime tests",
-      "subsystem": "rtla/tests",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-6",
-          "identity": "Claude:claude-opus-4-6",
-          "agent": "Claude",
-          "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "8f1b796ff1135f5660e1889973359331c61b78a0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8f1b796ff1135f5660e1889973359331c61b78a0",
-      "authoredAt": "2026-07-09T14:59:56.000+09:00",
-      "committedAt": "2026-08-17T15:00:41.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: add AAPL kAAPL_SERVER_QUERY create context support",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "9ceb4e034a327a04155f32f1cd1a5031dfa5fe02",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9ceb4e034a327a04155f32f1cd1a5031dfa5fe02",
-      "authoredAt": "2026-07-08T22:15:20.000-05:00",
-      "committedAt": "2026-07-15T09:15:42.000-04:00",
-      "authorName": "Mario Limonciello",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amdgpu: Disable PCIe dynamic speed switching on Ryzen Pinnacle Ridge",
-      "subsystem": "drm/amdgpu",
-      "assistedBy": [
-        {
-          "raw": "Claude:sonnet",
-          "identity": "Claude:sonnet",
-          "agent": "Claude",
-          "model": "sonnet"
-        }
-      ]
-    },
-    {
-      "sha": "0148ac33547b9af1c5a7f3bb6e5baffcb6e9fac2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0148ac33547b9af1c5a7f3bb6e5baffcb6e9fac2",
-      "authoredAt": "2026-07-08T22:15:20.000-05:00",
-      "committedAt": "2026-07-17T17:40:31.000-04:00",
-      "authorName": "Mario Limonciello",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amdgpu: Disable PCIe dynamic speed switching on Ryzen Pinnacle Ridge",
-      "subsystem": "drm/amdgpu",
-      "assistedBy": [
-        {
-          "raw": "Claude:sonnet",
-          "identity": "Claude:sonnet",
-          "agent": "Claude",
-          "model": "sonnet"
         }
       ]
     }
