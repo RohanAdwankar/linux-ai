@@ -1,16 +1,70 @@
 {
-  "generatedAt": "2026-09-05T16:50:04.960Z",
+  "generatedAt": "2026-09-05T19:02:35.940Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 985,
-    "totalSubsystems": 278,
-    "totalAuthors": 251,
-    "totalAgents": 171
+    "totalSubsystems": 275,
+    "totalAuthors": 255,
+    "totalAgents": 174
   },
   "commits": [
+    {
+      "sha": "72ce4b24676e8b3b75376c4c559dd81c1ac52d5a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/72ce4b24676e8b3b75376c4c559dd81c1ac52d5a",
+      "authoredAt": "2026-09-04T21:44:43.000+08:00",
+      "committedAt": "2026-09-04T21:44:43.000+08:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Huacai Chen",
+      "subject": "LoongArch: Avoid preempt count underflow without probe",
+      "subsystem": "loongarch",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "c3f2feace5e4f4b01b68b9f947b19adb4155c32e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c3f2feace5e4f4b01b68b9f947b19adb4155c32e",
+      "authoredAt": "2026-09-04T21:44:43.000+08:00",
+      "committedAt": "2026-09-04T21:44:43.000+08:00",
+      "authorName": "Wentao Guan",
+      "committerName": "Huacai Chen",
+      "subject": "LoongArch: Do not save/restore percpu base register in rethook trampoline",
+      "subsystem": "loongarch",
+      "assistedBy": [
+        {
+          "raw": "Kimi:Kimi-K3 # debug and root-cause analysis",
+          "identity": "Kimi:Kimi-K3 # debug and root-cause analysis",
+          "agent": "Kimi",
+          "model": "Kimi-K3 # debug and root-cause analysis"
+        }
+      ]
+    },
+    {
+      "sha": "20a9e97137caaa3fbb27f22f83a5ad80cbd03b01",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/20a9e97137caaa3fbb27f22f83a5ad80cbd03b01",
+      "authoredAt": "2026-09-04T21:44:24.000+08:00",
+      "committedAt": "2026-09-04T21:44:24.000+08:00",
+      "authorName": "Hemanth Selam",
+      "committerName": "Huacai Chen",
+      "subject": "LoongArch: Fix typo \"avaliable\" in comment of vmlinux.lds.S",
+      "subsystem": "loongarch",
+      "assistedBy": [
+        {
+          "raw": "Cursor:claude-opus-5",
+          "identity": "Cursor:claude-opus-5",
+          "agent": "Cursor",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
     {
       "sha": "8efd5f623c63584c2e284a837a7795d95a0491cb",
       "htmlUrl": "https://github.com/torvalds/linux/commit/8efd5f623c63584c2e284a837a7795d95a0491cb",
@@ -966,6 +1020,24 @@
       ]
     },
     {
+      "sha": "2acb9f3d1cc8f65dc81ed55e238cbf8e5b60bff7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2acb9f3d1cc8f65dc81ed55e238cbf8e5b60bff7",
+      "authoredAt": "2026-08-21T17:50:09.000Z",
+      "committedAt": "2026-09-02T22:19:30.000+02:00",
+      "authorName": "FAN YE",
+      "committerName": "David Sterba",
+      "subject": "btrfs: zstd: fix lost wakeup when waiting for a workspace",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
       "sha": "18d80c77b4c7dd20699e81cedfbbff4e9d198f28",
       "htmlUrl": "https://github.com/torvalds/linux/commit/18d80c77b4c7dd20699e81cedfbbff4e9d198f28",
       "authoredAt": "2026-08-20T21:44:58.000Z",
@@ -1034,6 +1106,24 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "cacf35832292997018837e484283f95a9301ebf5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cacf35832292997018837e484283f95a9301ebf5",
+      "authoredAt": "2026-08-20T18:28:48.000+09:30",
+      "committedAt": "2026-09-02T22:19:30.000+02:00",
+      "authorName": "Qu Wenruo",
+      "committerName": "David Sterba",
+      "subject": "btrfs: do not force reloc root creation during qgroup_account_snapshot()",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "LLM (initial analysis, but incorrect conclusion with too many burnt tokens)",
+          "identity": "LLM (initial analysis, but incorrect conclusion with too many burnt tokens)",
+          "agent": "LLM (initial analysis, but incorrect conclusion with too many burnt tokens)",
+          "model": ""
         }
       ]
     },
@@ -1214,6 +1304,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "a8813a923f9e43f788b357fb55c35f7f6ed6f98c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a8813a923f9e43f788b357fb55c35f7f6ed6f98c",
+      "authoredAt": "2026-08-16T22:15:12.000-04:00",
+      "committedAt": "2026-09-02T22:19:29.000+02:00",
+      "authorName": "Shuangpeng Bai",
+      "committerName": "David Sterba",
+      "subject": "btrfs: fix transaction use-after-free in raid stripe insertion",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5",
+          "identity": "Codex:GPT-5",
+          "agent": "Codex",
+          "model": "GPT-5"
         }
       ]
     },
@@ -2574,6 +2682,42 @@
       ]
     },
     {
+      "sha": "e0b54613aabeb8e9da597f23b90c6a03d0981986",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e0b54613aabeb8e9da597f23b90c6a03d0981986",
+      "authoredAt": "2026-08-10T20:16:05.000+08:00",
+      "committedAt": "2026-09-02T00:01:40.000+02:00",
+      "authorName": "Guanghui Yang",
+      "committerName": "David Sterba",
+      "subject": "btrfs: restore active device pointers after failed sprout",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "c93b3c43df561cd9f592cee20ae058b563f9e5b6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c93b3c43df561cd9f592cee20ae058b563f9e5b6",
+      "authoredAt": "2026-08-10T20:16:04.000+08:00",
+      "committedAt": "2026-09-02T00:01:38.000+02:00",
+      "authorName": "Guanghui Yang",
+      "committerName": "David Sterba",
+      "subject": "btrfs: detach failed sprout device from transaction update list",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
       "sha": "86feaba911f2f1a540a7695c8f4a98fd0fd60ac4",
       "htmlUrl": "https://github.com/torvalds/linux/commit/86feaba911f2f1a540a7695c8f4a98fd0fd60ac4",
       "authoredAt": "2026-08-10T12:14:13.000Z",
@@ -3290,6 +3434,24 @@
           "identity": "Claude:claude-opus-4",
           "agent": "Claude",
           "model": "claude-opus-4"
+        }
+      ]
+    },
+    {
+      "sha": "40fe154ba049a33f063c0058cd185d7f682088f3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/40fe154ba049a33f063c0058cd185d7f682088f3",
+      "authoredAt": "2026-08-08T14:38:32.000+08:00",
+      "committedAt": "2026-09-02T00:01:34.000+02:00",
+      "authorName": "Guanghui Yang",
+      "committerName": "David Sterba",
+      "subject": "btrfs: clean up target device if block group marking fails",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
         }
       ]
     },
@@ -17744,168 +17906,6 @@
           "identity": "gkh_clanker_t1000",
           "agent": "gkh_clanker_t1000",
           "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "1bb5c324b872c2e71fa1b12a5f59615b994501da",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1bb5c324b872c2e71fa1b12a5f59615b994501da",
-      "authoredAt": "2026-07-09T15:20:52.000+02:00",
-      "committedAt": "2026-07-17T15:50:30.000+02:00",
-      "authorName": "Griffin Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "misc: amd-sbi: Add null check for devm_kasprintf()",
-      "subsystem": "misc",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "b37c4d0a2fd90c0c31223acd37f763eb8953ed1a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b37c4d0a2fd90c0c31223acd37f763eb8953ed1a",
-      "authoredAt": "2026-07-09T15:16:40.000+02:00",
-      "committedAt": "2026-08-15T15:41:13.000-05:00",
-      "authorName": "Griffin Kroah-Hartman",
-      "committerName": "Jassi Brar",
-      "subject": "mailbox: mchp-ipc-sbi: Add null check for devm_kasprintf()",
-      "subsystem": "mailbox",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "919d1ba86be65fc08a83c5def5cc08a61a5ace62",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/919d1ba86be65fc08a83c5def5cc08a61a5ace62",
-      "authoredAt": "2026-07-09T15:16:40.000+02:00",
-      "committedAt": "2026-07-17T16:14:16.000+02:00",
-      "authorName": "Griffin Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "mailbox: mchp-ipc-sbi: Add null check for devm_kasprintf()",
-      "subsystem": "mailbox",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "55c68ac93e7dacc0f5f608b9c39dd4ff48cf28e8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/55c68ac93e7dacc0f5f608b9c39dd4ff48cf28e8",
-      "authoredAt": "2026-07-09T15:12:29.000+02:00",
-      "committedAt": "2026-08-11T18:10:03.000+02:00",
-      "authorName": "Doruk Tan Ozturk",
-      "committerName": "David Heidelberg",
-      "subject": "nfc: llcp: bound the connect_sn TLV walk to the skb",
-      "subsystem": "nfc",
-      "assistedBy": [
-        {
-          "raw": "0sec:claude-opus-4-8",
-          "identity": "0sec:claude-opus-4-8",
-          "agent": "0sec",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "29261f8bb41662f2a660c479e5cf592942b53f78",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/29261f8bb41662f2a660c479e5cf592942b53f78",
-      "authoredAt": "2026-07-09T14:30:33.000+02:00",
-      "committedAt": "2026-07-14T15:12:16.000-07:00",
-      "authorName": "Hari Mishal",
-      "committerName": "Keith Busch",
-      "subject": "nvme: clamp FDP nruhsd to allocated RUH status descriptor count",
-      "subsystem": "nvme",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "3c568b35a0d309acb40746552bec2af24cd550ef",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3c568b35a0d309acb40746552bec2af24cd550ef",
-      "authoredAt": "2026-07-09T14:30:32.000+02:00",
-      "committedAt": "2026-07-14T15:11:59.000-07:00",
-      "authorName": "Hari Mishal",
-      "committerName": "Keith Busch",
-      "subject": "nvme: bound ns descriptor header and body to identify buffer",
-      "subsystem": "nvme",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "6d7efb5fbb812d7cd7899dd1aacacb02a36a5886",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6d7efb5fbb812d7cd7899dd1aacacb02a36a5886",
-      "authoredAt": "2026-07-09T17:09:51.000+05:30",
-      "committedAt": "2026-07-22T13:41:54.000+05:30",
-      "authorName": "Chaitanya Kumar Borah",
-      "committerName": "Chaitanya Kumar Borah",
-      "subject": "drm/i915/dp: set VSC_SDP MSA delegation only for capable sinks",
-      "subsystem": "drm/i915/dp",
-      "assistedBy": [
-        {
-          "raw": "GitHub_Copilot:claude-sonnet-4.6",
-          "identity": "GitHub_Copilot:claude-sonnet-4.6",
-          "agent": "GitHub_Copilot",
-          "model": "claude-sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "a0e65490319c468f4585e84994a7a4085b5da341",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a0e65490319c468f4585e84994a7a4085b5da341",
-      "authoredAt": "2026-07-09T17:09:50.000+05:30",
-      "committedAt": "2026-07-22T13:41:15.000+05:30",
-      "authorName": "Chaitanya Kumar Borah",
-      "committerName": "Chaitanya Kumar Borah",
-      "subject": "drm/i915/dp: s/intel_dp_needs_vsc_sdp/intel_dp_needs_vsc_colorimetry",
-      "subsystem": "drm/i915/dp",
-      "assistedBy": [
-        {
-          "raw": "GitHub_Copilot:claude-sonnet-4.6",
-          "identity": "GitHub_Copilot:claude-sonnet-4.6",
-          "agent": "GitHub_Copilot",
-          "model": "claude-sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "5d72720365f973e2c21fa99505b627521de66c25",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5d72720365f973e2c21fa99505b627521de66c25",
-      "authoredAt": "2026-07-09T12:08:53.000+02:00",
-      "committedAt": "2026-07-09T16:21:44.000-06:00",
-      "authorName": "Doruk Tan Ozturk",
-      "committerName": "Jens Axboe",
-      "subject": "xen-blkfront: fix double completion of split requests on resume",
-      "subsystem": "xen-blkfront",
-      "assistedBy": [
-        {
-          "raw": "0sec:claude-opus-4-8",
-          "identity": "0sec:claude-opus-4-8",
-          "agent": "0sec",
-          "model": "claude-opus-4-8"
         }
       ]
     }
