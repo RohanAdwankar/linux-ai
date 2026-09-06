@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-06T17:05:17.308Z",
+  "generatedAt": "2026-09-06T19:13:04.367Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 985,
-    "totalSubsystems": 275,
-    "totalAuthors": 255,
+    "totalSubsystems": 276,
+    "totalAuthors": 256,
     "totalAgents": 174
   },
   "commits": [
@@ -498,6 +498,24 @@
       ]
     },
     {
+      "sha": "cd3b9cea675bbfebc223f007dc2f4e79524fa54c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cd3b9cea675bbfebc223f007dc2f4e79524fa54c",
+      "authoredAt": "2026-08-27T21:16:17.000Z",
+      "committedAt": "2026-08-31T18:44:47.000+02:00",
+      "authorName": "Amit Sunil Dhamne",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: tcpm: constrain TCPM_SOURCING_VBUS event handling",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro",
+          "identity": "Gemini:gemini-3.1-pro",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro"
+        }
+      ]
+    },
+    {
       "sha": "390f6bd8583d177029d9df4bea6667509e55a765",
       "htmlUrl": "https://github.com/torvalds/linux/commit/390f6bd8583d177029d9df4bea6667509e55a765",
       "authoredAt": "2026-08-27T18:43:22.000Z",
@@ -764,6 +782,24 @@
           "identity": "Codex:gpt-5.6-sol",
           "agent": "Codex",
           "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "02c6be7d675b21d81f0ba3a524346850a8c0e3bf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/02c6be7d675b21d81f0ba3a524346850a8c0e3bf",
+      "authoredAt": "2026-08-24T15:51:29.000Z",
+      "committedAt": "2026-09-02T09:18:03.000+02:00",
+      "authorName": "Eric Dumazet",
+      "committerName": "Peter Zijlstra",
+      "subject": "locking/lockdep: Invalidate stale class_cache entries for zapped classes",
+      "subsystem": "locking/lockdep",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.1-pro",
+          "identity": "Gemini:gemini-3.1-pro",
+          "agent": "Gemini",
+          "model": "gemini-3.1-pro"
         }
       ]
     },
@@ -1038,6 +1074,24 @@
       ]
     },
     {
+      "sha": "445fc368c6bc73eff0aeb3818cf5f355facfbb16",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/445fc368c6bc73eff0aeb3818cf5f355facfbb16",
+      "authoredAt": "2026-08-21T17:04:16.000+08:00",
+      "committedAt": "2026-09-01T16:43:32.000+02:00",
+      "authorName": "Liu Qi",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb-storage: ene_ub6250: fix race between scan work and probe",
+      "subsystem": "usb-storage",
+      "assistedBy": [
+        {
+          "raw": "Qwen:Qwen3.6",
+          "identity": "Qwen:Qwen3.6",
+          "agent": "Qwen",
+          "model": "Qwen3.6"
+        }
+      ]
+    },
+    {
       "sha": "18d80c77b4c7dd20699e81cedfbbff4e9d198f28",
       "htmlUrl": "https://github.com/torvalds/linux/commit/18d80c77b4c7dd20699e81cedfbbff4e9d198f28",
       "authoredAt": "2026-08-20T21:44:58.000Z",
@@ -1088,6 +1142,42 @@
           "identity": "Codex:gpt-5",
           "agent": "Codex",
           "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "c9273c83885835dbd1e8835d5665dfb8503d65e0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c9273c83885835dbd1e8835d5665dfb8503d65e0",
+      "authoredAt": "2026-08-20T13:53:07.000Z",
+      "committedAt": "2026-09-01T16:50:25.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: qcom-pmic-typec: drain cc_debounce_dwork if port_start() fails",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "263f7d61a4201cde16849b2d016251806e7418be",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/263f7d61a4201cde16849b2d016251806e7418be",
+      "authoredAt": "2026-08-20T13:53:06.000Z",
+      "committedAt": "2026-09-01T16:50:04.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: qcom-pmic-typec: disable cc_debounce_dwork on stop",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
         }
       ]
     },
@@ -1160,6 +1250,42 @@
           "identity": "Codex:gpt-5.6-sol",
           "agent": "Codex",
           "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "7b0df6efd143f8085bdb68778a013a46f1349913",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7b0df6efd143f8085bdb68778a013a46f1349913",
+      "authoredAt": "2026-08-19T16:14:48.000Z",
+      "committedAt": "2026-09-01T16:49:35.000+02:00",
+      "authorName": "Fan Wu",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: typec: qcom-pmic: cancel reset_work on stop",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
+      "sha": "2430eb81e44111b30eeb5273bbcf8b24ca517ef9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2430eb81e44111b30eeb5273bbcf8b24ca517ef9",
+      "authoredAt": "2026-08-19T12:04:25.000+02:00",
+      "committedAt": "2026-09-01T16:31:07.000+02:00",
+      "authorName": "Griffin Kroah-Hartman",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: image: mdc800: change kmalloc() to kzalloc()",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
         }
       ]
     },
@@ -7670,6 +7796,24 @@
           "identity": "Codex:gpt-5.4",
           "agent": "Codex",
           "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "f0efaf1872949e96d213c8e910fd9517f7d7c406",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f0efaf1872949e96d213c8e910fd9517f7d7c406",
+      "authoredAt": "2026-07-29T09:04:54.000Z",
+      "committedAt": "2026-09-01T16:40:41.000+02:00",
+      "authorName": "Aleksandr Nogikh",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: gadget: midi2: Fix null-pointer dereference in f_midi2_free_ep_reqs",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "identity": "Gemini:gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "agent": "Gemini",
+          "model": "gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot"
         }
       ]
     },
@@ -17762,150 +17906,6 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "2aaf67f0516fde29620d0edfc29c01b9ea7ad430",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2aaf67f0516fde29620d0edfc29c01b9ea7ad430",
-      "authoredAt": "2026-07-09T11:58:36.000-04:00",
-      "committedAt": "2026-07-09T22:18:21.000+02:00",
-      "authorName": "Nicholas Dudar",
-      "committerName": "Kumar Kartikeya Dwivedi",
-      "subject": "bpf: Reject rdonly/rdwr_buf_size kfunc arguments that exceed u32 max",
-      "subsystem": "bpf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "8b301c4afbce4bc3f94528441d8d5ce1366504ad",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8b301c4afbce4bc3f94528441d8d5ce1366504ad",
-      "authoredAt": "2026-07-09T08:57:14.000-07:00",
-      "committedAt": "2026-07-14T09:01:21.000-07:00",
-      "authorName": "Dave Jiang",
-      "committerName": "Dave Jiang",
-      "subject": "cxl/mbox: Break poison list loop on an empty payload",
-      "subsystem": "cxl/mbox",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "e3d9c7160d483fc8f9e225aafad8ecbbc43f3151",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e3d9c7160d483fc8f9e225aafad8ecbbc43f3151",
-      "authoredAt": "2026-07-09T15:54:39.000Z",
-      "committedAt": "2026-07-09T12:25:16.000-05:00",
-      "authorName": "Norbert Manthey",
-      "committerName": "Steve French",
-      "subject": "smb: client: mask server-provided mode to 07777 in modefromsid",
-      "subsystem": "smb",
-      "assistedBy": [
-        {
-          "raw": "Kiro:claude-opus-4.6",
-          "identity": "Kiro:claude-opus-4.6",
-          "agent": "Kiro",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "5650c18d93a1db7e27cb5a40b394747eb4686d5b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5650c18d93a1db7e27cb5a40b394747eb4686d5b",
-      "authoredAt": "2026-07-09T15:07:17.000Z",
-      "committedAt": "2026-07-13T07:10:11.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: f_midi: cancel pending IN work before freeing the midi object",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "1c0ae3df692ea2a4ce992f786346154e75a3f0d5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1c0ae3df692ea2a4ce992f786346154e75a3f0d5",
-      "authoredAt": "2026-07-09T17:05:30.000+02:00",
-      "committedAt": "2026-07-16T10:18:25.000-05:00",
-      "authorName": "Ibrahim Hashimov",
-      "committerName": "Steve French",
-      "subject": "ksmbd: fix integer overflow in set_file_allocation_info()",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "AuditCode-AI:2026.07",
-          "identity": "AuditCode-AI:2026.07",
-          "agent": "AuditCode-AI",
-          "model": "2026.07"
-        }
-      ]
-    },
-    {
-      "sha": "4ca62df6bc0708947b48da3f6a712ecb8e73929c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4ca62df6bc0708947b48da3f6a712ecb8e73929c",
-      "authoredAt": "2026-07-09T15:26:09.000+02:00",
-      "committedAt": "2026-08-03T21:10:13.000-07:00",
-      "authorName": "Ibrahim Hashimov",
-      "committerName": "Andrew Morton",
-      "subject": "ocfs2: validate rl_used against rl_count in refcount block validator",
-      "subsystem": "ocfs2",
-      "assistedBy": [
-        {
-          "raw": "AuditCode-AI:2026.07",
-          "identity": "AuditCode-AI:2026.07",
-          "agent": "AuditCode-AI",
-          "model": "2026.07"
-        }
-      ]
-    },
-    {
-      "sha": "4a3f00262a044e8e15064b1a6860968bf0500bf4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4a3f00262a044e8e15064b1a6860968bf0500bf4",
-      "authoredAt": "2026-07-09T15:25:33.000+02:00",
-      "committedAt": "2026-08-10T10:34:14.000-07:00",
-      "authorName": "Ibrahim Hashimov",
-      "committerName": "Keith Busch",
-      "subject": "nvmet-tcp: bound SGL data length before allocating command buffers",
-      "subsystem": "nvmet-tcp",
-      "assistedBy": [
-        {
-          "raw": "AuditCode-AI:2026.07",
-          "identity": "AuditCode-AI:2026.07",
-          "agent": "AuditCode-AI",
-          "model": "2026.07"
-        }
-      ]
-    },
-    {
-      "sha": "e4a3c99bbf779d6357adb8101ad18f34c2194306",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e4a3c99bbf779d6357adb8101ad18f34c2194306",
-      "authoredAt": "2026-07-09T15:24:16.000+02:00",
-      "committedAt": "2026-07-09T15:47:35.000+02:00",
-      "authorName": "Griffin Kroah-Hartman",
-      "committerName": "AngeloGioacchino Del Regno",
-      "subject": "soc: mediatek: mtk-socinfo Add error handling in devm_kasprintf()",
-      "subsystem": "soc",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
         }
       ]
     }
