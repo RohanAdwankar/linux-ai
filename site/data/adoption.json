@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-09-09T18:38:50.016Z",
+  "generatedAt": "2026-09-09T21:43:18.277Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 985,
-    "totalSubsystems": 276,
+    "totalSubsystems": 279,
     "totalAuthors": 256,
-    "totalAgents": 174
+    "totalAgents": 175
   },
   "commits": [
+    {
+      "sha": "d7808b37da0a619cf1fa541c2384e783fecc2480",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d7808b37da0a619cf1fa541c2384e783fecc2480",
+      "authoredAt": "2026-09-05T17:20:58.000+02:00",
+      "committedAt": "2026-09-07T18:54:04.000-04:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "virtio_input: stop callbacks before unregistering input device",
+      "subsystem": "virtio_input",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "93fa09455fb1a9624b73d42ac1f83771f4818e80",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/93fa09455fb1a9624b73d42ac1f83771f4818e80",
+      "authoredAt": "2026-09-04T10:13:18.000-04:00",
+      "committedAt": "2026-09-07T18:54:03.000-04:00",
+      "authorName": "Andrew Stellman",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "virtio-pci: return IRQ_HANDLED after non-zero ISR",
+      "subsystem": "virtio-pci",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "72ce4b24676e8b3b75376c4c559dd81c1ac52d5a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/72ce4b24676e8b3b75376c4c559dd81c1ac52d5a",
@@ -152,6 +188,42 @@
           "identity": "Antigravity:gemini-3.7-flash",
           "agent": "Antigravity",
           "model": "gemini-3.7-flash"
+        }
+      ]
+    },
+    {
+      "sha": "0d195797a80b77f2ec56718cd26d3ee65d0093e8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0d195797a80b77f2ec56718cd26d3ee65d0093e8",
+      "authoredAt": "2026-09-01T17:48:42.000+08:00",
+      "committedAt": "2026-09-07T18:54:03.000-04:00",
+      "authorName": "Linfeng Sun",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "vdpa_sim_net: check TX pull result before RX copy",
+      "subsystem": "vdpa_sim_net",
+      "assistedBy": [
+        {
+          "raw": "OpenAI-Codex:GPT-5",
+          "identity": "OpenAI-Codex:GPT-5",
+          "agent": "OpenAI-Codex",
+          "model": "GPT-5"
+        }
+      ]
+    },
+    {
+      "sha": "0a8693f00c408d85f086ad85d29e7030bf1e2055",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0a8693f00c408d85f086ad85d29e7030bf1e2055",
+      "authoredAt": "2026-09-01T17:48:00.000+08:00",
+      "committedAt": "2026-09-07T18:54:03.000-04:00",
+      "authorName": "Linfeng Sun",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "vdpa_sim_blk: reject out-of-range sector starts",
+      "subsystem": "vdpa_sim_blk",
+      "assistedBy": [
+        {
+          "raw": "OpenAI-Codex:GPT-5",
+          "identity": "OpenAI-Codex:GPT-5",
+          "agent": "OpenAI-Codex",
+          "model": "GPT-5"
         }
       ]
     },
@@ -1056,6 +1128,24 @@
       ]
     },
     {
+      "sha": "3f9a0fceb730f5107d52421ead5568eae25a0049",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3f9a0fceb730f5107d52421ead5568eae25a0049",
+      "authoredAt": "2026-08-21T23:39:53.000+02:00",
+      "committedAt": "2026-09-07T18:54:02.000-04:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "virtio: fix use-after-free in unregister_virtio_device()",
+      "subsystem": "virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
       "sha": "2acb9f3d1cc8f65dc81ed55e238cbf8e5b60bff7",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2acb9f3d1cc8f65dc81ed55e238cbf8e5b60bff7",
       "authoredAt": "2026-08-21T17:50:09.000Z",
@@ -1376,6 +1466,24 @@
           "identity": "Claude:claude-fable-5",
           "agent": "Claude",
           "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
+      "sha": "75d276e5bb68778b2916f98a2bc30f142ebadc64",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/75d276e5bb68778b2916f98a2bc30f142ebadc64",
+      "authoredAt": "2026-08-17T22:32:29.000Z",
+      "committedAt": "2026-09-07T18:54:02.000-04:00",
+      "authorName": "Alexander Graf",
+      "committerName": "Michael S. Tsirkin",
+      "subject": "virtio_ring: fix stale descriptor flags after a failed packed add",
+      "subsystem": "virtio_ring",
+      "assistedBy": [
+        {
+          "raw": "Kiro:claude-opus-5 checkpatch sparse",
+          "identity": "Kiro:claude-opus-5 checkpatch sparse",
+          "agent": "Kiro",
+          "model": "claude-opus-5 checkpatch sparse"
         }
       ]
     },
@@ -17791,114 +17899,6 @@
       "authorName": "Nicholas Dudar",
       "committerName": "Kumar Kartikeya Dwivedi",
       "subject": "selftests/bpf: Test bpf_cpumask_populate() rejects a borrowed cpumask",
-      "subsystem": "selftests/bpf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "8740156ad33be5071b588b594c55f279457f667c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8740156ad33be5071b588b594c55f279457f667c",
-      "authoredAt": "2026-07-09T14:27:59.000-04:00",
-      "committedAt": "2026-07-12T01:52:36.000+02:00",
-      "authorName": "Nicholas Dudar",
-      "committerName": "Kumar Kartikeya Dwivedi",
-      "subject": "bpf: Require a BPF cpumask for bpf_cpumask_populate()",
-      "subsystem": "bpf",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "689f1eb3719d61700b58f984ac8602837f004f8c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/689f1eb3719d61700b58f984ac8602837f004f8c",
-      "authoredAt": "2026-07-09T18:50:46.000+02:00",
-      "committedAt": "2026-08-17T15:00:43.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: report actual xattr value length in stream enumeration",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "6cbb144f8ed7ab7cb86f2f120740f578db9b62e0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6cbb144f8ed7ab7cb86f2f120740f578db9b62e0",
-      "authoredAt": "2026-07-09T18:50:45.000+02:00",
-      "committedAt": "2026-08-17T15:00:43.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: quiet mdssvc RPC log spam in create_smb2_pipe",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "c43122fef328a70045fe7621c06de6b2b8e19264",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c43122fef328a70045fe7621c06de6b2b8e19264",
-      "authoredAt": "2026-07-09T16:41:59.000Z",
-      "committedAt": "2026-07-14T10:59:53.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Marc Kleine-Budde",
-      "subject": "can: esd_usb: kill anchored URBs before freeing netdevs",
-      "subsystem": "can",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "77b814c1832fde018c30357b4ec3fcdaa91a1c10",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/77b814c1832fde018c30357b4ec3fcdaa91a1c10",
-      "authoredAt": "2026-07-09T08:58:41.000-07:00",
-      "committedAt": "2026-07-14T09:01:56.000-07:00",
-      "authorName": "Dave Jiang",
-      "committerName": "Dave Jiang",
-      "subject": "cxl/features: Serialize multi-part Get/Set Feature transfers",
-      "subsystem": "cxl/features",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "12556c3198328df38b3444978391141ad6f7092b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/12556c3198328df38b3444978391141ad6f7092b",
-      "authoredAt": "2026-07-09T11:58:37.000-04:00",
-      "committedAt": "2026-07-09T22:21:45.000+02:00",
-      "authorName": "Nicholas Dudar",
-      "committerName": "Kumar Kartikeya Dwivedi",
-      "subject": "selftests/bpf: Add test for oversized rdonly/rdwr_buf_size kfunc argument",
       "subsystem": "selftests/bpf",
       "assistedBy": [
         {
