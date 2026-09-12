@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-11T21:44:20.993Z",
+  "generatedAt": "2026-09-12T00:19:45.660Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 269,
-    "totalAuthors": 262,
+    "totalSubsystems": 271,
+    "totalAuthors": 263,
     "totalAgents": 176
   },
   "commits": [
@@ -128,6 +128,42 @@
       "committerName": "Michael S. Tsirkin",
       "subject": "virtio_input: stop callbacks before unregistering input device",
       "subsystem": "virtio_input",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "fedf002d7d08bee36693aacd1ade2ba39351ea91",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fedf002d7d08bee36693aacd1ade2ba39351ea91",
+      "authoredAt": "2026-09-05T10:04:26.000+02:00",
+      "committedAt": "2026-09-08T15:36:03.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Thomas Zimmermann",
+      "subject": "drm/adp: Drop the select of the nonexistent CONFIG_DRM_KMS_DMA_HELPER",
+      "subsystem": "drm/adp",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f97802dd98b27e45c04293f9926f07642578b23f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f97802dd98b27e45c04293f9926f07642578b23f",
+      "authoredAt": "2026-09-05T10:03:44.000+02:00",
+      "committedAt": "2026-09-08T15:36:18.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Thomas Zimmermann",
+      "subject": "drm/logicvc: Drop the select of the nonexistent CONFIG_DRM_KMS_DMA_HELPER",
+      "subsystem": "drm/logicvc",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -512,6 +548,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f5fcf7e638b904397ec0f66d3ea6766ef0cfe25b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f5fcf7e638b904397ec0f66d3ea6766ef0cfe25b",
+      "authoredAt": "2026-09-03T13:45:52.000+02:00",
+      "committedAt": "2026-09-09T11:20:39.000-04:00",
+      "authorName": "Thomas Hellström",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe: Flush LSC untyped L1 dataport cache after rcs/ccs batches",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-sonnet-5",
+          "identity": "GitHub_Copilot:claude-sonnet-5",
+          "agent": "GitHub_Copilot",
+          "model": "claude-sonnet-5"
         }
       ]
     },
@@ -1706,6 +1760,24 @@
           "identity": "GLM:glm-5.3",
           "agent": "GLM",
           "model": "glm-5.3"
+        }
+      ]
+    },
+    {
+      "sha": "a894f97318366d12102c15937aa6b63c21aa82b5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a894f97318366d12102c15937aa6b63c21aa82b5",
+      "authoredAt": "2026-08-25T13:02:04.000+05:30",
+      "committedAt": "2026-09-10T11:05:09.000+03:00",
+      "authorName": "Mitul Golani",
+      "committerName": "Jani Nikula",
+      "subject": "drm/i915/dp: Gate UHBR SST SDP splitting on sink capability",
+      "subsystem": "drm/i915/dp",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8",
+          "identity": "Claude:claude-opus-4-8",
+          "agent": "Claude",
+          "model": "claude-opus-4-8"
         }
       ]
     },
@@ -17840,78 +17912,6 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "68d4d3e78150c7ed7d1195af63ad1e6ace30c661",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/68d4d3e78150c7ed7d1195af63ad1e6ace30c661",
-      "authoredAt": "2026-07-12T16:41:50.000-07:00",
-      "committedAt": "2026-07-13T14:32:37.000+02:00",
-      "authorName": "Xiang Mei",
-      "committerName": "Jan Kara",
-      "subject": "isofs: fix out-of-bounds page array access on empty zisofs block",
-      "subsystem": "isofs",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "427ac6f5ff7607da32862f2918ca6e4bd32252f0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/427ac6f5ff7607da32862f2918ca6e4bd32252f0",
-      "authoredAt": "2026-07-12T15:37:33.000-07:00",
-      "committedAt": "2026-07-18T11:58:16.000+09:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Damien Le Moal",
-      "subject": "ata: sata_mv: use devm clock helpers",
-      "subsystem": "ata",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
-        }
-      ]
-    },
-    {
-      "sha": "ef19a9cf037957fe3a35df8355c76ff0a63a0436",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ef19a9cf037957fe3a35df8355c76ff0a63a0436",
-      "authoredAt": "2026-07-12T15:31:37.000-07:00",
-      "committedAt": "2026-07-18T10:35:23.000+09:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Damien Le Moal",
-      "subject": "ata: sata_mv: accept 1 or 2 resources in platform probe",
-      "subsystem": "ata",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
-        }
-      ]
-    },
-    {
-      "sha": "036d96ceec6d966339aea34d034420991e24cfac",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/036d96ceec6d966339aea34d034420991e24cfac",
-      "authoredAt": "2026-07-12T22:30:04.000Z",
-      "committedAt": "2026-07-13T01:34:41.000+01:00",
-      "authorName": "Babanpreet Singh",
-      "committerName": "Jonathan Cameron",
-      "subject": "staging: iio: frequency: remove incorrect kernel-doc markings in dds.h",
-      "subsystem": "staging",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
         }
       ]
     }
