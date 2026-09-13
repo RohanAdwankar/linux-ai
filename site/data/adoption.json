@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-13T19:28:57.969Z",
+  "generatedAt": "2026-09-13T22:25:34.977Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 261,
+    "totalSubsystems": 260,
     "totalAuthors": 259,
-    "totalAgents": 171
+    "totalAgents": 170
   },
   "commits": [
     {
@@ -98,6 +98,24 @@
           "identity": "Kiro:claude-opus-5",
           "agent": "Kiro",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "7e645147dfba67edb3ed3090a1ed1d89df77fc27",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7e645147dfba67edb3ed3090a1ed1d89df77fc27",
+      "authoredAt": "2026-09-09T08:29:17.000+02:00",
+      "committedAt": "2026-09-11T14:04:05.000-04:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Fix ring_buffer_read_page_size() kernel-doc",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -422,6 +440,42 @@
           "identity": "Codex:gpt-5.6-sol",
           "agent": "Codex",
           "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "0999d3e16d13b6299fd7cc7a7fb2825c18e90dd0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0999d3e16d13b6299fd7cc7a7fb2825c18e90dd0",
+      "authoredAt": "2026-09-07T12:26:07.000+05:30",
+      "committedAt": "2026-09-11T13:54:32.000-04:00",
+      "authorName": "Hemanth Selam",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Fix typo \"preceeded\" in comment",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "Cursor:claude-opus-5",
+          "identity": "Cursor:claude-opus-5",
+          "agent": "Cursor",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "89b000ba0796593aa61f6eec24d369337594588b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/89b000ba0796593aa61f6eec24d369337594588b",
+      "authoredAt": "2026-09-07T11:56:08.000+05:30",
+      "committedAt": "2026-09-11T13:54:14.000-04:00",
+      "authorName": "Hemanth Selam",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Fix typo \"availabe\" in comment",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "Cursor:claude-opus-5",
+          "identity": "Cursor:claude-opus-5",
+          "agent": "Cursor",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -2996,6 +3050,24 @@
           "identity": "Codex:GPT-5",
           "agent": "Codex",
           "model": "GPT-5"
+        }
+      ]
+    },
+    {
+      "sha": "08cacffeef8f64f1a222c93467ca84f24a46c953",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/08cacffeef8f64f1a222c93467ca84f24a46c953",
+      "authoredAt": "2026-08-22T19:53:22.000Z",
+      "committedAt": "2026-09-11T13:33:54.000-04:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Steven Rostedt",
+      "subject": "ftrace: fork: Initialize function graph state before copy_exec_state()",
+      "subsystem": "ftrace",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
         }
       ]
     },
@@ -17840,78 +17912,6 @@
           "identity": "Antigravity:gemini-3.1-pro",
           "agent": "Antigravity",
           "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "116087d9db1502de054fb0453fdb002c0562019d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/116087d9db1502de054fb0453fdb002c0562019d",
-      "authoredAt": "2026-07-13T22:39:37.000-07:00",
-      "committedAt": "2026-08-02T18:29:01.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: samsung-keypad - clean up wakeup configuration logic",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.1-pro",
-          "identity": "Antigravity:gemini-3.1-pro",
-          "agent": "Antigravity",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "f1a3a9946aab611dd2200c01ff122f64b033dad2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f1a3a9946aab611dd2200c01ff122f64b033dad2",
-      "authoredAt": "2026-07-14T04:29:10.000Z",
-      "committedAt": "2026-08-02T21:41:51.000+09:00",
-      "authorName": "Babanpreet Singh",
-      "committerName": "William Breathitt Gray",
-      "subject": "counter: microchip-tcb-capture: Fix DT channel validation",
-      "subsystem": "counter",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5 [gcc W=1]",
-          "identity": "Claude:claude-fable-5 [gcc W=1]",
-          "agent": "Claude",
-          "model": "claude-fable-5 [gcc W=1]"
-        }
-      ]
-    },
-    {
-      "sha": "4d3721b204f961e905714954ff95633337b768e3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4d3721b204f961e905714954ff95633337b768e3",
-      "authoredAt": "2026-07-14T04:10:10.000Z",
-      "committedAt": "2026-07-27T20:47:01.000+02:00",
-      "authorName": "Babanpreet Singh",
-      "committerName": "Krzysztof Kozlowski",
-      "subject": "w1: ds2482: Fix signedness bug in ds2482_w1_triplet()",
-      "subsystem": "w1",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "242b9a9e3df32b9fd6089e01ebdad5a95864ff26",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/242b9a9e3df32b9fd6089e01ebdad5a95864ff26",
-      "authoredAt": "2026-07-13T19:50:25.000-07:00",
-      "committedAt": "2026-07-17T15:50:34.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "misc: keba: cp500: use pcim_enable_device()",
-      "subsystem": "misc",
-      "assistedBy": [
-        {
-          "raw": "opencode:hy3-free",
-          "identity": "opencode:hy3-free",
-          "agent": "opencode",
-          "model": "hy3-free"
         }
       ]
     }
