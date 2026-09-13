@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T22:19:42.017Z",
+  "generatedAt": "2026-09-13T01:02:22.506Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -223,6 +223,42 @@
           "raw": "LOLLM # finding obvious bugs",
           "identity": "LOLLM # finding obvious bugs",
           "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "59351365ac271b5e0eb180f211c531476a36221f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/59351365ac271b5e0eb180f211c531476a36221f",
+      "authoredAt": "2026-09-08T21:55:02.000+01:00",
+      "committedAt": "2026-09-12T20:01:19.000+02:00",
+      "authorName": "Lorenzo Stoakes (ARM)",
+      "committerName": "Nicolas Schier",
+      "subject": "scripts/mksysmap: fix escape of '$' in the __pi_ pattern",
+      "subsystem": "scripts/mksysmap",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "281b61d408d4c39544583e393c6707af0ef5ee50",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/281b61d408d4c39544583e393c6707af0ef5ee50",
+      "authoredAt": "2026-09-08T21:55:01.000+01:00",
+      "committedAt": "2026-09-12T20:01:19.000+02:00",
+      "authorName": "Lorenzo Stoakes (ARM)",
+      "committerName": "Nicolas Schier",
+      "subject": "scripts/mksysmap: drop the MODULE_INFO() symbols from kallsyms",
+      "subsystem": "scripts/mksysmap",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
           "model": ""
         }
       ]
@@ -17870,42 +17906,6 @@
       "committerName": "Alexandre Belloni",
       "subject": "rtc: st-lpc: get IRQ via platform_get_irq()",
       "subsystem": "rtc",
-      "assistedBy": [
-        {
-          "raw": "opencode:hy3-free",
-          "identity": "opencode:hy3-free",
-          "agent": "opencode",
-          "model": "hy3-free"
-        }
-      ]
-    },
-    {
-      "sha": "7cefedf0c4a2d943f96f440b433bf71a1a8261d7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7cefedf0c4a2d943f96f440b433bf71a1a8261d7",
-      "authoredAt": "2026-07-13T16:29:16.000-07:00",
-      "committedAt": "2026-07-15T09:37:38.000+02:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Bartosz Golaszewski",
-      "subject": "gpiolib: remove trailing comma from sentinel in GPIO_LOOKUP_SINGLE",
-      "subsystem": "gpiolib",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "bbd8254da11c189072349003006091e8327e8d36",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bbd8254da11c189072349003006091e8327e8d36",
-      "authoredAt": "2026-07-13T16:28:10.000-07:00",
-      "committedAt": "2026-07-16T16:03:29.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Bartosz Golaszewski",
-      "subject": "gpio: bt8xx: use devm_ioremap_resource()",
-      "subsystem": "gpio",
       "assistedBy": [
         {
           "raw": "opencode:hy3-free",
