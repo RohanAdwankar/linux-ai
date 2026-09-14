@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-14T01:08:12.709Z",
+  "generatedAt": "2026-09-14T06:20:09.059Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 260,
-    "totalAuthors": 259,
+    "totalSubsystems": 262,
+    "totalAuthors": 261,
     "totalAgents": 170
   },
   "commits": [
@@ -884,6 +884,24 @@
       "committerName": "Takashi Iwai",
       "subject": "ALSA: ctxfi: Fix CA20K2 S/PDIF passthrough",
       "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "27600805e62f800bacf990354632eae4e487d34c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/27600805e62f800bacf990354632eae4e487d34c",
+      "authoredAt": "2026-09-03T10:43:25.000-05:00",
+      "committedAt": "2026-09-10T18:05:43.000-07:00",
+      "authorName": "Yazen Ghannam",
+      "committerName": "Borislav Petkov (AMD)",
+      "subject": "x86/amd_node: Fix PCI device reference counting in amd_smn_init()",
+      "subsystem": "x86/amd_node",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -1988,6 +2006,24 @@
           "identity": "omp:gpt-5.6-luna sashiko",
           "agent": "omp",
           "model": "gpt-5.6-luna sashiko"
+        }
+      ]
+    },
+    {
+      "sha": "5a5d26f2cfe13467166219f6bf58099326912ddb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5a5d26f2cfe13467166219f6bf58099326912ddb",
+      "authoredAt": "2026-08-31T14:48:44.000Z",
+      "committedAt": "2026-09-10T11:01:31.000+02:00",
+      "authorName": "Soheil Hassas Yeganeh",
+      "committerName": "Peter Zijlstra",
+      "subject": "x86/cfi: Fix FineIBT hash offset in cfi_get_func_hash()",
+      "subsystem": "x86/cfi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -17876,42 +17912,6 @@
           "identity": "LOLLM # finding obvious bugs",
           "agent": "LOLLM # finding obvious bugs",
           "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "50411cada028f54d859d4b2361c1d87168562c49",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/50411cada028f54d859d4b2361c1d87168562c49",
-      "authoredAt": "2026-07-13T22:39:39.000-07:00",
-      "committedAt": "2026-08-02T18:29:01.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: samsung-keypad - use pm_runtime_active guard",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "9ce8270e30f567a10a9f98083084938e02de957d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9ce8270e30f567a10a9f98083084938e02de957d",
-      "authoredAt": "2026-07-13T22:39:38.000-07:00",
-      "committedAt": "2026-08-02T18:29:01.000-07:00",
-      "authorName": "Dmitry Torokhov",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: samsung-keypad - keep interrupt disabled while closed",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.1-pro",
-          "identity": "Antigravity:gemini-3.1-pro",
-          "agent": "Antigravity",
-          "model": "gemini-3.1-pro"
         }
       ]
     }
