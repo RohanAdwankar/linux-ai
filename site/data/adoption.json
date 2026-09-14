@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-14T14:06:04.820Z",
+  "generatedAt": "2026-09-14T19:23:26.815Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 262,
+    "totalSubsystems": 263,
     "totalAuthors": 261,
-    "totalAgents": 170
+    "totalAgents": 171
   },
   "commits": [
     {
@@ -422,6 +422,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9ff797e516dbc1ecb73701ec4c24055712d44411",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9ff797e516dbc1ecb73701ec4c24055712d44411",
+      "authoredAt": "2026-09-08T08:55:20.000Z",
+      "committedAt": "2026-09-10T11:15:46.000-04:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Leon Romanovsky",
+      "subject": "RDMA/siw: Bound fragmented header copies by the remaining length",
+      "subsystem": "rdma/siw",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-6",
+          "identity": "Codex:gpt-6",
+          "agent": "Codex",
+          "model": "gpt-6"
         }
       ]
     },
@@ -17887,24 +17905,6 @@
       "authorName": "Darrick J. Wong",
       "committerName": "Carlos Maiolino",
       "subject": "xfs: don't wrap around quota ids in dqiterate",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "LOLLM # finding obvious bugs",
-          "identity": "LOLLM # finding obvious bugs",
-          "agent": "LOLLM # finding obvious bugs",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "a1caeeadbf57ff86dfc3454398c46de86056a74e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a1caeeadbf57ff86dfc3454398c46de86056a74e",
-      "authoredAt": "2026-07-13T23:04:08.000-07:00",
-      "committedAt": "2026-07-14T11:01:47.000+02:00",
-      "authorName": "Darrick J. Wong",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: don't replace the wrong part of the cow fork",
       "subsystem": "xfs",
       "assistedBy": [
         {
