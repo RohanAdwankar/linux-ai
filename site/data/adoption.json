@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-17T21:29:39.885Z",
+  "generatedAt": "2026-09-18T00:21:40.024Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 256,
-    "totalAuthors": 269,
-    "totalAgents": 170
+    "totalSubsystems": 255,
+    "totalAuthors": 270,
+    "totalAgents": 171
   },
   "commits": [
     {
@@ -188,6 +188,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "8697c431e297eb0d0ab13dda6bc172b48a34f05c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8697c431e297eb0d0ab13dda6bc172b48a34f05c",
+      "authoredAt": "2026-09-12T00:31:16.000+03:00",
+      "committedAt": "2026-09-12T00:43:45.000+03:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Jarkko Sakkinen",
+      "subject": "KEYS: encrypted: fix integer overflow of datablob_len",
+      "subsystem": "keys",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.6",
+          "identity": "GitHub-Copilot:claude-opus-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -4308,6 +4326,24 @@
       ]
     },
     {
+      "sha": "0d6a4268b06084baafd8ee5d66955c7e1c2e053b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0d6a4268b06084baafd8ee5d66955c7e1c2e053b",
+      "authoredAt": "2026-08-21T17:59:35.000+08:00",
+      "committedAt": "2026-09-12T00:43:45.000+03:00",
+      "authorName": "Maoyi Xie",
+      "committerName": "Jarkko Sakkinen",
+      "subject": "keys: translate request_key_auth pid for the reading procfs instance",
+      "subsystem": "keys",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5 codeql",
+          "identity": "Claude:claude-opus-5 codeql",
+          "agent": "Claude",
+          "model": "claude-opus-5 codeql"
+        }
+      ]
+    },
+    {
       "sha": "445fc368c6bc73eff0aeb3818cf5f355facfbb16",
       "htmlUrl": "https://github.com/torvalds/linux/commit/445fc368c6bc73eff0aeb3818cf5f355facfbb16",
       "authoredAt": "2026-08-21T17:04:16.000+08:00",
@@ -4322,6 +4358,24 @@
           "identity": "Qwen:Qwen3.6",
           "agent": "Qwen",
           "model": "Qwen3.6"
+        }
+      ]
+    },
+    {
+      "sha": "2725ab3f5ad1c5f375c7c9fee4af02a9b138f701",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2725ab3f5ad1c5f375c7c9fee4af02a9b138f701",
+      "authoredAt": "2026-08-21T04:53:27.000+02:00",
+      "committedAt": "2026-09-12T00:43:45.000+03:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Jarkko Sakkinen",
+      "subject": "keys: fix lost wakeup when reaping a dead key type",
+      "subsystem": "keys",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
         }
       ]
     },
@@ -17864,60 +17918,6 @@
       "committerName": "Uma Shankar",
       "subject": "drm/i915/bw: Update bw calculation to account for 16 channels",
       "subsystem": "drm/i915/bw",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "8b9bc7786adef4e2df3a23293c0682efac6dcc83",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8b9bc7786adef4e2df3a23293c0682efac6dcc83",
-      "authoredAt": "2026-07-15T20:02:42.000+05:30",
-      "committedAt": "2026-07-21T13:44:39.000+05:30",
-      "authorName": "Uma Shankar",
-      "committerName": "Uma Shankar",
-      "subject": "drm/i915/dram: Interpret 0xF populated-channel count as 16",
-      "subsystem": "drm/i915/dram",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "d1db1a99fceaf79e520977323f8b2238b566eeff",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d1db1a99fceaf79e520977323f8b2238b566eeff",
-      "authoredAt": "2026-07-15T10:31:39.000-04:00",
-      "committedAt": "2026-08-06T09:58:47.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add KUnit tests for more crtc functions",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "61a799ffd1e5a4fd3702d547828b7ff3d161468e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/61a799ffd1e5a4fd3702d547828b7ff3d161468e",
-      "authoredAt": "2026-07-15T22:08:10.000+08:00",
-      "committedAt": "2026-07-21T13:27:38.000+02:00",
-      "authorName": "Huihui Huang",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: at76c50x-usb: avoid length underflow in at76_guess_freq()",
-      "subsystem": "wifi",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-4-8",
