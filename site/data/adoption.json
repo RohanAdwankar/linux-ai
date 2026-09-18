@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-18T19:38:21.722Z",
+  "generatedAt": "2026-09-18T22:35:49.499Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 256,
-    "totalAuthors": 273,
-    "totalAgents": 172
+    "totalSubsystems": 255,
+    "totalAuthors": 274,
+    "totalAgents": 173
   },
   "commits": [
     {
@@ -260,6 +260,24 @@
           "identity": "Codex:GPT-5",
           "agent": "Codex",
           "model": "GPT-5"
+        }
+      ]
+    },
+    {
+      "sha": "23c240d9509e15f72e4112fc95f0160ab32ec430",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/23c240d9509e15f72e4112fc95f0160ab32ec430",
+      "authoredAt": "2026-09-10T18:37:43.000Z",
+      "committedAt": "2026-09-11T15:06:01.000-03:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Paulo Alcantara",
+      "subject": "smb: client: validate absolute native symlink targets before NT fixups",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
         }
       ]
     },
@@ -1104,6 +1122,42 @@
       ]
     },
     {
+      "sha": "779f202a92ef10a426efc07d0f4267918cb07ca3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/779f202a92ef10a426efc07d0f4267918cb07ca3",
+      "authoredAt": "2026-09-06T19:10:09.000+02:00",
+      "committedAt": "2026-09-09T21:25:45.000-04:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Martin K. Petersen (Oracle)",
+      "subject": "scsi: qla2xxx: Fix the ql2xfc2target parameter description",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "264bf9655c3d067d775a46f05eb8c871c488a864",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/264bf9655c3d067d775a46f05eb8c871c488a864",
+      "authoredAt": "2026-09-06T19:09:25.000+02:00",
+      "committedAt": "2026-09-09T21:23:07.000-04:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Martin K. Petersen (Oracle)",
+      "subject": "scsi: pm80xx: Fix the use_msix, use_tasklet and read_wwn parameter descriptions",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "d236517c264e41dc09833c708ef23bccb7a91219",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d236517c264e41dc09833c708ef23bccb7a91219",
       "authoredAt": "2026-09-06T23:43:32.000+08:00",
@@ -1634,6 +1688,24 @@
       "committerName": "Michael S. Tsirkin",
       "subject": "virtio-pci: return IRQ_HANDLED after non-zero ISR",
       "subsystem": "virtio-pci",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3d676e458fe0c566f5a62753dc696b6a862fc412",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3d676e458fe0c566f5a62753dc696b6a862fc412",
+      "authoredAt": "2026-09-04T13:54:37.000Z",
+      "committedAt": "2026-09-09T22:23:00.000-04:00",
+      "authorName": "Alberto Carboneri",
+      "committerName": "Martin K. Petersen (Oracle)",
+      "subject": "scsi: core: Validate MODE SENSE lengths in scsi_cdl_enable()",
+      "subsystem": "scsi",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -2990,6 +3062,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "d034e836eefd7ce75e588f7031cffbeec594f5ac",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d034e836eefd7ce75e588f7031cffbeec594f5ac",
+      "authoredAt": "2026-09-01T09:04:13.000+08:00",
+      "committedAt": "2026-09-16T15:39:06.000-03:00",
+      "authorName": "Joseph Qi",
+      "committerName": "Paulo Alcantara",
+      "subject": "smb: client: fix use-after-free of iface in cifs_try_adding_channels()",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "Qoder:Qwen3.8-Max",
+          "identity": "Qoder:Qwen3.8-Max",
+          "agent": "Qoder",
+          "model": "Qwen3.8-Max"
         }
       ]
     },
@@ -17840,96 +17930,6 @@
           "identity": "opencode:hy3-free",
           "agent": "opencode",
           "model": "hy3-free"
-        }
-      ]
-    },
-    {
-      "sha": "6e6a89b930ca3ea1a85170cb05b784d76a5001a1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6e6a89b930ca3ea1a85170cb05b784d76a5001a1",
-      "authoredAt": "2026-07-15T14:58:48.000-07:00",
-      "committedAt": "2026-07-27T10:29:26.000+10:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: omap-aes - use devm_platform_get_and_ioremap_resource",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "opencode:hy3-free",
-          "identity": "opencode:hy3-free",
-          "agent": "opencode",
-          "model": "hy3-free"
-        }
-      ]
-    },
-    {
-      "sha": "691b052139c94ee6640ac39e0b764dd3867897c0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/691b052139c94ee6640ac39e0b764dd3867897c0",
-      "authoredAt": "2026-07-15T15:29:50.000-04:00",
-      "committedAt": "2026-07-15T16:31:05.000-06:00",
-      "authorName": "Mike Waychison",
-      "committerName": "Jens Axboe",
-      "subject": "block: fix race in blk_time_get_ns() returning 0",
-      "subsystem": "block",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.8",
-          "identity": "Claude:claude-opus-4.8",
-          "agent": "Claude",
-          "model": "claude-opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "9318bc0c41b24705690cf80d1596cf6b711e7027",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9318bc0c41b24705690cf80d1596cf6b711e7027",
-      "authoredAt": "2026-07-15T22:04:29.000+03:00",
-      "committedAt": "2026-07-16T21:10:48.000+03:00",
-      "authorName": "Emmanuel Grumbach",
-      "committerName": "Miri Korenblit",
-      "subject": "wifi: iwlwifi: guard against division by zero in iwl_dbg_tlv_alloc_fragments",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "GitHubCopilot:gpt-5.3-codex",
-          "identity": "GitHubCopilot:gpt-5.3-codex",
-          "agent": "GitHubCopilot",
-          "model": "gpt-5.3-codex"
-        }
-      ]
-    },
-    {
-      "sha": "f6a6c01cbc046f68e6916a7e047a1bc881c8c9ab",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f6a6c01cbc046f68e6916a7e047a1bc881c8c9ab",
-      "authoredAt": "2026-07-15T22:04:22.000+03:00",
-      "committedAt": "2026-07-16T21:10:48.000+03:00",
-      "authorName": "Emmanuel Grumbach",
-      "committerName": "Miri Korenblit",
-      "subject": "wifi: iwlwifi: mvm: fix off-by-one in TXF key sanitiser",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "GitHubCopilot:gpt-5.3-codex",
-          "identity": "GitHubCopilot:gpt-5.3-codex",
-          "agent": "GitHubCopilot",
-          "model": "gpt-5.3-codex"
-        }
-      ]
-    },
-    {
-      "sha": "405ff50b72db1dfb86d7502c3c84208779809ab2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/405ff50b72db1dfb86d7502c3c84208779809ab2",
-      "authoredAt": "2026-07-15T22:04:21.000+03:00",
-      "committedAt": "2026-07-16T21:10:48.000+03:00",
-      "authorName": "Emmanuel Grumbach",
-      "committerName": "Miri Korenblit",
-      "subject": "wifi: iwlwifi: mld: fix validation fallback in iwl_mld_notif_is_valid",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "GitHubCopilot:gpt-5.3-codex",
-          "identity": "GitHubCopilot:gpt-5.3-codex",
-          "agent": "GitHubCopilot",
-          "model": "gpt-5.3-codex"
         }
       ]
     }
