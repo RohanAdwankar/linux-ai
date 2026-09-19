@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-09-19T20:43:07.862Z",
+  "generatedAt": "2026-09-19T23:08:36.016Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 987,
-    "totalSubsystems": 256,
+    "totalSubsystems": 255,
     "totalAuthors": 273,
-    "totalAgents": 173
+    "totalAgents": 172
   },
   "commits": [
+    {
+      "sha": "3565893cc72cdf6b795cf6a33e7ff9605322334d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3565893cc72cdf6b795cf6a33e7ff9605322334d",
+      "authoredAt": "2026-09-16T05:16:38.000Z",
+      "committedAt": "2026-09-17T19:32:11.000+02:00",
+      "authorName": "Guanghui Yang",
+      "committerName": "David Sterba",
+      "subject": "btrfs: clear free space tree creation state on rebuild failure",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "c17ae8c26eac16ad244daef44044d714f68a2ddc",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c17ae8c26eac16ad244daef44044d714f68a2ddc",
@@ -3476,6 +3494,24 @@
           "identity": "Claude:Sonnet5 [Claude Code]",
           "agent": "Claude",
           "model": "Sonnet5 [Claude Code]"
+        }
+      ]
+    },
+    {
+      "sha": "0594e3423f4ba3137c734371169491f9a98e9af4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0594e3423f4ba3137c734371169491f9a98e9af4",
+      "authoredAt": "2026-08-31T13:38:01.000+08:00",
+      "committedAt": "2026-09-14T21:59:50.000+02:00",
+      "authorName": "Hongling Zeng",
+      "committerName": "David Sterba",
+      "subject": "btrfs: take commit root semaphore when iterating in mark_block_group_to_copy()",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -17912,42 +17948,6 @@
           "identity": "Claude:claude-opus-4-6",
           "agent": "Claude",
           "model": "claude-opus-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "45ebe4540817cb540a59e4dc04014ac5dddc9990",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/45ebe4540817cb540a59e4dc04014ac5dddc9990",
-      "authoredAt": "2026-07-16T11:53:25.000Z",
-      "committedAt": "2026-07-28T17:37:32.000-07:00",
-      "authorName": "Jiakai Xu",
-      "committerName": "Andrew Morton",
-      "subject": "riscv/mm: use physical alignment for vmemmap_start_pfn",
-      "subsystem": "riscv/mm",
-      "assistedBy": [
-        {
-          "raw": "YuanSheng:DeepSeek-V4-Flash",
-          "identity": "YuanSheng:DeepSeek-V4-Flash",
-          "agent": "YuanSheng",
-          "model": "DeepSeek-V4-Flash"
-        }
-      ]
-    },
-    {
-      "sha": "aeaacc3001449d44b4ab7da56331121d1f3b137b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/aeaacc3001449d44b4ab7da56331121d1f3b137b",
-      "authoredAt": "2026-07-16T11:32:30.000Z",
-      "committedAt": "2026-07-28T15:17:54.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Hans Verkuil",
-      "subject": "media: ti: vpe: quiesce overflow recovery before freeing streams",
-      "subsystem": "media",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6",
-          "identity": "Codex:gpt-5.6",
-          "agent": "Codex",
-          "model": "gpt-5.6"
         }
       ]
     }
