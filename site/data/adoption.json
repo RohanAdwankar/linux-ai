@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-18T22:35:49.499Z",
+  "generatedAt": "2026-09-19T01:11:52.040Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 986,
-    "totalSubsystems": 255,
-    "totalAuthors": 274,
+    "totalCommits": 987,
+    "totalSubsystems": 256,
+    "totalAuthors": 273,
     "totalAgents": 173
   },
   "commits": [
@@ -228,6 +228,24 @@
       ]
     },
     {
+      "sha": "636139603b99d2e3a18a46cf3f8d39313ce8042e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/636139603b99d2e3a18a46cf3f8d39313ce8042e",
+      "authoredAt": "2026-09-12T00:29:08.000+01:00",
+      "committedAt": "2026-09-17T11:54:05.000-04:00",
+      "authorName": "Mike Lothian",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu: hold a runtime PM reference for P2P dma-buf attachments",
+      "subsystem": "drm/amdgpu",
+      "assistedBy": [
+        {
+          "raw": "Claude:Opus-5 [Claude Code]",
+          "identity": "Claude:Opus-5 [Claude Code]",
+          "agent": "Claude",
+          "model": "Opus-5 [Claude Code]"
+        }
+      ]
+    },
+    {
       "sha": "8697c431e297eb0d0ab13dda6bc172b48a34f05c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/8697c431e297eb0d0ab13dda6bc172b48a34f05c",
       "authoredAt": "2026-09-12T00:31:16.000+03:00",
@@ -386,6 +404,42 @@
           "identity": "Codex:gpt-5",
           "agent": "Codex",
           "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "985862be16c7e4da808c51f393d631fb60c0be5c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/985862be16c7e4da808c51f393d631fb60c0be5c",
+      "authoredAt": "2026-09-09T16:21:02.000Z",
+      "committedAt": "2026-09-14T09:09:01.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/shrinker: Take a runtime PM ref before shrinking non-system memory",
+      "subsystem": "drm/xe/shrinker",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "3c90e42a01426262f0cd166bc01b45c05562640d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3c90e42a01426262f0cd166bc01b45c05562640d",
+      "authoredAt": "2026-09-09T16:21:01.000Z",
+      "committedAt": "2026-09-14T09:09:01.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/shrinker: Return the freed page count through a parameter",
+      "subsystem": "drm/xe/shrinker",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -716,6 +770,78 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "d0c09528781938362655d9c336364e777119bd6b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d0c09528781938362655d9c336364e777119bd6b",
+      "authoredAt": "2026-09-08T17:50:53.000+01:00",
+      "committedAt": "2026-09-14T09:09:01.000-04:00",
+      "authorName": "Ilia Levi",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/mmio_gem: fix destroy flow",
+      "subsystem": "drm/xe/mmio_gem",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.6",
+          "identity": "GitHub-Copilot:claude-opus-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "de40d31275cd57408ff1fdd97ea117a3f8c50cc5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/de40d31275cd57408ff1fdd97ea117a3f8c50cc5",
+      "authoredAt": "2026-09-08T17:50:52.000+01:00",
+      "committedAt": "2026-09-14T09:09:01.000-04:00",
+      "authorName": "Ilia Levi",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/mmio_gem: cache the dummy page per object",
+      "subsystem": "drm/xe/mmio_gem",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.6",
+          "identity": "GitHub-Copilot:claude-opus-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "37fcbd7b2f8996d783932dab11bc668e169b0de6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/37fcbd7b2f8996d783932dab11bc668e169b0de6",
+      "authoredAt": "2026-09-08T17:50:51.000+01:00",
+      "committedAt": "2026-09-14T09:09:01.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/mmio_gem: Revoke drm_vma_node on xe_mmio_gem destroy",
+      "subsystem": "drm/xe/mmio_gem",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4.6",
+          "identity": "Claude:claude-opus-4.6",
+          "agent": "Claude",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "819f189265a5955da743e78e20a713a038982e89",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/819f189265a5955da743e78e20a713a038982e89",
+      "authoredAt": "2026-09-08T17:50:49.000+01:00",
+      "committedAt": "2026-09-14T08:49:00.000-04:00",
+      "authorName": "Ilia Levi",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/mmio_gem: use write-back mapping for dummy page",
+      "subsystem": "drm/xe/mmio_gem",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.6",
+          "identity": "GitHub-Copilot:claude-opus-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.6"
         }
       ]
     },
@@ -1104,6 +1230,24 @@
       ]
     },
     {
+      "sha": "143755bdabaa96776c24f878014608e9cb44f930",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/143755bdabaa96776c24f878014608e9cb44f930",
+      "authoredAt": "2026-09-07T04:00:15.000+02:00",
+      "committedAt": "2026-09-11T11:55:40.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Christian König",
+      "subject": "dma-buf: Make DMABUF_DEBUG default to y on DEBUG_KERNEL kernels",
+      "subsystem": "dma-buf",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "2ac74c6db40adaa29c50cbb281ae9a6f63de18e1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2ac74c6db40adaa29c50cbb281ae9a6f63de18e1",
       "authoredAt": "2026-09-06T14:58:22.000-07:00",
@@ -1148,6 +1292,42 @@
       "committerName": "Martin K. Petersen (Oracle)",
       "subject": "scsi: pm80xx: Fix the use_msix, use_tasklet and read_wwn parameter descriptions",
       "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "adf5967331318bcb436fc80069915231ec039352",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/adf5967331318bcb436fc80069915231ec039352",
+      "authoredAt": "2026-09-06T19:03:47.000+02:00",
+      "committedAt": "2026-09-10T10:54:46.000-07:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Rob Clark",
+      "subject": "drm/msm: Fix the separate_gpu_kms parameter description",
+      "subsystem": "drm/msm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8061ee61b9426fe38350fa9eead2d9c50b03deb6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8061ee61b9426fe38350fa9eead2d9c50b03deb6",
+      "authoredAt": "2026-09-06T19:03:01.000+02:00",
+      "committedAt": "2026-09-10T10:54:46.000-07:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Rob Clark",
+      "subject": "drm/msm/adreno: Fix the skip_gpu parameter description",
+      "subsystem": "drm/msm/adreno",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -2120,6 +2300,24 @@
       "committerName": "Paolo Abeni",
       "subject": "net: macb: zero the link settings taprio reads back",
       "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "2028280686f4fa78e2f1f6dede4b6c1fd782b9e3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2028280686f4fa78e2f1f6dede4b6c1fd782b9e3",
+      "authoredAt": "2026-09-03T15:19:10.000+03:00",
+      "committedAt": "2026-09-15T02:09:28.000+03:00",
+      "authorName": "Dmitry Baryshkov",
+      "committerName": "Dmitry Baryshkov",
+      "subject": "drm/msm/dsi: round the byte clock rate after reparenting to the PHY PLL",
+      "subsystem": "drm/msm/dsi",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -4566,6 +4764,24 @@
       ]
     },
     {
+      "sha": "073a30d75f309812ed61af134f24ffef4107b13a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/073a30d75f309812ed61af134f24ffef4107b13a",
+      "authoredAt": "2026-08-22T16:31:10.000+02:00",
+      "committedAt": "2026-09-14T12:11:42.000-03:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Maíra Canal",
+      "subject": "drm/vc4: Use managed KMS polling to fix UAF on unbind",
+      "subsystem": "drm/vc4",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5",
+          "identity": "Claude:claude-fable-5",
+          "agent": "Claude",
+          "model": "claude-fable-5"
+        }
+      ]
+    },
+    {
       "sha": "0dbc2398fca3bb33eda963849f865ddb1b3aa05e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0dbc2398fca3bb33eda963849f865ddb1b3aa05e",
       "authoredAt": "2026-08-22T11:12:11.000+02:00",
@@ -5948,6 +6164,24 @@
           "identity": "Codex:gpt-5.6-sol sparse",
           "agent": "Codex",
           "model": "gpt-5.6-sol sparse"
+        }
+      ]
+    },
+    {
+      "sha": "58995b11dfb7dda095d23f22fa4dc79b923b5adf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/58995b11dfb7dda095d23f22fa4dc79b923b5adf",
+      "authoredAt": "2026-08-12T11:05:52.000+01:00",
+      "committedAt": "2026-09-14T00:24:21.000+03:00",
+      "authorName": "William Bright",
+      "committerName": "Dmitry Baryshkov",
+      "subject": "drm/msm/dp: fix link bandwidth check when wide bus is enabled",
+      "subsystem": "drm/msm/dp",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -7376,6 +7610,24 @@
           "identity": "Claude-Code:claude-opus-5",
           "agent": "Claude-Code",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "e249a6e2a130c08bb4d8b0a55cbe29754307e5c9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e249a6e2a130c08bb4d8b0a55cbe29754307e5c9",
+      "authoredAt": "2026-08-08T13:13:25.000-04:00",
+      "committedAt": "2026-09-14T00:16:20.000+03:00",
+      "authorName": "Jesse Casco",
+      "committerName": "Dmitry Baryshkov",
+      "subject": "drm/msm/dp: skip PUSH_IDLE when the link was never enabled",
+      "subsystem": "drm/msm/dp",
+      "assistedBy": [
+        {
+          "raw": "Anthropic:Claude-Opus-5",
+          "identity": "Anthropic:Claude-Opus-5",
+          "agent": "Anthropic",
+          "model": "Claude-Opus-5"
         }
       ]
     },
@@ -11336,6 +11588,24 @@
           "identity": "Claude:claude-opus-4-8 smatch",
           "agent": "Claude",
           "model": "claude-opus-4-8 smatch"
+        }
+      ]
+    },
+    {
+      "sha": "ea9dadeac79cef509a4b8b4a3e3b39a741e63313",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ea9dadeac79cef509a4b8b4a3e3b39a741e63313",
+      "authoredAt": "2026-07-30T16:05:13.000+03:00",
+      "committedAt": "2026-09-14T00:11:24.000+03:00",
+      "authorName": "Dmitry Baryshkov",
+      "committerName": "Dmitry Baryshkov",
+      "subject": "drm/msm: mark the fbdev framebuffer as system memory",
+      "subsystem": "drm/msm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -17678,258 +17948,6 @@
           "identity": "Codex:gpt-5.6",
           "agent": "Codex",
           "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "fc3afb5728e297994863f8a2a01b88a920bbf53e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fc3afb5728e297994863f8a2a01b88a920bbf53e",
-      "authoredAt": "2026-07-16T18:41:26.000+08:00",
-      "committedAt": "2026-07-16T17:12:21.000+02:00",
-      "authorName": "Xu Yang",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: chipidea: fix usage_count leak when autosuspend_delay is negative",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4.6",
-          "identity": "Claude:claude-sonnet-4.6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "c3d68e294cbb6a4090bb219d3dcaca85a011809b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c3d68e294cbb6a4090bb219d3dcaca85a011809b",
-      "authoredAt": "2026-07-16T12:30:42.000+02:00",
-      "committedAt": "2026-07-21T13:29:52.000+02:00",
-      "authorName": "Doruk Tan Ozturk",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mwifiex: fix NULL dereference when the AP has HT-cap but no HT-oper",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "0sec:multi-model",
-          "identity": "0sec:multi-model",
-          "agent": "0sec",
-          "model": "multi-model"
-        }
-      ]
-    },
-    {
-      "sha": "5bc1647216b68c17d03665739ea18bba8447f3ce",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5bc1647216b68c17d03665739ea18bba8447f3ce",
-      "authoredAt": "2026-07-16T00:23:47.000-07:00",
-      "committedAt": "2026-07-17T22:34:06.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf ui hists: Fix NULL pointer array gap in add_script_opt()",
-      "subsystem": "perf ui hists",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "1243a5e741a4f93312a2da16929bb66edb5d5b25",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1243a5e741a4f93312a2da16929bb66edb5d5b25",
-      "authoredAt": "2026-07-16T00:23:46.000-07:00",
-      "committedAt": "2026-07-17T22:34:06.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf disasm: Fix potential NULL pointer dereference and use-after-free in arch__find()",
-      "subsystem": "perf disasm",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "c6275783931ddb9d82a2d52e932d4e85bff5f588",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c6275783931ddb9d82a2d52e932d4e85bff5f588",
-      "authoredAt": "2026-07-16T00:23:44.000-07:00",
-      "committedAt": "2026-07-17T22:34:05.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf ui hists: Include limits.h for PATH_MAX definition",
-      "subsystem": "perf ui hists",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "d5fdde1c426922efabe86a515f0782b3eba40577",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d5fdde1c426922efabe86a515f0782b3eba40577",
-      "authoredAt": "2026-07-16T00:23:43.000-07:00",
-      "committedAt": "2026-07-17T22:34:05.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf ui hists: Fix uninitialized stack memory free on pstack allocation failure",
-      "subsystem": "perf ui hists",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "2ec3b985872594031cc1000b830344de5c26633d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2ec3b985872594031cc1000b830344de5c26633d",
-      "authoredAt": "2026-07-16T00:23:42.000-07:00",
-      "committedAt": "2026-07-17T22:34:05.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf hists browser: Increase MAX_OPTIONS to prevent stack buffer overflow",
-      "subsystem": "perf hists browser",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "c1dea15f819cded9b3faf58f8bec72323568b6e6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c1dea15f819cded9b3faf58f8bec72323568b6e6",
-      "authoredAt": "2026-07-16T15:58:48.000+09:00",
-      "committedAt": "2026-07-26T15:31:33.000-04:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Martin K. Petersen",
-      "subject": "scsi: libiscsi_tcp: Bound SCSI Response data segment to the connection buffer",
-      "subsystem": "scsi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "b7a4bd0c80656dae7f0a7a9c9be4fdf6f58d29ab",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b7a4bd0c80656dae7f0a7a9c9be4fdf6f58d29ab",
-      "authoredAt": "2026-07-16T14:41:12.000+08:00",
-      "committedAt": "2026-08-01T14:14:06.000+05:30",
-      "authorName": "Yuhang.chen",
-      "committerName": "Anup Patel",
-      "subject": "RISC-V: KVM: Account VM-scoped allocations to the VM cgroup",
-      "subsystem": "risc-v",
-      "assistedBy": [
-        {
-          "raw": "YuanSheng:deepseek-v4-pro",
-          "identity": "YuanSheng:deepseek-v4-pro",
-          "agent": "YuanSheng",
-          "model": "deepseek-v4-pro"
-        }
-      ]
-    },
-    {
-      "sha": "4ceaf979fc68d7c25aa91a828ae745ceb86da570",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4ceaf979fc68d7c25aa91a828ae745ceb86da570",
-      "authoredAt": "2026-07-15T21:58:16.000-07:00",
-      "committedAt": "2026-07-15T22:01:48.000-07:00",
-      "authorName": "Niranjana Vishwanathapura",
-      "committerName": "Niranjana Vishwanathapura",
-      "subject": "drm/xe/multi_queue: wait for secondary's own suspend in suspend_wait",
-      "subsystem": "drm/xe/multi_queue",
-      "assistedBy": [
-        {
-          "raw": "Github-Copilot:Claude-opus-4.8",
-          "identity": "Github-Copilot:Claude-opus-4.8",
-          "agent": "Github-Copilot",
-          "model": "Claude-opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "05cf3d87a0bf23e328a7f7db488860fe14acc335",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/05cf3d87a0bf23e328a7f7db488860fe14acc335",
-      "authoredAt": "2026-07-16T09:26:07.000+08:00",
-      "committedAt": "2026-07-25T15:26:30.000+03:00",
-      "authorName": "Jackie Liu",
-      "committerName": "Mike Rapoport (Microsoft)",
-      "subject": "liveupdate: reject nonzero reserved value for SESSION_FINISH",
-      "subsystem": "liveupdate",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6-sol",
-          "identity": "Codex:gpt-5.6-sol",
-          "agent": "Codex",
-          "model": "gpt-5.6-sol"
-        }
-      ]
-    },
-    {
-      "sha": "4416f8a9ed5f49256dc69c664f1386b496ca16a1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4416f8a9ed5f49256dc69c664f1386b496ca16a1",
-      "authoredAt": "2026-07-16T09:26:06.000+08:00",
-      "committedAt": "2026-07-16T09:25:30.000+03:00",
-      "authorName": "Jackie Liu",
-      "committerName": "Mike Rapoport (Microsoft)",
-      "subject": "liveupdate: fix GET_NAME ioctl argument validation",
-      "subsystem": "liveupdate",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6-sol",
-          "identity": "Codex:gpt-5.6-sol",
-          "agent": "Codex",
-          "model": "gpt-5.6-sol"
-        }
-      ]
-    },
-    {
-      "sha": "e800decd9c0ac4349bcd8f8f9b29fd21fe93165e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e800decd9c0ac4349bcd8f8f9b29fd21fe93165e",
-      "authoredAt": "2026-07-15T23:42:35.000Z",
-      "committedAt": "2026-07-21T12:25:28.000+02:00",
-      "authorName": "Venkatesh Srinivas",
-      "committerName": "Paolo Bonzini",
-      "subject": "KVM: x86: Only reset TSC Deadline Timer in apic_timer_expired on KVM_RUN",
-      "subsystem": "kvm",
-      "assistedBy": [
-        {
-          "raw": "gemini:gemini-3.1-pro-preview",
-          "identity": "gemini:gemini-3.1-pro-preview",
-          "agent": "gemini",
-          "model": "gemini-3.1-pro-preview"
-        }
-      ]
-    },
-    {
-      "sha": "f13b83d881254cabbf925ba0e039226bd9fb468e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f13b83d881254cabbf925ba0e039226bd9fb468e",
-      "authoredAt": "2026-07-15T15:00:13.000-07:00",
-      "committedAt": "2026-07-27T10:29:26.000+10:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: omap-sham - use devm_platform_get_and_ioremap_resource",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "opencode:hy3-free",
-          "identity": "opencode:hy3-free",
-          "agent": "opencode",
-          "model": "hy3-free"
         }
       ]
     }
