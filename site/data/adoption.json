@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:49:16.018Z",
+  "generatedAt": "2026-09-20T19:27:59.077Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,8 +7,8 @@
   "stats": {
     "totalCommits": 987,
     "totalSubsystems": 252,
-    "totalAuthors": 275,
-    "totalAgents": 173
+    "totalAuthors": 279,
+    "totalAgents": 174
   },
   "commits": [
     {
@@ -1496,6 +1496,42 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "88aed0422f39b22406f35f1e758cea25e7bbcfb5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/88aed0422f39b22406f35f1e758cea25e7bbcfb5",
+      "authoredAt": "2026-09-04T11:16:24.000-07:00",
+      "committedAt": "2026-09-18T12:19:43.000+02:00",
+      "authorName": "Vinay Belgaumkar",
+      "committerName": "Peter Zijlstra",
+      "subject": "perf: Fix null pointer access in is_include_guest_event()",
+      "subsystem": "perf",
+      "assistedBy": [
+        {
+          "raw": "Claude:Claude-Sonnet-5",
+          "identity": "Claude:Claude-Sonnet-5",
+          "agent": "Claude",
+          "model": "Claude-Sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "7e61560628d17ea6b1d8ee370f6d42694cff8758",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7e61560628d17ea6b1d8ee370f6d42694cff8758",
+      "authoredAt": "2026-09-04T15:07:09.000Z",
+      "committedAt": "2026-09-13T18:15:43.000-07:00",
+      "authorName": "Ulises Mendez Martinez",
+      "committerName": "Josh Poimboeuf",
+      "subject": "objtool: Validate disassembler headers in libopcodes probe",
+      "subsystem": "objtool",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:Gemini-Next",
+          "identity": "Antigravity:Gemini-Next",
+          "agent": "Antigravity",
+          "model": "Gemini-Next"
         }
       ]
     },
@@ -3588,6 +3624,24 @@
       ]
     },
     {
+      "sha": "6d49beec658f61801e79019fd73691b17252dee3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6d49beec658f61801e79019fd73691b17252dee3",
+      "authoredAt": "2026-08-31T08:25:47.000Z",
+      "committedAt": "2026-09-01T22:40:34.000+05:30",
+      "authorName": "Ian Luites",
+      "committerName": "Vinod Koul",
+      "subject": "soundwire: dmi-quirks: Disable ghost Realtek on Asus GX651AX",
+      "subsystem": "soundwire",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "0594e3423f4ba3137c734371169491f9a98e9af4",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0594e3423f4ba3137c734371169491f9a98e9af4",
       "authoredAt": "2026-08-31T13:38:01.000+08:00",
@@ -5556,6 +5610,24 @@
       ]
     },
     {
+      "sha": "f6504be006aa4bb4bd26285f410a885c17920d65",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f6504be006aa4bb4bd26285f410a885c17920d65",
+      "authoredAt": "2026-08-17T22:44:33.000+02:00",
+      "committedAt": "2026-09-10T18:09:53.000+05:30",
+      "authorName": "Sascha Hauer",
+      "committerName": "Vinod Koul",
+      "subject": "dmaengine: pxa: fix double counting of the hw descriptors",
+      "subsystem": "dmaengine",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
       "sha": "4e9442ce551ebd84b52ad649df721e2dc28af95a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/4e9442ce551ebd84b52ad649df721e2dc28af95a",
       "authoredAt": "2026-08-17T19:09:56.000Z",
@@ -5570,6 +5642,42 @@
           "identity": "Codex:gpt-5.4",
           "agent": "Codex",
           "model": "gpt-5.4"
+        }
+      ]
+    },
+    {
+      "sha": "9096bdc8d930147f7c39a493a859acbd3a8485d8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9096bdc8d930147f7c39a493a859acbd3a8485d8",
+      "authoredAt": "2026-08-17T15:51:23.000+02:00",
+      "committedAt": "2026-09-10T17:57:46.000+05:30",
+      "authorName": "Christian Lugnberg",
+      "committerName": "Vinod Koul",
+      "subject": "dmaengine: sun6i: fix undefined behaviour in sun6i_dma_tx_status",
+      "subsystem": "dmaengine",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
+        }
+      ]
+    },
+    {
+      "sha": "c90b6973daa37f4c283342dff881ae001dea4fe6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c90b6973daa37f4c283342dff881ae001dea4fe6",
+      "authoredAt": "2026-08-17T15:51:22.000+02:00",
+      "committedAt": "2026-09-10T17:57:46.000+05:30",
+      "authorName": "Christian Lugnberg",
+      "committerName": "Vinod Koul",
+      "subject": "dmaengine: sun6i: fix non-atomic read of DMA position registers",
+      "subsystem": "dmaengine",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-4-6",
+          "identity": "Claude:claude-sonnet-4-6",
+          "agent": "Claude",
+          "model": "claude-sonnet-4-6"
         }
       ]
     },
@@ -17840,114 +17948,6 @@
           "identity": "gemini:gemini-3.1-pro",
           "agent": "gemini",
           "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "d23eb7380d1594cda31a5dc8487dd2a5c8def8c7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d23eb7380d1594cda31a5dc8487dd2a5c8def8c7",
-      "authoredAt": "2026-07-17T10:47:21.000Z",
-      "committedAt": "2026-07-17T14:02:13.000+02:00",
-      "authorName": "David Lee",
-      "committerName": "Jan Kara",
-      "subject": "UDF symlink pathComponent header OOB read",
-      "subsystem": "misc",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "de1dea6fad7891ff3e7adb57cb0446e657864389",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/de1dea6fad7891ff3e7adb57cb0446e657864389",
-      "authoredAt": "2026-07-17T11:45:19.000+02:00",
-      "committedAt": "2026-07-17T15:53:21.000+02:00",
-      "authorName": "Fernando Fernandez Mancera",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "char: powernv-op-panel: remove unnecessary reset of position pointer",
-      "subsystem": "char",
-      "assistedBy": [
-        {
-          "raw": "coccinelle  # to find it",
-          "identity": "coccinelle  # to find it",
-          "agent": "coccinelle  # to find it",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "a59cf84441f9a17323c89452cec2bf16724c48a9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a59cf84441f9a17323c89452cec2bf16724c48a9",
-      "authoredAt": "2026-07-17T18:16:22.000+09:00",
-      "committedAt": "2026-08-03T19:45:00.000+02:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Jiri Kosina",
-      "subject": "HID: intel-thc-hid: intel-quickspi: validate report size before copy",
-      "subsystem": "hid",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "7b461610882c8baa64d56dade57cdbfb686739fa",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7b461610882c8baa64d56dade57cdbfb686739fa",
-      "authoredAt": "2026-07-17T09:37:20.000+02:00",
-      "committedAt": "2026-08-17T15:00:50.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: fix AsyncId zeroed before use in smb2_lock() cancel response",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "08f41323f549b1ad9ad2e67e7b5c5ac312c1cb1a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/08f41323f549b1ad9ad2e67e7b5c5ac312c1cb1a",
-      "authoredAt": "2026-07-17T09:15:04.000+02:00",
-      "committedAt": "2026-08-17T15:00:49.000+09:00",
-      "authorName": "Gael Blivet",
-      "committerName": "Namjae Jeon",
-      "subject": "ksmbd: fix maximal access leak when object has no NT ACL",
-      "subsystem": "ksmbd",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "ecc330e3096173f433659aa64ab3674d0d48440e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ecc330e3096173f433659aa64ab3674d0d48440e",
-      "authoredAt": "2026-07-17T03:59:47.000Z",
-      "committedAt": "2026-07-20T16:07:39.000+02:00",
-      "authorName": "Babanpreet Singh",
-      "committerName": "Thomas Gleixner",
-      "subject": "timers/migration: Fix bad line kernel-doc warning in struct tmigr_cpu",
-      "subsystem": "timers/migration",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
         }
       ]
     }
