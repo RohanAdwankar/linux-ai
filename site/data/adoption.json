@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-22T14:56:40.341Z",
+  "generatedAt": "2026-09-22T18:56:27.050Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 987,
-    "totalSubsystems": 248,
-    "totalAuthors": 272,
-    "totalAgents": 171
+    "totalSubsystems": 249,
+    "totalAuthors": 273,
+    "totalAgents": 169
   },
   "commits": [
     {
@@ -246,6 +246,24 @@
       ]
     },
     {
+      "sha": "9bdad082d44bdcf93716973dcba6be77e8a06e7b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9bdad082d44bdcf93716973dcba6be77e8a06e7b",
+      "authoredAt": "2026-09-14T22:23:52.000+09:00",
+      "committedAt": "2026-09-18T08:20:14.000-07:00",
+      "authorName": "Jaewook You",
+      "committerName": "Andrew Morton",
+      "subject": "mm/hugetlb: preserve mremap address delta when skipping page tables",
+      "subsystem": "mm/hugetlb",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "bdf5f731957de48acada392f28e82bc019713adb",
       "htmlUrl": "https://github.com/torvalds/linux/commit/bdf5f731957de48acada392f28e82bc019713adb",
       "authoredAt": "2026-09-14T17:41:36.000+07:00",
@@ -260,6 +278,24 @@
           "identity": "Claude:claude-opus-4",
           "agent": "Claude",
           "model": "claude-opus-4"
+        }
+      ]
+    },
+    {
+      "sha": "65bcc5f89704efe5b9d69d4ea2c1002d90c31382",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/65bcc5f89704efe5b9d69d4ea2c1002d90c31382",
+      "authoredAt": "2026-09-14T11:50:07.000+02:00",
+      "committedAt": "2026-09-14T14:41:21.000+02:00",
+      "authorName": "Slawomir Stepien",
+      "committerName": "Jiri Kosina",
+      "subject": "HID: amd_sfh: Validate PCI BAR size before mapping",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "Gemini:gemini-3.7-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "identity": "Gemini:gemini-3.7-flash Gemini:gemini-3.1-pro-preview syzbot",
+          "agent": "Gemini",
+          "model": "gemini-3.7-flash Gemini:gemini-3.1-pro-preview syzbot"
         }
       ]
     },
@@ -840,6 +876,24 @@
       ]
     },
     {
+      "sha": "407a5d205179a4ab186571b0e16ec42725dc77bc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/407a5d205179a4ab186571b0e16ec42725dc77bc",
+      "authoredAt": "2026-09-09T18:01:07.000Z",
+      "committedAt": "2026-09-18T08:20:15.000-07:00",
+      "authorName": "Josef Bacik",
+      "committerName": "Andrew Morton",
+      "subject": "writeback: report a Tasks-RCU quiescent state per cgwb drain pass",
+      "subsystem": "writeback",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "985862be16c7e4da808c51f393d631fb60c0be5c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/985862be16c7e4da808c51f393d631fb60c0be5c",
       "authoredAt": "2026-09-09T16:21:02.000Z",
@@ -1124,6 +1178,30 @@
           "identity": "LOLLM # finding obvious bugs",
           "agent": "LOLLM # finding obvious bugs",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9aa237cf66495b2426ddde8532e9b08a0ed83aaa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9aa237cf66495b2426ddde8532e9b08a0ed83aaa",
+      "authoredAt": "2026-09-09T09:15:13.000+08:00",
+      "committedAt": "2026-09-11T15:44:01.000+02:00",
+      "authorName": "Wei Jie LAW",
+      "committerName": "Jiri Kosina",
+      "subject": "HID: wacom: fix OOB read in wacom_wac_pen_serial_enforce()",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        },
+        {
+          "raw": "GLM:glm-5.3",
+          "identity": "GLM:glm-5.3",
+          "agent": "GLM",
+          "model": "glm-5.3"
         }
       ]
     },
@@ -1604,6 +1682,24 @@
           "identity": "CodeBuddy:Hy4 preview",
           "agent": "CodeBuddy",
           "model": "Hy4 preview"
+        }
+      ]
+    },
+    {
+      "sha": "f3c2b266b8fd7cf816d36168d19f67e716f2c080",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f3c2b266b8fd7cf816d36168d19f67e716f2c080",
+      "authoredAt": "2026-09-07T11:47:19.000-07:00",
+      "committedAt": "2026-09-11T18:30:29.000+02:00",
+      "authorName": "Berke Durak",
+      "committerName": "Jiri Kosina",
+      "subject": "HID: elecom: Add support for ELECOM M-XT4DRBK (018E)",
+      "subsystem": "hid",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -5336,6 +5432,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "a363c62a653cc8b3e21da9545fa4e028ef50f9c3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a363c62a653cc8b3e21da9545fa4e028ef50f9c3",
+      "authoredAt": "2026-08-23T12:40:51.000+08:00",
+      "committedAt": "2026-09-17T22:42:40.000-07:00",
+      "authorName": "Longlong Xia",
+      "committerName": "Andrew Morton",
+      "subject": "mm/hugetlb: do not dissolve gigantic pages without runtime support",
+      "subsystem": "mm/hugetlb",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -17834,120 +17948,6 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "e1d7c5ac1c246ce5775f604515de0a59fbf2116e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e1d7c5ac1c246ce5775f604515de0a59fbf2116e",
-      "authoredAt": "2026-07-18T15:12:50.000+08:00",
-      "committedAt": "2026-07-20T12:24:33.000+02:00",
-      "authorName": "Zhiling Zou",
-      "committerName": "Steffen Klassert",
-      "subject": "xfrm: drop ESP-in-TCP packets with no ingress device",
-      "subsystem": "xfrm",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.4",
-          "identity": "Codex:gpt-5.4",
-          "agent": "Codex",
-          "model": "gpt-5.4"
-        }
-      ]
-    },
-    {
-      "sha": "0a4bb2abc3e56d7be6e69b050c88ba52c87e22bf",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0a4bb2abc3e56d7be6e69b050c88ba52c87e22bf",
-      "authoredAt": "2026-07-18T11:13:31.000+05:30",
-      "committedAt": "2026-07-28T10:24:35.000+02:00",
-      "authorName": "Hardik Prakash",
-      "committerName": "Andi Shyti",
-      "subject": "i2c: designware: defer probe if child GpioInt controllers are not bound",
-      "subsystem": "i2c",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        },
-        {
-          "raw": "DeepSeek:deepseek-v4-pro",
-          "identity": "DeepSeek:deepseek-v4-pro",
-          "agent": "DeepSeek",
-          "model": "deepseek-v4-pro"
-        }
-      ]
-    },
-    {
-      "sha": "43b25879f004c98defa2776bedc6ca4763c51945",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/43b25879f004c98defa2776bedc6ca4763c51945",
-      "authoredAt": "2026-07-18T02:43:53.000Z",
-      "committedAt": "2026-07-21T13:35:29.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: brcmfmac: drain bus_reset work on device removal",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6",
-          "identity": "Codex:gpt-5.6",
-          "agent": "Codex",
-          "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "538c51e9d124cf656f2dd0c0394a8545efc7102d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/538c51e9d124cf656f2dd0c0394a8545efc7102d",
-      "authoredAt": "2026-07-18T02:43:52.000Z",
-      "committedAt": "2026-07-21T13:35:29.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: brcmfmac: make release_scratchbuffers idempotent",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6",
-          "identity": "Codex:gpt-5.6",
-          "agent": "Codex",
-          "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "96ea99e3f9e7b90eca6f0122441deefd6364a048",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/96ea99e3f9e7b90eca6f0122441deefd6364a048",
-      "authoredAt": "2026-07-18T00:42:40.000Z",
-      "committedAt": "2026-07-28T09:23:33.000+02:00",
-      "authorName": "Nils Lehnen",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "staging: most: video: replace pr_err with dev_err",
-      "subsystem": "staging",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5 sparse",
-          "identity": "Claude:claude-fable-5 sparse",
-          "agent": "Claude",
-          "model": "claude-fable-5 sparse"
-        }
-      ]
-    },
-    {
-      "sha": "4a2e2c563b0ee2253a7902f775bf71232820186d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4a2e2c563b0ee2253a7902f775bf71232820186d",
-      "authoredAt": "2026-07-18T03:21:46.000+03:00",
-      "committedAt": "2026-07-27T16:48:20.000+02:00",
-      "authorName": "Taceddin Sancak",
-      "committerName": "Bartosz Golaszewski",
-      "subject": "pinctrl: qcom: ipq9650: fix audio_sec_mclk_in1/out1 group pins",
-      "subsystem": "pinctrl",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
         }
       ]
     }
