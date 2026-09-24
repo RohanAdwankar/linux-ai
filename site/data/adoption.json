@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-24T10:03:32.942Z",
+  "generatedAt": "2026-09-24T15:08:40.911Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 987,
-    "totalSubsystems": 249,
+    "totalSubsystems": 248,
     "totalAuthors": 273,
-    "totalAgents": 169
+    "totalAgents": 168
   },
   "commits": [
     {
@@ -434,6 +434,24 @@
       "committerName": "Takashi Iwai",
       "subject": "ALSA: hda: trace PCM open only after assigning a stream",
       "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "1d9bb9c870632adea249cfdec49ac37e6f069164",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1d9bb9c870632adea249cfdec49ac37e6f069164",
+      "authoredAt": "2026-09-13T00:03:12.000-04:00",
+      "committedAt": "2026-09-16T19:19:04.000+02:00",
+      "authorName": "Myeonghun Pak",
+      "committerName": "Linus Walleij",
+      "subject": "pinctrl: single: free the IRQ on domain creation failure",
+      "subsystem": "pinctrl",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -1880,6 +1898,24 @@
           "identity": "OpenAI Codex:gpt-5",
           "agent": "OpenAI Codex",
           "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "b7403afb7a5f85073243df10238b3483958ad69e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b7403afb7a5f85073243df10238b3483958ad69e",
+      "authoredAt": "2026-09-06T13:14:16.000+01:00",
+      "committedAt": "2026-09-18T11:24:16.000Z",
+      "authorName": "David Carlier",
+      "committerName": "Will Deacon",
+      "subject": "arm64: errata: match the target implementation CPU's own MIDR",
+      "subsystem": "arm64",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -4328,6 +4364,24 @@
           "identity": "Codex:GPT-5",
           "agent": "Codex",
           "model": "GPT-5"
+        }
+      ]
+    },
+    {
+      "sha": "b0be01f133aa36d2fd12d71c916cb8a47826b4ed",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b0be01f133aa36d2fd12d71c916cb8a47826b4ed",
+      "authoredAt": "2026-08-30T11:02:01.000+08:00",
+      "committedAt": "2026-09-18T19:00:14.000+02:00",
+      "authorName": "Shawn Guo",
+      "committerName": "Linus Walleij",
+      "subject": "pinctrl: qcom: nord: Split QUP1 SE2/SE3 into lane-pair functions",
+      "subsystem": "pinctrl",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -17894,60 +17948,6 @@
           "identity": "Claude:claude-fable-5",
           "agent": "Claude",
           "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "f2c5c76306fadb834dd5ea76cab0b7cd447e6035",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f2c5c76306fadb834dd5ea76cab0b7cd447e6035",
-      "authoredAt": "2026-07-18T18:22:36.000Z",
-      "committedAt": "2026-08-07T23:51:03.000+01:00",
-      "authorName": "Babanpreet Singh",
-      "committerName": "Jonathan Cameron",
-      "subject": "iio: dac: ad3552r-hs: fix scnprintf() buffer bound in data source show",
-      "subsystem": "iio",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "5edf1547ac378526181dcd4eb7c8f3b2351e96f9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5edf1547ac378526181dcd4eb7c8f3b2351e96f9",
-      "authoredAt": "2026-07-18T19:50:41.000+02:00",
-      "committedAt": "2026-08-13T09:26:18.000-06:00",
-      "authorName": "Sebastian Andrzej Siewior",
-      "committerName": "Jonathan Corbet",
-      "subject": "Documentation: Extend the real-time hardware bits with some firmware bits",
-      "subsystem": "documentation",
-      "assistedBy": [
-        {
-          "raw": "Microsoft-Copilot",
-          "identity": "Microsoft-Copilot",
-          "agent": "Microsoft-Copilot",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "7d5c576cb1c86047b1fcb1aa9532e17fc5e46c1d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7d5c576cb1c86047b1fcb1aa9532e17fc5e46c1d",
-      "authoredAt": "2026-07-18T16:40:32.000+09:00",
-      "committedAt": "2026-07-24T16:47:47.000-07:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: cs40l50-vibra - validate custom data from user space",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
         }
       ]
     }
