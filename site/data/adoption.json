@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T15:08:40.911Z",
+  "generatedAt": "2026-09-24T19:12:03.914Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,7 +7,7 @@
   "stats": {
     "totalCommits": 987,
     "totalSubsystems": 248,
-    "totalAuthors": 273,
+    "totalAuthors": 272,
     "totalAgents": 168
   },
   "commits": [
@@ -902,6 +902,24 @@
       "committerName": "Andrew Morton",
       "subject": "writeback: report a Tasks-RCU quiescent state per cgwb drain pass",
       "subsystem": "writeback",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "85136bf22404474a815fc0ed26ec0d1cbc1bc3f9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/85136bf22404474a815fc0ed26ec0d1cbc1bc3f9",
+      "authoredAt": "2026-09-09T17:51:04.000Z",
+      "committedAt": "2026-09-12T10:30:50.000-07:00",
+      "authorName": "Jose Fernandez (Anthropic)",
+      "committerName": "Alexei Starovoitov",
+      "subject": "bpf: Avoid soft lockup in __htab_map_lookup_and_delete_batch()",
+      "subsystem": "bpf",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -17930,24 +17948,6 @@
           "identity": "Codex:gpt-5.6",
           "agent": "Codex",
           "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "c4c0673e4cb15b0c127e6d00732a2427bdd12c11",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c4c0673e4cb15b0c127e6d00732a2427bdd12c11",
-      "authoredAt": "2026-07-18T16:37:10.000-07:00",
-      "committedAt": "2026-07-21T06:44:08.000+02:00",
-      "authorName": "Mykola Lysenko",
-      "committerName": "David Sterba",
-      "subject": "btrfs: raid56: fix scrub read assembly submitting no reads",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
         }
       ]
     }
