@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T18:38:46.040Z",
+  "generatedAt": "2026-09-25T22:22:57.585Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 249,
-    "totalAuthors": 277,
+    "totalSubsystems": 248,
+    "totalAuthors": 278,
     "totalAgents": 171
   },
   "commits": [
@@ -90,6 +90,60 @@
       ]
     },
     {
+      "sha": "270437f3fe62516f16482742a7762a075e7a9457",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/270437f3fe62516f16482742a7762a075e7a9457",
+      "authoredAt": "2026-09-19T19:11:00.000+02:00",
+      "committedAt": "2026-09-23T16:42:01.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: tps65219: Fix TPS65214 GPIO direction programming",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "93cf8cedeaaa05714f709b539cfb976e0b80c830",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/93cf8cedeaaa05714f709b539cfb976e0b80c830",
+      "authoredAt": "2026-09-19T19:10:59.000+02:00",
+      "committedAt": "2026-09-23T16:42:01.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: tps65219: Use the variant-specific direction callback",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "4cbe530c0233c7413aaaeb029a4f32dd6aadacbb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4cbe530c0233c7413aaaeb029a4f32dd6aadacbb",
+      "authoredAt": "2026-09-19T19:10:58.000+02:00",
+      "committedAt": "2026-09-23T16:42:00.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: tps65219: Fix GPIO input value reads",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "46f8ffd0a1f1eb6cbc94946a92c11ef601e228a1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/46f8ffd0a1f1eb6cbc94946a92c11ef601e228a1",
       "authoredAt": "2026-09-19T11:25:18.000Z",
@@ -116,6 +170,24 @@
       "committerName": "Luiz Augusto von Dentz",
       "subject": "Bluetooth: RFCOMM: Reject short EA=0 frames in rfcomm_recv_frame()",
       "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8f6f8a48399f82f4a83f7b9f25b9707e0062a4f9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8f6f8a48399f82f4a83f7b9f25b9707e0062a4f9",
+      "authoredAt": "2026-09-19T16:27:32.000+05:30",
+      "committedAt": "2026-09-20T00:58:39.000-03:00",
+      "authorName": "Adarsh Das",
+      "committerName": "Paulo Alcantara",
+      "subject": "smb: client: delete compound mids on send failure before unlock",
+      "subsystem": "smb",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -224,6 +296,114 @@
       "committerName": "Paolo Abeni",
       "subject": "udp: relocate a connected socket in the 4-tuple hash table on re-connect",
       "subsystem": "udp",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "2e828035d5d736d904c238ae7ec3f77c0d6270bf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2e828035d5d736d904c238ae7ec3f77c0d6270bf",
+      "authoredAt": "2026-09-16T15:29:29.000Z",
+      "committedAt": "2026-09-21T21:40:17.000-03:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Paulo Alcantara",
+      "subject": "smb: client: preserve create-context parsing errors",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "6c5c547f037bc18f0b8d0b5db5a648f8f630ce85",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6c5c547f037bc18f0b8d0b5db5a648f8f630ce85",
+      "authoredAt": "2026-09-16T15:29:28.000Z",
+      "committedAt": "2026-09-21T21:40:17.000-03:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Paulo Alcantara",
+      "subject": "smb: client: close completed creates on compound wait errors",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "d2ff5fb93ea83034025850266b5eed391f96b825",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d2ff5fb93ea83034025850266b5eed391f96b825",
+      "authoredAt": "2026-09-16T15:29:27.000Z",
+      "committedAt": "2026-09-21T21:40:17.000-03:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Paulo Alcantara",
+      "subject": "smb: client: clean up failed cached directory opens",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "566820af017e81497fb5e9d3ad6e7ffe2828bc8b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/566820af017e81497fb5e9d3ad6e7ffe2828bc8b",
+      "authoredAt": "2026-09-16T15:29:26.000Z",
+      "committedAt": "2026-09-21T21:40:17.000-03:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Paulo Alcantara",
+      "subject": "smb: client: close handle after create-context parsing failure",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "fa2e9900dd2a3f5a1e7ef5a8c5e8d435feedbfcc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fa2e9900dd2a3f5a1e7ef5a8c5e8d435feedbfcc",
+      "authoredAt": "2026-09-16T15:29:25.000Z",
+      "committedAt": "2026-09-21T21:40:17.000-03:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Paulo Alcantara",
+      "subject": "smb: client: validate POSIX create context length",
+      "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "67f4c1c6a1b51e203d986779299824d1c2c590a6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/67f4c1c6a1b51e203d986779299824d1c2c590a6",
+      "authoredAt": "2026-09-16T15:29:24.000Z",
+      "committedAt": "2026-09-21T21:40:17.000-03:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Paulo Alcantara",
+      "subject": "smb: client: fix create context out-of-bounds reads",
+      "subsystem": "smb",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -476,6 +656,24 @@
       "committerName": "Paolo Abeni",
       "subject": "net: macb: fix ordering around PTP timestamp read",
       "subsystem": "net",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "02af7eac17bc62a72335c1fc8c4af4471654f6cc",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/02af7eac17bc62a72335c1fc8c4af4471654f6cc",
+      "authoredAt": "2026-09-14T17:44:06.000-07:00",
+      "committedAt": "2026-09-17T11:52:21.000+02:00",
+      "authorName": "Rosen Penev",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: mvebu: keep resume masks within the irqchip cache",
+      "subsystem": "gpio",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -2106,6 +2304,24 @@
       ]
     },
     {
+      "sha": "2f91fc9a96cdab6c03d436246056552e04677636",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2f91fc9a96cdab6c03d436246056552e04677636",
+      "authoredAt": "2026-09-07T12:08:56.000+05:30",
+      "committedAt": "2026-09-17T06:59:41.000+02:00",
+      "authorName": "Hemanth Selam",
+      "committerName": "Heiko Carstens",
+      "subject": "s390: Fix typos in comments",
+      "subsystem": "s390",
+      "assistedBy": [
+        {
+          "raw": "Cursor:claude-opus-5",
+          "identity": "Cursor:claude-opus-5",
+          "agent": "Cursor",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
       "sha": "89b000ba0796593aa61f6eec24d369337594588b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/89b000ba0796593aa61f6eec24d369337594588b",
       "authoredAt": "2026-09-07T11:56:08.000+05:30",
@@ -2120,6 +2336,24 @@
           "identity": "Cursor:claude-opus-5",
           "agent": "Cursor",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "4525a911049543c23885a540a788d13be318a486",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4525a911049543c23885a540a788d13be318a486",
+      "authoredAt": "2026-09-07T07:58:47.000+02:00",
+      "committedAt": "2026-09-17T06:59:41.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Heiko Carstens",
+      "subject": "s390/pci/docs: Fix sriov_numvfs attribute name",
+      "subsystem": "s390/pci/docs",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -17702,240 +17936,6 @@
           "identity": "Codex:gpt-5.6",
           "agent": "Codex",
           "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "5be3a9db600853578559681b2dd20a9bc7dd4fc5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5be3a9db600853578559681b2dd20a9bc7dd4fc5",
-      "authoredAt": "2026-07-20T19:45:02.000+09:00",
-      "committedAt": "2026-07-21T18:00:13.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/probes: Fix extra whitespace in trace_probe_kernel.h",
-      "subsystem": "tracing/probes",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "5b385fd434c75b6288a36722d606f04444db34eb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5b385fd434c75b6288a36722d606f04444db34eb",
-      "authoredAt": "2026-07-20T19:44:53.000+09:00",
-      "committedAt": "2026-07-21T18:00:09.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/kprobe: Remove redundant memset in kprobe_perf_func()",
-      "subsystem": "tracing/kprobe",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "3d785646cc488d3f743e0cb67491e80b69200cfb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3d785646cc488d3f743e0cb67491e80b69200cfb",
-      "authoredAt": "2026-07-20T19:44:43.000+09:00",
-      "committedAt": "2026-07-21T18:00:05.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/fprobe: Remove redundant memset in fentry_perf_func()",
-      "subsystem": "tracing/fprobe",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "36db65d0e5de923909e4d2b13524375b139568ac",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/36db65d0e5de923909e4d2b13524375b139568ac",
-      "authoredAt": "2026-07-20T19:44:34.000+09:00",
-      "committedAt": "2026-07-21T18:00:01.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/fprobe: Remove redundant snprintf in trace_fprobe_match_command_head()",
-      "subsystem": "tracing/fprobe",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "0fb6fd1eb3e7c8649473bd0ea6d897c835740157",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0fb6fd1eb3e7c8649473bd0ea6d897c835740157",
-      "authoredAt": "2026-07-20T19:44:25.000+09:00",
-      "committedAt": "2026-07-21T17:59:58.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/probes: Simplify BTF_KIND_PTR case in fetch_type_from_btf_type()",
-      "subsystem": "tracing/probes",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "78d252c935c9c54742443e871b7b39204ecb7a01",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/78d252c935c9c54742443e871b7b39204ecb7a01",
-      "authoredAt": "2026-07-20T19:44:16.000+09:00",
-      "committedAt": "2026-07-21T17:59:54.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/probes: Cleanup pointer arithmetic in store_trace_entry_data()",
-      "subsystem": "tracing/probes",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "5428fca0cd542d4fb7beb781c1b44292aedb7915",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5428fca0cd542d4fb7beb781c1b44292aedb7915",
-      "authoredAt": "2026-07-20T19:44:07.000+09:00",
-      "committedAt": "2026-07-21T17:59:50.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/probes: Remove unused parameter from parse_probe_var_retval()",
-      "subsystem": "tracing/probes",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "6e9328ed75afc2f2564514df53ff66259f805a2a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6e9328ed75afc2f2564514df53ff66259f805a2a",
-      "authoredAt": "2026-07-20T19:43:57.000+09:00",
-      "committedAt": "2026-07-21T17:59:46.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/probes: Remove redundant bounds check in trace_probe_compare_arg_type()",
-      "subsystem": "tracing/probes",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "794b5640aa7b295623c1d6b6fc2fe229a30aad0d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/794b5640aa7b295623c1d6b6fc2fe229a30aad0d",
-      "authoredAt": "2026-07-20T19:43:48.000+09:00",
-      "committedAt": "2026-07-21T17:59:42.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/probes: Remove redundant boolean conversion in trace_probe_has_single_file()",
-      "subsystem": "tracing/probes",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "323853e2d125ec1a99df61893fb546728f4d738e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/323853e2d125ec1a99df61893fb546728f4d738e",
-      "authoredAt": "2026-07-20T19:43:39.000+09:00",
-      "committedAt": "2026-07-21T17:59:39.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/probes: Remove duplicate MAX_ARRAY_LEN macro definition",
-      "subsystem": "tracing/probes",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "f418d68d71fd4a0a9cef92377bc8c4c3334b5b53",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f418d68d71fd4a0a9cef92377bc8c4c3334b5b53",
-      "authoredAt": "2026-07-20T19:12:38.000+09:00",
-      "committedAt": "2026-07-21T10:23:21.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/eprobe: Fix exact system name matching in eprobe_dyn_event_match()",
-      "subsystem": "tracing/eprobe",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "8ce20bfba48902e1382187cd1a852f7cf3a1e739",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8ce20bfba48902e1382187cd1a852f7cf3a1e739",
-      "authoredAt": "2026-07-20T19:12:29.000+09:00",
-      "committedAt": "2026-07-21T10:23:17.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/probes: Fix potential underflow in LEN_OR_ZERO macro",
-      "subsystem": "tracing/probes",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "a9d6fb284039a5d3858a1d9f9a0d7e46cfb7c2d4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a9d6fb284039a5d3858a1d9f9a0d7e46cfb7c2d4",
-      "authoredAt": "2026-07-20T19:12:20.000+09:00",
-      "committedAt": "2026-07-21T10:23:13.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "tracing/probes: Prevent out-of-bounds write in __trace_probe_log_err()",
-      "subsystem": "tracing/probes",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
         }
       ]
     }
