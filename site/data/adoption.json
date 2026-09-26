@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-09-26T13:07:36.449Z",
+  "generatedAt": "2026-09-26T17:12:27.823Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 254,
-    "totalAuthors": 276,
+    "totalSubsystems": 255,
+    "totalAuthors": 277,
     "totalAgents": 171
   },
   "commits": [
+    {
+      "sha": "5bfa9f1a9dcb6ecb607adbc1c0226605c972935b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5bfa9f1a9dcb6ecb607adbc1c0226605c972935b",
+      "authoredAt": "2026-09-24T11:21:39.000+02:00",
+      "committedAt": "2026-09-25T23:35:23.000+09:00",
+      "authorName": "Andrea Parri",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "kprobes: Fix permanent hang when flushing the kprobe optimizer",
+      "subsystem": "kprobes",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "0fd5e9ddf362b1253b3c94b858371f90400e5c4a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0fd5e9ddf362b1253b3c94b858371f90400e5c4a",
@@ -320,6 +338,30 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "d58384c22739848efe14b34e9586e4f1242f33c0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d58384c22739848efe14b34e9586e4f1242f33c0",
+      "authoredAt": "2026-09-18T03:56:33.000Z",
+      "committedAt": "2026-09-18T14:23:16.000-05:00",
+      "authorName": "Liz Fong-Jones",
+      "committerName": "Bjorn Helgaas",
+      "subject": "PCI: Fix BAR resize for devices on a root bus",
+      "subsystem": "pci",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5 checkpatch",
+          "identity": "Claude:claude-fable-5 checkpatch",
+          "agent": "Claude",
+          "model": "claude-fable-5 checkpatch"
+        },
+        {
+          "raw": "Claude:claude-sonnet-5",
+          "identity": "Claude:claude-sonnet-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-5"
         }
       ]
     },
@@ -662,6 +704,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "382e5d514b6f35bdda2ab9044b4eed23d2ec4254",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/382e5d514b6f35bdda2ab9044b4eed23d2ec4254",
+      "authoredAt": "2026-09-15T17:53:57.000Z",
+      "committedAt": "2026-09-22T08:36:06.000-07:00",
+      "authorName": "David Ballesteros",
+      "committerName": "Sean Christopherson",
+      "subject": "KVM: Ensure memory attributes xarray nodes are accounted to the caller's memcg",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:claude-opus-5",
+          "identity": "Claude-Code:claude-opus-5",
+          "agent": "Claude-Code",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -1124,6 +1184,24 @@
       "committerName": "Bartosz Golaszewski",
       "subject": "gpio: virtuser: skip free_irq when no IRQ is installed",
       "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "41e81f7e3ef96594fb840445343c0ee7723aa550",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/41e81f7e3ef96594fb840445343c0ee7723aa550",
+      "authoredAt": "2026-09-14T11:11:46.000+08:00",
+      "committedAt": "2026-09-15T18:55:51.000+05:30",
+      "authorName": "Tan Chi",
+      "committerName": "Anup Patel",
+      "subject": "RISC-V: KVM: Fix HSM hart status error propagation",
+      "subsystem": "risc-v",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -5526,6 +5604,42 @@
       ]
     },
     {
+      "sha": "0a46eb5719fa57cc9d06025dcd8ba271643dee61",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0a46eb5719fa57cc9d06025dcd8ba271643dee61",
+      "authoredAt": "2026-08-29T07:48:56.000+02:00",
+      "committedAt": "2026-09-15T15:09:57.000-07:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Oliver Upton",
+      "subject": "KVM: arm64: selftests: Test empty SMCCC filter range at base 0",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "64dc6f1db7e620f2e9337bb181f305fb0561da79",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/64dc6f1db7e620f2e9337bb181f305fb0561da79",
+      "authoredAt": "2026-08-29T07:48:55.000+02:00",
+      "committedAt": "2026-09-15T15:09:56.000-07:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Oliver Upton",
+      "subject": "KVM: arm64: Return -EINVAL for an empty SMCCC filter range at base 0",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "3f4b7d1a49c5c826f3be9b684313eea5b83ac232",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3f4b7d1a49c5c826f3be9b684313eea5b83ac232",
       "authoredAt": "2026-08-28T21:52:52.000Z",
@@ -6716,6 +6830,24 @@
           "identity": "Qwen:Qwen3.6",
           "agent": "Qwen",
           "model": "Qwen3.6"
+        }
+      ]
+    },
+    {
+      "sha": "6f182db39fb00548c26d689163ceb2fe4a802793",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6f182db39fb00548c26d689163ceb2fe4a802793",
+      "authoredAt": "2026-08-21T07:44:45.000+01:00",
+      "committedAt": "2026-09-15T15:09:56.000-07:00",
+      "authorName": "Fuad Tabba",
+      "committerName": "Oliver Upton",
+      "subject": "KVM: arm64: selftests: Add ITS table save tests",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Antigravity:gemini-3.1-pro",
+          "identity": "Antigravity:gemini-3.1-pro",
+          "agent": "Antigravity",
+          "model": "gemini-3.1-pro"
         }
       ]
     },
@@ -9170,6 +9302,24 @@
           "identity": "Claude:claude-opus-4",
           "agent": "Claude",
           "model": "claude-opus-4"
+        }
+      ]
+    },
+    {
+      "sha": "6b1bca1b1ab77f60a62087337bfe6e2f0efb9e6d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6b1bca1b1ab77f60a62087337bfe6e2f0efb9e6d",
+      "authoredAt": "2026-08-10T02:56:16.000+02:00",
+      "committedAt": "2026-09-19T11:14:22.000-07:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Oliver Upton",
+      "subject": "KVM: arm64: Fix AArch32 DBGBXVR<n> handling",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -12830,6 +12980,24 @@
           "identity": "Gemini:Gemini-Next",
           "agent": "Gemini",
           "model": "Gemini-Next"
+        }
+      ]
+    },
+    {
+      "sha": "aaad136d56d91252517272b68cd533e5714698d5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/aaad136d56d91252517272b68cd533e5714698d5",
+      "authoredAt": "2026-08-01T01:35:50.000+09:00",
+      "committedAt": "2026-09-15T18:55:51.000+05:30",
+      "authorName": "Myeonghun Pak",
+      "committerName": "Anup Patel",
+      "subject": "RISC-V: KVM: Synchronize hrtimer callback during teardown",
+      "subsystem": "risc-v",
+      "assistedBy": [
+        {
+          "raw": "OpenAI:GPT-5.6",
+          "identity": "OpenAI:GPT-5.6",
+          "agent": "OpenAI",
+          "model": "GPT-5.6"
         }
       ]
     },
@@ -17774,168 +17942,6 @@
           "identity": "Claude:claude-opus-4.7",
           "agent": "Claude",
           "model": "claude-opus-4.7"
-        }
-      ]
-    },
-    {
-      "sha": "79e9adea27598d1787ee3bd727cb94933daea4c3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/79e9adea27598d1787ee3bd727cb94933daea4c3",
-      "authoredAt": "2026-07-21T15:59:47.000-04:00",
-      "committedAt": "2026-08-06T12:43:28.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Cover crtc destroy_state stream release",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "76388d61df1650bdae43e343feb33538f0cd1c8b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/76388d61df1650bdae43e343feb33538f0cd1c8b",
-      "authoredAt": "2026-07-21T15:45:00.000-04:00",
-      "committedAt": "2026-08-06T12:43:24.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Cover crtc vblank restore replay-supported path",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "1296ec6a4b3585336eddb6aa6f7bd80120b5db81",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1296ec6a4b3585336eddb6aa6f7bd80120b5db81",
-      "authoredAt": "2026-07-21T15:37:37.000-04:00",
-      "committedAt": "2026-08-06T12:43:14.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Cover crtc vblank IPS self-refresh restore",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "fd942d65f57185740208cf75bfc7be75bce4606e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fd942d65f57185740208cf75bfc7be75bce4606e",
-      "authoredAt": "2026-07-21T15:19:29.000-04:00",
-      "committedAt": "2026-08-06T12:43:08.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Cover crtc set_vblank workqueue branch",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "7c25590d03abcb5424723f90641fda5b6cefffc8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7c25590d03abcb5424723f90641fda5b6cefffc8",
-      "authoredAt": "2026-07-21T19:27:15.000+02:00",
-      "committedAt": "2026-07-21T19:27:43.000+02:00",
-      "authorName": "Kumar Kartikeya Dwivedi",
-      "committerName": "Kumar Kartikeya Dwivedi",
-      "subject": "Merge branch 'selftests-bpf-a-few-edge-case-fixes'",
-      "subsystem": "misc",
-      "assistedBy": [
-        {
-          "raw": "Claude Sonnet 5",
-          "identity": "Claude Sonnet 5",
-          "agent": "Claude Sonnet 5",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "a7cd055d44dc57ea37ce43f27d60b031b3018d26",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a7cd055d44dc57ea37ce43f27d60b031b3018d26",
-      "authoredAt": "2026-07-21T12:44:22.000-04:00",
-      "committedAt": "2026-08-06T12:42:44.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add KUnit tests for crtc set_vblank",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "246df90b5f1a8a6e6abbd2f058b029558720adec",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/246df90b5f1a8a6e6abbd2f058b029558720adec",
-      "authoredAt": "2026-07-21T23:37:41.000+08:00",
-      "committedAt": "2026-07-29T16:19:06.000-04:00",
-      "authorName": "Luxiao Xu",
-      "committerName": "Paul Moore",
-      "subject": "audit: fix potential use-after-free in audit_del_rule()",
-      "subsystem": "audit",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.4",
-          "identity": "Codex:gpt-5.4",
-          "agent": "Codex",
-          "model": "gpt-5.4"
-        }
-      ]
-    },
-    {
-      "sha": "763fe700b7c58ad64fe5202c5638848244dd4127",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/763fe700b7c58ad64fe5202c5638848244dd4127",
-      "authoredAt": "2026-07-21T23:25:42.000+08:00",
-      "committedAt": "2026-07-23T10:07:20.000+02:00",
-      "authorName": "Zihan Xi",
-      "committerName": "Steffen Klassert",
-      "subject": "xfrm: avoid lock inversion in nat keepalive work",
-      "subsystem": "xfrm",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.4",
-          "identity": "Codex:gpt-5.4",
-          "agent": "Codex",
-          "model": "gpt-5.4"
-        }
-      ]
-    },
-    {
-      "sha": "a9df7939a2c5e3794769fde809ea892e5a414b93",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a9df7939a2c5e3794769fde809ea892e5a414b93",
-      "authoredAt": "2026-07-21T17:19:23.000+02:00",
-      "committedAt": "2026-07-23T12:50:36.000+01:00",
-      "authorName": "Jorn Baayen",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: amd: yc: Add DMI quirk for Acer Aspire AG14-22P",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Claude-Code:claude-fable-5",
-          "identity": "Claude-Code:claude-fable-5",
-          "agent": "Claude-Code",
-          "model": "claude-fable-5"
         }
       ]
     }
