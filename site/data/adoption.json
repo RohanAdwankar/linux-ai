@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-09-25T22:22:57.585Z",
+  "generatedAt": "2026-09-26T01:35:59.821Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 248,
-    "totalAuthors": 278,
+    "totalSubsystems": 254,
+    "totalAuthors": 276,
     "totalAgents": 171
   },
   "commits": [
+    {
+      "sha": "0fd5e9ddf362b1253b3c94b858371f90400e5c4a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0fd5e9ddf362b1253b3c94b858371f90400e5c4a",
+      "authoredAt": "2026-09-23T11:31:18.000-06:00",
+      "committedAt": "2026-09-23T15:53:05.000-04:00",
+      "authorName": "Alex Hung",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Relax DML frame limit with UBSAN",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Copilot:Claude-Opus-5.5",
+          "identity": "Copilot:Claude-Opus-5.5",
+          "agent": "Copilot",
+          "model": "Claude-Opus-5.5"
+        }
+      ]
+    },
     {
       "sha": "b61732f47316d45f27706db7812950145d3327b5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b61732f47316d45f27706db7812950145d3327b5",
@@ -20,6 +38,42 @@
       "committerName": "David Heidelberg",
       "subject": "nfc: pn533: fix OOB read in pn533_acr122_is_rx_frame_valid()",
       "subsystem": "nfc",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "2776e9c28513a1c855a94792b292cbcc533418c8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2776e9c28513a1c855a94792b292cbcc533418c8",
+      "authoredAt": "2026-09-22T20:13:49.000-07:00",
+      "committedAt": "2026-09-25T13:30:27.000-07:00",
+      "authorName": "Fan Wu",
+      "committerName": "Fan Wu",
+      "subject": "ipe: protect the dm-verity root hash with RCU",
+      "subsystem": "ipe",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9814077275eca36ebf8d510d2f076d235ff9f51a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9814077275eca36ebf8d510d2f076d235ff9f51a",
+      "authoredAt": "2026-09-22T20:13:48.000-07:00",
+      "committedAt": "2026-09-25T13:30:27.000-07:00",
+      "authorName": "Fan Wu",
+      "committerName": "Fan Wu",
+      "subject": "ipe: fix use-after-free when auditing a newly loaded policy",
+      "subsystem": "ipe",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -68,6 +122,24 @@
           "identity": "Qoder:Qwen3.8-Max",
           "agent": "Qoder",
           "model": "Qwen3.8-Max"
+        }
+      ]
+    },
+    {
+      "sha": "45585c3aa285854face65293acc95eff73063d6d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/45585c3aa285854face65293acc95eff73063d6d",
+      "authoredAt": "2026-09-20T11:43:29.000+08:00",
+      "committedAt": "2026-09-24T14:59:22.000+05:30",
+      "authorName": "Pengpeng Hou",
+      "committerName": "Brajesh Gupta",
+      "subject": "drm/imagination: clamp freelist reconstruction requests",
+      "subsystem": "drm/imagination",
+      "assistedBy": [
+        {
+          "raw": "gpt 5",
+          "identity": "gpt 5",
+          "agent": "gpt 5",
+          "model": ""
         }
       ]
     },
@@ -234,6 +306,42 @@
       ]
     },
     {
+      "sha": "24a22fb3c731474b68e986af6804db450fb88617",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/24a22fb3c731474b68e986af6804db450fb88617",
+      "authoredAt": "2026-09-18T14:10:35.000+01:00",
+      "committedAt": "2026-09-21T08:59:26.000-04:00",
+      "authorName": "Matthew Auld",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/vm: nuke PTs only after unlinking contested VMAs",
+      "subsystem": "drm/xe/vm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "6a6870d3077faa501ca97760057ddca22b68418d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6a6870d3077faa501ca97760057ddca22b68418d",
+      "authoredAt": "2026-09-18T10:53:12.000+08:00",
+      "committedAt": "2026-09-18T14:14:20.000-04:00",
+      "authorName": "Peiyang He",
+      "committerName": "Lyude Paul",
+      "subject": "drm/nouveau: don't bump pin count on failed re-pin in nouveau_bo_pin_locked()",
+      "subsystem": "drm/nouveau",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "a92e1a412c53dc0d9ad639e7abf8b3fc70a5b6ad",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a92e1a412c53dc0d9ad639e7abf8b3fc70a5b6ad",
       "authoredAt": "2026-09-17T14:33:36.000-04:00",
@@ -266,6 +374,42 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "6b13ddbf5bb8deec337f9b4887f579097a953f6a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6b13ddbf5bb8deec337f9b4887f579097a953f6a",
+      "authoredAt": "2026-09-17T18:56:45.000+05:30",
+      "committedAt": "2026-09-23T15:53:05.000-04:00",
+      "authorName": "Sunil Khatri",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu/vcn4.0.3: fix video_timeout unit mismatch in jpeg reset wait",
+      "subsystem": "drm/amdgpu/vcn4.0.3",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-5",
+          "identity": "Claude:claude-sonnet-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "f952ed353a27b46c86c9525a39b7a642850b8139",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f952ed353a27b46c86c9525a39b7a642850b8139",
+      "authoredAt": "2026-09-17T18:56:45.000+05:30",
+      "committedAt": "2026-09-23T15:53:05.000-04:00",
+      "authorName": "Sunil Khatri",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amdgpu/vcn5.0.1: fix video_timeout unit mismatch in jpeg reset wait",
+      "subsystem": "drm/amdgpu/vcn5.0.1",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-sonnet-5",
+          "identity": "Claude:claude-sonnet-5",
+          "agent": "Claude",
+          "model": "claude-sonnet-5"
         }
       ]
     },
@@ -432,6 +576,60 @@
       ]
     },
     {
+      "sha": "97077ac87afe9e91ec074ef0be64454e7ccbf344",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/97077ac87afe9e91ec074ef0be64454e7ccbf344",
+      "authoredAt": "2026-09-16T18:31:38.000+08:00",
+      "committedAt": "2026-09-17T15:22:49.000-04:00",
+      "authorName": "Peiyang He",
+      "committerName": "Lyude Paul",
+      "subject": "drm/nouveau: fix double-free in nvif_vmm_dtor",
+      "subsystem": "drm/nouveau",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "cc319238e3f6668f867beb381ce93727c69b7317",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cc319238e3f6668f867beb381ce93727c69b7317",
+      "authoredAt": "2026-09-16T15:35:45.000+05:30",
+      "committedAt": "2026-09-22T15:42:09.000-04:00",
+      "authorName": "Tangudu Tilak Tirumalesh",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe: Add wa_14025941587 to xe2, xe3 and xe3p platforms",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-opus-4.8",
+          "identity": "GitHub_Copilot:claude-opus-4.8",
+          "agent": "GitHub_Copilot",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
+      "sha": "90f467577ebc28c5bc4ba2f0f1b83a4419fb0740",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/90f467577ebc28c5bc4ba2f0f1b83a4419fb0740",
+      "authoredAt": "2026-09-16T15:35:44.000+05:30",
+      "committedAt": "2026-09-22T12:45:01.000-04:00",
+      "authorName": "Tangudu Tilak Tirumalesh",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe: harden adjust_idledly() against divide-by-zero and overflow",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "GitHub_Copilot:claude-opus-4.8",
+          "identity": "GitHub_Copilot:claude-opus-4.8",
+          "agent": "GitHub_Copilot",
+          "model": "claude-opus-4.8"
+        }
+      ]
+    },
+    {
       "sha": "3565893cc72cdf6b795cf6a33e7ff9605322334d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3565893cc72cdf6b795cf6a33e7ff9605322334d",
       "authoredAt": "2026-09-16T05:16:38.000Z",
@@ -476,6 +674,78 @@
       "committerName": "Mark Brown",
       "subject": "ASoC: hdmi-codec: Report a change when the channel status moves",
       "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "036d28db1818af2f9d80db771f5405da84d7732d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/036d28db1818af2f9d80db771f5405da84d7732d",
+      "authoredAt": "2026-09-15T15:39:13.000+08:00",
+      "committedAt": "2026-09-20T20:48:52.000+03:00",
+      "authorName": "Junrui Luo",
+      "committerName": "Dmitry Osipenko",
+      "subject": "drm/virtio: release the GEM object on virtio_gpu_vram_create() errors",
+      "subsystem": "drm/virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "24b6d5c7641412c9ebef0d4c8b888d49a0e6b880",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/24b6d5c7641412c9ebef0d4c8b888d49a0e6b880",
+      "authoredAt": "2026-09-15T15:39:12.000+08:00",
+      "committedAt": "2026-09-20T20:48:52.000+03:00",
+      "authorName": "Junrui Luo",
+      "committerName": "Dmitry Osipenko",
+      "subject": "drm/virtio: fix object leaks in virtio_gpu_resource_create_blob_ioctl()",
+      "subsystem": "drm/virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "477bc3068fc3777b9d8ffd79e265b0dfdf2d3a6b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/477bc3068fc3777b9d8ffd79e265b0dfdf2d3a6b",
+      "authoredAt": "2026-09-15T15:39:11.000+08:00",
+      "committedAt": "2026-09-20T20:48:51.000+03:00",
+      "authorName": "Junrui Luo",
+      "committerName": "Dmitry Osipenko",
+      "subject": "drm/virtio: fix object leak in virtio_gpu_resource_create_ioctl()",
+      "subsystem": "drm/virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "36570ef2244cc4d7563b1f0157bc0f032498638c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/36570ef2244cc4d7563b1f0157bc0f032498638c",
+      "authoredAt": "2026-09-15T15:39:10.000+08:00",
+      "committedAt": "2026-09-20T20:48:51.000+03:00",
+      "authorName": "Junrui Luo",
+      "committerName": "Dmitry Osipenko",
+      "subject": "drm/virtio: fix object leak when drm_gem_handle_create() fails",
+      "subsystem": "drm/virtio",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-5",
@@ -680,6 +950,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "c7a925c84704ec431598f9411dd89c0e16ae34ae",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c7a925c84704ec431598f9411dd89c0e16ae34ae",
+      "authoredAt": "2026-09-14T21:53:18.000Z",
+      "committedAt": "2026-09-21T08:59:06.000-04:00",
+      "authorName": "Shuicheng Lin",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/tlb_inval: Treat wedged-device invalidations as complete",
+      "subsystem": "drm/xe/tlb_inval",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -1512,6 +1800,42 @@
       ]
     },
     {
+      "sha": "2777ec9852277a06ae68fee0c4f1a32783e4a999",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2777ec9852277a06ae68fee0c4f1a32783e4a999",
+      "authoredAt": "2026-09-09T16:33:32.000+05:30",
+      "committedAt": "2026-09-22T12:17:42.000+03:00",
+      "authorName": "Nemesa Garg",
+      "committerName": "Jani Nikula",
+      "subject": "drm/i915/psr: Clear stale sel fetch enable bits on sel fetch disable",
+      "subsystem": "drm/i915/psr",
+      "assistedBy": [
+        {
+          "raw": "Copilot:Claude-Opus-5",
+          "identity": "Copilot:Claude-Opus-5",
+          "agent": "Copilot",
+          "model": "Claude-Opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "846b3c64fe3e77d9db20a7e3e62dbbb637c773e1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/846b3c64fe3e77d9db20a7e3e62dbbb637c773e1",
+      "authoredAt": "2026-09-09T17:11:14.000+08:00",
+      "committedAt": "2026-09-20T20:48:52.000+03:00",
+      "authorName": "Peiyang He",
+      "committerName": "Dmitry Osipenko",
+      "subject": "drm/virtio: fix NULL pointer dereference on fence allocation failure",
+      "subsystem": "drm/virtio",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
+        }
+      ]
+    },
+    {
       "sha": "7e645147dfba67edb3ed3090a1ed1d89df77fc27",
       "htmlUrl": "https://github.com/torvalds/linux/commit/7e645147dfba67edb3ed3090a1ed1d89df77fc27",
       "authoredAt": "2026-09-09T08:29:17.000+02:00",
@@ -2154,6 +2478,24 @@
       ]
     },
     {
+      "sha": "b74aad23d99b279bb34d135795f39a6d8ecdc075",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b74aad23d99b279bb34d135795f39a6d8ecdc075",
+      "authoredAt": "2026-09-08T20:13:23.000+08:00",
+      "committedAt": "2026-09-20T20:48:47.000+03:00",
+      "authorName": "Peiyang He",
+      "committerName": "Dmitry Osipenko",
+      "subject": "drm/virtio: fix memory leak of fence event on execbuffer failure",
+      "subsystem": "drm/virtio",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-luna",
+          "identity": "Codex:gpt-5.6-luna",
+          "agent": "Codex",
+          "model": "gpt-5.6-luna"
+        }
+      ]
+    },
+    {
       "sha": "e0554c6276da957b6e72849520c70a97404cd1ae",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e0554c6276da957b6e72849520c70a97404cd1ae",
       "authoredAt": "2026-09-08T12:35:23.000+02:00",
@@ -2354,6 +2696,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3359a372efb6d585c97019ee1b7f1874442bcebe",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3359a372efb6d585c97019ee1b7f1874442bcebe",
+      "authoredAt": "2026-09-07T13:22:04.000+08:00",
+      "committedAt": "2026-09-17T17:38:41.000-04:00",
+      "authorName": "Peiyang He",
+      "committerName": "Lyude Paul",
+      "subject": "drm/nouveau/uvmm: fix UAF in nouveau_uvmm_sm when BO is in TTM_PL_SYSTEM",
+      "subsystem": "drm/nouveau/uvmm",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.5",
+          "identity": "Codex:gpt-5.5",
+          "agent": "Codex",
+          "model": "gpt-5.5"
         }
       ]
     },
@@ -6896,6 +7256,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "64ca4cdd1031206424e6455f0ae4fb0560d8f46a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/64ca4cdd1031206424e6455f0ae4fb0560d8f46a",
+      "authoredAt": "2026-08-17T14:50:40.000+08:00",
+      "committedAt": "2026-09-17T16:16:37.000-04:00",
+      "authorName": "Junrui Luo",
+      "committerName": "Lyude Paul",
+      "subject": "drm/nouveau/dmem: pin VRAM for the whole registered range",
+      "subsystem": "drm/nouveau/dmem",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -17558,384 +17936,6 @@
           "identity": "Claude-Code:claude-fable-5",
           "agent": "Claude-Code",
           "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "d0a7b48ad0921bd88effaee10bf970ab1d5d0ddd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d0a7b48ad0921bd88effaee10bf970ab1d5d0ddd",
-      "authoredAt": "2026-07-21T22:36:07.000+08:00",
-      "committedAt": "2026-07-28T14:49:20.000-04:00",
-      "authorName": "Zihan Xi",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: mgmt: fix UAF in pair command cancellation",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.4",
-          "identity": "Codex:gpt-5.4",
-          "agent": "Codex",
-          "model": "gpt-5.4"
-        }
-      ]
-    },
-    {
-      "sha": "8dc6d241fc1f50231d56d6600ef23a5ee4a53967",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8dc6d241fc1f50231d56d6600ef23a5ee4a53967",
-      "authoredAt": "2026-07-21T15:48:43.000+02:00",
-      "committedAt": "2026-07-26T19:19:36.000+01:00",
-      "authorName": "Jorijn van der Graaf",
-      "committerName": "Jonathan Cameron",
-      "subject": "iio: magnetometer: add support for QST QMC6308",
-      "subsystem": "iio",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "3e37fdbc6722314c6b18e3c73771547ac3b89ae4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3e37fdbc6722314c6b18e3c73771547ac3b89ae4",
-      "authoredAt": "2026-07-21T15:48:42.000+02:00",
-      "committedAt": "2026-07-26T19:19:36.000+01:00",
-      "authorName": "Jorijn van der Graaf",
-      "committerName": "Jonathan Cameron",
-      "subject": "dt-bindings: iio: magnetometer: add QST QMC6308",
-      "subsystem": "dt-bindings",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "3dc723ac78a6e4fa0fd49e27e487ed319da40a9f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3dc723ac78a6e4fa0fd49e27e487ed319da40a9f",
-      "authoredAt": "2026-07-21T13:53:46.000+02:00",
-      "committedAt": "2026-07-21T14:09:21.000+02:00",
-      "authorName": "Ibrahim Hashimov",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211_hwsim: reject undersized HWSIM_ATTR_TX_INFO",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "AuditCode-AI:2026.07",
-          "identity": "AuditCode-AI:2026.07",
-          "agent": "AuditCode-AI",
-          "model": "2026.07"
-        }
-      ]
-    },
-    {
-      "sha": "2e8a2c1b03068d76782343446f1b2114ae2ee0bd",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2e8a2c1b03068d76782343446f1b2114ae2ee0bd",
-      "authoredAt": "2026-07-21T19:35:12.000+09:00",
-      "committedAt": "2026-07-28T18:07:18.000+02:00",
-      "authorName": "Jinu Kim",
-      "committerName": "Paolo Bonzini",
-      "subject": "KVM: x86/mmu: Check all address spaces before skipping unsync",
-      "subsystem": "kvm",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5",
-          "identity": "Codex:GPT-5",
-          "agent": "Codex",
-          "model": "GPT-5"
-        }
-      ]
-    },
-    {
-      "sha": "0f38453cdb2e17566ccb7c0f3dabd5bd21caca26",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0f38453cdb2e17566ccb7c0f3dabd5bd21caca26",
-      "authoredAt": "2026-07-21T19:35:11.000+09:00",
-      "committedAt": "2026-07-28T18:07:14.000+02:00",
-      "authorName": "Jinu Kim",
-      "committerName": "Paolo Bonzini",
-      "subject": "KVM: x86/mmu: Check write tracking in all address spaces",
-      "subsystem": "kvm",
-      "assistedBy": [
-        {
-          "raw": "Codex:GPT-5",
-          "identity": "Codex:GPT-5",
-          "agent": "Codex",
-          "model": "GPT-5"
-        }
-      ]
-    },
-    {
-      "sha": "b28d23c51635b646784a2a62c71ba99458c07d5e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b28d23c51635b646784a2a62c71ba99458c07d5e",
-      "authoredAt": "2026-07-20T20:24:48.000-07:00",
-      "committedAt": "2026-07-22T15:06:25.000+02:00",
-      "authorName": "Darrick J. Wong",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: mark nonzero sb_gquotino as corrupt on metadir filesystems",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "LOLLM # finding obvious bugs",
-          "identity": "LOLLM # finding obvious bugs",
-          "agent": "LOLLM # finding obvious bugs",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "49933254ba8d421ed706cbe6ed0fbc264e572cab",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/49933254ba8d421ed706cbe6ed0fbc264e572cab",
-      "authoredAt": "2026-07-20T20:24:33.000-07:00",
-      "committedAt": "2026-07-22T15:06:25.000+02:00",
-      "authorName": "Darrick J. Wong",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: zero i_nlink before repair puts inode on unlinked list",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "LOLLM # finding obvious bugs",
-          "identity": "LOLLM # finding obvious bugs",
-          "agent": "LOLLM # finding obvious bugs",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "8ed78104722b57df69478b0b1608a408c1036085",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8ed78104722b57df69478b0b1608a408c1036085",
-      "authoredAt": "2026-07-20T20:24:17.000-07:00",
-      "committedAt": "2026-07-22T15:06:25.000+02:00",
-      "authorName": "Darrick J. Wong",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: rtsummary scrub should treat rtbitmap corruption errors as an xref error",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "LOLLM # finding obvious bugs",
-          "identity": "LOLLM # finding obvious bugs",
-          "agent": "LOLLM # finding obvious bugs",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "61606f8846a9da8ab7d2d36ff4617134c9d6df1b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/61606f8846a9da8ab7d2d36ff4617134c9d6df1b",
-      "authoredAt": "2026-07-20T20:24:02.000-07:00",
-      "committedAt": "2026-07-22T15:06:24.000+02:00",
-      "authorName": "Darrick J. Wong",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: fix transaction block reservation in xrep_rtbitmap",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "LOLLM # finding obvious bugs",
-          "identity": "LOLLM # finding obvious bugs",
-          "agent": "LOLLM # finding obvious bugs",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "270ffcd9b0a46254fbf3079d0e3341db7d7ec0e6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/270ffcd9b0a46254fbf3079d0e3341db7d7ec0e6",
-      "authoredAt": "2026-07-20T20:23:46.000-07:00",
-      "committedAt": "2026-07-22T15:06:24.000+02:00",
-      "authorName": "Darrick J. Wong",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: check cowextsize in xrep_inode_cowextsize",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "LOLLM # finding obvious bugs",
-          "identity": "LOLLM # finding obvious bugs",
-          "agent": "LOLLM # finding obvious bugs",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "43ea91dadb35579169884f6707d43f7b2607153d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/43ea91dadb35579169884f6707d43f7b2607153d",
-      "authoredAt": "2026-07-20T18:58:56.000-07:00",
-      "committedAt": "2026-07-23T16:40:05.000+09:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Damien Le Moal",
-      "subject": "ata: pata_pxa: use devres for DMA channel management",
-      "subsystem": "ata",
-      "assistedBy": [
-        {
-          "raw": "opencode:hy3-free",
-          "identity": "opencode:hy3-free",
-          "agent": "opencode",
-          "model": "hy3-free"
-        }
-      ]
-    },
-    {
-      "sha": "8b87300e1b2a747a608c5036ea57bb9dcd91d82b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8b87300e1b2a747a608c5036ea57bb9dcd91d82b",
-      "authoredAt": "2026-07-20T18:32:59.000-06:00",
-      "committedAt": "2026-08-06T09:58:35.000-04:00",
-      "authorName": "Alex Hung",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Fix wb_info leak and NULL deref in writeback",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "6d4514ca9cdf61fec4ec634cf50386f6f7e69748",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6d4514ca9cdf61fec4ec634cf50386f6f7e69748",
-      "authoredAt": "2026-07-21T00:31:48.000Z",
-      "committedAt": "2026-08-02T09:57:35.000+02:00",
-      "authorName": "Keno Fischer",
-      "committerName": "Ingo Molnar",
-      "subject": "futex: Prevent robust futex exit race some more",
-      "subsystem": "futex",
-      "assistedBy": [
-        {
-          "raw": "ClaudeCode:claude-fable-5 tla+",
-          "identity": "ClaudeCode:claude-fable-5 tla+",
-          "agent": "ClaudeCode",
-          "model": "claude-fable-5 tla+"
-        }
-      ]
-    },
-    {
-      "sha": "b5e4771f20a37fdf19eac0824bf062dffb4e291f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b5e4771f20a37fdf19eac0824bf062dffb4e291f",
-      "authoredAt": "2026-07-20T20:50:35.000Z",
-      "committedAt": "2026-08-06T11:54:41.000+05:30",
-      "authorName": "Priya Bala Govindasamy",
-      "committerName": "Viresh Kumar",
-      "subject": "rust: cpufreq: Add CPUFREQ_TABLE_END as last table entry in TableBuilder::to_table",
-      "subsystem": "rust",
-      "assistedBy": [
-        {
-          "raw": "ChatGPT:gpt-5.6-terra",
-          "identity": "ChatGPT:gpt-5.6-terra",
-          "agent": "ChatGPT",
-          "model": "gpt-5.6-terra"
-        }
-      ]
-    },
-    {
-      "sha": "be784e161a97991fd04b3d4be361bfa9ed5c763f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/be784e161a97991fd04b3d4be361bfa9ed5c763f",
-      "authoredAt": "2026-07-20T16:37:38.000-04:00",
-      "committedAt": "2026-08-06T09:59:11.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add KUnit tests for crtc set_static_screen_optimze",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "466a270202335eed7b9dceeab1525ba32d4bd5bb",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/466a270202335eed7b9dceeab1525ba32d4bd5bb",
-      "authoredAt": "2026-07-20T16:22:28.000-04:00",
-      "committedAt": "2026-08-06T09:59:05.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add KUnit tests for crtc set_vupdate_irq",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "ae980af4f6340904324a81c7c1f766f654f414e8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ae980af4f6340904324a81c7c1f766f654f414e8",
-      "authoredAt": "2026-07-20T16:03:33.000-04:00",
-      "committedAt": "2026-08-06T09:59:01.000-04:00",
-      "authorName": "Bhawanpreet Lakha",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Add KUnit test for crtc vblank event completion",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:Claude-Opus-4.8",
-          "identity": "Copilot:Claude-Opus-4.8",
-          "agent": "Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "19c76bdd3fc02475c73c8576f6f4a55ff07886f1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/19c76bdd3fc02475c73c8576f6f4a55ff07886f1",
-      "authoredAt": "2026-07-20T18:00:58.000Z",
-      "committedAt": "2026-08-06T11:54:41.000+05:30",
-      "authorName": "Priya Bala Govindasamy",
-      "committerName": "Viresh Kumar",
-      "subject": "rust: cpufreq: Fix temporary write in Registration::bios_limit_callback",
-      "subsystem": "rust",
-      "assistedBy": [
-        {
-          "raw": "ChatGPT:gpt-5.4",
-          "identity": "ChatGPT:gpt-5.4",
-          "agent": "ChatGPT",
-          "model": "gpt-5.4"
-        }
-      ]
-    },
-    {
-      "sha": "a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6",
-      "authoredAt": "2026-07-20T21:25:17.000+05:30",
-      "committedAt": "2026-07-21T22:35:08.000+01:00",
-      "authorName": "Kamal Wadhwa",
-      "committerName": "Mark Brown",
-      "subject": "regulator: core: clamp voltage constraints before applying apply_uV",
-      "subsystem": "regulator",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5",
-          "identity": "Claude:claude-sonnet-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5"
-        }
-      ]
-    },
-    {
-      "sha": "4e143d662ca94888b494b2427fc9e34494eb933a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4e143d662ca94888b494b2427fc9e34494eb933a",
-      "authoredAt": "2026-07-20T13:17:08.000Z",
-      "committedAt": "2026-07-28T15:17:54.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Hans Verkuil",
-      "subject": "media: cx23885: cancel NetUP CI work before teardown",
-      "subsystem": "media",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6",
-          "identity": "Codex:gpt-5.6",
-          "agent": "Codex",
-          "model": "gpt-5.6"
         }
       ]
     }
