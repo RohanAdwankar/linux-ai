@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-09-27T14:01:39.374Z",
+  "generatedAt": "2026-09-27T18:26:29.688Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 255,
-    "totalAuthors": 277,
+    "totalSubsystems": 257,
+    "totalAuthors": 279,
     "totalAgents": 171
   },
   "commits": [
+    {
+      "sha": "db6365ced4d5855e321f772b240c0e473bcfcdd5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/db6365ced4d5855e321f772b240c0e473bcfcdd5",
+      "authoredAt": "2026-09-25T15:25:12.000+05:30",
+      "committedAt": "2026-09-26T22:18:50.000-10:00",
+      "authorName": "Pavankumar Kondeti",
+      "committerName": "Tejun Heo",
+      "subject": "workqueue: Fix NULL current_pwq deref in flush dependency check",
+      "subsystem": "workqueue",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "5bfa9f1a9dcb6ecb607adbc1c0226605c972935b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5bfa9f1a9dcb6ecb607adbc1c0226605c972935b",
@@ -20,6 +38,24 @@
       "committerName": "Masami Hiramatsu (Google)",
       "subject": "kprobes: Fix permanent hang when flushing the kprobe optimizer",
       "subsystem": "kprobes",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "31c88350b7dd1522792f726f79607f31bb55c50f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/31c88350b7dd1522792f726f79607f31bb55c50f",
+      "authoredAt": "2026-09-24T04:27:27.000Z",
+      "committedAt": "2026-09-26T08:07:26.000-10:00",
+      "authorName": "Hui Peng",
+      "committerName": "Tejun Heo",
+      "subject": "cgroup/cpuset: Return PERR_NOCPUS in remote_partition_enable() on subpartitions_cpus conflict",
+      "subsystem": "cgroup/cpuset",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -102,6 +138,24 @@
       ]
     },
     {
+      "sha": "b8d1d5b63a8ef532038eebd9d97d406860385668",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b8d1d5b63a8ef532038eebd9d97d406860385668",
+      "authoredAt": "2026-09-22T13:24:55.000+09:00",
+      "committedAt": "2026-09-23T11:28:56.000-07:00",
+      "authorName": "Masami Hiramatsu (Google)",
+      "committerName": "Borislav Petkov (AMD)",
+      "subject": "x86/mce: Fix hardware debug register corruption on task migration",
+      "subsystem": "x86/mce",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "77b1718e39e5c9f6956fb60807326af20baf889d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/77b1718e39e5c9f6956fb60807326af20baf889d",
       "authoredAt": "2026-09-21T21:46:05.000-04:00",
@@ -140,6 +194,24 @@
           "identity": "Qoder:Qwen3.8-Max",
           "agent": "Qoder",
           "model": "Qwen3.8-Max"
+        }
+      ]
+    },
+    {
+      "sha": "cca4980630b3c7a85f53cb43c6018184ce5d4e37",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cca4980630b3c7a85f53cb43c6018184ce5d4e37",
+      "authoredAt": "2026-09-20T16:16:39.000-07:00",
+      "committedAt": "2026-09-23T11:48:35.000+02:00",
+      "authorName": "Namhyung Kim",
+      "committerName": "Peter Zijlstra",
+      "subject": "perf/core: Fix a refcount leak in attach_perf_ctx_data()",
+      "subsystem": "perf/core",
+      "assistedBy": [
+        {
+          "raw": "Sashiko.dev:Gemini-3.1-pro",
+          "identity": "Sashiko.dev:Gemini-3.1-pro",
+          "agent": "Sashiko.dev",
+          "model": "Gemini-3.1-pro"
         }
       ]
     },
@@ -17870,78 +17942,6 @@
           "identity": "Copilot:claude-opus-4.8",
           "agent": "Copilot",
           "model": "claude-opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "329a7a6cee090e2d4a94f2d8af8aa04b8e23fec7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/329a7a6cee090e2d4a94f2d8af8aa04b8e23fec7",
-      "authoredAt": "2026-07-21T20:55:16.000Z",
-      "committedAt": "2026-07-22T15:55:49.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/vm: Use regular comment for GSC VM lockdep note in xe_vm_create()",
-      "subsystem": "drm/xe/vm",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.7",
-          "identity": "Claude:claude-opus-4.7",
-          "agent": "Claude",
-          "model": "claude-opus-4.7"
-        }
-      ]
-    },
-    {
-      "sha": "cc98c031846e3f2f2f91fe4256d5754cd2f7ef71",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cc98c031846e3f2f2f91fe4256d5754cd2f7ef71",
-      "authoredAt": "2026-07-21T20:55:15.000Z",
-      "committedAt": "2026-07-22T15:55:49.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/vm: Remove redundant INIT_WORK() for rebind_work in xe_vm_create()",
-      "subsystem": "drm/xe/vm",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.7",
-          "identity": "Claude:claude-opus-4.7",
-          "agent": "Claude",
-          "model": "claude-opus-4.7"
-        }
-      ]
-    },
-    {
-      "sha": "d2c6800ad1802bed72a6de1416536737f114f1d6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d2c6800ad1802bed72a6de1416536737f114f1d6",
-      "authoredAt": "2026-07-21T20:55:14.000Z",
-      "committedAt": "2026-07-23T09:19:08.000+02:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Thomas Hellström",
-      "subject": "drm/xe/vm: Fix SVM leak on resv obj alloc failure in xe_vm_create()",
-      "subsystem": "drm/xe/vm",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.7",
-          "identity": "Claude:claude-opus-4.7",
-          "agent": "Claude",
-          "model": "claude-opus-4.7"
-        }
-      ]
-    },
-    {
-      "sha": "ca2a3587d577ba764e0fe628fb676244fc33ddd4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ca2a3587d577ba764e0fe628fb676244fc33ddd4",
-      "authoredAt": "2026-07-21T20:55:14.000Z",
-      "committedAt": "2026-07-22T15:55:49.000-07:00",
-      "authorName": "Shuicheng Lin",
-      "committerName": "Shuicheng Lin",
-      "subject": "drm/xe/vm: Fix SVM leak on resv obj alloc failure in xe_vm_create()",
-      "subsystem": "drm/xe/vm",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.7",
-          "identity": "Claude:claude-opus-4.7",
-          "agent": "Claude",
-          "model": "claude-opus-4.7"
         }
       ]
     }
