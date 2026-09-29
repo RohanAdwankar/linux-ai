@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:54:33.999Z",
+  "generatedAt": "2026-09-29T20:49:20.650Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -8,7 +8,7 @@
     "totalCommits": 986,
     "totalSubsystems": 258,
     "totalAuthors": 280,
-    "totalAgents": 171
+    "totalAgents": 170
   },
   "commits": [
     {
@@ -1603,6 +1603,24 @@
           "raw": "LOLLM # finding obvious bugs",
           "identity": "LOLLM # finding obvious bugs",
           "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "1c1a342aceec79528b3ba51f376eca2be5928fe7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1c1a342aceec79528b3ba51f376eca2be5928fe7",
+      "authoredAt": "2026-09-10T22:44:05.000Z",
+      "committedAt": "2026-09-25T16:53:51.000+02:00",
+      "authorName": "Sagnik Sasmal",
+      "committerName": "Miquel Raynal",
+      "subject": "mtd: spinand: Do not update the QE bit on devices without one",
+      "subsystem": "mtd",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
           "model": ""
         }
       ]
@@ -4542,6 +4560,24 @@
       ]
     },
     {
+      "sha": "21f027016b1290d13c30b198ae7a00e6b3d1d5a5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/21f027016b1290d13c30b198ae7a00e6b3d1d5a5",
+      "authoredAt": "2026-09-02T15:05:42.000+08:00",
+      "committedAt": "2026-09-04T20:32:21.000+02:00",
+      "authorName": "Runyu Xiao",
+      "committerName": "Miquel Raynal",
+      "subject": "mtd: rawnand: cadence: Initialize IRQ state before requesting IRQ",
+      "subsystem": "mtd",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5",
+          "identity": "Codex:GPT-5",
+          "agent": "Codex",
+          "model": "GPT-5"
+        }
+      ]
+    },
+    {
       "sha": "df72e55e754c8d449321ddddad19a8bd3cb8d032",
       "htmlUrl": "https://github.com/torvalds/linux/commit/df72e55e754c8d449321ddddad19a8bd3cb8d032",
       "authoredAt": "2026-09-01T23:35:04.000-07:00",
@@ -6582,6 +6618,24 @@
       ]
     },
     {
+      "sha": "39b975ff208610301bc400460ec245caeffa4ee0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/39b975ff208610301bc400460ec245caeffa4ee0",
+      "authoredAt": "2026-08-24T03:47:03.000+02:00",
+      "committedAt": "2026-09-04T19:13:21.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Miquel Raynal",
+      "subject": "mtd: cfi_cmdset_0001: shrink do_write_buffer() stack frame",
+      "subsystem": "mtd",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "2db9bfa3e27bdea15e05ea70b56bad3d21e570ec",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2db9bfa3e27bdea15e05ea70b56bad3d21e570ec",
       "authoredAt": "2026-08-24T01:28:58.000+08:00",
@@ -7532,6 +7586,42 @@
           "identity": "Claude:claude-sonnet-5",
           "agent": "Claude",
           "model": "claude-sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "12b31d1acd20b3185bb5f0748db0cf6874c8e9d1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/12b31d1acd20b3185bb5f0748db0cf6874c8e9d1",
+      "authoredAt": "2026-08-16T18:30:58.000+02:00",
+      "committedAt": "2026-09-04T19:11:26.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Miquel Raynal",
+      "subject": "mtd: core: call _get_device() with the master MTD",
+      "subsystem": "mtd",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "26300879cd8e4612dce66bb8f6ff7cd35fcf3e59",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/26300879cd8e4612dce66bb8f6ff7cd35fcf3e59",
+      "authoredAt": "2026-08-16T18:30:27.000+02:00",
+      "committedAt": "2026-09-04T19:07:31.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Miquel Raynal",
+      "subject": "mtd: core: avoid double-free of OTP NVMEM device",
+      "subsystem": "mtd",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6-sol",
+          "identity": "Codex:gpt-5.6-sol",
+          "agent": "Codex",
+          "model": "gpt-5.6-sol"
         }
       ]
     },
@@ -17852,96 +17942,6 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "e46a9b8150c9cd7a41ae963389901a85ec40bea8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e46a9b8150c9cd7a41ae963389901a85ec40bea8",
-      "authoredAt": "2026-07-21T16:52:50.000-07:00",
-      "committedAt": "2026-08-07T09:43:36.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf find-map: Remove PATH_MAX 128-byte stack array restriction",
-      "subsystem": "perf find-map",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "3a065257412f612d4f3fe538003c4520d6e4e4c0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3a065257412f612d4f3fe538003c4520d6e4e4c0",
-      "authoredAt": "2026-07-21T15:59:36.000-07:00",
-      "committedAt": "2026-07-23T18:11:58.000+01:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: fsl: mpc5200_dma: use platform helpers and devm cleanup",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "opencode:hy3-free",
-          "identity": "opencode:hy3-free",
-          "agent": "opencode",
-          "model": "hy3-free"
-        }
-      ]
-    },
-    {
-      "sha": "522d7baa39e913700782cd22514ec04ac80ca036",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/522d7baa39e913700782cd22514ec04ac80ca036",
-      "authoredAt": "2026-07-21T15:54:42.000-07:00",
-      "committedAt": "2026-07-30T13:18:15.000+01:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: fsl: dma: use platform helpers and devm cleanup",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "opencode:hy3-free",
-          "identity": "opencode:hy3-free",
-          "agent": "opencode",
-          "model": "hy3-free"
-        }
-      ]
-    },
-    {
-      "sha": "1d79804a358ce35a5c1182124a0f43aa4e54003c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1d79804a358ce35a5c1182124a0f43aa4e54003c",
-      "authoredAt": "2026-07-21T15:54:11.000-07:00",
-      "committedAt": "2026-07-22T13:27:05.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Takashi Iwai",
-      "subject": "ALSA: atmel: ac97c: use platform helpers and devm cleanup",
-      "subsystem": "alsa",
-      "assistedBy": [
-        {
-          "raw": "opencode:hy3-free",
-          "identity": "opencode:hy3-free",
-          "agent": "opencode",
-          "model": "hy3-free"
-        }
-      ]
-    },
-    {
-      "sha": "664431d20317569b8daba2d4b1a25df64908e33e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/664431d20317569b8daba2d4b1a25df64908e33e",
-      "authoredAt": "2026-07-21T17:49:24.000-04:00",
-      "committedAt": "2026-08-06T12:41:45.000-04:00",
-      "authorName": "Ivan Lipski",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Unify force_yuv debugfs into force_yuv_pixel_format",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Copilot:claude-opus-4.8",
-          "identity": "Copilot:claude-opus-4.8",
-          "agent": "Copilot",
-          "model": "claude-opus-4.8"
         }
       ]
     }
