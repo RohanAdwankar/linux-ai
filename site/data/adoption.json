@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-30T00:29:22.275Z",
+  "generatedAt": "2026-09-30T06:45:19.026Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 258,
-    "totalAuthors": 280,
-    "totalAgents": 170
+    "totalSubsystems": 259,
+    "totalAuthors": 281,
+    "totalAgents": 171
   },
   "commits": [
     {
@@ -3084,6 +3084,42 @@
       ]
     },
     {
+      "sha": "fcf0b58e976e83adf246b014518e49c662b96f5e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fcf0b58e976e83adf246b014518e49c662b96f5e",
+      "authoredAt": "2026-09-05T21:41:52.000+01:00",
+      "committedAt": "2026-09-21T21:26:40.000+02:00",
+      "authorName": "Aamir Ahmed",
+      "committerName": "Alexandre Belloni",
+      "subject": "rtc: ac100: Fix clock provider use-after-free on probe failure",
+      "subsystem": "rtc",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "6a4117eee82dd85f11bf898bf66026764011eeb6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6a4117eee82dd85f11bf898bf66026764011eeb6",
+      "authoredAt": "2026-09-05T19:38:08.000+01:00",
+      "committedAt": "2026-09-21T21:23:44.000+02:00",
+      "authorName": "Aamir Ahmed",
+      "committerName": "Alexandre Belloni",
+      "subject": "rtc: ac100: Assign .num before accessing .hws",
+      "subsystem": "rtc",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "adbd8a08208dc64bb1381f51b4f11ffdce1343fa",
       "htmlUrl": "https://github.com/torvalds/linux/commit/adbd8a08208dc64bb1381f51b4f11ffdce1343fa",
       "authoredAt": "2026-09-05T15:49:00.000Z",
@@ -4394,6 +4430,24 @@
           "identity": "Bynario AI",
           "agent": "Bynario AI",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "055ef5ce9f67a6a3a1363fa663007f8196cc0fb8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/055ef5ce9f67a6a3a1363fa663007f8196cc0fb8",
+      "authoredAt": "2026-09-02T16:03:18.000+08:00",
+      "committedAt": "2026-09-21T22:46:42.000+02:00",
+      "authorName": "Runyu Xiao",
+      "committerName": "Alexandre Belloni",
+      "subject": "rtc: spear: initialize IRQ state before requesting alarm IRQ",
+      "subsystem": "rtc",
+      "assistedBy": [
+        {
+          "raw": "Codex:GPT-5",
+          "identity": "Codex:GPT-5",
+          "agent": "Codex",
+          "model": "GPT-5"
         }
       ]
     },
@@ -6140,6 +6194,24 @@
           "identity": "LOLLM # finding obvious bugs",
           "agent": "LOLLM # finding obvious bugs",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "0ee5c5d804d592a8328a425b9274487d393d3a05",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0ee5c5d804d592a8328a425b9274487d393d3a05",
+      "authoredAt": "2026-08-27T09:54:44.000+08:00",
+      "committedAt": "2026-09-21T21:12:35.000+02:00",
+      "authorName": "Liu Dalin",
+      "committerName": "Alexandre Belloni",
+      "subject": "rtc: dev: zero-initialize struct rtc_wkalrm to prevent information leak",
+      "subsystem": "rtc",
+      "assistedBy": [
+        {
+          "raw": "smatch:2.0 [static analysis]",
+          "identity": "smatch:2.0 [static analysis]",
+          "agent": "smatch",
+          "model": "2.0 [static analysis]"
         }
       ]
     },
@@ -17870,78 +17942,6 @@
           "identity": "Codex:gpt-5.6-sol",
           "agent": "Codex",
           "model": "gpt-5.6-sol"
-        }
-      ]
-    },
-    {
-      "sha": "006a6f0f6ea629a5b37d7b9f3299cf5b6aecb42e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/006a6f0f6ea629a5b37d7b9f3299cf5b6aecb42e",
-      "authoredAt": "2026-07-21T16:52:54.000-07:00",
-      "committedAt": "2026-08-07T09:43:36.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf synthetic-events: Fix bounds and union member access in mmap2 build_id synthesis",
-      "subsystem": "perf synthetic-events",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "b97c53576866d3ba3fb4d9694a0fca7a0ef925ac",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b97c53576866d3ba3fb4d9694a0fca7a0ef925ac",
-      "authoredAt": "2026-07-21T16:52:53.000-07:00",
-      "committedAt": "2026-08-07T09:43:36.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf synthetic-events: Fix bounds, stale state, and misc flags in kernel module synthesis",
-      "subsystem": "perf synthetic-events",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "093f58e60e9548d35c9a3c2eee7223add4d81aba",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/093f58e60e9548d35c9a3c2eee7223add4d81aba",
-      "authoredAt": "2026-07-21T16:52:52.000-07:00",
-      "committedAt": "2026-08-07T09:43:36.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf synthetic-events: Fix stack buffer overflow and bounds in cgroup synthesis",
-      "subsystem": "perf synthetic-events",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "505a498a3757f188fe0ddd67b2d26794e8922cc5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/505a498a3757f188fe0ddd67b2d26794e8922cc5",
-      "authoredAt": "2026-07-21T16:52:51.000-07:00",
-      "committedAt": "2026-08-07T09:43:36.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf synthetic-events: Fix line synchronization, bounds, and truncation bugs in proc maps reader",
-      "subsystem": "perf synthetic-events",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
         }
       ]
     }
