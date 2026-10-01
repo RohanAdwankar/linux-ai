@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T19:33:06.517Z",
+  "generatedAt": "2026-10-01T23:54:07.865Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -8,9 +8,27 @@
     "totalCommits": 986,
     "totalSubsystems": 250,
     "totalAuthors": 284,
-    "totalAgents": 174
+    "totalAgents": 173
   },
   "commits": [
+    {
+      "sha": "71cc2c67fb8f8d5aa8154eb482e9846d2214f11b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/71cc2c67fb8f8d5aa8154eb482e9846d2214f11b",
+      "authoredAt": "2026-09-29T20:02:09.000Z",
+      "committedAt": "2026-10-01T09:27:26.000-07:00",
+      "authorName": "Mostafa Saleh",
+      "committerName": "Oliver Upton",
+      "subject": "KVM: arm64: Use stage-1 leaf size for VM_PFNMAP",
+      "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "024e05f73a4c1263d031614bc36700ec135eecb4",
       "htmlUrl": "https://github.com/torvalds/linux/commit/024e05f73a4c1263d031614bc36700ec135eecb4",
@@ -5600,6 +5618,78 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "21c89ff1fc86ffa517f3a9ca1ba5c48e9e37c1ba",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/21c89ff1fc86ffa517f3a9ca1ba5c48e9e37c1ba",
+      "authoredAt": "2026-08-31T18:29:25.000-07:00",
+      "committedAt": "2026-09-17T16:39:48.000-05:00",
+      "authorName": "Abdurrahman Hussain",
+      "committerName": "Rob Herring (Arm)",
+      "subject": "of/overlay: don't create \"//\" paths for fragments targeting the root",
+      "subsystem": "of/overlay",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5 [Claude Code]",
+          "identity": "Claude:claude-fable-5 [Claude Code]",
+          "agent": "Claude",
+          "model": "claude-fable-5 [Claude Code]"
+        }
+      ]
+    },
+    {
+      "sha": "1d62f0f2bc7edb12ed09f71203df0e47fa4efca4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1d62f0f2bc7edb12ed09f71203df0e47fa4efca4",
+      "authoredAt": "2026-08-31T18:29:24.000-07:00",
+      "committedAt": "2026-09-17T16:38:09.000-05:00",
+      "authorName": "Abdurrahman Hussain",
+      "committerName": "Rob Herring (Arm)",
+      "subject": "of/overlay: don't leak fragment references when changeset init fails",
+      "subsystem": "of/overlay",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-4-8 [Claude Code]",
+          "identity": "Claude:claude-opus-4-8 [Claude Code]",
+          "agent": "Claude",
+          "model": "claude-opus-4-8 [Claude Code]"
+        }
+      ]
+    },
+    {
+      "sha": "44081d708b5b885487bac792db78324b7b4c267d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/44081d708b5b885487bac792db78324b7b4c267d",
+      "authoredAt": "2026-08-31T18:29:23.000-07:00",
+      "committedAt": "2026-09-17T16:36:09.000-05:00",
+      "authorName": "Abdurrahman Hussain",
+      "committerName": "Rob Herring (Arm)",
+      "subject": "of/overlay: only treat a positive changeset id as registered",
+      "subsystem": "of/overlay",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5 [Claude Code]",
+          "identity": "Claude:claude-fable-5 [Claude Code]",
+          "agent": "Claude",
+          "model": "claude-fable-5 [Claude Code]"
+        }
+      ]
+    },
+    {
+      "sha": "814f2da6995772c07a7c9c2cc6028b6e3f3ecc9c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/814f2da6995772c07a7c9c2cc6028b6e3f3ecc9c",
+      "authoredAt": "2026-08-31T18:29:22.000-07:00",
+      "committedAt": "2026-09-17T16:35:32.000-05:00",
+      "authorName": "Abdurrahman Hussain",
+      "committerName": "Rob Herring (Arm)",
+      "subject": "of/overlay: put property on deadprops only after changeset add succeeds",
+      "subsystem": "of/overlay",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-fable-5 [Claude Code]",
+          "identity": "Claude:claude-fable-5 [Claude Code]",
+          "agent": "Claude",
+          "model": "claude-fable-5 [Claude Code]"
         }
       ]
     },
@@ -17840,96 +17930,6 @@
           "identity": "Antigravity:gemini-3.5-flash",
           "agent": "Antigravity",
           "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "8f2f62855a41d1730fb9e8122912bd2c8d6bed5d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8f2f62855a41d1730fb9e8122912bd2c8d6bed5d",
-      "authoredAt": "2026-07-24T00:43:46.000+08:00",
-      "committedAt": "2026-07-28T14:52:31.000-04:00",
-      "authorName": "Zihan Xi",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: mgmt: fix pending command UAF in EIR updates",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.4",
-          "identity": "Codex:gpt-5.4",
-          "agent": "Codex",
-          "model": "gpt-5.4"
-        }
-      ]
-    },
-    {
-      "sha": "05649458e4bc2e45eb8d231a7a9b00dd6c9e8206",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/05649458e4bc2e45eb8d231a7a9b00dd6c9e8206",
-      "authoredAt": "2026-07-23T17:15:43.000+01:00",
-      "committedAt": "2026-07-27T11:41:01.000+01:00",
-      "authorName": "Matthew Auld",
-      "committerName": "Matthew Auld",
-      "subject": "drm/xe/bo: optimise TT population for DONTNEED BOs",
-      "subsystem": "drm/xe/bo",
-      "assistedBy": [
-        {
-          "raw": "Copilot:gemini-3.1-pro-preview",
-          "identity": "Copilot:gemini-3.1-pro-preview",
-          "agent": "Copilot",
-          "model": "gemini-3.1-pro-preview"
-        }
-      ]
-    },
-    {
-      "sha": "db4b9eefc8ee0bcaeee4d5e6a7313905f6a2fe7c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/db4b9eefc8ee0bcaeee4d5e6a7313905f6a2fe7c",
-      "authoredAt": "2026-07-23T17:54:28.000+02:00",
-      "committedAt": "2026-08-07T19:17:18.000+02:00",
-      "authorName": "Johannes Thumshirn",
-      "committerName": "David Sterba",
-      "subject": "btrfs: zoned: don't clobber the extent buffer when zeroing it out",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "LLM (debugging, commit message)",
-          "identity": "LLM (debugging, commit message)",
-          "agent": "LLM (debugging, commit message)",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "3cbcc099b4d42667ea8c6b10d28f6060c104048c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3cbcc099b4d42667ea8c6b10d28f6060c104048c",
-      "authoredAt": "2026-07-23T17:54:26.000+02:00",
-      "committedAt": "2026-08-07T19:17:18.000+02:00",
-      "authorName": "Johannes Thumshirn",
-      "committerName": "David Sterba",
-      "subject": "btrfs: zoned: drop stranded dirty metadata on transaction abort",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "LLM (debugging, commit message)",
-          "identity": "LLM (debugging, commit message)",
-          "agent": "LLM (debugging, commit message)",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "ecc05eda9a346848ae01a6c8bfa3f0bec133bd8b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ecc05eda9a346848ae01a6c8bfa3f0bec133bd8b",
-      "authoredAt": "2026-07-23T17:54:25.000+02:00",
-      "committedAt": "2026-08-07T19:17:18.000+02:00",
-      "authorName": "Johannes Thumshirn",
-      "committerName": "David Sterba",
-      "subject": "btrfs: zoned: flush active metadata block group at btree_writepages() start",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "LLM (debugging, commit message)",
-          "identity": "LLM (debugging, commit message)",
-          "agent": "LLM (debugging, commit message)",
-          "model": ""
         }
       ]
     }
