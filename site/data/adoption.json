@@ -1,16 +1,88 @@
 {
-  "generatedAt": "2026-10-01T13:20:36.144Z",
+  "generatedAt": "2026-10-01T19:33:06.517Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 259,
-    "totalAuthors": 281,
-    "totalAgents": 171
+    "totalSubsystems": 250,
+    "totalAuthors": 284,
+    "totalAgents": 174
   },
   "commits": [
+    {
+      "sha": "024e05f73a4c1263d031614bc36700ec135eecb4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/024e05f73a4c1263d031614bc36700ec135eecb4",
+      "authoredAt": "2026-09-27T19:04:50.000+08:00",
+      "committedAt": "2026-09-28T11:00:20.000-04:00",
+      "authorName": "Chengfeng Ye",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: hci_conn: Lock parent access during enhanced SCO setup",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "GPT-6-Astra",
+          "identity": "GPT-6-Astra",
+          "agent": "GPT-6-Astra",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "2d696c1ed3468dcb62578a3911e687110d463520",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2d696c1ed3468dcb62578a3911e687110d463520",
+      "authoredAt": "2026-09-27T01:27:23.000+08:00",
+      "committedAt": "2026-09-28T11:00:20.000-04:00",
+      "authorName": "Chengfeng Ye",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: RFCOMM: Fix initial port reference race",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "848a7a91c7f03675d3bd8db6f7721cbf9cb50e21",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/848a7a91c7f03675d3bd8db6f7721cbf9cb50e21",
+      "authoredAt": "2026-09-27T01:04:03.000+08:00",
+      "committedAt": "2026-09-28T11:00:20.000-04:00",
+      "authorName": "Chengfeng Ye",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: hci_core: Serialize SCO and ISO scheduling with teardown",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f4845ab191a4f686a5da481fbba90ed73bb693b0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f4845ab191a4f686a5da481fbba90ed73bb693b0",
+      "authoredAt": "2026-09-27T01:04:02.000+08:00",
+      "committedAt": "2026-09-28T11:00:20.000-04:00",
+      "authorName": "Chengfeng Ye",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: hci_core: Serialize ACL scheduling with channel deletion",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "db6365ced4d5855e321f772b240c0e473bcfcdd5",
       "htmlUrl": "https://github.com/torvalds/linux/commit/db6365ced4d5855e321f772b240c0e473bcfcdd5",
@@ -30,6 +102,60 @@
       ]
     },
     {
+      "sha": "6f63e919fe1e335b8abcb3a28bfd4804a98d875a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6f63e919fe1e335b8abcb3a28bfd4804a98d875a",
+      "authoredAt": "2026-09-24T22:44:08.000-04:00",
+      "committedAt": "2026-09-28T11:11:19.000+02:00",
+      "authorName": "Cen Zhang (Microsoft)",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: fix slab-out-of-bounds read in ieee80211_monitor_select_queue()",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-4.6",
+          "identity": "GitHub-Copilot:claude-opus-4.6",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-4.6"
+        }
+      ]
+    },
+    {
+      "sha": "81fe707ae58e67e5a029a9778c4b0c1b478bcb97",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/81fe707ae58e67e5a029a9778c4b0c1b478bcb97",
+      "authoredAt": "2026-09-24T15:44:59.000-07:00",
+      "committedAt": "2026-09-30T08:02:39.000+01:00",
+      "authorName": "Jeff Jo",
+      "committerName": "David S. Miller",
+      "subject": "selftests: net: check timestamp echo after an old ACK",
+      "subsystem": "selftests",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "1b92780ae4fc3be64f05d97ed8833c445e73b0cf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1b92780ae4fc3be64f05d97ed8833c445e73b0cf",
+      "authoredAt": "2026-09-24T15:44:58.000-07:00",
+      "committedAt": "2026-09-30T08:02:39.000+01:00",
+      "authorName": "Jeff Jo",
+      "committerName": "David S. Miller",
+      "subject": "tcp: refresh TS.Recent for accepted old ACKs",
+      "subsystem": "tcp",
+      "assistedBy": [
+        {
+          "raw": "LLM sparse",
+          "identity": "LLM sparse",
+          "agent": "LLM sparse",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "5bfa9f1a9dcb6ecb607adbc1c0226605c972935b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5bfa9f1a9dcb6ecb607adbc1c0226605c972935b",
       "authoredAt": "2026-09-24T11:21:39.000+02:00",
@@ -38,6 +164,24 @@
       "committerName": "Masami Hiramatsu (Google)",
       "subject": "kprobes: Fix permanent hang when flushing the kprobe optimizer",
       "subsystem": "kprobes",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "006c8b834aed8b02bd8fb9fb05e9e7ead37d1763",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/006c8b834aed8b02bd8fb9fb05e9e7ead37d1763",
+      "authoredAt": "2026-09-24T05:15:21.000Z",
+      "committedAt": "2026-09-29T12:02:37.000+02:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Paolo Abeni",
+      "subject": "net: gso: limit recursive IP-in-IP segmentation",
+      "subsystem": "net",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -138,6 +282,42 @@
       ]
     },
     {
+      "sha": "aa650d87a498844060eecb1d336f4d46f4d1b0b3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/aa650d87a498844060eecb1d336f4d46f4d1b0b3",
+      "authoredAt": "2026-09-22T20:27:35.000Z",
+      "committedAt": "2026-09-25T16:18:51.000-04:00",
+      "authorName": "Jérémy Jean",
+      "committerName": "Paul Moore",
+      "subject": "audit: fix exe mark UAF in kill_rules()",
+      "subsystem": "audit",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "56e236759f0a8dc910c2ae7cd3c161f298ee5794",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/56e236759f0a8dc910c2ae7cd3c161f298ee5794",
+      "authoredAt": "2026-09-23T02:02:23.000+08:00",
+      "committedAt": "2026-09-28T11:10:01.000+02:00",
+      "authorName": "Ruide Cao",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: reject invalid 320 MHz CSA bandwidth",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "b8d1d5b63a8ef532038eebd9d97d406860385668",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b8d1d5b63a8ef532038eebd9d97d406860385668",
       "authoredAt": "2026-09-22T13:24:55.000+09:00",
@@ -174,6 +354,24 @@
       ]
     },
     {
+      "sha": "d1ac915fb4184faad1b62148be50f317de7c24b5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d1ac915fb4184faad1b62148be50f317de7c24b5",
+      "authoredAt": "2026-09-22T03:49:28.000+09:00",
+      "committedAt": "2026-09-23T09:30:50.000-04:00",
+      "authorName": "Sang-Hoon Choi",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: hci_core: free the HCI ID if naming fails",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "d6ec384c87cc851cfd13bb18c99ce351ccee6192",
       "htmlUrl": "https://github.com/torvalds/linux/commit/d6ec384c87cc851cfd13bb18c99ce351ccee6192",
       "authoredAt": "2026-09-21T20:54:41.000+08:00",
@@ -194,6 +392,42 @@
           "identity": "Qoder:Qwen3.8-Max",
           "agent": "Qoder",
           "model": "Qwen3.8-Max"
+        }
+      ]
+    },
+    {
+      "sha": "6bdcdb31318c10e6369cff8e5b32c37397e98091",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6bdcdb31318c10e6369cff8e5b32c37397e98091",
+      "authoredAt": "2026-09-21T10:52:04.000+08:00",
+      "committedAt": "2026-09-22T10:47:47.000+02:00",
+      "authorName": "Yuqi Xu",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: validate TX status rate metadata",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "86b6471e690c67d4c5a1892993f34e080f1eae9d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/86b6471e690c67d4c5a1892993f34e080f1eae9d",
+      "authoredAt": "2026-09-21T10:08:22.000+08:00",
+      "committedAt": "2026-09-30T09:35:20.000+02:00",
+      "authorName": "Weiming Shi",
+      "committerName": "Pablo Neira Ayuso",
+      "subject": "netfilter: nft_set_rbtree: skip transaction elements during GC",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -360,6 +594,42 @@
       ]
     },
     {
+      "sha": "5bfd4b0b40b79781d900cb2f7da0685070f53c67",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5bfd4b0b40b79781d900cb2f7da0685070f53c67",
+      "authoredAt": "2026-09-19T16:48:12.000+08:00",
+      "committedAt": "2026-09-21T16:30:25.000+02:00",
+      "authorName": "Yuqi Xu",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: handle empty FILS association request payload",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "15fb9e3cea55fbc378261ce35a32b0f8828f0000",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/15fb9e3cea55fbc378261ce35a32b0f8828f0000",
+      "authoredAt": "2026-09-19T16:46:20.000+08:00",
+      "committedAt": "2026-09-21T16:30:25.000+02:00",
+      "authorName": "Yuqi Xu",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: minstrel_ht: validate fixed rate index",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "e47a1958e12abc3a17b5231a4f21c8f1bf662e08",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e47a1958e12abc3a17b5231a4f21c8f1bf662e08",
       "authoredAt": "2026-09-19T16:45:27.000+08:00",
@@ -404,6 +674,42 @@
       "committerName": "Rodrigo Vivi",
       "subject": "drm/xe/vm: nuke PTs only after unlinking contested VMAs",
       "subsystem": "drm/xe/vm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "db7b86bd97b380ece8fa39cfdd7502a9fd35e56f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/db7b86bd97b380ece8fa39cfdd7502a9fd35e56f",
+      "authoredAt": "2026-09-18T16:33:49.000+08:00",
+      "committedAt": "2026-09-21T16:30:25.000+02:00",
+      "authorName": "Heyang Tan",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: p54: validate firmware record lengths",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM Codex",
+          "identity": "LLM Codex",
+          "agent": "LLM Codex",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ee3aadc43ea69d98f666431e787137ac0badbb85",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ee3aadc43ea69d98f666431e787137ac0badbb85",
+      "authoredAt": "2026-09-18T05:26:51.000Z",
+      "committedAt": "2026-09-21T16:30:25.000+02:00",
+      "authorName": "Zihan Xi",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: fix mesh fast xmit path deletion UAF",
+      "subsystem": "wifi",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -703,6 +1009,60 @@
           "raw": "LLM",
           "identity": "LLM",
           "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "67a9e80c3ca20c9044cd6ee72cd6278dd19b5023",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/67a9e80c3ca20c9044cd6ee72cd6278dd19b5023",
+      "authoredAt": "2026-09-16T19:37:35.000+08:00",
+      "committedAt": "2026-09-21T16:00:51.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: drain PS delivery work during station teardown",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM sparse smatch coccinelle kasan",
+          "identity": "LLM sparse smatch coccinelle kasan",
+          "agent": "LLM sparse smatch coccinelle kasan",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "a5f35d4b112af1415ff06bd501c8cc26cc08aa8b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a5f35d4b112af1415ff06bd501c8cc26cc08aa8b",
+      "authoredAt": "2026-09-16T19:36:49.000+08:00",
+      "committedAt": "2026-09-21T16:00:51.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: account proxy paths against the mesh path limit",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM sparse kasan",
+          "identity": "LLM sparse kasan",
+          "agent": "LLM sparse kasan",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "7325a44474f20c1393a1c114c6811abce6ddfaf4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7325a44474f20c1393a1c114c6811abce6ddfaf4",
+      "authoredAt": "2026-09-16T19:36:48.000+08:00",
+      "committedAt": "2026-09-21T16:00:51.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: release mesh path quota on failed additions",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM sparse kasan",
+          "identity": "LLM sparse kasan",
+          "agent": "LLM sparse kasan",
           "model": ""
         }
       ]
@@ -1122,6 +1482,24 @@
       ]
     },
     {
+      "sha": "cc45f313d85533d647ce619326302aad6f797c14",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cc45f313d85533d647ce619326302aad6f797c14",
+      "authoredAt": "2026-09-14T23:28:25.000+08:00",
+      "committedAt": "2026-09-22T10:47:54.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cfg80211: preserve hidden-group beacon IE ownership",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-6-astra",
+          "identity": "Codex:gpt-6-astra",
+          "agent": "Codex",
+          "model": "gpt-6-astra"
+        }
+      ]
+    },
+    {
       "sha": "9bdad082d44bdcf93716973dcba6be77e8a06e7b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/9bdad082d44bdcf93716973dcba6be77e8a06e7b",
       "authoredAt": "2026-09-14T22:23:52.000+09:00",
@@ -1446,6 +1824,24 @@
       ]
     },
     {
+      "sha": "ce67ebe9d8629776ce38e6995ae72fb903c828db",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ce67ebe9d8629776ce38e6995ae72fb903c828db",
+      "authoredAt": "2026-09-12T14:47:55.000+01:00",
+      "committedAt": "2026-09-21T14:37:37.000+02:00",
+      "authorName": "Aamir Ahmed",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: wfx: validate MIB read length before copying to caller",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "636139603b99d2e3a18a46cf3f8d39313ce8042e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/636139603b99d2e3a18a46cf3f8d39313ce8042e",
       "authoredAt": "2026-09-12T00:29:08.000+01:00",
@@ -1711,6 +2107,60 @@
           "raw": "LLM",
           "identity": "LLM",
           "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "747928b5d4ff8c8de55138a54c13980e4bb88578",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/747928b5d4ff8c8de55138a54c13980e4bb88578",
+      "authoredAt": "2026-09-10T16:33:26.000+08:00",
+      "committedAt": "2026-09-30T09:35:20.000+02:00",
+      "authorName": "Aohan Mei",
+      "committerName": "Pablo Neira Ayuso",
+      "subject": "netfilter: nft_flow_offload: drop flowtable reference on init error path",
+      "subsystem": "netfilter",
+      "assistedBy": [
+        {
+          "raw": "CodeBuddy:Kimi-K3",
+          "identity": "CodeBuddy:Kimi-K3",
+          "agent": "CodeBuddy",
+          "model": "Kimi-K3"
+        }
+      ]
+    },
+    {
+      "sha": "e588e83e5c7a0f6d7a77dbbb58927c8c8cfd598e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e588e83e5c7a0f6d7a77dbbb58927c8c8cfd598e",
+      "authoredAt": "2026-09-10T14:54:02.000+08:00",
+      "committedAt": "2026-09-22T10:47:51.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: shut down RX BA session timer on teardown",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM sparse kasan",
+          "identity": "LLM sparse kasan",
+          "agent": "LLM sparse kasan",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "a10a2f80476d166fd81c361ec0319493671b694e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a10a2f80476d166fd81c361ec0319493671b694e",
+      "authoredAt": "2026-09-10T14:52:51.000+08:00",
+      "committedAt": "2026-09-22T10:47:53.000+02:00",
+      "authorName": "Zhao Li",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: keep fallback association elements alive",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM sparse kasan",
+          "identity": "LLM sparse kasan",
+          "agent": "LLM sparse kasan",
           "model": ""
         }
       ]
@@ -3224,6 +3674,24 @@
           "identity": "Claude:Claude-Sonnet-5",
           "agent": "Claude",
           "model": "Claude-Sonnet-5"
+        }
+      ]
+    },
+    {
+      "sha": "7c1611780823b76219cb1478db53dfd890c4a9a2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7c1611780823b76219cb1478db53dfd890c4a9a2",
+      "authoredAt": "2026-09-04T15:23:34.000Z",
+      "committedAt": "2026-09-21T14:37:36.000+02:00",
+      "authorName": "Tianchu Chen",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: cw1200: fix TX padding OOB read leaking heap data to device",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -8108,6 +8576,24 @@
           "identity": "Codex:gpt-5",
           "agent": "Codex",
           "model": "gpt-5"
+        }
+      ]
+    },
+    {
+      "sha": "93ce8ea70451e800601bc9444aa33043de15d67b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/93ce8ea70451e800601bc9444aa33043de15d67b",
+      "authoredAt": "2026-08-14T15:58:37.000+08:00",
+      "committedAt": "2026-09-21T10:58:00.000-07:00",
+      "authorName": "Pengpeng Hou",
+      "committerName": "Jeff Johnson",
+      "subject": "wifi: ath9k: reject short WMI command responses",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -17444,504 +17930,6 @@
           "identity": "LLM (debugging, commit message)",
           "agent": "LLM (debugging, commit message)",
           "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "dacd348b8a993373576fe2ee2d8b114740ba57a6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/dacd348b8a993373576fe2ee2d8b114740ba57a6",
-      "authoredAt": "2026-07-23T22:27:35.000+08:00",
-      "committedAt": "2026-07-23T22:27:35.000+08:00",
-      "authorName": "Nicholas Dudar",
-      "committerName": "Huacai Chen",
-      "subject": "LoongArch: BPF: Zero-extend signed ALU32 div/mod results",
-      "subsystem": "loongarch",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "57e5d877f898d5e5c9d672a77bb6bdd24f0d9bf5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/57e5d877f898d5e5c9d672a77bb6bdd24f0d9bf5",
-      "authoredAt": "2026-07-23T11:28:42.000Z",
-      "committedAt": "2026-07-27T17:59:33.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Ulf Hansson",
-      "subject": "mmc: via-sdmmc: cancel card-detect work on remove",
-      "subsystem": "mmc",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6",
-          "identity": "Codex:gpt-5.6",
-          "agent": "Codex",
-          "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "088eaa92fcebaa6b957ccf9635afdf39643a577d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/088eaa92fcebaa6b957ccf9635afdf39643a577d",
-      "authoredAt": "2026-07-23T11:28:41.000Z",
-      "committedAt": "2026-07-27T17:58:41.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Ulf Hansson",
-      "subject": "mmc: via-sdmmc: stop card-detect handling on probe failure",
-      "subsystem": "mmc",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6",
-          "identity": "Codex:gpt-5.6",
-          "agent": "Codex",
-          "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "7bad4bda74dc4713f398d3b7624ff05478e3a568",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7bad4bda74dc4713f398d3b7624ff05478e3a568",
-      "authoredAt": "2026-07-23T09:35:48.000Z",
-      "committedAt": "2026-07-27T09:40:23.000+02:00",
-      "authorName": "Asim Viladi Oglu Manizada",
-      "committerName": "Steffen Klassert",
-      "subject": "xfrm: ah6: validate routing header segments_left",
-      "subsystem": "xfrm",
-      "assistedBy": [
-        {
-          "raw": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
-          "identity": "avom-custom-harness:gpt-5.5-qwen3.6-mod-mix",
-          "agent": "avom-custom-harness",
-          "model": "gpt-5.5-qwen3.6-mod-mix"
-        }
-      ]
-    },
-    {
-      "sha": "c4740e7f23ff9a8210198d8b4703259e21b9f69d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c4740e7f23ff9a8210198d8b4703259e21b9f69d",
-      "authoredAt": "2026-07-23T14:48:45.000+08:00",
-      "committedAt": "2026-07-28T14:57:23.000-04:00",
-      "authorName": "Jiale Yao",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: L2CAP: fix UAF in l2cap_le_connect_rsp",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Claude:deepseek-v4-pro",
-          "identity": "Claude:deepseek-v4-pro",
-          "agent": "Claude",
-          "model": "deepseek-v4-pro"
-        }
-      ]
-    },
-    {
-      "sha": "87ec3437f37b9fe44c524ba967cb12e78de06f15",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/87ec3437f37b9fe44c524ba967cb12e78de06f15",
-      "authoredAt": "2026-07-22T22:06:40.000-07:00",
-      "committedAt": "2026-07-23T22:46:33.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf cap: Remove used_root parameter and simplify capability checks",
-      "subsystem": "perf cap",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "0d40fedcd1b9e809f966c97d40f32943fb89e0d4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0d40fedcd1b9e809f966c97d40f32943fb89e0d4",
-      "authoredAt": "2026-07-22T21:59:49.000-07:00",
-      "committedAt": "2026-07-27T17:30:48.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf ui hists: Remove duplicated thread in popup_action",
-      "subsystem": "perf ui hists",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "b84e081e071da548a531875258fa4b513d786331",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b84e081e071da548a531875258fa4b513d786331",
-      "authoredAt": "2026-07-22T21:59:48.000-07:00",
-      "committedAt": "2026-07-27T17:30:46.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf annotate: Be robust to annotating without a thread",
-      "subsystem": "perf annotate",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "bd86119c3ee6ed7b8fc9be8298fe49f1a5355a46",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bd86119c3ee6ed7b8fc9be8298fe49f1a5355a46",
-      "authoredAt": "2026-07-22T21:59:47.000-07:00",
-      "committedAt": "2026-07-27T17:30:33.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf ui hists: Fix dso_filter reference leak and exit zoom cleanup",
-      "subsystem": "perf ui hists",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "ae89153d5e50d22e04a084829f74dc5a9ae6eb6d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ae89153d5e50d22e04a084829f74dc5a9ae6eb6d",
-      "authoredAt": "2026-07-22T21:59:46.000-07:00",
-      "committedAt": "2026-07-27T17:13:08.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf ui hists: In report UI ensure thread is set with reference counting",
-      "subsystem": "perf ui hists",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "08b0cd02e91d4602e8224c301b47c9d670a04c0d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/08b0cd02e91d4602e8224c301b47c9d670a04c0d",
-      "authoredAt": "2026-07-22T21:59:45.000-07:00",
-      "committedAt": "2026-07-27T17:13:08.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf ui hists: Guard against NULL hist_entry in add_script_opt()",
-      "subsystem": "perf ui hists",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "ad7620a2b9455874884234b0cdae62e1be0ea1f3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ad7620a2b9455874884234b0cdae62e1be0ea1f3",
-      "authoredAt": "2026-07-22T21:59:44.000-07:00",
-      "committedAt": "2026-07-27T17:13:08.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf ui hists: Fix stack use-after-return in symbol_filter_str",
-      "subsystem": "perf ui hists",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
-        }
-      ]
-    },
-    {
-      "sha": "09f71dbeb287e367beea56d9ac8a3d356ef5e02a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/09f71dbeb287e367beea56d9ac8a3d356ef5e02a",
-      "authoredAt": "2026-07-23T06:10:55.000+02:00",
-      "committedAt": "2026-08-10T11:47:59.000+02:00",
-      "authorName": "Karl Mehltretter",
-      "committerName": "Geert Uytterhoeven",
-      "subject": "m68k: Fix backtraces for non-running tasks",
-      "subsystem": "m68k",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "4059c64d78b5d543dabae332922e763b4c95c79e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4059c64d78b5d543dabae332922e763b4c95c79e",
-      "authoredAt": "2026-07-23T03:52:29.000Z",
-      "committedAt": "2026-07-27T20:18:31.000-05:00",
-      "authorName": "Bjorn Andersson",
-      "committerName": "Bjorn Andersson",
-      "subject": "remoteproc: Force shutdown during device removal",
-      "subsystem": "remoteproc",
-      "assistedBy": [
-        {
-          "raw": "OpenCode:GPT-5.5",
-          "identity": "OpenCode:GPT-5.5",
-          "agent": "OpenCode",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "74ee3b2f5767447c57959994341e5b95f1079977",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/74ee3b2f5767447c57959994341e5b95f1079977",
-      "authoredAt": "2026-07-23T03:52:28.000Z",
-      "committedAt": "2026-07-27T20:18:30.000-05:00",
-      "authorName": "Bjorn Andersson",
-      "committerName": "Bjorn Andersson",
-      "subject": "remoteproc: Prevent crash handling to race with rproc_del()",
-      "subsystem": "remoteproc",
-      "assistedBy": [
-        {
-          "raw": "OpenCode:GPT-5.5",
-          "identity": "OpenCode:GPT-5.5",
-          "agent": "OpenCode",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "2482ca875ef5993df8daee563033d70e2523a25f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2482ca875ef5993df8daee563033d70e2523a25f",
-      "authoredAt": "2026-07-23T03:52:27.000Z",
-      "committedAt": "2026-07-27T20:18:30.000-05:00",
-      "authorName": "Bjorn Andersson",
-      "committerName": "Bjorn Andersson",
-      "subject": "remoteproc: Allow shutdown of crashed processors",
-      "subsystem": "remoteproc",
-      "assistedBy": [
-        {
-          "raw": "OpenCode:GPT-5.5",
-          "identity": "OpenCode:GPT-5.5",
-          "agent": "OpenCode",
-          "model": "GPT-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "fd2bf5e718108c00732eb07fd94a5d8830f62a9f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fd2bf5e718108c00732eb07fd94a5d8830f62a9f",
-      "authoredAt": "2026-07-23T09:10:01.000+08:00",
-      "committedAt": "2026-08-02T18:23:27.000+02:00",
-      "authorName": "Zhao Li",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: skip unused probe response countdown offsets",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5",
-          "identity": "Codex:gpt-5",
-          "agent": "Codex",
-          "model": "gpt-5"
-        },
-        {
-          "raw": "Claude:opus-4.8",
-          "identity": "Claude:opus-4.8",
-          "agent": "Claude",
-          "model": "opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "0502d5077e419427d80f4d46ba95d0067f5fb916",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0502d5077e419427d80f4d46ba95d0067f5fb916",
-      "authoredAt": "2026-07-23T09:09:28.000+08:00",
-      "committedAt": "2026-07-28T15:34:31.000+02:00",
-      "authorName": "Zhao Li",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: validate individual TWT params before driver setup",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5",
-          "identity": "Codex:gpt-5",
-          "agent": "Codex",
-          "model": "gpt-5"
-        },
-        {
-          "raw": "Claude:opus-4.8",
-          "identity": "Claude:opus-4.8",
-          "agent": "Claude",
-          "model": "opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "c8295feb756f5e3ccf02c14a90a2ee0aed95e409",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c8295feb756f5e3ccf02c14a90a2ee0aed95e409",
-      "authoredAt": "2026-07-22T13:48:27.000-07:00",
-      "committedAt": "2026-07-31T14:21:01.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "uio: fsl_elbc_gpcm: use platform helpers for resource and IRQ",
-      "subsystem": "uio",
-      "assistedBy": [
-        {
-          "raw": "opencode:hy3-free",
-          "identity": "opencode:hy3-free",
-          "agent": "opencode",
-          "model": "hy3-free"
-        }
-      ]
-    },
-    {
-      "sha": "08f4661d40f41d6bfb94da1907eb3f7f172e652f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/08f4661d40f41d6bfb94da1907eb3f7f172e652f",
-      "authoredAt": "2026-07-22T13:46:43.000-07:00",
-      "committedAt": "2026-07-27T17:05:29.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Ulf Hansson",
-      "subject": "mmc: moxart: use platform helpers for resource and IRQ",
-      "subsystem": "mmc",
-      "assistedBy": [
-        {
-          "raw": "opencode:hy3-free",
-          "identity": "opencode:hy3-free",
-          "agent": "opencode",
-          "model": "hy3-free"
-        }
-      ]
-    },
-    {
-      "sha": "eaab2eb09dc2f86f41e8fa55243c31a274978233",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/eaab2eb09dc2f86f41e8fa55243c31a274978233",
-      "authoredAt": "2026-07-22T10:31:38.000-07:00",
-      "committedAt": "2026-07-23T22:59:42.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf pmu-events: Parallelize JSON and metric pre-computation in jevents.py",
-      "subsystem": "perf pmu-events",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro-preview",
-          "identity": "Gemini:gemini-3.1-pro-preview",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro-preview"
-        }
-      ]
-    },
-    {
-      "sha": "8db4bab826ccc9ec10fa41736a48031cd338d392",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8db4bab826ccc9ec10fa41736a48031cd338d392",
-      "authoredAt": "2026-07-23T00:48:13.000+08:00",
-      "committedAt": "2026-08-04T20:02:03.000-07:00",
-      "authorName": "Zhiling Zou",
-      "committerName": "Andrew Morton",
-      "subject": "mm/page_table_check: skip special zero mappings",
-      "subsystem": "mm/page_table_check",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.4",
-          "identity": "Codex:gpt-5.4",
-          "agent": "Codex",
-          "model": "gpt-5.4"
-        }
-      ]
-    },
-    {
-      "sha": "a29496745aa335d97f617385809583241e118610",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a29496745aa335d97f617385809583241e118610",
-      "authoredAt": "2026-07-22T10:17:39.000+02:00",
-      "committedAt": "2026-07-23T10:34:41.000+02:00",
-      "authorName": "Griffin Kroah-Hartman",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: core: Strengthen error handling in hub_hub_status()",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_t1000",
-          "identity": "gkh_clanker_t1000",
-          "agent": "gkh_clanker_t1000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "bd926e62d355879133452bc3889447f8e89757f2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bd926e62d355879133452bc3889447f8e89757f2",
-      "authoredAt": "2026-07-22T09:36:30.000+03:00",
-      "committedAt": "2026-07-31T16:56:33.000+03:00",
-      "authorName": "Dmitry Baryshkov",
-      "committerName": "Dmitry Baryshkov",
-      "subject": "drm/msm/dp: do not reject wide-bus modes while a YUV420 mode is active",
-      "subsystem": "drm/msm/dp",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "684f95fb4e9ad10aac39fbb1fa7592a59d7f54ea",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/684f95fb4e9ad10aac39fbb1fa7592a59d7f54ea",
-      "authoredAt": "2026-07-22T09:36:16.000+03:00",
-      "committedAt": "2026-07-31T16:56:28.000+03:00",
-      "authorName": "Dmitry Baryshkov",
-      "committerName": "Dmitry Baryshkov",
-      "subject": "drm/msm/dp: reject YUV420-only modes without VSC SDP support",
-      "subsystem": "drm/msm/dp",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "b201029ca6956e18a6762fc955d1f497030ff912",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b201029ca6956e18a6762fc955d1f497030ff912",
-      "authoredAt": "2026-07-22T11:54:49.000+05:30",
-      "committedAt": "2026-07-22T12:39:01.000+05:30",
-      "authorName": "Ankit Nautiyal",
-      "committerName": "Ankit Nautiyal",
-      "subject": "drm/i915/display: Ensure a non-zero safe window from PTL onwards",
-      "subsystem": "drm/i915/display",
-      "assistedBy": [
-        {
-          "raw": "GitHub-Copilot:Claude-Opus-4.8",
-          "identity": "GitHub-Copilot:Claude-Opus-4.8",
-          "agent": "GitHub-Copilot",
-          "model": "Claude-Opus-4.8"
-        }
-      ]
-    },
-    {
-      "sha": "45f8dffc0714c3ef49c83e5bba4c56a4499bd5fc",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/45f8dffc0714c3ef49c83e5bba4c56a4499bd5fc",
-      "authoredAt": "2026-07-22T08:21:41.000+02:00",
-      "committedAt": "2026-08-10T16:38:33.000+02:00",
-      "authorName": "Karl Mehltretter",
-      "committerName": "Thomas Gleixner",
-      "subject": "tick: Include ktime.h and jiffies.h in linux/tick.h",
-      "subsystem": "tick",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6-sol",
-          "identity": "Codex:gpt-5.6-sol",
-          "agent": "Codex",
-          "model": "gpt-5.6-sol"
         }
       ]
     }
