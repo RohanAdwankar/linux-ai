@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-02T12:39:22.369Z",
+  "generatedAt": "2026-10-02T18:26:11.209Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 250,
-    "totalAuthors": 284,
+    "totalSubsystems": 251,
+    "totalAuthors": 285,
     "totalAgents": 173
   },
   "commits": [
@@ -770,6 +770,24 @@
       "committerName": "Lyude Paul",
       "subject": "drm/nouveau: don't bump pin count on failed re-pin in nouveau_bo_pin_locked()",
       "subsystem": "drm/nouveau",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "015fb29a748342a186f37b602ac70017098c8251",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/015fb29a748342a186f37b602ac70017098c8251",
+      "authoredAt": "2026-09-18T00:07:31.000Z",
+      "committedAt": "2026-09-29T22:15:21.000+03:00",
+      "authorName": "Surendran Kanagaraj",
+      "committerName": "Jarkko Sakkinen",
+      "subject": "tpm: Disable TPM on null key name mismatch",
+      "subsystem": "tpm",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -17912,24 +17930,6 @@
           "identity": "GitHub-Copilot:claude-opus-4.6",
           "agent": "GitHub-Copilot",
           "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "1fa8d81be1ebaf0393a5141c48916f335e26f2f2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1fa8d81be1ebaf0393a5141c48916f335e26f2f2",
-      "authoredAt": "2026-07-23T10:27:09.000-07:00",
-      "committedAt": "2026-07-23T22:49:39.000-07:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Namhyung Kim",
-      "subject": "perf python: Clean up and restructure setup.py",
-      "subsystem": "perf python",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.5-flash",
-          "identity": "Antigravity:gemini-3.5-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.5-flash"
         }
       ]
     }
