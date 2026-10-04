@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-04T00:40:09.094Z",
+  "generatedAt": "2026-10-04T06:57:56.830Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 247,
-    "totalAuthors": 303,
+    "totalSubsystems": 248,
+    "totalAuthors": 304,
     "totalAgents": 175
   },
   "commits": [
@@ -2822,6 +2822,42 @@
           "identity": "Claude Code:claude-fable-5-1",
           "agent": "Claude Code",
           "model": "claude-fable-5-1"
+        }
+      ]
+    },
+    {
+      "sha": "eef3b67f9c6782127163b631c9043011a68016e2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/eef3b67f9c6782127163b631c9043011a68016e2",
+      "authoredAt": "2026-09-11T07:06:27.000-05:00",
+      "committedAt": "2026-09-25T18:16:49.000-07:00",
+      "authorName": "Dinh Nguyen",
+      "committerName": "Borislav Petkov (AMD)",
+      "subject": "EDAC/altera: Fix use-after-free in error paths",
+      "subsystem": "edac/altera",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "b62a264163ca51bee04785c581344751812395df",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b62a264163ca51bee04785c581344751812395df",
+      "authoredAt": "2026-09-11T07:06:25.000-05:00",
+      "committedAt": "2026-09-25T17:55:17.000-07:00",
+      "authorName": "Dinh Nguyen",
+      "committerName": "Borislav Petkov (AMD)",
+      "subject": "EDAC/altera: Drop __init from ECC setup paths for re-probe safety",
+      "subsystem": "edac/altera",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -17899,42 +17935,6 @@
       "authorName": "Darrick J. Wong",
       "committerName": "Carlos Maiolino",
       "subject": "xfs: don't zap the attr fork on repair when there are queued pptr updates",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "LOLLM # finding obvious bugs",
-          "identity": "LOLLM # finding obvious bugs",
-          "agent": "LOLLM # finding obvious bugs",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "8af9cd79cdf6ee96ec610d707db22244fa21eb40",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8af9cd79cdf6ee96ec610d707db22244fa21eb40",
-      "authoredAt": "2026-07-26T22:23:31.000-07:00",
-      "committedAt": "2026-08-03T10:17:34.000+02:00",
-      "authorName": "Darrick J. Wong",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: don't return EFSCORRUPTED when scrubbing corrupt parent pointers",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "LOLLM # finding obvious bugs",
-          "identity": "LOLLM # finding obvious bugs",
-          "agent": "LOLLM # finding obvious bugs",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "5fc643fb86599e29b38e7b2c2680b4b15bf8f772",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5fc643fb86599e29b38e7b2c2680b4b15bf8f772",
-      "authoredAt": "2026-07-26T22:23:15.000-07:00",
-      "committedAt": "2026-08-03T10:17:34.000+02:00",
-      "authorName": "Darrick J. Wong",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: don't double-lock when deleting a self-referential directory",
       "subsystem": "xfs",
       "assistedBy": [
         {
