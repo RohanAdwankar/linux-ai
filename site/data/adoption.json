@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-06T03:00:37.225Z",
+  "generatedAt": "2026-10-06T10:22:06.718Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 986,
+    "totalCommits": 985,
     "totalSubsystems": 250,
     "totalAuthors": 308,
     "totalAgents": 176
@@ -2852,6 +2852,24 @@
       "committerName": "Johannes Berg",
       "subject": "wifi: wfx: validate MIB read length before copying to caller",
       "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "25bf14f817168079f731975b8998fc2af380f29e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/25bf14f817168079f731975b8998fc2af380f29e",
+      "authoredAt": "2026-09-12T11:54:40.000+02:00",
+      "committedAt": "2026-10-04T21:09:32.000+03:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Jarkko Sakkinen",
+      "subject": "keys: finalize persistent keyring timeout after link attempt",
+      "subsystem": "keys",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -17899,42 +17917,6 @@
       "authorName": "Darrick J. Wong",
       "committerName": "Carlos Maiolino",
       "subject": "xfs: don't ignore runtime errors in xrep_iunlink_reload_next",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "LOLLM # finding obvious bugs",
-          "identity": "LOLLM # finding obvious bugs",
-          "agent": "LOLLM # finding obvious bugs",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "2daf3ed5d059dec79c123aec42eb8d28e0c016d4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2daf3ed5d059dec79c123aec42eb8d28e0c016d4",
-      "authoredAt": "2026-07-26T22:25:50.000-07:00",
-      "committedAt": "2026-08-03T10:20:43.000+02:00",
-      "authorName": "Darrick J. Wong",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: check xfarray iteration errors when committing unlinked inode lists",
-      "subsystem": "xfs",
-      "assistedBy": [
-        {
-          "raw": "LOLLM # finding obvious bugs",
-          "identity": "LOLLM # finding obvious bugs",
-          "agent": "LOLLM # finding obvious bugs",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "5644fab990fc72406dddc91cbb8304659d77f3f1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5644fab990fc72406dddc91cbb8304659d77f3f1",
-      "authoredAt": "2026-07-26T22:25:35.000-07:00",
-      "committedAt": "2026-08-03T10:20:43.000+02:00",
-      "authorName": "Darrick J. Wong",
-      "committerName": "Carlos Maiolino",
-      "subject": "xfs: pass runtime errors from xrep_iunlink_mark_ondisk_rec up to callers",
       "subsystem": "xfs",
       "assistedBy": [
         {
