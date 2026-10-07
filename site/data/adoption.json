@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-07T08:42:31.108Z",
+  "generatedAt": "2026-10-07T16:31:55.939Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 985,
-    "totalSubsystems": 251,
-    "totalAuthors": 309,
+    "totalCommits": 986,
+    "totalSubsystems": 249,
+    "totalAuthors": 310,
     "totalAgents": 177
   },
   "commits": [
@@ -62,6 +62,24 @@
           "identity": "Codex:gpt-6-sol",
           "agent": "Codex",
           "model": "gpt-6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "fc79aeb86a2c244c1f1894e2d8f2966fe2b60fa2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fc79aeb86a2c244c1f1894e2d8f2966fe2b60fa2",
+      "authoredAt": "2026-09-30T18:42:20.000+02:00",
+      "committedAt": "2026-10-01T13:18:00.000+02:00",
+      "authorName": "Mikulas Patocka",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-integrity: validate the superblock on resume",
+      "subsystem": "dm-integrity",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -445,6 +463,24 @@
           "raw": "LLM",
           "identity": "LLM",
           "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "41c8899d59898f6fa51ceebd2b6e55257191a8ee",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/41c8899d59898f6fa51ceebd2b6e55257191a8ee",
+      "authoredAt": "2026-09-25T17:12:45.000+01:00",
+      "committedAt": "2026-10-05T16:05:44.000+02:00",
+      "authorName": "Filipe Manana",
+      "committerName": "David Sterba",
+      "subject": "btrfs: fix lost error return value in btrfs_listxattr()",
+      "subsystem": "btrfs",
+      "assistedBy": [
+        {
+          "raw": "LLM (found the bug)",
+          "identity": "LLM (found the bug)",
+          "agent": "LLM (found the bug)",
           "model": ""
         }
       ]
@@ -1424,6 +1460,24 @@
       "committerName": "Rodrigo Vivi",
       "subject": "drm/xe/vm: nuke PTs only after unlinking contested VMAs",
       "subsystem": "drm/xe/vm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3e6ff34afc7ec7a6156e58502b5a56771517cf93",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3e6ff34afc7ec7a6156e58502b5a56771517cf93",
+      "authoredAt": "2026-09-18T11:58:00.000+01:00",
+      "committedAt": "2026-10-05T16:05:43.000+02:00",
+      "authorName": "Filipe Manana",
+      "committerName": "David Sterba",
+      "subject": "btrfs: clear BTRFS_ROOT_IN_TRANS_SETUP on early exit from record_root_in_trans()",
+      "subsystem": "btrfs",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -2420,6 +2474,42 @@
       "committerName": "Bartosz Golaszewski",
       "subject": "gpio: mvebu: keep resume masks within the irqchip cache",
       "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "3195e0daf590683992edb4eed32269e569e04924",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3195e0daf590683992edb4eed32269e569e04924",
+      "authoredAt": "2026-09-15T00:39:10.000Z",
+      "committedAt": "2026-09-21T13:54:29.000+02:00",
+      "authorName": "Ben Cressey",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-crypt: reject the lmk IV mode with AEAD ciphers",
+      "subsystem": "dm-crypt",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "764b683a6180fd72c931c13fea98d383506a3475",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/764b683a6180fd72c931c13fea98d383506a3475",
+      "authoredAt": "2026-09-15T00:37:35.000Z",
+      "committedAt": "2026-09-21T13:44:41.000+02:00",
+      "authorName": "Ben Cressey",
+      "committerName": "Mikulas Patocka",
+      "subject": "dm-integrity: fix buffer overflow in inline mode with large tag size",
+      "subsystem": "dm-integrity",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -17852,78 +17942,6 @@
           "identity": "Codex:gpt-5.5",
           "agent": "Codex",
           "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "ae31bcc92bb42502bb7c9029e6dc7a824cf6cd14",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ae31bcc92bb42502bb7c9029e6dc7a824cf6cd14",
-      "authoredAt": "2026-07-27T18:38:49.000+08:00",
-      "committedAt": "2026-08-04T13:23:00.000+02:00",
-      "authorName": "Haibo Chen",
-      "committerName": "Ulf Hansson",
-      "subject": "mmc: sdhci: make tuning_err a signed int",
-      "subsystem": "mmc",
-      "assistedBy": [
-        {
-          "raw": "Cline:claude-sonnet [read_file, search_files, git]",
-          "identity": "Cline:claude-sonnet [read_file, search_files, git]",
-          "agent": "Cline",
-          "model": "claude-sonnet [read_file, search_files, git]"
-        }
-      ]
-    },
-    {
-      "sha": "d876c493fc4b811941bfeb4c80beb2dfc4bf025e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d876c493fc4b811941bfeb4c80beb2dfc4bf025e",
-      "authoredAt": "2026-07-27T16:18:41.000+08:00",
-      "committedAt": "2026-08-03T23:08:15.000-04:00",
-      "authorName": "Linfeng Sun",
-      "committerName": "Michael S. Tsirkin",
-      "subject": "vhost-scsi: Validate T10 PI scatterlist counts",
-      "subsystem": "vhost-scsi",
-      "assistedBy": [
-        {
-          "raw": "OpenAI-Codex:GPT-5",
-          "identity": "OpenAI-Codex:GPT-5",
-          "agent": "OpenAI-Codex",
-          "model": "GPT-5"
-        }
-      ]
-    },
-    {
-      "sha": "ecbe7d36dc2de07e5dfbb4a8ff5b315ab43de820",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ecbe7d36dc2de07e5dfbb4a8ff5b315ab43de820",
-      "authoredAt": "2026-07-27T10:08:36.000+02:00",
-      "committedAt": "2026-08-11T14:38:32.000-03:00",
-      "authorName": "Norbert Szetei",
-      "committerName": "Jason Gunthorpe",
-      "subject": "RDMA/ucma: Lock the handler in ucma_set_ib_path()",
-      "subsystem": "rdma/ucma",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5",
-          "identity": "Claude:claude-opus-5",
-          "agent": "Claude",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "f4cc21c6a8e9d392871477f9fd98d68e5ad80272",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f4cc21c6a8e9d392871477f9fd98d68e5ad80272",
-      "authoredAt": "2026-07-27T10:06:12.000+02:00",
-      "committedAt": "2026-08-11T14:27:05.000-03:00",
-      "authorName": "Norbert Szetei",
-      "committerName": "Jason Gunthorpe",
-      "subject": "RDMA/ucma: Lock the handler in ucma_write_cm_event()",
-      "subsystem": "rdma/ucma",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5",
-          "identity": "Claude:claude-opus-5",
-          "agent": "Claude",
-          "model": "claude-opus-5"
         }
       ]
     }
