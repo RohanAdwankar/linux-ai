@@ -1,16 +1,106 @@
 {
-  "generatedAt": "2026-10-09T02:12:08.165Z",
+  "generatedAt": "2026-10-09T09:08:13.488Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 987,
-    "totalSubsystems": 249,
+    "totalCommits": 986,
+    "totalSubsystems": 245,
     "totalAuthors": 309,
-    "totalAgents": 177
+    "totalAgents": 178
   },
   "commits": [
+    {
+      "sha": "f394cbd0980c95c9173f8551a5eb4c4f28d598eb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f394cbd0980c95c9173f8551a5eb4c4f28d598eb",
+      "authoredAt": "2026-10-06T10:37:51.000+02:00",
+      "committedAt": "2026-10-07T12:46:15.000+02:00",
+      "authorName": "François Roux",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: mac80211: don't estimate airtime for unsupported rate widths",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "e32d80293a0e1a160d5e5101daa8c82148c07510",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e32d80293a0e1a160d5e5101daa8c82148c07510",
+      "authoredAt": "2026-10-05T15:50:31.000+08:00",
+      "committedAt": "2026-10-05T13:10:47.000-04:00",
+      "authorName": "Chengfeng Ye",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: ISO: Serialize concurrent connect calls",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "GPT-6 Astra",
+          "identity": "GPT-6 Astra",
+          "agent": "GPT-6 Astra",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9af12272061d206af8bc3e40215cb694421ab73a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9af12272061d206af8bc3e40215cb694421ab73a",
+      "authoredAt": "2026-10-05T00:26:12.000+08:00",
+      "committedAt": "2026-10-05T13:10:46.000-04:00",
+      "authorName": "Chengfeng Ye",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: hci_sync: Fix command skb lifetime during scan setup",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "GPT-6 Astra",
+          "identity": "GPT-6 Astra",
+          "agent": "GPT-6 Astra",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "555ff78fa719f50ff4cdbdb40aa1acc6e8e327d3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/555ff78fa719f50ff4cdbdb40aa1acc6e8e327d3",
+      "authoredAt": "2026-10-05T00:25:48.000+08:00",
+      "committedAt": "2026-10-05T13:10:47.000-04:00",
+      "authorName": "Chengfeng Ye",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: ISO: Reject concurrent BIS listener setup",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "GPT-6 Astra",
+          "identity": "GPT-6 Astra",
+          "agent": "GPT-6 Astra",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "381a0925c556a8d91a80a9b9e3e86651d60ffee3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/381a0925c556a8d91a80a9b9e3e86651d60ffee3",
+      "authoredAt": "2026-10-05T00:24:42.000+08:00",
+      "committedAt": "2026-10-05T13:10:46.000-04:00",
+      "authorName": "Chengfeng Ye",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: hci_sock: Serialize dead-device detachment",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "GPT-6 Astra",
+          "identity": "GPT-6 Astra",
+          "agent": "GPT-6 Astra",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "e6ac89b8b1c12e9104df45a14a26e2dfa96ded06",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e6ac89b8b1c12e9104df45a14a26e2dfa96ded06",
@@ -138,6 +228,24 @@
       ]
     },
     {
+      "sha": "25016fe8c1ed0fccae107bd629089139ffbafe08",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/25016fe8c1ed0fccae107bd629089139ffbafe08",
+      "authoredAt": "2026-09-30T15:44:53.000+08:00",
+      "committedAt": "2026-10-02T11:25:53.000-04:00",
+      "authorName": "Runyu Xiao",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: btintel_pcie: use managed IRQ teardown",
+      "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "b9d1fdc6f4ac1b6e49f9deafaf137da1407d9af1",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b9d1fdc6f4ac1b6e49f9deafaf137da1407d9af1",
       "authoredAt": "2026-09-29T15:23:32.000-07:00",
@@ -188,6 +296,24 @@
           "identity": "Claude:claude-opus-5-5",
           "agent": "Claude",
           "model": "claude-opus-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "4c9dc0faca98084922caeb689579d338cf3e1c29",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4c9dc0faca98084922caeb689579d338cf3e1c29",
+      "authoredAt": "2026-09-30T02:37:34.000+09:00",
+      "committedAt": "2026-10-02T09:58:07.000+01:00",
+      "authorName": "Sang-Hoon Choi",
+      "committerName": "David S. Miller",
+      "subject": "cxgb4/ch_ktls: disable softirqs around tid_list erases",
+      "subsystem": "cxgb4/ch_ktls",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -300,6 +426,24 @@
       ]
     },
     {
+      "sha": "3acdd44385bc7e2e57605e073691ce69cc5a960d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3acdd44385bc7e2e57605e073691ce69cc5a960d",
+      "authoredAt": "2026-09-28T16:24:38.000+08:00",
+      "committedAt": "2026-10-02T08:20:15.000+01:00",
+      "authorName": "Yuqi Xu",
+      "committerName": "David S. Miller",
+      "subject": "tipc: destroy topsrv workqueues before closing connections",
+      "subsystem": "tipc",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "fbc988f236a60cf50a89da78fc6b7213daa9999c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/fbc988f236a60cf50a89da78fc6b7213daa9999c",
       "authoredAt": "2026-09-27T12:16:01.000-04:00",
@@ -378,6 +522,42 @@
       ]
     },
     {
+      "sha": "636035157a814f289f293fd0edea1a367a637797",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/636035157a814f289f293fd0edea1a367a637797",
+      "authoredAt": "2026-09-27T10:47:43.000+05:30",
+      "committedAt": "2026-10-02T07:52:31.000+01:00",
+      "authorName": "Shashank Mohan Jain",
+      "committerName": "David S. Miller",
+      "subject": "lib/dim: add KUnit test for dim_calc_stats()",
+      "subsystem": "lib/dim",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "0843b23890642a02ff85c36406224e8874e30664",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0843b23890642a02ff85c36406224e8874e30664",
+      "authoredAt": "2026-09-27T10:47:42.000+05:30",
+      "committedAt": "2026-10-02T07:52:31.000+01:00",
+      "authorName": "Shashank Mohan Jain",
+      "committerName": "David S. Miller",
+      "subject": "lib/dim: fix 32-bit overflow in dim_calc_stats() rates",
+      "subsystem": "lib/dim",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "ca51771c8efde5df05476ac98dd1b2af4e2b149f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ca51771c8efde5df05476ac98dd1b2af4e2b149f",
       "authoredAt": "2026-09-27T09:09:11.000+08:00",
@@ -422,6 +602,24 @@
       "committerName": "Luiz Augusto von Dentz",
       "subject": "Bluetooth: RFCOMM: Fix initial port reference race",
       "subsystem": "bluetooth",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "5158353121bae4f552cb677ce8c5c3ef52f93a0d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5158353121bae4f552cb677ce8c5c3ef52f93a0d",
+      "authoredAt": "2026-09-27T01:04:39.000+08:00",
+      "committedAt": "2026-10-05T03:29:53.000+01:00",
+      "authorName": "Zixuan Chai",
+      "committerName": "David S. Miller",
+      "subject": "net: bridge: avoid recursive multicast port cleanup",
+      "subsystem": "net",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -608,6 +806,24 @@
           "identity": "Claude:claude-opus-5-5",
           "agent": "Claude",
           "model": "claude-opus-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "08a3f02fea636e97a7422d1512f76dacdb5b0887",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/08a3f02fea636e97a7422d1512f76dacdb5b0887",
+      "authoredAt": "2026-09-24T14:30:27.000+02:00",
+      "committedAt": "2026-10-07T12:48:14.000+02:00",
+      "authorName": "Michele Dionisio",
+      "committerName": "Johannes Berg",
+      "subject": "wifi: brcmfmac: fix P2P device removal race in brcmf_detach()",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "claude-opus-5-5",
+          "identity": "claude-opus-5-5",
+          "agent": "claude-opus-5-5",
+          "model": ""
         }
       ]
     },
@@ -2186,6 +2402,24 @@
       "committerName": "Dmitry Osipenko",
       "subject": "drm/virtio: fix object leak when drm_gem_handle_create() fails",
       "subsystem": "drm/virtio",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "9d1afbf60ed53c5b051cd124153e0ae3078c8b93",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9d1afbf60ed53c5b051cd124153e0ae3078c8b93",
+      "authoredAt": "2026-09-15T10:00:46.000+03:00",
+      "committedAt": "2026-09-28T11:43:19.000-04:00",
+      "authorName": "Maxim Skokov",
+      "committerName": "Luiz Augusto von Dentz",
+      "subject": "Bluetooth: RFCOMM: free the skb when the DLC has no owner",
+      "subsystem": "bluetooth",
       "assistedBy": [
         {
           "raw": "Claude:claude-opus-5",
@@ -8498,6 +8732,42 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
+        }
+      ]
+    },
+    {
+      "sha": "5e99bdb94720331e2fd38c10c5b1afa1ce640835",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5e99bdb94720331e2fd38c10c5b1afa1ce640835",
+      "authoredAt": "2026-08-26T00:17:10.000+01:00",
+      "committedAt": "2026-10-06T21:13:54.000+08:00",
+      "authorName": "David Carlier",
+      "committerName": "Jeff Chen",
+      "subject": "wifi: nxpwifi: do not delete Rx reorder entries under RCU",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "32d1a000e99612e010335760363936d85591fd69",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/32d1a000e99612e010335760363936d85591fd69",
+      "authoredAt": "2026-08-26T00:17:09.000+01:00",
+      "committedAt": "2026-10-06T21:13:54.000+08:00",
+      "authorName": "David Carlier",
+      "committerName": "Jeff Chen",
+      "subject": "wifi: nxpwifi: fix inverted check in Tx BA stream entry deletion",
+      "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -17672,294 +17942,6 @@
           "identity": "Claude:claude-opus-4-8",
           "agent": "Claude",
           "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "0680cbbf39ca61c70be16141b5259f822e7cdb3b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0680cbbf39ca61c70be16141b5259f822e7cdb3b",
-      "authoredAt": "2026-07-27T15:23:30.000-07:00",
-      "committedAt": "2026-07-30T19:28:36.000+02:00",
-      "authorName": "Boris Burkov",
-      "committerName": "David Sterba",
-      "subject": "btrfs: trigger cow fixup via dirty_folio()",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "b4dd7f81592287c9b4070e6669732d8770269303",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b4dd7f81592287c9b4070e6669732d8770269303",
-      "authoredAt": "2026-07-27T17:09:40.000-04:00",
-      "committedAt": "2026-08-17T09:02:07.000-07:00",
-      "authorName": "Mike Snitzer",
-      "committerName": "Trond Myklebust",
-      "subject": "nfs4.2: open UNCACHEABLE_FILE_DATA files with O_DIRECT",
-      "subsystem": "nfs4.2",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "6f36ce30983e2b7865cd1eaf3618fb65a0a78c37",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6f36ce30983e2b7865cd1eaf3618fb65a0a78c37",
-      "authoredAt": "2026-07-27T17:09:39.000-04:00",
-      "committedAt": "2026-08-17T09:02:07.000-07:00",
-      "authorName": "Mike Snitzer",
-      "committerName": "Trond Myklebust",
-      "subject": "nfs4.2: request UNCACHEABLE_FILE_DATA only for regular files",
-      "subsystem": "nfs4.2",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "86ff1842795b3e51f526460b1d701d48fdee49b8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/86ff1842795b3e51f526460b1d701d48fdee49b8",
-      "authoredAt": "2026-07-27T17:09:38.000-04:00",
-      "committedAt": "2026-08-17T09:02:07.000-07:00",
-      "authorName": "Tom Haynes",
-      "committerName": "Trond Myklebust",
-      "subject": "nfs4.2: add UNCACHEABLE_FILE_DATA attribute support",
-      "subsystem": "nfs4.2",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "362a11ef1beadbc301ea949b85748e6bd1e0f384",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/362a11ef1beadbc301ea949b85748e6bd1e0f384",
-      "authoredAt": "2026-07-27T13:15:43.000-07:00",
-      "committedAt": "2026-08-05T00:11:46.000+01:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Mark Brown",
-      "subject": "spi: ath79: use devm everywhere in probe",
-      "subsystem": "spi",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
-        }
-      ]
-    },
-    {
-      "sha": "737a3b535247226f6e1a7988fd9d6e63e7d6fc71",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/737a3b535247226f6e1a7988fd9d6e63e7d6fc71",
-      "authoredAt": "2026-07-27T22:03:31.000+02:00",
-      "committedAt": "2026-07-28T10:11:11.000-07:00",
-      "authorName": "Greg Kroah-Hartman",
-      "committerName": "Keith Busch",
-      "subject": "nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations",
-      "subsystem": "nvmet-tcp",
-      "assistedBy": [
-        {
-          "raw": "gkh_clanker_2000",
-          "identity": "gkh_clanker_2000",
-          "agent": "gkh_clanker_2000",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "3ccffcc3672af5fc2f5809d349f26d2be8d318a3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3ccffcc3672af5fc2f5809d349f26d2be8d318a3",
-      "authoredAt": "2026-07-27T12:46:04.000-07:00",
-      "committedAt": "2026-08-15T15:41:13.000-05:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Jassi Brar",
-      "subject": "mailbox: bcm2835: use platform_get_irq and simplify probe",
-      "subsystem": "mailbox",
-      "assistedBy": [
-        {
-          "raw": "Opencode:Big-Pickle",
-          "identity": "Opencode:Big-Pickle",
-          "agent": "Opencode",
-          "model": "Big-Pickle"
-        }
-      ]
-    },
-    {
-      "sha": "5dafdd649280c7dc6c22c8f877da3f54fcc441e1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5dafdd649280c7dc6c22c8f877da3f54fcc441e1",
-      "authoredAt": "2026-07-27T14:37:56.000-04:00",
-      "committedAt": "2026-07-28T19:17:33.000-04:00",
-      "authorName": "Harkirat Gill",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amdgpu: cap GTT size to physical RAM on APUs",
-      "subsystem": "drm/amdgpu",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4",
-          "identity": "Claude:claude-opus-4",
-          "agent": "Claude",
-          "model": "claude-opus-4"
-        }
-      ]
-    },
-    {
-      "sha": "5e70f6804b4d6256058c360b10e044ee04ea4a4e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5e70f6804b4d6256058c360b10e044ee04ea4a4e",
-      "authoredAt": "2026-07-27T14:37:56.000-04:00",
-      "committedAt": "2026-07-28T20:01:16.000-04:00",
-      "authorName": "Harkirat Gill",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amdgpu: cap GTT size to physical RAM on APUs",
-      "subsystem": "drm/amdgpu",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4",
-          "identity": "Claude:claude-opus-4",
-          "agent": "Claude",
-          "model": "claude-opus-4"
-        }
-      ]
-    },
-    {
-      "sha": "c12cbf56320fb633484ee0ca1fb7d68d6b64b213",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c12cbf56320fb633484ee0ca1fb7d68d6b64b213",
-      "authoredAt": "2026-07-28T01:30:32.000+08:00",
-      "committedAt": "2026-07-28T10:48:18.000+02:00",
-      "authorName": "Zihan Xi",
-      "committerName": "Steffen Klassert",
-      "subject": "xfrm: fix xfrm_state_construct() auth-trunc leak",
-      "subsystem": "xfrm",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.4",
-          "identity": "Codex:gpt-5.4",
-          "agent": "Codex",
-          "model": "gpt-5.4"
-        }
-      ]
-    },
-    {
-      "sha": "d67241d43b709af4d13051bb8494892b654aba41",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d67241d43b709af4d13051bb8494892b654aba41",
-      "authoredAt": "2026-07-27T13:17:05.000-03:00",
-      "committedAt": "2026-08-03T12:43:10.000-07:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Namhyung Kim",
-      "subject": "perf arm-spe: Reject zero nr_cpu in metadata to prevent division by zero",
-      "subsystem": "perf arm-spe",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "b9fb8225951ce27e62a2235a71f3ab01137aaec3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b9fb8225951ce27e62a2235a71f3ab01137aaec3",
-      "authoredAt": "2026-07-27T13:17:04.000-03:00",
-      "committedAt": "2026-08-03T12:43:05.000-07:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Namhyung Kim",
-      "subject": "perf intel-bts: Fix off-by-one in auxtrace_info minimum size check",
-      "subsystem": "perf intel-bts",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "c4362d5e1a5ed4ce2098798f655a636c4340fa20",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c4362d5e1a5ed4ce2098798f655a636c4340fa20",
-      "authoredAt": "2026-07-27T13:17:03.000-03:00",
-      "committedAt": "2026-08-03T12:43:01.000-07:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Namhyung Kim",
-      "subject": "perf intel-pt: Fix off-by-one in auxtrace_info minimum size check",
-      "subsystem": "perf intel-pt",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "96fcc9ea5f18c083a1fa73da23afef7e953f7dca",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/96fcc9ea5f18c083a1fa73da23afef7e953f7dca",
-      "authoredAt": "2026-07-27T13:17:02.000-03:00",
-      "committedAt": "2026-08-03T12:42:53.000-07:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Namhyung Kim",
-      "subject": "perf auxtrace: Fix queue grow overflow and old array leak",
-      "subsystem": "perf auxtrace",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "ab9c84d1cd59e6b3b73de34982a35a76e3a9b032",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ab9c84d1cd59e6b3b73de34982a35a76e3a9b032",
-      "authoredAt": "2026-07-27T13:17:01.000-03:00",
-      "committedAt": "2026-08-03T12:42:49.000-07:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Namhyung Kim",
-      "subject": "perf thread-stack: Fix heap buffer overflow on branch stack wrap copy",
-      "subsystem": "perf thread-stack",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.6",
-          "identity": "Claude:claude-opus-4.6",
-          "agent": "Claude",
-          "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "6395789e4739aa5177bbec0fa0f07ccc38d249b0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6395789e4739aa5177bbec0fa0f07ccc38d249b0",
-      "authoredAt": "2026-07-27T11:32:28.000-03:00",
-      "committedAt": "2026-07-28T09:16:09.000-03:00",
-      "authorName": "Jose Maria Casanova Crespo",
-      "committerName": "Maíra Canal",
-      "subject": "drm/vc4: Supply the overflow slot size in BPOS, not the whole bin BO size",
-      "subsystem": "drm/vc4",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4.8",
-          "identity": "Claude:claude-opus-4.8",
-          "agent": "Claude",
-          "model": "claude-opus-4.8"
         }
       ]
     }
