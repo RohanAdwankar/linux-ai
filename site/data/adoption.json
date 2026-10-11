@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-11T15:43:50.382Z",
+  "generatedAt": "2026-10-11T20:19:17.797Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 248,
-    "totalAuthors": 312,
+    "totalSubsystems": 249,
+    "totalAuthors": 313,
     "totalAgents": 184
   },
   "commits": [
@@ -43,6 +43,42 @@
           "raw": "Claude Opus 5.5",
           "identity": "Claude Opus 5.5",
           "agent": "Claude Opus 5.5",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "6da8f402e362b2f546e2efb7167fc9597aef6faf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6da8f402e362b2f546e2efb7167fc9597aef6faf",
+      "authoredAt": "2026-10-09T01:08:49.000+02:00",
+      "committedAt": "2026-10-09T08:32:55.000-06:00",
+      "authorName": "Eugene Gvozdetsky",
+      "committerName": "Jens Axboe",
+      "subject": "io_uring/register: don't exempt disabled rings from task restrictions",
+      "subsystem": "io_uring/register",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5-5",
+          "identity": "Claude:claude-opus-5-5",
+          "agent": "Claude",
+          "model": "claude-opus-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "d84d6c1a7f1e2de9e601703a326a4c1b7b421943",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d84d6c1a7f1e2de9e601703a326a4c1b7b421943",
+      "authoredAt": "2026-10-07T16:43:22.000+02:00",
+      "committedAt": "2026-10-11T08:23:38.000+02:00",
+      "authorName": "Norbert Szetei",
+      "committerName": "Carlos Maiolino",
+      "subject": "xfs: stop exchanging reflink flags when exchanging mappings",
+      "subsystem": "xfs",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
           "model": ""
         }
       ]
@@ -1520,6 +1556,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "78e04810542da416d3bead707b60cec773f1524d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/78e04810542da416d3bead707b60cec773f1524d",
+      "authoredAt": "2026-09-20T11:49:53.000+08:00",
+      "committedAt": "2026-10-05T21:50:54.000-04:00",
+      "authorName": "Pengpeng Hou",
+      "committerName": "Martin K. Petersen (Oracle)",
+      "subject": "scsi: ufs: mediatek: Handle mPHY power-on failures",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "gpt 5",
+          "identity": "gpt 5",
+          "agent": "gpt 5",
+          "model": ""
         }
       ]
     },
@@ -3942,6 +3996,24 @@
       ]
     },
     {
+      "sha": "85de8b3a5eaa23d153aff4c7c83dddbc949064c9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/85de8b3a5eaa23d153aff4c7c83dddbc949064c9",
+      "authoredAt": "2026-09-10T17:24:05.000+08:00",
+      "committedAt": "2026-09-25T22:09:34.000-04:00",
+      "authorName": "Runyu Xiao",
+      "committerName": "Martin K. Petersen (Oracle)",
+      "subject": "scsi: qedi: Initialize callback state before registration",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "LLM Codex",
+          "identity": "LLM Codex",
+          "agent": "LLM Codex",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "747928b5d4ff8c8de55138a54c13980e4bb88578",
       "htmlUrl": "https://github.com/torvalds/linux/commit/747928b5d4ff8c8de55138a54c13980e4bb88578",
       "authoredAt": "2026-09-10T16:33:26.000+08:00",
@@ -5186,6 +5258,24 @@
           "identity": "CodeBuddy:Hy4 preview",
           "agent": "CodeBuddy",
           "model": "Hy4 preview"
+        }
+      ]
+    },
+    {
+      "sha": "d4f25b097e46d82718bb737d4540c99b7ab0a408",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d4f25b097e46d82718bb737d4540c99b7ab0a408",
+      "authoredAt": "2026-09-07T21:07:50.000+02:00",
+      "committedAt": "2026-10-07T20:25:09.000-06:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Paul Walmsley",
+      "subject": "riscv: fix load_unaligned_zeropad() fixup for RV32",
+      "subsystem": "riscv",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -17828,96 +17918,6 @@
           "identity": "Gemini:gemini-3.1-pro",
           "agent": "Gemini",
           "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "d24dde74f72f3448c4020ba67f6218ecbd1e6d8d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d24dde74f72f3448c4020ba67f6218ecbd1e6d8d",
-      "authoredAt": "2026-07-28T17:42:29.000Z",
-      "committedAt": "2026-07-29T05:48:17.000-07:00",
-      "authorName": "Yosry Ahmed",
-      "committerName": "Sean Christopherson",
-      "subject": "KVM: selftests: Add basic stress test for save+restore and #PF handling",
-      "subsystem": "kvm",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "2bdef77c6019c3439e7a07a82ed76dde2747633f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2bdef77c6019c3439e7a07a82ed76dde2747633f",
-      "authoredAt": "2026-07-28T17:42:25.000Z",
-      "committedAt": "2026-07-29T05:45:26.000-07:00",
-      "authorName": "Yosry Ahmed",
-      "committerName": "Sean Christopherson",
-      "subject": "KVM: selftests: Drop HORRIFIC_L2_UCALL_CLOBBER_HACK",
-      "subsystem": "kvm",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "3d31fea7b6d1a11ab6e7bea61c0442d1ec2fea5a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3d31fea7b6d1a11ab6e7bea61c0442d1ec2fea5a",
-      "authoredAt": "2026-07-28T17:42:24.000Z",
-      "committedAt": "2026-07-29T05:45:26.000-07:00",
-      "authorName": "Yosry Ahmed",
-      "committerName": "Sean Christopherson",
-      "subject": "KVM: selftests: Reuse GPR switching logic for nVMX",
-      "subsystem": "kvm",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "9547309406d506a1dc2f36918ddf4173451ff257",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9547309406d506a1dc2f36918ddf4173451ff257",
-      "authoredAt": "2026-07-28T17:42:23.000Z",
-      "committedAt": "2026-07-29T05:45:26.000-07:00",
-      "authorName": "Yosry Ahmed",
-      "committerName": "Sean Christopherson",
-      "subject": "KVM: selftests: Handle rflags save/restore for SVM in guest_regs",
-      "subsystem": "kvm",
-      "assistedBy": [
-        {
-          "raw": "Gemini:Gemini-Next",
-          "identity": "Gemini:Gemini-Next",
-          "agent": "Gemini",
-          "model": "Gemini-Next"
-        }
-      ]
-    },
-    {
-      "sha": "546455d9c724bd2c927e4902f240a6ceb66ca5e4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/546455d9c724bd2c927e4902f240a6ceb66ca5e4",
-      "authoredAt": "2026-07-28T17:42:22.000Z",
-      "committedAt": "2026-07-29T05:45:26.000-07:00",
-      "authorName": "Yosry Ahmed",
-      "committerName": "Sean Christopherson",
-      "subject": "KVM: selftests: Rework GPR registers switching for SVM (and fix offsets)",
-      "subsystem": "kvm",
-      "assistedBy": [
-        {
-          "raw": "Gemini:Gemini-Next",
-          "identity": "Gemini:Gemini-Next",
-          "agent": "Gemini",
-          "model": "Gemini-Next"
         }
       ]
     }
