@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-10T22:35:16.402Z",
+  "generatedAt": "2026-10-11T01:56:02.052Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 245,
-    "totalAuthors": 310,
-    "totalAgents": 179
+    "totalSubsystems": 248,
+    "totalAuthors": 311,
+    "totalAgents": 183
   },
   "commits": [
     {
@@ -25,6 +25,24 @@
           "raw": "LLM",
           "identity": "LLM",
           "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "611857adc9e7b0ee1239a0baf38498922ca5a12e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/611857adc9e7b0ee1239a0baf38498922ca5a12e",
+      "authoredAt": "2026-10-05T20:04:14.000-04:00",
+      "committedAt": "2026-10-07T09:22:03.000-04:00",
+      "authorName": "Fan Wu",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/i2c: cancel the client work on remove",
+      "subsystem": "drm/xe/i2c",
+      "assistedBy": [
+        {
+          "raw": "LLM, in-house static analysis tool",
+          "identity": "LLM, in-house static analysis tool",
+          "agent": "LLM, in-house static analysis tool",
           "model": ""
         }
       ]
@@ -120,6 +138,42 @@
       ]
     },
     {
+      "sha": "cf238c067eaae1cbfb00738e29219b9568d2313e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cf238c067eaae1cbfb00738e29219b9568d2313e",
+      "authoredAt": "2026-10-02T12:08:30.000+02:00",
+      "committedAt": "2026-10-05T17:47:45.000-04:00",
+      "authorName": "Thomas Hellström",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe: Fix stale pinned_link entry when fb-pin performs the final unpin",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "83d5acca1f4f6132038ea88c72c5844f62e42d44",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/83d5acca1f4f6132038ea88c72c5844f62e42d44",
+      "authoredAt": "2026-10-02T12:08:29.000+02:00",
+      "committedAt": "2026-10-05T17:47:35.000-04:00",
+      "authorName": "Thomas Hellström",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe: Fix shrinker accounting double-subtraction on nested external pins",
+      "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "7529254014764ae0b8c33d5c61a58f36c65b1a1c",
       "htmlUrl": "https://github.com/torvalds/linux/commit/7529254014764ae0b8c33d5c61a58f36c65b1a1c",
       "authoredAt": "2026-10-02T11:21:12.000+02:00",
@@ -170,6 +224,24 @@
           "identity": "Codex:gpt-6-sol",
           "agent": "Codex",
           "model": "gpt-6-sol"
+        }
+      ]
+    },
+    {
+      "sha": "b41ff8b529278216cba22a5dcdc93fea2a3a9619",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b41ff8b529278216cba22a5dcdc93fea2a3a9619",
+      "authoredAt": "2026-09-30T16:06:50.000-03:00",
+      "committedAt": "2026-10-01T10:36:09.000-03:00",
+      "authorName": "Maíra Canal",
+      "committerName": "Maíra Canal",
+      "subject": "drm/vc4: Free the BO cache size list on teardown",
+      "subsystem": "drm/vc4",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -246,6 +318,24 @@
       ]
     },
     {
+      "sha": "ae8364085574203e7f4ea961921a1c7493bcb6de",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ae8364085574203e7f4ea961921a1c7493bcb6de",
+      "authoredAt": "2026-09-30T16:46:41.000+05:30",
+      "committedAt": "2026-10-05T12:10:52.000+02:00",
+      "authorName": "Rahul Pon",
+      "committerName": "Andi Shyti",
+      "subject": "i2c: qcom-geni: release runtime PM reference when set_rate fails",
+      "subsystem": "i2c",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "911655ab1dfb9d526978a75df3b210132620d30a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/911655ab1dfb9d526978a75df3b210132620d30a",
       "authoredAt": "2026-09-30T10:50:55.000+02:00",
@@ -308,6 +398,24 @@
       "committerName": "Oliver Upton",
       "subject": "KVM: arm64: Use stage-1 leaf size for VM_PFNMAP",
       "subsystem": "kvm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "e7ed652b1312ffcb9ea2153946615856b5097c78",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e7ed652b1312ffcb9ea2153946615856b5097c78",
+      "authoredAt": "2026-09-29T12:20:37.000-07:00",
+      "committedAt": "2026-10-05T17:47:17.000-04:00",
+      "authorName": "Alan Previn",
+      "committerName": "Rodrigo Vivi",
+      "subject": "drm/xe/mmio: Fix xe_mmio_wait32() to honor delay/sleep maximums",
+      "subsystem": "drm/xe/mmio",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -788,6 +896,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "54c998c55fc9cbc391b350d67b86e0c2a0748f1a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/54c998c55fc9cbc391b350d67b86e0c2a0748f1a",
+      "authoredAt": "2026-09-25T09:48:29.000+02:00",
+      "committedAt": "2026-10-07T13:13:32.000-04:00",
+      "authorName": "Adrian Betschart",
+      "committerName": "Alex Deucher",
+      "subject": "drm/amd/display: Don't replace a sink mode that shares the native totals",
+      "subsystem": "drm/amd/display",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:claude-opus-5-5",
+          "identity": "Claude-Code:claude-opus-5-5",
+          "agent": "Claude-Code",
+          "model": "claude-opus-5-5"
         }
       ]
     },
@@ -2412,6 +2538,24 @@
       ]
     },
     {
+      "sha": "94cf5971b1d04c6382437387c4dc3836cc7a1437",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/94cf5971b1d04c6382437387c4dc3836cc7a1437",
+      "authoredAt": "2026-09-15T09:51:03.000Z",
+      "committedAt": "2026-09-25T11:05:17.000-03:00",
+      "authorName": "Fan Wu",
+      "committerName": "Maíra Canal",
+      "subject": "drm/vc4: drain the hangcheck timer and works on V3D unbind",
+      "subsystem": "drm/vc4",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5.6",
+          "identity": "Codex:gpt-5.6",
+          "agent": "Codex",
+          "model": "gpt-5.6"
+        }
+      ]
+    },
+    {
       "sha": "c17ae8c26eac16ad244daef44044d714f68a2ddc",
       "htmlUrl": "https://github.com/torvalds/linux/commit/c17ae8c26eac16ad244daef44044d714f68a2ddc",
       "authoredAt": "2026-09-15T18:25:15.000+09:00",
@@ -3114,6 +3258,24 @@
       ]
     },
     {
+      "sha": "ecce445c6489895463b7ddec2af66338287fee4c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ecce445c6489895463b7ddec2af66338287fee4c",
+      "authoredAt": "2026-09-13T18:30:19.000-04:00",
+      "committedAt": "2026-10-01T14:40:38.000+02:00",
+      "authorName": "Myeonghun Pak",
+      "committerName": "Thomas Zimmermann",
+      "subject": "drm/aspeed: Balance the display clock enable on teardown",
+      "subsystem": "drm/aspeed",
+      "assistedBy": [
+        {
+          "raw": "OpenAI:GPT-5.6",
+          "identity": "OpenAI:GPT-5.6",
+          "agent": "OpenAI",
+          "model": "GPT-5.6"
+        }
+      ]
+    },
+    {
       "sha": "555cd2bd860e7c4bdc3f4e4405b05515b0d9bc87",
       "htmlUrl": "https://github.com/torvalds/linux/commit/555cd2bd860e7c4bdc3f4e4405b05515b0d9bc87",
       "authoredAt": "2026-09-13T22:28:02.000+02:00",
@@ -3474,6 +3636,24 @@
       ]
     },
     {
+      "sha": "ebe162db655881a38de43301151ff7ac940602b5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ebe162db655881a38de43301151ff7ac940602b5",
+      "authoredAt": "2026-09-11T06:11:45.000Z",
+      "committedAt": "2026-10-06T15:47:14.000+03:00",
+      "authorName": "Krzysztof Karas",
+      "committerName": "Jani Nikula",
+      "subject": "drm/i915/gem: Prevent overstepping exec array boundary",
+      "subsystem": "drm/i915/gem",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:gpt-6-astra",
+          "identity": "GitHub-Copilot:gpt-6-astra",
+          "agent": "GitHub-Copilot",
+          "model": "gpt-6-astra"
+        }
+      ]
+    },
+    {
       "sha": "e9193f2f1ce32d02b9230094ffdbfab715ab6137",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e9193f2f1ce32d02b9230094ffdbfab715ab6137",
       "authoredAt": "2026-09-10T22:54:58.000-07:00",
@@ -3740,6 +3920,30 @@
           "identity": "CodeBuddy:Kimi-K3",
           "agent": "CodeBuddy",
           "model": "Kimi-K3"
+        }
+      ]
+    },
+    {
+      "sha": "5346b1cec6afa4f9b4b49a9f84e3cfef95a3f7bb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5346b1cec6afa4f9b4b49a9f84e3cfef95a3f7bb",
+      "authoredAt": "2026-09-10T08:13:29.000Z",
+      "committedAt": "2026-10-06T15:47:19.000+03:00",
+      "authorName": "Krzysztof Karas",
+      "committerName": "Jani Nikula",
+      "subject": "drm/i915/gt: Unmask interrupts only when ACTIVE is true",
+      "subsystem": "drm/i915/gt",
+      "assistedBy": [
+        {
+          "raw": "GitHub-Copilot:claude-opus-5",
+          "identity": "GitHub-Copilot:claude-opus-5",
+          "agent": "GitHub-Copilot",
+          "model": "claude-opus-5"
+        },
+        {
+          "raw": "GitHub-Copilot:gpt-6-astra",
+          "identity": "GitHub-Copilot:gpt-6-astra",
+          "agent": "GitHub-Copilot",
+          "model": "gpt-6-astra"
         }
       ]
     },
@@ -17714,234 +17918,6 @@
           "identity": "Claude:claude-fable-5",
           "agent": "Claude",
           "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "773f2b9e367019c03ed18f2736c8f67307305088",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/773f2b9e367019c03ed18f2736c8f67307305088",
-      "authoredAt": "2026-07-28T10:33:33.000-07:00",
-      "committedAt": "2026-08-02T10:18:15.000Z",
-      "authorName": "Nicolin Chen",
-      "committerName": "Will Deacon",
-      "subject": "iommu/arm-smmu-v3: Support IDR5.DS and widen the TLBI SCALE field",
-      "subsystem": "iommu/arm-smmu-v3",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "8419331e64d92a8de5fc4feef0e305f201fb8b33",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8419331e64d92a8de5fc4feef0e305f201fb8b33",
-      "authoredAt": "2026-07-28T13:02:47.000-04:00",
-      "committedAt": "2026-07-29T18:21:24.000-04:00",
-      "authorName": "Leo Li",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Exit idle optimizations before programming",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6-sol",
-          "identity": "Codex:gpt-5.6-sol",
-          "agent": "Codex",
-          "model": "gpt-5.6-sol"
-        },
-        {
-          "raw": "Claude:opus-5",
-          "identity": "Claude:opus-5",
-          "agent": "Claude",
-          "model": "opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "05984e29520a28c27f5a2388742c957a6a87ee7a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/05984e29520a28c27f5a2388742c957a6a87ee7a",
-      "authoredAt": "2026-07-28T13:02:47.000-04:00",
-      "committedAt": "2026-07-29T17:52:35.000-04:00",
-      "authorName": "Leo Li",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amd/display: Exit idle optimizations before programming",
-      "subsystem": "drm/amd/display",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6-sol",
-          "identity": "Codex:gpt-5.6-sol",
-          "agent": "Codex",
-          "model": "gpt-5.6-sol"
-        },
-        {
-          "raw": "Claude:opus-5",
-          "identity": "Claude:opus-5",
-          "agent": "Claude",
-          "model": "opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "faa0e9064a16b8a9bfac63139b0d8cd18946f247",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/faa0e9064a16b8a9bfac63139b0d8cd18946f247",
-      "authoredAt": "2026-07-28T21:50:10.000+09:00",
-      "committedAt": "2026-08-07T20:45:58.000-04:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Steven Rostedt",
-      "subject": "tracing/mmiotrace: Use trace_assign_type() in mmio_print_mark()",
-      "subsystem": "tracing/mmiotrace",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.6-flash",
-          "identity": "Antigravity:gemini-3.6-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.6-flash"
-        }
-      ]
-    },
-    {
-      "sha": "f495b6c4c8594122918552c9be2b51eb71647cd9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f495b6c4c8594122918552c9be2b51eb71647cd9",
-      "authoredAt": "2026-07-28T14:50:01.000+02:00",
-      "committedAt": "2026-07-28T18:29:48.000+02:00",
-      "authorName": "Norbert Szetei",
-      "committerName": "Takashi Iwai",
-      "subject": "ALSA: pcm: wake linked drain waiters on unlink",
-      "subsystem": "alsa",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5",
-          "identity": "Claude:claude-opus-5",
-          "agent": "Claude",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "12b80cdbc54cf615b4717a4e8180063408091ea2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/12b80cdbc54cf615b4717a4e8180063408091ea2",
-      "authoredAt": "2026-07-28T21:50:00.000+09:00",
-      "committedAt": "2026-07-29T14:27:55.000-04:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Steven Rostedt",
-      "subject": "tracing/mmiotrace: Add NULL check for mmio_trace_array in logging functions",
-      "subsystem": "tracing/mmiotrace",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.6-flash",
-          "identity": "Antigravity:gemini-3.6-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.6-flash"
-        }
-      ]
-    },
-    {
-      "sha": "c786d2bdf1f3964deee192ad942dee2a741c1e2c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c786d2bdf1f3964deee192ad942dee2a741c1e2c",
-      "authoredAt": "2026-07-28T21:49:51.000+09:00",
-      "committedAt": "2026-07-29T14:27:55.000-04:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Steven Rostedt",
-      "subject": "tracing/mmiotrace: Reset dropped_count in mmio_reset_data()",
-      "subsystem": "tracing/mmiotrace",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.6-flash",
-          "identity": "Antigravity:gemini-3.6-flash",
-          "agent": "Antigravity",
-          "model": "gemini-3.6-flash"
-        }
-      ]
-    },
-    {
-      "sha": "99a948382af8a225e2d5e54a7052158cd6281cc6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/99a948382af8a225e2d5e54a7052158cd6281cc6",
-      "authoredAt": "2026-07-28T19:53:25.000+08:00",
-      "committedAt": "2026-07-28T15:07:45.000+02:00",
-      "authorName": "Zhao Li",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mwifiex: use the subframe length when parsing A-MSDU TDLS frames",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6-sol",
-          "identity": "Codex:gpt-5.6-sol",
-          "agent": "Codex",
-          "model": "gpt-5.6-sol"
-        },
-        {
-          "raw": "Kimi:K3",
-          "identity": "Kimi:K3",
-          "agent": "Kimi",
-          "model": "K3"
-        }
-      ]
-    },
-    {
-      "sha": "2f067f5a450ea07efd249142a11d940a068fe29c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2f067f5a450ea07efd249142a11d940a068fe29c",
-      "authoredAt": "2026-07-28T19:21:56.000+08:00",
-      "committedAt": "2026-07-28T15:03:42.000+02:00",
-      "authorName": "Zhao Li",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: fix tid_tx use-after-free on BA session stop",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6-sol",
-          "identity": "Codex:gpt-5.6-sol",
-          "agent": "Codex",
-          "model": "gpt-5.6-sol"
-        },
-        {
-          "raw": "Kimi:K3",
-          "identity": "Kimi:K3",
-          "agent": "Kimi",
-          "model": "K3"
-        }
-      ]
-    },
-    {
-      "sha": "4a0bd262df757b25fc4e2a53c947317c119ced4e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4a0bd262df757b25fc4e2a53c947317c119ced4e",
-      "authoredAt": "2026-07-28T19:13:26.000+08:00",
-      "committedAt": "2026-07-28T16:04:16.000+02:00",
-      "authorName": "Zhao Li",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: fix per-STA profile length in cross-link CSA parsing",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6-sol",
-          "identity": "Codex:gpt-5.6-sol",
-          "agent": "Codex",
-          "model": "gpt-5.6-sol"
-        },
-        {
-          "raw": "Kimi:K3",
-          "identity": "Kimi:K3",
-          "agent": "Kimi",
-          "model": "K3"
-        }
-      ]
-    },
-    {
-      "sha": "cd07d635884018b25573617fdd20924b0bf0af28",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cd07d635884018b25573617fdd20924b0bf0af28",
-      "authoredAt": "2026-07-28T18:21:31.000+08:00",
-      "committedAt": "2026-07-31T17:07:53.000+03:00",
-      "authorName": "Yongxing Mou",
-      "committerName": "Dmitry Baryshkov",
-      "subject": "drm/msm/dp: drop deprecated .mode_set() and use .atomic_pre_enable",
-      "subsystem": "drm/msm/dp",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
         }
       ]
     }
