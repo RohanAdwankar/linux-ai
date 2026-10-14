@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:17:02.155Z",
+  "generatedAt": "2026-10-14T00:22:35.519Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -11,6 +11,24 @@
     "totalAgents": 184
   },
   "commits": [
+    {
+      "sha": "a1ddc2721467fb68241372db77657fd0dcf6cda5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a1ddc2721467fb68241372db77657fd0dcf6cda5",
+      "authoredAt": "2026-10-11T18:33:41.000-04:00",
+      "committedAt": "2026-10-12T12:35:10.000+09:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Masami Hiramatsu (Google)",
+      "subject": "bootconfig: give the footer size static_assert a message",
+      "subsystem": "bootconfig",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "f321cc430c49b6c1be0d53f2ef19d8342d8029cc",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f321cc430c49b6c1be0d53f2ef19d8342d8029cc",
@@ -17893,24 +17911,6 @@
       "authorName": "Yosry Ahmed",
       "committerName": "Sean Christopherson",
       "subject": "KVM: selftests: Support running stress save+restore and #PF test in L2",
-      "subsystem": "kvm",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.1-pro",
-          "identity": "Gemini:gemini-3.1-pro",
-          "agent": "Gemini",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "d99ad3c842f0837ef8dcc622ff88473a700c187f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d99ad3c842f0837ef8dcc622ff88473a700c187f",
-      "authoredAt": "2026-07-28T17:42:30.000Z",
-      "committedAt": "2026-07-29T05:48:17.000-07:00",
-      "authorName": "Yosry Ahmed",
-      "committerName": "Sean Christopherson",
-      "subject": "KVM: selftests: Trigger save+restore randomly in the #PF stress test",
       "subsystem": "kvm",
       "assistedBy": [
         {
