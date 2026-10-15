@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-10-15T19:10:37.728Z",
+  "generatedAt": "2026-10-15T22:21:34.426Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 251,
-    "totalAuthors": 314,
+    "totalSubsystems": 252,
+    "totalAuthors": 315,
     "totalAgents": 182
   },
   "commits": [
+    {
+      "sha": "4bcfe29021993cb167fd9bbdb849f7d7247a166f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4bcfe29021993cb167fd9bbdb849f7d7247a166f",
+      "authoredAt": "2026-10-13T10:13:30.000-03:00",
+      "committedAt": "2026-10-14T15:42:12.000+02:00",
+      "authorName": "Jason Gunthorpe",
+      "committerName": "Joerg Roedel",
+      "subject": "iommupt/kunit: Use if_changed_rule for the kunit",
+      "subsystem": "iommupt/kunit",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
     {
       "sha": "2935062be77113c1c4565ca9d0c72180449aafee",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2935062be77113c1c4565ca9d0c72180449aafee",
@@ -11310,6 +11328,24 @@
       ]
     },
     {
+      "sha": "afb1ecfeda3fc31d6300a176f4854cc62e289bf3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/afb1ecfeda3fc31d6300a176f4854cc62e289bf3",
+      "authoredAt": "2026-08-14T15:53:10.000+08:00",
+      "committedAt": "2026-09-20T16:22:20.000+03:00",
+      "authorName": "Pengpeng Hou",
+      "committerName": "Claudiu Beznea",
+      "subject": "ARM: configs: sama5: enable current Microchip KSZ DSA symbols",
+      "subsystem": "arm",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-5",
+          "identity": "Codex:gpt-5",
+          "agent": "Codex",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
       "sha": "3993d5beef61ca9234c5aa11adff552b8b9f133f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/3993d5beef61ca9234c5aa11adff552b8b9f133f",
       "authoredAt": "2026-08-13T23:23:21.000+08:00",
@@ -17888,42 +17924,6 @@
           "identity": "Claude:claude-sonnet-4-6",
           "agent": "Claude",
           "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "4c6eb712a91fa079be6f9f1419c96e0ad2227081",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4c6eb712a91fa079be6f9f1419c96e0ad2227081",
-      "authoredAt": "2026-07-28T18:05:28.000-07:00",
-      "committedAt": "2026-07-30T08:07:47.000-07:00",
-      "authorName": "Jeff Johnson",
-      "committerName": "Jeff Johnson",
-      "subject": "wifi: ath12k: fix stride mismatch in mac_phy_caps_parse()",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
-        }
-      ]
-    },
-    {
-      "sha": "bd290e7fc245f9f85607f305fe8213c6c47a416c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bd290e7fc245f9f85607f305fe8213c6c47a416c",
-      "authoredAt": "2026-07-29T02:42:55.000+02:00",
-      "committedAt": "2026-08-02T09:48:42.000Z",
-      "authorName": "Karl Mehltretter",
-      "committerName": "Will Deacon",
-      "subject": "kselftest/arm64: fp-ptrace: Fix checks for inactive SVE and SSVE regsets",
-      "subsystem": "kselftest/arm64",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5",
-          "identity": "Claude:claude-opus-5",
-          "agent": "Claude",
-          "model": "claude-opus-5"
         }
       ]
     }
