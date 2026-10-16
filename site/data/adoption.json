@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-16T12:27:52.526Z",
+  "generatedAt": "2026-10-16T17:26:16.882Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 252,
-    "totalAuthors": 315,
+    "totalSubsystems": 250,
+    "totalAuthors": 314,
     "totalAgents": 182
   },
   "commits": [
@@ -20,6 +20,42 @@
       "committerName": "Joerg Roedel",
       "subject": "iommupt/kunit: Use if_changed_rule for the kunit",
       "subsystem": "iommupt/kunit",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "170aeff46fb54f41545c85a72aec525aebc79d44",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/170aeff46fb54f41545c85a72aec525aebc79d44",
+      "authoredAt": "2026-10-13T14:01:11.000+08:00",
+      "committedAt": "2026-10-15T14:21:15.000+02:00",
+      "authorName": "Peng Fan",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: mxc: fix wakeup_pads bit operations",
+      "subsystem": "gpio",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "38d44f78f041ffe60c8e2443b99434a199e7541d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/38d44f78f041ffe60c8e2443b99434a199e7541d",
+      "authoredAt": "2026-10-13T14:01:09.000+08:00",
+      "committedAt": "2026-10-15T14:21:14.000+02:00",
+      "authorName": "Peng Fan",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "gpio: mxc: fix race between chained IRQ handler install and probe completion",
+      "subsystem": "gpio",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -92,6 +128,24 @@
       "committerName": "Masami Hiramatsu (Google)",
       "subject": "bootconfig: give the footer size static_assert a message",
       "subsystem": "bootconfig",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "52336337f1a01ad803c7f3ddb23f40222e9ad58d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/52336337f1a01ad803c7f3ddb23f40222e9ad58d",
+      "authoredAt": "2026-10-11T18:33:33.000-04:00",
+      "committedAt": "2026-10-12T16:08:35.000+02:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "tools: gpio: fix building from the top level with O=",
+      "subsystem": "tools",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -354,6 +408,24 @@
       ]
     },
     {
+      "sha": "dbd674ccf30f66f5eccf637964a93910df8dbf84",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dbd674ccf30f66f5eccf637964a93910df8dbf84",
+      "authoredAt": "2026-10-04T18:51:24.000+02:00",
+      "committedAt": "2026-10-12T15:36:07.000+02:00",
+      "authorName": "François Roux",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "power: sequencing: qcom-wcn: power off WLAN at probe",
+      "subsystem": "power",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "9af12272061d206af8bc3e40215cb694421ab73a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/9af12272061d206af8bc3e40215cb694421ab73a",
       "authoredAt": "2026-10-05T00:26:12.000+08:00",
@@ -464,6 +536,24 @@
           "identity": "Claude:claude-opus-5.5",
           "agent": "Claude",
           "model": "claude-opus-5.5"
+        }
+      ]
+    },
+    {
+      "sha": "709ba1c547eaf37da36ded2ecf3ea4e304cdfa9a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/709ba1c547eaf37da36ded2ecf3ea4e304cdfa9a",
+      "authoredAt": "2026-10-02T13:09:58.000-03:00",
+      "committedAt": "2026-10-06T10:05:09.000+02:00",
+      "authorName": "Adriel Santos",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "pinctrl: qcom: ipq5018: replace gcc_plltest with pwm2 on gpio12",
+      "subsystem": "pinctrl",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -1022,6 +1112,24 @@
       "committerName": "David S. Miller",
       "subject": "lib/dim: fix 32-bit overflow in dim_calc_stats() rates",
       "subsystem": "lib/dim",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "19fc4240358be2a25ce8e0a49a2819588ed61c5d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/19fc4240358be2a25ce8e0a49a2819588ed61c5d",
+      "authoredAt": "2026-09-27T09:09:13.000+08:00",
+      "committedAt": "2026-09-28T19:15:24.000+02:00",
+      "authorName": "Shawn Guo",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "pinctrl: qcom: spmi-gpio: make direction changes exclusive",
+      "subsystem": "pinctrl",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -2498,6 +2606,60 @@
       "committerName": "Paolo Abeni",
       "subject": "udp: relocate a connected socket in the 4-tuple hash table on re-connect",
       "subsystem": "udp",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "dcb5df182b37587d5ad6bb4388751bf5180957ac",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/dcb5df182b37587d5ad6bb4388751bf5180957ac",
+      "authoredAt": "2026-09-17T11:03:27.000+02:00",
+      "committedAt": "2026-09-17T11:49:25.000+02:00",
+      "authorName": "Konrad Dybcio",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "pinctrl: qcom: qcs8300: Fix intr_target_width",
+      "subsystem": "pinctrl",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "912df33f296e6c4ced8c0a5e7998d570a0b82214",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/912df33f296e6c4ced8c0a5e7998d570a0b82214",
+      "authoredAt": "2026-09-17T11:03:26.000+02:00",
+      "committedAt": "2026-09-17T11:49:25.000+02:00",
+      "authorName": "Konrad Dybcio",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "pinctrl: qcom: maili: Fix intr_target_width",
+      "subsystem": "pinctrl",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9d4c3e0c6a53eb390d58b8d7aaf08885e46f93fd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9d4c3e0c6a53eb390d58b8d7aaf08885e46f93fd",
+      "authoredAt": "2026-09-17T11:03:25.000+02:00",
+      "committedAt": "2026-09-17T11:49:24.000+02:00",
+      "authorName": "Konrad Dybcio",
+      "committerName": "Bartosz Golaszewski",
+      "subject": "pinctrl: qcom: hawi: Fix intr_target_width",
+      "subsystem": "pinctrl",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -8658,6 +8820,24 @@
       "committedAt": "2026-09-18T19:00:14.000+02:00",
       "authorName": "Shawn Guo",
       "committerName": "Linus Walleij",
+      "subject": "pinctrl: qcom: nord: Split QUP1 SE2/SE3 into lane-pair functions",
+      "subsystem": "pinctrl",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "fbfd6d0d3596d072f7546b25228e4eb599f68a95",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/fbfd6d0d3596d072f7546b25228e4eb599f68a95",
+      "authoredAt": "2026-08-30T11:02:01.000+08:00",
+      "committedAt": "2026-09-07T09:55:50.000+02:00",
+      "authorName": "Shawn Guo",
+      "committerName": "Bartosz Golaszewski",
       "subject": "pinctrl: qcom: nord: Split QUP1 SE2/SE3 into lane-pair functions",
       "subsystem": "pinctrl",
       "assistedBy": [
@@ -17744,186 +17924,6 @@
           "identity": "Claude Code",
           "agent": "Claude Code",
           "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "e40ff9840fa8a633d149f0242df10cae5e518062",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e40ff9840fa8a633d149f0242df10cae5e518062",
-      "authoredAt": "2026-07-29T16:23:58.000+05:30",
-      "committedAt": "2026-08-06T14:32:54.000-04:00",
-      "authorName": "Lijo Lazar",
-      "committerName": "Alex Deucher",
-      "subject": "drm/amdgpu: Allocate coredump ring buffers per ring",
-      "subsystem": "drm/amdgpu",
-      "assistedBy": [
-        {
-          "raw": "Claude Code",
-          "identity": "Claude Code",
-          "agent": "Claude Code",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "a67e2c323a47a2254ed3472b5e4c53abac20f116",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a67e2c323a47a2254ed3472b5e4c53abac20f116",
-      "authoredAt": "2026-07-29T10:46:46.000+01:00",
-      "committedAt": "2026-07-31T14:15:54.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "nvmem: brcm_nvram: fix out-of-bounds access on malformed flash data",
-      "subsystem": "nvmem",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
-        }
-      ]
-    },
-    {
-      "sha": "fde46579cf8872138b296349c2bd8a3cd3f132e2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fde46579cf8872138b296349c2bd8a3cd3f132e2",
-      "authoredAt": "2026-07-29T10:46:45.000+01:00",
-      "committedAt": "2026-07-31T14:15:53.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "nvmem: brcm_nvram: reject empty NVRAM partition",
-      "subsystem": "nvmem",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
-        }
-      ]
-    },
-    {
-      "sha": "5533bb4bc53c6cd401b9b329d7e26802fd5aa1f5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5533bb4bc53c6cd401b9b329d7e26802fd5aa1f5",
-      "authoredAt": "2026-07-29T10:43:52.000+01:00",
-      "committedAt": "2026-07-31T14:15:53.000+02:00",
-      "authorName": "Shawn Guo",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "misc: fastrpc: Drop unhandled DSP PD exit notification",
-      "subsystem": "misc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "1a35da325cac4d5bcad76a2aa943408a6f1d9000",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1a35da325cac4d5bcad76a2aa943408a6f1d9000",
-      "authoredAt": "2026-07-29T09:16:53.000Z",
-      "committedAt": "2026-08-04T11:38:02.000+02:00",
-      "authorName": "Zihan Xi",
-      "committerName": "Paolo Abeni",
-      "subject": "packet: synchronize pressure clearing with ring reconfiguration",
-      "subsystem": "packet",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.4",
-          "identity": "Codex:gpt-5.4",
-          "agent": "Codex",
-          "model": "gpt-5.4"
-        }
-      ]
-    },
-    {
-      "sha": "f0efaf1872949e96d213c8e910fd9517f7d7c406",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f0efaf1872949e96d213c8e910fd9517f7d7c406",
-      "authoredAt": "2026-07-29T09:04:54.000Z",
-      "committedAt": "2026-09-01T16:40:41.000+02:00",
-      "authorName": "Aleksandr Nogikh",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: midi2: Fix null-pointer dereference in f_midi2_free_ep_reqs",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "Gemini:gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot",
-          "identity": "Gemini:gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot",
-          "agent": "Gemini",
-          "model": "gemini-3.5-flash Gemini:gemini-3.1-pro-preview syzbot"
-        }
-      ]
-    },
-    {
-      "sha": "f092e1c935015ee0a0fea1a0374f4cab7b71953c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f092e1c935015ee0a0fea1a0374f4cab7b71953c",
-      "authoredAt": "2026-07-29T05:35:43.000Z",
-      "committedAt": "2026-08-11T15:02:03.000+01:00",
-      "authorName": "Babanpreet Singh",
-      "committerName": "Mark Brown",
-      "subject": "spi: sprd-adi: Fix probe succeeding without registering the controller",
-      "subsystem": "spi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5",
-          "identity": "Claude:claude-opus-5",
-          "agent": "Claude",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "a16d5be8ea2ad36aa95373095fd635b3c5f84be4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a16d5be8ea2ad36aa95373095fd635b3c5f84be4",
-      "authoredAt": "2026-07-29T08:30:53.000+03:00",
-      "committedAt": "2026-08-06T14:55:55.000+02:00",
-      "authorName": "Amit Barzilai",
-      "committerName": "Javier Martinez Canillas",
-      "subject": "drm/ssd130x: Scale ssd133x per-channel contrast by brightness on init",
-      "subsystem": "drm/ssd130x",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "a0188cc133696627857d16054e43f9ebc7efc821",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a0188cc133696627857d16054e43f9ebc7efc821",
-      "authoredAt": "2026-07-29T03:21:32.000+02:00",
-      "committedAt": "2026-07-29T17:35:05.000-06:00",
-      "authorName": "Karl Mehltretter",
-      "committerName": "Paul Walmsley",
-      "subject": "riscv: mm: Fix out-of-bounds page-table walk during memory hot-remove",
-      "subsystem": "riscv",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "7a246c72132eb943b5844ba79dad597b47429dba",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7a246c72132eb943b5844ba79dad597b47429dba",
-      "authoredAt": "2026-07-28T18:05:29.000-07:00",
-      "committedAt": "2026-07-30T08:07:47.000-07:00",
-      "authorName": "Jeff Johnson",
-      "committerName": "Jeff Johnson",
-      "subject": "wifi: ath11k: fix stride mismatch in mac_phy_caps_parse()",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-4-6",
-          "identity": "Claude:claude-sonnet-4-6",
-          "agent": "Claude",
-          "model": "claude-sonnet-4-6"
         }
       ]
     }
