@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-10-18T18:07:54.642Z",
+  "generatedAt": "2026-10-18T20:46:55.685Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 986,
-    "totalSubsystems": 249,
-    "totalAuthors": 312,
-    "totalAgents": 180
+    "totalSubsystems": 250,
+    "totalAuthors": 313,
+    "totalAgents": 179
   },
   "commits": [
+    {
+      "sha": "59eb22641f0c526dd064390b11cff99ae87c2858",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/59eb22641f0c526dd064390b11cff99ae87c2858",
+      "authoredAt": "2026-10-15T22:58:00.000+02:00",
+      "committedAt": "2026-10-15T22:26:02.000+01:00",
+      "authorName": "Richard Leitner",
+      "committerName": "Mark Brown",
+      "subject": "spi: imx: fix slab corruption from undersized DMA bounce buffers",
+      "subsystem": "spi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "e4c7c401c6b9174c0c893084fdaa6a84bd2520d7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e4c7c401c6b9174c0c893084fdaa6a84bd2520d7",
+      "authoredAt": "2026-10-15T14:55:56.000+02:00",
+      "committedAt": "2026-10-16T09:49:01.000+02:00",
+      "authorName": "Antoine Huret",
+      "committerName": "Peter Zijlstra",
+      "subject": "perf: Update cgroup time when rotating multiplexed events",
+      "subsystem": "perf",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5-5",
+          "identity": "Claude:claude-opus-5-5",
+          "agent": "Claude",
+          "model": "claude-opus-5-5"
+        }
+      ]
+    },
     {
       "sha": "4bcfe29021993cb167fd9bbdb849f7d7247a166f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/4bcfe29021993cb167fd9bbdb849f7d7247a166f",
@@ -146,6 +182,42 @@
       "committerName": "Rodrigo Vivi",
       "subject": "drm/xe: Bump LRU for external objects on exec and rebind",
       "subsystem": "drm/xe",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "41d1119e2f8577b4bd01d31321c6761af9140ce7",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/41d1119e2f8577b4bd01d31321c6761af9140ce7",
+      "authoredAt": "2026-10-12T02:04:25.000-07:00",
+      "committedAt": "2026-10-12T11:47:35.000+02:00",
+      "authorName": "Kees Cook",
+      "committerName": "Peter Zijlstra",
+      "subject": "x86/kcfi: Emit the FineIBT paranoid \"cs\" prefix as a byte",
+      "subsystem": "x86/kcfi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "4505a262deae7df06e33617dfc104d5541eec91d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4505a262deae7df06e33617dfc104d5541eec91d",
+      "authoredAt": "2026-10-12T02:04:24.000-07:00",
+      "committedAt": "2026-10-12T11:47:32.000+02:00",
+      "authorName": "Kees Cook",
+      "committerName": "Peter Zijlstra",
+      "subject": "x86/kcfi: Decode the kCFI check from the trap address",
+      "subsystem": "x86/kcfi",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -565,6 +637,24 @@
           "raw": "LLM",
           "identity": "LLM",
           "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "c9e9f024dd4f61f0f6636c9f2ed0830f87060e11",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c9e9f024dd4f61f0f6636c9f2ed0830f87060e11",
+      "authoredAt": "2026-10-06T12:42:50.000-04:00",
+      "committedAt": "2026-10-13T22:36:26.000-04:00",
+      "authorName": "Laurence Oberman",
+      "committerName": "Martin K. Petersen (Oracle)",
+      "subject": "scsi: st: Save the visited block for the partition the drive is in",
+      "subsystem": "scsi",
+      "assistedBy": [
+        {
+          "raw": "Claude",
+          "identity": "Claude",
+          "agent": "Claude",
           "model": ""
         }
       ]
@@ -1214,6 +1304,24 @@
       "committerName": "Peter Zijlstra",
       "subject": "perf: Require kernel access for text poke events",
       "subsystem": "perf",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8cb5c17be3a2fadc41075d04ce1c24c831546aaf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8cb5c17be3a2fadc41075d04ce1c24c831546aaf",
+      "authoredAt": "2026-09-28T16:58:47.000+03:00",
+      "committedAt": "2026-10-13T00:22:51.000+02:00",
+      "authorName": "Abel Vesa",
+      "committerName": "Andi Shyti",
+      "subject": "i2c: qcom-geni: Restore the source-clock selection policy",
+      "subsystem": "i2c",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -17792,114 +17900,6 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "4fdb0342f05eed8bd134e84859a4e89e60bd5bc1",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4fdb0342f05eed8bd134e84859a4e89e60bd5bc1",
-      "authoredAt": "2026-07-30T10:24:14.000-04:00",
-      "committedAt": "2026-07-30T20:54:58.000+03:00",
-      "authorName": "Jake Steinman",
-      "committerName": "Sakari Ailus",
-      "subject": "media: ipu-bridge: Add Himax HM1092 IR sensor",
-      "subsystem": "media",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5",
-          "identity": "Claude:claude-opus-5",
-          "agent": "Claude",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "ef46d80a7015269a98c9505b5912a83798799199",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ef46d80a7015269a98c9505b5912a83798799199",
-      "authoredAt": "2026-07-30T14:14:04.000Z",
-      "committedAt": "2026-08-10T11:48:54.000+03:00",
-      "authorName": "Yifei Gao",
-      "committerName": "Sakari Ailus",
-      "subject": "media: amd: isp4: fix self-deadlock in isp4sd_pwron_and_init() error path",
-      "subsystem": "media",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8 smatch",
-          "identity": "Claude:claude-opus-4-8 smatch",
-          "agent": "Claude",
-          "model": "claude-opus-4-8 smatch"
-        }
-      ]
-    },
-    {
-      "sha": "ea9dadeac79cef509a4b8b4a3e3b39a741e63313",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ea9dadeac79cef509a4b8b4a3e3b39a741e63313",
-      "authoredAt": "2026-07-30T16:05:13.000+03:00",
-      "committedAt": "2026-09-14T00:11:24.000+03:00",
-      "authorName": "Dmitry Baryshkov",
-      "committerName": "Dmitry Baryshkov",
-      "subject": "drm/msm: mark the fbdev framebuffer as system memory",
-      "subsystem": "drm/msm",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5",
-          "identity": "Claude:claude-opus-5",
-          "agent": "Claude",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "2afb8dc1f4390f164db8352f8e685e126e9db566",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2afb8dc1f4390f164db8352f8e685e126e9db566",
-      "authoredAt": "2026-07-30T19:40:08.000+08:00",
-      "committedAt": "2026-08-24T07:27:48.000+02:00",
-      "authorName": "Siwei Zhang",
-      "committerName": "Steffen Klassert",
-      "subject": "xfrm: use hlist_del_init_rcu for state_cache and state_cache_input",
-      "subsystem": "xfrm",
-      "assistedBy": [
-        {
-          "raw": "CodeBuddy:GLM-5.2",
-          "identity": "CodeBuddy:GLM-5.2",
-          "agent": "CodeBuddy",
-          "model": "GLM-5.2"
-        }
-      ]
-    },
-    {
-      "sha": "56f24311fd5607588a47e44675195a9efb200f29",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/56f24311fd5607588a47e44675195a9efb200f29",
-      "authoredAt": "2026-07-30T12:58:13.000+02:00",
-      "committedAt": "2026-08-01T01:01:59.000+01:00",
-      "authorName": "Dawid Wróbel",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
-        }
-      ]
-    },
-    {
-      "sha": "1ba381759e45d5d0442452cfa5c42e836191a568",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1ba381759e45d5d0442452cfa5c42e836191a568",
-      "authoredAt": "2026-07-30T12:58:12.000+02:00",
-      "committedAt": "2026-08-01T01:01:58.000+01:00",
-      "authorName": "Dawid Wróbel",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: codecs: lpass-tx-macro: Fix enum kcontrol accesses",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5",
-          "identity": "Claude:claude-fable-5",
-          "agent": "Claude",
-          "model": "claude-fable-5"
         }
       ]
     }
