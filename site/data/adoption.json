@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-21T15:17:45.836Z",
+  "generatedAt": "2026-10-21T20:11:00.364Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 986,
-    "totalSubsystems": 235,
-    "totalAuthors": 282,
-    "totalAgents": 150
+    "totalCommits": 987,
+    "totalSubsystems": 234,
+    "totalAuthors": 281,
+    "totalAgents": 146
   },
   "commits": [
     {
@@ -3290,6 +3290,114 @@
       "committerName": "Takashi Iwai",
       "subject": "ALSA: hda/tegra: Re-enable SDO workaround for Tegra194",
       "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "452a6d5b5e0556848a8c28428c8f86874ea4ee02",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/452a6d5b5e0556848a8c28428c8f86874ea4ee02",
+      "authoredAt": "2026-09-26T06:56:51.000+05:30",
+      "committedAt": "2026-09-26T10:21:24.000-04:00",
+      "authorName": "Shashank Mohan Jain",
+      "committerName": "Yury Norov",
+      "subject": "bitmap: test bitmap_parselist() with a group size close to UINT_MAX",
+      "subsystem": "bitmap",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "d075c4dc0b3c8ed91a4f67ebdf3384aa59fd4fbb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d075c4dc0b3c8ed91a4f67ebdf3384aa59fd4fbb",
+      "authoredAt": "2026-09-26T06:56:50.000+05:30",
+      "committedAt": "2026-09-26T10:21:23.000-04:00",
+      "authorName": "Shashank Mohan Jain",
+      "committerName": "Yury Norov",
+      "subject": "bitmap: bitmap_parselist(): don't wrap around on a huge group size",
+      "subsystem": "bitmap",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f2c318d812f9b108c4808342ea135e2788c5fd6e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f2c318d812f9b108c4808342ea135e2788c5fd6e",
+      "authoredAt": "2026-09-26T06:56:49.000+05:30",
+      "committedAt": "2026-09-26T10:21:23.000-04:00",
+      "authorName": "Shashank Mohan Jain",
+      "committerName": "Yury Norov",
+      "subject": "bitmap: test bitmap_parselist() with text after the group size",
+      "subsystem": "bitmap",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "c55d102257fa31271c6f11fea595b78c48fd7aa2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c55d102257fa31271c6f11fea595b78c48fd7aa2",
+      "authoredAt": "2026-09-26T06:56:48.000+05:30",
+      "committedAt": "2026-09-26T10:21:23.000-04:00",
+      "authorName": "Shashank Mohan Jain",
+      "committerName": "Yury Norov",
+      "subject": "bitmap: bitmap_parselist(): reject trailing characters after group size",
+      "subsystem": "bitmap",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "bf7e3cb42c8b5d52fa4232c11bae40e9a2509f95",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bf7e3cb42c8b5d52fa4232c11bae40e9a2509f95",
+      "authoredAt": "2026-09-26T06:56:47.000+05:30",
+      "committedAt": "2026-09-26T10:21:23.000-04:00",
+      "authorName": "Shashank Mohan Jain",
+      "committerName": "Yury Norov",
+      "subject": "bitmap: test bitmap_parse() with an illegal character before 8 hex digits",
+      "subsystem": "bitmap",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "7cee2fb210a198667d3d4200705215e6f315cab0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7cee2fb210a198667d3d4200705215e6f315cab0",
+      "authoredAt": "2026-09-26T06:56:46.000+05:30",
+      "committedAt": "2026-09-26T10:21:23.000-04:00",
+      "authorName": "Shashank Mohan Jain",
+      "committerName": "Yury Norov",
+      "subject": "bitmap: bitmap_parse(): reject non-hex character before 8 digits",
+      "subsystem": "bitmap",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -7826,6 +7934,24 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "1c88ceb09d5e5506456a625043bc9b35ce86fc41",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1c88ceb09d5e5506456a625043bc9b35ce86fc41",
+      "authoredAt": "2026-09-14T16:49:29.000-04:00",
+      "committedAt": "2026-09-21T12:28:21.000-04:00",
+      "authorName": "Yury Norov",
+      "committerName": "Yury Norov",
+      "subject": "bitfield: get rid of __MAKE_OP machinery",
+      "subsystem": "bitfield",
+      "assistedBy": [
+        {
+          "raw": "OpenAI Codex",
+          "identity": "OpenAI Codex",
+          "agent": "OpenAI Codex",
+          "model": ""
         }
       ]
     },
@@ -17906,120 +18032,6 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "0d0878fd7c9b49b8eff95c4426a2121c5f8f31cc",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0d0878fd7c9b49b8eff95c4426a2121c5f8f31cc",
-      "authoredAt": "2026-08-12T17:28:56.000+08:00",
-      "committedAt": "2026-08-24T18:43:24.000-07:00",
-      "authorName": "Qiang Liu",
-      "committerName": "Andrew Morton",
-      "subject": "lib/test_hmm: fix garbage pfn and wrong direction in devmem fault debug",
-      "subsystem": "lib/test_hmm",
-      "assistedBy": [
-        {
-          "raw": "Qoder:Qwen-3.8-MAX-Preview",
-          "identity": "Qoder:Qwen-3.8-MAX-Preview",
-          "agent": "Qoder",
-          "model": "Qwen-3.8-MAX-Preview"
-        }
-      ]
-    },
-    {
-      "sha": "ff5891b266a7fc6a062710836be84f1cc19338b5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ff5891b266a7fc6a062710836be84f1cc19338b5",
-      "authoredAt": "2026-08-12T06:17:14.000Z",
-      "committedAt": "2026-09-02T09:20:31.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Stefan Schmidt",
-      "subject": "ieee802154: cc2520: fix FIFOP work use-after-free",
-      "subsystem": "ieee802154",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6",
-          "identity": "Codex:gpt-5.6",
-          "agent": "Codex",
-          "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "0c09d1ad81ed55b02f64f4dd2e2e7c83161e5740",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0c09d1ad81ed55b02f64f4dd2e2e7c83161e5740",
-      "authoredAt": "2026-08-12T14:11:16.000+08:00",
-      "committedAt": "2026-08-12T08:29:15.000-10:00",
-      "authorName": "fangqiurong",
-      "committerName": "Tejun Heo",
-      "subject": "sched_ext: Gate cid kfuncs behind the SCX struct_ops check",
-      "subsystem": "sched_ext",
-      "assistedBy": [
-        {
-          "raw": "Z.ai:glm-5.2",
-          "identity": "Z.ai:glm-5.2",
-          "agent": "Z.ai",
-          "model": "glm-5.2"
-        }
-      ]
-    },
-    {
-      "sha": "783f0f0974c156aca630f4ffff248671082a098d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/783f0f0974c156aca630f4ffff248671082a098d",
-      "authoredAt": "2026-08-11T22:01:27.000Z",
-      "committedAt": "2026-08-12T16:46:55.000-04:00",
-      "authorName": "Jérémy Jean",
-      "committerName": "Paul Moore",
-      "subject": "audit: avoid dropping live tree ref on fsnotify rule autoremove",
-      "subsystem": "audit",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5",
-          "identity": "Codex:gpt-5",
-          "agent": "Codex",
-          "model": "gpt-5"
-        }
-      ]
-    },
-    {
-      "sha": "b992511180e126150c6ad3580a6fd568c385f4c6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b992511180e126150c6ad3580a6fd568c385f4c6",
-      "authoredAt": "2026-08-11T11:51:40.000-07:00",
-      "committedAt": "2026-08-11T23:08:26.000+01:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: xilinx: formatter_pcm: fix stream_data leak on open error",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "opencode:deepseek-v4-flash-free",
-          "identity": "opencode:deepseek-v4-flash-free",
-          "agent": "opencode",
-          "model": "deepseek-v4-flash-free"
-        }
-      ]
-    },
-    {
-      "sha": "d17c5b770972854a4fe4cf5cc22e17eb21cdc787",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d17c5b770972854a4fe4cf5cc22e17eb21cdc787",
-      "authoredAt": "2026-08-11T15:29:00.000-03:00",
-      "committedAt": "2026-08-12T06:17:49.000-07:00",
-      "authorName": "Arnaldo Carvalho de Melo",
-      "committerName": "Namhyung Kim",
-      "subject": "perf build: install-build-deps: add RHEL family devel package mapping",
-      "subsystem": "perf build",
-      "assistedBy": [
-        {
-          "raw": "opencode:deepseek-v4-flash-free",
-          "identity": "opencode:deepseek-v4-flash-free",
-          "agent": "opencode",
-          "model": "deepseek-v4-flash-free"
-        },
-        {
-          "raw": "claude:claude-opus-4-7",
-          "identity": "claude:claude-opus-4-7",
-          "agent": "claude",
-          "model": "claude-opus-4-7"
         }
       ]
     }
