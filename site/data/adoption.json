@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-22T04:52:07.250Z",
+  "generatedAt": "2026-10-22T10:13:54.355Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 987,
-    "totalSubsystems": 246,
-    "totalAuthors": 275,
-    "totalAgents": 141
+    "totalSubsystems": 248,
+    "totalAuthors": 274,
+    "totalAgents": 140
   },
   "commits": [
     {
@@ -9450,6 +9450,24 @@
       ]
     },
     {
+      "sha": "3aac49b236c137fa77b97968d25338a28c49f0f8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3aac49b236c137fa77b97968d25338a28c49f0f8",
+      "authoredAt": "2026-09-12T00:20:29.000+02:00",
+      "committedAt": "2026-10-07T13:25:49.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Danilo Krummrich",
+      "subject": "kobject: Fix the kobj_set_name reference in kset_register() kernel-doc",
+      "subsystem": "kobject",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "706081c6b9327dd611dd72b20130a77f0f059b6e",
       "htmlUrl": "https://github.com/torvalds/linux/commit/706081c6b9327dd611dd72b20130a77f0f059b6e",
       "authoredAt": "2026-09-12T00:14:43.000+02:00",
@@ -13358,6 +13376,24 @@
           "identity": "Cursor:claude-opus-5",
           "agent": "Cursor",
           "model": "claude-opus-5"
+        }
+      ]
+    },
+    {
+      "sha": "d3bdf70cf0e862d7f1641522c32e55764cd5b481",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d3bdf70cf0e862d7f1641522c32e55764cd5b481",
+      "authoredAt": "2026-09-04T16:48:14.000+05:30",
+      "committedAt": "2026-09-08T11:39:23.000+02:00",
+      "authorName": "Hemanth Selam",
+      "committerName": "Danilo Krummrich",
+      "subject": "driver core: fix typos in comments",
+      "subsystem": "driver core",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -17996,42 +18032,6 @@
           "identity": "Claude:claude-opus-5",
           "agent": "Claude",
           "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "941929abe5feaed672b9a52e330e547d333240c6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/941929abe5feaed672b9a52e330e547d333240c6",
-      "authoredAt": "2026-08-18T15:29:35.000+02:00",
-      "committedAt": "2026-08-24T13:11:42.000-04:00",
-      "authorName": "Valentin Kindschi",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: hci_event: clear HCI_LE_ADV only on a created connection",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5 btmon",
-          "identity": "Claude:claude-opus-5 btmon",
-          "agent": "Claude",
-          "model": "claude-opus-5 btmon"
-        }
-      ]
-    },
-    {
-      "sha": "ed5fb41d3b6b6e665e7f97fd54bd1f9531c7477f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ed5fb41d3b6b6e665e7f97fd54bd1f9531c7477f",
-      "authoredAt": "2026-08-18T15:29:34.000+02:00",
-      "committedAt": "2026-08-24T13:11:33.000-04:00",
-      "authorName": "Valentin Kindschi",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: hci_conn: re-enable advertising only for peripheral role",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5 btmon",
-          "identity": "Claude:claude-opus-5 btmon",
-          "agent": "Claude",
-          "model": "claude-opus-5 btmon"
         }
       ]
     }
