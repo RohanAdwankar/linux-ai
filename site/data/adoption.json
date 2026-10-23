@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-23T19:16:13.045Z",
+  "generatedAt": "2026-10-23T22:19:57.113Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 984,
-    "totalSubsystems": 240,
-    "totalAuthors": 268,
-    "totalAgents": 128
+    "totalCommits": 983,
+    "totalSubsystems": 250,
+    "totalAuthors": 270,
+    "totalAgents": 121
   },
   "commits": [
     {
@@ -1902,6 +1902,24 @@
       ]
     },
     {
+      "sha": "d15d7703166daf7bd62c844a3cb1b3a6279adb4c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d15d7703166daf7bd62c844a3cb1b3a6279adb4c",
+      "authoredAt": "2026-10-10T22:39:06.000+02:00",
+      "committedAt": "2026-10-19T11:57:03.000+01:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Harry Yoo (Meta)",
+      "subject": "mm/slub: initialize the free pointer of the bootstrap kmem_cache_node",
+      "subsystem": "mm/slub",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "f8334fdfd858c27f090ce597806794e4a08c9f4f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f8334fdfd858c27f090ce597806794e4a08c9f4f",
       "authoredAt": "2026-10-10T12:54:05.000-07:00",
@@ -1933,6 +1951,24 @@
           "raw": "LLM",
           "identity": "LLM",
           "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "bd3cc16d1d7d584911f856adc458f242b1c7e85f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bd3cc16d1d7d584911f856adc458f242b1c7e85f",
+      "authoredAt": "2026-10-10T11:14:11.000Z",
+      "committedAt": "2026-10-10T13:03:13.000Z",
+      "authorName": "Marco Elver",
+      "committerName": "Marco Elver",
+      "subject": "kcsan: test: Do not count report printing time against test duration",
+      "subsystem": "kcsan",
+      "assistedBy": [
+        {
+          "raw": "Antigravity",
+          "identity": "Antigravity",
+          "agent": "Antigravity",
           "model": ""
         }
       ]
@@ -5460,6 +5496,24 @@
       ]
     },
     {
+      "sha": "99b6fcce87037cfb6b5e177848342e97f5141205",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/99b6fcce87037cfb6b5e177848342e97f5141205",
+      "authoredAt": "2026-09-30T15:38:30.000+02:00",
+      "committedAt": "2026-09-30T14:48:10.000Z",
+      "authorName": "Andrea Parri",
+      "committerName": "Marco Elver",
+      "subject": "kcsan: Avoid division by zero in kcsan_prandom_u32_max()",
+      "subsystem": "kcsan",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "f9a6960c7b27c03becd50a2a7620273d80e4040d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f9a6960c7b27c03becd50a2a7620273d80e4040d",
       "authoredAt": "2026-09-30T14:36:45.000+02:00",
@@ -7236,6 +7290,42 @@
       ]
     },
     {
+      "sha": "0bd719cb607ef14bcd554e044bbd80dd901b9996",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0bd719cb607ef14bcd554e044bbd80dd901b9996",
+      "authoredAt": "2026-09-26T06:51:10.000-04:00",
+      "committedAt": "2026-10-08T22:55:11.000-07:00",
+      "authorName": "Gregory Price",
+      "committerName": "Andrew Morton",
+      "subject": "mm/madvise: use vm_normal_folio_pmd() in cold/pageout PMD range",
+      "subsystem": "mm/madvise",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9057170a941f0c5f4058f6fb9ab5d5fc9fcc9e83",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9057170a941f0c5f4058f6fb9ab5d5fc9fcc9e83",
+      "authoredAt": "2026-09-26T06:51:09.000-04:00",
+      "committedAt": "2026-10-08T22:55:11.000-07:00",
+      "authorName": "Gregory Price",
+      "committerName": "Andrew Morton",
+      "subject": "mm/mempolicy: use vm_normal_folio_pmd() in queue_folios_pmd()",
+      "subsystem": "mm/mempolicy",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "8adbd3b5ba2a610cc37a2c9daf009a2a3a3c1f8f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/8adbd3b5ba2a610cc37a2c9daf009a2a3a3c1f8f",
       "authoredAt": "2026-09-26T18:41:34.000+10:00",
@@ -8280,6 +8370,24 @@
       ]
     },
     {
+      "sha": "2e8bac09ed6d7aa2ad4e8a9a6cba67e5835865c2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2e8bac09ed6d7aa2ad4e8a9a6cba67e5835865c2",
+      "authoredAt": "2026-09-23T20:31:45.000Z",
+      "committedAt": "2026-10-14T10:42:40.000+02:00",
+      "authorName": "Priya Bala Govindasamy",
+      "committerName": "Petr Pavlu",
+      "subject": "rust: module_param: Fix potentially incorrect access of `SetOnce<T>`",
+      "subsystem": "rust",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "0fd5e9ddf362b1253b3c94b858371f90400e5c4a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/0fd5e9ddf362b1253b3c94b858371f90400e5c4a",
       "authoredAt": "2026-09-23T11:31:18.000-06:00",
@@ -9127,6 +9235,24 @@
           "raw": "LOLLM # finding obvious bugs",
           "identity": "LOLLM # finding obvious bugs",
           "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "df7d9a0f8d916eeea375430ae3360724afecde15",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/df7d9a0f8d916eeea375430ae3360724afecde15",
+      "authoredAt": "2026-09-22T22:51:37.000-07:00",
+      "committedAt": "2026-10-06T17:39:34.000-07:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Andrew Morton",
+      "subject": "mm/damon/core: keep the temporal tuner quota over an unmeasured PSI round",
+      "subsystem": "mm/damon/core",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
           "model": ""
         }
       ]
@@ -9984,6 +10110,24 @@
       ]
     },
     {
+      "sha": "da01399b90a73cd00b502f7903fa5acbfac4a103",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/da01399b90a73cd00b502f7903fa5acbfac4a103",
+      "authoredAt": "2026-09-21T11:57:29.000+02:00",
+      "committedAt": "2026-09-22T11:13:25.000+02:00",
+      "authorName": "Greg Kroah-Hartman",
+      "committerName": "David Hildenbrand (Arm)",
+      "subject": "mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()",
+      "subsystem": "mm/gup",
+      "assistedBy": [
+        {
+          "raw": "gkh_clanker_t1000",
+          "identity": "gkh_clanker_t1000",
+          "agent": "gkh_clanker_t1000",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "5bf1bb010712bba28eda926ed453db3cab91381a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/5bf1bb010712bba28eda926ed453db3cab91381a",
       "authoredAt": "2026-09-21T11:15:55.000+02:00",
@@ -10118,6 +10262,258 @@
       "committerName": "Johannes Berg",
       "subject": "wifi: mac80211: validate TX status rate metadata",
       "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "b26c65bedbff4012fcaf9e2aa47281fd9aed0ec3",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b26c65bedbff4012fcaf9e2aa47281fd9aed0ec3",
+      "authoredAt": "2026-09-20T22:28:13.000-04:00",
+      "committedAt": "2026-10-08T22:55:18.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "mm/page-flags: remove PG_private",
+      "subsystem": "mm/page-flags",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "bbe5d3b3d4020d2696718da5cf19121c77f66a44",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bbe5d3b3d4020d2696718da5cf19121c77f66a44",
+      "authoredAt": "2026-09-20T22:28:12.000-04:00",
+      "committedAt": "2026-10-08T22:55:18.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "treewide: remove PagePrivate() and PG_private from comments and docs",
+      "subsystem": "treewide",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "6d1a85b3067290c54f32782a21e660fa58876f0b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6d1a85b3067290c54f32782a21e660fa58876f0b",
+      "authoredAt": "2026-09-20T22:28:08.000-04:00",
+      "committedAt": "2026-10-08T22:55:17.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "ceph: replace PagePrivate() with page_private()",
+      "subsystem": "ceph",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "abf8efadeb21b741cbd0cc13d57b8f0a207df10d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/abf8efadeb21b741cbd0cc13d57b8f0a207df10d",
+      "authoredAt": "2026-09-20T22:28:07.000-04:00",
+      "committedAt": "2026-10-08T22:55:16.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "treewide: remove folio_set/clear_private() usage",
+      "subsystem": "treewide",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "e01f7ddcb18a32cd2fca3806a45b86751efc08ff",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e01f7ddcb18a32cd2fca3806a45b86751efc08ff",
+      "authoredAt": "2026-09-20T22:28:06.000-04:00",
+      "committedAt": "2026-10-08T22:55:16.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "mm/page-flags: check page/folio->private instead of PG_private",
+      "subsystem": "mm/page-flags",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "96fd9017e3807e158ace3af4eb255c58f52724cf",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/96fd9017e3807e158ace3af4eb255c58f52724cf",
+      "authoredAt": "2026-09-20T22:28:05.000-04:00",
+      "committedAt": "2026-10-08T22:55:16.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "erofs: use folio_attach/detach_private() instead of direct assignment",
+      "subsystem": "erofs",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ffbdf157ec6a9b43a1b776e0f8481517dec65c9c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ffbdf157ec6a9b43a1b776e0f8481517dec65c9c",
+      "authoredAt": "2026-09-20T22:28:04.000-04:00",
+      "committedAt": "2026-10-08T22:55:15.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "erofs: mm/pagemap: add readahead_folio_last() to avoid folio->private",
+      "subsystem": "erofs",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "7e907079f9a9220448d1c29f8da69dac139b26a1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7e907079f9a9220448d1c29f8da69dac139b26a1",
+      "authoredAt": "2026-09-20T22:28:03.000-04:00",
+      "committedAt": "2026-10-08T22:55:15.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "f2fs: convert the ->private flag helpers to folio-only",
+      "subsystem": "f2fs",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "b2c1a445f87a553f04ccaefd4e700c7e404a70e5",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b2c1a445f87a553f04ccaefd4e700c7e404a70e5",
+      "authoredAt": "2026-09-20T22:28:02.000-04:00",
+      "committedAt": "2026-10-08T22:55:15.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "f2fs: stop using PG_private",
+      "subsystem": "f2fs",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "36c9ce320c3cf0f415d11c173900c30db0ac883d",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/36c9ce320c3cf0f415d11c173900c30db0ac883d",
+      "authoredAt": "2026-09-20T22:28:01.000-04:00",
+      "committedAt": "2026-10-08T22:55:15.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "mm/hugetlb: use direct assignment instead of folio_change_private()",
+      "subsystem": "mm/hugetlb",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "70b4a9cc27f7140e14e73f61c2a053ffc18c4218",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/70b4a9cc27f7140e14e73f61c2a053ffc18c4218",
+      "authoredAt": "2026-09-20T22:28:00.000-04:00",
+      "committedAt": "2026-10-08T22:55:14.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "fscrypt: stop setting PG_private on bounce page",
+      "subsystem": "fscrypt",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "6eecb67b69af634bbf27279dbef497580d20f9dd",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6eecb67b69af634bbf27279dbef497580d20f9dd",
+      "authoredAt": "2026-09-20T22:27:59.000-04:00",
+      "committedAt": "2026-10-08T22:55:14.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "xen/grant-table: stop setting PG_private on pages for grant mapping",
+      "subsystem": "xen/grant-table",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "a0319334a9cc22d408007b444305394d20a553de",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a0319334a9cc22d408007b444305394d20a553de",
+      "authoredAt": "2026-09-20T22:27:58.000-04:00",
+      "committedAt": "2026-10-08T22:55:14.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "perf/ring_buffer: stop using PG_private as AUX page high-order marker",
+      "subsystem": "perf/ring_buffer",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "c315da11e3272d5026b613b933a48016f3af3a18",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c315da11e3272d5026b613b933a48016f3af3a18",
+      "authoredAt": "2026-09-20T22:27:57.000-04:00",
+      "committedAt": "2026-10-08T22:55:14.000-07:00",
+      "authorName": "Zi Yan",
+      "committerName": "Andrew Morton",
+      "subject": "mm/zsmalloc: replace PG_private with pointer comparison",
+      "subsystem": "mm/zsmalloc",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -10452,6 +10848,24 @@
       ]
     },
     {
+      "sha": "238dfe02fb0a9f72d7fd275d74ce80f13923ef31",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/238dfe02fb0a9f72d7fd275d74ce80f13923ef31",
+      "authoredAt": "2026-09-20T02:51:10.000+08:00",
+      "committedAt": "2026-09-25T13:59:36.000+02:00",
+      "authorName": "Yibo Tan",
+      "committerName": "Joel Granados",
+      "subject": "sysctl: unregister tables before freeing bitmap",
+      "subsystem": "sysctl",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "270437f3fe62516f16482742a7762a075e7a9457",
       "htmlUrl": "https://github.com/torvalds/linux/commit/270437f3fe62516f16482742a7762a075e7a9457",
       "authoredAt": "2026-09-19T19:11:00.000+02:00",
@@ -10610,6 +11024,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "cbb0045eb8d7069c422180e66e15cea7268d9785",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/cbb0045eb8d7069c422180e66e15cea7268d9785",
+      "authoredAt": "2026-09-19T13:43:11.000+03:00",
+      "committedAt": "2026-10-12T21:26:32.000-07:00",
+      "authorName": "Mike Rapoport (Microsoft)",
+      "committerName": "Andrew Morton",
+      "subject": "docs/mm: describe set_memory() and set_direct_map() APIs",
+      "subsystem": "docs/mm",
+      "assistedBy": [
+        {
+          "raw": "copilot:claude-opus",
+          "identity": "copilot:claude-opus",
+          "agent": "copilot",
+          "model": "claude-opus"
         }
       ]
     },
@@ -10784,6 +11216,348 @@
       "committerName": "Nathan Chancellor",
       "subject": "kconfig: Add \"def_string\", \"def_int\" and \"def_hex\"",
       "subsystem": "kconfig",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9640bb559a5df1931252b777760d334ffa00914e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9640bb559a5df1931252b777760d334ffa00914e",
+      "authoredAt": "2026-09-19T01:24:49.000+01:00",
+      "committedAt": "2026-10-12T21:26:37.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: zap whole PTE tables in the khugepaged race harness",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ddf1adcf35f4f3bf32502ee1cd8c15cd6c7dae1b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ddf1adcf35f4f3bf32502ee1cd8c15cd6c7dae1b",
+      "authoredAt": "2026-09-19T01:24:48.000+01:00",
+      "committedAt": "2026-10-12T21:26:37.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: add memory-pressure threads to the khugepaged race harness",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "86e45ac4ea9f63cfe3aab167492e50c612231baa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/86e45ac4ea9f63cfe3aab167492e50c612231baa",
+      "authoredAt": "2026-09-19T01:24:47.000+01:00",
+      "committedAt": "2026-10-12T21:26:36.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: race the collapse of windows with holes",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "66c37446443889131133d5bc2870e9da8cc1360e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/66c37446443889131133d5bc2870e9da8cc1360e",
+      "authoredAt": "2026-09-19T01:24:46.000+01:00",
+      "committedAt": "2026-10-12T21:26:36.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: add khugepaged race harness",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "4e316c12768b7237e2f4e11864ac0b93d120d2b4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4e316c12768b7237e2f4e11864ac0b93d120d2b4",
+      "authoredAt": "2026-09-19T01:24:45.000+01:00",
+      "committedAt": "2026-10-12T21:26:36.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: check that one khugepaged pass collapses one window",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "e5d767fe33c1666860bcdef5f5c5c6183bc4a718",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e5d767fe33c1666860bcdef5f5c5c6183bc4a718",
+      "authoredAt": "2026-09-19T01:24:44.000+01:00",
+      "committedAt": "2026-10-12T21:26:36.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: run every supported collapse order by default",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "e1fe35d6c8474a0d1c9291f8425f0b008d48cb16",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e1fe35d6c8474a0d1c9291f8425f0b008d48cb16",
+      "authoredAt": "2026-09-19T01:24:43.000+01:00",
+      "committedAt": "2026-10-12T21:26:35.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: cover a shared-source collapse write race",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "d2a9d28f53852b16f0e9a99a6855a4e4bf12cb4e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d2a9d28f53852b16f0e9a99a6855a4e4bf12cb4e",
+      "authoredAt": "2026-09-19T01:24:42.000+01:00",
+      "committedAt": "2026-10-12T21:26:35.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: parameterize the mixed-source collapse case by source order",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "6e9ed3d8fdd4325ea8367d44e160eeea021d6a36",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6e9ed3d8fdd4325ea8367d44e160eeea021d6a36",
+      "authoredAt": "2026-09-19T01:24:41.000+01:00",
+      "committedAt": "2026-10-12T21:26:35.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: add order-parameterized khugepaged collapse cases",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "b79d51e92e5f480b0d91ca272b4081493563699a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b79d51e92e5f480b0d91ca272b4081493563699a",
+      "authoredAt": "2026-09-19T01:24:40.000+01:00",
+      "committedAt": "2026-10-12T21:26:35.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: add khugepaged completion barrier helper",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9912e3d928a738eafe528a5de631ec1931053030",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9912e3d928a738eafe528a5de631ec1931053030",
+      "authoredAt": "2026-09-19T01:24:39.000+01:00",
+      "committedAt": "2026-10-12T21:26:34.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: add folio-order detection self-check",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "1649257f27ab7239937109fa10a1efd16c3ee374",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1649257f27ab7239937109fa10a1efd16c3ee374",
+      "authoredAt": "2026-09-19T01:24:38.000+01:00",
+      "committedAt": "2026-10-12T21:26:34.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: add folio-order check for address ranges",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "22206a92859e8f002c6d2a64ff375f2de2e2b0f9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/22206a92859e8f002c6d2a64ff375f2de2e2b0f9",
+      "authoredAt": "2026-09-19T01:24:37.000+01:00",
+      "committedAt": "2026-10-12T21:26:34.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: move is_backed_by_folio() into vm_util",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "7af29a132253ee847d140ee35d79f9e556e821f2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7af29a132253ee847d140ee35d79f9e556e821f2",
+      "authoredAt": "2026-09-19T01:24:36.000+01:00",
+      "committedAt": "2026-10-12T21:26:34.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: stop khugepaged during the MADV_COLLAPSE cases",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "1648a3366defe50730ba73941508c2fd92140d33",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1648a3366defe50730ba73941508c2fd92140d33",
+      "authoredAt": "2026-09-19T01:24:35.000+01:00",
+      "committedAt": "2026-10-12T21:26:33.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: make the swap cases' swapout reliable",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ceffb8ff832ed5ea7d81b5ec7794399bccb5b955",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ceffb8ff832ed5ea7d81b5ec7794399bccb5b955",
+      "authoredAt": "2026-09-19T01:24:34.000+01:00",
+      "committedAt": "2026-10-12T21:26:33.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: skip khugepaged page cache cases without a PMD folio",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "e8e83ce6f4a271f733e0bca6440070aed8056a49",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e8e83ce6f4a271f733e0bca6440070aed8056a49",
+      "authoredAt": "2026-09-19T01:24:33.000+01:00",
+      "committedAt": "2026-10-12T21:26:33.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: scale khugepaged's collapse wait with the PMD size",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "b36bec6a01b1e1d8d5827ad3237a0bd1d4e2cca2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b36bec6a01b1e1d8d5827ad3237a0bd1d4e2cca2",
+      "authoredAt": "2026-09-19T01:24:32.000+01:00",
+      "committedAt": "2026-10-12T21:26:33.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: skip collapse_compound_extreme() where the PMD is too large",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "59e24520b8f13ca6a42efb297c3403cd5b56c0b8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/59e24520b8f13ca6a42efb297c3403cd5b56c0b8",
+      "authoredAt": "2026-09-19T01:24:31.000+01:00",
+      "committedAt": "2026-10-12T21:26:32.000-07:00",
+      "authorName": "Kiryl Shutsemau (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: raise the khugepaged test-case cap",
+      "subsystem": "selftests/mm",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -11070,6 +11844,42 @@
       ]
     },
     {
+      "sha": "3a5f742b44c390be80886b89aa2ae42a9c1f08ee",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/3a5f742b44c390be80886b89aa2ae42a9c1f08ee",
+      "authoredAt": "2026-09-17T20:12:03.000-04:00",
+      "committedAt": "2026-10-06T17:39:06.000-07:00",
+      "authorName": "Gregory Price",
+      "committerName": "Andrew Morton",
+      "subject": "mm/mempolicy: stop copying the nodemask in the interleave paths",
+      "subsystem": "mm/mempolicy",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "0c92f74c4e280dae833d131d5263d18d7f021d05",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0c92f74c4e280dae833d131d5263d18d7f021d05",
+      "authoredAt": "2026-09-17T20:12:02.000-04:00",
+      "committedAt": "2026-10-06T17:39:06.000-07:00",
+      "authorName": "Gregory Price",
+      "committerName": "Andrew Morton",
+      "subject": "mm/mempolicy: use SRCU for the weighted interleave state",
+      "subsystem": "mm/mempolicy",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "015fb29a748342a186f37b602ac70017098c8251",
       "htmlUrl": "https://github.com/torvalds/linux/commit/015fb29a748342a186f37b602ac70017098c8251",
       "authoredAt": "2026-09-18T00:07:31.000Z",
@@ -11222,6 +12032,24 @@
       "committerName": "Heiko Carstens",
       "subject": "s390/keyboard: Allocate key_maps and func_table with ARRAY_SIZE()",
       "subsystem": "s390/keyboard",
+      "assistedBy": [
+        {
+          "raw": "LLM coccinelle",
+          "identity": "LLM coccinelle",
+          "agent": "LLM coccinelle",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "37002f9eb9bc4132022d6c0b3548f132299b87c0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/37002f9eb9bc4132022d6c0b3548f132299b87c0",
+      "authoredAt": "2026-09-17T14:12:30.000-07:00",
+      "committedAt": "2026-09-21T13:36:23.000+02:00",
+      "authorName": "Kees Cook",
+      "committerName": "Petr Pavlu",
+      "subject": "modules/kmod: Allocate argv with kmalloc_array()",
+      "subsystem": "modules/kmod",
       "assistedBy": [
         {
           "raw": "LLM coccinelle",
@@ -13602,6 +14430,24 @@
       ]
     },
     {
+      "sha": "b59925301211ccc351d98d70b11f6d1b2c63150f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b59925301211ccc351d98d70b11f6d1b2c63150f",
+      "authoredAt": "2026-09-15T19:37:27.000+03:00",
+      "committedAt": "2026-10-12T21:26:13.000-07:00",
+      "authorName": "Dan Carpenter",
+      "committerName": "Andrew Morton",
+      "subject": "mm/hmm/test: reject overflowing page counts",
+      "subsystem": "mm/hmm/test",
+      "assistedBy": [
+        {
+          "raw": "ChatGPT:gpt-5",
+          "identity": "ChatGPT:gpt-5",
+          "agent": "ChatGPT",
+          "model": "gpt-5"
+        }
+      ]
+    },
+    {
       "sha": "b38af5386a74416e898955443f2e26547b358cb2",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b38af5386a74416e898955443f2e26547b358cb2",
       "authoredAt": "2026-09-15T22:44:57.000+08:00",
@@ -14160,6 +15006,24 @@
       ]
     },
     {
+      "sha": "adbb0adb434d55bd02b18c8de6356f954a077c79",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/adbb0adb434d55bd02b18c8de6356f954a077c79",
+      "authoredAt": "2026-09-14T21:36:39.000+01:00",
+      "committedAt": "2026-10-12T21:26:13.000-07:00",
+      "authorName": "Harry Yoo (Meta)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/cgroup: ignore memory.reclaim -EAGAIN for zswap writeback test",
+      "subsystem": "selftests/cgroup",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "11a51e82e1f997975a28358a1dcffec190ea7282",
       "htmlUrl": "https://github.com/torvalds/linux/commit/11a51e82e1f997975a28358a1dcffec190ea7282",
       "authoredAt": "2026-09-14T21:09:42.000+02:00",
@@ -14214,6 +15078,24 @@
       ]
     },
     {
+      "sha": "65c7e923ed1afa7329f8b910327ebf6ae10a5fb6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/65c7e923ed1afa7329f8b910327ebf6ae10a5fb6",
+      "authoredAt": "2026-09-14T07:19:46.000-07:00",
+      "committedAt": "2026-10-12T21:26:09.000-07:00",
+      "authorName": "Zenghui Yu (Huawei)",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/damon: stop kdamond on error exits of no-op commit test",
+      "subsystem": "selftests/damon",
+      "assistedBy": [
+        {
+          "raw": "GLM-5.3 OpenCode",
+          "identity": "GLM-5.3 OpenCode",
+          "agent": "GLM-5.3 OpenCode",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "ec27f3b700010d2ebae1cde2df0246197689d159",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ec27f3b700010d2ebae1cde2df0246197689d159",
       "authoredAt": "2026-09-14T14:09:00.000Z",
@@ -14246,6 +15128,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ccb5bf46e31cef31d0ed1957b1fd3dbf8c774243",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ccb5bf46e31cef31d0ed1957b1fd3dbf8c774243",
+      "authoredAt": "2026-09-14T14:40:19.000+02:00",
+      "committedAt": "2026-09-23T15:22:55.000+02:00",
+      "authorName": "Joel Granados",
+      "committerName": "Joel Granados",
+      "subject": "sysctl: Rewrite selftests on top of KTAP helpers",
+      "subsystem": "sysctl",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5",
+          "identity": "Claude:claude-opus-5",
+          "agent": "Claude",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -14718,6 +15618,24 @@
       ]
     },
     {
+      "sha": "6593a15af1081a1ea79fe3a70c4da183cc1ef165",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/6593a15af1081a1ea79fe3a70c4da183cc1ef165",
+      "authoredAt": "2026-09-12T22:29:03.000+02:00",
+      "committedAt": "2026-10-08T22:55:11.000-07:00",
+      "authorName": "Jaeyeon Lee",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: skip khugepaged file tests if mkfs.xfs is unavailable",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "76a986c980bb502c7688d605ac7a67fd257a9a1b",
       "htmlUrl": "https://github.com/torvalds/linux/commit/76a986c980bb502c7688d605ac7a67fd257a9a1b",
       "authoredAt": "2026-09-12T13:05:30.000-07:00",
@@ -14852,6 +15770,78 @@
       "committerName": "Johannes Berg",
       "subject": "wifi: wfx: validate MIB read length before copying to caller",
       "subsystem": "wifi",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "d350956d829f4b620faf294c86116de640f1518c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d350956d829f4b620faf294c86116de640f1518c",
+      "authoredAt": "2026-09-12T08:28:22.000-04:00",
+      "committedAt": "2026-10-12T21:26:11.000-07:00",
+      "authorName": "Gregory Price",
+      "committerName": "Andrew Morton",
+      "subject": "proc/task_mmu: handle special PMDs in clear_refs and pagemap",
+      "subsystem": "proc/task_mmu",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "43f046860e81d0a6244a5d91a585289e512f6eef",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/43f046860e81d0a6244a5d91a585289e512f6eef",
+      "authoredAt": "2026-09-12T13:48:59.000+02:00",
+      "committedAt": "2026-10-12T21:26:12.000-07:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Andrew Morton",
+      "subject": "mm/secretmem: fix the enable parameter description",
+      "subsystem": "mm/secretmem",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "5445a6359d717354dd76d509b8e693f13403ec61",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5445a6359d717354dd76d509b8e693f13403ec61",
+      "authoredAt": "2026-09-12T07:08:32.000-04:00",
+      "committedAt": "2026-10-12T21:26:12.000-07:00",
+      "authorName": "Gregory Price",
+      "committerName": "Andrew Morton",
+      "subject": "mm/madvise: reclaim isolated folios if PTE restart fails",
+      "subsystem": "mm/madvise",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "5a6c9cf117fca3c38a98fb2a2d5549795c8b0b73",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5a6c9cf117fca3c38a98fb2a2d5549795c8b0b73",
+      "authoredAt": "2026-09-12T07:05:40.000-04:00",
+      "committedAt": "2026-10-12T21:26:17.000-07:00",
+      "authorName": "Gregory Price",
+      "committerName": "Andrew Morton",
+      "subject": "mm/madvise: use folio_trylock() in the cold/pageout PMD split",
+      "subsystem": "mm/madvise",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -15672,6 +16662,42 @@
       ]
     },
     {
+      "sha": "0bbe9b917d965d2deafdcda8569268fb5beb0d28",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/0bbe9b917d965d2deafdcda8569268fb5beb0d28",
+      "authoredAt": "2026-09-10T20:56:45.000+08:00",
+      "committedAt": "2026-10-08T22:54:56.000-07:00",
+      "authorName": "Tianyi Chen",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: only prepare ptrace_scope when memfd_secret is selected",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "4844f5b84a8efdb030e5810ab7c0c838a4907c16",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/4844f5b84a8efdb030e5810ab7c0c838a4907c16",
+      "authoredAt": "2026-09-10T20:56:44.000+08:00",
+      "committedAt": "2026-10-08T22:54:56.000-07:00",
+      "authorName": "Tianyi Chen",
+      "committerName": "Andrew Morton",
+      "subject": "selftests/mm: reject invalid test selections before running tests",
+      "subsystem": "selftests/mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "85de8b3a5eaa23d153aff4c7c83dddbc949064c9",
       "htmlUrl": "https://github.com/torvalds/linux/commit/85de8b3a5eaa23d153aff4c7c83dddbc949064c9",
       "authoredAt": "2026-09-10T17:24:05.000+08:00",
@@ -15889,6 +16915,24 @@
           "raw": "LOLLM # finding obvious bugs",
           "identity": "LOLLM # finding obvious bugs",
           "agent": "LOLLM # finding obvious bugs",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ae0298a5fbeff32951c0d31398ccec97ec6aa0ea",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ae0298a5fbeff32951c0d31398ccec97ec6aa0ea",
+      "authoredAt": "2026-09-10T11:42:50.000+08:00",
+      "committedAt": "2026-10-08T22:54:39.000-07:00",
+      "authorName": "Luxiao Xu",
+      "committerName": "Andrew Morton",
+      "subject": "mm/memory: constrain generic_access_phys() to page boundary",
+      "subsystem": "mm/memory",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
           "model": ""
         }
       ]
@@ -16892,1074 +17936,6 @@
           "identity": "Kiro:claude-opus-4.6",
           "agent": "Kiro",
           "model": "claude-opus-4.6"
-        }
-      ]
-    },
-    {
-      "sha": "8ea81827d3537db7cfcc82c008f052bb1bbe7567",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8ea81827d3537db7cfcc82c008f052bb1bbe7567",
-      "authoredAt": "2026-09-08T16:41:55.000+02:00",
-      "committedAt": "2026-09-14T15:45:03.000+02:00",
-      "authorName": "Julius Bairaktaris",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: don't reset the TXQ scheduling round number",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5",
-          "identity": "Claude:claude-opus-5",
-          "agent": "Claude",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "7284788743121ec8bed556b00f830dc52ad9955d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7284788743121ec8bed556b00f830dc52ad9955d",
-      "authoredAt": "2026-09-08T22:41:53.000+09:00",
-      "committedAt": "2026-09-08T16:23:16.000+02:00",
-      "authorName": "HyeongJun An",
-      "committerName": "Takashi Iwai",
-      "subject": "ALSA: hda: Report a change when only the channel status bytes move",
-      "subsystem": "alsa",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-5",
-          "identity": "Claude:claude-opus-5",
-          "agent": "Claude",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "479b0776f7802dca9e036d8944ad29d02dc695c0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/479b0776f7802dca9e036d8944ad29d02dc695c0",
-      "authoredAt": "2026-09-08T19:04:21.000+05:30",
-      "committedAt": "2026-10-14T14:38:11.000-04:00",
-      "authorName": "Kiran K",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: btintel_pcie: cap device debug regions at 1 MB",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Copilot:claude-opus-4.7",
-          "identity": "Copilot:claude-opus-4.7",
-          "agent": "Copilot",
-          "model": "claude-opus-4.7"
-        }
-      ]
-    },
-    {
-      "sha": "50d3d79dc0743b616afb00d01a626c76758721f7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/50d3d79dc0743b616afb00d01a626c76758721f7",
-      "authoredAt": "2026-09-08T14:28:21.000+02:00",
-      "committedAt": "2026-09-09T14:51:31.000+02:00",
-      "authorName": "Johannes Berg",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: set up the TX info early to fix failure paths",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "ae97fff6495a8764bc0ef281cfe5444f701e527f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ae97fff6495a8764bc0ef281cfe5444f701e527f",
-      "authoredAt": "2026-09-08T14:28:20.000+02:00",
-      "committedAt": "2026-09-09T14:51:31.000+02:00",
-      "authorName": "Johannes Berg",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: mesh: release the channel if start fails",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "860134b3af77970e006feab7e5decb8c84771c7f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/860134b3af77970e006feab7e5decb8c84771c7f",
-      "authoredAt": "2026-09-08T14:28:19.000+02:00",
-      "committedAt": "2026-09-09T14:51:31.000+02:00",
-      "authorName": "Johannes Berg",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: mesh: reset the CSA state when leaving",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "cd54bf333f5631d3630bab0a832e9ae648f73515",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cd54bf333f5631d3630bab0a832e9ae648f73515",
-      "authoredAt": "2026-09-08T14:28:18.000+02:00",
-      "committedAt": "2026-09-09T14:51:31.000+02:00",
-      "authorName": "Johannes Berg",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: add HE 6 GHz capability in the scan elems len",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "0b1de9feeb8651f7a3bb53ed7c9006e3b5298c01",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0b1de9feeb8651f7a3bb53ed7c9006e3b5298c01",
-      "authoredAt": "2026-09-08T14:28:17.000+02:00",
-      "committedAt": "2026-09-09T14:51:31.000+02:00",
-      "authorName": "Johannes Berg",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: don't access the TSF of a down interface",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "b481e64e4498e2c053d5954f546ee02338f6ab63",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b481e64e4498e2c053d5954f546ee02338f6ab63",
-      "authoredAt": "2026-09-08T14:28:16.000+02:00",
-      "committedAt": "2026-09-09T14:51:31.000+02:00",
-      "authorName": "Johannes Berg",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: don't RCU-dereference the mesh CSA settings we just set",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "370872d30349d81dec519e15ea2949fd63511cf7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/370872d30349d81dec519e15ea2949fd63511cf7",
-      "authoredAt": "2026-09-08T14:28:15.000+02:00",
-      "committedAt": "2026-09-09T14:51:30.000+02:00",
-      "authorName": "Johannes Berg",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: don't allow link changes when iface is down",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "038e1d126304fd25d507fd4e671232df57bd1799",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/038e1d126304fd25d507fd4e671232df57bd1799",
-      "authoredAt": "2026-09-08T14:28:14.000+02:00",
-      "committedAt": "2026-09-09T14:51:30.000+02:00",
-      "authorName": "Johannes Berg",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: require a peer station for TDLS setup confirm",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "4504f3960dc4501c73be9f99eabda2e26e9db41e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4504f3960dc4501c73be9f99eabda2e26e9db41e",
-      "authoredAt": "2026-09-08T14:28:13.000+02:00",
-      "committedAt": "2026-09-09T14:51:30.000+02:00",
-      "authorName": "Johannes Berg",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: reset the AP_VLAN tailroom counter on ifdown",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "e14bf37bb2b3853012ff160131d1c6233f7a9cc9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e14bf37bb2b3853012ff160131d1c6233f7a9cc9",
-      "authoredAt": "2026-09-08T14:28:12.000+02:00",
-      "committedAt": "2026-09-09T14:51:30.000+02:00",
-      "authorName": "Johannes Berg",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: don't allow injecting frames wider than the chanctx",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "b74aad23d99b279bb34d135795f39a6d8ecdc075",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/b74aad23d99b279bb34d135795f39a6d8ecdc075",
-      "authoredAt": "2026-09-08T20:13:23.000+08:00",
-      "committedAt": "2026-09-20T20:48:47.000+03:00",
-      "authorName": "Peiyang He",
-      "committerName": "Dmitry Osipenko",
-      "subject": "drm/virtio: fix memory leak of fence event on execbuffer failure",
-      "subsystem": "drm/virtio",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6-luna",
-          "identity": "Codex:gpt-5.6-luna",
-          "agent": "Codex",
-          "model": "gpt-5.6-luna"
-        }
-      ]
-    },
-    {
-      "sha": "e0554c6276da957b6e72849520c70a97404cd1ae",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e0554c6276da957b6e72849520c70a97404cd1ae",
-      "authoredAt": "2026-09-08T12:35:23.000+02:00",
-      "committedAt": "2026-09-08T12:35:24.000+02:00",
-      "authorName": "Paolo Abeni",
-      "committerName": "Paolo Abeni",
-      "subject": "Merge branch 'net-ethernet-cortina-fix-rx-budget-accounting'",
-      "subsystem": "misc",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "4b837ebd0ea21ae5cc26f02dc042edc6fe7b46b9",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4b837ebd0ea21ae5cc26f02dc042edc6fe7b46b9",
-      "authoredAt": "2026-09-08T15:26:58.000+05:30",
-      "committedAt": "2026-09-15T14:49:34.000-04:00",
-      "authorName": "Chandrashekar Devegowda",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: btintel_pcie: validate TX skb length in send_sync",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "Copilot:claude-sonnet-5 code-review code-generation",
-          "identity": "Copilot:claude-sonnet-5 code-review code-generation",
-          "agent": "Copilot",
-          "model": "claude-sonnet-5 code-review code-generation"
-        }
-      ]
-    },
-    {
-      "sha": "952a5d152fe2ecb994b9acc22f984cc23d6aed14",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/952a5d152fe2ecb994b9acc22f984cc23d6aed14",
-      "authoredAt": "2026-09-08T17:37:58.000+08:00",
-      "committedAt": "2026-09-29T11:54:40.000+08:00",
-      "authorName": "Jeff Chen",
-      "committerName": "Jeff Chen",
-      "subject": "wifi: nxpwifi: Limit channel width based on firmware capability",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "de488b65b9120dad3a363858a0ab5beacc88752d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/de488b65b9120dad3a363858a0ab5beacc88752d",
-      "authoredAt": "2026-09-08T17:37:57.000+08:00",
-      "committedAt": "2026-09-29T11:54:40.000+08:00",
-      "authorName": "Jeff Chen",
-      "committerName": "Jeff Chen",
-      "subject": "wifi: nxpwifi: Add support for SDIO-based IW610",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "9ff797e516dbc1ecb73701ec4c24055712d44411",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9ff797e516dbc1ecb73701ec4c24055712d44411",
-      "authoredAt": "2026-09-08T08:55:20.000Z",
-      "committedAt": "2026-09-10T11:15:46.000-04:00",
-      "authorName": "Jérémy Jean",
-      "committerName": "Leon Romanovsky",
-      "subject": "RDMA/siw: Bound fragmented header copies by the remaining length",
-      "subsystem": "rdma/siw",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-6",
-          "identity": "Codex:gpt-6",
-          "agent": "Codex",
-          "model": "gpt-6"
-        }
-      ]
-    },
-    {
-      "sha": "2b50adefed9808a56d84d1de803cad882cc787fa",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2b50adefed9808a56d84d1de803cad882cc787fa",
-      "authoredAt": "2026-09-08T10:01:08.000+02:00",
-      "committedAt": "2026-09-15T14:26:10.000-04:00",
-      "authorName": "Nicolas Thibert",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: btusb: fix NXP IW610 composite device handling",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "LLM (Claude Sonnet 5, Anthropic)",
-          "identity": "LLM (Claude Sonnet 5, Anthropic)",
-          "agent": "LLM (Claude Sonnet 5, Anthropic)",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "63b269ec537dc0fd26d0bd64872c26860d108c9d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/63b269ec537dc0fd26d0bd64872c26860d108c9d",
-      "authoredAt": "2026-09-08T06:02:15.000Z",
-      "committedAt": "2026-09-10T14:39:54.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: typec: ucsi: glink: fix use-after-free of ucsi on remove",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6",
-          "identity": "Codex:gpt-5.6",
-          "agent": "Codex",
-          "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "20388c8d1d74c203fec8194c45cd31afdfab934e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/20388c8d1d74c203fec8194c45cd31afdfab934e",
-      "authoredAt": "2026-09-08T04:17:39.000Z",
-      "committedAt": "2026-10-01T07:09:34.000+02:00",
-      "authorName": "Fan Wu",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: gadget: aspeed-vhub: cancel wake work on device removal",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6",
-          "identity": "Codex:gpt-5.6",
-          "agent": "Codex",
-          "model": "gpt-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "229e8188307b9724cc676a49e9600c4acd24b571",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/229e8188307b9724cc676a49e9600c4acd24b571",
-      "authoredAt": "2026-09-08T05:41:00.000+09:00",
-      "committedAt": "2026-09-13T11:41:58.000+09:00",
-      "authorName": "Zhu Tianhao",
-      "committerName": "Namjae Jeon",
-      "subject": "ntfs: fix $MFTMirr write offset when it spans multiple folios",
-      "subsystem": "ntfs",
-      "assistedBy": [
-        {
-          "raw": "UOS-AI",
-          "identity": "UOS-AI",
-          "agent": "UOS-AI",
-          "model": ""
-        },
-        {
-          "raw": "CodeBuddy:Hy4 preview",
-          "identity": "CodeBuddy:Hy4 preview",
-          "agent": "CodeBuddy",
-          "model": "Hy4 preview"
-        }
-      ]
-    },
-    {
-      "sha": "cf7ded644ed72747748b62dd7eda7e67c2d1b547",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cf7ded644ed72747748b62dd7eda7e67c2d1b547",
-      "authoredAt": "2026-09-07T16:20:01.000-04:00",
-      "committedAt": "2026-10-12T19:16:21.000+02:00",
-      "authorName": "Tal Zussman",
-      "committerName": "David Sterba",
-      "subject": "btrfs: use folios for reading super blocks from the block device",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5-1",
-          "identity": "Claude:claude-fable-5-1",
-          "agent": "Claude",
-          "model": "claude-fable-5-1"
-        }
-      ]
-    },
-    {
-      "sha": "768906912413ca1acbc0144a4863bbda4efc49c7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/768906912413ca1acbc0144a4863bbda4efc49c7",
-      "authoredAt": "2026-09-07T16:19:57.000-04:00",
-      "committedAt": "2026-10-12T19:16:20.000+02:00",
-      "authorName": "Tal Zussman",
-      "committerName": "David Sterba",
-      "subject": "btrfs: tests: use eb folio helpers in extent buffer memory checks",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-fable-5-1",
-          "identity": "Claude:claude-fable-5-1",
-          "agent": "Claude",
-          "model": "claude-fable-5-1"
-        }
-      ]
-    },
-    {
-      "sha": "d4f25b097e46d82718bb737d4540c99b7ab0a408",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d4f25b097e46d82718bb737d4540c99b7ab0a408",
-      "authoredAt": "2026-09-07T21:07:50.000+02:00",
-      "committedAt": "2026-10-07T20:25:09.000-06:00",
-      "authorName": "Karl Mehltretter",
-      "committerName": "Paul Walmsley",
-      "subject": "riscv: fix load_unaligned_zeropad() fixup for RV32",
-      "subsystem": "riscv",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "f3c2b266b8fd7cf816d36168d19f67e716f2c080",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f3c2b266b8fd7cf816d36168d19f67e716f2c080",
-      "authoredAt": "2026-09-07T11:47:19.000-07:00",
-      "committedAt": "2026-09-11T18:30:29.000+02:00",
-      "authorName": "Berke Durak",
-      "committerName": "Jiri Kosina",
-      "subject": "HID: elecom: Add support for ELECOM M-XT4DRBK (018E)",
-      "subsystem": "hid",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "98d00deb6ae4a83f567444215302ab7b101ed439",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/98d00deb6ae4a83f567444215302ab7b101ed439",
-      "authoredAt": "2026-09-07T20:30:41.000+02:00",
-      "committedAt": "2026-09-16T19:17:57.000+01:00",
-      "authorName": "Igor Paunovic",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "usb: typec: tcpm: fix use-after-free of the kthread worker on port unregister",
-      "subsystem": "usb",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "8c37fb7f67ce914de53ff367d71145e6e55dac52",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8c37fb7f67ce914de53ff367d71145e6e55dac52",
-      "authoredAt": "2026-09-07T17:11:46.000+05:30",
-      "committedAt": "2026-09-23T18:18:35.000+01:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Catalin Marinas",
-      "subject": "docs: arm64: Fix typo \"initalised\" in booting.rst",
-      "subsystem": "docs",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "ff87968e4e564acb2fadce363b1b41e7fa3aad2f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ff87968e4e564acb2fadce363b1b41e7fa3aad2f",
-      "authoredAt": "2026-09-07T13:37:37.000+03:00",
-      "committedAt": "2026-09-17T10:41:03.000-07:00",
-      "authorName": "Erkan Erdem",
-      "committerName": "Nathan Chancellor",
-      "subject": "docs: kconfig: fix shell function syntax in caveats",
-      "subsystem": "docs",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "883e78c9e6007c91be96e99a36c35baf41bc8ed5",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/883e78c9e6007c91be96e99a36c35baf41bc8ed5",
-      "authoredAt": "2026-09-07T10:36:45.000+01:00",
-      "committedAt": "2026-09-08T00:11:41.000+01:00",
-      "authorName": "Richard Fitzgerald",
-      "committerName": "Mark Brown",
-      "subject": "ASoC: cs35l56: Fix race between kexec and snd_soc_register_component()",
-      "subsystem": "asoc",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.6-sol",
-          "identity": "Codex:gpt-5.6-sol",
-          "agent": "Codex",
-          "model": "gpt-5.6-sol"
-        }
-      ]
-    },
-    {
-      "sha": "e75897e6cb8b900d095acf6fbff1ffb026c86c35",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e75897e6cb8b900d095acf6fbff1ffb026c86c35",
-      "authoredAt": "2026-09-07T09:00:39.000Z",
-      "committedAt": "2026-10-07T12:50:42.000+02:00",
-      "authorName": "Aamir Ahmed",
-      "committerName": "Felix Fietkau",
-      "subject": "wifi: mt76: mt7996: validate TLV length in mt7996_mcu_ie_countdown()",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Claude (Anthropic)",
-          "identity": "Claude (Anthropic)",
-          "agent": "Claude (Anthropic)",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "0999d3e16d13b6299fd7cc7a7fb2825c18e90dd0",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0999d3e16d13b6299fd7cc7a7fb2825c18e90dd0",
-      "authoredAt": "2026-09-07T12:26:07.000+05:30",
-      "committedAt": "2026-09-11T13:54:32.000-04:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Steven Rostedt",
-      "subject": "tracing: Fix typo \"preceeded\" in comment",
-      "subsystem": "tracing",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "726285316f8fd8965d360ea6546da9b2677e7c7c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/726285316f8fd8965d360ea6546da9b2677e7c7c",
-      "authoredAt": "2026-09-07T12:23:28.000+05:30",
-      "committedAt": "2026-09-07T21:47:51.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Thomas Gleixner",
-      "subject": "irqchip: Fix typos and repeated words in comments",
-      "subsystem": "irqchip",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "3e1de7f906ab162b23d6fe0eabccf687a98fa25f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3e1de7f906ab162b23d6fe0eabccf687a98fa25f",
-      "authoredAt": "2026-09-07T12:20:47.000+05:30",
-      "committedAt": "2026-09-10T07:58:12.000-04:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Leon Romanovsky",
-      "subject": "RDMA: fix repeated words in comments",
-      "subsystem": "rdma",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "ea42dc0936811290ac0a00475b8a37cc3379c096",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ea42dc0936811290ac0a00475b8a37cc3379c096",
-      "authoredAt": "2026-09-07T12:20:46.000+05:30",
-      "committedAt": "2026-09-10T07:58:12.000-04:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Leon Romanovsky",
-      "subject": "RDMA: fix typos in comments",
-      "subsystem": "rdma",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "97c50e21e4ddfc91185d548c29c33ba631acbdc8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/97c50e21e4ddfc91185d548c29c33ba631acbdc8",
-      "authoredAt": "2026-09-07T12:19:43.000+05:30",
-      "committedAt": "2026-09-08T07:11:39.000-10:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Tejun Heo",
-      "subject": "tools/sched_ext: Fix repeated word 'be' in comment",
-      "subsystem": "tools/sched_ext",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "117c658adb0fb9276966a86fd4c2ed112640a0ee",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/117c658adb0fb9276966a86fd4c2ed112640a0ee",
-      "authoredAt": "2026-09-07T12:19:42.000+05:30",
-      "committedAt": "2026-09-08T07:11:32.000-10:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Tejun Heo",
-      "subject": "sched_ext: Fix typo \"upto\" in comments",
-      "subsystem": "sched_ext",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "6d05845f5c77d7327376f3db26266958f4dfe74e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6d05845f5c77d7327376f3db26266958f4dfe74e",
-      "authoredAt": "2026-09-07T12:16:32.000+05:30",
-      "committedAt": "2026-09-14T11:20:04.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Ulf Hansson",
-      "subject": "mmc: fix typos in comments",
-      "subsystem": "mmc",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "1773727507edcf48f1a402dc35b77ae46a181df7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1773727507edcf48f1a402dc35b77ae46a181df7",
-      "authoredAt": "2026-09-07T12:13:46.000+05:30",
-      "committedAt": "2026-09-08T14:42:20.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Paolo Abeni",
-      "subject": "net: fix typos in comments",
-      "subsystem": "net",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "2f91fc9a96cdab6c03d436246056552e04677636",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2f91fc9a96cdab6c03d436246056552e04677636",
-      "authoredAt": "2026-09-07T12:08:56.000+05:30",
-      "committedAt": "2026-09-17T06:59:41.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Heiko Carstens",
-      "subject": "s390: Fix typos in comments",
-      "subsystem": "s390",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "2eaee974b5da25b55ae72cb6c649524410316ae8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2eaee974b5da25b55ae72cb6c649524410316ae8",
-      "authoredAt": "2026-09-07T12:06:22.000+05:30",
-      "committedAt": "2026-10-06T11:56:16.000-07:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Paul E. McKenney",
-      "subject": "rcu: Fix typo \"upto\" in comment",
-      "subsystem": "rcu",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "71d59fc2a5e357ac03bb2ee1522a7c1f8bd0c34f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/71d59fc2a5e357ac03bb2ee1522a7c1f8bd0c34f",
-      "authoredAt": "2026-09-07T12:05:31.000+05:30",
-      "committedAt": "2026-10-09T09:58:46.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Juergen Gross",
-      "subject": "xen: fix typos in comments",
-      "subsystem": "xen",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "9078ed9bc5b654bc093f73808814b4f824d8fd00",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9078ed9bc5b654bc093f73808814b4f824d8fd00",
-      "authoredAt": "2026-09-07T11:57:49.000+05:30",
-      "committedAt": "2026-09-24T16:45:53.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Johannes Berg",
-      "subject": "um: fix typo \"hander\" in comment",
-      "subsystem": "um",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "bdf16a4d74ae6b7fb6dc8953798ba0853ddc4705",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/bdf16a4d74ae6b7fb6dc8953798ba0853ddc4705",
-      "authoredAt": "2026-09-07T11:56:58.000+05:30",
-      "committedAt": "2026-09-07T10:03:42.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Uwe Kleine-König",
-      "subject": "pwm: Fix typos in comments",
-      "subsystem": "pwm",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "89b000ba0796593aa61f6eec24d369337594588b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/89b000ba0796593aa61f6eec24d369337594588b",
-      "authoredAt": "2026-09-07T11:56:08.000+05:30",
-      "committedAt": "2026-09-11T13:54:14.000-04:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Steven Rostedt",
-      "subject": "tracing: Fix typo \"availabe\" in comment",
-      "subsystem": "tracing",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "c59ddba036a4bc3c0f5705dd6b37c7889b191bcc",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c59ddba036a4bc3c0f5705dd6b37c7889b191bcc",
-      "authoredAt": "2026-09-07T11:54:27.000+05:30",
-      "committedAt": "2026-09-07T10:15:38.000-07:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Viacheslav Dubeyko",
-      "subject": "nilfs2: fix typos in comments",
-      "subsystem": "nilfs2",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "1298c43b673274920b26e77d3df55c18c3b82f90",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/1298c43b673274920b26e77d3df55c18c3b82f90",
-      "authoredAt": "2026-09-07T11:53:38.000+05:30",
-      "committedAt": "2026-09-08T07:11:24.000-10:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Tejun Heo",
-      "subject": "workqueue: Fix typo \"upto\" in comment",
-      "subsystem": "workqueue",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "d2bcd688b74857d4c12315a7426302c192671ec8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/d2bcd688b74857d4c12315a7426302c192671ec8",
-      "authoredAt": "2026-09-07T11:47:42.000+05:30",
-      "committedAt": "2026-10-05T09:10:45.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Bjorn Andersson",
-      "subject": "soc: qcom: fix typo \"upto\" in comment",
-      "subsystem": "soc",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "af0730a79096af88a8801740bf92795beb172ce4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/af0730a79096af88a8801740bf92795beb172ce4",
-      "authoredAt": "2026-09-07T11:47:41.000+05:30",
-      "committedAt": "2026-10-05T09:10:44.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Bjorn Andersson",
-      "subject": "firmware: qcom: fix typo \"uninterruptable\" in comment",
-      "subsystem": "firmware",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "f51306eaea241957fe9c17ff583317dd4788d492",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f51306eaea241957fe9c17ff583317dd4788d492",
-      "authoredAt": "2026-09-07T11:42:37.000+05:30",
-      "committedAt": "2026-09-21T13:53:49.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Ulf Hansson",
-      "subject": "pmdomain: fix typo \"releated\" in comment",
-      "subsystem": "pmdomain",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "4525a911049543c23885a540a788d13be318a486",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4525a911049543c23885a540a788d13be318a486",
-      "authoredAt": "2026-09-07T07:58:47.000+02:00",
-      "committedAt": "2026-09-17T06:59:41.000+02:00",
-      "authorName": "Karl Mehltretter",
-      "committerName": "Heiko Carstens",
-      "subject": "s390/pci/docs: Fix sriov_numvfs attribute name",
-      "subsystem": "s390/pci/docs",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "3359a372efb6d585c97019ee1b7f1874442bcebe",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3359a372efb6d585c97019ee1b7f1874442bcebe",
-      "authoredAt": "2026-09-07T13:22:04.000+08:00",
-      "committedAt": "2026-09-17T17:38:41.000-04:00",
-      "authorName": "Peiyang He",
-      "committerName": "Lyude Paul",
-      "subject": "drm/nouveau/uvmm: fix UAF in nouveau_uvmm_sm when BO is in TTM_PL_SYSTEM",
-      "subsystem": "drm/nouveau/uvmm",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5.5",
-          "identity": "Codex:gpt-5.5",
-          "agent": "Codex",
-          "model": "gpt-5.5"
-        }
-      ]
-    },
-    {
-      "sha": "834fc28d78809135b4114f3f6920f2f101406428",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/834fc28d78809135b4114f3f6920f2f101406428",
-      "authoredAt": "2026-09-07T10:18:51.000+05:30",
-      "committedAt": "2026-09-16T10:53:36.000+08:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Ping-Ke Shih",
-      "subject": "wifi: rtlwifi: fix typos in comments",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "8a44d8813de3a546fe0af6a5c5cc44b867f798e3",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8a44d8813de3a546fe0af6a5c5cc44b867f798e3",
-      "authoredAt": "2026-09-07T10:18:50.000+05:30",
-      "committedAt": "2026-09-16T10:42:45.000+08:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Ping-Ke Shih",
-      "subject": "wifi: rtl8xxxu: fix typo \"Tranceiver\" in comment",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "49c313970a5e7437e6b4ca1be33ec506ffb1843e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/49c313970a5e7437e6b4ca1be33ec506ffb1843e",
-      "authoredAt": "2026-09-07T10:18:01.000+05:30",
-      "committedAt": "2026-10-12T19:16:20.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "David Sterba",
-      "subject": "btrfs: fix typos and repeated words in comments",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "143755bdabaa96776c24f878014608e9cb44f930",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/143755bdabaa96776c24f878014608e9cb44f930",
-      "authoredAt": "2026-09-07T04:00:15.000+02:00",
-      "committedAt": "2026-09-11T11:55:40.000+02:00",
-      "authorName": "Karl Mehltretter",
-      "committerName": "Christian König",
-      "subject": "dma-buf: Make DMABUF_DEBUG default to y on DEBUG_KERNEL kernels",
-      "subsystem": "dma-buf",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "23ea08ca607c2be0d4445dce7942a5049efb1451",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/23ea08ca607c2be0d4445dce7942a5049efb1451",
-      "authoredAt": "2026-09-06T17:57:50.000-07:00",
-      "committedAt": "2026-09-08T13:01:24.000+01:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Mark Brown",
-      "subject": "spi: orion: yield to scheduler in transfer wait loop",
-      "subsystem": "spi",
-      "assistedBy": [
-        {
-          "raw": "opencode:big-pickle",
-          "identity": "opencode:big-pickle",
-          "agent": "opencode",
-          "model": "big-pickle"
-        }
-      ]
-    },
-    {
-      "sha": "ee288798d3cf15a0a5eb13404658dfd83c93c332",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/ee288798d3cf15a0a5eb13404658dfd83c93c332",
-      "authoredAt": "2026-09-07T02:49:25.000+02:00",
-      "committedAt": "2026-09-15T13:26:10.000-06:00",
-      "authorName": "Karl Mehltretter",
-      "committerName": "Jonathan Corbet",
-      "subject": "docs: powerpc: vas-api: Fix the structure name and the ioctl number in the example",
-      "subsystem": "docs",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
         }
       ]
     }
