@@ -1,16 +1,34 @@
 {
-  "generatedAt": "2026-10-27T22:57:48.842Z",
+  "generatedAt": "2026-10-28T02:18:10.999Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 985,
-    "totalSubsystems": 260,
-    "totalAuthors": 274,
-    "totalAgents": 89
+    "totalSubsystems": 261,
+    "totalAuthors": 273,
+    "totalAgents": 88
   },
   "commits": [
+    {
+      "sha": "1fdc4164e488916402badddbb1f51e9380dabb91",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/1fdc4164e488916402badddbb1f51e9380dabb91",
+      "authoredAt": "2026-10-23T10:46:20.000-07:00",
+      "committedAt": "2026-10-23T20:45:16.000-04:00",
+      "authorName": "Kyle Zeng",
+      "committerName": "Steven Rostedt",
+      "subject": "tracing: Reject incomplete event filter expressions",
+      "subsystem": "tracing",
+      "assistedBy": [
+        {
+          "raw": "Codex:gpt-6-astra",
+          "identity": "Codex:gpt-6-astra",
+          "agent": "Codex",
+          "model": "gpt-6-astra"
+        }
+      ]
+    },
     {
       "sha": "2c36c4a86104d763ee798d4a89e2d3384b4cd626",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2c36c4a86104d763ee798d4a89e2d3384b4cd626",
@@ -17780,24 +17798,6 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "c96a4cb2c8bab0c62e1cd1bc0cebac213bdb7d7d",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c96a4cb2c8bab0c62e1cd1bc0cebac213bdb7d7d",
-      "authoredAt": "2026-09-24T15:30:17.000-07:00",
-      "committedAt": "2026-10-06T01:54:49.000-07:00",
-      "authorName": "Cong Wang",
-      "committerName": "Kees Cook",
-      "subject": "selftests/seccomp: test addfd with an O_PATH descriptor",
-      "subsystem": "selftests/seccomp",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-6",
-          "identity": "Codex:gpt-6",
-          "agent": "Codex",
-          "model": "gpt-6"
         }
       ]
     }
