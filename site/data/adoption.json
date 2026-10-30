@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-29T21:09:08.732Z",
+  "generatedAt": "2026-10-30T01:02:54.532Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
-    "totalCommits": 983,
+    "totalCommits": 981,
     "totalSubsystems": 250,
-    "totalAuthors": 272,
-    "totalAgents": 83
+    "totalAuthors": 271,
+    "totalAgents": 84
   },
   "commits": [
     {
@@ -5484,6 +5484,24 @@
       ]
     },
     {
+      "sha": "016ac8174d932db3615534ba15ce5f70b3a15913",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/016ac8174d932db3615534ba15ce5f70b3a15913",
+      "authoredAt": "2026-10-11T18:33:40.000-04:00",
+      "committedAt": "2026-10-21T00:16:06.000-07:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Wei Liu",
+      "subject": "tools: hv: remove unused rte_smp_mb()",
+      "subsystem": "tools",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "b67eeae485e22893b678229169024a73b87cf113",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b67eeae485e22893b678229169024a73b87cf113",
       "authoredAt": "2026-10-11T18:33:40.000-04:00",
@@ -9902,6 +9920,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "5c6e22ad386bc4a1299f0dd0732aefb9dfbc6a29",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5c6e22ad386bc4a1299f0dd0732aefb9dfbc6a29",
+      "authoredAt": "2026-10-05T19:02:55.000-06:00",
+      "committedAt": "2026-10-07T20:40:43.000-06:00",
+      "authorName": "Andy Chiu",
+      "committerName": "Paul Walmsley",
+      "subject": "selftest: riscv: test vectorized user copy",
+      "subsystem": "selftest",
+      "assistedBy": [
+        {
+          "raw": "Claude-Code:claude-opus-5",
+          "identity": "Claude-Code:claude-opus-5",
+          "agent": "Claude-Code",
+          "model": "claude-opus-5"
         }
       ]
     },
@@ -17684,78 +17720,6 @@
       "committerName": "Andrew Morton",
       "subject": "mm/madvise: use vm_normal_folio_pmd() in cold/pageout PMD range",
       "subsystem": "mm/madvise",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "9057170a941f0c5f4058f6fb9ab5d5fc9fcc9e83",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/9057170a941f0c5f4058f6fb9ab5d5fc9fcc9e83",
-      "authoredAt": "2026-09-26T06:51:09.000-04:00",
-      "committedAt": "2026-10-08T22:55:11.000-07:00",
-      "authorName": "Gregory Price",
-      "committerName": "Andrew Morton",
-      "subject": "mm/mempolicy: use vm_normal_folio_pmd() in queue_folios_pmd()",
-      "subsystem": "mm/mempolicy",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "8adbd3b5ba2a610cc37a2c9daf009a2a3a3c1f8f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8adbd3b5ba2a610cc37a2c9daf009a2a3a3c1f8f",
-      "authoredAt": "2026-09-26T18:41:34.000+10:00",
-      "committedAt": "2026-09-27T21:34:26.000-05:00",
-      "authorName": "Pablo Correa Gómez",
-      "committerName": "Bjorn Andersson",
-      "subject": "arm64: dts: qcom: sdm670-google-common: enable debug uart",
-      "subsystem": "arm64",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "3719685788549ee7545e5b0b8fb954487c4b71ce",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/3719685788549ee7545e5b0b8fb954487c4b71ce",
-      "authoredAt": "2026-09-26T18:41:32.000+10:00",
-      "committedAt": "2026-09-27T21:34:25.000-05:00",
-      "authorName": "Pablo Correa Gómez",
-      "committerName": "Bjorn Andersson",
-      "subject": "arm64: dts: qcom: sdm670: add default uart pinctrl nodes",
-      "subsystem": "arm64",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "89365897f4210979966aa808d7b013edf4080558",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/89365897f4210979966aa808d7b013edf4080558",
-      "authoredAt": "2026-09-26T02:24:19.000-05:00",
-      "committedAt": "2026-09-28T13:44:46.000+02:00",
-      "authorName": "Aaron Kling",
-      "committerName": "Takashi Iwai",
-      "subject": "ALSA: hda/tegra: Re-enable SDO workaround for Tegra194",
-      "subsystem": "alsa",
       "assistedBy": [
         {
           "raw": "LLM",
