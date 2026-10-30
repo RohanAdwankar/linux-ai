@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-30T19:25:21.535Z",
+  "generatedAt": "2026-10-30T23:50:03.325Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 981,
-    "totalSubsystems": 251,
-    "totalAuthors": 272,
-    "totalAgents": 83
+    "totalSubsystems": 255,
+    "totalAuthors": 274,
+    "totalAgents": 81
   },
   "commits": [
     {
@@ -38,6 +38,42 @@
       "committerName": "Jens Axboe",
       "subject": "io_uring/net: fix multishot recv length limit accounting",
       "subsystem": "io_uring/net",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f46be4da2cbb17574b5369517a9a1e1b414063b4",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f46be4da2cbb17574b5369517a9a1e1b414063b4",
+      "authoredAt": "2026-10-28T12:43:14.000-03:00",
+      "committedAt": "2026-10-29T20:42:23.000Z",
+      "authorName": "Iván Ezequiel Rodriguez",
+      "committerName": "Catalin Marinas",
+      "subject": "selftests/arm64: GCS must not leak on a failed clone3",
+      "subsystem": "selftests/arm64",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "078e122f3bf000dd45965997b66deac10ee580fa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/078e122f3bf000dd45965997b66deac10ee580fa",
+      "authoredAt": "2026-10-28T12:43:12.000-03:00",
+      "committedAt": "2026-10-29T20:42:22.000Z",
+      "authorName": "Iván Ezequiel Rodriguez",
+      "committerName": "Catalin Marinas",
+      "subject": "arm64/gcs: release GCS on failed fork",
+      "subsystem": "arm64/gcs",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -1082,6 +1118,24 @@
       "committerName": "Jens Axboe",
       "subject": "io_uring/wait: wake real-time waiters from hard interrupt context",
       "subsystem": "io_uring/wait",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "5b34f0b4adbf983174e53721f68b617113376f2f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5b34f0b4adbf983174e53721f68b617113376f2f",
+      "authoredAt": "2026-10-17T12:52:04.000-04:00",
+      "committedAt": "2026-10-20T11:35:32.000+01:00",
+      "authorName": "Sasha Levin",
+      "committerName": "Marc Zyngier",
+      "subject": "KVM: arm64: Take a protected vCPU's TWI and TWE only at vCPU load",
+      "subsystem": "kvm",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -9000,6 +9054,78 @@
       ]
     },
     {
+      "sha": "166375898d29fea050a9abec855da6075050d5c9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/166375898d29fea050a9abec855da6075050d5c9",
+      "authoredAt": "2026-10-08T15:07:38.000+09:00",
+      "committedAt": "2026-10-26T14:15:48.000+01:00",
+      "authorName": "sung byeongchan",
+      "committerName": "Ilya Dryomov",
+      "subject": "ceph: validate encoded xattr name lengths",
+      "subsystem": "ceph",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "8cab7e7461f81ea1e0fd45082b50bb3c04c0bb10",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/8cab7e7461f81ea1e0fd45082b50bb3c04c0bb10",
+      "authoredAt": "2026-10-08T15:07:25.000+09:00",
+      "committedAt": "2026-10-26T14:15:48.000+01:00",
+      "authorName": "sung byeongchan",
+      "committerName": "Ilya Dryomov",
+      "subject": "ceph: validate MDS reply fragtree split array length",
+      "subsystem": "ceph",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "7f702e1703c9648fcb02a217d66c880d00417150",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/7f702e1703c9648fcb02a217d66c880d00417150",
+      "authoredAt": "2026-10-08T15:07:14.000+09:00",
+      "committedAt": "2026-10-26T14:15:47.000+01:00",
+      "authorName": "sung byeongchan",
+      "committerName": "Ilya Dryomov",
+      "subject": "ceph: bound name skips in ceph_mdsmap_decode() by the message end",
+      "subsystem": "ceph",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "bc418e234e5be14b97dec90e84a680e615b4134e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/bc418e234e5be14b97dec90e84a680e615b4134e",
+      "authoredAt": "2026-10-08T15:06:46.000+09:00",
+      "committedAt": "2026-10-26T14:15:47.000+01:00",
+      "authorName": "sung byeongchan",
+      "committerName": "Ilya Dryomov",
+      "subject": "ceph: validate fscrypt auth blob length",
+      "subsystem": "ceph",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "b37d23791fe52eb457753eb5ecaa5361b2d64189",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b37d23791fe52eb457753eb5ecaa5361b2d64189",
       "authoredAt": "2026-10-07T23:01:53.000-07:00",
@@ -16752,6 +16878,24 @@
       ]
     },
     {
+      "sha": "c3a995ff0782587789333c621e1f6bd5e574371e",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/c3a995ff0782587789333c621e1f6bd5e574371e",
+      "authoredAt": "2026-09-28T01:44:22.000+08:00",
+      "committedAt": "2026-10-26T14:15:47.000+01:00",
+      "authorName": "Darong Lu",
+      "committerName": "Ilya Dryomov",
+      "subject": "libceph: initialize CRUSH choose argument weights",
+      "subsystem": "libceph",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "f5d4cc88371feb9c5f96b6fb7fce5e8cb08ecb6a",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f5d4cc88371feb9c5f96b6fb7fce5e8cb08ecb6a",
       "authoredAt": "2026-09-27T12:16:54.000-04:00",
@@ -17582,150 +17726,6 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "6fd70bc8bc01a578c7728b7bd1cb5689c62cc5b7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/6fd70bc8bc01a578c7728b7bd1cb5689c62cc5b7",
-      "authoredAt": "2026-09-26T20:43:26.000Z",
-      "committedAt": "2026-10-02T18:12:44.000+10:00",
-      "authorName": "Jérémy Jean",
-      "committerName": "Herbert Xu",
-      "subject": "crypto: ecc - Handle exceptional points in Shamir multiplication",
-      "subsystem": "crypto",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "a215720959c5450b3699e243904b39c3f8f68888",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a215720959c5450b3699e243904b39c3f8f68888",
-      "authoredAt": "2026-09-26T22:26:47.000+02:00",
-      "committedAt": "2026-09-27T21:38:32.000-07:00",
-      "authorName": "David Heidelberg",
-      "committerName": "Dmitry Torokhov",
-      "subject": "Input: s6sy761 - fix resume ordering and restore sensing",
-      "subsystem": "input",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "a9cd14bfb0c113f1cd77be4349784663bec71bb4",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a9cd14bfb0c113f1cd77be4349784663bec71bb4",
-      "authoredAt": "2026-09-26T21:13:25.000+02:00",
-      "committedAt": "2026-10-07T09:39:11.000Z",
-      "authorName": "Karl Mehltretter",
-      "committerName": "Will Deacon",
-      "subject": "arm64: irq: exclude the softirq stack switch from KCOV",
-      "subsystem": "arm64",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "e2578c2f2bc4d0d45b1a1d46bae923c2e2e2967c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e2578c2f2bc4d0d45b1a1d46bae923c2e2e2967c",
-      "authoredAt": "2026-09-26T21:22:56.000+03:00",
-      "committedAt": "2026-09-28T11:48:48.000+02:00",
-      "authorName": "Ilan Peer",
-      "committerName": "Johannes Berg",
-      "subject": "wifi: mac80211: Gracefully deauthenticate on association timeout",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "GithubCopilot:claude-opus-5.0",
-          "identity": "GithubCopilot:claude-opus-5.0",
-          "agent": "GithubCopilot",
-          "model": "claude-opus-5.0"
-        }
-      ]
-    },
-    {
-      "sha": "2d696c1ed3468dcb62578a3911e687110d463520",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2d696c1ed3468dcb62578a3911e687110d463520",
-      "authoredAt": "2026-09-27T01:27:23.000+08:00",
-      "committedAt": "2026-09-28T11:00:20.000-04:00",
-      "authorName": "Chengfeng Ye",
-      "committerName": "Luiz Augusto von Dentz",
-      "subject": "Bluetooth: RFCOMM: Fix initial port reference race",
-      "subsystem": "bluetooth",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "60cce59decdaff868484a5f91b0d71f8e630131b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/60cce59decdaff868484a5f91b0d71f8e630131b",
-      "authoredAt": "2026-09-26T20:17:32.000+03:00",
-      "committedAt": "2026-10-14T11:56:37.000+03:00",
-      "authorName": "Emmanuel Grumbach",
-      "committerName": "Miri Korenblit",
-      "subject": "wifi: iwlwifi: support RX BAID modify command version 3",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "38e3a2e9936f7967643f6ef328ebb3ceb2807877",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/38e3a2e9936f7967643f6ef328ebb3ceb2807877",
-      "authoredAt": "2026-09-26T20:17:31.000+03:00",
-      "committedAt": "2026-10-14T11:56:37.000+03:00",
-      "authorName": "Emmanuel Grumbach",
-      "committerName": "Miri Korenblit",
-      "subject": "wifi: iwlwifi: add support for the new MPDU descriptor",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "cc014b0cb9b65e0dff8febee69265d4273b1f5b7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cc014b0cb9b65e0dff8febee69265d4273b1f5b7",
-      "authoredAt": "2026-09-26T20:17:27.000+03:00",
-      "committedAt": "2026-10-14T11:56:37.000+03:00",
-      "authorName": "Emmanuel Grumbach",
-      "committerName": "Miri Korenblit",
-      "subject": "wifi: iwlwifi: pcie: order RX reads after the write pointer",
-      "subsystem": "wifi",
-      "assistedBy": [
-        {
-          "raw": "GitHub-Copilot:claude-opus-5",
-          "identity": "GitHub-Copilot:claude-opus-5",
-          "agent": "GitHub-Copilot",
-          "model": "claude-opus-5"
         }
       ]
     }
