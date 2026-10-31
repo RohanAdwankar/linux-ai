@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-31T17:45:43.827Z",
+  "generatedAt": "2026-10-31T21:38:04.475Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 981,
-    "totalSubsystems": 272,
+    "totalSubsystems": 265,
     "totalAuthors": 269,
     "totalAgents": 80
   },
@@ -120,6 +120,24 @@
       ]
     },
     {
+      "sha": "379ba557f555245eb9cb6c2a9d7a1eef704c786f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/379ba557f555245eb9cb6c2a9d7a1eef704c786f",
+      "authoredAt": "2026-10-26T14:09:34.000Z",
+      "committedAt": "2026-10-27T08:28:54.000+01:00",
+      "authorName": "Zak Brighton Knight",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: usb-audio: Skip probe-time interface setup for MSI MAG X570S ALC4080",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "f1f37834eaba5904103af1f18afe3510c7e9dc71",
       "htmlUrl": "https://github.com/torvalds/linux/commit/f1f37834eaba5904103af1f18afe3510c7e9dc71",
       "authoredAt": "2026-10-26T15:01:03.000+09:00",
@@ -134,6 +152,24 @@
           "identity": "gpt 6 sol with daybreak blue",
           "agent": "gpt 6 sol with daybreak blue",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "5deb9c57ba93d28a52871a96f3d8794d2cbed035",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5deb9c57ba93d28a52871a96f3d8794d2cbed035",
+      "authoredAt": "2026-10-26T12:16:55.000+09:00",
+      "committedAt": "2026-10-26T09:09:49.000+01:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: pcmtest: Reject invalid fill_mode values",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5-5",
+          "identity": "Claude:claude-opus-5-5",
+          "agent": "Claude",
+          "model": "claude-opus-5-5"
         }
       ]
     },
@@ -164,6 +200,78 @@
       "committerName": "Paulo Alcantara",
       "subject": "smb: client: stop processing a read response after a receive error",
       "subsystem": "smb",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9194d8dd4196fa3fb457de2909df468d501c01c2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9194d8dd4196fa3fb457de2909df468d501c01c2",
+      "authoredAt": "2026-10-25T00:49:51.000+08:00",
+      "committedAt": "2026-10-26T09:00:56.000+01:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: opl3: Shut down the timer after draining sequencer ports",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "02b1d5127f37683448ef35798b3a6310d1d38761",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/02b1d5127f37683448ef35798b3a6310d1d38761",
+      "authoredAt": "2026-10-25T00:49:50.000+08:00",
+      "committedAt": "2026-10-26T09:00:55.000+01:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: opl3: Clear voice channels before freeing their sets",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "a71cef6f641152c7c7bbc17d86f33a3b45cd10a9",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a71cef6f641152c7c7bbc17d86f33a3b45cd10a9",
+      "authoredAt": "2026-10-25T00:49:49.000+08:00",
+      "committedAt": "2026-10-26T09:00:55.000+01:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: opl3: Initialize the timer before publishing a sequencer port",
+      "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "9b30046de03acb3b3f2135d45af6be7ee0b565b6",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/9b30046de03acb3b3f2135d45af6be7ee0b565b6",
+      "authoredAt": "2026-10-24T16:02:47.000+08:00",
+      "committedAt": "2026-10-25T08:55:04.000+01:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: ump: Drain sequencer callbacks before freeing their client",
+      "subsystem": "alsa",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -290,6 +398,24 @@
       "committerName": "Namjae Jeon",
       "subject": "ksmbd: serialize directory emptiness checks with readdir",
       "subsystem": "ksmbd",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "d74eb09af56beda9cbe310e9f6554ff1f35f280f",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d74eb09af56beda9cbe310e9f6554ff1f35f280f",
+      "authoredAt": "2026-10-22T18:58:20.000+08:00",
+      "committedAt": "2026-10-23T21:34:09.000+02:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Takashi Iwai",
+      "subject": "ALSA: pcm: Drain proc callbacks at device disconnect",
+      "subsystem": "alsa",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -696,6 +822,60 @@
       ]
     },
     {
+      "sha": "d34a818a331f7e270fa9dc3db3d96f6a0d4fa7ab",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/d34a818a331f7e270fa9dc3db3d96f6a0d4fa7ab",
+      "authoredAt": "2026-10-20T08:38:53.000+01:00",
+      "committedAt": "2026-10-26T21:10:37.000Z",
+      "authorName": "Srinivas Kandagatla",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: SDCA: re-enable IRQ on pm_runtime_force_suspend failure",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "86331b76b32d7a83fb3e64641a5111746bf0f50c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/86331b76b32d7a83fb3e64641a5111746bf0f50c",
+      "authoredAt": "2026-10-20T08:38:52.000+01:00",
+      "committedAt": "2026-10-26T21:10:37.000Z",
+      "authorName": "Srinivas Kandagatla",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: SDCA: drop pm_runtime reference on probe failure path",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "79cfb5aebbf0417418c2ac25669fade7f3e58ef2",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/79cfb5aebbf0417418c2ac25669fade7f3e58ef2",
+      "authoredAt": "2026-10-20T08:38:51.000+01:00",
+      "committedAt": "2026-10-26T21:10:37.000Z",
+      "authorName": "Srinivas Kandagatla",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: SDCA: propagate sdw_slave_read_prop() failure in class_read_prop",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "b584c45b6066fd9799c44ffb9badcb5db351c8a6",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b584c45b6066fd9799c44ffb9badcb5db351c8a6",
       "authoredAt": "2026-10-20T11:45:04.000+08:00",
@@ -818,6 +998,24 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "ff404ef11b975baf38c4472c51a6674c239e8021",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ff404ef11b975baf38c4472c51a6674c239e8021",
+      "authoredAt": "2026-10-19T21:40:22.000+09:00",
+      "committedAt": "2026-10-20T14:48:41.000+01:00",
+      "authorName": "HyeongJun An",
+      "committerName": "Mark Brown",
+      "subject": "ASoC: cs42l56: Remove the ADC Mute Switch control",
+      "subsystem": "asoc",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5-5",
+          "identity": "Claude:claude-opus-5-5",
+          "agent": "Claude",
+          "model": "claude-opus-5-5"
         }
       ]
     },
@@ -17522,204 +17720,6 @@
           "identity": "LLM",
           "agent": "LLM",
           "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "853d419bfb342318a38915087726a5ac3b992d4c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/853d419bfb342318a38915087726a5ac3b992d4c",
-      "authoredAt": "2026-09-28T18:58:03.000Z",
-      "committedAt": "2026-10-18T02:34:20.000+02:00",
-      "authorName": "Antonio Ojea",
-      "committerName": "Pablo Neira Ayuso",
-      "subject": "selftests: netfilter: nft_queue: check the scope of the hook drop flush",
-      "subsystem": "selftests",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "72ac1c0937dff7e32ad87829cd23fbc82347fe48",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/72ac1c0937dff7e32ad87829cd23fbc82347fe48",
-      "authoredAt": "2026-09-28T18:58:02.000Z",
-      "committedAt": "2026-10-18T02:33:12.000+02:00",
-      "authorName": "Antonio Ojea",
-      "committerName": "Pablo Neira Ayuso",
-      "subject": "netfilter: nf_queue: limit the hook drop flush to the unregistered hook point",
-      "subsystem": "netfilter",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "45c3d07e3f18cff2b3ea8b797387451a3df9d421",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/45c3d07e3f18cff2b3ea8b797387451a3df9d421",
-      "authoredAt": "2026-09-28T13:44:22.000-05:00",
-      "committedAt": "2026-09-29T16:06:42.000+02:00",
-      "authorName": "Danish Khateeb",
-      "committerName": "Uwe Kleine-König",
-      "subject": "pwm: Allow 32-bit tasks to use the character device",
-      "subsystem": "pwm",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "df5a38b065c919658c4ca10bf0f25fcc30f21500",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/df5a38b065c919658c4ca10bf0f25fcc30f21500",
-      "authoredAt": "2026-09-28T14:32:35.000-04:00",
-      "committedAt": "2026-10-01T11:08:54.000+02:00",
-      "authorName": "Frank Li",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "serial: use dmaengine_get_dma_device() instead of chan->device->dev",
-      "subsystem": "serial",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "4aa0d846693d24603c90c66f053dd5fcf24c0f2b",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4aa0d846693d24603c90c66f053dd5fcf24c0f2b",
-      "authoredAt": "2026-09-28T11:26:05.000-07:00",
-      "committedAt": "2026-10-01T17:50:50.000+02:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf test uprobe_from_different_cu: Scope probe name to PID",
-      "subsystem": "perf test uprobe_from_different_cu",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.1-pro",
-          "identity": "Antigravity:gemini-3.1-pro",
-          "agent": "Antigravity",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "816737751b2854ad2c5870c5f2d21ba57e17bd4c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/816737751b2854ad2c5870c5f2d21ba57e17bd4c",
-      "authoredAt": "2026-09-28T11:26:04.000-07:00",
-      "committedAt": "2026-10-01T17:50:00.000+02:00",
-      "authorName": "Namhyung Kim",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf test: Remove exclusive tag from 'perf trace' tests",
-      "subsystem": "perf test",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.1-pro",
-          "identity": "Antigravity:gemini-3.1-pro",
-          "agent": "Antigravity",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "81513edaeb6f014490f140c8ecb654497f0ad88e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/81513edaeb6f014490f140c8ecb654497f0ad88e",
-      "authoredAt": "2026-09-28T11:26:03.000-07:00",
-      "committedAt": "2026-10-01T17:49:42.000+02:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf test trace_btf_general: Drop --max-events=1 and make non-exclusive",
-      "subsystem": "perf test trace_btf_general",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.1-pro",
-          "identity": "Antigravity:gemini-3.1-pro",
-          "agent": "Antigravity",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "e4ed3ba7e2d5a548220511b8e64d2902318348e7",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e4ed3ba7e2d5a548220511b8e64d2902318348e7",
-      "authoredAt": "2026-09-28T11:26:02.000-07:00",
-      "committedAt": "2026-10-01T17:49:27.000+02:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf test trace_summary: Improve error diagnostics",
-      "subsystem": "perf test trace_summary",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.1-pro",
-          "identity": "Antigravity:gemini-3.1-pro",
-          "agent": "Antigravity",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "5df51199975e605ec4f0cca86fbd1c6ebf59c58c",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/5df51199975e605ec4f0cca86fbd1c6ebf59c58c",
-      "authoredAt": "2026-09-28T11:26:01.000-07:00",
-      "committedAt": "2026-10-01T17:49:10.000+02:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf test record+probe_libc_inet_pton: Scope event to PID and make non-exclusive",
-      "subsystem": "perf test record+probe_libc_inet_pton",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.1-pro",
-          "identity": "Antigravity:gemini-3.1-pro",
-          "agent": "Antigravity",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "c7525971318aec314e037a9ac0006ecc072bd5e6",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/c7525971318aec314e037a9ac0006ecc072bd5e6",
-      "authoredAt": "2026-09-28T11:26:00.000-07:00",
-      "committedAt": "2026-10-01T17:48:25.000+02:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf test probe_vfs_getname: Scope probe name to PID and make non-exclusive",
-      "subsystem": "perf test probe_vfs_getname",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.1-pro",
-          "identity": "Antigravity:gemini-3.1-pro",
-          "agent": "Antigravity",
-          "model": "gemini-3.1-pro"
-        }
-      ]
-    },
-    {
-      "sha": "2e679233920068e1df5820fad830c17f88ac9538",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/2e679233920068e1df5820fad830c17f88ac9538",
-      "authoredAt": "2026-09-28T11:25:59.000-07:00",
-      "committedAt": "2026-10-01T17:47:55.000+02:00",
-      "authorName": "Ian Rogers",
-      "committerName": "Arnaldo Carvalho de Melo",
-      "subject": "perf test common: Only disable probes in clear_all_probes",
-      "subsystem": "perf test common",
-      "assistedBy": [
-        {
-          "raw": "Antigravity:gemini-3.1-pro",
-          "identity": "Antigravity:gemini-3.1-pro",
-          "agent": "Antigravity",
-          "model": "gemini-3.1-pro"
         }
       ]
     }
