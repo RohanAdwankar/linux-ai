@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T15:12:55.861Z",
+  "generatedAt": "2026-11-01T19:43:22.641Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
@@ -7,7 +7,7 @@
   "stats": {
     "totalCommits": 981,
     "totalSubsystems": 265,
-    "totalAuthors": 269,
+    "totalAuthors": 268,
     "totalAgents": 80
   },
   "commits": [
@@ -818,6 +818,24 @@
           "identity": "Claude:claude-opus-5-5",
           "agent": "Claude",
           "model": "claude-opus-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "b253c2e96a80aac8e2bc67b425bf007ed78d4d8c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b253c2e96a80aac8e2bc67b425bf007ed78d4d8c",
+      "authoredAt": "2026-10-20T09:59:21.000+02:00",
+      "committedAt": "2026-10-20T15:11:22.000+02:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Alexandre Belloni",
+      "subject": "rtc: class: Make the time32 hctosys limit configurable",
+      "subsystem": "rtc",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
         }
       ]
     },
@@ -12480,6 +12498,24 @@
       ]
     },
     {
+      "sha": "5831f5fef10030c175e585d51b0e793dc6fef6ab",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5831f5fef10030c175e585d51b0e793dc6fef6ab",
+      "authoredAt": "2026-10-04T23:56:53.000Z",
+      "committedAt": "2026-10-19T22:06:09.000+02:00",
+      "authorName": "Igor Velkov",
+      "committerName": "Alexandre Belloni",
+      "subject": "rtc: pcf8563: pass the driver data to the alarm interrupt handler",
+      "subsystem": "rtc",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "a7fe96e04160cae30b7543c5d8d23aaeefea328d",
       "htmlUrl": "https://github.com/torvalds/linux/commit/a7fe96e04160cae30b7543c5d8d23aaeefea328d",
       "authoredAt": "2026-10-04T17:28:21.000-05:00",
@@ -17678,42 +17714,6 @@
       "committerName": "Lee Jones",
       "subject": "mfd: mt6397-core: Add mt6397 AUXADC support",
       "subsystem": "mfd",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "104f277e8a469f71ac3c74a0e9ebb8bf64c3fa06",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/104f277e8a469f71ac3c74a0e9ebb8bf64c3fa06",
-      "authoredAt": "2026-09-28T13:07:29.000-07:00",
-      "committedAt": "2026-10-12T20:18:23.000+02:00",
-      "authorName": "Rosen Penev",
-      "committerName": "Miquel Raynal",
-      "subject": "mtd: rawnand: fsl_ifc: allocate shared ctrl with devm_kzalloc",
-      "subsystem": "mtd",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "0f242ca0878896df30292f4922700a32e8fdd039",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/0f242ca0878896df30292f4922700a32e8fdd039",
-      "authoredAt": "2026-09-28T13:04:45.000-07:00",
-      "committedAt": "2026-10-02T12:54:49.000+02:00",
-      "authorName": "Giorgi Kobakhia",
-      "committerName": "Jan Kara",
-      "subject": "udf: fix return value for non-recorded-allocated extents in udf_map_block()",
-      "subsystem": "udf",
       "assistedBy": [
         {
           "raw": "LLM",
