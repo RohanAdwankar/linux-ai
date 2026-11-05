@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-05T15:29:34.458Z",
+  "generatedAt": "2026-11-05T22:00:57.153Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 980,
-    "totalSubsystems": 266,
-    "totalAuthors": 269,
-    "totalAgents": 80
+    "totalSubsystems": 265,
+    "totalAuthors": 266,
+    "totalAgents": 78
   },
   "commits": [
     {
@@ -38,6 +38,24 @@
       "committerName": "Jens Axboe",
       "subject": "io_uring/net: fix multishot recv length limit accounting",
       "subsystem": "io_uring/net",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "126429e2f503ade63502978beb0c519066442250",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/126429e2f503ade63502978beb0c519066442250",
+      "authoredAt": "2026-10-29T14:57:35.000+08:00",
+      "committedAt": "2026-11-02T19:18:58.000-08:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: stop recovery before shutting down local allocators",
+      "subsystem": "ocfs2",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -120,6 +138,42 @@
       ]
     },
     {
+      "sha": "61469249aab03799b0d3294b7a0cd25dd303017a",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/61469249aab03799b0d3294b7a0cd25dd303017a",
+      "authoredAt": "2026-10-27T18:14:49.000+08:00",
+      "committedAt": "2026-11-02T19:18:57.000-08:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2/dlm: serialize migration MLE cleanup on failure",
+      "subsystem": "ocfs2/dlm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "5bdef466851e39ba752634cbea68e5ea24ccfb24",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5bdef466851e39ba752634cbea68e5ea24ccfb24",
+      "authoredAt": "2026-10-27T12:31:44.000+08:00",
+      "committedAt": "2026-11-02T19:18:57.000-08:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: keep locking_state within the cluster connection lifetime",
+      "subsystem": "ocfs2",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "379ba557f555245eb9cb6c2a9d7a1eef704c786f",
       "htmlUrl": "https://github.com/torvalds/linux/commit/379ba557f555245eb9cb6c2a9d7a1eef704c786f",
       "authoredAt": "2026-10-26T14:09:34.000Z",
@@ -128,6 +182,24 @@
       "committerName": "Takashi Iwai",
       "subject": "ALSA: usb-audio: Skip probe-time interface setup for MSI MAG X570S ALC4080",
       "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "84db6619cb702c37cf848b450c21b9c9706b0775",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/84db6619cb702c37cf848b450c21b9c9706b0775",
+      "authoredAt": "2026-10-26T19:04:00.000+08:00",
+      "committedAt": "2026-11-02T19:18:56.000-08:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: validate move extents against a stable EOF",
+      "subsystem": "ocfs2",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -254,6 +326,24 @@
       "committerName": "Takashi Iwai",
       "subject": "ALSA: opl3: Initialize the timer before publishing a sequencer port",
       "subsystem": "alsa",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "a25c02af29c3e95128e4343fceb4bdace8e480a0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/a25c02af29c3e95128e4343fceb4bdace8e480a0",
+      "authoredAt": "2026-10-25T00:18:52.000+08:00",
+      "committedAt": "2026-11-02T19:18:58.000-08:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: wait for filecheck kobject release after a failed add",
+      "subsystem": "ocfs2",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -534,6 +624,24 @@
       ]
     },
     {
+      "sha": "2efc6332f18bfd848f74f3d5ba45b31450601faa",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2efc6332f18bfd848f74f3d5ba45b31450601faa",
+      "authoredAt": "2026-10-21T11:21:57.000-07:00",
+      "committedAt": "2026-11-02T18:14:43.000-08:00",
+      "authorName": "Samarth Narang",
+      "committerName": "Andrew Morton",
+      "subject": "mm/ksm: keep soft-dirty when merging a page",
+      "subsystem": "mm/ksm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "ed7995e4ec3789a90e37eb826bfccf43cc85d2fd",
       "htmlUrl": "https://github.com/torvalds/linux/commit/ed7995e4ec3789a90e37eb826bfccf43cc85d2fd",
       "authoredAt": "2026-10-22T02:24:53.000+12:00",
@@ -722,6 +830,24 @@
       "committerName": "Dave Miller",
       "subject": "net/mlx4: always create the eth and ib auxiliary devices",
       "subsystem": "net/mlx4",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "5b4696e0bfc358619adaeab25ad35b4979af8331",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/5b4696e0bfc358619adaeab25ad35b4979af8331",
+      "authoredAt": "2026-10-20T22:25:53.000+08:00",
+      "committedAt": "2026-11-02T19:18:59.000-08:00",
+      "authorName": "Cen Zhang",
+      "committerName": "Andrew Morton",
+      "subject": "ocfs2: cache the mount context for dentry lock callbacks",
+      "subsystem": "ocfs2",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -10584,6 +10710,24 @@
       ]
     },
     {
+      "sha": "854e5ff8b3ce2a776586cabebaeae645c992345b",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/854e5ff8b3ce2a776586cabebaeae645c992345b",
+      "authoredAt": "2026-10-06T21:10:01.000-07:00",
+      "committedAt": "2026-11-02T18:14:39.000-08:00",
+      "authorName": "Kyle Zeng",
+      "committerName": "Andrew Morton",
+      "subject": "mm/khugepaged: flush deferred unmaps before dropping a failed folio",
+      "subsystem": "mm/khugepaged",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "b7ad72414c673ce1fa1f463e807cd4f34f8be9bf",
       "htmlUrl": "https://github.com/torvalds/linux/commit/b7ad72414c673ce1fa1f463e807cd4f34f8be9bf",
       "authoredAt": "2026-10-07T12:57:39.000+09:00",
@@ -17552,150 +17696,6 @@
       "committerName": "David Sterba",
       "subject": "btrfs: commit after deleting an unused block group if system space is low",
       "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "cd5e2d2f2ea2b2c644ac8a01b50a8f22bd23610f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cd5e2d2f2ea2b2c644ac8a01b50a8f22bd23610f",
-      "authoredAt": "2026-09-28T17:20:33.000-07:00",
-      "committedAt": "2026-10-12T19:16:23.000+02:00",
-      "authorName": "Boris Burkov",
-      "committerName": "David Sterba",
-      "subject": "btrfs: allocate additional SYSTEM space earlier",
-      "subsystem": "btrfs",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "e0a6249190402a28f1e2925a81acf573157d55ef",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e0a6249190402a28f1e2925a81acf573157d55ef",
-      "authoredAt": "2026-09-29T09:19:12.000+09:00",
-      "committedAt": "2026-09-30T08:41:31.000+09:00",
-      "authorName": "Masami Hiramatsu (Google)",
-      "committerName": "Masami Hiramatsu (Google)",
-      "subject": "fprobe: Use guard(rcu_sched_notrace) and check rcu_is_watching()",
-      "subsystem": "fprobe",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "fd427b8adae437cac78a2332241a03cac56e95c2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/fd427b8adae437cac78a2332241a03cac56e95c2",
-      "authoredAt": "2026-09-28T20:19:04.000-04:00",
-      "committedAt": "2026-10-01T12:45:50.000+02:00",
-      "authorName": "Kaho Jiang",
-      "committerName": "Hans Verkuil",
-      "subject": "media: em28xx: fix double free in em28xx_alloc_urbs",
-      "subsystem": "media",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "f314c98807c12272a1902aeda9c648d81b39bad2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/f314c98807c12272a1902aeda9c648d81b39bad2",
-      "authoredAt": "2026-09-28T19:18:04.000-04:00",
-      "committedAt": "2026-10-02T11:04:59.000Z",
-      "authorName": "James Morris",
-      "committerName": "Yixun Lan",
-      "subject": "riscv: dts: spacemit: k3-com260: keep dldo4 enabled",
-      "subsystem": "riscv",
-      "assistedBy": [
-        {
-          "raw": "GitHub-Copilot:gpt-sol-5.6",
-          "identity": "GitHub-Copilot:gpt-sol-5.6",
-          "agent": "GitHub-Copilot",
-          "model": "gpt-sol-5.6"
-        }
-      ]
-    },
-    {
-      "sha": "27a868b40e7d18e4be57d2bbbeac7581fd1219db",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/27a868b40e7d18e4be57d2bbbeac7581fd1219db",
-      "authoredAt": "2026-09-28T19:16:21.000-04:00",
-      "committedAt": "2026-09-29T07:31:35.000+02:00",
-      "authorName": "Preston Lam",
-      "committerName": "Takashi Iwai",
-      "subject": "ALSA: hda/realtek: Add mute LED quirk for HP Laptop 15-fd2xxx",
-      "subsystem": "alsa",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-sonnet-5-5",
-          "identity": "Claude:claude-sonnet-5-5",
-          "agent": "Claude",
-          "model": "claude-sonnet-5-5"
-        }
-      ]
-    },
-    {
-      "sha": "e0844bd22a9f97885882bde3c4a441710e895240",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/e0844bd22a9f97885882bde3c4a441710e895240",
-      "authoredAt": "2026-09-28T17:26:17.000-05:00",
-      "committedAt": "2026-10-04T17:54:39.000+02:00",
-      "authorName": "Ryan Brue",
-      "committerName": "Sebastian Reichel",
-      "subject": "power: supply: bq24190_charger: don't reset registers across system suspend",
-      "subsystem": "power",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "81a5a0d01fad7776e9195e4dc9658717d2ad5067",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/81a5a0d01fad7776e9195e4dc9658717d2ad5067",
-      "authoredAt": "2026-09-28T17:50:21.000-04:00",
-      "committedAt": "2026-10-02T08:41:34.000+02:00",
-      "authorName": "Michael Jordan",
-      "committerName": "Hans Verkuil",
-      "subject": "media: uvcvideo: Fix up missing AUTO_UPDATE on the OBSBOT Tail 2",
-      "subsystem": "media",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "a0e0e5ef4742af5fcd250dd3d511a02e3c4f7b87",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/a0e0e5ef4742af5fcd250dd3d511a02e3c4f7b87",
-      "authoredAt": "2026-09-28T17:50:20.000-04:00",
-      "committedAt": "2026-10-02T08:41:34.000+02:00",
-      "authorName": "Michael Jordan",
-      "committerName": "Hans Verkuil",
-      "subject": "media: uvcvideo: Fix up missing AUTO_UPDATE on the OBSBOT Tiny 2",
-      "subsystem": "media",
       "assistedBy": [
         {
           "raw": "LLM",
