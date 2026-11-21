@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-21T17:59:05.561Z",
+  "generatedAt": "2026-11-21T23:20:33.521Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 958,
-    "totalSubsystems": 260,
+    "totalSubsystems": 262,
     "totalAuthors": 283,
     "totalAgents": 84
   },
@@ -156,6 +156,24 @@
       ]
     },
     {
+      "sha": "e3512c7628621f7048a9615d21fd7cf63173c518",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e3512c7628621f7048a9615d21fd7cf63173c518",
+      "authoredAt": "2026-11-11T19:28:56.000-05:00",
+      "committedAt": "2026-11-19T07:08:56.000+01:00",
+      "authorName": "Matt Turner",
+      "committerName": "Helge Deller",
+      "subject": "vgacon: Fall back to the dummy console if mapping VGA memory fails",
+      "subsystem": "vgacon",
+      "assistedBy": [
+        {
+          "raw": "Claude:claude-opus-5-5",
+          "identity": "Claude:claude-opus-5-5",
+          "agent": "Claude",
+          "model": "claude-opus-5-5"
+        }
+      ]
+    },
+    {
       "sha": "4dce35adafb5d258a58788c0282a0dd43e7ccd73",
       "htmlUrl": "https://github.com/torvalds/linux/commit/4dce35adafb5d258a58788c0282a0dd43e7ccd73",
       "authoredAt": "2026-11-11T16:51:33.000Z",
@@ -260,6 +278,24 @@
           "identity": "Claude:opus-4-7",
           "agent": "Claude",
           "model": "opus-4-7"
+        }
+      ]
+    },
+    {
+      "sha": "b3a3f241dace3d4a775e1401b53a3f6d304534f0",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b3a3f241dace3d4a775e1401b53a3f6d304534f0",
+      "authoredAt": "2026-11-10T21:59:59.000+08:00",
+      "committedAt": "2026-11-19T07:08:56.000+01:00",
+      "authorName": "Yao Yiqi",
+      "committerName": "Helge Deller",
+      "subject": "fbcon: Avoid cancel_delayed_work_sync() in atomic context",
+      "subsystem": "fbcon",
+      "assistedBy": [
+        {
+          "raw": "Opencode:deepseek-v4.1-flash",
+          "identity": "Opencode:deepseek-v4.1-flash",
+          "agent": "Opencode",
+          "model": "deepseek-v4.1-flash"
         }
       ]
     },
@@ -1532,6 +1568,24 @@
       "committerName": "Maíra Canal",
       "subject": "drm/vc4: hdmi: always cancel the scrambling work synchronously",
       "subsystem": "drm/vc4",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "b438bb88f65a8b464ad08057873db9605cdae945",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/b438bb88f65a8b464ad08057873db9605cdae945",
+      "authoredAt": "2026-10-26T08:46:05.000-07:00",
+      "committedAt": "2026-11-19T07:08:56.000+01:00",
+      "authorName": "Weiming Shi",
+      "committerName": "Helge Deller",
+      "subject": "fbdev: vfb: Validate framebuffer geometry and memory size",
+      "subsystem": "fbdev",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -15990,6 +16044,24 @@
       ]
     },
     {
+      "sha": "ba4564fc66ae796f5070925b803e8f3039423ffb",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/ba4564fc66ae796f5070925b803e8f3039423ffb",
+      "authoredAt": "2026-10-03T20:42:26.000+02:00",
+      "committedAt": "2026-11-20T13:25:18.000+05:30",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Madhavan Srinivasan",
+      "subject": "powerpc32/bpf: return false from bpf_jit_supports_fsession() on ppc32",
+      "subsystem": "powerpc32/bpf",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "e1b3c2630d5b8bc755fe4ba86d20d08c734eb504",
       "htmlUrl": "https://github.com/torvalds/linux/commit/e1b3c2630d5b8bc755fe4ba86d20d08c734eb504",
       "authoredAt": "2026-10-03T18:16:42.000Z",
@@ -17210,78 +17282,6 @@
       "committerName": "Andy Shevchenko",
       "subject": "gpiolib: acpi: Ignore GPIO 11 interrupt on Acer Nitro V 16S AI",
       "subsystem": "gpiolib",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "4662ced8affc9ba69afad78d5dc2cf498d23c1f2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/4662ced8affc9ba69afad78d5dc2cf498d23c1f2",
-      "authoredAt": "2026-10-02T11:15:03.000+01:00",
-      "committedAt": "2026-10-02T13:12:00.000+02:00",
-      "authorName": "Hemanth Selam",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "slimbus: fix typos in comments",
-      "subsystem": "slimbus",
-      "assistedBy": [
-        {
-          "raw": "Cursor:claude-opus-5",
-          "identity": "Cursor:claude-opus-5",
-          "agent": "Cursor",
-          "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "586df7d0a3f7dd465006ffa9d892cd8a31a97917",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/586df7d0a3f7dd465006ffa9d892cd8a31a97917",
-      "authoredAt": "2026-10-02T11:13:47.000+01:00",
-      "committedAt": "2026-10-02T13:10:59.000+02:00",
-      "authorName": "Kees Cook",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "nvmem: core: Add const to pattrs allocation type",
-      "subsystem": "nvmem",
-      "assistedBy": [
-        {
-          "raw": "LLM coccinelle",
-          "identity": "LLM coccinelle",
-          "agent": "LLM coccinelle",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "09fa66ec1b4896ab841da085ca58b6433f28f07f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/09fa66ec1b4896ab841da085ca58b6433f28f07f",
-      "authoredAt": "2026-10-02T11:12:19.000+01:00",
-      "committedAt": "2026-10-09T16:26:45.000+02:00",
-      "authorName": "Yifei Gao",
-      "committerName": "Greg Kroah-Hartman",
-      "subject": "misc: fastrpc: fix double-free in fastrpc_map_attach() error path",
-      "subsystem": "misc",
-      "assistedBy": [
-        {
-          "raw": "Claude:claude-opus-4-8",
-          "identity": "Claude:claude-opus-4-8",
-          "agent": "Claude",
-          "model": "claude-opus-4-8"
-        }
-      ]
-    },
-    {
-      "sha": "cf238c067eaae1cbfb00738e29219b9568d2313e",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/cf238c067eaae1cbfb00738e29219b9568d2313e",
-      "authoredAt": "2026-10-02T12:08:30.000+02:00",
-      "committedAt": "2026-10-05T17:47:45.000-04:00",
-      "authorName": "Thomas Hellström",
-      "committerName": "Rodrigo Vivi",
-      "subject": "drm/xe: Fix stale pinned_link entry when fb-pin performs the final unpin",
-      "subsystem": "drm/xe",
       "assistedBy": [
         {
           "raw": "LLM",
