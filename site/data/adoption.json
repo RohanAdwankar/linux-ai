@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-24T21:14:38.050Z",
+  "generatedAt": "2026-11-25T04:17:05.155Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 958,
-    "totalSubsystems": 262,
-    "totalAuthors": 286,
+    "totalSubsystems": 263,
+    "totalAuthors": 287,
     "totalAgents": 86
   },
   "commits": [
@@ -1812,6 +1812,24 @@
       ]
     },
     {
+      "sha": "e057b8082759e9dfed7a77ee1cadcd37810681c1",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/e057b8082759e9dfed7a77ee1cadcd37810681c1",
+      "authoredAt": "2026-10-25T13:16:21.000Z",
+      "committedAt": "2026-11-23T15:29:12.000-05:00",
+      "authorName": "dardaoe",
+      "committerName": "Theodore Ts'o",
+      "subject": "Documentation: ext4: fix group descriptor and superblock placement in meta_bg description",
+      "subsystem": "documentation",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "51efca72345acdbedc4af76782d464bd15ba50ff",
       "htmlUrl": "https://github.com/torvalds/linux/commit/51efca72345acdbedc4af76782d464bd15ba50ff",
       "authoredAt": "2026-10-25T02:07:30.000-07:00",
@@ -2689,6 +2707,24 @@
           "raw": "Claude:claude-opus-5-5",
           "identity": "Claude:claude-opus-5-5",
           "agent": "Claude",
+          "model": "claude-opus-5-5"
+        }
+      ]
+    },
+    {
+      "sha": "356c926061758e4a578f3d42069eca65f13d1e80",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/356c926061758e4a578f3d42069eca65f13d1e80",
+      "authoredAt": "2026-10-21T16:56:35.000+08:00",
+      "committedAt": "2026-11-23T15:29:11.000-05:00",
+      "authorName": "Jiaming Zhang",
+      "committerName": "Theodore Ts'o",
+      "subject": "ext4: clear in-inode xattr space before adding the first xattr",
+      "subsystem": "ext4",
+      "assistedBy": [
+        {
+          "raw": "Claude Code:claude-opus-5-5",
+          "identity": "Claude Code:claude-opus-5-5",
+          "agent": "Claude Code",
           "model": "claude-opus-5-5"
         }
       ]
@@ -4142,6 +4178,24 @@
       "committerName": "Andrew Morton",
       "subject": "mm: warn on unaligned compound zone device ranges",
       "subsystem": "mm",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "2cfcd9fa8734c1c526de8a17bda00db0a454e276",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/2cfcd9fa8734c1c526de8a17bda00db0a454e276",
+      "authoredAt": "2026-10-16T12:37:26.000+02:00",
+      "committedAt": "2026-11-23T15:29:11.000-05:00",
+      "authorName": "Karl Mehltretter",
+      "committerName": "Theodore Ts'o",
+      "subject": "ext4: return an error when a journal block is not mapped",
+      "subsystem": "ext4",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -17228,60 +17282,6 @@
       "committerName": "Sakari Ailus",
       "subject": "platform/x86: int3472: tps68470: add static clock consumer support",
       "subsystem": "platform/x86",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "79e77763d040c1e1fd9942070357000b89b9cd9f",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/79e77763d040c1e1fd9942070357000b89b9cd9f",
-      "authoredAt": "2026-10-02T09:33:45.000-07:00",
-      "committedAt": "2026-10-02T22:26:46.000+03:00",
-      "authorName": "Thierry Chatard",
-      "committerName": "Sakari Ailus",
-      "subject": "platform/x86: int3472: tps68470: move Windows MFD setup below the device-type switch",
-      "subsystem": "platform/x86",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "74f6b27ad12f2e45cd6e4d0c97a1005fe06f6579",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/74f6b27ad12f2e45cd6e4d0c97a1005fe06f6579",
-      "authoredAt": "2026-10-02T09:33:44.000-07:00",
-      "committedAt": "2026-10-02T22:26:20.000+03:00",
-      "authorName": "Thierry Chatard",
-      "committerName": "Sakari Ailus",
-      "subject": "platform/x86: int3472: tps68470: use unsigned int for GPIO lookup loop counters",
-      "subsystem": "platform/x86",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
-        }
-      ]
-    },
-    {
-      "sha": "495d5f41a6161dffafe61ac458459c62d440344a",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/495d5f41a6161dffafe61ac458459c62d440344a",
-      "authoredAt": "2026-10-02T09:33:43.000-07:00",
-      "committedAt": "2026-10-15T16:38:06.000+01:00",
-      "authorName": "D. Manresa",
-      "committerName": "Lee Jones",
-      "subject": "mfd: intel-lpss: Add Dell Latitude 7275 to the resource conflict quirk",
-      "subsystem": "mfd",
       "assistedBy": [
         {
           "raw": "LLM",
