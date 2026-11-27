@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-27T10:56:13.286Z",
+  "generatedAt": "2026-11-27T19:58:53.622Z",
   "source": {
     "repo": "torvalds/linux",
     "query": "repo:torvalds/linux Assisted-by"
   },
   "stats": {
     "totalCommits": 953,
-    "totalSubsystems": 256,
-    "totalAuthors": 282,
-    "totalAgents": 88
+    "totalSubsystems": 257,
+    "totalAuthors": 281,
+    "totalAgents": 87
   },
   "commits": [
     {
@@ -1478,6 +1478,24 @@
       "committerName": "Jens Axboe",
       "subject": "block: only fail dma-buf bios that need block layer PI",
       "subsystem": "block",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
+      "sha": "f55a3f02ab4162121d275125a96d74e6e96d721c",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/f55a3f02ab4162121d275125a96d74e6e96d721c",
+      "authoredAt": "2026-10-29T07:12:20.000-07:00",
+      "committedAt": "2026-11-20T09:05:15.000+01:00",
+      "authorName": "Cheng Yongkang",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usbip: clear actual_length after a failed receive",
+      "subsystem": "usbip",
       "assistedBy": [
         {
           "raw": "LLM",
@@ -16986,6 +17004,24 @@
       ]
     },
     {
+      "sha": "81fbc49e54cd8a8d10677878cc98a76d44797ea8",
+      "htmlUrl": "https://github.com/torvalds/linux/commit/81fbc49e54cd8a8d10677878cc98a76d44797ea8",
+      "authoredAt": "2026-10-02T23:49:08.000-04:00",
+      "committedAt": "2026-11-20T15:12:05.000+01:00",
+      "authorName": "Myeonghun Pak",
+      "committerName": "Greg Kroah-Hartman",
+      "subject": "usb: gadget: m66592-udc: Free the IRQ before unmapping registers",
+      "subsystem": "usb",
+      "assistedBy": [
+        {
+          "raw": "LLM",
+          "identity": "LLM",
+          "agent": "LLM",
+          "model": ""
+        }
+      ]
+    },
+    {
       "sha": "2cf184caab8b406fdd9db126ee40d62418237456",
       "htmlUrl": "https://github.com/torvalds/linux/commit/2cf184caab8b406fdd9db126ee40d62418237456",
       "authoredAt": "2026-10-02T23:04:39.000-04:00",
@@ -17162,42 +17198,6 @@
           "identity": "Cursor:claude-opus-5",
           "agent": "Cursor",
           "model": "claude-opus-5"
-        }
-      ]
-    },
-    {
-      "sha": "7f662eb1807ed732ac7d5e119753c8185f241bb8",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/7f662eb1807ed732ac7d5e119753c8185f241bb8",
-      "authoredAt": "2026-10-02T17:11:28.000-04:00",
-      "committedAt": "2026-10-05T09:26:02.000-05:00",
-      "authorName": "Qing Ming",
-      "committerName": "David Teigland",
-      "subject": "dlm: validate node weights before building member array",
-      "subsystem": "dlm",
-      "assistedBy": [
-        {
-          "raw": "Codex:gpt-5",
-          "identity": "Codex:gpt-5",
-          "agent": "Codex",
-          "model": "gpt-5"
-        }
-      ]
-    },
-    {
-      "sha": "8bef0196a4e21d4415091de2b6c498320e03ada2",
-      "htmlUrl": "https://github.com/torvalds/linux/commit/8bef0196a4e21d4415091de2b6c498320e03ada2",
-      "authoredAt": "2026-10-02T16:16:07.000-04:00",
-      "committedAt": "2026-10-12T20:19:27.000+02:00",
-      "authorName": "Frank Li",
-      "committerName": "Miquel Raynal",
-      "subject": "mtd: nand: use dmaengine_submit() instead of ->tx_submit()",
-      "subsystem": "mtd",
-      "assistedBy": [
-        {
-          "raw": "LLM",
-          "identity": "LLM",
-          "agent": "LLM",
-          "model": ""
         }
       ]
     }
